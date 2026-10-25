@@ -1,8 +1,11 @@
 import json, os, sys, datetime as dt
+import urllib.request
+import xml.etree.ElementTree as ET
 from espn_api.basketball import League
 
 CATS = ["PTS", "REB", "AST", "STL", "BLK", "3PM", "FG%", "FT%", "TO"]
 LOWER_IS_BETTER = {"TO"}
+YEAR = int(os.environ.get("ESPN_YEAR", "2027"))
 
 def env(name, default=None):
     v = os.environ.get(name, default)
@@ -12,7 +15,7 @@ def env(name, default=None):
 
 league = League(
     league_id=int(env("ESPN_LEAGUE_ID")),
-    year=int(env("ESPN_YEAR", "2027")),
+    year=YEAR,
     espn_s2=env("ESPN_S2"),
     swid="{" + env("ESPN_SWID") + "}",
 )
@@ -79,10 +82,63 @@ try:
 except Exception as e:
     print(f"activity: {e}", file=sys.stderr)
 
+# ---- NEW: schedule (who plays whom each week) ----
+schedule = {}
+try:
+    for t in league.teams:
+        schedule[name(t)] = [getattr(o, "team_name", str(o)) for o in t.schedule]
+except Exception as e:
+    print(f"schedule: {e}", file=sys.stderr)
+
+# ---- NEW: free agents with whatever averages ESPN gives ----
+free_agents = []
+try:
+    for p in league.free_agents(size=40):
+        stats = getattr(p, "stats", None) or {}
+        avgs = {}
+        for key in (f"{YEAR}_last_15", f"{YEAR}_last_30", f"{YEAR}_last_7", f"{YEAR}_total", f"{YEAR - 1}_total"):
+            blk = stats.get(key)
+            if isinstance(blk, dict):
+                a = blk.get("avg") or {}
+                if a:
+                    avgs = {c: a.get(c) for c in CATS if a.get(c) is not None}
+                    avgs["_src"] = key
+                    break
+        free_agents.append({
+            "name": p.name, "pos": getattr(p, "position", ""), "team": getattr(p, "proTeam", ""),
+            "injury": getattr(p, "injuryStatus", "ACTIVE"),
+            "pct": getattr(p, "percent_owned", None), "avg": avgs})
+except Exception as e:
+    print(f"free agents: {e}", file=sys.stderr)
+
+# ---- NEW: public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
+FEEDS = [
+    ("RotoWire", "https://www.rotowire.com/rss/news.php?sport=NBA"),
+    ("ESPN", "https://www.espn.com/espn/rss/nba/news"),
+]
+news = []
+for source, url in FEEDS:
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 war-room"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            root = ET.fromstring(r.read())
+        for it in root.iter("item"):
+            news.append({
+                "source": source,
+                "title": (it.findtext("title") or "").strip(),
+                "link": (it.findtext("link") or "").strip(),
+                "published": (it.findtext("pubDate") or "").strip(),
+                "summary": (it.findtext("description") or "").strip()[:400]})
+            if sum(1 for n in news if n["source"] == source) >= 40:
+                break
+    except Exception as e:
+        print(f"news {source}: {e}", file=sys.stderr)
+
 out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "week": current, "cats": CATS,
        "standings": standings, "power": power_rank, "category_table": cat_table,
-       "matchups": weekly, "rosters": rosters, "activity": activity}
+       "matchups": weekly, "rosters": rosters, "activity": activity,
+       "schedule": schedule, "free_agents": free_agents, "news": news}
 os.makedirs("docs", exist_ok=True)
 with open("docs/data.json", "w") as f:
     json.dump(out, f, indent=1)
-print("wrote docs/data.json")
+print("wrote docs/data.json", len(free_agents), "free agents,", len(news), "news items")
