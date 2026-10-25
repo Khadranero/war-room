@@ -22,6 +22,19 @@ league = League(
 
 name = lambda t: t.team_name
 
+def player_avgs(p):
+    """Per-game averages from ESPN's stats dict; empty dict if none."""
+    stats = getattr(p, "stats", None) or {}
+    for key in (f"{YEAR}_last_15", f"{YEAR}_last_30", f"{YEAR}_last_7", f"{YEAR}_total", f"{YEAR - 1}_total"):
+        blk = stats.get(key)
+        if isinstance(blk, dict):
+            a = blk.get("avg") or {}
+            if a:
+                out = {c: a.get(c) for c in CATS if a.get(c) is not None}
+                out["_src"] = key
+                return out
+    return {}
+
 standings = [{
     "team": name(t), "wins": t.wins, "losses": t.losses, "ties": getattr(t, "ties", 0),
     "rank": getattr(t, "standing", None),
@@ -70,6 +83,7 @@ for t in league.teams:
     rosters[name(t)] = [{
         "name": p.name, "pos": p.position, "slot": getattr(p, "lineupSlot", ""),
         "injury": getattr(p, "injuryStatus", "ACTIVE"),
+        "avg": player_avgs(p),
     } for p in t.roster]
 
 activity = []
@@ -82,7 +96,7 @@ try:
 except Exception as e:
     print(f"activity: {e}", file=sys.stderr)
 
-# ---- NEW: schedule (who plays whom each week) ----
+# ---- schedule (who plays whom each week) ----
 schedule = {}
 try:
     for t in league.teams:
@@ -90,28 +104,18 @@ try:
 except Exception as e:
     print(f"schedule: {e}", file=sys.stderr)
 
-# ---- NEW: free agents with whatever averages ESPN gives ----
+# ---- free agents with averages ----
 free_agents = []
 try:
-    for p in league.free_agents(size=40):
-        stats = getattr(p, "stats", None) or {}
-        avgs = {}
-        for key in (f"{YEAR}_last_15", f"{YEAR}_last_30", f"{YEAR}_last_7", f"{YEAR}_total", f"{YEAR - 1}_total"):
-            blk = stats.get(key)
-            if isinstance(blk, dict):
-                a = blk.get("avg") or {}
-                if a:
-                    avgs = {c: a.get(c) for c in CATS if a.get(c) is not None}
-                    avgs["_src"] = key
-                    break
+    for p in league.free_agents(size=200):
         free_agents.append({
             "name": p.name, "pos": getattr(p, "position", ""), "team": getattr(p, "proTeam", ""),
             "injury": getattr(p, "injuryStatus", "ACTIVE"),
-            "pct": getattr(p, "percent_owned", None), "avg": avgs})
+            "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p)})
 except Exception as e:
     print(f"free agents: {e}", file=sys.stderr)
 
-# ---- NEW: public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
+# ---- public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
 FEEDS = [
     ("RotoWire", "https://www.rotowire.com/rss/news.php?sport=NBA"),
     ("ESPN", "https://www.espn.com/espn/rss/nba/news"),
