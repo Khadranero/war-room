@@ -86,7 +86,7 @@ function renderMatch(me){
     <p class="note">${profile(me,opp)}</p>`;
   }
   const nx=D.schedule&&D.schedule[me]&&D.schedule[me][D.week];
-  if(nx)h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
+  if(nx&&D.category_table.PTS.some(x=>x.team===nx))h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
   $('match').innerHTML=h;
 }
 
