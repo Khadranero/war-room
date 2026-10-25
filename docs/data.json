@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T22:16:17.868697Z",
+ "updated": "2026-10-25T22:33:43.567587Z",
  "week": 1,
  "cats": [
   "PTS",
@@ -1871,6 +1871,964 @@
    "team": "Rubio Bzeit ",
    "action": "FA ADDED",
    "player": "Naji Marshall"
+  }
+ ],
+ "schedule": {
+  "Rubio Bzeit ": [
+   "Matchup(Team(Crackheads) 5.0 - 4.0 Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(Rubio Bzeit ))",
+   "Matchup(Team(Team Batrouni), Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(Momo in Six))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Rubio Bzeit ))",
+   "Matchup(Team(Akumpo), Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(Team Batrouni))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(Rubio Bzeit ))",
+   "Matchup(Team(Rubio Bzeit ), Team(AllThisToBeatLeGoat))"
+  ],
+  "Momo in Six": [
+   "Matchup(Team(Momo in Six) 0.0 - 9.0 Team(Team Batrouni))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Momo in Six))",
+   "Matchup(Team(Momo in Six), Team(Akumpo))",
+   "Matchup(Team(Crackheads), Team(Momo in Six))",
+   "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(Momo in Six))",
+   "Matchup(Team(Momo in Six), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(AARON VENGERS), Team(Momo in Six))",
+   "Matchup(Team(Team Batrouni), Team(Momo in Six))",
+   "Matchup(Team(Momo in Six), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(Momo in Six))",
+   "Matchup(Team(Momo in Six), Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Momo in Six))",
+   "Matchup(Team(Pasta Warriors), Team(Momo in Six))",
+   "Matchup(Team(Momo in Six), Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Momo in Six))"
+  ],
+  "Team Batrouni": [
+   "Matchup(Team(Momo in Six) 0.0 - 9.0 Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(Pasta Warriors))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(Rubio Bzeit ))",
+   "Matchup(Team(Akumpo), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Crackheads), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(AARON VENGERS))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(Momo in Six))",
+   "Matchup(Team(Pasta Warriors), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Rubio Bzeit ), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(Akumpo))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Team Batrouni))",
+   "Matchup(Team(Team Batrouni), Team(Crackheads))",
+   "Matchup(Team(AARON VENGERS), Team(Team Batrouni))"
+  ],
+  "AllThisToBeatLeGoat": [
+   "Matchup(Team(AARON VENGERS) 5.0 - 4.0 Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Momo in Six))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Team Batrouni))",
+   "Matchup(Team(Akumpo), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Pasta Warriors))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Team Batrouni), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Akumpo))",
+   "Matchup(Team(Crackheads), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Rubio Bzeit ), Team(AllThisToBeatLeGoat))"
+  ],
+  "Akumpo": [
+   "Matchup(Team(Murray Had a Little Lamb) 3.0 - 6.0 Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(Team Batrouni))",
+   "Matchup(Team(Crackheads), Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(Rubio Bzeit ))",
+   "Matchup(Team(Akumpo), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(AARON VENGERS), Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(Momo in Six))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Akumpo))",
+   "Matchup(Team(Team Batrouni), Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Akumpo))",
+   "Matchup(Team(Akumpo), Team(Pasta Warriors))"
+  ],
+  "Murray Had a Little Lamb": [
+   "Matchup(Team(Murray Had a Little Lamb) 3.0 - 6.0 Team(Akumpo))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Team Batrouni), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Crackheads), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Team Batrouni))",
+   "Matchup(Team(AARON VENGERS), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Momo in Six))"
+  ],
+  "Real Men Eat Ass(ouad)": [
+   "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(AARON VENGERS), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Team Batrouni))",
+   "Matchup(Team(Pasta Warriors), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(AARON VENGERS))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Momo in Six))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Akumpo))",
+   "Matchup(Team(Crackheads), Team(Real Men Eat Ass(ouad)))"
+  ],
+  "AARON VENGERS": [
+   "Matchup(Team(AARON VENGERS) 5.0 - 4.0 Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(AARON VENGERS))",
+   "Matchup(Team(AARON VENGERS), Team(Crackheads))",
+   "Matchup(Team(AARON VENGERS), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
+   "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(AARON VENGERS))",
+   "Matchup(Team(Team Batrouni), Team(AARON VENGERS))",
+   "Matchup(Team(AARON VENGERS), Team(Momo in Six))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(AARON VENGERS))",
+   "Matchup(Team(AARON VENGERS), Team(Akumpo))",
+   "Matchup(Team(Crackheads), Team(AARON VENGERS))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(AARON VENGERS))",
+   "Matchup(Team(AARON VENGERS), Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(AARON VENGERS))",
+   "Matchup(Team(AARON VENGERS), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(AARON VENGERS), Team(Team Batrouni))"
+  ],
+  "Pasta Warriors": [
+   "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
+   "Matchup(Team(Team Batrouni), Team(Pasta Warriors))",
+   "Matchup(Team(Pasta Warriors), Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Pasta Warriors))",
+   "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Pasta Warriors))",
+   "Matchup(Team(Pasta Warriors), Team(Akumpo))",
+   "Matchup(Team(Crackheads), Team(Pasta Warriors))",
+   "Matchup(Team(Pasta Warriors), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(Team Batrouni))",
+   "Matchup(Team(Rubio Bzeit ), Team(Pasta Warriors))",
+   "Matchup(Team(Pasta Warriors), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(AARON VENGERS), Team(Pasta Warriors))",
+   "Matchup(Team(Pasta Warriors), Team(Momo in Six))",
+   "Matchup(Team(Pasta Warriors), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(Pasta Warriors))"
+  ],
+  "Crackheads": [
+   "Matchup(Team(Crackheads) 5.0 - 4.0 Team(Rubio Bzeit ))",
+   "Matchup(Team(Murray Had a Little Lamb), Team(Crackheads))",
+   "Matchup(Team(AARON VENGERS), Team(Crackheads))",
+   "Matchup(Team(Crackheads), Team(Momo in Six))",
+   "Matchup(Team(AllThisToBeatLeGoat), Team(Crackheads))",
+   "Matchup(Team(Crackheads), Team(Akumpo))",
+   "Matchup(Team(Crackheads), Team(Team Batrouni))",
+   "Matchup(Team(Real Men Eat Ass(ouad)), Team(Crackheads))",
+   "Matchup(Team(Crackheads), Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(Crackheads))",
+   "Matchup(Team(Crackheads), Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Crackheads), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(Crackheads))",
+   "Matchup(Team(Crackheads), Team(AllThisToBeatLeGoat))",
+   "Matchup(Team(Akumpo), Team(Crackheads))",
+   "Matchup(Team(Team Batrouni), Team(Crackheads))",
+   "Matchup(Team(Crackheads), Team(Real Men Eat Ass(ouad)))"
+  ]
+ },
+ "free_agents": [
+  {
+   "name": "Kel'el Ware",
+   "pos": "C",
+   "team": "MIL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.333333333333334,
+    "REB": 6.666666666666667,
+    "AST": 0.6666666666666666,
+    "STL": 0.6666666666666666,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.58333333,
+    "FT%": 0.6,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Andrew Wiggins",
+   "pos": "SF",
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.666666666666667,
+    "REB": 3.6666666666666665,
+    "AST": 1.3333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 0.6666666666666666,
+    "3PM": 0.6666666666666666,
+    "FG%": 0.35714286,
+    "FT%": 1.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Egor Demin",
+   "pos": "PG",
+   "team": "BKN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.666666666666666,
+    "REB": 2.6666666666666665,
+    "AST": 2.6666666666666665,
+    "STL": 0.6666666666666666,
+    "BLK": 0.0,
+    "3PM": 1.6666666666666667,
+    "FG%": 0.29166667,
+    "FT%": 1.0,
+    "TO": 1.6666666666666667,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Nikola Vucevic",
+   "pos": "C",
+   "team": "ORL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.0,
+    "REB": 1.5,
+    "AST": 0.5,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Keegan Murray",
+   "pos": "PF",
+   "team": "SAC",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 7.0,
+    "REB": 3.0,
+    "AST": 0.5,
+    "STL": 1.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.29411765,
+    "FT%": 1.0,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Kevin Porter Jr.",
+   "pos": "SG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {}
+  },
+  {
+   "name": "Peyton Watson",
+   "pos": "SF",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.5,
+    "REB": 2.0,
+    "AST": 3.0,
+    "STL": 1.5,
+    "BLK": 1.0,
+    "3PM": 1.0,
+    "FG%": 0.33333333,
+    "FT%": 0.83333333,
+    "TO": 3.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Ace Bailey",
+   "pos": "SF",
+   "team": "UTA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.0,
+    "REB": 6.666666666666667,
+    "AST": 2.3333333333333335,
+    "STL": 0.0,
+    "BLK": 1.3333333333333333,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.48275862,
+    "FT%": 0.5,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Jared McCain",
+   "pos": "SG",
+   "team": "OKC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.0,
+    "REB": 1.0,
+    "AST": 1.5,
+    "STL": 0.5,
+    "BLK": 0.0,
+    "3PM": 3.0,
+    "FG%": 0.53333333,
+    "FT%": 1.0,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Collin Gillespie",
+   "pos": "PG",
+   "team": "PHO",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.5,
+    "REB": 2.5,
+    "AST": 5.5,
+    "STL": 3.0,
+    "BLK": 0.0,
+    "3PM": 1.0,
+    "FG%": 0.26666667,
+    "FT%": 0.25,
+    "TO": 3.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Isaiah Hartenstein",
+   "pos": "C",
+   "team": "OKC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.0,
+    "REB": 4.5,
+    "AST": 2.5,
+    "STL": 0.5,
+    "BLK": 1.0,
+    "3PM": 0.0,
+    "FG%": 0.35714286,
+    "FT%": 0.0,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Jimmy Butler III",
+   "pos": "SF",
+   "team": "GSW",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {}
+  },
+  {
+   "name": "Julian Champagnie",
+   "pos": "SF",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.666666666666666,
+    "REB": 2.6666666666666665,
+    "AST": 1.3333333333333333,
+    "STL": 2.0,
+    "BLK": 2.0,
+    "3PM": 2.3333333333333335,
+    "FG%": 0.42857143,
+    "FT%": 1.0,
+    "TO": 0.3333333333333333,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Devin Vassell",
+   "pos": "SG",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.333333333333334,
+    "REB": 3.6666666666666665,
+    "AST": 3.0,
+    "STL": 1.6666666666666667,
+    "BLK": 0.0,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.38461538,
+    "FT%": 1.0,
+    "TO": 1.6666666666666667,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Collin Sexton",
+   "pos": "SG",
+   "team": "LAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.5,
+    "REB": 0.5,
+    "AST": 1.5,
+    "STL": 1.5,
+    "BLK": 0.0,
+    "3PM": 0.5,
+    "FG%": 0.36363636,
+    "FT%": 1.0,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Toumani Camara",
+   "pos": "PF",
+   "team": "POR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 18.5,
+    "REB": 2.5,
+    "AST": 2.0,
+    "STL": 1.0,
+    "BLK": 0.0,
+    "3PM": 4.5,
+    "FG%": 0.61904762,
+    "FT%": 1.0,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Jrue Holiday",
+   "pos": "PG",
+   "team": "POR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.0,
+    "REB": 2.5,
+    "AST": 4.5,
+    "STL": 1.5,
+    "BLK": 0.5,
+    "3PM": 1.5,
+    "FG%": 0.375,
+    "FT%": 0.83333333,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Draymond Green",
+   "pos": "PF",
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.5,
+    "REB": 4.5,
+    "AST": 7.0,
+    "STL": 0.5,
+    "BLK": 1.0,
+    "3PM": 0.5,
+    "FG%": 0.375,
+    "FT%": 0.0,
+    "TO": 4.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Daniel Gafford",
+   "pos": "C",
+   "team": "DAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.0,
+    "REB": 5.0,
+    "AST": 2.6666666666666665,
+    "STL": 1.3333333333333333,
+    "BLK": 2.0,
+    "3PM": 0.0,
+    "FG%": 0.57142857,
+    "FT%": 0.5,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Yves Missi",
+   "pos": "C",
+   "team": "NOP",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 9.5,
+    "REB": 7.5,
+    "AST": 2.5,
+    "STL": 1.0,
+    "BLK": 2.0,
+    "3PM": 0.0,
+    "FG%": 0.88888889,
+    "FT%": 0.75,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Neemias Queta",
+   "pos": "C",
+   "team": "BOS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.0,
+    "REB": 5.0,
+    "AST": 1.5,
+    "STL": 0.5,
+    "BLK": 2.5,
+    "3PM": 0.5,
+    "FG%": 0.45454545,
+    "FT%": 0.63636364,
+    "TO": 1.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Anthony Black",
+   "pos": "PG",
+   "team": "ORL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {}
+  },
+  {
+   "name": "Naji Marshall",
+   "pos": "SF",
+   "team": "DAL",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 13.666666666666666,
+    "REB": 3.3333333333333335,
+    "AST": 5.666666666666667,
+    "STL": 1.6666666666666667,
+    "BLK": 0.0,
+    "3PM": 1.0,
+    "FG%": 0.5,
+    "FT%": 0.4,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Keaton Wagler",
+   "pos": "PG",
+   "team": "LAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 14.0,
+    "REB": 4.0,
+    "AST": 4.0,
+    "STL": 1.5,
+    "BLK": 0.0,
+    "3PM": 2.5,
+    "FG%": 0.375,
+    "FT%": 0.84615385,
+    "TO": 2.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Day'Ron Sharpe",
+   "pos": "C",
+   "team": "BKN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.333333333333333,
+    "REB": 6.0,
+    "AST": 1.3333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 1.0,
+    "3PM": 0.6666666666666666,
+    "FG%": 0.52941176,
+    "FT%": 0.5,
+    "TO": 2.3333333333333335,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Alex Caruso",
+   "pos": "SG",
+   "team": "OKC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.0,
+    "REB": 5.0,
+    "AST": 3.0,
+    "STL": 1.0,
+    "BLK": 0.5,
+    "3PM": 1.5,
+    "FG%": 0.54545455,
+    "FT%": 0.5,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Saddiq Bey",
+   "pos": "SF",
+   "team": "NOP",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 15.666666666666666,
+    "REB": 4.0,
+    "AST": 1.3333333333333333,
+    "STL": 0.3333333333333333,
+    "BLK": 0.3333333333333333,
+    "3PM": 2.3333333333333335,
+    "FG%": 0.5,
+    "FT%": 0.83333333,
+    "TO": 1.6666666666666667,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Scotty Pippen Jr.",
+   "pos": "PG",
+   "team": "MEM",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.5,
+    "REB": 4.0,
+    "AST": 4.0,
+    "STL": 1.5,
+    "BLK": 0.5,
+    "3PM": 0.0,
+    "FG%": 0.46153846,
+    "FT%": 0.83333333,
+    "TO": 3.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Oso Ighodaro",
+   "pos": "PF",
+   "team": "PHO",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 8.0,
+    "REB": 3.0,
+    "AST": 3.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.57142857,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Andre Drummond",
+   "pos": "C",
+   "team": "NYK",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.0,
+    "REB": 8.0,
+    "AST": 2.0,
+    "STL": 0.5,
+    "BLK": 1.0,
+    "3PM": 0.0,
+    "FG%": 0.4,
+    "FT%": 0.5,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Christian Braun",
+   "pos": "SG",
+   "team": "DEN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.0,
+    "REB": 7.0,
+    "AST": 1.5,
+    "STL": 1.5,
+    "BLK": 0.0,
+    "3PM": 0.5,
+    "FG%": 0.47619048,
+    "FT%": 0.5,
+    "TO": 1.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Malik Monk",
+   "pos": "SG",
+   "team": "SAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.0,
+    "REB": 1.0,
+    "AST": 2.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Anfernee Simons",
+   "pos": "SG",
+   "team": "PHL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.333333333333333,
+    "REB": 2.0,
+    "AST": 0.6666666666666666,
+    "STL": 0.3333333333333333,
+    "BLK": 0.0,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.28571429,
+    "FT%": 0.6,
+    "TO": 0.6666666666666666,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Jordan Poole",
+   "pos": "SG",
+   "team": "NOP",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.333333333333333,
+    "REB": 2.3333333333333335,
+    "AST": 4.0,
+    "STL": 1.3333333333333333,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.16666667,
+    "FT%": 0.92857143,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Jerami Grant",
+   "pos": "PF",
+   "team": "MEM",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.5,
+    "REB": 1.0,
+    "AST": 3.0,
+    "STL": 1.0,
+    "BLK": 1.0,
+    "3PM": 1.5,
+    "FG%": 0.33333333,
+    "FT%": 0.85714286,
+    "TO": 2.5,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Bennedict Mathurin",
+   "pos": "SF",
+   "team": "NOP",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.0,
+    "REB": 3.0,
+    "AST": 2.0,
+    "STL": 0.3333333333333333,
+    "BLK": 0.0,
+    "3PM": 0.3333333333333333,
+    "FG%": 0.42857143,
+    "FT%": 0.83333333,
+    "TO": 0.6666666666666666,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Bobby Portis",
+   "pos": "PF",
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.333333333333334,
+    "REB": 6.666666666666667,
+    "AST": 1.0,
+    "STL": 1.3333333333333333,
+    "BLK": 0.3333333333333333,
+    "3PM": 2.0,
+    "FG%": 0.44,
+    "FT%": 1.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Deandre Ayton",
+   "pos": "C",
+   "team": "WAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.0,
+    "REB": 5.0,
+    "AST": 0.3333333333333333,
+    "STL": 0.3333333333333333,
+    "BLK": 0.6666666666666666,
+    "3PM": 0.0,
+    "FG%": 0.76923077,
+    "FT%": 0.5,
+    "TO": 0.3333333333333333,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Keldon Johnson",
+   "pos": "SF",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.333333333333334,
+    "REB": 5.333333333333333,
+    "AST": 1.6666666666666667,
+    "STL": 1.0,
+    "BLK": 0.0,
+    "3PM": 0.3333333333333333,
+    "FG%": 0.55,
+    "FT%": 0.66666667,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   }
+  },
+  {
+   "name": "Cameron Johnson",
+   "pos": "SF",
+   "team": "DEN",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 5.0,
+    "REB": 2.0,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 1.0,
+    "FG%": 0.66666667,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   }
+  }
+ ],
+ "news": [
+  {
+   "source": "RotoWire",
+   "title": "Oso Ighodaro: Doubtful for Monday",
+   "link": "https://www.rotowire.com//basketball/player/oso-ighodaro-6293",
+   "published": "Sun, 25 Oct 2026 3:25:00 PM PDT",
+   "summary": "Ighodaro (oblique) is doubtful for Monday's matchup with the Thunder, Duane Rankin of The Arizona Republic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Ausar Thompson: Ruled out vs. Philadelphia",
+   "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
+   "published": "Sun, 25 Oct 2026 3:08:00 PM PDT",
+   "summary": "Thompson (ankle) is out for Sunday's game against the 76ers, Hunter Patterson of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Kawhi Leonard: Not playing Sunday",
+   "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
+   "published": "Sun, 25 Oct 2026 3:03:00 PM PDT",
+   "summary": "Leonard is out for Sunday's game against the Timberwolves due to left knee swelling, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Anthony Black: Will make season debut Sunday",
+   "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
+   "published": "Sun, 25 Oct 2026 2:32:00 PM PDT",
+   "summary": "Black (ankle) is available for Sunday's game at New York, Jason Beede of the Orlando Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Kon Knueppel: Ruled out for Monday",
+   "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
+   "published": "Sun, 25 Oct 2026 2:20:00 PM PDT",
+   "summary": "Knueppel (hamstring) has been ruled out for Monday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ]
 }
