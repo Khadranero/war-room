@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Khadra War Room</title>
+<style>
+:root{--bg:#0f1218;--card:#181d27;--tx:#e8ecf3;--mut:#8b95a8;--ac:#ff9f1c;--good:#3ddc97;--bad:#ff5d73;--ln:#262d3b}
+@media(prefers-color-scheme:light){:root{--bg:#f4f6fa;--card:#fff;--tx:#161b26;--mut:#5d6779;--ln:#e1e5ee}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,sans-serif;padding:16px;max-width:1100px;margin:auto}
+h1{margin:0 0 2px;font-size:22px}.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:12px;padding:14px;margin-bottom:14px;overflow-x:auto}
+h2{margin:0 0 10px;font-size:15px;color:var(--ac);text-transform:uppercase;letter-spacing:.06em}
+table{border-collapse:collapse;width:100%}th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--ln);white-space:nowrap}
+th{color:var(--mut);font-weight:600;font-size:12px}td.n,th.n{text-align:right}
+.me{color:var(--ac);font-weight:700}.inj{color:var(--bad)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+select{background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:8px;padding:6px}
+.r10{background:#3ddc9733}.r9,.r8{background:#3ddc9718}.r1{background:#ff5d7333}.r2,.r3{background:#ff5d7318}
+</style></head><body>
+<h1>War Room</h1><div class="sub" id="sub">Loading…</div>
+<div class="card"><h2>Power ranking (sum of category ranks, 10 = best per category)</h2><div id="power"></div></div>
+<div class="card"><h2>Category matrix (per-week average, rank 1 = best)</h2><div id="cats"></div></div>
+<div class="grid">
+<div class="card"><h2>Standings</h2><div id="stand"></div></div>
+<div class="card"><h2>Recent activity</h2><div id="act"></div></div></div>
+<div class="card"><h2>Rosters</h2><select id="team"></select><div id="roster" style="margin-top:10px"></div></div>
+<script>
+const ME="Khadra";
+const $=id=>document.getElementById(id);
+const isMe=t=>t.toLowerCase().includes(ME.toLowerCase());
+const cls=t=>isMe(t)?'me':'';
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+ const ago=Math.round((Date.now()-new Date(d.updated))/60000);
+ $('sub').textContent=`Week ${d.week} · updated ${ago} min ago (${new Date(d.updated).toLocaleString()})`;
+ $('power').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>Score</th></tr>'+
+  d.power.map((r,i)=>`<tr><td>${i+1}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.score}</td></tr>`).join('')+'</table>';
+ const teams=d.power.map(p=>p.team);
+ $('cats').innerHTML='<table><tr><th>Team</th>'+d.cats.map(c=>`<th class=n>${c}</th>`).join('')+'</tr>'+
+  teams.map(t=>'<tr><td class="'+cls(t)+'">'+esc(t)+'</td>'+d.cats.map(c=>{
+   const e=d.category_table[c].find(x=>x.team===t);return `<td class="n r${11-e.rank}" title="rank ${e.rank}">${e.value}</td>`}).join('')+'</tr>').join('')+'</table>';
+ $('stand').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>W-L-T</th></tr>'+
+  d.standings.map(r=>`<tr><td>${r.rank??''}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.wins}-${r.losses}-${r.ties}</td></tr>`).join('')+'</table>';
+ $('act').innerHTML='<table>'+d.activity.slice(0,25).map(a=>`<tr><td>${esc(a.team)}</td><td>${esc(a.action)}</td><td>${esc(a.player)}</td></tr>`).join('')+'</table>';
+ const sel=$('team');Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
+ const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;
+ const show=()=>$('roster').innerHTML='<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th></tr>'+
+  d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td></tr>`).join('')+'</table>';
+ sel.onchange=show;show();
+}).catch(()=>$('sub').textContent='No data yet — run the "Update war room" workflow once.');
+setInterval(()=>location.reload(),5*60*1000);
+</script></body></html>
