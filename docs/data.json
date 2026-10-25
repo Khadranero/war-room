@@ -1,0 +1,1876 @@
+{
+ "updated": "2026-10-25T22:16:17.868697Z",
+ "week": 1,
+ "cats": [
+  "PTS",
+  "REB",
+  "AST",
+  "STL",
+  "BLK",
+  "3PM",
+  "FG%",
+  "FT%",
+  "TO"
+ ],
+ "standings": [
+  {
+   "team": "Crackheads",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 1
+  },
+  {
+   "team": "Pasta Warriors",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 2
+  },
+  {
+   "team": "AARON VENGERS",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 3
+  },
+  {
+   "team": "Real Men Eat Ass(ouad)",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 4
+  },
+  {
+   "team": "Murray Had a Little Lamb",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 5
+  },
+  {
+   "team": "Akumpo",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 6
+  },
+  {
+   "team": "AllThisToBeatLeGoat",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 7
+  },
+  {
+   "team": "Team Batrouni",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 8
+  },
+  {
+   "team": "Momo in Six",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 9
+  },
+  {
+   "team": "Rubio Bzeit ",
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "rank": 10
+  }
+ ],
+ "power": [
+  {
+   "team": "Crackheads",
+   "score": 61
+  },
+  {
+   "team": "Rubio Bzeit ",
+   "score": 58
+  },
+  {
+   "team": "AARON VENGERS",
+   "score": 56
+  },
+  {
+   "team": "Team Batrouni",
+   "score": 55
+  },
+  {
+   "team": "Akumpo",
+   "score": 54
+  },
+  {
+   "team": "Real Men Eat Ass(ouad)",
+   "score": 49
+  },
+  {
+   "team": "Murray Had a Little Lamb",
+   "score": 46
+  },
+  {
+   "team": "Pasta Warriors",
+   "score": 41
+  },
+  {
+   "team": "AllThisToBeatLeGoat",
+   "score": 40
+  },
+  {
+   "team": "Momo in Six",
+   "score": 35
+  }
+ ],
+ "category_table": {
+  "PTS": [
+   {
+    "team": "Rubio Bzeit ",
+    "value": 613.0,
+    "rank": 1
+   },
+   {
+    "team": "Crackheads",
+    "value": 588.0,
+    "rank": 2
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 572.0,
+    "rank": 3
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 549.0,
+    "rank": 4
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 538.0,
+    "rank": 5
+   },
+   {
+    "team": "Akumpo",
+    "value": 532.0,
+    "rank": 6
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 489.0,
+    "rank": 7
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 435.0,
+    "rank": 8
+   },
+   {
+    "team": "Momo in Six",
+    "value": 413.0,
+    "rank": 9
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 363.0,
+    "rank": 10
+   }
+  ],
+  "REB": [
+   {
+    "team": "Crackheads",
+    "value": 199.0,
+    "rank": 1
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 189.0,
+    "rank": 2
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 185.0,
+    "rank": 3
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 183.0,
+    "rank": 4
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 183.0,
+    "rank": 5
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 180.0,
+    "rank": 6
+   },
+   {
+    "team": "Akumpo",
+    "value": 174.0,
+    "rank": 7
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 172.0,
+    "rank": 8
+   },
+   {
+    "team": "Momo in Six",
+    "value": 155.0,
+    "rank": 9
+   },
+   {
+    "team": "Rubio Bzeit ",
+    "value": 152.0,
+    "rank": 10
+   }
+  ],
+  "AST": [
+   {
+    "team": "Rubio Bzeit ",
+    "value": 132.0,
+    "rank": 1
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 129.0,
+    "rank": 2
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 124.0,
+    "rank": 3
+   },
+   {
+    "team": "Crackheads",
+    "value": 124.0,
+    "rank": 4
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 116.0,
+    "rank": 5
+   },
+   {
+    "team": "Akumpo",
+    "value": 113.0,
+    "rank": 6
+   },
+   {
+    "team": "Momo in Six",
+    "value": 109.0,
+    "rank": 7
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 108.0,
+    "rank": 8
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 105.0,
+    "rank": 9
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 89.0,
+    "rank": 10
+   }
+  ],
+  "STL": [
+   {
+    "team": "Crackheads",
+    "value": 44.0,
+    "rank": 1
+   },
+   {
+    "team": "Rubio Bzeit ",
+    "value": 42.0,
+    "rank": 2
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 42.0,
+    "rank": 3
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 39.0,
+    "rank": 4
+   },
+   {
+    "team": "Momo in Six",
+    "value": 34.0,
+    "rank": 5
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 34.0,
+    "rank": 6
+   },
+   {
+    "team": "Akumpo",
+    "value": 32.0,
+    "rank": 7
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 32.0,
+    "rank": 8
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 24.0,
+    "rank": 9
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 22.0,
+    "rank": 10
+   }
+  ],
+  "BLK": [
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 35.0,
+    "rank": 1
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 31.0,
+    "rank": 2
+   },
+   {
+    "team": "Akumpo",
+    "value": 27.0,
+    "rank": 3
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 26.0,
+    "rank": 4
+   },
+   {
+    "team": "Crackheads",
+    "value": 22.0,
+    "rank": 5
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 16.0,
+    "rank": 6
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 16.0,
+    "rank": 7
+   },
+   {
+    "team": "Momo in Six",
+    "value": 11.0,
+    "rank": 8
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 10.0,
+    "rank": 9
+   },
+   {
+    "team": "Rubio Bzeit ",
+    "value": 9.0,
+    "rank": 10
+   }
+  ],
+  "3PM": [
+   {
+    "team": "Rubio Bzeit ",
+    "value": 63.0,
+    "rank": 1
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 63.0,
+    "rank": 2
+   },
+   {
+    "team": "Akumpo",
+    "value": 60.0,
+    "rank": 3
+   },
+   {
+    "team": "Crackheads",
+    "value": 53.0,
+    "rank": 4
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 48.0,
+    "rank": 5
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 48.0,
+    "rank": 6
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 45.0,
+    "rank": 7
+   },
+   {
+    "team": "Momo in Six",
+    "value": 36.0,
+    "rank": 8
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 33.0,
+    "rank": 9
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 29.0,
+    "rank": 10
+   }
+  ],
+  "FG%": [
+   {
+    "team": "Pasta Warriors",
+    "value": 0.541,
+    "rank": 1
+   },
+   {
+    "team": "Akumpo",
+    "value": 0.485,
+    "rank": 2
+   },
+   {
+    "team": "Crackheads",
+    "value": 0.48,
+    "rank": 3
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 0.474,
+    "rank": 4
+   },
+   {
+    "team": "Rubio Bzeit ",
+    "value": 0.463,
+    "rank": 5
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 0.454,
+    "rank": 6
+   },
+   {
+    "team": "Momo in Six",
+    "value": 0.445,
+    "rank": 7
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 0.426,
+    "rank": 8
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 0.419,
+    "rank": 9
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 0.407,
+    "rank": 10
+   }
+  ],
+  "FT%": [
+   {
+    "team": "Team Batrouni",
+    "value": 0.857,
+    "rank": 1
+   },
+   {
+    "team": "Rubio Bzeit ",
+    "value": 0.8,
+    "rank": 2
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 0.796,
+    "rank": 3
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 0.795,
+    "rank": 4
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 0.789,
+    "rank": 5
+   },
+   {
+    "team": "Akumpo",
+    "value": 0.775,
+    "rank": 6
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 0.769,
+    "rank": 7
+   },
+   {
+    "team": "Momo in Six",
+    "value": 0.766,
+    "rank": 8
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 0.752,
+    "rank": 9
+   },
+   {
+    "team": "Crackheads",
+    "value": 0.737,
+    "rank": 10
+   }
+  ],
+  "TO": [
+   {
+    "team": "Team Batrouni",
+    "value": 53.0,
+    "rank": 1
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 53.0,
+    "rank": 2
+   },
+   {
+    "team": "Momo in Six",
+    "value": 57.0,
+    "rank": 3
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 62.0,
+    "rank": 4
+   },
+   {
+    "team": "Akumpo",
+    "value": 73.0,
+    "rank": 5
+   },
+   {
+    "team": "Murray Had a Little Lamb",
+    "value": 75.0,
+    "rank": 6
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 77.0,
+    "rank": 7
+   },
+   {
+    "team": "Crackheads",
+    "value": 77.0,
+    "rank": 8
+   },
+   {
+    "team": "Rubio Bzeit ",
+    "value": 81.0,
+    "rank": 9
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 83.0,
+    "rank": 10
+   }
+  ]
+ },
+ "matchups": [
+  {
+   "week": 1,
+   "home": "Momo in Six",
+   "away": "Team Batrouni",
+   "home_score": 0,
+   "away_score": 9,
+   "cats": {
+    "PTS": {
+     "home": 413.0,
+     "away": 435.0
+    },
+    "REB": {
+     "home": 155.0,
+     "away": 180.0
+    },
+    "AST": {
+     "home": 109.0,
+     "away": 116.0
+    },
+    "STL": {
+     "home": 34.0,
+     "away": 39.0
+    },
+    "BLK": {
+     "home": 11.0,
+     "away": 16.0
+    },
+    "3PM": {
+     "home": 36.0,
+     "away": 45.0
+    },
+    "FG%": {
+     "home": 0.44512195,
+     "away": 0.45428571
+    },
+    "FT%": {
+     "home": 0.76576577,
+     "away": 0.85714286
+    },
+    "TO": {
+     "home": 57.0,
+     "away": 53.0
+    }
+   }
+  },
+  {
+   "week": 1,
+   "home": "Real Men Eat Ass(ouad)",
+   "away": "Pasta Warriors",
+   "home_score": 6,
+   "away_score": 3,
+   "cats": {
+    "PTS": {
+     "home": 572.0,
+     "away": 549.0
+    },
+    "REB": {
+     "home": 185.0,
+     "away": 172.0
+    },
+    "AST": {
+     "home": 129.0,
+     "away": 108.0
+    },
+    "STL": {
+     "home": 32.0,
+     "away": 24.0
+    },
+    "BLK": {
+     "home": 10.0,
+     "away": 31.0
+    },
+    "3PM": {
+     "home": 48.0,
+     "away": 29.0
+    },
+    "FG%": {
+     "home": 0.4744186,
+     "away": 0.54111406
+    },
+    "FT%": {
+     "home": 0.78911565,
+     "away": 0.75167785
+    },
+    "TO": {
+     "home": 83.0,
+     "away": 77.0
+    }
+   }
+  },
+  {
+   "week": 1,
+   "home": "AARON VENGERS",
+   "away": "AllThisToBeatLeGoat",
+   "home_score": 5,
+   "away_score": 4,
+   "cats": {
+    "PTS": {
+     "home": 538.0,
+     "away": 363.0
+    },
+    "REB": {
+     "home": 183.0,
+     "away": 189.0
+    },
+    "AST": {
+     "home": 124.0,
+     "away": 89.0
+    },
+    "STL": {
+     "home": 42.0,
+     "away": 34.0
+    },
+    "BLK": {
+     "home": 16.0,
+     "away": 26.0
+    },
+    "3PM": {
+     "home": 63.0,
+     "away": 33.0
+    },
+    "FG%": {
+     "home": 0.40652174,
+     "away": 0.41935484
+    },
+    "FT%": {
+     "home": 0.79527559,
+     "away": 0.76923077
+    },
+    "TO": {
+     "home": 62.0,
+     "away": 53.0
+    }
+   }
+  },
+  {
+   "week": 1,
+   "home": "Crackheads",
+   "away": "Rubio Bzeit ",
+   "home_score": 5,
+   "away_score": 4,
+   "cats": {
+    "PTS": {
+     "home": 588.0,
+     "away": 613.0
+    },
+    "REB": {
+     "home": 199.0,
+     "away": 152.0
+    },
+    "AST": {
+     "home": 124.0,
+     "away": 132.0
+    },
+    "STL": {
+     "home": 44.0,
+     "away": 42.0
+    },
+    "BLK": {
+     "home": 22.0,
+     "away": 9.0
+    },
+    "3PM": {
+     "home": 53.0,
+     "away": 63.0
+    },
+    "FG%": {
+     "home": 0.47965739,
+     "away": 0.4631829
+    },
+    "FT%": {
+     "home": 0.73728814,
+     "away": 0.8
+    },
+    "TO": {
+     "home": 77.0,
+     "away": 81.0
+    }
+   }
+  },
+  {
+   "week": 1,
+   "home": "Murray Had a Little Lamb",
+   "away": "Akumpo",
+   "home_score": 3,
+   "away_score": 6,
+   "cats": {
+    "PTS": {
+     "home": 489.0,
+     "away": 532.0
+    },
+    "REB": {
+     "home": 183.0,
+     "away": 174.0
+    },
+    "AST": {
+     "home": 105.0,
+     "away": 113.0
+    },
+    "STL": {
+     "home": 22.0,
+     "away": 32.0
+    },
+    "BLK": {
+     "home": 35.0,
+     "away": 27.0
+    },
+    "3PM": {
+     "home": 48.0,
+     "away": 60.0
+    },
+    "FG%": {
+     "home": 0.42597403,
+     "away": 0.48525469
+    },
+    "FT%": {
+     "home": 0.79577465,
+     "away": 0.77464789
+    },
+    "TO": {
+     "home": 75.0,
+     "away": 73.0
+    }
+   }
+  }
+ ],
+ "rosters": {
+  "Rubio Bzeit ": [
+   {
+    "name": "Donovan Mitchell",
+    "pos": "SG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Cooper Flagg",
+    "pos": "SF",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Stephen Curry",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Trae Young",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "LeBron James",
+    "pos": "SF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Darius Garland",
+    "pos": "PG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Julius Randle",
+    "pos": "PF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Paul George",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Darius Acuff Jr.",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Brandin Podziemski",
+    "pos": "SG",
+    "slot": "IR",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Yaxel Lendeborg",
+    "pos": "SF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jalen Smith",
+    "pos": "PF",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Andrew Nembhard",
+    "pos": "PG",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Wendell Carter Jr.",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Kris Dunn",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Momo in Six": [
+   {
+    "name": "Jalen Johnson",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Tyrese Haliburton",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Pascal Siakam",
+    "pos": "PF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Austin Reaves",
+    "pos": "SG",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Rudy Gobert",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Desmond Bane",
+    "pos": "SG",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Michael Porter Jr.",
+    "pos": "SF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Onyeka Okongwu",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Immanuel Quickley",
+    "pos": "PG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Nic Claxton",
+    "pos": "C",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Moussa Diabate",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Duncan Robinson",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jaxson Hayes",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Matisse Thybulle",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Team Batrouni": [
+   {
+    "name": "Jayson Tatum",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "LaMelo Ball",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Domantas Sabonis",
+    "pos": "C",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Kawhi Leonard",
+    "pos": "SF",
+    "slot": "SF",
+    "injury": "OUT"
+   },
+   {
+    "name": "Kon Knueppel",
+    "pos": "SF",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Dejounte Murray",
+    "pos": "SG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Damian Lillard",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "VJ Edgecombe",
+    "pos": "SG",
+    "slot": "SG",
+    "injury": "DAY_TO_DAY"
+   },
+   {
+    "name": "Zach Edey",
+    "pos": "C",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Ausar Thompson",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "OUT"
+   },
+   {
+    "name": "Darryn Peterson",
+    "pos": "SG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Zach LaVine",
+    "pos": "SG",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Mitchell Robinson",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Aaron Wiggins",
+    "pos": "SG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Quentin Grimes",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   }
+  ],
+  "AllThisToBeatLeGoat": [
+   {
+    "name": "Victor Wembanyama",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Josh Giddey",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Dyson Daniels",
+    "pos": "SG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Lauri Markkanen",
+    "pos": "PF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Donovan Clingan",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Trey Murphy III",
+    "pos": "SF",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jalen Green",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Coby White",
+    "pos": "PG",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "AJ Dybantsa",
+    "pos": "SF",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Cedric Coward",
+    "pos": "SF",
+    "slot": "SG",
+    "injury": "DAY_TO_DAY"
+   },
+   {
+    "name": "Derik Queen",
+    "pos": "C",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Khaman Maluach",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jeremiah Fears",
+    "pos": "SG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Cason Wallace",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Ajay Mitchell",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Akumpo": [
+   {
+    "name": "Shai Gilgeous-Alexander",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Karl-Anthony Towns",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "James Harden",
+    "pos": "PG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Paolo Banchero",
+    "pos": "PF",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Jalen Williams",
+    "pos": "PF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "De'Aaron Fox",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jarrett Allen",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "OG Anunoby",
+    "pos": "SF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Josh Hart",
+    "pos": "SF",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "CJ McCollum",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jabari Smith Jr.",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Myles Turner",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Grayson Allen",
+    "pos": "SG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Precious Achiuwa",
+    "pos": "PF",
+    "slot": "F",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Murray Had a Little Lamb": [
+   {
+    "name": "Nikola Jokic",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Kevin Durant",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jamal Murray",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Chet Holmgren",
+    "pos": "C",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Kyrie Irving",
+    "pos": "PG",
+    "slot": "IR",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Brandon Miller",
+    "pos": "SF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jaren Jackson Jr.",
+    "pos": "C",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Ryan Rollins",
+    "pos": "SG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Matas Buzelis",
+    "pos": "SF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jalen Suggs",
+    "pos": "PG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Brandon Ingram",
+    "pos": "SF",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Ayo Dosunmu",
+    "pos": "SG",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jonathan Kuminga",
+    "pos": "PF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Tristan da Silva",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Paul Reed",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Real Men Eat Ass(ouad)": [
+   {
+    "name": "Luka Doncic",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Amen Thompson",
+    "pos": "SF",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Alperen Sengun",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Deni Avdija",
+    "pos": "SF",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jalen Duren",
+    "pos": "C",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Tyler Herro",
+    "pos": "SG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Franz Wagner",
+    "pos": "SF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Norman Powell",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Dylan Harper",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jaden McDaniels",
+    "pos": "SF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jakob Poeltl",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "DeMar DeRozan",
+    "pos": "SF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Davion Mitchell",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Rui Hachimura",
+    "pos": "PF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   }
+  ],
+  "AARON VENGERS": [
+   {
+    "name": "Anthony Edwards",
+    "pos": "SG",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Tyrese Maxey",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Anthony Davis",
+    "pos": "C",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Derrick White",
+    "pos": "SG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Naz Reid",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Mikal Bridges",
+    "pos": "SF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Nickeil Alexander-Walker",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Joel Embiid",
+    "pos": "C",
+    "slot": "C",
+    "injury": "OUT"
+   },
+   {
+    "name": "Cameron Boozer",
+    "pos": "PF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Miles Bridges",
+    "pos": "SF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Fred VanVleet",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Kristaps Porzingis",
+    "pos": "C",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Aaron Gordon",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "P.J. Washington",
+    "pos": "PF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Pasta Warriors": [
+   {
+    "name": "Cade Cunningham",
+    "pos": "PG",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jalen Brunson",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Devin Booker",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Evan Mobley",
+    "pos": "PF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Walker Kessler",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Ivica Zubac",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Zion Williamson",
+    "pos": "PF",
+    "slot": "F",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Ja Morant",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Payton Pritchard",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "RJ Barrett",
+    "pos": "SF",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jaime Jaquez Jr.",
+    "pos": "SF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Kyshawn George",
+    "pos": "SG",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Dillon Brooks",
+    "pos": "SF",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   }
+  ],
+  "Crackheads": [
+   {
+    "name": "Giannis Antetokounmpo",
+    "pos": "PF",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Scottie Barnes",
+    "pos": "SF",
+    "slot": "G",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Bam Adebayo",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jaylen Brown",
+    "pos": "SF",
+    "slot": "SG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Keyonte George",
+    "pos": "PG",
+    "slot": "PG",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Stephon Castle",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Alex Sarr",
+    "pos": "C",
+    "slot": "BE",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Ty Jerome",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Caleb Wilson",
+    "pos": "SF",
+    "slot": "SF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "John Collins",
+    "pos": "PF",
+    "slot": "C",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Tobias Harris",
+    "pos": "PF",
+    "slot": "IR",
+    "injury": "OUT"
+   },
+   {
+    "name": "Collin Murray-Boyles",
+    "pos": "PF",
+    "slot": "PF",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Brook Lopez",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE"
+   },
+   {
+    "name": "Jaylen Wells",
+    "pos": "SF",
+    "slot": "F",
+    "injury": "ACTIVE"
+   }
+  ]
+ },
+ "activity": [
+  {
+   "date": "2026-10-25T21:00:42.880000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Matisse Thybulle"
+  },
+  {
+   "date": "2026-10-25T21:00:42.880000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Reed Sheppard"
+  },
+  {
+   "date": "2026-10-25T20:55:15.869000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Jared McCain"
+  },
+  {
+   "date": "2026-10-25T20:55:15.869000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Matisse Thybulle"
+  },
+  {
+   "date": "2026-10-25T16:54:52.374000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Rui Hachimura"
+  },
+  {
+   "date": "2026-10-25T16:54:52.374000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Bilal Coulibaly"
+  },
+  {
+   "date": "2026-10-25T10:41:06.582000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Ajay Mitchell"
+  },
+  {
+   "date": "2026-10-25T10:41:06.582000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Peyton Watson"
+  },
+  {
+   "date": "2026-10-25T09:15:38.282000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Saddiq Bey"
+  },
+  {
+   "date": "2026-10-25T09:15:38.282000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Precious Achiuwa"
+  },
+  {
+   "date": "2026-10-25T07:15:29.442000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Quentin Grimes"
+  },
+  {
+   "date": "2026-10-25T05:45:52.545000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Kris Dunn"
+  },
+  {
+   "date": "2026-10-25T05:45:52.545000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Naji Marshall"
+  },
+  {
+   "date": "2026-10-25T03:58:20.510000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Anfernee Simons"
+  },
+  {
+   "date": "2026-10-25T03:58:20.510000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Jaxson Hayes"
+  },
+  {
+   "date": "2026-10-25T01:44:19.890000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaylon Tyson"
+  },
+  {
+   "date": "2026-10-25T01:44:19.890000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Jaylen Wells"
+  },
+  {
+   "date": "2026-10-25T01:31:43.222000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Devin Vassell"
+  },
+  {
+   "date": "2026-10-25T01:31:43.222000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Brook Lopez"
+  },
+  {
+   "date": "2026-10-25T01:09:58.769000",
+   "team": "Murray Had a Little Lamb",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-10-25T01:08:01.482000",
+   "team": "Murray Had a Little Lamb",
+   "action": "DROPPED",
+   "player": "Yves Missi"
+  },
+  {
+   "date": "2026-10-24T22:01:29.872000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Duncan Robinson"
+  },
+  {
+   "date": "2026-10-24T22:01:29.872000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Andrew Wiggins"
+  },
+  {
+   "date": "2026-10-24T20:31:29.365000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Bilal Coulibaly"
+  },
+  {
+   "date": "2026-10-24T19:07:33.995000",
+   "team": "Murray Had a Little Lamb",
+   "action": "FA ADDED",
+   "player": "Tristan da Silva"
+  },
+  {
+   "date": "2026-10-24T16:53:05.798000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Saddiq Bey"
+  },
+  {
+   "date": "2026-10-24T13:56:25.624000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Jimmy Butler III"
+  },
+  {
+   "date": "2026-10-24T13:56:25.624000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Naji Marshall"
+  }
+ ]
+}
