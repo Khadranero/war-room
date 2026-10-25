@@ -49,7 +49,7 @@ try{const s=JSON.parse(localStorage.getItem('punts'));if(Array.isArray(s))punts=
 const savePunts=()=>{try{localStorage.setItem('punts',JSON.stringify(punts))}catch(e){}};
 
 const entry=(c,t)=>D.category_table[c].find(x=>x.team===t);
-const rk=(c,t)=>entry(c,t).rank;
+const rk=(c,t)=>{const e=entry(c,t);return e?e.rank:5.5};
 const median=c=>{const v=D.category_table[c].map(x=>x.value).sort((a,b)=>a-b);return (v[4]+v[5])/2};
 
 function cmp(c,a,b){
