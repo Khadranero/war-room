@@ -27,6 +27,7 @@ a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
 <div class="card"><h2>Trade partners</h2><div id="trade"></div></div></div>
 <div class="card"><h2>Lineup alerts</h2><div id="alerts"></div></div>
 <div class="card"><h2>Free agents (sorted by what you need)</h2><div id="fa"></div></div>
+<div class="card"><h2>Player search</h2><input id="q" placeholder="Type a player name…" style="width:100%;max-width:340px;padding:8px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx)"> <label class="mut"><input type="checkbox" id="fao"> Free agents only</label><div id="search" style="margin-top:10px"></div></div>
 <div class="card"><h2>News</h2><label class="mut"><input type="checkbox" id="mine" checked> My players only</label><div id="news" style="margin-top:8px"></div></div>
 <div class="card"><h2>Power ranking (sum of category ranks, 10 = best per category)</h2><div id="power"></div></div>
 <div class="card"><h2>Category matrix (per-week average, rank 1 = best)</h2><div id="cats"></div></div>
@@ -42,7 +43,7 @@ const isMe=t=>t.toLowerCase().includes(ME.toLowerCase());
 const cls=t=>isMe(t)?'me':'';
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const low=c=>c==='TO', pct=c=>c.endsWith('%');
-const fmt=(c,v)=>v==null?'–':pct(c)?v.toFixed(3).replace(/^0/,''):(Math.round(v*10)/10);
+const fmt=(c,v)=>v==null?'–':pct(c)?(v>1?v/100:v).toFixed(3).replace(/^0/,''):(Math.round(v*10)/10);
 const chips=(a,k)=>a.length?a.map(x=>`<span class="chip ${k}">${x}</span>`).join(''):'<span class="mut">none</span>';
 let D,punts=['STL'];
 try{const s=JSON.parse(localStorage.getItem('punts'));if(Array.isArray(s))punts=s}catch(e){}
@@ -51,6 +52,20 @@ const savePunts=()=>{try{localStorage.setItem('punts',JSON.stringify(punts))}cat
 const entry=(c,t)=>D.category_table[c].find(x=>x.team===t);
 const rk=(c,t)=>{const e=entry(c,t);return e?e.rank:5.5};
 const median=c=>{const v=D.category_table[c].map(x=>x.value).sort((a,b)=>a-b);return (v[4]+v[5])/2};
+const allP=()=>{const a=[];Object.keys(D.rosters).forEach(t=>D.rosters[t].forEach(p=>a.push({...p,owner:t})));(D.free_agents||[]).forEach(p=>a.push({...p,owner:'Free agent',slot:''}));return a};
+let ZS=null;
+function zstats(){
+  if(ZS)return ZS;
+  const r=[];Object.keys(D.rosters).forEach(t=>D.rosters[t].forEach(p=>{if(p.avg&&p.avg.PTS!=null)r.push(p)}));
+  ZS={};D.cats.forEach(c=>{const v=r.map(p=>p.avg[c]).filter(x=>x!=null);const m=v.reduce((a,b)=>a+b,0)/(v.length||1);
+    const sd=Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/(v.length||1))||1;ZS[c]={m,sd}});
+  return ZS;
+}
+const z=(p,c)=>{const s=zstats()[c],v=p.avg&&p.avg[c];if(v==null)return 0;return(pct(c)?0.5:1)*(low(c)?-1:1)*(v-s.m)/s.sd};
+const zsum=(p,cats)=>cats.reduce((s,c)=>s+z(p,c),0);
+const hasStats=p=>p.avg&&p.avg.PTS!=null;
+const statCells=(p,need)=>D.cats.map(c=>`<td class="n ${need&&need.includes(c)?'hl':''}">${fmt(c,p.avg&&p.avg[c])}</td>`).join('');
+const norm=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
 function cmp(c,a,b){
   if(a===b)return{res:'T',close:true};
@@ -117,7 +132,23 @@ function renderTrade(me){
   }).sort((a,b)=>b.sc-a.sc);
   $('trade').innerHTML='<table><tr><th>Team</th><th>They can give you</th><th>They need from you</th></tr>'+
    list.slice(0,6).map(x=>`<tr><td>${esc(x.t)}</td><td>${chips(x.give,'g')}</td><td>${chips(x.need,'g')}</td></tr>`).join('')+'</table>'+
-   '<p class="note">Best partners are at the top: strong where you are weak, and weak where you are strong. Ask me in chat for specific player packages.</p>';
+   '<p class="note">Best partners are at the top: strong where you are weak, and weak where you are strong.</p>'+tradeIdeas(me,list.slice(0,3),act);
+}
+
+function tradeIdeas(me,partners,act){
+  const mineP=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&hasStats(p));
+  const need=act.filter(c=>rk(c,me)>=6);
+  const core=new Set([...mineP].sort((a,b)=>zsum(b,act)-zsum(a,act)).slice(0,3).map(p=>p.name));
+  const rows=partners.map(x=>{
+    const theirNeed=D.cats.filter(c=>rk(c,x.t)>=7);
+    const targets=(D.rosters[x.t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)).sort((a,b)=>zsum(b,need)-zsum(a,need)).slice(0,2);
+    const offers=mineP.filter(p=>!core.has(p.name)).sort((a,b)=>zsum(b,theirNeed)-zsum(a,theirNeed)).slice(0,2);
+    if(!targets.length||!offers.length)return '';
+    const gap=zsum(offers[0],act)-zsum(targets[0],act);
+    const verdict=gap>=0?'<span class="good">fair for them</span>':'<span class="bad">you are asking for more — add a sweetener</span>';
+    return `<li><b>${esc(x.t)}:</b> offer <b>${esc(offers[0].name)}</b> (or ${esc(offers[1]?offers[1].name:'—')}) for <b>${esc(targets[0].name)}</b> (or ${esc(targets[1]?targets[1].name:'—')}) · value gap ${(gap>=0?'+':'')+gap.toFixed(1)} · ${verdict}</li>`;
+  }).join('');
+  return rows?`<p class="note"><b>Player ideas (starting points, based on stats):</b></p><ul class="box">${rows}</ul><p class="note">Value uses recent per-game averages across your non-punted categories. Your top 3 players are never offered. It's a rough guide, so check injuries and minutes before sending.</p>`:'';
 }
 
 function renderAlerts(me){
@@ -130,7 +161,10 @@ function renderAlerts(me){
   });
   const others=[];
   Object.keys(D.rosters).filter(t=>t!==me).forEach(t=>D.rosters[t].filter(p=>p.injury==='OUT'||p.injury==='DAY_TO_DAY').forEach(p=>others.push(`${esc(p.name)} <span class="mut">(${esc(t)}, ${esc(p.injury)})</span>`)));
+  const act=D.cats.filter(c=>!punts.includes(c));
+  const drops=r.filter(p=>p.slot!=='IR'&&hasStats(p)).sort((a,b)=>zsum(a,act)-zsum(b,act)).slice(0,3).map(p=>esc(p.name)+' <span class="mut">('+zsum(p,act).toFixed(1)+')</span>');
   $('alerts').innerHTML=`<div class="box">IR slots used: <b>${irCount}</b> of 2</div><ul>${out.length?out.map(x=>'<li>'+x+'</li>').join(''):'<li class="mut">No alerts for your roster.</li>'}</ul>
+  <p class="note"><b>Weakest players on your roster (drop candidates):</b> ${drops.join(' · ')||'no stats yet'}</p>
   <p class="note"><b>Injured on other teams (buy-low / waiver watch):</b><br>${others.join(' · ')||'none'}</p>`;
 }
 
@@ -156,9 +190,19 @@ function renderNews(me){
   $('news').innerHTML=list.length?'<ul>'+list.map(n=>`<li class="${hit(n)?'hl':''}"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="mut">${esc(n.source)} · ${esc(n.published)}</span></li>`).join('')+'</ul>':'<span class="mut">No news mentions your players right now. Untick the box to see all news.</span>';
 }
 
+function renderSearch(me){
+  const q=norm($('q').value.trim()),fao=$('fao').checked;
+  if(!q){$('search').innerHTML='<span class="mut">Type part of a name to see his averages, status and who owns him.</span>';return}
+  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
+  const res=allP().filter(p=>norm(p.name).includes(q)&&(!fao||p.owner==='Free agent')).slice(0,25);
+  $('search').innerHTML=res.length?`<table><tr><th>Player</th><th>Owner</th><th>Pos</th><th>Status</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+   res.map(p=>`<tr><td>${esc(p.name)}</td><td class="${p.owner==='Free agent'?'good':cls(p.owner)}">${esc(p.owner)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${statCells(p,need)}</tr>`).join('')+'</table>'+
+   '<p class="note">Highlighted columns are categories you need. Only the top 200 free agents are searchable; if a player is missing, check ESPN directly.</p>':'<span class="mut">No match.</span>';
+}
+
 function render(){
   const me=D.power.map(p=>p.team).find(isMe)||D.power[0].team;
-  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderNews(me);
+  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);
 }
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   D=d;
@@ -175,10 +219,10 @@ fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   $('act').innerHTML='<table>'+d.activity.slice(0,25).map(a=>`<tr><td>${esc(a.team)}</td><td>${esc(a.action)}</td><td>${esc(a.player)}</td></tr>`).join('')+'</table>';
   const sel=$('team');Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
   const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;
-  const show=()=>$('roster').innerHTML='<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th></tr>'+
-   d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td></tr>`).join('')+'</table>';
+  const show=()=>$('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+   d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${statCells(p,null)}</tr>`).join('')+'</table>';
   sel.onchange=show;show();
-  $('mine').onchange=()=>render();
+  $('mine').onchange=()=>render();$('q').oninput=()=>render();$('fao').onchange=()=>render();
   render();
 }).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
 setInterval(()=>location.reload(),5*60*1000);
