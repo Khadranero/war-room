@@ -1,49 +1,185 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Khadra War Room</title>
+<title>War Room</title>
 <style>
 :root{--bg:#0f1218;--card:#181d27;--tx:#e8ecf3;--mut:#8b95a8;--ac:#ff9f1c;--good:#3ddc97;--bad:#ff5d73;--ln:#262d3b}
 @media(prefers-color-scheme:light){:root{--bg:#f4f6fa;--card:#fff;--tx:#161b26;--mut:#5d6779;--ln:#e1e5ee}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,sans-serif;padding:16px;max-width:1100px;margin:auto}
+*{box-sizing:border-box}body{margin:0 auto;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,sans-serif;padding:16px;max-width:1100px}
 h1{margin:0 0 2px;font-size:22px}.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
 .card{background:var(--card);border:1px solid var(--ln);border-radius:12px;padding:14px;margin-bottom:14px;overflow-x:auto}
 h2{margin:0 0 10px;font-size:15px;color:var(--ac);text-transform:uppercase;letter-spacing:.06em}
 table{border-collapse:collapse;width:100%}th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--ln);white-space:nowrap}
 th{color:var(--mut);font-weight:600;font-size:12px}td.n,th.n{text-align:right}
-.me{color:var(--ac);font-weight:700}.inj{color:var(--bad)}
+.me{color:var(--ac);font-weight:700}.inj{color:var(--bad)}.mut{color:var(--mut)}.good{color:var(--good)}.bad{color:var(--bad)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
 select{background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:8px;padding:6px}
 .r10{background:#3ddc9733}.r9,.r8{background:#3ddc9718}.r1{background:#ff5d7333}.r2,.r3{background:#ff5d7318}
+.chip{display:inline-block;padding:1px 8px;border-radius:99px;font-size:12px;margin:1px 2px;border:1px solid var(--ln)}
+.chip.g{background:#3ddc9722;color:var(--good)}.chip.b{background:#ff5d7322;color:var(--bad)}
+.note{color:var(--mut);font-size:13px;margin:8px 0 0;white-space:normal}.box{white-space:normal}
+a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
+.hl{background:#ff9f1c22}
 </style></head><body>
 <h1>War Room</h1><div class="sub" id="sub">Loading…</div>
+
+<div class="card"><h2>My matchup this week</h2><div id="match"></div></div>
+<div class="grid">
+<div class="card"><h2>Punt advisor</h2><div id="punt"></div></div>
+<div class="card"><h2>Trade partners</h2><div id="trade"></div></div></div>
+<div class="card"><h2>Lineup alerts</h2><div id="alerts"></div></div>
+<div class="card"><h2>Free agents (sorted by what you need)</h2><div id="fa"></div></div>
+<div class="card"><h2>News</h2><label class="mut"><input type="checkbox" id="mine" checked> My players only</label><div id="news" style="margin-top:8px"></div></div>
 <div class="card"><h2>Power ranking (sum of category ranks, 10 = best per category)</h2><div id="power"></div></div>
 <div class="card"><h2>Category matrix (per-week average, rank 1 = best)</h2><div id="cats"></div></div>
 <div class="grid">
 <div class="card"><h2>Standings</h2><div id="stand"></div></div>
 <div class="card"><h2>Recent activity</h2><div id="act"></div></div></div>
 <div class="card"><h2>Rosters</h2><select id="team"></select><div id="roster" style="margin-top:10px"></div></div>
+
 <script>
 const ME="Murray Had a Little Lamb";
 const $=id=>document.getElementById(id);
 const isMe=t=>t.toLowerCase().includes(ME.toLowerCase());
 const cls=t=>isMe(t)?'me':'';
-const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const low=c=>c==='TO', pct=c=>c.endsWith('%');
+const fmt=(c,v)=>v==null?'–':pct(c)?v.toFixed(3).replace(/^0/,''):(Math.round(v*10)/10);
+const chips=(a,k)=>a.length?a.map(x=>`<span class="chip ${k}">${x}</span>`).join(''):'<span class="mut">none</span>';
+let D,punts=['STL'];
+try{const s=JSON.parse(localStorage.getItem('punts'));if(Array.isArray(s))punts=s}catch(e){}
+const savePunts=()=>{try{localStorage.setItem('punts',JSON.stringify(punts))}catch(e){}};
+
+const entry=(c,t)=>D.category_table[c].find(x=>x.team===t);
+const rk=(c,t)=>entry(c,t).rank;
+const median=c=>{const v=D.category_table[c].map(x=>x.value).sort((a,b)=>a-b);return (v[4]+v[5])/2};
+
+function cmp(c,a,b){
+  if(a===b)return{res:'T',close:true};
+  const win=low(c)?a<b:a>b;
+  const close=pct(c)?Math.abs(a-b)<0.015:Math.abs(a-b)/Math.max(Math.abs(a),Math.abs(b),1e-9)<0.08;
+  return{res:win?'W':'L',close};
+}
+function profile(me,opp){
+  const better=[],worse=[];
+  D.cats.forEach(c=>{const a=rk(c,me),b=rk(c,opp);if(a<b)better.push(c);else if(a>b)worse.push(c)});
+  return `You're better in: ${chips(better,'g')}<br>They're better in: ${chips(worse,'b')}`;
+}
+
+function renderMatch(me){
+  const m=D.matchups.find(x=>x.week===D.week&&(x.home===me||x.away===me));
+  let h='';
+  if(!m){h='<span class="mut">No matchup found for this week yet.</span>'}
+  else{
+    const side=m.home===me?'home':'away',opp=side==='home'?m.away:m.home,os=side==='home'?'away':'home';
+    let w=0,l=0,close=[],lost=[],rows='';
+    D.cats.forEach(c=>{
+      const v=m.cats[c];if(!v)return;
+      const a=v[side],b=v[os],r=cmp(c,a,b),pun=punts.includes(c);
+      if(!pun){if(r.res==='W')w++;else if(r.res==='L')l++;
+        if(r.close)close.push(c);else if(r.res==='L')lost.push(c)}
+      const tag=pun?'<span class="mut">punted</span>':r.res==='W'?'<span class="good">winning</span>':r.res==='L'?'<span class="bad">losing</span>':'tied';
+      rows+=`<tr><td>${c}</td><td class="n">${fmt(c,a)}</td><td class="n">${fmt(c,b)}</td><td>${tag}${r.close&&!pun?' · close':''}</td></tr>`;
+    });
+    h=`<div class="box"><b>Week ${m.week}: you vs <span class="me">${esc(opp)}</span></b> — winning ${w}, losing ${l} (punted categories not counted)</div>
+    <table><tr><th>Cat</th><th class=n>You</th><th class=n>${esc(opp)}</th><th>Status</th></tr>${rows}</table>
+    <p class="note"><b>Push now (close):</b> ${chips(close,'g')}<br><b>Likely lost (not close):</b> ${chips(lost,'b')}<br>
+    Close categories are where one pickup or a good lineup can swing the week. Don't spend moves on the ones that aren't close.</p>
+    <p class="note">${profile(me,opp)}</p>`;
+  }
+  const nx=D.schedule&&D.schedule[me]&&D.schedule[me][D.week];
+  if(nx)h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
+  $('match').innerHTML=h;
+}
+
+function renderPunt(me){
+  const med={};D.cats.forEach(c=>med[c]=median(c));
+  let rows='';
+  D.cats.forEach(c=>{
+    const e=entry(c,me);
+    rows+=`<tr><td>${c}</td><td class="n r${11-e.rank}">${e.rank}</td><td class="n">${fmt(c,e.value)}</td><td class="n mut">${fmt(c,med[c])}</td><td><input type="checkbox" data-c="${c}" ${punts.includes(c)?'checked':''}></td></tr>`;
+  });
+  const worst=[...D.cats].sort((a,b)=>rk(b,me)-rk(a,me));
+  const adj=D.power.map(p=>({t:p.team,s:D.cats.filter(c=>!punts.includes(c)).reduce((s,c)=>s+11-rk(c,p.team),0)})).sort((a,b)=>b.s-a.s);
+  const pos=adj.findIndex(x=>x.t===me)+1;
+  $('punt').innerHTML=`<table><tr><th>Cat</th><th class=n>Rank</th><th class=n>You</th><th class=n>Median</th><th>Punt</th></tr>${rows}</table>
+  <p class="note"><b>Weakest categories:</b> ${chips(worst.slice(0,3).map(c=>c+' ('+rk(c,me)+')'),'b')}<br>
+  <b>Strongest:</b> ${chips([...D.cats].sort((a,b)=>rk(a,me)-rk(b,me)).slice(0,3).map(c=>c+' ('+rk(c,me)+')'),'g')}</p>
+  <p class="note">With your punts removed, you'd rank <b class="me">${pos}</b> of 10. Tick or untick a box to try another build; the page remembers your choice.</p>`;
+  $('punt').querySelectorAll('input').forEach(i=>i.onchange=()=>{
+    const c=i.dataset.c;punts=i.checked?[...new Set([...punts,c])]:punts.filter(x=>x!==c);savePunts();render()});
+}
+
+function renderTrade(me){
+  const act=D.cats.filter(c=>!punts.includes(c));
+  const list=D.power.map(p=>p.team).filter(t=>t!==me).map(t=>{
+    const give=act.filter(c=>rk(c,me)>=6&&rk(c,t)<=5),need=D.cats.filter(c=>rk(c,t)>=7&&rk(c,me)<=5);
+    const sc=give.reduce((s,c)=>s+rk(c,me)-rk(c,t),0)+need.reduce((s,c)=>s+rk(c,t)-rk(c,me),0);
+    return{t,give,need,sc};
+  }).sort((a,b)=>b.sc-a.sc);
+  $('trade').innerHTML='<table><tr><th>Team</th><th>They can give you</th><th>They need from you</th></tr>'+
+   list.slice(0,6).map(x=>`<tr><td>${esc(x.t)}</td><td>${chips(x.give,'g')}</td><td>${chips(x.need,'g')}</td></tr>`).join('')+'</table>'+
+   '<p class="note">Best partners are at the top: strong where you are weak, and weak where you are strong. Ask me in chat for specific player packages.</p>';
+}
+
+function renderAlerts(me){
+  const r=D.rosters[me]||[],out=[];
+  const irCount=r.filter(p=>p.slot==='IR').length;
+  r.forEach(p=>{
+    if(p.injury!=='ACTIVE'&&p.slot!=='IR')out.push(`<b>${esc(p.name)}</b> is ${esc(p.injury)} but not in an IR slot.`);
+    if(p.slot==='IR'&&p.injury==='ACTIVE')out.push(`<b>${esc(p.name)}</b> shows as healthy on ESPN but is in an IR slot — check if he can come back and free the slot.`);
+    if(p.injury==='DAY_TO_DAY')out.push(`<b>${esc(p.name)}</b> is day-to-day.`);
+  });
+  const others=[];
+  Object.keys(D.rosters).filter(t=>t!==me).forEach(t=>D.rosters[t].filter(p=>p.injury==='OUT'||p.injury==='DAY_TO_DAY').forEach(p=>others.push(`${esc(p.name)} <span class="mut">(${esc(t)}, ${esc(p.injury)})</span>`)));
+  $('alerts').innerHTML=`<div class="box">IR slots used: <b>${irCount}</b> of 2</div><ul>${out.length?out.map(x=>'<li>'+x+'</li>').join(''):'<li class="mut">No alerts for your roster.</li>'}</ul>
+  <p class="note"><b>Injured on other teams (buy-low / waiver watch):</b><br>${others.join(' · ')||'none'}</p>`;
+}
+
+function renderFA(me){
+  const fa=D.free_agents||[];
+  if(!fa.length){$('fa').innerHTML='<span class="mut">No free-agent data yet. If this stays empty after a run, send me the Actions log.</span>';return}
+  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
+  const mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
+  const sc=p=>need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0);
+  const sorted=[...fa].sort((a,b)=>sc(b)-sc(a)).slice(0,15);
+  $('fa').innerHTML=`<p class="note" style="margin:0 0 8px">You need: ${chips(need,'b')} (punted: ${punts.join(', ')||'none'}). Averages are ESPN's recent numbers, not guaranteed.</p>
+  <table><tr><th>Player</th><th>Pos</th><th>Status</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+  sorted.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${D.cats.map(c=>`<td class="n ${need.includes(c)?'hl':''}">${fmt(c,(p.avg||{})[c])}</td>`).join('')}</tr>`).join('')+'</table>';
+}
+
+function renderNews(me){
+  const items=D.news||[];
+  if(!items.length){$('news').innerHTML='<span class="mut">No news yet. Feeds load on the next successful update.</span>';return}
+  const names=(D.rosters[me]||[]).map(p=>p.name.toLowerCase());
+  const mineOnly=$('mine').checked;
+  const hit=n=>names.some(x=>(n.title+' '+n.summary).toLowerCase().includes(x));
+  const list=items.filter(n=>!mineOnly||hit(n)).slice(0,30);
+  $('news').innerHTML=list.length?'<ul>'+list.map(n=>`<li class="${hit(n)?'hl':''}"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="mut">${esc(n.source)} · ${esc(n.published)}</span></li>`).join('')+'</ul>':'<span class="mut">No news mentions your players right now. Untick the box to see all news.</span>';
+}
+
+function render(){
+  const me=D.power.map(p=>p.team).find(isMe)||D.power[0].team;
+  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderNews(me);
+}
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
- const ago=Math.round((Date.now()-new Date(d.updated))/60000);
- $('sub').textContent=`Week ${d.week} · updated ${ago} min ago (${new Date(d.updated).toLocaleString()})`;
- $('power').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>Score</th></tr>'+
-  d.power.map((r,i)=>`<tr><td>${i+1}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.score}</td></tr>`).join('')+'</table>';
- const teams=d.power.map(p=>p.team);
- $('cats').innerHTML='<table><tr><th>Team</th>'+d.cats.map(c=>`<th class=n>${c}</th>`).join('')+'</tr>'+
-  teams.map(t=>'<tr><td class="'+cls(t)+'">'+esc(t)+'</td>'+d.cats.map(c=>{
-   const e=d.category_table[c].find(x=>x.team===t);return `<td class="n r${11-e.rank}" title="rank ${e.rank}">${e.value}</td>`}).join('')+'</tr>').join('')+'</table>';
- $('stand').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>W-L-T</th></tr>'+
-  d.standings.map(r=>`<tr><td>${r.rank??''}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.wins}-${r.losses}-${r.ties}</td></tr>`).join('')+'</table>';
- $('act').innerHTML='<table>'+d.activity.slice(0,25).map(a=>`<tr><td>${esc(a.team)}</td><td>${esc(a.action)}</td><td>${esc(a.player)}</td></tr>`).join('')+'</table>';
- const sel=$('team');Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
- const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;
- const show=()=>$('roster').innerHTML='<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th></tr>'+
-  d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td></tr>`).join('')+'</table>';
- sel.onchange=show;show();
-}).catch(()=>$('sub').textContent='No data yet — run the "Update war room" workflow once.');
+  D=d;
+  const ago=Math.round((Date.now()-new Date(d.updated))/60000);
+  $('sub').textContent=`Week ${d.week} · updated ${ago} min ago (${new Date(d.updated).toLocaleString()})`;
+  $('power').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>Score</th></tr>'+
+   d.power.map((r,i)=>`<tr><td>${i+1}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.score}</td></tr>`).join('')+'</table>';
+  const teams=d.power.map(p=>p.team);
+  $('cats').innerHTML='<table><tr><th>Team</th>'+d.cats.map(c=>`<th class=n>${c}</th>`).join('')+'</tr>'+
+   teams.map(t=>'<tr><td class="'+cls(t)+'">'+esc(t)+'</td>'+d.cats.map(c=>{
+    const e=entry(c,t);return `<td class="n r${11-e.rank}" title="rank ${e.rank}">${fmt(c,e.value)}</td>`}).join('')+'</tr>').join('')+'</table>';
+  $('stand').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>W-L-T</th></tr>'+
+   d.standings.map(r=>`<tr><td>${r.rank??''}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.wins}-${r.losses}-${r.ties}</td></tr>`).join('')+'</table>';
+  $('act').innerHTML='<table>'+d.activity.slice(0,25).map(a=>`<tr><td>${esc(a.team)}</td><td>${esc(a.action)}</td><td>${esc(a.player)}</td></tr>`).join('')+'</table>';
+  const sel=$('team');Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
+  const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;
+  const show=()=>$('roster').innerHTML='<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th></tr>'+
+   d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td></tr>`).join('')+'</table>';
+  sel.onchange=show;show();
+  $('mine').onchange=()=>render();
+  render();
+}).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
 setInterval(()=>location.reload(),5*60*1000);
 </script></body></html>
