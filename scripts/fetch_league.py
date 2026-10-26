@@ -112,7 +112,7 @@ try:
 except Exception as e:
     print(f"activity: {e}", file=sys.stderr)
 
-# ---- schedule (who plays whom each week) ----
+# ---- NEW: schedule (who plays whom each week) ----
 schedule = {}
 try:
     for t in league.teams:
@@ -120,7 +120,7 @@ try:
 except Exception as e:
     print(f"schedule: {e}", file=sys.stderr)
 
-# ---- free agents with averages ----
+# ---- NEW: free agents with whatever averages ESPN gives ----
 free_agents = []
 try:
     for p in league.free_agents(size=200):
@@ -130,6 +130,25 @@ try:
             "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p), "proj": player_proj(p)})
 except Exception as e:
     print(f"free agents: {e}", file=sys.stderr)
+
+# ---- waiver trends: rolling history of % owned (about 26 hours) ----
+import time
+pct_hist = {}
+try:
+    with open("docs/data.json") as f:
+        prev_hist = json.load(f).get("pct_hist", {})
+except Exception:
+    prev_hist = {}
+now_min = int(time.time() // 60)
+for fa in free_agents:
+    if fa.get("pct") is None:
+        continue
+    h = [x for x in prev_hist.get(fa["name"], []) if now_min - x[0] <= 26 * 60]
+    if not h or now_min - h[-1][0] >= 55:
+        h.append([now_min, round(float(fa["pct"]), 1)])
+    else:
+        h[-1][1] = round(float(fa["pct"]), 1)
+    pct_hist[fa["name"]] = h
 
 # ---- public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
 FEEDS = [
@@ -168,6 +187,10 @@ def count_games(get_json, today):
     rest = [today + dt.timedelta(days=i) for i in range((sunday - today).days + 1)]
     nxt = [sunday + dt.timedelta(days=1 + i) for i in range(7)]
     by = {}
+    by_day = {}
+    pair = {}
+    for a, b in ALIASES:
+        pair[a] = b; pair[b] = a
     for d in rest + nxt:
         data = get_json(f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={d:%Y%m%d}")
         for ev in data.get("events", []):
@@ -177,13 +200,19 @@ def count_games(get_json, today):
                 continue  # game already started/finished: its stats are in the current totals
             key = "rest" if d in rest else "next"
             for c in comp["competitors"]:
-                by.setdefault(c["team"]["abbreviation"], {"rest": 0, "next": 0})[key] += 1
+                ab = c["team"]["abbreviation"]
+                by.setdefault(ab, {"rest": 0, "next": 0})[key] += 1
+                day = by_day.setdefault(str(d), [])
+                day.append(ab)
+                if ab in pair:
+                    day.append(pair[ab])
     for a, b in ALIASES:
         if a in by and b not in by:
             by[b] = by[a]
         if b in by and a not in by:
             by[a] = by[b]
-    return {"today": str(today), "days_left": len(rest), "by_team": by}
+    return {"today": str(today), "days_left": len(rest), "by_team": by,
+            "days": [str(d) for d in rest + nxt], "by_day": by_day}
 
 games = {}
 try:
@@ -210,7 +239,7 @@ out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "week": current, "cats
        "standings": standings, "power": power_rank, "category_table": cat_table,
        "matchups": weekly, "rosters": rosters, "activity": activity,
        "schedule": schedule, "free_agents": free_agents, "news": news,
-       "games": games, "log": log}
+       "games": games, "log": log, "pct_hist": pct_hist}
 os.makedirs("docs", exist_ok=True)
 with open("docs/data.json", "w") as f:
     json.dump(out, f, indent=1)
