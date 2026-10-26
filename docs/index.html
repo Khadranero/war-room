@@ -23,6 +23,7 @@ a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
 <h1>War Room</h1><div class="sub" id="sub">Loading…</div>
 
 <div class="card"><h2>My matchup this week</h2><div id="match"></div></div>
+<div class="card"><h2>Schedule &amp; upcoming opponents</h2><select id="wk"></select><div id="sched" style="margin-top:10px"></div></div>
 <div class="grid">
 <div class="card"><h2>Punt advisor</h2><div id="punt"></div></div>
 <div class="card"><h2>Trade partners</h2><div id="trade"></div></div></div>
@@ -58,14 +59,16 @@ const allP=()=>{const a=[];Object.keys(D.rosters).forEach(t=>D.rosters[t].forEac
 let ZS=null;
 function zstats(){
   if(ZS)return ZS;
-  const r=[];Object.keys(D.rosters).forEach(t=>D.rosters[t].forEach(p=>{if(p.avg&&p.avg.PTS!=null)r.push(p)}));
-  ZS={};D.cats.forEach(c=>{const v=r.map(p=>p.avg[c]).filter(x=>x!=null);const m=v.reduce((a,b)=>a+b,0)/(v.length||1);
+  const r=[];Object.keys(D.rosters).forEach(t=>D.rosters[t].forEach(p=>{if(pv(p).PTS!=null)r.push(p)}));
+  ZS={};D.cats.forEach(c=>{const v=r.map(p=>pv(p)[c]).filter(x=>x!=null);const m=v.reduce((a,b)=>a+b,0)/(v.length||1);
     const sd=Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/(v.length||1))||1;ZS[c]={m,sd}});
   return ZS;
 }
-const z=(p,c)=>{const s=zstats()[c],v=p.avg&&p.avg[c];if(v==null)return 0;return(pct(c)?0.5:1)*(low(c)?-1:1)*(v-s.m)/s.sd};
+const z=(p,c)=>{const s=zstats()[c],v=pv(p)[c];if(v==null)return 0;return(pct(c)?0.5:1)*(low(c)?-1:1)*(v-s.m)/s.sd};
 const zsum=(p,cats)=>cats.reduce((s,c)=>s+z(p,c),0);
-const hasStats=p=>p.avg&&p.avg.PTS!=null;
+const pv=p=>(p.proj&&p.proj.PTS!=null)?p.proj:(p.avg||{});
+const hasStats=p=>pv(p).PTS!=null;
+const canon=n=>{const k=String(n).replace(/^Team\((.*)\)$/,'$1').trim().toLowerCase();return D.power.map(q=>q.team).find(t=>t.trim().toLowerCase()===k)||null};
 const statCells=(p,need)=>D.cats.map(c=>`<td class="n ${need&&need.includes(c)?'hl':''}">${fmt(c,p.avg&&p.avg[c])}</td>`).join('');
 const gm=p=>{const g=D.games&&D.games.by_team&&D.games.by_team[p.team];return g||null};
 const gcell=p=>{const g=gm(p);return g?`<td class="n">${g.rest}/${g.next}</td>`:'<td class="n mut">–</td>'};
@@ -77,11 +80,11 @@ function project(team,cur){
   const el=elapsed(),out={},n=act.reduce((s,p)=>s+(gm(p)?gm(p).rest:0),0);
   D.cats.forEach(c=>{
     if(pct(c)){
-      let w=0,sum=0;act.forEach(p=>{const g=gm(p),gl=g?g.rest:0;if(p.avg[c]!=null){const v=p.avg[c]>1?p.avg[c]/100:p.avg[c];w+=gl;sum+=v*gl}});
+      let w=0,sum=0;act.forEach(p=>{const g=gm(p),gl=g?g.rest:0;if(pv(p)[c]!=null){const v=pv(p)[c]>1?pv(p)[c]/100:pv(p)[c];w+=gl;sum+=v*gl}});
       const pa=w?sum/w:(cur[c]||0.45);
       out[c]={proj:(cur[c]||0)*el+pa*(1-el),sd:0.035*Math.sqrt(1-el)+0.005};
     }else{
-      let add=0;act.forEach(p=>{const g=gm(p),gl=g?g.rest:0;if(p.avg[c]!=null)add+=p.avg[c]*gl});
+      let add=0;act.forEach(p=>{const g=gm(p),gl=g?g.rest:0;if(pv(p)[c]!=null)add+=pv(p)[c]*gl});
       out[c]={proj:(cur[c]||0)+add,sd:BASE[c]*Math.sqrt(Math.max(n,1))};
     }
   });
@@ -142,8 +145,8 @@ function renderMatch(me){
     Close categories are where one pickup or a good lineup can swing the week. Don't spend moves on the ones that aren't close.</p>
     <p class="note">${profile(me,opp)}</p>${wp}`;
   }
-  const nx=D.schedule&&D.schedule[me]&&D.schedule[me][D.week];
-  if(nx&&D.category_table.PTS.some(x=>x.team===nx))h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
+  const nx0=D.schedule&&D.schedule[me]&&D.schedule[me][D.week],nx=nx0&&canon(nx0);
+  if(nx)h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
   $('match').innerHTML=h;
 }
 
@@ -178,19 +181,47 @@ function renderTrade(me){
 }
 
 function tradeIdeas(me,partners,act){
-  const mineP=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&hasStats(p));
-  const need=act.filter(c=>rk(c,me)>=6);
-  const core=new Set([...mineP].sort((a,b)=>zsum(b,act)-zsum(a,act)).slice(0,3).map(p=>p.name));
+  const all=D.cats,V=(p)=>zsum(p,all);
+  const mineP=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
+  const myNeed=act.filter(c=>rk(c,me)>=6);
+  const core=new Set([...mineP].sort((a,b)=>V(b)-V(a)).slice(0,3).map(p=>p.name));
+  const offers=mineP.filter(p=>!core.has(p.name));
+  const sum=(ps,cs,w)=>cs.reduce((s,c)=>s+ps.reduce((t,p)=>t+z(p,c),0)*(w(c)),0);
   const rows=partners.map(x=>{
-    const theirNeed=D.cats.filter(c=>rk(c,x.t)>=7);
-    const targets=(D.rosters[x.t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)).sort((a,b)=>zsum(b,need)-zsum(a,need)).slice(0,2);
-    const offers=mineP.filter(p=>!core.has(p.name)).sort((a,b)=>zsum(b,theirNeed)-zsum(a,theirNeed)).slice(0,2);
-    if(!targets.length||!offers.length)return '';
-    const gap=zsum(offers[0],act)-zsum(targets[0],act);
-    const verdict=gap>=0?'<span class="good">fair for them</span>':'<span class="bad">you are asking for more — add a sweetener</span>';
-    return `<li><b>${esc(x.t)}:</b> offer <b>${esc(offers[0].name)}</b> (or ${esc(offers[1]?offers[1].name:'—')}) for <b>${esc(targets[0].name)}</b> (or ${esc(targets[1]?targets[1].name:'—')}) · value gap ${(gap>=0?'+':'')+gap.toFixed(1)} · ${verdict}</li>`;
+    const theirP=(D.rosters[x.t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
+    const theirCore=new Set([...theirP].sort((a,b)=>V(b)-V(a)).slice(0,2).map(p=>p.name));
+    const theirNeed=all.filter(c=>rk(c,x.t)>=7);
+    const wMe=c=>myNeed.includes(c)?1:0.35, wThem=c=>theirNeed.includes(c)?1:0.35;
+    const cands=[];
+    theirP.filter(t=>!theirCore.has(t.name)).forEach(t=>{
+      const tryPkg=give=>{
+        if(give.length===2&&give.some(p=>V(p)<-0.5))return;                      // a dud is not a sweetener
+        const gap=give.reduce((s,p)=>s+(give.length===2?Math.max(V(p),0):V(p)),0)-V(t);   // >0 means they get more value
+        const lo=give.length===1?-0.6:-0.3, hi=give.length===1?1.2:2.0;
+        if(gap<lo||gap>hi)return;
+        const myGain=sum([t],act,wMe)-sum(give,act,wMe);
+        const theirGain=sum(give,all,wThem)-sum([t],all,wThem);
+        if(myGain<0.8||theirGain<0.3)return;
+        cands.push({give,t,gap,myGain,theirGain,score:myGain+theirGain-0.3*Math.abs(gap)});
+      };
+      offers.forEach(o=>tryPkg([o]));
+      for(let i=0;i<offers.length;i++)for(let j=i+1;j<offers.length;j++)tryPkg([offers[i],offers[j]]);
+    });
+    cands.sort((a,b)=>b.score-a.score);
+    const picks=[],seen=new Set();
+    for(const c of cands){if(seen.has(c.t.name))continue;seen.add(c.t.name);picks.push(c);if(picks.length>=2)break}
+    if(!picks.length)return `<li><b>${esc(x.t)}:</b> <span class="mut">no balanced trade found with your current roster</span></li>`;
+    return picks.map(c=>{
+      const gains=act.filter(k=>sum([c.t],[k],()=>1)-sum(c.give,[k],()=>1)>=0.5);
+      const costs=act.filter(k=>sum([c.t],[k],()=>1)-sum(c.give,[k],()=>1)<=-0.7);
+      const theirG=all.filter(k=>theirNeed.includes(k)&&sum(c.give,[k],()=>1)-sum([c.t],[k],()=>1)>=0.4);
+      const likely=c.gap>=-0.2&&c.theirGain>=0.8;
+      return `<li><b>${esc(x.t)}:</b> give <b>${c.give.map(p=>esc(p.name)).join(' + ')}</b> for <b>${esc(c.t.name)}</b>${c.give.length===2?' <span class="mut">(2-for-1: you will have a free roster spot)</span>':''}<br>
+      <span class="mut">You gain:</span> ${chips(gains,'g')} <span class="mut">You give up:</span> ${chips(costs,'b')} <span class="mut">They gain:</span> ${chips(theirG,'g')}<br>
+      <span class="mut">Value:</span> ${c.give.map(p=>V(p).toFixed(1)).join(' + ')} for ${V(c.t).toFixed(1)} · ${likely?'<span class="good">realistic, they should consider it</span>':'<span class="mut">possible, but expect a counter</span>'}</li>`;
+    }).join('');
   }).join('');
-  return rows?`<p class="note"><b>Player ideas (starting points, based on stats):</b></p><ul class="box">${rows}</ul><p class="note">Value uses recent per-game averages across your non-punted categories. Your top 3 players are never offered. It's a rough guide, so check injuries and minutes before sending.</p>`:'';
+  return rows?`<p class="note"><b>Player ideas (balanced trades only):</b></p><ul class="box">${rows}</ul><p class="note">Each idea keeps the total value close, helps your categories (not punted ones), and fills something the other team is weak in. Your top 3 players and their top 2 are left out. Values come from projected per-game stats across all 9 categories, so treat them as starting points and check injuries and minutes first.</p>`:'';
 }
 
 function renderAlerts(me){
@@ -249,6 +280,33 @@ function renderLog(){
    `<p class="note">History builds up over time as the page keeps collecting moves (up to 600). Times are in UTC.</p>`;
 }
 
+function edge(me,opp){let b=0,w=0;D.cats.forEach(c=>{const x=rk(c,me),y=rk(c,opp);if(x<y)b++;else if(x>y)w++});return{b,w}}
+function renderSchedule(me){
+  const s=(D.schedule&&D.schedule[me])||[],sel=$('wk');
+  if(!s.length){sel.style.display='none';$('sched').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
+  if(!sel.options.length){
+    s.forEach((o,i)=>sel.add(new Option(`Week ${i+1} — ${canon(o)||o}${i+1===D.week?' (this week)':''}`,String(i))));
+    sel.value=String(Math.min(D.week,s.length-1));sel.onchange=()=>renderSchedule(me);
+  }
+  const i=+sel.value,opp=canon(s[i]),wk=i+1;
+  let h='';
+  if(!opp)h=`<span class="mut">Opponent: ${esc(s[i])}</span>`;
+  else if(wk<D.week){
+    const m=D.matchups.find(x=>x.week===wk&&(x.home===me||x.away===me));
+    const mine=m?(m.home===me?m.home_score:m.away_score):null,theirs=m?(m.home===me?m.away_score:m.home_score):null;
+    h=`<div class="box"><b>Week ${wk}: vs ${esc(opp)}</b> — final ${mine!=null?mine+'-'+theirs:'n/a'}</div>`;
+  }else{
+    const e=edge(me,opp),pr=D.power.findIndex(x=>x.team===opp)+1,st=D.standings.find(x=>x.team===opp);
+    const label=e.b>=6?'<span class="good">favorable</span>':e.b<=3?'<span class="bad">tough</span>':'<span class="mut">even</span>';
+    h=`<div class="box"><b>Week ${wk}: vs <span class="me">${esc(opp)}</span></b>${wk===D.week?' (this week)':''} — ${label} · power rank ${pr}${st?' · record '+st.wins+'-'+st.losses+'-'+st.ties:''}</div>
+    <p class="note">${profile(me,opp)}</p>`;
+  }
+  h+='<table style="margin-top:10px"><tr><th>Week</th><th>Opponent</th><th class=n>You lead</th><th>Outlook</th></tr>'+
+    s.map((o,k)=>{const c=canon(o),e=c?edge(me,c):null,state=k+1<D.week?'played':k+1===D.week?'this week':'upcoming';
+      return `<tr class="${k===i?'hl':''}"><td>${k+1}</td><td>${esc(c||o)}</td><td class="n">${e?e.b+' of 9':'–'}</td><td class="${state==='played'?'mut':''}">${state}${e&&state!=='played'?' · '+(e.b>=6?'favorable':e.b<=3?'tough':'even'):''}</td></tr>`}).join('')+'</table><p class="note">"You lead" compares season category ranks, so it gets sharper as more weeks are played.</p>';
+  $('sched').innerHTML=h;
+}
+
 function renderSearch(me){
   const q=norm($('q').value.trim()),fao=$('fao').checked;
   if(!q){$('search').innerHTML='<span class="mut">Type part of a name to see his averages, status and who owns him.</span>';return}
@@ -261,7 +319,7 @@ function renderSearch(me){
 
 function render(){
   const me=D.power.map(p=>p.team).find(isMe)||D.power[0].team;
-  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);renderLog();
+  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);renderLog();renderSchedule(me);
 }
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   D=d;
