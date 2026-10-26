@@ -18,6 +18,7 @@ select{background:var(--card);color:var(--tx);border:1px solid var(--ln);border-
 .note{color:var(--mut);font-size:13px;margin:8px 0 0;white-space:normal}.box{white-space:normal}
 a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
 .hl{background:#ff9f1c22}
+.bar{display:inline-block;height:10px;border-radius:5px;background:var(--good);vertical-align:middle}.barbg{display:inline-block;width:110px;height:10px;border-radius:5px;background:var(--ln);vertical-align:middle;overflow:hidden}
 </style></head><body>
 <h1>War Room</h1><div class="sub" id="sub">Loading…</div>
 
@@ -29,6 +30,7 @@ a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
 <div class="card"><h2>Free agents (sorted by what you need)</h2><div id="fa"></div></div>
 <div class="card"><h2>Player search</h2><input id="q" placeholder="Type a player name…" style="width:100%;max-width:340px;padding:8px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx)"> <label class="mut"><input type="checkbox" id="fao"> Free agents only</label><div id="search" style="margin-top:10px"></div></div>
 <div class="card"><h2>News</h2><label class="mut"><input type="checkbox" id="mine" checked> My players only</label><div id="news" style="margin-top:8px"></div></div>
+<div class="card"><h2>Trade &amp; transaction log</h2><select id="lt"><option value="">All moves</option><option value="TRADE">Trades</option><option value="ADD">Adds</option><option value="DROP">Drops</option></select> <select id="lteam"></select><div id="log" style="margin-top:10px"></div></div>
 <div class="card"><h2>Power ranking (sum of category ranks, 10 = best per category)</h2><div id="power"></div></div>
 <div class="card"><h2>Category matrix (per-week average, rank 1 = best)</h2><div id="cats"></div></div>
 <div class="grid">
@@ -65,6 +67,36 @@ const z=(p,c)=>{const s=zstats()[c],v=p.avg&&p.avg[c];if(v==null)return 0;return
 const zsum=(p,cats)=>cats.reduce((s,c)=>s+z(p,c),0);
 const hasStats=p=>p.avg&&p.avg.PTS!=null;
 const statCells=(p,need)=>D.cats.map(c=>`<td class="n ${need&&need.includes(c)?'hl':''}">${fmt(c,p.avg&&p.avg[c])}</td>`).join('');
+const gm=p=>{const g=D.games&&D.games.by_team&&D.games.by_team[p.team];return g||null};
+const gcell=p=>{const g=gm(p);return g?`<td class="n">${g.rest}/${g.next}</td>`:'<td class="n mut">–</td>'};
+const BASE={PTS:6.5,REB:2.9,AST:2.3,STL:.95,BLK:.9,'3PM':1.3,TO:1.3};
+const Phi=x=>{const t=1/(1+0.2316419*Math.abs(x));const d=0.3989423*Math.exp(-x*x/2);const p=d*t*(0.3193815+t*(-0.3565638+t*(1.781478+t*(-1.821256+t*1.330274))));return x>0?1-p:p};
+const elapsed=()=>D.games&&D.games.days_left?Math.min(Math.max((7-D.games.days_left)/7,0),1):0;
+function project(team,cur){
+  const act=(D.rosters[team]||[]).filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
+  const el=elapsed(),out={},n=act.reduce((s,p)=>s+(gm(p)?gm(p).rest:0),0);
+  D.cats.forEach(c=>{
+    if(pct(c)){
+      let w=0,sum=0;act.forEach(p=>{const g=gm(p),gl=g?g.rest:0;if(p.avg[c]!=null){const v=p.avg[c]>1?p.avg[c]/100:p.avg[c];w+=gl;sum+=v*gl}});
+      const pa=w?sum/w:(cur[c]||0.45);
+      out[c]={proj:(cur[c]||0)*el+pa*(1-el),sd:0.035*Math.sqrt(1-el)+0.005};
+    }else{
+      let add=0;act.forEach(p=>{const g=gm(p),gl=g?g.rest:0;if(p.avg[c]!=null)add+=p.avg[c]*gl});
+      out[c]={proj:(cur[c]||0)+add,sd:BASE[c]*Math.sqrt(Math.max(n,1))};
+    }
+  });
+  out._games=n;return out;
+}
+function winProb(me,opp,mine,theirs){
+  const a=project(me,mine),b=project(opp,theirs),probs={};
+  D.cats.forEach(c=>{
+    const diff=low(c)?b[c].proj-a[c].proj:a[c].proj-b[c].proj;
+    probs[c]=Phi(diff/Math.sqrt(a[c].sd**2+b[c].sd**2));
+  });
+  let dist=[1];D.cats.forEach(c=>{const q=probs[c],nd=new Array(dist.length+1).fill(0);dist.forEach((v,k)=>{nd[k]+=v*(1-q);nd[k+1]+=v*q});dist=nd});
+  const need=Math.floor(D.cats.length/2)+1;
+  return{probs,pwin:dist.slice(need).reduce((x,y)=>x+y,0),exp:D.cats.reduce((s,c)=>s+probs[c],0),gMe:a._games,gOpp:b._games};
+}
 const norm=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
 function cmp(c,a,b){
@@ -94,11 +126,21 @@ function renderMatch(me){
       const tag=pun?'<span class="mut">punted</span>':r.res==='W'?'<span class="good">winning</span>':r.res==='L'?'<span class="bad">losing</span>':'tied';
       rows+=`<tr><td>${c}</td><td class="n">${fmt(c,a)}</td><td class="n">${fmt(c,b)}</td><td>${tag}${r.close&&!pun?' · close':''}</td></tr>`;
     });
+    const mineV={},theirV={};D.cats.forEach(c=>{if(m.cats[c]){mineV[c]=m.cats[c][side];theirV[c]=m.cats[c][os]}});
+    let wp='';
+    const haveStats=(D.rosters[me]||[]).some(hasStats)&&D.games&&D.games.by_team;
+    if(haveStats){
+      const r=winProb(me,opp,mineV,theirV);
+      const sw=D.cats.filter(c=>r.probs[c]>0.3&&r.probs[c]<0.7&&!punts.includes(c));
+      wp=`<p class="note" style="margin-top:12px"><b>Win probability (rough projection)</b><br>Chance to win the matchup: <b>${Math.round(r.pwin*100)}%</b> · expected categories: <b>${r.exp.toFixed(1)}</b> of ${D.cats.length}<br>Games left for active lineups: you <b>${r.gMe}</b> vs ${esc(opp)} <b>${r.gOpp}</b></p>
+      <table>${D.cats.map(c=>`<tr class="${punts.includes(c)?'mut':''}"><td>${c}</td><td><span class="barbg"><span class="bar" style="width:${Math.round(r.probs[c]*110)}px"></span></span></td><td class="n">${Math.round(r.probs[c]*100)}%</td></tr>`).join('')}</table>
+      <p class="note"><b>Swing categories (30–70%, worth targeting):</b> ${chips(sw,'g')}<br>Projection = current totals + each active player's per-game average x games left. Punted categories still count in the real result, so they are included here but dimmed.</p>`;
+    }
     h=`<div class="box"><b>Week ${m.week}: you vs <span class="me">${esc(opp)}</span></b> — winning ${w}, losing ${l} (punted categories not counted)</div>
     <table><tr><th>Cat</th><th class=n>You</th><th class=n>${esc(opp)}</th><th>Status</th></tr>${rows}</table>
     <p class="note"><b>Push now (close):</b> ${chips(close,'g')}<br><b>Likely lost (not close):</b> ${chips(lost,'b')}<br>
     Close categories are where one pickup or a good lineup can swing the week. Don't spend moves on the ones that aren't close.</p>
-    <p class="note">${profile(me,opp)}</p>`;
+    <p class="note">${profile(me,opp)}</p>${wp}`;
   }
   const nx=D.schedule&&D.schedule[me]&&D.schedule[me][D.week];
   if(nx&&D.category_table.PTS.some(x=>x.team===nx))h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
@@ -159,6 +201,11 @@ function renderAlerts(me){
     if(p.slot==='IR'&&p.injury==='ACTIVE')out.push(`<b>${esc(p.name)}</b> shows as healthy on ESPN but is in an IR slot — check if he can come back and free the slot.`);
     if(p.injury==='DAY_TO_DAY')out.push(`<b>${esc(p.name)}</b> is day-to-day.`);
   });
+  if(D.games&&D.games.by_team){
+    const idle=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&gm(p)&&gm(p).rest===0).map(p=>esc(p.name));
+    const benchG=r.filter(p=>p.slot==='BE'&&p.injury!=='OUT'&&gm(p)&&gm(p).rest>0).map(p=>esc(p.name)+' ('+gm(p).rest+')');
+    if(idle.length)out.push(`No games left this week for starters: <b>${idle.join(', ')}</b>.${benchG.length?' Bench players who still play: '+benchG.join(', ')+'.':''}`);
+  }
   const others=[];
   Object.keys(D.rosters).filter(t=>t!==me).forEach(t=>D.rosters[t].filter(p=>p.injury==='OUT'||p.injury==='DAY_TO_DAY').forEach(p=>others.push(`${esc(p.name)} <span class="mut">(${esc(t)}, ${esc(p.injury)})</span>`)));
   const act=D.cats.filter(c=>!punts.includes(c));
@@ -173,11 +220,11 @@ function renderFA(me){
   if(!fa.length){$('fa').innerHTML='<span class="mut">No free-agent data yet. If this stays empty after a run, send me the Actions log.</span>';return}
   const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
   const mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
-  const sc=p=>need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0);
+  const sc=p=>{const g=gm(p);return need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0)*(g?g.rest+0.5:3)};
   const sorted=[...fa].sort((a,b)=>sc(b)-sc(a)).slice(0,15);
   $('fa').innerHTML=`<p class="note" style="margin:0 0 8px">You need: ${chips(need,'b')} (punted: ${punts.join(', ')||'none'}). Averages are ESPN's recent numbers, not guaranteed.</p>
-  <table><tr><th>Player</th><th>Pos</th><th>Status</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
-  sorted.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${D.cats.map(c=>`<td class="n ${need.includes(c)?'hl':''}">${fmt(c,(p.avg||{})[c])}</td>`).join('')}</tr>`).join('')+'</table>';
+  <table><tr><th>Player</th><th>Pos</th><th>Status</th><th class=n>Games</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+  sorted.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${D.cats.map(c=>`<td class="n ${need.includes(c)?'hl':''}">${fmt(c,(p.avg||{})[c])}</td>`).join('')}</tr>`).join('')+'</table><p class="note">Games = left this week / next week. Sorted by what you need x games left this week.</p>';
 }
 
 function renderNews(me){
@@ -190,19 +237,31 @@ function renderNews(me){
   $('news').innerHTML=list.length?'<ul>'+list.map(n=>`<li class="${hit(n)?'hl':''}"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="mut">${esc(n.source)} · ${esc(n.published)}</span></li>`).join('')+'</ul>':'<span class="mut">No news mentions your players right now. Untick the box to see all news.</span>';
 }
 
+function renderLog(){
+  const items=(D.log&&D.log.length?D.log:D.activity)||[];
+  const t=$('lt').value,tm=$('lteam').value;
+  const kind=a=>{const x=String(a).toUpperCase();return x.includes('TRADE')?'TRADE':x.includes('DROP')?'DROP':x.includes('ADD')?'ADD':'OTHER'};
+  const list=items.filter(x=>(!t||kind(x.action)===t)&&(!tm||x.team===tm));
+  const tally={};items.forEach(x=>tally[x.team]=(tally[x.team]||0)+1);
+  const top=Object.entries(tally).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(k)} (${v})`);
+  $('log').innerHTML=`<p class="note" style="margin:0 0 8px"><b>Most active:</b> ${top.join(' · ')}</p><table><tr><th>When</th><th>Team</th><th>Move</th><th>Player</th></tr>`+
+   list.slice(0,60).map(x=>`<tr><td class="mut">${esc(String(x.date).replace('T',' ').slice(0,16))}</td><td class="${cls(x.team)}">${esc(x.team)}</td><td>${esc(x.action)}</td><td>${esc(x.player)}</td></tr>`).join('')+'</table>'+
+   `<p class="note">History builds up over time as the page keeps collecting moves (up to 600). Times are in UTC.</p>`;
+}
+
 function renderSearch(me){
   const q=norm($('q').value.trim()),fao=$('fao').checked;
   if(!q){$('search').innerHTML='<span class="mut">Type part of a name to see his averages, status and who owns him.</span>';return}
   const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
   const res=allP().filter(p=>norm(p.name).includes(q)&&(!fao||p.owner==='Free agent')).slice(0,25);
-  $('search').innerHTML=res.length?`<table><tr><th>Player</th><th>Owner</th><th>Pos</th><th>Status</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
-   res.map(p=>`<tr><td>${esc(p.name)}</td><td class="${p.owner==='Free agent'?'good':cls(p.owner)}">${esc(p.owner)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${statCells(p,need)}</tr>`).join('')+'</table>'+
+  $('search').innerHTML=res.length?`<table><tr><th>Player</th><th>Owner</th><th>Pos</th><th>Status</th><th class=n>Games</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+   res.map(p=>`<tr><td>${esc(p.name)}</td><td class="${p.owner==='Free agent'?'good':cls(p.owner)}">${esc(p.owner)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,need)}</tr>`).join('')+'</table>'+
    '<p class="note">Highlighted columns are categories you need. Only the top 200 free agents are searchable; if a player is missing, check ESPN directly.</p>':'<span class="mut">No match.</span>';
 }
 
 function render(){
   const me=D.power.map(p=>p.team).find(isMe)||D.power[0].team;
-  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);
+  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);renderLog();
 }
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   D=d;
@@ -219,9 +278,10 @@ fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   $('act').innerHTML='<table>'+d.activity.slice(0,25).map(a=>`<tr><td>${esc(a.team)}</td><td>${esc(a.action)}</td><td>${esc(a.player)}</td></tr>`).join('')+'</table>';
   const sel=$('team');Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
   const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;
-  const show=()=>$('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
-   d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${statCells(p,null)}</tr>`).join('')+'</table>';
+  const show=()=>$('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th><th class=n>Games</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+   d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,null)}</tr>`).join('')+'</table>';
   sel.onchange=show;show();
+  const ls=$('lteam');ls.add(new Option('All teams',''));Object.keys(d.rosters).forEach(t=>ls.add(new Option(t,t)));ls.onchange=()=>renderLog();$('lt').onchange=()=>renderLog();
   $('mine').onchange=()=>render();$('q').oninput=()=>render();$('fao').onchange=()=>render();
   render();
 }).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
