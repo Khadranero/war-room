@@ -1,10 +1,13 @@
 name: Update war room
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency:
+  group: war-room
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
