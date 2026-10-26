@@ -36,6 +36,19 @@ def player_avgs(p):
                 return out
     return {}
 
+def player_proj(p):
+    """Projection-style baseline (less noisy than a few early games)."""
+    stats = getattr(p, "stats", None) or {}
+    for key in (f"{YEAR}_projected", f"{YEAR - 1}_total"):
+        blk = stats.get(key)
+        if isinstance(blk, dict):
+            a = blk.get("avg") or {}
+            if a:
+                out = {c: a.get(c) for c in CATS if a.get(c) is not None}
+                out["_src"] = key
+                return out
+    return {}
+
 standings = [{
     "team": name(t), "wins": t.wins, "losses": t.losses, "ties": getattr(t, "ties", 0),
     "rank": getattr(t, "standing", None),
@@ -86,6 +99,7 @@ for t in league.teams:
         "injury": getattr(p, "injuryStatus", "ACTIVE"),
         "team": getattr(p, "proTeam", ""),
         "avg": player_avgs(p),
+        "proj": player_proj(p),
     } for p in t.roster]
 
 activity = []
@@ -106,14 +120,14 @@ try:
 except Exception as e:
     print(f"schedule: {e}", file=sys.stderr)
 
-# ---- free agents with whatever averages ESPN gives ----
+# ---- free agents with averages ----
 free_agents = []
 try:
     for p in league.free_agents(size=200):
         free_agents.append({
             "name": p.name, "pos": getattr(p, "position", ""), "team": getattr(p, "proTeam", ""),
             "injury": getattr(p, "injuryStatus", "ACTIVE"),
-            "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p)})
+            "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p), "proj": player_proj(p)})
 except Exception as e:
     print(f"free agents: {e}", file=sys.stderr)
 
