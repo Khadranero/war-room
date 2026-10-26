@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T22:50:31.641187Z",
+ "updated": "2026-10-26T23:00:30.508637Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1053,7 +1053,7 @@
    {
     "name": "Donovan Mitchell",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -1084,7 +1084,7 @@
    {
     "name": "Cooper Flagg",
     "pos": "SF",
-    "slot": "IR",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -1177,7 +1177,7 @@
    {
     "name": "LeBron James",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -1425,7 +1425,7 @@
    {
     "name": "Andrew Nembhard",
     "pos": "PG",
-    "slot": "SG",
+    "slot": "IR",
     "injury": "OUT",
     "team": "IND",
     "avg": {
@@ -8209,7 +8209,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 11.0,
