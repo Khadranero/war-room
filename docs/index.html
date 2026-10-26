@@ -22,13 +22,17 @@ a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
 </style></head><body>
 <h1>War Room</h1><div class="sub" id="sub">Loading…</div>
 
+<div class="card"><h2>Weekly recap</h2><div id="recap"></div></div>
 <div class="card"><h2>My matchup this week</h2><div id="match"></div></div>
 <div class="card"><h2>Schedule &amp; upcoming opponents</h2><select id="wk"></select><div id="sched" style="margin-top:10px"></div></div>
+<div class="card"><h2>Playoff tracker</h2><label class="mut">Playoff spots: <select id="po"><option>4</option><option selected>6</option><option>8</option></select></label><div id="playoffs" style="margin-top:10px"></div></div>
 <div class="grid">
 <div class="card"><h2>Punt advisor</h2><div id="punt"></div></div>
 <div class="card"><h2>Trade partners</h2><div id="trade"></div></div></div>
 <div class="card"><h2>Lineup alerts</h2><div id="alerts"></div></div>
 <div class="card"><h2>Free agents (sorted by what you need)</h2><div id="fa"></div></div>
+<div class="card"><h2>Waiver trends (who is being picked up)</h2><div id="trends"></div></div>
+<div class="card"><h2>Streaming planner (day by day)</h2><div id="stream"></div></div>
 <div class="card"><h2>Player search</h2><input id="q" placeholder="Type a player name…" style="width:100%;max-width:340px;padding:8px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx)"> <label class="mut"><input type="checkbox" id="fao"> Free agents only</label><div id="search" style="margin-top:10px"></div></div>
 <div class="card"><h2>News</h2><label class="mut"><input type="checkbox" id="mine" checked> My players only</label><div id="news" style="margin-top:8px"></div></div>
 <div class="card"><h2>Trade &amp; transaction log</h2><select id="lt"><option value="">All moves</option><option value="TRADE">Trades</option><option value="ADD">Adds</option><option value="DROP">Drops</option></select> <select id="lteam"></select><div id="log" style="margin-top:10px"></div></div>
@@ -307,6 +311,98 @@ function renderSchedule(me){
   $('sched').innerHTML=h;
 }
 
+
+function needFn(me){
+  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
+  const fa=D.free_agents||[],mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
+  return{need,score:p=>need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0)};
+}
+function renderTrends(me){
+  const fa=D.free_agents||[],H=D.pct_hist||{},nf=needFn(me);
+  const rows=fa.map(p=>{const h=H[p.name]||[];if(h.length<2)return null;const a=h[0],b=h[h.length-1];return{p,chg:b[1]-a[1],hrs:Math.round((b[0]-a[0])/60),now:b[1]}})
+    .filter(x=>x&&x.hrs>=1).sort((a,b)=>b.chg-a.chg).slice(0,12);
+  if(!rows.length){$('trends').innerHTML='<span class="mut">Collecting data. This fills in after a few updates (it needs at least an hour of history).</span>';return}
+  $('trends').innerHTML='<table><tr><th>Player</th><th>Pos</th><th class=n>Owned %</th><th class=n>Change</th><th>Over</th><th class=n>Games</th><th>Fits your needs</th></tr>'+
+   rows.map(x=>{const fits=nf.need.filter(c=>z(x.p,c)>0.3);return `<tr><td>${esc(x.p.name)}</td><td>${esc(x.p.pos)}</td><td class="n">${x.now.toFixed(1)}</td><td class="n ${x.chg>0?'good':x.chg<0?'bad':''}">${x.chg>0?'+':''}${x.chg.toFixed(1)}</td><td class="mut">${x.hrs}h</td>${gcell(x.p)}<td>${chips(fits,'g')}</td></tr>`}).join('')+
+   '</table><p class="note">Players whose ownership is climbing fastest are getting picked up by other teams. If one fits what you need, add him before he is gone.</p>';
+}
+
+function renderStream(me){
+  const G=D.games;
+  if(!G||!G.by_day||!G.days){$('stream').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
+  const r=D.rosters[me]||[],fa=(D.free_agents||[]).filter(p=>p.injury==='ACTIVE'),nf=needFn(me);
+  const starters=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT');
+  const rows=G.days.slice(0,7).map(d=>{
+    const on=new Set(G.by_day[d]||[]);
+    const st=starters.filter(p=>on.has(p.team)).length;
+    const bench=r.filter(p=>p.slot==='BE'&&p.injury!=='OUT'&&on.has(p.team)).map(p=>esc(p.name));
+    const str=fa.filter(p=>on.has(p.team)).sort((a,b)=>nf.score(b)-nf.score(a)).slice(0,3).map(p=>esc(p.name));
+    const label=new Date(d+'T12:00:00').toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric'});
+    const light=starters.length&&st<starters.length*0.6;
+    return `<tr><td>${label}${d===G.today?' <span class="mut">(today)</span>':''}</td><td class="n">${st}/${starters.length}</td><td>${light?'<span class="chip b">light day</span>':''}</td><td class="box">${bench.join(', ')||'<span class="mut">none</span>'}</td><td class="box">${str.join(', ')||'<span class="mut">none</span>'}</td></tr>`;
+  }).join('');
+  $('stream').innerHTML=`<table><tr><th>Day</th><th class=n>Starters playing</th><th></th><th>Bench players who play</th><th>Best free agents who play</th></tr>${rows}</table>
+  <p class="note">Use light days to start bench players or stream a free agent who plays that day. Free agents are ranked by what you need. Times are US Eastern dates, so a late game can fall on the next day where you are.</p>`;
+}
+
+let PO=6;try{const v=+localStorage.getItem('poteams');if([4,6,8].includes(v))PO=v}catch(e){}
+function renderPlayoffs(me){
+  const sel=$('po');sel.value=String(PO);
+  const sc={};D.power.forEach(p=>sc[p.team]=p.score);
+  const teams=D.standings.map(x=>x.team),rec={};D.standings.forEach(x=>rec[x.team]=x);
+  const matches=[],sched=D.schedule||{};
+  Object.keys(sched).forEach(t=>{const tc=canon(t);(sched[t]||[]).forEach((o,i)=>{const oc=canon(o);if(i+1<D.week||!tc||!oc||tc===oc||tc>oc)return;matches.push([tc,oc])})});
+  if(!matches.length){$('playoffs').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
+  let seed=12345;const rnd=()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+  const N=2500,po={},top2={},avgW={};teams.forEach(t=>{po[t]=0;top2[t]=0;avgW[t]=0});
+  for(let it=0;it<N;it++){
+    const w={};teams.forEach(t=>w[t]=rec[t].wins+0.5*rec[t].ties);
+    matches.forEach(([a,b])=>{const p=1/(1+Math.exp(-((sc[a]||0)-(sc[b]||0))/8));if(rnd()<p)w[a]++;else w[b]++});
+    const order=[...teams].sort((a,b)=>(w[b]-w[a])||(rnd()-0.5));
+    order.forEach((t,i)=>{if(i<PO)po[t]++;if(i<2)top2[t]++;avgW[t]+=w[t]});
+  }
+  const list=[...teams].sort((a,b)=>po[b]-po[a]);
+  const sorted=[...D.standings].sort((a,b)=>b.wins-a.wins),cut=sorted[PO-1]?sorted[PO-1].wins:0;
+  $('playoffs').innerHTML='<table><tr><th>Team</th><th class=n>Record</th><th class=n>Proj. wins</th><th class=n>Make playoffs</th><th class=n>Top-2 seed</th></tr>'+
+   list.map(t=>`<tr><td class="${cls(t)}">${esc(t)}</td><td class="n">${rec[t].wins}-${rec[t].losses}-${rec[t].ties}</td><td class="n">${(avgW[t]/N).toFixed(1)}</td><td class="n">${Math.round(po[t]/N*100)}%</td><td class="n">${Math.round(top2[t]/N*100)}%</td></tr>`).join('')+'</table>'+
+   `<p class="note">${matches.length} regular-season matchups left are simulated 2,500 times using each team's category strength (the power ranking), so early in the season this is a rough guide. Wins behind the cut line right now: you have ${rec[me]?rec[me].wins:0}, the line is ${cut}. Your playoff bracket runs Feb 15 to Mar 7, and the two-week All-Star break may change the number of regular-season weeks, so check that the number of spots matches your league settings.</p>`;
+}
+
+function weekNum(me){return D.week}
+function renderRecap(me){
+  const wk=D.week>1?D.week-1:D.week,live=D.week===1;
+  const m=D.matchups.find(x=>x.week===wk&&(x.home===me||x.away===me));
+  const L=[];
+  if(m){
+    const side=m.home===me?'home':'away',os=side==='home'?'away':'home',opp=side==='home'?m.away:m.home;
+    const won=[],lost=[],margins=[];
+    D.cats.forEach(c=>{const v=m.cats[c];if(!v)return;const a=v[side],b=v[os];const r=cmp(c,a,b);
+      if(r.res==='W')won.push(c);else if(r.res==='L')lost.push(c);
+      if(r.res==='L'&&r.close)margins.push(c+' ('+fmt(c,a)+' vs '+fmt(c,b)+')')});
+    const mine=m.home===me?m.home_score:m.away_score,theirs=m.home===me?m.away_score:m.home_score;
+    L.push(`Week ${wk}${live?' so far':''} vs ${opp.trim()}: ${mine}-${theirs} (${won.length>lost.length?'win':won.length<lost.length?'loss':'tie'}). Won: ${won.join(', ')||'none'}. Lost: ${lost.join(', ')||'none'}.`);
+    if(margins.length)L.push(`Closest losses (could have been wins): ${margins.join(', ')}.`);
+  }
+  const st=D.standings.find(x=>x.team===me),pr=D.power.findIndex(x=>x.team===me)+1;
+  if(st)L.push(`Standing: ${st.rank??'–'} of 10, record ${st.wins}-${st.losses}-${st.ties}. Power ranking: ${pr} of 10.`);
+  const cur=D.matchups.find(x=>x.week===D.week&&(x.home===me||x.away===me));
+  if(cur&&D.games&&D.games.by_team&&(D.rosters[me]||[]).some(hasStats)){
+    const side=cur.home===me?'home':'away',os=side==='home'?'away':'home',opp=side==='home'?cur.away:cur.home;
+    const a={},b={};D.cats.forEach(c=>{if(cur.cats[c]){a[c]=cur.cats[c][side];b[c]=cur.cats[c][os]}});
+    const r=winProb(me,opp,a,b),sw=D.cats.filter(c=>r.probs[c]>0.3&&r.probs[c]<0.7);
+    L.push(`This week vs ${opp.trim()}: ${Math.round(r.pwin*100)}% to win, about ${r.exp.toFixed(1)} of 9 categories. Swing categories: ${sw.join(', ')||'none'}.`);
+  }
+  const wkAgo=Date.now()-7*864e5;
+  const recent=((D.log&&D.log.length?D.log:D.activity)||[]).filter(x=>{const t=Date.parse(x.date);return !isNaN(t)&&t>=wkAgo});
+  const trades=recent.filter(x=>String(x.action).toUpperCase().includes('TRADE')),mineMoves=recent.filter(x=>x.team===me);
+  L.push(`League moves in the last 7 days: ${recent.length} (${trades.length} trade${trades.length===1?'':'s'}). Yours: ${mineMoves.length}.`);
+  const hurt=(D.rosters[me]||[]).filter(p=>p.injury!=='ACTIVE').map(p=>p.name+' ('+p.injury+')');
+  if(hurt.length)L.push(`Injuries to watch: ${hurt.join(', ')}.`);
+  const nf=needFn(me);L.push(`Weakest categories: ${[...D.cats].sort((x,y)=>rk(y,me)-rk(x,me)).slice(0,3).map(c=>c+' ('+rk(c,me)+')').join(', ')}. Punting: ${punts.join(', ')||'none'}.`);
+  $('recap').innerHTML='<ul class="box">'+L.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul><button id="cp" style="padding:6px 12px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx);cursor:pointer">Copy recap</button> <span id="cpm" class="mut"></span>';
+  $('cp').onclick=()=>{const t=L.join('\n');try{navigator.clipboard.writeText(t).then(()=>{$('cpm').textContent='Copied'},()=>{$('cpm').textContent='Could not copy'})}catch(e){$('cpm').textContent='Could not copy'}};
+}
+
 function renderSearch(me){
   const q=norm($('q').value.trim()),fao=$('fao').checked;
   if(!q){$('search').innerHTML='<span class="mut">Type part of a name to see his averages, status and who owns him.</span>';return}
@@ -319,7 +415,7 @@ function renderSearch(me){
 
 function render(){
   const me=D.power.map(p=>p.team).find(isMe)||D.power[0].team;
-  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);renderLog();renderSchedule(me);
+  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);renderLog();renderSchedule(me);renderTrends(me);renderStream(me);renderPlayoffs(me);renderRecap(me);
 }
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   D=d;
@@ -340,6 +436,7 @@ fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
    d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,null)}</tr>`).join('')+'</table>';
   sel.onchange=show;show();
   const ls=$('lteam');ls.add(new Option('All teams',''));Object.keys(d.rosters).forEach(t=>ls.add(new Option(t,t)));ls.onchange=()=>renderLog();$('lt').onchange=()=>renderLog();
+  $('po').onchange=()=>{PO=+$('po').value;try{localStorage.setItem('poteams',String(PO))}catch(e){}renderPlayoffs(D.power.map(p=>p.team).find(isMe)||D.power[0].team)};
   $('mine').onchange=()=>render();$('q').oninput=()=>render();$('fao').onchange=()=>render();
   render();
 }).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
