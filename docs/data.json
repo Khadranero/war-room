@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:40:22.456482Z",
+ "updated": "2026-10-27T06:50:28.143545Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5390,6 +5390,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-27T06:46:46.632000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaylen Wells"
+  },
+  {
+   "date": "2026-10-27T06:46:46.632000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Julian Champagnie"
+  },
+  {
    "date": "2026-10-27T06:04:13.065000",
    "team": "Team Batrouni",
    "action": "DROPPED",
@@ -5712,18 +5724,6 @@
    "team": "Rubio Bzeit ",
    "action": "FA ADDED",
    "player": "Wendell Carter Jr."
-  },
-  {
-   "date": "2026-10-23T13:19:31.204000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Devin Vassell"
-  },
-  {
-   "date": "2026-10-23T13:19:31.204000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Alex Caruso"
   }
  ],
  "schedule": {
@@ -6157,37 +6157,6 @@
    }
   },
   {
-   "name": "Julian Champagnie",
-   "pos": "SF",
-   "team": "SAS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.666666666666666,
-    "REB": 2.6666666666666665,
-    "AST": 1.3333333333333333,
-    "STL": 2.0,
-    "BLK": 2.0,
-    "3PM": 2.3333333333333335,
-    "FG%": 0.42857143,
-    "FT%": 1.0,
-    "TO": 0.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.78048780487805,
-    "REB": 5.402439024390244,
-    "AST": 1.5,
-    "STL": 0.6951219512195121,
-    "BLK": 0.5,
-    "3PM": 2.317073170731707,
-    "FG%": 0.433,
-    "FT%": 0.85,
-    "TO": 0.8048780487804879,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Collin Gillespie",
    "pos": "PG",
    "team": "PHO",
@@ -6482,6 +6451,37 @@
     "FG%": 0.439,
     "FT%": 0.831,
     "TO": 2.306451612903226,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jaylen Wells",
+   "pos": "SF",
+   "team": "MEM",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 14.75,
+    "REB": 4.25,
+    "AST": 1.5,
+    "STL": 1.5,
+    "BLK": 0.0,
+    "3PM": 2.25,
+    "FG%": 0.6,
+    "FT%": 0.66666667,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 11.577464788732394,
+    "REB": 3.0985915492957745,
+    "AST": 1.5070422535211268,
+    "STL": 0.8028169014084507,
+    "BLK": 0.09859154929577464,
+    "3PM": 1.7605633802816902,
+    "FG%": 0.43,
+    "FT%": 0.788,
+    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -11746,6 +11746,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-27T06:46:46.632000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaylen Wells"
+  },
+  {
+   "date": "2026-10-27T06:46:46.632000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Julian Champagnie"
+  },
   {
    "date": "2026-10-27T06:04:13.065000",
    "team": "Team Batrouni",
