@@ -1,47 +1,95 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>War Room</title>
 <style>
-:root{--bg:#0f1218;--card:#181d27;--tx:#e8ecf3;--mut:#8b95a8;--ac:#ff9f1c;--good:#3ddc97;--bad:#ff5d73;--ln:#262d3b}
-@media(prefers-color-scheme:light){:root{--bg:#f4f6fa;--card:#fff;--tx:#161b26;--mut:#5d6779;--ln:#e1e5ee}}
-*{box-sizing:border-box}body{margin:0 auto;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,sans-serif;padding:16px;max-width:1100px}
-h1{margin:0 0 2px;font-size:22px}.sub{color:var(--mut);font-size:13px;margin-bottom:16px}
-.card{background:var(--card);border:1px solid var(--ln);border-radius:12px;padding:14px;margin-bottom:14px;overflow-x:auto}
-h2{margin:0 0 10px;font-size:15px;color:var(--ac);text-transform:uppercase;letter-spacing:.06em}
-table{border-collapse:collapse;width:100%}th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--ln);white-space:nowrap}
-th{color:var(--mut);font-weight:600;font-size:12px}td.n,th.n{text-align:right}
+:root{--bg:#0d1017;--bg2:#131825;--card:#171c28;--tx:#e8ecf3;--mut:#8b95a8;--ac:#ff9f1c;--good:#3ddc97;--bad:#ff5d73;--ln:#252c3b;--r:14px}
+@media(prefers-color-scheme:light){:root{--bg:#f2f4f9;--bg2:#e9edf5;--card:#fff;--tx:#161b26;--mut:#5d6779;--ln:#e1e5ee}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,sans-serif}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px 40px}
+header{padding:22px 0 10px}
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+h1{margin:0;font-size:26px;letter-spacing:-.02em}h1 span{color:var(--ac)}
+.sub{color:var(--mut);font-size:13px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:16px 0 4px}
+.kpi{background:var(--card);border:1px solid var(--ln);border-radius:var(--r);padding:10px 14px}
+.kpi b{display:block;font-size:22px;line-height:1.2}.kpi span{font-size:12px;color:var(--mut)}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--ln);display:flex;gap:6px;overflow-x:auto;margin-bottom:16px}
+nav button{flex:0 0 auto;border:1px solid transparent;background:transparent;color:var(--mut);padding:8px 16px;border-radius:99px;font:inherit;font-weight:600;cursor:pointer}
+nav button.on{background:var(--ac);color:#1a1200}
+.panel{display:none}.panel.on{display:block}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:var(--r);padding:16px;margin-bottom:16px;overflow-x:auto}
+h2{margin:0 0 4px;font-size:16px}
+.hint{color:var(--mut);font-size:13px;margin:0 0 12px}
+h3{margin:16px 0 6px;font-size:13px;color:var(--ac);text-transform:uppercase;letter-spacing:.06em}
+table{border-collapse:collapse;width:100%}th,td{padding:7px 9px;text-align:left;border-bottom:1px solid var(--ln);white-space:nowrap}
+th{color:var(--mut);font-weight:600;font-size:12px}td.n,th.n{text-align:right}tr:last-child td{border-bottom:0}
 .me{color:var(--ac);font-weight:700}.inj{color:var(--bad)}.mut{color:var(--mut)}.good{color:var(--good)}.bad{color:var(--bad)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
-select{background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:8px;padding:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+select,input[type=text],input[type=number],#q{background:var(--bg);color:var(--tx);border:1px solid var(--ln);border-radius:10px;padding:8px 10px;font:inherit}
 .r10{background:#3ddc9733}.r9,.r8{background:#3ddc9718}.r1{background:#ff5d7333}.r2,.r3{background:#ff5d7318}
-.chip{display:inline-block;padding:1px 8px;border-radius:99px;font-size:12px;margin:1px 2px;border:1px solid var(--ln)}
-.chip.g{background:#3ddc9722;color:var(--good)}.chip.b{background:#ff5d7322;color:var(--bad)}
-.note{color:var(--mut);font-size:13px;margin:8px 0 0;white-space:normal}.box{white-space:normal}
-a{color:var(--ac)}li{margin:3px 0}ul{margin:6px 0;padding-left:18px}
+.chip{display:inline-block;padding:1px 9px;border-radius:99px;font-size:12px;margin:1px 2px;border:1px solid var(--ln)}
+.chip.g{background:#3ddc9722;color:var(--good);border-color:#3ddc9744}.chip.b{background:#ff5d7322;color:var(--bad);border-color:#ff5d7344}
+.note{color:var(--mut);font-size:13px;margin:10px 0 0;white-space:normal}.box{white-space:normal}
+a{color:var(--ac)}li{margin:4px 0}ul{margin:6px 0;padding-left:18px}
 .hl{background:#ff9f1c22}
 .bar{display:inline-block;height:10px;border-radius:5px;background:var(--good);vertical-align:middle}.barbg{display:inline-block;width:110px;height:10px;border-radius:5px;background:var(--ln);vertical-align:middle;overflow:hidden}
-</style></head><body>
-<h1>War Room</h1><div class="sub" id="sub">Loading…</div>
+.big{font-size:30px;font-weight:800;line-height:1.1}
+.verdict{border-left:4px solid var(--ac);background:var(--bg2);padding:10px 14px;border-radius:8px;margin:12px 0;white-space:normal}
+.picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 12px;max-height:230px;overflow-y:auto;border:1px solid var(--ln);border-radius:10px;padding:8px}
+.pick{display:block;font-size:14px;white-space:normal;cursor:pointer}
+.btn{padding:7px 14px;border-radius:10px;border:1px solid var(--ln);background:var(--bg);color:var(--tx);cursor:pointer;font:inherit}
+.heat{text-align:center;font-size:12px;min-width:46px}
+@media(max-width:600px){h1{font-size:22px}.big{font-size:26px}}
+</style></head><body><div class="wrap">
+<header><div class="top"><div><h1>War <span>Room</span></h1><div class="sub" id="sub">Loading…</div></div></div><div class="kpis" id="kpis"></div></header>
+<nav id="nav"><button data-t="overview">Overview</button><button data-t="matchup">Matchup</button><button data-t="roster">My team</button><button data-t="market">Market</button><button data-t="trades">Trades</button><button data-t="league">League</button></nav>
 
-<div class="card"><h2>Weekly recap</h2><div id="recap"></div></div>
-<div class="card"><h2>My matchup this week</h2><div id="match"></div></div>
-<div class="card"><h2>Schedule &amp; upcoming opponents</h2><select id="wk"></select><div id="sched" style="margin-top:10px"></div></div>
-<div class="card"><h2>Playoff tracker</h2><label class="mut">Playoff spots: <select id="po"><option>4</option><option selected>6</option><option>8</option></select></label><div id="playoffs" style="margin-top:10px"></div></div>
+<section class="panel" id="p-overview">
+<div class="card"><h2>Weekly recap</h2><p class="hint">Last week, this week, and what to watch. Copy it for the group chat.</p><div id="recap"></div></div>
 <div class="grid">
-<div class="card"><h2>Punt advisor</h2><div id="punt"></div></div>
-<div class="card"><h2>Trade partners</h2><div id="trade"></div></div></div>
-<div class="card"><h2>Lineup alerts</h2><div id="alerts"></div></div>
-<div class="card"><h2>Free agents (sorted by what you need)</h2><div id="fa"></div></div>
-<div class="card"><h2>Waiver trends (who is being picked up)</h2><div id="trends"></div></div>
-<div class="card"><h2>Streaming planner (day by day)</h2><div id="stream"></div></div>
-<div class="card"><h2>Player search</h2><input id="q" placeholder="Type a player name…" style="width:100%;max-width:340px;padding:8px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx)"> <label class="mut"><input type="checkbox" id="fao"> Free agents only</label><div id="search" style="margin-top:10px"></div></div>
-<div class="card"><h2>News</h2><label class="mut"><input type="checkbox" id="mine" checked> My players only</label><div id="news" style="margin-top:8px"></div></div>
-<div class="card"><h2>Trade &amp; transaction log</h2><select id="lt"><option value="">All moves</option><option value="TRADE">Trades</option><option value="ADD">Adds</option><option value="DROP">Drops</option></select> <select id="lteam"></select><div id="log" style="margin-top:10px"></div></div>
-<div class="card"><h2>Power ranking (sum of category ranks, 10 = best per category)</h2><div id="power"></div></div>
-<div class="card"><h2>Category matrix (per-week average, rank 1 = best)</h2><div id="cats"></div></div>
-<div class="grid">
-<div class="card"><h2>Standings</h2><div id="stand"></div></div>
-<div class="card"><h2>Recent activity</h2><div id="act"></div></div></div>
+<div class="card"><h2>Lineup alerts</h2><p class="hint">Injuries, idle starters, drop candidates.</p><div id="alerts"></div></div>
+<div class="card"><h2>Move budget</h2><p class="hint">Adds used this week and the best day to spend the rest.</p><div id="budget"></div></div></div>
+<div class="card"><h2>Punt advisor</h2><p class="hint">Tick the categories you are giving up. Every tool on the page respects this.</p><div id="punt"></div></div>
+</section>
+
+<section class="panel" id="p-matchup">
+<div class="card"><h2>This week's matchup</h2><p class="hint">Live category score, win probability and swing categories.</p><div id="match"></div></div>
+<div class="card"><h2>Flip finder</h2><p class="hint">Free-agent pickups that raise your chance of winning this week, tested one by one.</p><div id="flip"></div></div>
+<div class="card"><h2>Beast mode: every remaining week</h2><p class="hint">Your estimated chance against each opponent, category by category, from season strength.</p><div id="beast"></div></div>
+<div class="card"><h2>Schedule</h2><select id="wk"></select><div id="sched" style="margin-top:10px"></div></div>
+</section>
+
+<section class="panel" id="p-roster">
+<div class="card"><h2>Daily slots</h2><p class="hint">How many of your lineup slots have a player each day, and who fills the gaps.</p><div id="slots"></div></div>
+<div class="card"><h2>Drop / add recommender</h2><p class="hint">The best swaps between your weakest players and the free-agent pool, with the category effect.</p><div id="dropadd"></div></div>
 <div class="card"><h2>Rosters</h2><select id="team"></select><div id="roster" style="margin-top:10px"></div></div>
+</section>
+
+<section class="panel" id="p-market">
+<div class="card"><h2>Free agents</h2><p class="hint">Sorted by what you need times games left this week.</p><div id="fa"></div></div>
+<div class="card"><h2>Waiver trends</h2><p class="hint">Players whose owned % is climbing fastest.</p><div id="trends"></div></div>
+<div class="card"><h2>Player search</h2><input id="q" placeholder="Type a player name…" style="width:100%;max-width:340px"> <label class="mut"><input type="checkbox" id="fao"> Free agents only</label><div id="search" style="margin-top:10px"></div></div>
+<div class="card"><h2>News</h2><label class="mut"><input type="checkbox" id="mine" checked> My players only</label><div id="news" style="margin-top:8px"></div></div>
+</section>
+
+<section class="panel" id="p-trades">
+<div class="grid">
+<div class="card"><h2>Trade partners</h2><p class="hint">Teams strong where you are weak, and weak where you are strong.</p><div id="trade"></div></div>
+<div class="card"><h2>Buy low / sell high</h2><p class="hint">Recent form against projection. Early in the season samples are small, so use with care.</p><div id="buylow"></div></div></div>
+<div class="card"><h2>Trade analyzer</h2><p class="hint">Pick a team and the players on each side. See how both teams' categories and league ranks change.</p><div id="analyzer"></div></div>
+<div class="card"><h2>Trade &amp; transaction log</h2><select id="lt"><option value="">All moves</option><option value="TRADE">Trades</option><option value="ADD">Adds</option><option value="DROP">Drops</option></select> <select id="lteam"></select><div id="log" style="margin-top:10px"></div></div>
+</section>
+
+<section class="panel" id="p-league">
+<div class="card"><h2>Playoff tracker</h2><label class="mut">Playoff spots: <select id="po"></select></label><div id="playoffs" style="margin-top:10px"></div></div>
+<div class="card"><h2>Scouting report</h2><p class="hint">Compare any two teams category by category.</p><select id="sa"></select> vs <select id="sb"></select><div id="scout" style="margin-top:10px"></div></div>
+<div class="grid">
+<div class="card"><h2>Power ranking</h2><div id="power"></div></div>
+<div class="card"><h2>Standings</h2><div id="stand"></div></div></div>
+<div class="card"><h2>Category matrix</h2><p class="hint">Per-week average, green is better.</p><div id="cats"></div></div>
+<div class="card"><h2>Recent activity</h2><div id="act"></div></div>
+</section>
+</div>
 
 <script>
 const ME="Murray Had a Little Lamb";
@@ -52,14 +100,21 @@ const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;',
 const low=c=>c==='TO', pct=c=>c.endsWith('%');
 const fmt=(c,v)=>v==null?'–':pct(c)?(v>1?v/100:v).toFixed(3).replace(/^0/,''):(Math.round(v*10)/10);
 const chips=(a,k)=>a.length?a.map(x=>`<span class="chip ${k}">${x}</span>`).join(''):'<span class="mut">none</span>';
-let D,punts=['STL'];
-try{const s=JSON.parse(localStorage.getItem('punts'));if(Array.isArray(s))punts=s}catch(e){}
-const savePunts=()=>{try{localStorage.setItem('punts',JSON.stringify(punts))}catch(e){}};
+const lsGet=(k,d)=>{try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return d}};
+const lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+let D,punts=['STL'],WP=null,SLOTDAYS=[];
+try{const s=JSON.parse(lsGet('punts','null'));if(Array.isArray(s))punts=s}catch(e){}
+const savePunts=()=>lsSet('punts',JSON.stringify(punts));
 
 const entry=(c,t)=>D.category_table[c].find(x=>x.team===t);
 const rk=(c,t)=>{const e=entry(c,t);return e?e.rank:5.5};
 const median=c=>{const v=D.category_table[c].map(x=>x.value).sort((a,b)=>a-b);return (v[4]+v[5])/2};
 const allP=()=>{const a=[];Object.keys(D.rosters).forEach(t=>D.rosters[t].forEach(p=>a.push({...p,owner:t})));(D.free_agents||[]).forEach(p=>a.push({...p,owner:'Free agent',slot:''}));return a};
+const ts=x=>{const s=String(x.date||'');if(!s)return NaN;return Date.parse(/(Z|[+-]\d\d:?\d\d)$/.test(s)?s:s+'Z')};
+const kind=a=>{const x=String(a).toUpperCase();return x.includes('TRADE')?'TRADE':x.includes('DROP')?'DROP':x.includes('ADD')?'ADD':'OTHER'};
+const logItems=()=>(D.log&&D.log.length?D.log:D.activity)||[];
+const meName=()=>D.power.map(p=>p.team).find(isMe)||D.power[0].team;
+
 let ZS=null;
 function zstats(){
   if(ZS)return ZS;
@@ -68,10 +123,12 @@ function zstats(){
     const sd=Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/(v.length||1))||1;ZS[c]={m,sd}});
   return ZS;
 }
-const z=(p,c)=>{const s=zstats()[c],v=pv(p)[c];if(v==null)return 0;return(pct(c)?0.5:1)*(low(c)?-1:1)*(v-s.m)/s.sd};
-const zsum=(p,cats)=>cats.reduce((s,c)=>s+z(p,c),0);
 const pv=p=>(p.proj&&p.proj.PTS!=null)?p.proj:(p.avg||{});
 const hasStats=p=>pv(p).PTS!=null;
+const zv=(s,c)=>{const q=zstats()[c],v=s?s[c]:null;if(v==null)return 0;return(pct(c)?0.5:1)*(low(c)?-1:1)*(v-q.m)/q.sd};
+const z=(p,c)=>zv(pv(p),c);
+const zsum=(p,cats)=>cats.reduce((s,c)=>s+z(p,c),0);
+const totZ=p=>zsum(p,D.cats);
 const canon=n=>{const k=String(n).replace(/^Team\((.*)\)$/,'$1').trim().toLowerCase();return D.power.map(q=>q.team).find(t=>t.trim().toLowerCase()===k)||null};
 const statCells=(p,need)=>D.cats.map(c=>`<td class="n ${need&&need.includes(c)?'hl':''}">${fmt(c,p.avg&&p.avg[c])}</td>`).join('');
 const gm=p=>{const g=D.games&&D.games.by_team&&D.games.by_team[p.team];return g||null};
@@ -79,8 +136,12 @@ const gcell=p=>{const g=gm(p);return g?`<td class="n">${g.rest}/${g.next}</td>`:
 const BASE={PTS:6.5,REB:2.9,AST:2.3,STL:.95,BLK:.9,'3PM':1.3,TO:1.3};
 const Phi=x=>{const t=1/(1+0.2316419*Math.abs(x));const d=0.3989423*Math.exp(-x*x/2);const p=d*t*(0.3193815+t*(-0.3565638+t*(1.781478+t*(-1.821256+t*1.330274))));return x>0?1-p:p};
 const elapsed=()=>D.games&&D.games.days_left?Math.min(Math.max((7-D.games.days_left)/7,0),1):0;
-function project(team,cur){
-  const act=(D.rosters[team]||[]).filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
+const norm=s=>String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const dpWin=probs=>{let dist=[1];D.cats.forEach(c=>{const q=probs[c],nd=new Array(dist.length+1).fill(0);dist.forEach((v,k)=>{nd[k]+=v*(1-q);nd[k+1]+=v*q});dist=nd});
+  const need=Math.floor(D.cats.length/2)+1;return dist.slice(need).reduce((x,y)=>x+y,0)};
+
+function project(team,cur,roster){
+  const act=(roster||D.rosters[team]||[]).filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
   const el=elapsed(),out={},n=act.reduce((s,p)=>s+(gm(p)?gm(p).rest:0),0);
   D.cats.forEach(c=>{
     if(pct(c)){
@@ -94,18 +155,14 @@ function project(team,cur){
   });
   out._games=n;return out;
 }
-function winProb(me,opp,mine,theirs){
-  const a=project(me,mine),b=project(opp,theirs),probs={};
+function winProb(me,opp,mine,theirs,myRoster){
+  const a=project(me,mine,myRoster),b=project(opp,theirs),probs={};
   D.cats.forEach(c=>{
     const diff=low(c)?b[c].proj-a[c].proj:a[c].proj-b[c].proj;
     probs[c]=Phi(diff/Math.sqrt(a[c].sd**2+b[c].sd**2));
   });
-  let dist=[1];D.cats.forEach(c=>{const q=probs[c],nd=new Array(dist.length+1).fill(0);dist.forEach((v,k)=>{nd[k]+=v*(1-q);nd[k+1]+=v*q});dist=nd});
-  const need=Math.floor(D.cats.length/2)+1;
-  return{probs,pwin:dist.slice(need).reduce((x,y)=>x+y,0),exp:D.cats.reduce((s,c)=>s+probs[c],0),gMe:a._games,gOpp:b._games};
+  return{probs,pwin:dpWin(probs),exp:D.cats.reduce((s,c)=>s+probs[c],0),gMe:a._games,gOpp:b._games};
 }
-const norm=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-
 function cmp(c,a,b){
   if(a===b)return{res:'T',close:true};
   const win=low(c)?a<b:a>b;
@@ -117,13 +174,26 @@ function profile(me,opp){
   D.cats.forEach(c=>{const a=rk(c,me),b=rk(c,opp);if(a<b)better.push(c);else if(a>b)worse.push(c)});
   return `You're better in: ${chips(better,'g')}<br>They're better in: ${chips(worse,'b')}`;
 }
+function curMatch(me){
+  const m=D.matchups.find(x=>x.week===D.week&&(x.home===me||x.away===me));if(!m)return null;
+  const side=m.home===me?'home':'away',os=side==='home'?'away':'home',opp=side==='home'?m.away:m.home;
+  const a={},b={};D.cats.forEach(c=>{if(m.cats[c]){a[c]=m.cats[c][side];b[c]=m.cats[c][os]}});
+  return{m,side,os,opp,a,b};
+}
+const haveSim=me=>(D.rosters[me]||[]).some(hasStats)&&D.games&&D.games.by_team;
 
+function needFn(me){
+  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
+  const fa=D.free_agents||[],mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
+  return{need,score:p=>need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0)};
+}
+
+/* ---------- MATCHUP ---------- */
 function renderMatch(me){
-  const m=D.matchups.find(x=>x.week===D.week&&(x.home===me||x.away===me));
-  let h='';
-  if(!m){h='<span class="mut">No matchup found for this week yet.</span>'}
+  const cm=curMatch(me);let h='';WP=null;
+  if(!cm){h='<span class="mut">No matchup found for this week yet.</span>'}
   else{
-    const side=m.home===me?'home':'away',opp=side==='home'?m.away:m.home,os=side==='home'?'away':'home';
+    const {m,side,os,opp,a:mineV,b:theirV}=cm;
     let w=0,l=0,close=[],lost=[],rows='';
     D.cats.forEach(c=>{
       const v=m.cats[c];if(!v)return;
@@ -133,27 +203,90 @@ function renderMatch(me){
       const tag=pun?'<span class="mut">punted</span>':r.res==='W'?'<span class="good">winning</span>':r.res==='L'?'<span class="bad">losing</span>':'tied';
       rows+=`<tr><td>${c}</td><td class="n">${fmt(c,a)}</td><td class="n">${fmt(c,b)}</td><td>${tag}${r.close&&!pun?' · close':''}</td></tr>`;
     });
-    const mineV={},theirV={};D.cats.forEach(c=>{if(m.cats[c]){mineV[c]=m.cats[c][side];theirV[c]=m.cats[c][os]}});
     let wp='';
-    const haveStats=(D.rosters[me]||[]).some(hasStats)&&D.games&&D.games.by_team;
-    if(haveStats){
-      const r=winProb(me,opp,mineV,theirV);
+    if(haveSim(me)){
+      const r=winProb(me,opp,mineV,theirV);WP=r;
       const sw=D.cats.filter(c=>r.probs[c]>0.3&&r.probs[c]<0.7&&!punts.includes(c));
-      wp=`<p class="note" style="margin-top:12px"><b>Win probability (rough projection)</b><br>Chance to win the matchup: <b>${Math.round(r.pwin*100)}%</b> · expected categories: <b>${r.exp.toFixed(1)}</b> of ${D.cats.length}<br>Games left for active lineups: you <b>${r.gMe}</b> vs ${esc(opp)} <b>${r.gOpp}</b></p>
-      <table>${D.cats.map(c=>`<tr class="${punts.includes(c)?'mut':''}"><td>${c}</td><td><span class="barbg"><span class="bar" style="width:${Math.round(r.probs[c]*110)}px"></span></span></td><td class="n">${Math.round(r.probs[c]*100)}%</td></tr>`).join('')}</table>
-      <p class="note"><b>Swing categories (30–70%, worth targeting):</b> ${chips(sw,'g')}<br>Projection = current totals + each active player's per-game average x games left. Punted categories still count in the real result, so they are included here but dimmed.</p>`;
+      wp=`<h3>Win probability</h3><div class="big">${Math.round(r.pwin*100)}%</div>
+      <p class="note" style="margin-top:2px">Expected categories: <b>${r.exp.toFixed(1)}</b> of ${D.cats.length} · games left for active lineups: you <b>${r.gMe}</b> vs ${esc(opp)} <b>${r.gOpp}</b></p>
+      <table style="margin-top:8px">${D.cats.map(c=>`<tr class="${punts.includes(c)?'mut':''}"><td>${c}</td><td><span class="barbg"><span class="bar" style="width:${Math.round(r.probs[c]*110)}px"></span></span></td><td class="n">${Math.round(r.probs[c]*100)}%</td></tr>`).join('')}</table>
+      <p class="note"><b>Swing categories (30–70%):</b> ${chips(sw,'g')}<br>Projection = current totals + each active player's per-game average x games left. Punted categories still count in the real result.</p>`;
     }
-    h=`<div class="box"><b>Week ${m.week}: you vs <span class="me">${esc(opp)}</span></b> — winning ${w}, losing ${l} (punted categories not counted)</div>
-    <table><tr><th>Cat</th><th class=n>You</th><th class=n>${esc(opp)}</th><th>Status</th></tr>${rows}</table>
-    <p class="note"><b>Push now (close):</b> ${chips(close,'g')}<br><b>Likely lost (not close):</b> ${chips(lost,'b')}<br>
-    Close categories are where one pickup or a good lineup can swing the week. Don't spend moves on the ones that aren't close.</p>
+    h=`<div class="box"><b>Week ${m.week}: you vs <span class="me">${esc(opp)}</span></b> — winning ${w}, losing ${l} (punted not counted)</div>
+    <table style="margin-top:6px"><tr><th>Cat</th><th class=n>You</th><th class=n>${esc(opp)}</th><th>Status</th></tr>${rows}</table>
+    <p class="note"><b>Push now (close):</b> ${chips(close,'g')}<br><b>Likely lost (not close):</b> ${chips(lost,'b')}</p>
     <p class="note">${profile(me,opp)}</p>${wp}`;
   }
   const nx0=D.schedule&&D.schedule[me]&&D.schedule[me][D.week],nx=nx0&&canon(nx0);
-  if(nx)h+=`<p class="note"><b>Next week:</b> <span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
+  if(nx)h+=`<h3>Next week</h3><p class="note" style="margin-top:0"><span class="me">vs ${esc(nx)}</span><br>${profile(me,nx)}</p>`;
   $('match').innerHTML=h;
 }
 
+function renderFlip(me){
+  const cm=curMatch(me);
+  if(!cm||!haveSim(me)||!(D.free_agents||[]).length){$('flip').innerHTML='<span class="mut">Needs this week\'s matchup, free-agent data and game counts. It appears after the next successful update.</span>';return}
+  const r=(D.rosters[me]||[]).filter(p=>p.slot!=='IR');
+  const base=winProb(me,cm.opp,cm.a,cm.b);
+  const nf=needFn(me);
+  const act=D.cats.filter(c=>!punts.includes(c));
+  const w=c=>nf.need.includes(c)?1:0.4;
+  const val=p=>act.reduce((s,c)=>s+z(p,c)*w(c),0);
+  const core=new Set([...r.filter(hasStats)].sort((a,b)=>totZ(b)-totZ(a)).slice(0,3).map(p=>p.name));
+  const drops=r.filter(p=>hasStats(p)&&!core.has(p.name)).sort((a,b)=>val(a)-val(b)).slice(0,4);
+  const pool=(D.free_agents||[]).filter(p=>hasStats(p)&&p.injury!=='OUT'&&gm(p)&&gm(p).rest>0).sort((a,b)=>nf.score(b)*gm(b).rest-nf.score(a)*gm(a).rest).slice(0,40);
+  const out=[];
+  pool.forEach(f=>drops.forEach(d=>{
+    const roster2=r.filter(p=>p.name!==d.name).concat([{...f,slot:d.slot==='BE'?'UTIL':d.slot}]);
+    const x=winProb(me,cm.opp,cm.a,cm.b,roster2);
+    out.push({f,d,dw:x.pwin-base.pwin,x});
+  }));
+  out.sort((a,b)=>b.dw-a.dw);
+  const picks=[],sf=new Set();
+  for(const o of out){if(o.dw<0.005)break;if(sf.has(o.f.name))continue;sf.add(o.f.name);picks.push(o);if(picks.length>=5)break}
+  const weak=D.cats.filter(c=>!punts.includes(c)&&rk(c,cm.opp)>=7);
+  const swing=act.filter(c=>base.probs[c]>0.15&&base.probs[c]<0.7);
+  const bestFor=swing.map(c=>{const p=pool.filter(q=>q.injury==='ACTIVE').sort((a,b)=>z(b,c)*gm(b).rest-z(a,c)*gm(a).rest)[0];return p?`<li><b>${c}</b>: ${esc(p.name)} <span class="mut">(${fmt(c,(p.avg||{})[c])} per game, ${gm(p).rest} games left)</span></li>`:''}).join('');
+  $('flip').innerHTML=`<p class="note" style="margin:0 0 8px">Current chance to win: <b>${Math.round(base.pwin*100)}%</b> vs ${esc(cm.opp)}. Opponent is weak in: ${chips(weak,'g')}</p>
+  ${picks.length?'<table><tr><th>Add</th><th>Drop</th><th class=n>Games</th><th class=n>Win chance</th><th>Helps</th></tr>'+picks.map(o=>{
+    const helps=act.filter(c=>o.x.probs[c]-base.probs[c]>=0.04);
+    return `<tr><td><b>${esc(o.f.name)}</b> <span class="mut">${esc(o.f.pos)}</span></td><td>${esc(o.d.name)}</td><td class="n">${gm(o.f).rest}</td><td class="n good">${Math.round(base.pwin*100)}% → ${Math.round(o.x.pwin*100)}%</td><td>${chips(helps,'g')}</td></tr>`}).join('')+'</table>':'<p class="note">No single pickup moves your win chance by half a point or more right now. Your lineup is already doing the work.</p>'}
+  ${bestFor?'<h3>Best free agent for each swing category</h3><ul class="box">'+bestFor+'</ul>':''}
+  <p class="note">Each test drops one of your four weakest non-core players, adds the free agent into that slot, and re-runs the win probability. It assumes the pickup starts every game he plays.</p>`;
+}
+
+/* ---------- BEAST MODE / SCOUT ---------- */
+const catSd=c=>{const v=D.category_table[c].map(x=>x.value),m=v.reduce((a,b)=>a+b,0)/v.length;return Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/v.length)||1};
+function pairProb(a,b){
+  const probs={};
+  D.cats.forEach(c=>{const ea=entry(c,a),eb=entry(c,b);if(!ea||!eb){probs[c]=0.5;return}
+    const diff=low(c)?eb.value-ea.value:ea.value-eb.value;probs[c]=Phi(diff/(catSd(c)*1.2))});
+  return{probs,pwin:dpWin(probs),exp:D.cats.reduce((s,c)=>s+probs[c],0)};
+}
+const heatBg=p=>p>=.65?'background:#3ddc9733':p>=.55?'background:#3ddc9718':p<=.35?'background:#ff5d7333':p<=.45?'background:#ff5d7318':'';
+function renderBeast(me){
+  const s=(D.schedule&&D.schedule[me])||[];
+  const rows=[];s.forEach((o,i)=>{if(i+1<D.week)return;const opp=canon(o);if(!opp)return;rows.push({wk:i+1,opp,r:pairProb(me,opp)})});
+  if(!rows.length){$('beast').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
+  const sure=rows.filter(x=>x.r.pwin>=.6).length;
+  $('beast').innerHTML=`<table><tr><th>Wk</th><th>Opponent</th><th class=n>Win %</th><th class=n>Cats</th>${D.cats.map(c=>`<th class="heat">${c}</th>`).join('')}</tr>`+
+   rows.map(x=>`<tr class="${x.wk===D.week?'hl':''}"><td>${x.wk}</td><td>${esc(x.opp)}</td><td class="n"><b class="${x.r.pwin>=.55?'good':x.r.pwin<=.45?'bad':''}">${Math.round(x.r.pwin*100)}%</b></td><td class="n">${x.r.exp.toFixed(1)}</td>${D.cats.map(c=>`<td class="heat" style="${heatBg(x.r.probs[c])}">${Math.round(x.r.probs[c]*100)}</td>`).join('')}</tr>`).join('')+
+   `</table><p class="note">${sure} of ${rows.length} remaining weeks are favorable (60%+). Uses season category averages, so it sharpens as more weeks are played. The current week's live matchup card is more accurate than this row.</p>`;
+}
+function renderScout(){
+  const teams=D.power.map(p=>p.team),sa=$('sa'),sb=$('sb'),me=meName();
+  if(!sa.options.length){teams.forEach(t=>{sa.add(new Option(t,t));sb.add(new Option(t,t))});sa.value=me;
+    const nx=D.schedule&&D.schedule[me]&&canon(D.schedule[me][D.week-1]);sb.value=nx&&nx!==me?nx:teams.find(t=>t!==me);sa.onchange=sb.onchange=renderScout}
+  const a=sa.value,b=sb.value;
+  const top=t=>[...(D.rosters[t]||[])].filter(hasStats).sort((x,y)=>totZ(y)-totZ(x)).slice(0,5).map(p=>esc(p.name)).join(', ');
+  const pp=pairProb(a,b);
+  $('scout').innerHTML=`<table><tr><th>Cat</th><th class=n>${esc(a)}</th><th class=n>rank</th><th class=n>${esc(b)}</th><th class=n>rank</th><th>Edge</th></tr>`+
+   D.cats.map(c=>{const x=entry(c,a),y=entry(c,b);if(!x||!y)return '';const e=x.rank<y.rank?a:x.rank>y.rank?b:'';
+    return `<tr><td>${c}</td><td class="n">${fmt(c,x.value)}</td><td class="n">${x.rank}</td><td class="n">${fmt(c,y.value)}</td><td class="n">${y.rank}</td><td class="${cls(e)}">${esc(e)||'even'}</td></tr>`}).join('')+
+   `</table><p class="note">Estimated chance ${esc(a)} beats ${esc(b)} in a typical week: <b>${Math.round(pp.pwin*100)}%</b></p>
+   <p class="note"><b>${esc(a)} top players:</b> ${top(a)}<br><b>${esc(b)} top players:</b> ${top(b)}</p>`;
+}
+
+/* ---------- OVERVIEW ---------- */
 function renderPunt(me){
   const med={};D.cats.forEach(c=>med[c]=median(c));
   let rows='';
@@ -165,13 +298,136 @@ function renderPunt(me){
   const adj=D.power.map(p=>({t:p.team,s:D.cats.filter(c=>!punts.includes(c)).reduce((s,c)=>s+11-rk(c,p.team),0)})).sort((a,b)=>b.s-a.s);
   const pos=adj.findIndex(x=>x.t===me)+1;
   $('punt').innerHTML=`<table><tr><th>Cat</th><th class=n>Rank</th><th class=n>You</th><th class=n>Median</th><th>Punt</th></tr>${rows}</table>
-  <p class="note"><b>Weakest categories:</b> ${chips(worst.slice(0,3).map(c=>c+' ('+rk(c,me)+')'),'b')}<br>
-  <b>Strongest:</b> ${chips([...D.cats].sort((a,b)=>rk(a,me)-rk(b,me)).slice(0,3).map(c=>c+' ('+rk(c,me)+')'),'g')}</p>
-  <p class="note">With your punts removed, you'd rank <b class="me">${pos}</b> of 10. Tick or untick a box to try another build; the page remembers your choice.</p>`;
+  <p class="note"><b>Weakest:</b> ${chips(worst.slice(0,3).map(c=>c+' ('+rk(c,me)+')'),'b')} <b>Strongest:</b> ${chips([...D.cats].sort((a,b)=>rk(a,me)-rk(b,me)).slice(0,3).map(c=>c+' ('+rk(c,me)+')'),'g')}</p>
+  <p class="note">With your punts removed you would rank <b class="me">${pos}</b> of 10. The page remembers your choice.</p>`;
   $('punt').querySelectorAll('input').forEach(i=>i.onchange=()=>{
     const c=i.dataset.c;punts=i.checked?[...new Set([...punts,c])]:punts.filter(x=>x!==c);savePunts();render()});
 }
+function renderAlerts(me){
+  const r=D.rosters[me]||[],out=[];
+  const irCount=r.filter(p=>p.slot==='IR').length;
+  r.forEach(p=>{
+    if(p.injury!=='ACTIVE'&&p.slot!=='IR')out.push(`<b>${esc(p.name)}</b> is ${esc(p.injury)} but not in an IR slot.`);
+    if(p.slot==='IR'&&p.injury==='ACTIVE')out.push(`<b>${esc(p.name)}</b> shows as healthy but is in an IR slot — check if he can come back.`);
+    if(p.injury==='DAY_TO_DAY')out.push(`<b>${esc(p.name)}</b> is day-to-day.`);
+  });
+  if(D.games&&D.games.by_team){
+    const idle=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&gm(p)&&gm(p).rest===0).map(p=>esc(p.name));
+    const benchG=r.filter(p=>p.slot==='BE'&&p.injury!=='OUT'&&gm(p)&&gm(p).rest>0).map(p=>esc(p.name)+' ('+gm(p).rest+')');
+    if(idle.length)out.push(`No games left this week for starters: <b>${idle.join(', ')}</b>.${benchG.length?' Bench players who still play: '+benchG.join(', ')+'.':''}`);
+  }
+  const others=[];
+  Object.keys(D.rosters).filter(t=>t!==me).forEach(t=>D.rosters[t].filter(p=>p.injury==='OUT'||p.injury==='DAY_TO_DAY').forEach(p=>others.push(`${esc(p.name)} <span class="mut">(${esc(t)}, ${esc(p.injury)})</span>`)));
+  const act=D.cats.filter(c=>!punts.includes(c));
+  const drops=r.filter(p=>p.slot!=='IR'&&hasStats(p)).sort((a,b)=>zsum(a,act)-zsum(b,act)).slice(0,3).map(p=>esc(p.name)+' <span class="mut">('+zsum(p,act).toFixed(1)+')</span>');
+  $('alerts').innerHTML=`<div class="box">IR slots used: <b>${irCount}</b> of 2</div><ul>${out.length?out.map(x=>'<li>'+x+'</li>').join(''):'<li class="mut">No alerts for your roster.</li>'}</ul>
+  <p class="note"><b>Weakest players (drop candidates):</b> ${drops.join(' · ')||'no stats yet'}</p>
+  <p class="note"><b>Injured on other teams (buy-low / waiver watch):</b><br>${others.join(' · ')||'none'}</p>`;
+}
+function weekStartMs(){const n=new Date(),d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()));return d.getTime()-((d.getUTCDay()+6)%7)*864e5}
+let MOVES=null;
+function renderBudget(me){
+  const ws=weekStartMs();
+  const adds=logItems().filter(x=>x.team===me&&kind(x.action)==='ADD'&&ts(x)>=ws);
+  let lim=D.settings&&+D.settings.acq_limit>0?+D.settings.acq_limit:+lsGet('acqlim','0');
+  const fromEspn=D.settings&&+D.settings.acq_limit>0;
+  MOVES={used:adds.length,lim};
+  const left=lim>0?Math.max(lim-adds.length,0):null;
+  const days=(SLOTDAYS||[]).filter(x=>x.open>0);
+  const best=days.length?[...days].sort((a,b)=>b.open-a.open)[0]:null;
+  let advice='';
+  if(left===0)advice='<span class="bad">No moves left this week.</span>';
+  else if(best)advice=`Most open lineup slots: <b>${esc(best.label)}</b> (${best.open} open). Spend a pickup there, and only if it beats what your bench offers.`;
+  else advice='Your slots are full every remaining day, so save the moves for injuries or the last day.';
+  $('budget').innerHTML=`<div class="big">${adds.length}${lim>0?' <span class="mut" style="font-size:18px">of '+lim+'</span>':''}</div><div class="mut">adds this week (since Monday, from the transaction log)</div>
+  ${left!=null?`<p class="note">Moves left: <b>${left}</b></p>`:''}
+  <p class="note">${advice}</p>
+  ${fromEspn?'':`<p class="note">Weekly add limit: <input type="number" id="acq" min="0" max="50" value="${lim||''}" style="width:70px" placeholder="none"> <span class="mut">(set to your league's limit; leave blank if unlimited)</span></p>`}
+  ${adds.length?'<p class="note">'+adds.map(x=>esc(x.player)).join(', ')+'</p>':''}`;
+  const i=$('acq');if(i)i.onchange=()=>{lsSet('acqlim',String(Math.max(0,+i.value||0)));renderBudget(me);renderKpis(me)};
+}
 
+/* ---------- MY TEAM ---------- */
+function renderSlots(me){
+  const G=D.games;SLOTDAYS=[];
+  if(!G||!G.by_day||!G.days){$('slots').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
+  const r=D.rosters[me]||[],fa=(D.free_agents||[]).filter(p=>p.injury==='ACTIVE'),nf=needFn(me);
+  const starters=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR');
+  let N=starters.length;
+  try{const sl=D.settings&&D.settings.slots;if(sl&&typeof sl==='object'){const t=Object.keys(sl).filter(k=>!/^(BE|IR|BN|BENCH)$/i.test(k)).reduce((s,k)=>s+(+sl[k]||0),0);if(t>=5&&t<=20)N=t}}catch(e){}
+  const rows=G.days.slice(0,7).map(d=>{
+    const on=new Set(G.by_day[d]||[]);
+    const k=Math.min(starters.filter(p=>p.injury!=='OUT'&&on.has(p.team)).length,N);
+    const bench=r.filter(p=>p.slot==='BE'&&p.injury!=='OUT'&&on.has(p.team));
+    const empty=Math.max(N-k,0),filled=Math.min(empty,bench.length),open=empty-filled;
+    const str=fa.filter(p=>on.has(p.team)).sort((a,b)=>nf.score(b)-nf.score(a)).slice(0,3).map(p=>esc(p.name));
+    const label=new Date(d+'T12:00:00').toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric'});
+    SLOTDAYS.push({d,label,open,k,N});
+    return `<tr><td>${label}${d===G.today?' <span class="mut">(today)</span>':''}</td><td class="n">${k}/${N}</td><td class="n ${open>0?'bad':'good'}">${open>0?open+' open':'full'}</td><td class="box">${bench.slice(0,filled).map(p=>esc(p.name)).join(', ')||'<span class="mut">none</span>'}</td><td class="box">${open>0?str.join(', ')||'<span class="mut">none</span>':'<span class="mut">not needed</span>'}</td></tr>`;
+  }).join('');
+  $('slots').innerHTML=`<table><tr><th>Day</th><th class=n>Starters playing</th><th class=n>Slots</th><th>Bench fills</th><th>Stream these free agents</th></tr>${rows}</table>
+  <p class="note">${N} lineup slots counted. An open slot is a slot with no player who has a game that day. Positions are not checked, so make sure the fill fits the slot. US Eastern dates: a late game can fall on the next day where you are.</p>`;
+}
+function renderDropAdd(me){
+  const r=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&hasStats(p)),fa=(D.free_agents||[]).filter(p=>hasStats(p)&&p.injury!=='OUT');
+  if(!fa.length||!r.length){$('dropadd').innerHTML='<span class="mut">No free-agent data yet.</span>';return}
+  const act=D.cats.filter(c=>!punts.includes(c)),myNeed=act.filter(c=>rk(c,me)>=6);
+  const w=c=>myNeed.includes(c)?1:0.4;
+  const val=p=>act.reduce((s,c)=>s+z(p,c)*w(c),0);
+  const core=new Set([...r].sort((a,b)=>totZ(b)-totZ(a)).slice(0,3).map(p=>p.name));
+  const drops=r.filter(p=>!core.has(p.name)).sort((a,b)=>val(a)-val(b)).slice(0,6);
+  const cands=[];fa.forEach(f=>drops.forEach(d=>{const g=val(f)-val(d);if(g>0.8)cands.push({f,d,g})}));
+  cands.sort((a,b)=>b.g-a.g);
+  const picks=[],uf=new Set(),ud=new Set();
+  for(const c of cands){if(uf.has(c.f.name)||ud.has(c.d.name))continue;uf.add(c.f.name);ud.add(c.d.name);picks.push(c);if(picks.length>=6)break}
+  $('dropadd').innerHTML=picks.length?`<table><tr><th>Add</th><th>Drop</th><th class=n>Games</th><th>You gain</th><th>You lose</th><th class=n>Net</th></tr>`+picks.map(c=>{
+    const gain=act.filter(k=>z(c.f,k)-z(c.d,k)>=0.4),lose=act.filter(k=>z(c.f,k)-z(c.d,k)<=-0.5);
+    return `<tr><td><b>${esc(c.f.name)}</b> <span class="mut">${esc(c.f.pos)}${c.f.injury!=='ACTIVE'?' · '+esc(c.f.injury):''}</span></td><td>${esc(c.d.name)}${c.d.injury!=='ACTIVE'?' <span class="inj">'+esc(c.d.injury)+'</span>':''}</td>${gcell(c.f)}<td>${chips(gain,'g')}</td><td>${chips(lose,'b')}</td><td class="n good">+${c.g.toFixed(1)}</td></tr>`}).join('')+
+   `</table><p class="note">Net is the gain in value across your non-punted categories, with the ones you are weak in counted fully. Your top 3 players are never suggested as drops. Check ESPN for positions, minutes and roster rules before moving.</p>`
+   :'<span class="mut">No free agent clearly beats your weakest players right now.</span>';
+}
+
+/* ---------- MARKET ---------- */
+function renderFA(me){
+  const fa=D.free_agents||[];
+  if(!fa.length){$('fa').innerHTML='<span class="mut">No free-agent data yet. If this stays empty after a run, send me the Actions log.</span>';return}
+  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
+  const mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
+  const sc=p=>{const g=gm(p);return need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0)*(g?g.rest+0.5:3)};
+  const sorted=[...fa].sort((a,b)=>sc(b)-sc(a)).slice(0,15);
+  $('fa').innerHTML=`<p class="note" style="margin:0 0 8px">You need: ${chips(need,'b')} (punted: ${punts.join(', ')||'none'}).</p>
+  <table><tr><th>Player</th><th>Pos</th><th>Status</th><th class=n>Games</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+  sorted.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${D.cats.map(c=>`<td class="n ${need.includes(c)?'hl':''}">${fmt(c,(p.avg||{})[c])}</td>`).join('')}</tr>`).join('')+'</table><p class="note">Games = left this week / next week.</p>';
+}
+function renderTrends(me){
+  const fa=D.free_agents||[],H=D.pct_hist||{},nf=needFn(me);
+  const rows=fa.map(p=>{const h=H[p.name]||[];if(h.length<2)return null;const a=h[0],b=h[h.length-1];return{p,chg:b[1]-a[1],hrs:Math.round((b[0]-a[0])/60),now:b[1]}})
+    .filter(x=>x&&x.hrs>=1).sort((a,b)=>b.chg-a.chg).slice(0,12);
+  if(!rows.length){$('trends').innerHTML='<span class="mut">Collecting data. This fills in after a few updates (it needs at least an hour of history).</span>';return}
+  $('trends').innerHTML='<table><tr><th>Player</th><th>Pos</th><th class=n>Owned %</th><th class=n>Change</th><th>Over</th><th class=n>Games</th><th>Fits your needs</th></tr>'+
+   rows.map(x=>{const fits=nf.need.filter(c=>z(x.p,c)>0.3);return `<tr><td>${esc(x.p.name)}</td><td>${esc(x.p.pos)}</td><td class="n">${x.now.toFixed(1)}</td><td class="n ${x.chg>0?'good':x.chg<0?'bad':''}">${x.chg>0?'+':''}${x.chg.toFixed(1)}</td><td class="mut">${x.hrs}h</td>${gcell(x.p)}<td>${chips(fits,'g')}</td></tr>`}).join('')+
+   '</table><p class="note">If a climbing player fits what you need, add him before he is gone.</p>';
+}
+function renderNews(me){
+  const items=D.news||[];
+  if(!items.length){$('news').innerHTML='<span class="mut">No news yet. Feeds load on the next successful update.</span>';return}
+  const names=(D.rosters[me]||[]).map(p=>p.name.toLowerCase());
+  const mineOnly=$('mine').checked;
+  const hit=n=>names.some(x=>(n.title+' '+n.summary).toLowerCase().includes(x));
+  const list=items.filter(n=>!mineOnly||hit(n)).slice(0,30);
+  $('news').innerHTML=list.length?'<ul>'+list.map(n=>`<li class="${hit(n)?'hl':''}"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="mut">${esc(n.source)} · ${esc(n.published)}</span></li>`).join('')+'</ul>':'<span class="mut">No news mentions your players right now. Untick the box to see all news.</span>';
+}
+function renderSearch(me){
+  const q=norm($('q').value.trim()),fao=$('fao').checked;
+  if(!q){$('search').innerHTML='<span class="mut">Type part of a name to see his averages, status and who owns him.</span>';return}
+  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
+  const res=allP().filter(p=>norm(p.name).includes(q)&&(!fao||p.owner==='Free agent')).slice(0,25);
+  $('search').innerHTML=res.length?`<table><tr><th>Player</th><th>Owner</th><th>Pos</th><th>Status</th><th class=n>Games</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+   res.map(p=>`<tr><td>${esc(p.name)}</td><td class="${p.owner==='Free agent'?'good':cls(p.owner)}">${esc(p.owner)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,need)}</tr>`).join('')+'</table>'+
+   '<p class="note">Highlighted columns are categories you need. Only the top 200 free agents are searchable.</p>':'<span class="mut">No match.</span>';
+}
+
+/* ---------- TRADES ---------- */
 function renderTrade(me){
   const act=D.cats.filter(c=>!punts.includes(c));
   const list=D.power.map(p=>p.team).filter(t=>t!==me).map(t=>{
@@ -180,10 +436,8 @@ function renderTrade(me){
     return{t,give,need,sc};
   }).sort((a,b)=>b.sc-a.sc);
   $('trade').innerHTML='<table><tr><th>Team</th><th>They can give you</th><th>They need from you</th></tr>'+
-   list.slice(0,6).map(x=>`<tr><td>${esc(x.t)}</td><td>${chips(x.give,'g')}</td><td>${chips(x.need,'g')}</td></tr>`).join('')+'</table>'+
-   '<p class="note">Best partners are at the top: strong where you are weak, and weak where you are strong.</p>'+tradeIdeas(me,list.slice(0,3),act);
+   list.slice(0,6).map(x=>`<tr><td>${esc(x.t)}</td><td>${chips(x.give,'g')}</td><td>${chips(x.need,'g')}</td></tr>`).join('')+'</table>'+tradeIdeas(me,list.slice(0,3),act);
 }
-
 function tradeIdeas(me,partners,act){
   const all=D.cats,V=(p)=>zsum(p,all);
   const mineP=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
@@ -199,8 +453,8 @@ function tradeIdeas(me,partners,act){
     const cands=[];
     theirP.filter(t=>!theirCore.has(t.name)).forEach(t=>{
       const tryPkg=give=>{
-        if(give.length===2&&give.some(p=>V(p)<-0.5))return;                      // a dud is not a sweetener
-        const gap=give.reduce((s,p)=>s+(give.length===2?Math.max(V(p),0):V(p)),0)-V(t);   // >0 means they get more value
+        if(give.length===2&&give.some(p=>V(p)<-0.5))return;
+        const gap=give.reduce((s,p)=>s+(give.length===2?Math.max(V(p),0):V(p)),0)-V(t);
         const lo=give.length===1?-0.6:-0.3, hi=give.length===1?1.2:2.0;
         if(gap<lo||gap>hi)return;
         const myGain=sum([t],act,wMe)-sum(give,act,wMe);
@@ -220,70 +474,83 @@ function tradeIdeas(me,partners,act){
       const costs=act.filter(k=>sum([c.t],[k],()=>1)-sum(c.give,[k],()=>1)<=-0.7);
       const theirG=all.filter(k=>theirNeed.includes(k)&&sum(c.give,[k],()=>1)-sum([c.t],[k],()=>1)>=0.4);
       const likely=c.gap>=-0.2&&c.theirGain>=0.8;
-      return `<li><b>${esc(x.t)}:</b> give <b>${c.give.map(p=>esc(p.name)).join(' + ')}</b> for <b>${esc(c.t.name)}</b>${c.give.length===2?' <span class="mut">(2-for-1: you will have a free roster spot)</span>':''}<br>
+      return `<li><b>${esc(x.t)}:</b> give <b>${c.give.map(p=>esc(p.name)).join(' + ')}</b> for <b>${esc(c.t.name)}</b>${c.give.length===2?' <span class="mut">(2-for-1: free roster spot)</span>':''}<br>
       <span class="mut">You gain:</span> ${chips(gains,'g')} <span class="mut">You give up:</span> ${chips(costs,'b')} <span class="mut">They gain:</span> ${chips(theirG,'g')}<br>
       <span class="mut">Value:</span> ${c.give.map(p=>V(p).toFixed(1)).join(' + ')} for ${V(c.t).toFixed(1)} · ${likely?'<span class="good">realistic, they should consider it</span>':'<span class="mut">possible, but expect a counter</span>'}</li>`;
     }).join('');
   }).join('');
-  return rows?`<p class="note"><b>Player ideas (balanced trades only):</b></p><ul class="box">${rows}</ul><p class="note">Each idea keeps the total value close, helps your categories (not punted ones), and fills something the other team is weak in. Your top 3 players and their top 2 are left out. Values come from projected per-game stats across all 9 categories, so treat them as starting points and check injuries and minutes first.</p>`:'';
+  return rows?`<h3>Player ideas (balanced)</h3><ul class="box">${rows}</ul><p class="note">Your top 3 players and their top 2 are left out. Use the analyzer below to test any variation.</p>`:'';
 }
 
-function renderAlerts(me){
-  const r=D.rosters[me]||[],out=[];
-  const irCount=r.filter(p=>p.slot==='IR').length;
-  r.forEach(p=>{
-    if(p.injury!=='ACTIVE'&&p.slot!=='IR')out.push(`<b>${esc(p.name)}</b> is ${esc(p.injury)} but not in an IR slot.`);
-    if(p.slot==='IR'&&p.injury==='ACTIVE')out.push(`<b>${esc(p.name)}</b> shows as healthy on ESPN but is in an IR slot — check if he can come back and free the slot.`);
-    if(p.injury==='DAY_TO_DAY')out.push(`<b>${esc(p.name)}</b> is day-to-day.`);
-  });
-  if(D.games&&D.games.by_team){
-    const idle=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&gm(p)&&gm(p).rest===0).map(p=>esc(p.name));
-    const benchG=r.filter(p=>p.slot==='BE'&&p.injury!=='OUT'&&gm(p)&&gm(p).rest>0).map(p=>esc(p.name)+' ('+gm(p).rest+')');
-    if(idle.length)out.push(`No games left this week for starters: <b>${idle.join(', ')}</b>.${benchG.length?' Bench players who still play: '+benchG.join(', ')+'.':''}`);
+function renderBuyLow(me){
+  const d=p=>{const a=p.avg||{},b=p.proj||{};if(a.PTS==null||b.PTS==null||p.proj===p.avg)return null;
+    return D.cats.reduce((s,c)=>s+zv(a,c)-zv(b,c),0)};
+  const sell=[],buy=[];
+  Object.keys(D.rosters).forEach(t=>D.rosters[t].forEach(p=>{
+    const x=d(p);if(x==null||p.slot==='IR')return;
+    const base=totZ(p);
+    if(t===me){if(x>=1.0)sell.push({p,x,t})}
+    else if(x<=-1.0&&base>1)buy.push({p,x,t});
+  }));
+  const fa=[];(D.free_agents||[]).forEach(p=>{const x=d(p);if(x!=null&&x>=1.5&&p.injury==='ACTIVE')fa.push({p,x,t:'Free agent'})});
+  sell.sort((a,b)=>b.x-a.x);buy.sort((a,b)=>a.x-b.x);fa.sort((a,b)=>b.x-a.x);
+  const tbl=(rows,hot)=>rows.length?'<table><tr><th>Player</th><th>Team</th><th class=n>Projected</th><th class=n>Recent</th><th class=n>Gap</th></tr>'+rows.slice(0,6).map(r=>`<tr><td>${esc(r.p.name)}</td><td class="${cls(r.t)}">${esc(r.t)}</td><td class="n">${totZ({proj:r.p.proj,avg:r.p.proj}).toFixed(1)}</td><td class="n">${totZ({proj:r.p.avg,avg:r.p.avg}).toFixed(1)}</td><td class="n ${hot?'good':'bad'}">${r.x>0?'+':''}${r.x.toFixed(1)}</td></tr>`).join('')+'</table>':'<span class="mut">none right now</span>';
+  $('buylow').innerHTML=`<h3 style="margin-top:0">Sell high (your players running hot)</h3>${tbl(sell,true)}<h3>Buy low (good players running cold)</h3>${tbl(buy,false)}<h3>Hot free agents</h3>${tbl(fa,true)}
+  <p class="note">Values are total z-scores across all nine categories. Gap = recent minus projected. A big positive gap often cools off; a big negative gap on a proven player often rebounds.</p>`;
+}
+
+let TA={team:null,give:new Set(),get:new Set()};
+const prof=(players,n=10)=>{const ps=players.filter(p=>p.slot!=='IR'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,n),o={};D.cats.forEach(c=>o[c]=ps.reduce((s,p)=>s+z(p,c),0));return o};
+function renderAnalyzer(me){
+  const teams=D.power.map(p=>p.team).filter(t=>t!==me);
+  if(!TA.team||!teams.includes(TA.team))TA.team=teams[0];
+  const mine=D.rosters[me]||[],theirs=D.rosters[TA.team]||[];
+  const list=(arr,set,k)=>[...arr].filter(hasStats).sort((a,b)=>totZ(b)-totZ(a)).map(p=>`<label class="pick"><input type="checkbox" data-k="${k}" data-n="${esc(p.name)}" ${set.has(p.name)?'checked':''}> ${esc(p.name)} <span class="mut">${totZ(p).toFixed(1)}</span></label>`).join('');
+  const give=mine.filter(p=>TA.give.has(p.name)),get=theirs.filter(p=>TA.get.has(p.name));
+  let res='<p class="note">Tick at least one player on each side.</p>';
+  if(give.length&&get.length){
+    const myAfter=mine.filter(p=>!TA.give.has(p.name)).concat(get),thAfter=theirs.filter(p=>!TA.get.has(p.name)).concat(give);
+    const p0={},p1={};D.power.forEach(q=>{p0[q.team]=prof(D.rosters[q.team]||[]);p1[q.team]=p0[q.team]});
+    p1[me]=prof(myAfter);p1[TA.team]=prof(thAfter);
+    const rank=(P,c,t)=>1+Object.keys(P).filter(o=>o!==t&&P[o][c]>P[t][c]+1e-9).length;
+    const act=D.cats.filter(c=>!punts.includes(c));
+    let myD=0,thD=0;
+    const rows=D.cats.map(c=>{
+      const dm=p1[me][c]-p0[me][c],dt=p1[TA.team][c]-p0[TA.team][c];
+      if(act.includes(c))myD+=dm;thD+=dt;
+      const rm0=rank(p0,c,me),rm1=rank(p1,c,me),rt0=rank(p0,c,TA.team),rt1=rank(p1,c,TA.team);
+      const f=(x,r0,r1)=>`<td class="n ${x>0.15?'good':x<-0.15?'bad':'mut'}">${x>0?'+':''}${x.toFixed(1)}</td><td class="n">${r0}${r1!==r0?' → <b class="'+(r1<r0?'good':'bad')+'">'+r1+'</b>':''}</td>`;
+      return `<tr class="${punts.includes(c)?'mut':''}"><td>${c}${punts.includes(c)?' <span class="mut">(punt)</span>':''}</td>${f(dm,rm0,rm1)}${f(dt,rt0,rt1)}</tr>`}).join('');
+    const gap=give.reduce((s,p)=>s+totZ(p),0)-get.reduce((s,p)=>s+totZ(p),0);
+    let v;
+    if(myD>0.5&&thD>0.5)v='<b class="good">Win-win.</b> Both teams improve, so they have a reason to accept.';
+    else if(myD>0.5)v='<b class="good">Good for you.</b> They lose more than they gain, so expect pushback unless they value the names.';
+    else if(myD<-0.5&&thD>0.5)v='<b class="bad">Favors them.</b> You lose ground in your categories.';
+    else if(myD<-0.5)v='<b class="bad">Bad for both sides.</b> Not worth proposing.';
+    else v='<b>Roughly even.</b> Small effect on your categories.';
+    const spots=get.length-give.length;
+    res=`<div class="verdict">${v}<br><span class="mut">Your category change (non-punted): ${myD>0?'+':''}${myD.toFixed(1)} · theirs: ${thD>0?'+':''}${thD.toFixed(1)} · name value gap: ${gap>0?'+':''}${gap.toFixed(1)} in their favor when positive.</span><br>${spots>0?`You would need to drop ${spots} player${spots>1?'s':''} to make room.`:spots<0?`You would free ${-spots} roster spot${spots<-1?'s':''}.`:'Roster sizes stay the same.'}</div>
+    <table><tr><th>Cat</th><th class=n>You</th><th class=n>Your rank</th><th class=n>${esc(TA.team)}</th><th class=n>Their rank</th></tr>${rows}</table>
+    <p class="note">Team strength = sum of z-scores of each team's best 10 players. Rank is among all 10 teams. Positions and minutes are not checked.</p>`;
   }
-  const others=[];
-  Object.keys(D.rosters).filter(t=>t!==me).forEach(t=>D.rosters[t].filter(p=>p.injury==='OUT'||p.injury==='DAY_TO_DAY').forEach(p=>others.push(`${esc(p.name)} <span class="mut">(${esc(t)}, ${esc(p.injury)})</span>`)));
-  const act=D.cats.filter(c=>!punts.includes(c));
-  const drops=r.filter(p=>p.slot!=='IR'&&hasStats(p)).sort((a,b)=>zsum(a,act)-zsum(b,act)).slice(0,3).map(p=>esc(p.name)+' <span class="mut">('+zsum(p,act).toFixed(1)+')</span>');
-  $('alerts').innerHTML=`<div class="box">IR slots used: <b>${irCount}</b> of 2</div><ul>${out.length?out.map(x=>'<li>'+x+'</li>').join(''):'<li class="mut">No alerts for your roster.</li>'}</ul>
-  <p class="note"><b>Weakest players on your roster (drop candidates):</b> ${drops.join(' · ')||'no stats yet'}</p>
-  <p class="note"><b>Injured on other teams (buy-low / waiver watch):</b><br>${others.join(' · ')||'none'}</p>`;
+  $('analyzer').innerHTML=`<label class="mut">Trade with: <select id="ta_t">${teams.map(t=>`<option ${t===TA.team?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+  <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">You give</h3><div class="picks">${list(mine,TA.give,'give')}</div></div><div><h3 style="margin-top:0">You get</h3><div class="picks">${list(theirs,TA.get,'get')}</div></div></div>
+  <div style="margin-top:12px">${res}</div>`;
+  $('ta_t').onchange=e=>{TA.team=e.target.value;TA.get=new Set();renderAnalyzer(me)};
+  $('analyzer').querySelectorAll('input[type=checkbox]').forEach(i=>i.onchange=()=>{const s=i.dataset.k==='give'?TA.give:TA.get;i.checked?s.add(i.dataset.n):s.delete(i.dataset.n);renderAnalyzer(me)});
 }
-
-function renderFA(me){
-  const fa=D.free_agents||[];
-  if(!fa.length){$('fa').innerHTML='<span class="mut">No free-agent data yet. If this stays empty after a run, send me the Actions log.</span>';return}
-  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
-  const mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
-  const sc=p=>{const g=gm(p);return need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0)*(g?g.rest+0.5:3)};
-  const sorted=[...fa].sort((a,b)=>sc(b)-sc(a)).slice(0,15);
-  $('fa').innerHTML=`<p class="note" style="margin:0 0 8px">You need: ${chips(need,'b')} (punted: ${punts.join(', ')||'none'}). Averages are ESPN's recent numbers, not guaranteed.</p>
-  <table><tr><th>Player</th><th>Pos</th><th>Status</th><th class=n>Games</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
-  sorted.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${D.cats.map(c=>`<td class="n ${need.includes(c)?'hl':''}">${fmt(c,(p.avg||{})[c])}</td>`).join('')}</tr>`).join('')+'</table><p class="note">Games = left this week / next week. Sorted by what you need x games left this week.</p>';
-}
-
-function renderNews(me){
-  const items=D.news||[];
-  if(!items.length){$('news').innerHTML='<span class="mut">No news yet. Feeds load on the next successful update.</span>';return}
-  const names=(D.rosters[me]||[]).map(p=>p.name.toLowerCase());
-  const mineOnly=$('mine').checked;
-  const hit=n=>names.some(x=>(n.title+' '+n.summary).toLowerCase().includes(x));
-  const list=items.filter(n=>!mineOnly||hit(n)).slice(0,30);
-  $('news').innerHTML=list.length?'<ul>'+list.map(n=>`<li class="${hit(n)?'hl':''}"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="mut">${esc(n.source)} · ${esc(n.published)}</span></li>`).join('')+'</ul>':'<span class="mut">No news mentions your players right now. Untick the box to see all news.</span>';
-}
-
 function renderLog(){
-  const items=(D.log&&D.log.length?D.log:D.activity)||[];
+  const items=logItems();
   const t=$('lt').value,tm=$('lteam').value;
-  const kind=a=>{const x=String(a).toUpperCase();return x.includes('TRADE')?'TRADE':x.includes('DROP')?'DROP':x.includes('ADD')?'ADD':'OTHER'};
   const list=items.filter(x=>(!t||kind(x.action)===t)&&(!tm||x.team===tm));
   const tally={};items.forEach(x=>tally[x.team]=(tally[x.team]||0)+1);
   const top=Object.entries(tally).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(k)} (${v})`);
   $('log').innerHTML=`<p class="note" style="margin:0 0 8px"><b>Most active:</b> ${top.join(' · ')}</p><table><tr><th>When</th><th>Team</th><th>Move</th><th>Player</th></tr>`+
    list.slice(0,60).map(x=>`<tr><td class="mut">${esc(String(x.date).replace('T',' ').slice(0,16))}</td><td class="${cls(x.team)}">${esc(x.team)}</td><td>${esc(x.action)}</td><td>${esc(x.player)}</td></tr>`).join('')+'</table>'+
-   `<p class="note">History builds up over time as the page keeps collecting moves (up to 600). Times are in UTC.</p>`;
+   `<p class="note">History builds up over time (up to 600 moves). Times are UTC.</p>`;
 }
 
+/* ---------- LEAGUE ---------- */
 function edge(me,opp){let b=0,w=0;D.cats.forEach(c=>{const x=rk(c,me),y=rk(c,opp);if(x<y)b++;else if(x>y)w++});return{b,w}}
 function renderSchedule(me){
   const s=(D.schedule&&D.schedule[me])||[],sel=$('wk');
@@ -307,47 +574,16 @@ function renderSchedule(me){
   }
   h+='<table style="margin-top:10px"><tr><th>Week</th><th>Opponent</th><th class=n>You lead</th><th>Outlook</th></tr>'+
     s.map((o,k)=>{const c=canon(o),e=c?edge(me,c):null,state=k+1<D.week?'played':k+1===D.week?'this week':'upcoming';
-      return `<tr class="${k===i?'hl':''}"><td>${k+1}</td><td>${esc(c||o)}</td><td class="n">${e?e.b+' of 9':'–'}</td><td class="${state==='played'?'mut':''}">${state}${e&&state!=='played'?' · '+(e.b>=6?'favorable':e.b<=3?'tough':'even'):''}</td></tr>`}).join('')+'</table><p class="note">"You lead" compares season category ranks, so it gets sharper as more weeks are played.</p>';
+      return `<tr class="${k===i?'hl':''}"><td>${k+1}</td><td>${esc(c||o)}</td><td class="n">${e?e.b+' of 9':'–'}</td><td class="${state==='played'?'mut':''}">${state}${e&&state!=='played'?' · '+(e.b>=6?'favorable':e.b<=3?'tough':'even'):''}</td></tr>`}).join('')+'</table>';
   $('sched').innerHTML=h;
 }
-
-
-function needFn(me){
-  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
-  const fa=D.free_agents||[],mx={};D.cats.forEach(c=>mx[c]=Math.max(...fa.map(p=>(p.avg||{})[c]||0),1e-9));
-  return{need,score:p=>need.reduce((s,c)=>s+((p.avg||{})[c]||0)/mx[c],0)};
-}
-function renderTrends(me){
-  const fa=D.free_agents||[],H=D.pct_hist||{},nf=needFn(me);
-  const rows=fa.map(p=>{const h=H[p.name]||[];if(h.length<2)return null;const a=h[0],b=h[h.length-1];return{p,chg:b[1]-a[1],hrs:Math.round((b[0]-a[0])/60),now:b[1]}})
-    .filter(x=>x&&x.hrs>=1).sort((a,b)=>b.chg-a.chg).slice(0,12);
-  if(!rows.length){$('trends').innerHTML='<span class="mut">Collecting data. This fills in after a few updates (it needs at least an hour of history).</span>';return}
-  $('trends').innerHTML='<table><tr><th>Player</th><th>Pos</th><th class=n>Owned %</th><th class=n>Change</th><th>Over</th><th class=n>Games</th><th>Fits your needs</th></tr>'+
-   rows.map(x=>{const fits=nf.need.filter(c=>z(x.p,c)>0.3);return `<tr><td>${esc(x.p.name)}</td><td>${esc(x.p.pos)}</td><td class="n">${x.now.toFixed(1)}</td><td class="n ${x.chg>0?'good':x.chg<0?'bad':''}">${x.chg>0?'+':''}${x.chg.toFixed(1)}</td><td class="mut">${x.hrs}h</td>${gcell(x.p)}<td>${chips(fits,'g')}</td></tr>`}).join('')+
-   '</table><p class="note">Players whose ownership is climbing fastest are getting picked up by other teams. If one fits what you need, add him before he is gone.</p>';
-}
-
-function renderStream(me){
-  const G=D.games;
-  if(!G||!G.by_day||!G.days){$('stream').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
-  const r=D.rosters[me]||[],fa=(D.free_agents||[]).filter(p=>p.injury==='ACTIVE'),nf=needFn(me);
-  const starters=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT');
-  const rows=G.days.slice(0,7).map(d=>{
-    const on=new Set(G.by_day[d]||[]);
-    const st=starters.filter(p=>on.has(p.team)).length;
-    const bench=r.filter(p=>p.slot==='BE'&&p.injury!=='OUT'&&on.has(p.team)).map(p=>esc(p.name));
-    const str=fa.filter(p=>on.has(p.team)).sort((a,b)=>nf.score(b)-nf.score(a)).slice(0,3).map(p=>esc(p.name));
-    const label=new Date(d+'T12:00:00').toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric'});
-    const light=starters.length&&st<starters.length*0.6;
-    return `<tr><td>${label}${d===G.today?' <span class="mut">(today)</span>':''}</td><td class="n">${st}/${starters.length}</td><td>${light?'<span class="chip b">light day</span>':''}</td><td class="box">${bench.join(', ')||'<span class="mut">none</span>'}</td><td class="box">${str.join(', ')||'<span class="mut">none</span>'}</td></tr>`;
-  }).join('');
-  $('stream').innerHTML=`<table><tr><th>Day</th><th class=n>Starters playing</th><th></th><th>Bench players who play</th><th>Best free agents who play</th></tr>${rows}</table>
-  <p class="note">Use light days to start bench players or stream a free agent who plays that day. Free agents are ranked by what you need. Times are US Eastern dates, so a late game can fall on the next day where you are.</p>`;
-}
-
-let PO=6;try{const v=+localStorage.getItem('poteams');if([4,6,8].includes(v))PO=v}catch(e){}
+let PO=6;
 function renderPlayoffs(me){
-  const sel=$('po');sel.value=String(PO);
+  const sel=$('po');
+  if(!sel.options.length){[2,3,4,5,6,7,8].forEach(n=>sel.add(new Option(String(n),String(n))));
+    const st=+lsGet('poteams','0'),cfg=D.settings&&+D.settings.playoff_teams;
+    PO=st>=2&&st<=8?st:(cfg>=2&&cfg<=8?cfg:6);sel.onchange=()=>{PO=+sel.value;lsSet('poteams',String(PO));renderPlayoffs(meName())}}
+  sel.value=String(PO);
   const sc={};D.power.forEach(p=>sc[p.team]=p.score);
   const teams=D.standings.map(x=>x.team),rec={};D.standings.forEach(x=>rec[x.team]=x);
   const matches=[],sched=D.schedule||{};
@@ -362,13 +598,12 @@ function renderPlayoffs(me){
     order.forEach((t,i)=>{if(i<PO)po[t]++;if(i<2)top2[t]++;avgW[t]+=w[t]});
   }
   const list=[...teams].sort((a,b)=>po[b]-po[a]);
-  const sorted=[...D.standings].sort((a,b)=>b.wins-a.wins),cut=sorted[PO-1]?sorted[PO-1].wins:0;
   $('playoffs').innerHTML='<table><tr><th>Team</th><th class=n>Record</th><th class=n>Proj. wins</th><th class=n>Make playoffs</th><th class=n>Top-2 seed</th></tr>'+
    list.map(t=>`<tr><td class="${cls(t)}">${esc(t)}</td><td class="n">${rec[t].wins}-${rec[t].losses}-${rec[t].ties}</td><td class="n">${(avgW[t]/N).toFixed(1)}</td><td class="n">${Math.round(po[t]/N*100)}%</td><td class="n">${Math.round(top2[t]/N*100)}%</td></tr>`).join('')+'</table>'+
-   `<p class="note">${matches.length} regular-season matchups left are simulated 2,500 times using each team's category strength (the power ranking), so early in the season this is a rough guide. Wins behind the cut line right now: you have ${rec[me]?rec[me].wins:0}, the line is ${cut}. Your playoff bracket runs Feb 15 to Mar 7, and the two-week All-Star break may change the number of regular-season weeks, so check that the number of spots matches your league settings.</p>`;
+   `<p class="note">${matches.length} remaining matchups simulated 2,500 times using each team's category strength, so it is rough early in the season. ${D.settings&&D.settings.playoff_teams?'Playoff spots come from your league settings.':'Playoff spots are assumed; set the right number above.'}</p>`;
 }
 
-function weekNum(me){return D.week}
+/* ---------- OVERVIEW: recap + KPIs ---------- */
 function renderRecap(me){
   const wk=D.week>1?D.week-1:D.week,live=D.week===1;
   const m=D.matchups.find(x=>x.week===wk&&(x.home===me||x.away===me));
@@ -385,42 +620,36 @@ function renderRecap(me){
   }
   const st=D.standings.find(x=>x.team===me),pr=D.power.findIndex(x=>x.team===me)+1;
   if(st)L.push(`Standing: ${st.rank??'–'} of 10, record ${st.wins}-${st.losses}-${st.ties}. Power ranking: ${pr} of 10.`);
-  const cur=D.matchups.find(x=>x.week===D.week&&(x.home===me||x.away===me));
-  if(cur&&D.games&&D.games.by_team&&(D.rosters[me]||[]).some(hasStats)){
-    const side=cur.home===me?'home':'away',os=side==='home'?'away':'home',opp=side==='home'?cur.away:cur.home;
-    const a={},b={};D.cats.forEach(c=>{if(cur.cats[c]){a[c]=cur.cats[c][side];b[c]=cur.cats[c][os]}});
-    const r=winProb(me,opp,a,b),sw=D.cats.filter(c=>r.probs[c]>0.3&&r.probs[c]<0.7);
-    L.push(`This week vs ${opp.trim()}: ${Math.round(r.pwin*100)}% to win, about ${r.exp.toFixed(1)} of 9 categories. Swing categories: ${sw.join(', ')||'none'}.`);
+  const cm=curMatch(me);
+  if(cm&&haveSim(me)){
+    const r=winProb(me,cm.opp,cm.a,cm.b),sw=D.cats.filter(c=>r.probs[c]>0.3&&r.probs[c]<0.7);
+    L.push(`This week vs ${cm.opp.trim()}: ${Math.round(r.pwin*100)}% to win, about ${r.exp.toFixed(1)} of 9 categories. Swing categories: ${sw.join(', ')||'none'}.`);
   }
   const wkAgo=Date.now()-7*864e5;
-  const recent=((D.log&&D.log.length?D.log:D.activity)||[]).filter(x=>{const t=Date.parse(x.date);return !isNaN(t)&&t>=wkAgo});
-  const trades=recent.filter(x=>String(x.action).toUpperCase().includes('TRADE')),mineMoves=recent.filter(x=>x.team===me);
+  const recent=logItems().filter(x=>{const t=ts(x);return !isNaN(t)&&t>=wkAgo});
+  const trades=recent.filter(x=>kind(x.action)==='TRADE'),mineMoves=recent.filter(x=>x.team===me);
   L.push(`League moves in the last 7 days: ${recent.length} (${trades.length} trade${trades.length===1?'':'s'}). Yours: ${mineMoves.length}.`);
   const hurt=(D.rosters[me]||[]).filter(p=>p.injury!=='ACTIVE').map(p=>p.name+' ('+p.injury+')');
   if(hurt.length)L.push(`Injuries to watch: ${hurt.join(', ')}.`);
-  const nf=needFn(me);L.push(`Weakest categories: ${[...D.cats].sort((x,y)=>rk(y,me)-rk(x,me)).slice(0,3).map(c=>c+' ('+rk(c,me)+')').join(', ')}. Punting: ${punts.join(', ')||'none'}.`);
-  $('recap').innerHTML='<ul class="box">'+L.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul><button id="cp" style="padding:6px 12px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx);cursor:pointer">Copy recap</button> <span id="cpm" class="mut"></span>';
+  L.push(`Weakest categories: ${[...D.cats].sort((x,y)=>rk(y,me)-rk(x,me)).slice(0,3).map(c=>c+' ('+rk(c,me)+')').join(', ')}. Punting: ${punts.join(', ')||'none'}.`);
+  $('recap').innerHTML='<ul class="box">'+L.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul><button id="cp" class="btn">Copy recap</button> <span id="cpm" class="mut"></span>';
   $('cp').onclick=()=>{const t=L.join('\n');try{navigator.clipboard.writeText(t).then(()=>{$('cpm').textContent='Copied'},()=>{$('cpm').textContent='Could not copy'})}catch(e){$('cpm').textContent='Could not copy'}};
 }
-
-function renderSearch(me){
-  const q=norm($('q').value.trim()),fao=$('fao').checked;
-  if(!q){$('search').innerHTML='<span class="mut">Type part of a name to see his averages, status and who owns him.</span>';return}
-  const need=D.cats.filter(c=>!punts.includes(c)&&c!=='TO'&&rk(c,me)>=6);
-  const res=allP().filter(p=>norm(p.name).includes(q)&&(!fao||p.owner==='Free agent')).slice(0,25);
-  $('search').innerHTML=res.length?`<table><tr><th>Player</th><th>Owner</th><th>Pos</th><th>Status</th><th class=n>Games</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
-   res.map(p=>`<tr><td>${esc(p.name)}</td><td class="${p.owner==='Free agent'?'good':cls(p.owner)}">${esc(p.owner)}</td><td>${esc(p.pos)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,need)}</tr>`).join('')+'</table>'+
-   '<p class="note">Highlighted columns are categories you need. Only the top 200 free agents are searchable; if a player is missing, check ESPN directly.</p>':'<span class="mut">No match.</span>';
+function renderKpis(me){
+  const st=D.standings.find(x=>x.team===me),pr=D.power.findIndex(x=>x.team===me)+1;
+  const k=[];
+  k.push(['Record',st?`${st.wins}-${st.losses}-${st.ties}`:'–']);
+  k.push(['Standing',st&&st.rank?st.rank+' of 10':'–']);
+  k.push(['Power rank',pr+' of 10']);
+  k.push(['Win chance this week',WP?Math.round(WP.pwin*100)+'%':'–']);
+  k.push(['Adds this week',MOVES?MOVES.used+(MOVES.lim>0?' / '+MOVES.lim:''):'–']);
+  $('kpis').innerHTML=k.map(([a,b])=>`<div class="kpi"><b>${esc(b)}</b><span>${esc(a)}</span></div>`).join('');
 }
 
-function render(){
-  const me=D.power.map(p=>p.team).find(isMe)||D.power[0].team;
-  renderMatch(me);renderPunt(me);renderTrade(me);renderAlerts(me);renderFA(me);renderSearch(me);renderNews(me);renderLog();renderSchedule(me);renderTrends(me);renderStream(me);renderPlayoffs(me);renderRecap(me);
-}
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  D=d;
-  const ago=Math.round((Date.now()-new Date(d.updated))/60000);
-  $('sub').textContent=`Week ${d.week} · updated ${ago} min ago (${new Date(d.updated).toLocaleString()})`;
+/* ---------- static pieces + render ---------- */
+function buildStatic(){
+  const d=D;
+  $('sub').textContent=`${ME} · Week ${d.week} · updated ${Math.round((Date.now()-new Date(d.updated))/60000)} min ago`;
   $('power').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>Score</th></tr>'+
    d.power.map((r,i)=>`<tr><td>${i+1}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.score}</td></tr>`).join('')+'</table>';
   const teams=d.power.map(p=>p.team);
@@ -430,15 +659,35 @@ fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   $('stand').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>W-L-T</th></tr>'+
    d.standings.map(r=>`<tr><td>${r.rank??''}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.wins}-${r.losses}-${r.ties}</td></tr>`).join('')+'</table>';
   $('act').innerHTML='<table>'+d.activity.slice(0,25).map(a=>`<tr><td>${esc(a.team)}</td><td>${esc(a.action)}</td><td>${esc(a.player)}</td></tr>`).join('')+'</table>';
-  const sel=$('team');Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
-  const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;
-  const show=()=>$('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th><th class=n>Games</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
-   d.rosters[sel.value].map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,null)}</tr>`).join('')+'</table>';
-  sel.onchange=show;show();
-  const ls=$('lteam');ls.add(new Option('All teams',''));Object.keys(d.rosters).forEach(t=>ls.add(new Option(t,t)));ls.onchange=()=>renderLog();$('lt').onchange=()=>renderLog();
-  $('po').onchange=()=>{PO=+$('po').value;try{localStorage.setItem('poteams',String(PO))}catch(e){}renderPlayoffs(D.power.map(p=>p.team).find(isMe)||D.power[0].team)};
-  $('mine').onchange=()=>render();$('q').oninput=()=>render();$('fao').onchange=()=>render();
-  render();
-}).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
-setInterval(()=>location.reload(),5*60*1000);
+  const sel=$('team');
+  if(!sel.options.length){Object.keys(d.rosters).forEach(t=>sel.add(new Option(t,t)));
+    const mine=Object.keys(d.rosters).find(isMe);if(mine)sel.value=mine;sel.onchange=showRoster;
+    const ls=$('lteam');ls.add(new Option('All teams',''));Object.keys(d.rosters).forEach(t=>ls.add(new Option(t,t)));ls.onchange=()=>renderLog();$('lt').onchange=()=>renderLog();
+    $('mine').onchange=()=>renderNews(meName());$('q').oninput=()=>renderSearch(meName());$('fao').onchange=()=>renderSearch(meName());}
+  showRoster();
+}
+function showRoster(){const sel=$('team'),d=D;
+  $('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th><th class=n>Games</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
+   (d.rosters[sel.value]||[]).map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,null)}</tr>`).join('')+'</table>'}
+function safe(f,...a){try{f(...a)}catch(e){console.error(f.name,e)}}
+function render(){
+  const me=meName();
+  [renderMatch,renderFlip,renderBeast,renderPunt,renderAlerts,renderSlots,renderBudget,renderDropAdd,renderFA,renderTrends,renderSearch,renderNews,renderTrade,renderBuyLow,renderAnalyzer,renderSchedule,renderPlayoffs,renderRecap,renderKpis].forEach(f=>safe(f,me));
+  safe(renderLog);safe(renderScout);
+}
+const TABS=['overview','matchup','roster','market','trades','league'];
+function showTab(t,scroll){
+  if(!TABS.includes(t))t='overview';
+  TABS.forEach(x=>{$('p-'+x).classList.toggle('on',x===t);document.querySelector('[data-t="'+x+'"]').classList.toggle('on',x===t)});
+  try{history.replaceState(null,'','#'+t)}catch(e){}
+  if(scroll)window.scrollTo(0,0);
+}
+document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>showTab(b.dataset.t,true));
+showTab((location.hash||'').slice(1));
+function load(){
+  return fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;ZS=null;buildStatic();render()})
+    .catch(e=>{$('sub').textContent='Could not load data: '+e.message});
+}
+load();
+setInterval(load,5*60*1000);
 </script></body></html>
