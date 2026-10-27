@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:10:23.390978Z",
+ "updated": "2026-10-27T07:20:23.170183Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -4992,6 +4992,26 @@
      "TO": 1.5942028985507246,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Daniss Jenkins",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "DET",
+    "avg": {
+     "PTS": 12.0,
+     "REB": 5.0,
+     "AST": 4.666666666666667,
+     "STL": 0.3333333333333333,
+     "BLK": 0.3333333333333333,
+     "3PM": 1.6666666666666667,
+     "FG%": 0.54545455,
+     "FT%": 0.77777778,
+     "TO": 2.0,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "Crackheads": [
@@ -5421,6 +5441,12 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-10-27T07:19:09.078000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Daniss Jenkins"
+  },
   {
    "date": "2026-10-27T07:08:17.252000",
    "team": "Real Men Eat Ass(ouad)",
@@ -7650,26 +7676,6 @@
     "TO": 2.3943661971830985,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Daniss Jenkins",
-   "pos": "PG",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.0,
-    "REB": 5.0,
-    "AST": 4.666666666666667,
-    "STL": 0.3333333333333333,
-    "BLK": 0.3333333333333333,
-    "3PM": 1.6666666666666667,
-    "FG%": 0.54545455,
-    "FT%": 0.77777778,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Justin Champagnie",
@@ -11276,6 +11282,15 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Dominick Barlow",
+   "pos": "PF",
+   "team": "PHL",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {}
   }
  ],
  "news": [
@@ -11753,6 +11768,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-27T07:19:09.078000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Daniss Jenkins"
+  },
   {
    "date": "2026-10-27T07:08:17.252000",
    "team": "Real Men Eat Ass(ouad)",
