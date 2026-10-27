@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T19:20:21.960232Z",
+ "updated": "2026-10-27T19:30:27.143598Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3372,7 +3372,7 @@
    {
     "name": "Chet Holmgren",
     "pos": "C",
-    "slot": "IR",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
@@ -3465,8 +3465,8 @@
    {
     "name": "Jaren Jackson Jr.",
     "pos": "C",
-    "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "slot": "IR",
+    "injury": "OUT",
     "team": "UTA",
     "avg": {
      "PTS": 16.25,
@@ -11319,6 +11319,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaren Jackson: Expected to miss at least six weeks",
+   "link": "https://www.rotowire.com//basketball/player/jaren-jackson-4384",
+   "published": "Tue, 27 Oct 2026 12:25:00 PM PDT",
+   "summary": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Alperen Sengun: Dominant in victory",
    "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
    "published": "Tue, 27 Oct 2026 10:51:00 AM PDT",
@@ -11344,13 +11351,6 @@
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Tue, 27 Oct 2026 8:31:00 AM PDT",
    "summary": "Leonard (knee) is expected to miss multiple weeks due to swelling in his left knee, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ausar Thompson: Goes through shootaround",
-   "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
-   "published": "Tue, 27 Oct 2026 8:24:00 AM PDT",
-   "summary": "Thompson (ankle) was a full participant at Tuesday's shootaround, Coty M. Davis of The Detroit News reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
