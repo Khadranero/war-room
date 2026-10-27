@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:00:31.458597Z",
+ "updated": "2026-10-27T06:10:22.318375Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5390,6 +5390,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-27T06:04:13.065000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Mitchell Robinson"
+  },
+  {
+   "date": "2026-10-27T06:04:13.065000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Robert Williams III"
+  },
+  {
    "date": "2026-10-27T03:38:55.970000",
    "team": "AARON VENGERS",
    "action": "DROPPED",
@@ -6531,6 +6543,36 @@
     "FG%": 0.737,
     "FT%": 0.639,
     "TO": 0.59375,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Mitchell Robinson",
+   "pos": "C",
+   "team": "BOS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.0,
+    "REB": 4.666666666666667,
+    "AST": 1.0,
+    "STL": 0.3333333333333333,
+    "BLK": 1.0,
+    "3PM": 0.0,
+    "FG%": 0.77777778,
+    "FT%": 0.25,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.344262295081967,
+    "REB": 11.098360655737705,
+    "AST": 1.098360655737705,
+    "STL": 1.1967213114754098,
+    "BLK": 1.5081967213114753,
+    "FG%": 0.715,
+    "FT%": 0.417,
+    "TO": 0.9016393442622951,
     "_src": "2027_projected"
    }
   },
@@ -8315,37 +8357,6 @@
     "FG%": 0.449,
     "FT%": 0.821,
     "TO": 2.0985915492957745,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Robert Williams III",
-   "pos": "C",
-   "team": "POR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.5,
-    "REB": 8.0,
-    "AST": 0.5,
-    "STL": 0.0,
-    "BLK": 1.0,
-    "3PM": 0.0,
-    "FG%": 0.77777778,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.52542372881356,
-    "REB": 7.796610169491525,
-    "AST": 1.2033898305084745,
-    "STL": 0.6949152542372882,
-    "BLK": 1.694915254237288,
-    "3PM": 0.15254237288135594,
-    "FG%": 0.693,
-    "FT%": 0.66,
-    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -11263,6 +11274,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Davion Mitchell: Scores 21 points Monday",
+   "link": "https://www.rotowire.com//basketball/player/davion-mitchell-5354",
+   "published": "Mon, 26 Oct 2026 11:03:00 PM PDT",
+   "summary": "Mitchell finished with 21 points (9-15 FG, 2-5 3Pt, 1-2 FT), two assists and three steals across 33 minutes in Monday's 113-109 loss to the Mavericks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kyrie Irving: Strong stat line Monday",
    "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
    "published": "Mon, 26 Oct 2026 10:59:00 PM PDT",
@@ -11288,13 +11306,6 @@
    "link": "https://www.rotowire.com//basketball/player/james-harden-3018",
    "published": "Mon, 26 Oct 2026 10:27:00 PM PDT",
    "summary": "Harden tallied 19 points (7-17 FG, 3-9 3Pt, 2-2 FT), five rebounds, nine assists and two steals across 39 minutes in Monday's 127-125 overtime win over the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Evan Mobley: Second consecutive double-double",
-   "link": "https://www.rotowire.com//basketball/player/evan-mobley-5355",
-   "published": "Mon, 26 Oct 2026 10:24:00 PM PDT",
-   "summary": "Mobley posted 18 points (6-12 FG, 4-5 3Pt, 2-6 FT), 10 rebounds, three assists and two blocks across 38 minutes in Monday's 127-125 overtime win over the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -11735,6 +11746,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-27T06:04:13.065000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Mitchell Robinson"
+  },
+  {
+   "date": "2026-10-27T06:04:13.065000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Robert Williams III"
+  },
   {
    "date": "2026-10-27T03:38:55.970000",
    "team": "AARON VENGERS",
