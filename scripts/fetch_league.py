@@ -150,6 +150,21 @@ for fa in free_agents:
         h[-1][1] = round(float(fa["pct"]), 1)
     pct_hist[fa["name"]] = h
 
+
+# ---- league settings (playoff teams, move limit, lineup slots), read defensively ----
+settings = {}
+try:
+    st = league.settings
+    raw = {
+        "playoff_teams": getattr(st, "playoff_team_count", None),
+        "reg_season_weeks": getattr(st, "reg_season_count", None),
+        "acq_limit": getattr(st, "acquisition_limit", None),
+        "slots": getattr(st, "position_slot_counts", None),
+    }
+    settings = json.loads(json.dumps(raw, default=str))
+except Exception as e:
+    print(f"settings: {e}", file=sys.stderr)
+
 # ---- public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
 FEEDS = [
     ("RotoWire", "https://www.rotowire.com/rss/news.php?sport=NBA"),
@@ -239,7 +254,7 @@ out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "week": current, "cats
        "standings": standings, "power": power_rank, "category_table": cat_table,
        "matchups": weekly, "rosters": rosters, "activity": activity,
        "schedule": schedule, "free_agents": free_agents, "news": news,
-       "games": games, "log": log, "pct_hist": pct_hist}
+       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings}
 os.makedirs("docs", exist_ok=True)
 with open("docs/data.json", "w") as f:
     json.dump(out, f, indent=1)
