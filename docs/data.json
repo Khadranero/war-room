@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T08:20:19.140283Z",
+ "updated": "2026-10-27T08:30:28.586290Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -6098,36 +6098,6 @@
    }
   },
   {
-   "name": "Jakob Poeltl",
-   "pos": "C",
-   "team": "TOR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 3.0,
-    "REB": 5.333333333333333,
-    "AST": 0.6666666666666666,
-    "STL": 0.6666666666666666,
-    "BLK": 0.6666666666666666,
-    "3PM": 0.0,
-    "FG%": 0.5,
-    "FT%": 0.6,
-    "TO": 0.6666666666666666,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.045454545454545,
-    "REB": 8.393939393939394,
-    "AST": 2.393939393939394,
-    "STL": 0.8939393939393939,
-    "BLK": 1.106060606060606,
-    "FG%": 0.657,
-    "FT%": 0.615,
-    "TO": 1.606060606060606,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Egor Demin",
    "pos": "PG",
    "team": "BKN",
@@ -6155,6 +6125,36 @@
     "FG%": 0.444,
     "FT%": 0.839,
     "TO": 2.0985915492957745,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jakob Poeltl",
+   "pos": "C",
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.0,
+    "REB": 5.333333333333333,
+    "AST": 0.6666666666666666,
+    "STL": 0.6666666666666666,
+    "BLK": 0.6666666666666666,
+    "3PM": 0.0,
+    "FG%": 0.5,
+    "FT%": 0.6,
+    "TO": 0.6666666666666666,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 12.045454545454545,
+    "REB": 8.393939393939394,
+    "AST": 2.393939393939394,
+    "STL": 0.8939393939393939,
+    "BLK": 1.106060606060606,
+    "FG%": 0.657,
+    "FT%": 0.615,
+    "TO": 1.606060606060606,
     "_src": "2027_projected"
    }
   },
@@ -9336,26 +9336,6 @@
    }
   },
   {
-   "name": "Javonte Green",
-   "pos": "SF",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.666666666666666,
-    "REB": 3.3333333333333335,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 2.0,
-    "FG%": 0.4375,
-    "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Meleek Thomas",
    "pos": "SG",
    "team": "CLE",
@@ -9371,6 +9351,26 @@
     "FG%": 0.6,
     "FT%": 0.0,
     "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Javonte Green",
+   "pos": "SF",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.666666666666666,
+    "REB": 3.3333333333333335,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.6666666666666666,
+    "3PM": 2.0,
+    "FG%": 0.4375,
+    "FT%": 1.0,
+    "TO": 0.0,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -9960,26 +9960,6 @@
    }
   },
   {
-   "name": "Mario Hezonja",
-   "pos": "SF",
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.333333333333333,
-    "REB": 3.6666666666666665,
-    "AST": 1.3333333333333333,
-    "STL": 1.0,
-    "BLK": 0.3333333333333333,
-    "3PM": 1.0,
-    "FG%": 0.39130435,
-    "FT%": 0.5,
-    "TO": 1.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Cameron Carr",
    "pos": "SF",
    "team": "LAL",
@@ -10018,6 +9998,26 @@
     "TO": 0.8026315789473685,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Mario Hezonja",
+   "pos": "SF",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.333333333333333,
+    "REB": 3.6666666666666665,
+    "AST": 1.3333333333333333,
+    "STL": 1.0,
+    "BLK": 0.3333333333333333,
+    "3PM": 1.0,
+    "FG%": 0.39130435,
+    "FT%": 0.5,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Adem Bona",
@@ -10530,15 +10530,6 @@
    }
   },
   {
-   "name": "Seth Curry",
-   "pos": "SG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Ebuka Okorie",
    "pos": "SG",
    "team": "DET",
@@ -10590,6 +10581,15 @@
    }
   },
   {
+   "name": "Seth Curry",
+   "pos": "SG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Quenton Jackson",
    "pos": "PG",
    "team": "IND",
@@ -10626,36 +10626,6 @@
     "FG%": 0.398,
     "FT%": 0.741,
     "TO": 2.1029411764705883,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Steven Adams",
-   "pos": "C",
-   "team": "HOU",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 4.0,
-    "REB": 2.0,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 3.238095238095238,
-    "REB": 4.698412698412699,
-    "AST": 0.9047619047619048,
-    "STL": 0.30158730158730157,
-    "BLK": 0.3968253968253968,
-    "FG%": 0.523,
-    "FT%": 0.526,
-    "TO": 0.6984126984126984,
     "_src": "2027_projected"
    }
   },
@@ -10718,6 +10688,36 @@
     "FG%": 0.474,
     "FT%": 0.643,
     "TO": 0.7076923076923077,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Steven Adams",
+   "pos": "C",
+   "team": "HOU",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 3.238095238095238,
+    "REB": 4.698412698412699,
+    "AST": 0.9047619047619048,
+    "STL": 0.30158730158730157,
+    "BLK": 0.3968253968253968,
+    "FG%": 0.523,
+    "FT%": 0.526,
+    "TO": 0.6984126984126984,
     "_src": "2027_projected"
    }
   },
@@ -11341,7 +11341,443 @@
    "summary": "Ball finished with 11 points (5-11 FG, 1-6 3Pt, 0-2 FT), six assists and a steal across 31 minutes in Monday's 127-125 overtime loss to the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
- "games": {},
+ "games": {
+  "today": "2026-10-27",
+  "days_left": 6,
+  "by_team": {
+   "BOS": {
+    "rest": 3,
+    "next": 4
+   },
+   "BKN": {
+    "rest": 3,
+    "next": 4
+   },
+   "NY": {
+    "rest": 3,
+    "next": 3
+   },
+   "DET": {
+    "rest": 3,
+    "next": 3
+   },
+   "SA": {
+    "rest": 3,
+    "next": 4
+   },
+   "SAC": {
+    "rest": 3,
+    "next": 4
+   },
+   "LAL": {
+    "rest": 4,
+    "next": 4
+   },
+   "POR": {
+    "rest": 3,
+    "next": 4
+   },
+   "ATL": {
+    "rest": 3,
+    "next": 4
+   },
+   "MIA": {
+    "rest": 2,
+    "next": 4
+   },
+   "CLE": {
+    "rest": 3,
+    "next": 4
+   },
+   "WSH": {
+    "rest": 2,
+    "next": 4
+   },
+   "CHA": {
+    "rest": 3,
+    "next": 3
+   },
+   "IND": {
+    "rest": 3,
+    "next": 3
+   },
+   "PHI": {
+    "rest": 3,
+    "next": 4
+   },
+   "TOR": {
+    "rest": 3,
+    "next": 3
+   },
+   "ORL": {
+    "rest": 3,
+    "next": 3
+   },
+   "CHI": {
+    "rest": 2,
+    "next": 3
+   },
+   "MIL": {
+    "rest": 2,
+    "next": 4
+   },
+   "HOU": {
+    "rest": 3,
+    "next": 3
+   },
+   "MIN": {
+    "rest": 3,
+    "next": 4
+   },
+   "GS": {
+    "rest": 3,
+    "next": 3
+   },
+   "NO": {
+    "rest": 3,
+    "next": 4
+   },
+   "DEN": {
+    "rest": 2,
+    "next": 3
+   },
+   "UTAH": {
+    "rest": 2,
+    "next": 4
+   },
+   "DAL": {
+    "rest": 2,
+    "next": 4
+   },
+   "OKC": {
+    "rest": 2,
+    "next": 4
+   },
+   "LAC": {
+    "rest": 3,
+    "next": 3
+   },
+   "MEM": {
+    "rest": 2,
+    "next": 3
+   },
+   "PHX": {
+    "rest": 1,
+    "next": 4
+   },
+   "GSW": {
+    "rest": 3,
+    "next": 3
+   },
+   "NYK": {
+    "rest": 3,
+    "next": 3
+   },
+   "NOP": {
+    "rest": 3,
+    "next": 4
+   },
+   "SAS": {
+    "rest": 3,
+    "next": 4
+   },
+   "UTA": {
+    "rest": 2,
+    "next": 4
+   },
+   "PHL": {
+    "rest": 3,
+    "next": 4
+   },
+   "WAS": {
+    "rest": 2,
+    "next": 4
+   },
+   "PHO": {
+    "rest": 1,
+    "next": 4
+   }
+  },
+  "days": [
+   "2026-10-27",
+   "2026-10-28",
+   "2026-10-29",
+   "2026-10-30",
+   "2026-10-31",
+   "2026-11-01",
+   "2026-11-02",
+   "2026-11-03",
+   "2026-11-04",
+   "2026-11-05",
+   "2026-11-06",
+   "2026-11-07",
+   "2026-11-08"
+  ],
+  "by_day": {
+   "2026-10-27": [
+    "BOS",
+    "BKN",
+    "NY",
+    "NYK",
+    "DET",
+    "SA",
+    "SAS",
+    "SAC",
+    "LAL",
+    "POR"
+   ],
+   "2026-10-28": [
+    "ATL",
+    "MIA",
+    "CLE",
+    "WSH",
+    "WAS",
+    "DET",
+    "CHA",
+    "IND",
+    "PHI",
+    "PHL",
+    "TOR",
+    "ORL",
+    "CHI",
+    "NY",
+    "NYK",
+    "MIL",
+    "HOU",
+    "MIN",
+    "GS",
+    "GSW",
+    "NO",
+    "NOP",
+    "DEN",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "DAL",
+    "OKC",
+    "LAC",
+    "LAL"
+   ],
+   "2026-10-29": [
+    "ATL",
+    "CLE",
+    "NO",
+    "NOP",
+    "SAC",
+    "POR",
+    "MEM"
+   ],
+   "2026-10-30": [
+    "WSH",
+    "WAS",
+    "CHA",
+    "BOS",
+    "CHI",
+    "BKN",
+    "DET",
+    "PHI",
+    "PHL",
+    "NY",
+    "NYK",
+    "TOR",
+    "ORL",
+    "MIA",
+    "IND",
+    "DAL",
+    "HOU",
+    "MIN",
+    "LAC",
+    "GS",
+    "GSW",
+    "LAL",
+    "PHX",
+    "PHO",
+    "DEN"
+   ],
+   "2026-10-31": [
+    "UTAH",
+    "UTA",
+    "POR",
+    "CHA",
+    "PHI",
+    "PHL",
+    "NO",
+    "NOP",
+    "ATL",
+    "MEM",
+    "SAC",
+    "MIL",
+    "CLE",
+    "SA",
+    "SAS",
+    "MIN",
+    "HOU",
+    "OKC"
+   ],
+   "2026-11-01": [
+    "ORL",
+    "BOS",
+    "IND",
+    "BKN",
+    "GS",
+    "GSW",
+    "LAC",
+    "LAL",
+    "TOR"
+   ],
+   "2026-11-02": [
+    "CLE",
+    "OKC",
+    "CHA",
+    "DET",
+    "IND",
+    "ATL",
+    "NY",
+    "NYK",
+    "BKN",
+    "ORL",
+    "WSH",
+    "WAS",
+    "PHI",
+    "PHL",
+    "CHI",
+    "DAL",
+    "SAC",
+    "MEM",
+    "NO",
+    "NOP",
+    "MIN",
+    "MIL",
+    "HOU",
+    "BOS",
+    "SA",
+    "SAS",
+    "UTAH",
+    "UTA",
+    "DEN",
+    "POR",
+    "GS",
+    "GSW",
+    "PHX",
+    "PHO",
+    "LAC",
+    "TOR",
+    "LAL",
+    "MIA"
+   ],
+   "2026-11-04": [
+    "DET",
+    "PHI",
+    "PHL",
+    "WSH",
+    "WAS",
+    "ATL",
+    "BOS",
+    "MIL",
+    "BKN",
+    "CHA",
+    "NY",
+    "NYK",
+    "CHI",
+    "MEM",
+    "IND",
+    "NO",
+    "NOP",
+    "UTAH",
+    "UTA",
+    "OKC",
+    "CLE",
+    "HOU",
+    "MIN",
+    "DEN",
+    "TOR",
+    "PHX",
+    "PHO",
+    "POR",
+    "SA",
+    "SAS",
+    "DAL",
+    "SAC",
+    "LAL",
+    "LAC",
+    "MIA"
+   ],
+   "2026-11-05": [
+    "PHX",
+    "PHO",
+    "ORL",
+    "GS",
+    "GSW",
+    "MIA"
+   ],
+   "2026-11-06": [
+    "ATL",
+    "WSH",
+    "WAS",
+    "CHA",
+    "BOS",
+    "CLE",
+    "PHI",
+    "PHL",
+    "DAL",
+    "UTAH",
+    "UTA",
+    "MEM",
+    "OKC",
+    "MIL",
+    "TOR",
+    "NO",
+    "NOP",
+    "MIN",
+    "LAL",
+    "POR",
+    "SAC",
+    "SA",
+    "SAS"
+   ],
+   "2026-11-07": [
+    "IND",
+    "DEN",
+    "ATL",
+    "BKN",
+    "CLE",
+    "NY",
+    "NYK",
+    "OKC",
+    "WSH",
+    "WAS",
+    "GS",
+    "GSW",
+    "ORL",
+    "PHX",
+    "PHO",
+    "HOU",
+    "POR",
+    "SA",
+    "SAS"
+   ],
+   "2026-11-08": [
+    "CHI",
+    "PHI",
+    "PHL",
+    "DET",
+    "LAL",
+    "MIN",
+    "UTAH",
+    "UTA",
+    "DAL",
+    "BKN",
+    "MIL",
+    "BOS",
+    "LAC",
+    "NO",
+    "NOP",
+    "SAC",
+    "MIA"
+   ]
+  }
+ },
  "log": [
   {
    "date": "2026-10-27T07:19:09.078000",
