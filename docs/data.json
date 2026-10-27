@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T04:10:21.652821Z",
+ "updated": "2026-10-27T04:20:22.259054Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1368,14 +1368,14 @@
     "team": "GSW",
     "avg": {
      "PTS": 21.25,
-     "REB": 9.0,
-     "AST": 4.0,
+     "REB": 9.25,
+     "AST": 4.25,
      "STL": 1.0,
      "BLK": 0.5,
      "3PM": 2.25,
      "FG%": 0.44067797,
      "FT%": 0.77419355,
-     "TO": 2.5,
+     "TO": 2.75,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3282,14 +3282,14 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 21.333333333333332,
+     "PTS": 21.666666666666668,
      "REB": 9.333333333333334,
      "AST": 8.666666666666666,
      "STL": 1.3333333333333333,
      "BLK": 2.3333333333333335,
      "3PM": 1.6666666666666667,
      "FG%": 0.40677966,
-     "FT%": 0.84615385,
+     "FT%": 0.8,
      "TO": 3.0,
      "_src": "2027_last_15"
     },
@@ -3344,13 +3344,13 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 20.666666666666668,
+     "PTS": 21.666666666666668,
      "REB": 6.333333333333333,
      "AST": 5.666666666666667,
-     "STL": 1.3333333333333333,
+     "STL": 1.6666666666666667,
      "BLK": 0.3333333333333333,
-     "3PM": 3.3333333333333335,
-     "FG%": 0.43478261,
+     "3PM": 3.6666666666666665,
+     "FG%": 0.44680851,
      "FT%": 0.70588235,
      "TO": 3.0,
      "_src": "2027_last_15"
@@ -6542,7 +6542,7 @@
    "pct": null,
    "avg": {
     "PTS": 10.333333333333334,
-    "REB": 5.666666666666667,
+    "REB": 6.0,
     "AST": 1.6666666666666667,
     "STL": 2.0,
     "BLK": 0.0,
@@ -7575,7 +7575,7 @@
    "name": "Mikel Brown Jr.",
    "pos": "PG",
    "team": "BKN",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 7.0,
@@ -8150,12 +8150,12 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.75,
+    "PTS": 9.5,
     "REB": 3.0,
     "AST": 2.25,
     "STL": 1.25,
     "BLK": 0.25,
-    "3PM": 1.5,
+    "3PM": 1.75,
     "FG%": 0.5,
     "FT%": 1.0,
     "TO": 1.25,
@@ -11263,6 +11263,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Aaron Gordon: Gets tossed Monday",
+   "link": "https://www.rotowire.com//basketball/player/aaron-gordon-3577",
+   "published": "Mon, 26 Oct 2026 9:14:00 PM PDT",
+   "summary": "Gordon was ejected from Monday's game against the Warriors after picking up back-to-back technical fouls, Danny Emerman of SFStandard.com reports. He'll end the night with seven points (2-10 FG, 0-2 3Pt, 3-3 FT), four rebounds, two assists and one steal in 25 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Caleb Wilson: Strikes for 17 points in loss",
    "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
    "published": "Mon, 26 Oct 2026 8:00:00 PM PDT",
@@ -11288,13 +11295,6 @@
    "link": "https://www.rotowire.com//basketball/player/trae-young-4369",
    "published": "Mon, 26 Oct 2026 7:46:00 PM PDT",
    "summary": "Young recorded 22 points (10-20 FG, 1-4 3Pt, 1-1 FT), six rebounds and 10 assists in 38 minutes during Monday's 110-103 loss to Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Triple-doubles in defeat",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Mon, 26 Oct 2026 7:43:00 PM PDT",
-   "summary": "Antetokounmpo notched 29 points (12-23 FG, 2-4 3Pt, 3-7 FT), 14 rebounds, 11 assists and one block across 39 minutes in Monday's 113-109 loss to the Mavericks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
