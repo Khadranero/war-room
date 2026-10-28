@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:30:31.204648Z",
+ "updated": "2026-10-28T13:40:25.224766Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -9988,26 +9988,6 @@
    "proj": {}
   },
   {
-   "name": "Sergio de Larrea",
-   "pos": "PG",
-   "team": "DAL",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 5.25,
-    "REB": 2.0,
-    "AST": 1.25,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.5,
-    "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Marvin Bagley III",
    "pos": "PF",
    "team": "DEN",
@@ -10037,6 +10017,26 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Sergio de Larrea",
+   "pos": "PG",
+   "team": "DAL",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 5.25,
+    "REB": 2.0,
+    "AST": 1.25,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.75,
+    "FG%": 0.5,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "AJ Green",
@@ -12273,6 +12273,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 4.2
+  "run_seconds": 4.5
  }
 }
