@@ -59,9 +59,48 @@ weekly = []
 totals = {name(t): {c: 0.0 for c in CATS} for t in league.teams}
 weeks_seen = {name(t): 0 for t in league.teams}
 current = league.currentMatchupPeriod
+import time as _t
+_run_start = _t.time()
+debug = {"matchup_period": current, "scoring_period": getattr(league, "scoringPeriodId", None), "variants": {}}
+
+def box_total(boxes):
+    """Sum of counting stats for both sides; counting stats only grow, so bigger = fresher."""
+    t = 0.0
+    for b in boxes:
+        for st in ((b.home_stats or {}), (b.away_stats or {})):
+            for c in ("PTS", "REB", "AST", "STL", "BLK", "3PM"):
+                v = (st.get(c) or {}).get("value")
+                if v is not None:
+                    t += float(v)
+    return t
+
+def read_week(wk):
+    if wk != current:
+        return league.box_scores(matchup_period=wk)
+    # Current week: ask ESPN a few ways and keep the freshest answer.
+    sp = debug["scoring_period"]
+    tries = [("default", {})]
+    if sp:
+        tries += [("sp", {"scoring_period": sp}), ("sp+1", {"scoring_period": sp + 1})]
+    best, best_t, best_label = None, -1.0, None
+    for label, kw in tries:
+        try:
+            bx = league.box_scores(matchup_period=wk, **kw)
+        except Exception as e:
+            debug["variants"][label] = f"error: {e}"
+            continue
+        tot = box_total(bx)
+        debug["variants"][label] = round(tot, 1)
+        if tot > best_t:
+            best, best_t, best_label = bx, tot, label
+    debug["picked"] = best_label
+    if best is None:
+        raise RuntimeError("no box score variant worked")
+    return best
+
 for wk in range(1, current + 1):
     try:
-        boxes = league.box_scores(matchup_period=wk)
+        boxes = read_week(wk)
     except Exception as e:
         print(f"week {wk}: {e}", file=sys.stderr); continue
     for b in boxes:
@@ -254,7 +293,8 @@ out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "week": current, "cats
        "standings": standings, "power": power_rank, "category_table": cat_table,
        "matchups": weekly, "rosters": rosters, "activity": activity,
        "schedule": schedule, "free_agents": free_agents, "news": news,
-       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings}
+       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings, "debug": debug}
+debug["run_seconds"] = round(_t.time() - _run_start, 1)
 os.makedirs("docs", exist_ok=True)
 with open("docs/data.json", "w") as f:
     json.dump(out, f, indent=1)
