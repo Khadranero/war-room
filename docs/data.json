@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:10:21.788151Z",
+ "updated": "2026-10-28T12:20:22.332272Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3838,7 +3838,7 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
-    "slot": "BE",
+    "slot": "IR",
     "injury": "OUT",
     "team": "HOU",
     "avg": {
@@ -5841,12 +5841,6 @@
    "team": "Murray Had a Little Lamb",
    "action": "FA ADDED",
    "player": "Paul Reed"
-  },
-  {
-   "date": "2026-10-25T01:08:01.482000",
-   "team": "Murray Had a Little Lamb",
-   "action": "DROPPED",
-   "player": "Yves Missi"
   }
  ],
  "schedule": {
@@ -12279,6 +12273,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.6
  }
 }
