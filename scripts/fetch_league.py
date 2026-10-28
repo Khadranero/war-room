@@ -52,6 +52,7 @@ def player_proj(p):
 standings = [{
     "team": name(t), "wins": t.wins, "losses": t.losses, "ties": getattr(t, "ties", 0),
     "rank": getattr(t, "standing", None),
+    "logo": getattr(t, "logo_url", "") or "",
 } for t in league.teams]
 standings.sort(key=lambda r: (r["rank"] is None, r["rank"] or 0))
 
