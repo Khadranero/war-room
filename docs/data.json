@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T21:10:22.091610Z",
+ "updated": "2026-10-28T21:20:25.835078Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2315,7 +2315,7 @@
     "name": "Aaron Wiggins",
     "pos": "SG",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
      "PTS": 15.75,
@@ -11300,6 +11300,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Aaron Wiggins: Good to go Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/aaron-wiggins-5412",
+   "published": "Wed, 28 Oct 2026 2:08:00 PM PDT",
+   "summary": "Wiggins (knee) is active for Wednesday's game against Miami.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ziaire Williams: Ruled out Wednesday",
    "link": "https://www.rotowire.com//basketball/player/ziaire-williams-5400",
    "published": "Wed, 28 Oct 2026 1:07:00 PM PDT",
@@ -11325,13 +11332,6 @@
    "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
    "published": "Wed, 28 Oct 2026 11:06:00 AM PDT",
    "summary": "Caruso is expected to miss time due to an ankle sprain, Clemente Almanza of USA Today reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyrese Haliburton: To miss time with hamstring issue",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
-   "published": "Wed, 28 Oct 2026 10:40:00 AM PDT",
-   "summary": "Haliburton (hamstring) will miss time, though his timetable has yet to be announced, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12211,6 +12211,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 4.4
  }
 }
