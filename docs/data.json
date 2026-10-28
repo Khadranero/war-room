@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T08:00:29.671887Z",
+ "updated": "2026-10-28T08:10:21.142688Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -18,70 +18,80 @@
    "wins": 1,
    "losses": 0,
    "ties": 0,
-   "rank": 1
+   "rank": 1,
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_A_2.svg"
   },
   {
    "team": "Real Men Eat Ass(ouad)",
    "wins": 1,
    "losses": 0,
    "ties": 0,
-   "rank": 2
+   "rank": 2,
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
   },
   {
    "team": "Akumpo",
    "wins": 1,
    "losses": 0,
    "ties": 0,
-   "rank": 3
+   "rank": 3,
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Incredibles/incredibles_4.svg"
   },
   {
    "team": "Crackheads",
    "wins": 0,
    "losses": 0,
    "ties": 1,
-   "rank": 4
+   "rank": 4,
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/eb5f8600-c480-11f1-b70e-3b79d16938b9"
   },
   {
    "team": "Team Batrouni",
    "wins": 0,
    "losses": 0,
    "ties": 1,
-   "rank": 5
+   "rank": 5,
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-6.svg"
   },
   {
    "team": "Momo in Six",
    "wins": 0,
    "losses": 0,
    "ties": 1,
-   "rank": 6
+   "rank": 6,
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/ce674720-c969-11f1-8b40-73ccb68e8584"
   },
   {
    "team": "Rubio Bzeit ",
    "wins": 0,
    "losses": 0,
    "ties": 1,
-   "rank": 7
+   "rank": 7,
+   "logo": "https://imgur.com/sZ1dQlF.png"
   },
   {
    "team": "Pasta Warriors",
    "wins": 0,
    "losses": 1,
    "ties": 0,
-   "rank": 8
+   "rank": 8,
+   "logo": "https://static.vecteezy.com/system/resources/previews/025/432/466/non_2x/cartoon-superhero-pasta-character-penne-hero-vector.jpg"
   },
   {
    "team": "Murray Had a Little Lamb",
    "wins": 0,
    "losses": 1,
    "ties": 0,
-   "rank": 9
+   "rank": 9,
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/b9304930-d917-11f0-b1c3-bf61c28fbeb9"
   },
   {
    "team": "AllThisToBeatLeGoat",
    "wins": 0,
    "losses": 1,
    "ties": 0,
-   "rank": 10
+   "rank": 10,
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/fba/8-bitHeros-JoeyEllis/8bit_basketball-01.svg"
   }
  ],
  "power": [
@@ -12269,6 +12279,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 2.4
  }
 }
