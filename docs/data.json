@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T02:40:22.109715Z",
+ "updated": "2026-10-28T02:50:23.912007Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1852,13 +1852,13 @@
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
-     "PTS": 16.5,
+     "PTS": 17.75,
      "REB": 1.5,
-     "AST": 2.0,
+     "AST": 2.25,
      "STL": 1.0,
      "BLK": 0.25,
-     "3PM": 4.0,
-     "FG%": 0.39130435,
+     "3PM": 4.25,
+     "FG%": 0.41666667,
      "FT%": 0.82352941,
      "TO": 1.5,
      "_src": "2027_last_15"
@@ -2217,7 +2217,7 @@
     "avg": {
      "PTS": 8.666666666666666,
      "REB": 6.666666666666667,
-     "AST": 3.6666666666666665,
+     "AST": 4.0,
      "STL": 1.3333333333333333,
      "BLK": 0.6666666666666666,
      "3PM": 0.0,
@@ -2848,13 +2848,13 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 22.0,
-     "REB": 13.5,
+     "PTS": 22.5,
+     "REB": 14.0,
      "AST": 2.75,
      "STL": 0.5,
      "BLK": 0.75,
      "3PM": 1.5,
-     "FG%": 0.60714286,
+     "FG%": 0.60344828,
      "FT%": 0.73684211,
      "TO": 4.75,
      "_src": "2027_last_15"
@@ -3033,15 +3033,15 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 16.0,
+     "PTS": 16.25,
      "REB": 6.25,
      "AST": 3.0,
      "STL": 0.75,
      "BLK": 0.75,
      "3PM": 1.75,
      "FG%": 0.3877551,
-     "FT%": 0.82608696,
-     "TO": 2.0,
+     "FT%": 0.83333333,
+     "TO": 2.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3064,13 +3064,13 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 10.0,
+     "PTS": 10.75,
      "REB": 7.75,
      "AST": 3.5,
      "STL": 2.75,
      "BLK": 0.25,
-     "3PM": 2.0,
-     "FG%": 0.42857143,
+     "3PM": 2.25,
+     "FG%": 0.44444444,
      "FT%": 0.66666667,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -3644,13 +3644,13 @@
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
-     "PTS": 13.25,
+     "PTS": 13.75,
      "REB": 8.5,
      "AST": 2.5,
      "STL": 0.75,
      "BLK": 1.0,
      "3PM": 0.75,
-     "FG%": 0.64705882,
+     "FG%": 0.65714286,
      "FT%": 0.66666667,
      "TO": 1.75,
      "_src": "2027_last_15"
@@ -4269,7 +4269,7 @@
     "avg": {
      "PTS": 12.5,
      "REB": 4.0,
-     "AST": 6.0,
+     "AST": 6.25,
      "STL": 1.25,
      "BLK": 0.25,
      "3PM": 1.75,
@@ -4331,7 +4331,7 @@
     "avg": {
      "PTS": 5.5,
      "REB": 3.0,
-     "AST": 2.25,
+     "AST": 2.5,
      "STL": 0.5,
      "BLK": 0.5,
      "3PM": 1.0,
@@ -4599,8 +4599,8 @@
     "team": "DET",
     "avg": {
      "PTS": 20.75,
-     "REB": 5.5,
-     "AST": 7.75,
+     "REB": 5.75,
+     "AST": 8.0,
      "STL": 1.0,
      "BLK": 1.75,
      "3PM": 2.0,
@@ -4635,7 +4635,7 @@
      "STL": 0.5,
      "BLK": 0.75,
      "3PM": 1.0,
-     "FG%": 0.37974684,
+     "FG%": 0.36585366,
      "FT%": 0.75,
      "TO": 2.25,
      "_src": "2027_last_15"
@@ -6773,7 +6773,7 @@
     "REB": 6.5,
     "AST": 1.25,
     "STL": 0.75,
-    "BLK": 1.25,
+    "BLK": 1.0,
     "3PM": 0.5,
     "FG%": 0.52173913,
     "FT%": 0.5,
@@ -9138,13 +9138,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.0,
-    "REB": 4.25,
+    "PTS": 3.5,
+    "REB": 4.5,
     "AST": 2.75,
     "STL": 0.5,
     "BLK": 1.25,
     "3PM": 0.0,
-    "FG%": 0.27777778,
+    "FG%": 0.31578947,
     "FT%": 1.0,
     "TO": 0.25,
     "_src": "2027_last_15"
@@ -10242,7 +10242,7 @@
     "REB": 4.0,
     "AST": 0.75,
     "STL": 0.25,
-    "BLK": 0.5,
+    "BLK": 0.75,
     "3PM": 1.0,
     "FG%": 0.375,
     "FT%": 0.75,
@@ -10524,14 +10524,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
+    "PTS": 1.0,
     "REB": 2.0,
     "AST": 6.0,
     "STL": 1.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 0.0,
-    "FT%": 0.0,
+    "FT%": 1.0,
     "TO": 0.0,
     "_src": "2027_last_15"
    },
@@ -11337,6 +11337,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Domantas Sabonis: Stuffs stat sheet in loss",
+   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
+   "published": "Tue, 27 Oct 2026 7:43:00 PM PDT",
+   "summary": "Sabonis supplied 20 points (10-16 FG), 14 rebounds and eight assists across 37 minutes in Tuesday's 130-103 loss to the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Victor Wembanyama: Full stat line in blowout win",
    "link": "https://www.rotowire.com//basketball/player/victor-wembanyama-5809",
    "published": "Tue, 27 Oct 2026 7:37:00 PM PDT",
@@ -11362,13 +11369,6 @@
    "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
    "published": "Tue, 27 Oct 2026 4:19:00 PM PDT",
    "summary": "Thompson (ankle) is available for Tuesday's game against New York.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Lauri Markkanen: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
-   "published": "Tue, 27 Oct 2026 4:05:00 PM PDT",
-   "summary": "Markkanen (wrist) is questionable for Wednesday's game against the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
