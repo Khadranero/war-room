@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:10:26.561780Z",
+ "updated": "2026-10-28T16:20:25.731160Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2646,7 +2646,7 @@
    {
     "name": "AJ Dybantsa",
     "pos": "SF",
-    "slot": "IR",
+    "slot": "UT",
     "injury": "OUT",
     "team": "WAS",
     "avg": {},
@@ -2753,37 +2753,6 @@
      "FG%": 0.522,
      "FT%": 0.722,
      "TO": 1.4,
-     "_src": "2027_projected"
-    }
-   },
-   {
-    "name": "Jeremiah Fears",
-    "pos": "SG",
-    "slot": "UT",
-    "injury": "ACTIVE",
-    "team": "NOP",
-    "avg": {
-     "PTS": 8.333333333333334,
-     "REB": 3.0,
-     "AST": 1.3333333333333333,
-     "STL": 0.6666666666666666,
-     "BLK": 0.0,
-     "3PM": 0.6666666666666666,
-     "FG%": 0.29032258,
-     "FT%": 0.83333333,
-     "TO": 2.0,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 15.090909090909092,
-     "REB": 3.8051948051948052,
-     "AST": 3.5064935064935066,
-     "STL": 1.1948051948051948,
-     "BLK": 0.4025974025974026,
-     "3PM": 1.3506493506493507,
-     "FG%": 0.445,
-     "FT%": 0.811,
-     "TO": 2.1948051948051948,
      "_src": "2027_projected"
     }
    },
@@ -5525,6 +5494,12 @@
  },
  "activity": [
   {
+   "date": "2026-10-28T16:17:15.064000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Jeremiah Fears"
+  },
+  {
    "date": "2026-10-28T06:48:55.748000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -5835,12 +5810,6 @@
    "team": "Crackheads",
    "action": "FA ADDED",
    "player": "Brook Lopez"
-  },
-  {
-   "date": "2026-10-25T01:09:58.769000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Paul Reed"
   }
  ],
  "schedule": {
@@ -6331,6 +6300,37 @@
     "FG%": 0.428,
     "FT%": 0.866,
     "TO": 1.2028985507246377,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jeremiah Fears",
+   "pos": "SG",
+   "team": "NOP",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.333333333333334,
+    "REB": 3.0,
+    "AST": 1.3333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 0.0,
+    "3PM": 0.6666666666666666,
+    "FG%": 0.29032258,
+    "FT%": 0.83333333,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 15.090909090909092,
+    "REB": 3.8051948051948052,
+    "AST": 3.5064935064935066,
+    "STL": 1.1948051948051948,
+    "BLK": 0.4025974025974026,
+    "3PM": 1.3506493506493507,
+    "FG%": 0.445,
+    "FT%": 0.811,
+    "TO": 2.1948051948051948,
     "_src": "2027_projected"
    }
   },
@@ -11332,40 +11332,16 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Kyle Anderson",
-   "pos": "SF",
-   "team": "TOR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 0.0,
-    "REB": 1.5,
-    "AST": 1.0,
-    "STL": 0.5,
-    "BLK": 0.5,
-    "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 0.0,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 5.451612903225806,
-    "REB": 3.096774193548387,
-    "AST": 2.903225806451613,
-    "STL": 0.8064516129032258,
-    "BLK": 0.5,
-    "3PM": 0.1935483870967742,
-    "FG%": 0.481,
-    "FT%": 0.714,
-    "TO": 0.8064516129032258,
-    "_src": "2027_projected"
-   }
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "AJ Dybantsa: Will debut Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
+   "published": "Wed, 28 Oct 2026 9:19:00 AM PDT",
+   "summary": "Dybantsa (ankle) will make his NBA debut Wednesday against the Cavaliers, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "AJ Dybantsa: Present at shootaround",
@@ -11393,13 +11369,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
    "published": "Wed, 28 Oct 2026 6:53:00 AM PDT",
    "summary": "Brunson posted 23 points (5-18 FG, 0-5 3Pt, 13-16 FT), a rebound, seven assists and a block across 36 minutes in Tuesday's 111-97 win over the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Paul George: Bounces back Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
-   "published": "Wed, 28 Oct 2026 6:47:00 AM PDT",
-   "summary": "George registered 20 points (8-16 FG, 1-6 3Pt, 3-3 FT), seven rebounds, seven assists and two steals across 36 minutes in Tuesday's 125-124 overtime win over the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -11827,6 +11796,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-28T16:17:15.064000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Jeremiah Fears"
+  },
   {
    "date": "2026-10-28T06:48:55.748000",
    "team": "Pasta Warriors",
@@ -12273,6 +12248,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.8
  }
 }
