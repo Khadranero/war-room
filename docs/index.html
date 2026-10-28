@@ -665,7 +665,7 @@ function buildStatic(){
     const ls=$('lteam');ls.add(new Option('All teams',''));Object.keys(d.rosters).forEach(t=>ls.add(new Option(t,t)));ls.onchange=()=>renderLog();$('lt').onchange=()=>renderLog();
     $('mine').onchange=()=>renderNews(meName());$('q').oninput=()=>renderSearch(meName());$('fao').onchange=()=>renderSearch(meName());}
   showRoster();
-  const g=d.debug;$('dbg').textContent=g?`Diagnostics: ESPN scoring period ${g.scoring_period}, week ${g.matchup_period}, matchup read "${g.picked}" ${JSON.stringify(g.variants)}, run took ${g.run_seconds}s`:'';
+  const g=d.debug;$('dbg').textContent=g?`Diagnostics: ESPN scoring period ${g.scoring_period}, week ${g.matchup_period}, matchup read "${g.picked}" ${JSON.stringify(g.variants)}, run took ${g.run_seconds}s${g.direct_total!=null?', direct '+g.direct_total+' ('+g.direct_teams+' teams)':''}${g.direct_error?', direct error: '+g.direct_error:''}`:'';
 }
 function showRoster(){const sel=$('team'),d=D;
   $('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th><th class=n>Games</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
