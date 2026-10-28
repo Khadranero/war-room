@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T03:40:22.276909Z",
+ "updated": "2026-10-28T03:50:22.381389Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1618,7 +1618,7 @@
     "team": "LAL",
     "avg": {
      "PTS": 21.5,
-     "REB": 2.25,
+     "REB": 2.5,
      "AST": 5.0,
      "STL": 1.25,
      "BLK": 0.75,
@@ -2497,13 +2497,13 @@
     "team": "POR",
     "avg": {
      "PTS": 6.333333333333333,
-     "REB": 5.666666666666667,
+     "REB": 6.0,
      "AST": 2.0,
      "STL": 0.0,
      "BLK": 1.0,
      "3PM": 0.6666666666666666,
      "FG%": 0.5,
-     "FT%": 0.75,
+     "FT%": 0.5,
      "TO": 0.3333333333333333,
      "_src": "2027_last_15"
     },
@@ -3741,11 +3741,11 @@
     "avg": {
      "PTS": 29.75,
      "REB": 5.5,
-     "AST": 6.5,
+     "AST": 6.75,
      "STL": 1.25,
      "BLK": 0.25,
      "3PM": 4.25,
-     "FG%": 0.47368421,
+     "FG%": 0.46753247,
      "FT%": 0.90909091,
      "TO": 5.25,
      "_src": "2027_last_15"
@@ -3832,14 +3832,14 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 14.666666666666666,
+     "PTS": 16.0,
      "REB": 5.666666666666667,
      "AST": 3.6666666666666665,
      "STL": 1.0,
      "BLK": 0.0,
-     "3PM": 1.0,
-     "FG%": 0.44117647,
-     "FT%": 0.6875,
+     "3PM": 1.3333333333333333,
+     "FG%": 0.45714286,
+     "FT%": 0.66666667,
      "TO": 2.3333333333333335,
      "_src": "2027_last_15"
     },
@@ -5384,7 +5384,7 @@
     "team": "POR",
     "avg": {
      "PTS": 13.333333333333334,
-     "REB": 1.6666666666666667,
+     "REB": 2.0,
      "AST": 1.3333333333333333,
      "STL": 1.0,
      "BLK": 0.0,
@@ -6201,7 +6201,7 @@
     "STL": 0.5,
     "BLK": 0.25,
     "3PM": 0.75,
-    "FG%": 0.5625,
+    "FG%": 0.52941176,
     "FT%": 0.875,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -6369,13 +6369,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
+    "PTS": 6.666666666666667,
     "REB": 1.0,
     "AST": 1.0,
     "STL": 1.0,
     "BLK": 0.0,
     "3PM": 0.6666666666666666,
-    "FG%": 0.41176471,
+    "FG%": 0.44444444,
     "FT%": 1.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -7491,13 +7491,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.3333333333333335,
+    "PTS": 4.333333333333333,
     "REB": 2.3333333333333335,
     "AST": 1.3333333333333333,
     "STL": 1.0,
     "BLK": 0.3333333333333333,
-    "3PM": 0.6666666666666666,
-    "FG%": 0.5,
+    "3PM": 1.0,
+    "FG%": 0.55555556,
     "FT%": 0.0,
     "TO": 0.3333333333333333,
     "_src": "2027_last_15"
@@ -7528,7 +7528,7 @@
     "STL": 0.3333333333333333,
     "BLK": 0.0,
     "3PM": 0.3333333333333333,
-    "FG%": 0.38095238,
+    "FG%": 0.36363636,
     "FT%": 1.0,
     "TO": 1.6666666666666667,
     "_src": "2027_last_15"
@@ -8143,12 +8143,12 @@
    "pct": null,
    "avg": {
     "PTS": 6.5,
-    "REB": 3.0,
+    "REB": 3.25,
     "AST": 1.0,
     "STL": 0.5,
     "BLK": 0.25,
     "3PM": 0.75,
-    "FG%": 0.6,
+    "FG%": 0.5625,
     "FT%": 0.625,
     "TO": 0.25,
     "_src": "2027_last_15"
@@ -8667,14 +8667,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
-    "REB": 3.6666666666666665,
+    "PTS": 6.666666666666667,
+    "REB": 4.0,
     "AST": 1.6666666666666667,
     "STL": 0.3333333333333333,
     "BLK": 0.0,
     "3PM": 1.0,
     "FG%": 0.54545455,
-    "FT%": 0.6,
+    "FT%": 0.71428571,
     "TO": 0.0,
     "_src": "2027_last_15"
    },
@@ -11326,6 +11326,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Egor Demin: Injury 'nothing serious'",
+   "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
+   "published": "Tue, 27 Oct 2026 8:47:00 PM PDT",
+   "summary": "Demin (leg) stated he isn't sure if he will be able to play in Friday's game against Detroit, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Michael Porter: Remains active defensively in loss",
    "link": "https://www.rotowire.com//basketball/player/michael-porter-4375",
    "published": "Tue, 27 Oct 2026 8:29:00 PM PDT",
@@ -11351,13 +11358,6 @@
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Tue, 27 Oct 2026 7:56:00 PM PDT",
    "summary": "Cunningham contributed 19 points (7-18 FG, 2-7 3Pt, 3-5 FT), nine rebounds, eight assists and one block across 36 minutes in Tuesday's 111-97 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Domantas Sabonis: Stuffs stat sheet in loss",
-   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
-   "published": "Tue, 27 Oct 2026 7:43:00 PM PDT",
-   "summary": "Sabonis supplied 20 points (10-16 FG), 14 rebounds and eight assists across 37 minutes in Tuesday's 130-103 loss to the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
