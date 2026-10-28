@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:50:30.756612Z",
+ "updated": "2026-10-28T17:00:34.605037Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2222,7 +2222,7 @@
     "name": "Ausar Thompson",
     "pos": "SF",
     "slot": "SF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "DET",
     "avg": {
      "PTS": 8.666666666666666,
@@ -9502,7 +9502,7 @@
    "name": "Isaiah Joe",
    "pos": "SG",
    "team": "DET",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.333333333333333,
@@ -11337,6 +11337,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ausar Thompson: Probable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
+   "published": "Wed, 28 Oct 2026 9:50:00 AM PDT",
+   "summary": "Thompson (ankle) is probable for Wednesday against the Hornets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "AJ Dybantsa: Will debut Wednesday",
    "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
    "published": "Wed, 28 Oct 2026 9:19:00 AM PDT",
@@ -11362,13 +11369,6 @@
    "link": "https://www.rotowire.com//basketball/player/kristaps-porzingis-3669",
    "published": "Wed, 28 Oct 2026 7:26:00 AM PDT",
    "summary": "The Warriors are exploring potential trades involving Porzingis (personal), who remains away from the team indefinitely while dealing with ongoing health concerns, Anthony Slater of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Brunson: Puts up 23 in win over Detroit",
-   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
-   "published": "Wed, 28 Oct 2026 6:53:00 AM PDT",
-   "summary": "Brunson posted 23 points (5-18 FG, 0-5 3Pt, 13-16 FT), a rebound, seven assists and a block across 36 minutes in Tuesday's 111-97 win over the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12248,6 +12248,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 3.7
  }
 }
