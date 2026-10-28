@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:40:23.723057Z",
+ "updated": "2026-10-28T17:50:25.607789Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5132,7 +5132,7 @@
    {
     "name": "Bam Adebayo",
     "pos": "C",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -5400,7 +5400,7 @@
    {
     "name": "Kel'el Ware",
     "pos": "C",
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -5462,7 +5462,7 @@
    {
     "name": "Julian Champagnie",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5786,30 +5786,6 @@
    "team": "Momo in Six",
    "action": "FA ADDED",
    "player": "Jaxson Hayes"
-  },
-  {
-   "date": "2026-10-25T01:44:19.890000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Jaylon Tyson"
-  },
-  {
-   "date": "2026-10-25T01:44:19.890000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Jaylen Wells"
-  },
-  {
-   "date": "2026-10-25T01:31:43.222000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Devin Vassell"
-  },
-  {
-   "date": "2026-10-25T01:31:43.222000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Brook Lopez"
   }
  ],
  "schedule": {
@@ -11337,6 +11313,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Tyrese Haliburton: To miss time with hamstring issue",
+   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
+   "published": "Wed, 28 Oct 2026 10:40:00 AM PDT",
+   "summary": "Haliburton (hamstring) will miss time, though his timetable has yet to be announced, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Yaxel Lendeborg: Participates in shootaround",
    "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
    "published": "Wed, 28 Oct 2026 10:17:00 AM PDT",
@@ -11362,13 +11345,6 @@
    "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
    "published": "Wed, 28 Oct 2026 8:30:00 AM PDT",
    "summary": "Dybantsa (ankle) was present at Wednesday's morning shootaround,Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Black: Absent from shootaround",
-   "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
-   "published": "Wed, 28 Oct 2026 7:42:00 AM PDT",
-   "summary": "Black (personal) was not present at Wednesday's morning shootaround, Jason Beede of the Orlando Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12248,6 +12224,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 2.3
  }
 }
