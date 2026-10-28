@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:00:32.120414Z",
+ "updated": "2026-10-28T20:10:23.267711Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3746,7 +3746,7 @@
     "name": "Luka Doncic",
     "pos": "PG",
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "LAL",
     "avg": {
      "PTS": 36.0,
@@ -7502,7 +7502,7 @@
    "name": "Ziaire Williams",
    "pos": "SF",
    "team": "LAL",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 11.25,
@@ -11300,6 +11300,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Luka Doncic: Won't play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
+   "published": "Wed, 28 Oct 2026 1:05:00 PM PDT",
+   "summary": "Doncic (back) is out for Wednesday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Naji Marshall: Downgraded to doubtful",
    "link": "https://www.rotowire.com//basketball/player/naji-marshall-5204",
    "published": "Wed, 28 Oct 2026 11:22:00 AM PDT",
@@ -11325,13 +11332,6 @@
    "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
    "published": "Wed, 28 Oct 2026 10:17:00 AM PDT",
    "summary": "Lendeborg (foot) went through Wednesday's morning shootaround, per Nick Friedell of The Athletic.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ausar Thompson: Probable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
-   "published": "Wed, 28 Oct 2026 9:50:00 AM PDT",
-   "summary": "Thompson (ankle) is probable for Wednesday against the Hornets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12211,6 +12211,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.9
  }
 }
