@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:10:35.819863Z",
+ "updated": "2026-10-28T18:20:25.660560Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1561,7 +1561,7 @@
    {
     "name": "Tyrese Haliburton",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "IR",
     "injury": "OUT",
     "team": "IND",
     "avg": {
@@ -5762,18 +5762,6 @@
    "team": "Team Batrouni",
    "action": "FA ADDED",
    "player": "Quentin Grimes"
-  },
-  {
-   "date": "2026-10-25T05:45:52.545000",
-   "team": "Rubio Bzeit ",
-   "action": "FA ADDED",
-   "player": "Kris Dunn"
-  },
-  {
-   "date": "2026-10-25T05:45:52.545000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Naji Marshall"
   }
  ],
  "schedule": {
@@ -11301,6 +11289,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Alex Caruso: Return timeline uncertain",
+   "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
+   "published": "Wed, 28 Oct 2026 11:06:00 AM PDT",
+   "summary": "Caruso is expected to miss time due to an ankle sprain, Clemente Almanza of USA Today reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Tyrese Haliburton: To miss time with hamstring issue",
    "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
    "published": "Wed, 28 Oct 2026 10:40:00 AM PDT",
@@ -11326,13 +11321,6 @@
    "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
    "published": "Wed, 28 Oct 2026 9:19:00 AM PDT",
    "summary": "Dybantsa (ankle) will make his NBA debut Wednesday against the Cavaliers, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "AJ Dybantsa: Present at shootaround",
-   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
-   "published": "Wed, 28 Oct 2026 8:30:00 AM PDT",
-   "summary": "Dybantsa (ankle) was present at Wednesday's morning shootaround,Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12212,6 +12200,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 2.7
  }
 }
