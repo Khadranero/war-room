@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:40:22.091905Z",
+ "updated": "2026-10-28T06:50:22.877218Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5442,6 +5442,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-28T06:48:55.748000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Daniss Jenkins"
+  },
+  {
+   "date": "2026-10-28T06:48:55.748000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Kyle Kuzma"
+  },
+  {
    "date": "2026-10-28T05:35:49.192000",
    "team": "Team Batrouni",
    "action": "FA ADDED",
@@ -5776,12 +5788,6 @@
    "team": "Murray Had a Little Lamb",
    "action": "FA ADDED",
    "player": "Tristan da Silva"
-  },
-  {
-   "date": "2026-10-24T16:53:05.798000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Saddiq Bey"
   }
  ],
  "schedule": {
@@ -7005,37 +7011,6 @@
    }
   },
   {
-   "name": "Kyle Kuzma",
-   "pos": "PF",
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.5,
-    "REB": 8.5,
-    "AST": 3.25,
-    "STL": 0.75,
-    "BLK": 0.0,
-    "3PM": 1.75,
-    "FG%": 0.47619048,
-    "FT%": 0.75,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.029411764705882,
-    "REB": 4.602941176470588,
-    "AST": 2.6029411764705883,
-    "STL": 0.6029411764705882,
-    "BLK": 0.39705882352941174,
-    "3PM": 1.2205882352941178,
-    "FG%": 0.48,
-    "FT%": 0.714,
-    "TO": 1.7941176470588236,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Collin Murray-Boyles",
    "pos": "PF",
    "team": "TOR",
@@ -7251,6 +7226,26 @@
     "TO": 2.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Daniss Jenkins",
+   "pos": "PG",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.75,
+    "REB": 4.5,
+    "AST": 4.0,
+    "STL": 0.25,
+    "BLK": 0.25,
+    "3PM": 1.5,
+    "FG%": 0.46875,
+    "FT%": 0.84615385,
+    "TO": 1.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Aday Mara",
@@ -11779,6 +11774,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-28T06:48:55.748000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Daniss Jenkins"
+  },
+  {
+   "date": "2026-10-28T06:48:55.748000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Kyle Kuzma"
+  },
   {
    "date": "2026-10-28T05:35:49.192000",
    "team": "Team Batrouni",
