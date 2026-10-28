@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:50:25.607789Z",
+ "updated": "2026-10-28T18:00:31.655973Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5132,7 +5132,7 @@
    {
     "name": "Bam Adebayo",
     "pos": "C",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -5400,7 +5400,7 @@
    {
     "name": "Kel'el Ware",
     "pos": "C",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -5774,18 +5774,6 @@
    "team": "Rubio Bzeit ",
    "action": "DROPPED",
    "player": "Naji Marshall"
-  },
-  {
-   "date": "2026-10-25T03:58:20.510000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Anfernee Simons"
-  },
-  {
-   "date": "2026-10-25T03:58:20.510000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Jaxson Hayes"
   }
  ],
  "schedule": {
@@ -12224,6 +12212,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.9
  }
 }
