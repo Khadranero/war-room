@@ -649,7 +649,7 @@ function renderKpis(me){
 /* ---------- static pieces + render ---------- */
 function buildStatic(){
   const d=D;
-  $('sub').textContent=`${ME} · Week ${d.week} · updated ${Math.round((Date.now()-new Date(d.updated))/60000)} min ago`;
+  $('sub').textContent=`${ME} · Week ${d.week} · updated ${Math.round((Date.now()-new Date(d.updated))/60000)} min ago${SRC?' · '+SRC:''}`;
   $('power').innerHTML='<table><tr><th>#</th><th>Team</th><th class=n>Score</th></tr>'+
    d.power.map((r,i)=>`<tr><td>${i+1}</td><td class="${cls(r.team)}">${esc(r.team)}</td><td class=n>${r.score}</td></tr>`).join('')+'</table>';
   const teams=d.power.map(p=>p.team);
@@ -684,9 +684,22 @@ function showTab(t,scroll){
 }
 document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>showTab(b.dataset.t,true));
 showTab((location.hash||'').slice(1));
+const RAW='https://raw.githubusercontent.com/khadranero/war-room/main/docs/data.json';
+let SRC='';
 function load(){
-  return fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;ZS=null;buildStatic();render()})
-    .catch(e=>{$('sub').textContent='Could not load data: '+e.message});
+  const get=u=>fetch(u+'?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
+  // GitHub Pages only rebuilds ~10 times an hour, so also read the repo's own copy and use whichever is newer.
+  return Promise.allSettled([get(RAW),get('data.json')]).then(([a,b])=>{
+    const ok=[a,b].filter(x=>x.status==='fulfilled').map(x=>x.value);
+    if(!ok.length)throw new Error('no data');
+    const best=ok.sort((x,y)=>new Date(y.updated)-new Date(x.updated))[0];
+    SRC=a.status==='fulfilled'&&best===a.value?'live copy':'site copy';
+    if(a.status==='fulfilled'&&b.status==='fulfilled'){
+      const lag=Math.round((new Date(a.value.updated)-new Date(b.value.updated))/60000);
+      if(lag>20)SRC='live copy (site is '+lag+' min behind)';
+    }
+    D=best;ZS=null;buildStatic();render();
+  }).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
 }
 load();
 setInterval(load,5*60*1000);
