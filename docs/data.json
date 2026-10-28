@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:50:22.668960Z",
+ "updated": "2026-10-28T23:00:29.960245Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2222,7 +2222,7 @@
     "name": "Ausar Thompson",
     "pos": "SF",
     "slot": "SF",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "DET",
     "avg": {
      "PTS": 8.666666666666666,
@@ -3413,7 +3413,7 @@
    {
     "name": "Kyrie Irving",
     "pos": "PG",
-    "slot": "G",
+    "slot": "UT",
     "injury": "DAY_TO_DAY",
     "team": "DAL",
     "avg": {
@@ -3506,7 +3506,7 @@
    {
     "name": "Ryan Rollins",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -6740,7 +6740,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 15.75,
@@ -8943,7 +8943,7 @@
    "name": "Gui Santos",
    "pos": "SF",
    "team": "GSW",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 9.25,
@@ -11300,6 +11300,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ayo Dosunmu: Starting Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/ayo-dosunmu-5337",
+   "published": "Wed, 28 Oct 2026 3:55:00 PM PDT",
+   "summary": "Dosunmu will move into the starting lineup for Wednesday's matchup with the Warriors, Jon Krawczynski of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Ausar Thompson: Available versus Charlotte",
+   "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
+   "published": "Wed, 28 Oct 2026 3:52:00 PM PDT",
+   "summary": "Thompson (ankle) is active for Wednesday's game versus the Hornets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dean Wade: Heading to bench",
    "link": "https://www.rotowire.com//basketball/player/dean-wade-4893",
    "published": "Wed, 28 Oct 2026 3:40:00 PM PDT",
@@ -11318,20 +11332,6 @@
    "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
    "published": "Wed, 28 Oct 2026 3:25:00 PM PDT",
    "summary": "Dybantsa (ankle) will be on a minutes restriction in Wednesday's game against the Cavaliers, Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Black: Will play Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
-   "published": "Wed, 28 Oct 2026 3:06:00 PM PDT",
-   "summary": "Black (personal) is available for Wednesday's game against the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Aaron Nesmith: Available to play",
-   "link": "https://www.rotowire.com//basketball/player/aaron-nesmith-5120",
-   "published": "Wed, 28 Oct 2026 3:05:00 PM PDT",
-   "summary": "Nesmith (hamstring) is available for Wednesday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12211,6 +12211,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 3.8
  }
 }
