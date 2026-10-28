@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T14:40:22.823210Z",
+ "updated": "2026-10-28T14:50:22.984223Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3713,7 +3713,7 @@
     "name": "Anthony Black",
     "pos": "PG",
     "slot": "PG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "ORL",
     "avg": {
      "PTS": 18.0,
@@ -11368,6 +11368,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Anthony Black: Absent from shootaround",
+   "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
+   "published": "Wed, 28 Oct 2026 7:42:00 AM PDT",
+   "summary": "Black (personal) was not present at Wednesday's morning shootaround, Jason Beede of the Orlando Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kristaps Porzingis: Warriors exploring options",
    "link": "https://www.rotowire.com//basketball/player/kristaps-porzingis-3669",
    "published": "Wed, 28 Oct 2026 7:26:00 AM PDT",
@@ -11393,13 +11400,6 @@
    "link": "https://www.rotowire.com//basketball/player/julius-randle-3574",
    "published": "Wed, 28 Oct 2026 5:30:00 AM PDT",
    "summary": "Randle registered 24 points (10-23 FG, 0-7 3Pt, 4-5 FT), nine rebounds, four assists and two steals across 44 minutes in Tuesday's 125-124 overtime loss to the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Deni Avdija: Logs team-high 23 points",
-   "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
-   "published": "Wed, 28 Oct 2026 2:34:00 AM PDT",
-   "summary": "Avdija notched 23 points (8-15 FG, 4-7 3Pt, 3-7 FT), four rebounds, nine assists and one steal over 33 minutes during Tuesday's 136-129 win over the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12273,6 +12273,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 4.1
  }
 }
