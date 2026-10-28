@@ -38,10 +38,11 @@ a{color:var(--ac)}li{margin:4px 0}ul{margin:6px 0;padding-left:18px}
 .picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:2px 12px;max-height:230px;overflow-y:auto;border:1px solid var(--ln);border-radius:10px;padding:8px}
 .pick{display:block;font-size:14px;white-space:normal;cursor:pointer}
 .btn{padding:7px 14px;border-radius:10px;border:1px solid var(--ln);background:var(--bg);color:var(--tx);cursor:pointer;font:inherit}
+.stale{background:#ff5d7322;border:1px solid #ff5d7366;color:var(--bad);border-radius:var(--r);padding:10px 14px;margin:12px 0 0;font-weight:600}
 .heat{text-align:center;font-size:12px;min-width:46px}
 @media(max-width:600px){h1{font-size:22px}.big{font-size:26px}}
 </style></head><body><div class="wrap">
-<header><div class="top"><div><h1>War <span>Room</span></h1><div class="sub" id="sub">Loading…</div></div></div><div class="kpis" id="kpis"></div></header>
+<header><div class="top"><div><h1>War <span>Room</span></h1><div class="sub" id="sub">Loading…</div></div></div><div id="stale"></div><div class="kpis" id="kpis"></div></header>
 <nav id="nav"><button data-t="overview">Overview</button><button data-t="matchup">Matchup</button><button data-t="roster">My team</button><button data-t="market">Market</button><button data-t="trades">Trades</button><button data-t="league">League</button></nav>
 
 <section class="panel" id="p-overview">
@@ -54,6 +55,8 @@ a{color:var(--ac)}li{margin:4px 0}ul{margin:6px 0;padding-left:18px}
 
 <section class="panel" id="p-matchup">
 <div class="card"><h2>This week's matchup</h2><p class="hint">Live category score, win probability and swing categories.</p><div id="match"></div></div>
+<div class="card"><h2>What it takes to flip</h2><p class="hint">For each category this week: where you are headed, the gap, and what you need from your remaining games.</p><div id="need"></div></div>
+<div class="card"><h2>Opponent watch</h2><p class="hint">Their lineup against yours, day by day, plus who is hurt. Gaps in their lineup are your chance.</p><div id="oppw"></div></div>
 <div class="card"><h2>Flip finder</h2><p class="hint">Free-agent pickups that raise your chance of winning this week, tested one by one.</p><div id="flip"></div></div>
 <div class="card"><h2>Beast mode: every remaining week</h2><p class="hint">Your estimated chance against each opponent, category by category, from season strength.</p><div id="beast"></div></div>
 <div class="card"><h2>Schedule</h2><select id="wk"></select><div id="sched" style="margin-top:10px"></div></div>
@@ -66,6 +69,7 @@ a{color:var(--ac)}li{margin:4px 0}ul{margin:6px 0;padding-left:18px}
 </section>
 
 <section class="panel" id="p-market">
+<div class="card"><h2>Next-week prep</h2><p class="hint">Games next week for you and your opponent, and the free agents with the heaviest schedules.</p><div id="nextprep"></div></div>
 <div class="card"><h2>Free agents</h2><p class="hint">Sorted by what you need times games left this week.</p><div id="fa"></div></div>
 <div class="card"><h2>Waiver trends</h2><p class="hint">Players whose owned % is climbing fastest.</p><div id="trends"></div></div>
 <div class="card"><h2>Player search</h2><input id="q" placeholder="Type a player name…" style="width:100%;max-width:340px"> <label class="mut"><input type="checkbox" id="fao"> Free agents only</label><div id="search" style="margin-top:10px"></div></div>
@@ -670,10 +674,75 @@ function buildStatic(){
 function showRoster(){const sel=$('team'),d=D;
   $('roster').innerHTML=`<table><tr><th>Player</th><th>Pos</th><th>Slot</th><th>Status</th><th class=n>Games</th>${d.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+
    (d.rosters[sel.value]||[]).map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td>${esc(p.slot)}</td><td class="${p.injury!=='ACTIVE'?'inj':''}">${esc(p.injury)}</td>${gcell(p)}${statCells(p,null)}</tr>`).join('')+'</table>'}
+
+function slotN(me){
+  const r=D.rosters[me]||[];let N=r.filter(p=>p.slot!=='BE'&&p.slot!=='IR').length;
+  try{const sl=D.settings&&D.settings.slots;if(sl&&typeof sl==='object'){const t=Object.keys(sl).filter(k=>!/^(BE|IR|BN|BENCH)$/i.test(k)).reduce((s,k)=>s+(+sl[k]||0),0);if(t>=5&&t<=20)N=t}}catch(e){}
+  return N;
+}
+function renderNeed(me){
+  const cm=curMatch(me);
+  if(!cm||!haveSim(me)){$('need').innerHTML='<span class="mut">Needs this week\'s matchup and game counts. It appears after the next successful update.</span>';return}
+  const A=project(me,cm.a),B=project(cm.opp,cm.b),r=winProb(me,cm.opp,cm.a,cm.b),g=r.gMe||1;
+  const rows=D.cats.filter(c=>!punts.includes(c)).map(c=>{
+    const lead=low(c)?B[c].proj-A[c].proj:A[c].proj-B[c].proj,p=r.probs[c];
+    let take;
+    if(p>=0.7)take='<span class="good">safe, keep doing what you are doing</span>';
+    else if(pct(c)){const pts=Math.max(-lead,0)*1000;take=lead<0?`need about <b>+${pts.toFixed(0)}</b> points of ${c} (thousandths) over your remaining games`:'slightly ahead, but it can move';}
+    else if(low(c)){const n=Math.max(-lead,0);take=lead<0?`need <b>${Math.ceil(n+0.5)} fewer</b> turnovers than projected (about ${(n/g).toFixed(1)} per game)`:'slightly ahead, but it can move';}
+    else{const n=Math.max(-lead,0);take=lead<0?`need <b>${Math.ceil(n+0.5)} more</b> than projected (about ${(n/g).toFixed(1)} extra per game over ${g} games)`:'slightly ahead, but it can move';}
+    return{c,p,lead,take,label:p>=0.7?'<span class="chip g">safe</span>':p>=0.3?'<span class="chip">swing</span>':'<span class="chip b">long shot</span>'};
+  }).sort((a,b)=>Math.abs(a.p-0.5)-Math.abs(b.p-0.5));
+  const cur=c=>cm.a[c]!=null?fmt(c,cm.a[c])+' vs '+fmt(c,cm.b[c]):'–';
+  $('need').innerHTML=`<table><tr><th>Cat</th><th>Now</th><th class=n>Chance</th><th></th><th>What it takes</th></tr>`+
+   rows.map(x=>`<tr><td>${x.c}</td><td class="mut">${cur(x.c)}</td><td class="n">${Math.round(x.p*100)}%</td><td>${x.label}</td><td class="box">${x.take}</td></tr>`).join('')+
+   `</table><p class="note">Sorted by how close each category is to 50/50, so the top rows are where effort pays off. "Projected" = current totals plus each active player's per-game average x games left (you ${r.gMe} games, ${esc(cm.opp)} ${r.gOpp}). Numbers are estimates, not guarantees.</p>`;
+}
+function renderOppWatch(me){
+  const cm=curMatch(me),G=D.games;
+  if(!cm||!G||!G.by_day){$('oppw').innerHTML='<span class="mut">Needs this week\'s matchup and schedule data.</span>';return}
+  const opp=cm.opp,N=slotN(me),N2=slotN(opp);
+  const st=t=>(D.rosters[t]||[]).filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT');
+  const mine=st(me),theirs=st(opp);
+  const days=G.days.slice(0,Math.max(G.days_left||0,1));
+  let sm=0,so=0;
+  const rows=days.map(d=>{
+    const on=new Set(G.by_day[d]||[]);
+    const a=Math.min(mine.filter(p=>on.has(p.team)).length,N),b=Math.min(theirs.filter(p=>on.has(p.team)).length,N2);
+    sm+=a;so+=b;
+    const label=new Date(d+'T12:00:00').toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric'});
+    const e=a-b;
+    return `<tr><td>${label}${d===G.today?' <span class="mut">(today)</span>':''}</td><td class="n">${a}/${N}</td><td class="n">${b}/${N2}</td><td class="${e>0?'good':e<0?'bad':'mut'}">${e>0?'you +'+e:e<0?'they +'+(-e):'even'}</td></tr>`}).join('');
+  const hurt=(D.rosters[opp]||[]).filter(p=>p.injury==='OUT'||p.injury==='DAY_TO_DAY').map(p=>`${esc(p.name)} <span class="mut">(${esc(p.injury)}${p.slot==='IR'?', IR':p.slot==='BE'?', bench':', in lineup'})</span>`);
+  const dead=(D.rosters[opp]||[]).filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&gm(p)&&gm(p).rest===0).map(p=>esc(p.name));
+  $('oppw').innerHTML=`<p class="note" style="margin:0 0 8px">Total lineup games left: you <b>${sm}</b> vs ${esc(opp)} <b class="${so>sm?'bad':''}">${so}</b></p>
+  <table><tr><th>Day</th><th class=n>You playing</th><th class=n>${esc(opp)}</th><th>Edge</th></tr>${rows}</table>
+  <p class="note"><b>Their injuries:</b> ${hurt.join(' · ')||'none'}</p>
+  <p class="note"><b>Their starters with no games left:</b> ${dead.join(', ')||'none'}</p>
+  <p class="note">Counts starters with a game that day, capped at the number of lineup slots. Positions and bench swaps are not checked.</p>`;
+}
+function renderNextPrep(me){
+  const G=D.games;
+  if(!G||!G.by_team){$('nextprep').innerHTML='<span class="mut">No schedule data yet. It appears after the next successful update.</span>';return}
+  const nxt=t=>(D.rosters[t]||[]).filter(p=>p.slot!=='BE'&&p.slot!=='IR'&&p.injury!=='OUT').reduce((s,p)=>s+(gm(p)?gm(p).next:0),0);
+  const o0=D.schedule&&D.schedule[me]&&D.schedule[me][D.week],opp=o0&&canon(o0);
+  const light=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&gm(p)&&gm(p).next<=2&&p.injury!=='OUT').map(p=>esc(p.name)+' ('+gm(p).next+')');
+  const nf=needFn(me);
+  const fa=(D.free_agents||[]).filter(p=>p.injury==='ACTIVE'&&gm(p)&&gm(p).next>=3).sort((a,b)=>nf.score(b)*gm(b).next-nf.score(a)*gm(a).next).slice(0,8);
+  $('nextprep').innerHTML=`<p class="note" style="margin:0 0 8px">Starter games next week: you <b>${nxt(me)}</b>${opp?` vs ${esc(opp)} <b>${nxt(opp)}</b>`:''}</p>
+  <p class="note"><b>Your players with 2 or fewer games next week:</b> ${light.join(', ')||'none'}</p>
+  ${fa.length?`<table><tr><th>Free agent</th><th>Pos</th><th class=n>This wk</th><th class=n>Next wk</th>${D.cats.map(c=>`<th class=n>${c}</th>`).join('')}</tr>`+fa.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.pos)}</td><td class="n">${gm(p).rest}</td><td class="n"><b>${gm(p).next}</b></td>${D.cats.map(c=>`<td class="n ${nf.need.includes(c)?'hl':''}">${fmt(c,(p.avg||{})[c])}</td>`).join('')}</tr>`).join('')+'</table>':'<span class="mut">No free agents with 3+ games next week yet.</span>'}
+  <p class="note">Sorted by what you need x games next week. An add made on Sunday counts toward this week's move limit, so check your Move budget first.</p>`;
+}
+function renderStale(){
+  const age=Math.round((Date.now()-new Date(D.updated))/60000);
+  $('stale').innerHTML=age>30?`<div class="stale">These numbers are ${age>=120?Math.round(age/60)+' hours':age+' minutes'} old. Check the Actions tab on GitHub: the update may have failed.</div>`:'';
+}
+
 function safe(f,...a){try{f(...a)}catch(e){console.error(f.name,e)}}
 function render(){
   const me=meName();
-  [renderMatch,renderFlip,renderBeast,renderPunt,renderAlerts,renderSlots,renderBudget,renderDropAdd,renderFA,renderTrends,renderSearch,renderNews,renderTrade,renderBuyLow,renderAnalyzer,renderSchedule,renderPlayoffs,renderRecap,renderKpis].forEach(f=>safe(f,me));
+  [renderMatch,renderNeed,renderOppWatch,renderNextPrep,renderStale,renderFlip,renderBeast,renderPunt,renderAlerts,renderSlots,renderBudget,renderDropAdd,renderFA,renderTrends,renderSearch,renderNews,renderTrade,renderBuyLow,renderAnalyzer,renderSchedule,renderPlayoffs,renderRecap,renderKpis].forEach(f=>safe(f,me));
   safe(renderLog);safe(renderScout);
 }
 const TABS=['overview','matchup','roster','market','trades','league'];
