@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:20:22.496860Z",
+ "updated": "2026-10-28T22:30:25.240088Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1374,7 +1374,7 @@
     "name": "Yaxel Lendeborg",
     "pos": "SF",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
      "PTS": 21.75,
@@ -8677,7 +8677,7 @@
    "name": "Tre Johnson",
    "pos": "SG",
    "team": "WAS",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -11300,6 +11300,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "AJ Dybantsa: On minutes restriction Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
+   "published": "Wed, 28 Oct 2026 3:25:00 PM PDT",
+   "summary": "Dybantsa (ankle) will be on a minutes restriction in Wednesday's game against the Cavaliers, Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Anthony Black: Will play Wednesday",
    "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
    "published": "Wed, 28 Oct 2026 3:06:00 PM PDT",
@@ -11325,13 +11332,6 @@
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Wed, 28 Oct 2026 2:36:00 PM PDT",
    "summary": "Nembhard (neck) will play in Wednesday's game against the 76ers, Tony East of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyrese Haliburton: Out at least two weeks",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
-   "published": "Wed, 28 Oct 2026 2:31:00 PM PDT",
-   "summary": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12211,6 +12211,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 2.4
  }
 }
