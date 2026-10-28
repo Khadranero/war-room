@@ -94,13 +94,58 @@ def read_week(wk):
         if tot > best_t:
             best, best_t, best_label = bx, tot, label
     debug["picked"] = best_label
+    debug["picked_total"] = round(best_t, 1)
     if best is None:
         raise RuntimeError("no box score variant worked")
     return best
 
+
+STAT_IDS = {0: "PTS", 1: "BLK", 2: "STL", 3: "AST", 6: "REB", 11: "TO", 17: "3PM", 19: "FG%", 20: "FT%"}
+
+def direct_current(known_total):
+    """Ask ESPN's raw API (with the live-scoring view) for this week's category totals.
+    Returns {team_name: {cat: value}} only if it is fresher than what box_scores gave."""
+    try:
+        sp = debug.get("scoring_period")
+        hdr = {"x-fantasy-filter": json.dumps({"schedule": {"filterMatchupPeriodIds": {"value": [current]}}})}
+        params = {"view": ["mMatchupScore", "mScoreboard", "mLiveScoring"]}
+        if sp:
+            params["scoringPeriodId"] = sp
+        data = league.espn_request.league_get(params=params, headers=hdr)
+        by_id = {t.team_id: name(t) for t in league.teams}
+        out, tot = {}, 0.0
+        for m in data.get("schedule", []):
+            if m.get("matchupPeriodId") != current:
+                continue
+            for side in ("home", "away"):
+                sd = m.get(side) or {}
+                sbs = (sd.get("cumulativeScore") or {}).get("scoreByStat") or {}
+                tn = by_id.get(sd.get("teamId"))
+                if not tn or not sbs:
+                    continue
+                row = {}
+                for k, v in sbs.items():
+                    c = STAT_IDS.get(int(k))
+                    if c and isinstance(v, dict) and v.get("score") is not None:
+                        row[c] = float(v["score"])
+                out[tn] = row
+                tot += sum(row.get(c, 0.0) for c in ("PTS", "REB", "AST", "STL", "BLK", "3PM"))
+        debug["direct_total"] = round(tot, 1)
+        debug["direct_teams"] = len(out)
+        if out and tot > known_total + 0.5:
+            debug["picked"] = "direct"
+            return out
+    except Exception as e:
+        debug["direct_error"] = str(e)[:200]
+    return None
+
+OVERRIDE = None
+
 for wk in range(1, current + 1):
     try:
         boxes = read_week(wk)
+        if wk == current:
+            OVERRIDE = direct_current(debug.get('picked_total', 0.0))
     except Exception as e:
         print(f"week {wk}: {e}", file=sys.stderr); continue
     for b in boxes:
@@ -112,10 +157,23 @@ for wk in range(1, current + 1):
             stats = (b.home_stats if side == "home" else b.away_stats) or {}
             for c in CATS:
                 v = (stats.get(c) or {}).get("value")
+                if wk == current and OVERRIDE and name(team) in OVERRIDE:
+                    v = OVERRIDE[name(team)].get(c, v)
                 if v is not None:
                     totals[name(team)][c] += float(v)
                     row["cats"].setdefault(c, {})[side] = v
             weeks_seen[name(team)] += 1
+        if wk == current and OVERRIDE and row["cats"]:
+            hw = aw = 0
+            for c, sides in row["cats"].items():
+                h, a = sides.get("home"), sides.get("away")
+                if h is None or a is None or h == a:
+                    continue
+                if (h < a) if c in LOWER_IS_BETTER else (h > a):
+                    hw += 1
+                else:
+                    aw += 1
+            row["home_score"], row["away_score"] = hw, aw
         weekly.append(row)
 
 def avg(team, c):
