@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:20:25.660560Z",
+ "updated": "2026-10-28T18:30:28.569118Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -9136,7 +9136,7 @@
    "name": "Jose Alvarado",
    "pos": "PG",
    "team": "NYK",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 5.0,
@@ -11289,6 +11289,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Naji Marshall: Downgraded to doubtful",
+   "link": "https://www.rotowire.com//basketball/player/naji-marshall-5204",
+   "published": "Wed, 28 Oct 2026 11:22:00 AM PDT",
+   "summary": "Marshall (illness) is now doubtful for Wednesday against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Alex Caruso: Return timeline uncertain",
    "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
    "published": "Wed, 28 Oct 2026 11:06:00 AM PDT",
@@ -11314,13 +11321,6 @@
    "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
    "published": "Wed, 28 Oct 2026 9:50:00 AM PDT",
    "summary": "Thompson (ankle) is probable for Wednesday against the Hornets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "AJ Dybantsa: Will debut Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
-   "published": "Wed, 28 Oct 2026 9:19:00 AM PDT",
-   "summary": "Dybantsa (ankle) will make his NBA debut Wednesday against the Cavaliers, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12200,6 +12200,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 2.8
  }
 }
