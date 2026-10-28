@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:00:30.378325Z",
+ "updated": "2026-10-28T22:10:21.878423Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3682,7 +3682,7 @@
     "name": "Anthony Black",
     "pos": "PG",
     "slot": "PG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
      "PTS": 18.0,
@@ -11300,6 +11300,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Anthony Black: Will play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
+   "published": "Wed, 28 Oct 2026 3:06:00 PM PDT",
+   "summary": "Black (personal) is available for Wednesday's game against the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Aaron Nesmith: Available to play",
+   "link": "https://www.rotowire.com//basketball/player/aaron-nesmith-5120",
+   "published": "Wed, 28 Oct 2026 3:05:00 PM PDT",
+   "summary": "Nesmith (hamstring) is available for Wednesday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Yaxel Lendeborg: Trending toward playing Wednesday",
    "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
    "published": "Wed, 28 Oct 2026 2:55:00 PM PDT",
@@ -11318,20 +11332,6 @@
    "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
    "published": "Wed, 28 Oct 2026 2:31:00 PM PDT",
    "summary": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Aaron Wiggins: Good to go Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/aaron-wiggins-5412",
-   "published": "Wed, 28 Oct 2026 2:08:00 PM PDT",
-   "summary": "Wiggins (knee) is active for Wednesday's game against Miami.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ziaire Williams: Ruled out Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/ziaire-williams-5400",
-   "published": "Wed, 28 Oct 2026 1:07:00 PM PDT",
-   "summary": "Williams (foot) is out for Wednesday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12211,6 +12211,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.7
  }
 }
