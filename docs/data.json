@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:00:35.128110Z",
+ "updated": "2026-10-29T21:10:21.368013Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1436,7 +1436,7 @@
     "name": "Andrew Nembhard",
     "pos": "PG",
     "slot": "IR",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "IND",
     "avg": {
      "PTS": 16.5,
@@ -4833,7 +4833,7 @@
     "name": "Ivica Zubac",
     "pos": "C",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "IND",
     "avg": {
      "PTS": 9.0,
@@ -8313,7 +8313,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 13.25,
@@ -11378,6 +11378,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ivica Zubac: Still out with ankle sprain",
+   "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
+   "published": "Thu, 29 Oct 2026 2:05:00 PM PDT",
+   "summary": "Zubac (ankle) is out for Friday's game against the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Reed Sheppard: Ruled out for Friday",
    "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
    "published": "Thu, 29 Oct 2026 1:37:00 PM PDT",
@@ -11403,13 +11410,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Thu, 29 Oct 2026 11:56:00 AM PDT",
    "summary": "Smith is questionable for Friday's game against Boston with a left finger sprain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Edwards: Officially undergoes surgery",
-   "link": "https://www.rotowire.com//basketball/player/anthony-edwards-5110",
-   "published": "Thu, 29 Oct 2026 11:34:00 AM PDT",
-   "summary": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12297,6 +12297,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.8
  }
 }
