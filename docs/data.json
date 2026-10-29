@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:10:23.059037Z",
+ "updated": "2026-10-29T22:20:26.248170Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -6973,7 +6973,7 @@
    "name": "Jordan Poole",
    "pos": "SG",
    "team": "NOP",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -10711,26 +10711,6 @@
    "proj": {}
   },
   {
-   "name": "Ebuka Okorie",
-   "pos": "SG",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 1.0,
-    "REB": 0.0,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 1.0,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Tyler Kolek",
    "pos": "PG",
    "team": "NYK",
@@ -10746,6 +10726,26 @@
     "FG%": 0.27272727,
     "FT%": 1.0,
     "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Ebuka Okorie",
+   "pos": "SG",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 1.0,
+    "REB": 0.0,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 1.0,
+    "TO": 0.5,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -11378,6 +11378,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Rui Hachimura: Questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
+   "published": "Thu, 29 Oct 2026 3:14:00 PM PDT",
+   "summary": "Hachimura (quadriceps) is questionable for Friday's game against Minnesota, Tomer Azarly of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dennis Schroder: Questionable for Friday",
    "link": "https://www.rotowire.com//basketball/player/dennis-schroder-3444",
    "published": "Thu, 29 Oct 2026 2:37:00 PM PDT",
@@ -11403,13 +11410,6 @@
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Thu, 29 Oct 2026 2:08:00 PM PDT",
    "summary": "Nembhard (neck) is listed as probable for Friday's game against Miami.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ivica Zubac: Still out with ankle sprain",
-   "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
-   "published": "Thu, 29 Oct 2026 2:05:00 PM PDT",
-   "summary": "Zubac (ankle) is out for Friday's game against the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12297,6 +12297,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.2
  }
 }
