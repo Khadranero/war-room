@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T03:40:24.138142Z",
+ "updated": "2026-10-29T03:50:24.861250Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1633,7 +1633,7 @@
      "STL": 1.0,
      "BLK": 0.6,
      "3PM": 2.6,
-     "FG%": 0.60655738,
+     "FG%": 0.59677419,
      "FT%": 0.875,
      "TO": 3.2,
      "_src": "2027_last_15"
@@ -2774,15 +2774,15 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 17.0,
+     "PTS": 18.2,
      "REB": 3.4,
-     "AST": 3.4,
+     "AST": 3.6,
      "STL": 1.8,
      "BLK": 0.6,
      "3PM": 0.8,
-     "FG%": 0.52307692,
+     "FG%": 0.54411765,
      "FT%": 0.92857143,
-     "TO": 1.6,
+     "TO": 1.8,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3432,9 +3432,9 @@
      "REB": 3.25,
      "AST": 3.75,
      "STL": 1.5,
-     "BLK": 0.5,
+     "BLK": 0.75,
      "3PM": 2.75,
-     "FG%": 0.5,
+     "FG%": 0.49090909,
      "FT%": 1.0,
      "TO": 2.25,
      "_src": "2027_last_15"
@@ -4587,13 +4587,13 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 9.0,
-     "REB": 9.4,
+     "PTS": 9.4,
+     "REB": 9.6,
      "AST": 2.4,
      "STL": 0.4,
      "BLK": 0.4,
      "3PM": 0.0,
-     "FG%": 0.54285714,
+     "FG%": 0.55555556,
      "FT%": 1.0,
      "TO": 1.8,
      "_src": "2027_last_15"
@@ -6241,9 +6241,9 @@
     "STL": 0.6,
     "BLK": 0.2,
     "3PM": 2.2,
-    "FG%": 0.36734694,
+    "FG%": 0.36,
     "FT%": 0.8,
-    "TO": 1.8,
+    "TO": 2.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -6303,7 +6303,7 @@
     "STL": 0.8,
     "BLK": 0.2,
     "3PM": 0.6,
-    "FG%": 0.46153846,
+    "FG%": 0.44444444,
     "FT%": 0.875,
     "TO": 0.8,
     "_src": "2027_last_15"
@@ -6410,15 +6410,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.2,
-    "REB": 6.2,
+    "PTS": 6.6,
+    "REB": 6.6,
     "AST": 2.4,
     "STL": 1.0,
     "BLK": 2.0,
     "3PM": 0.2,
-    "FG%": 0.63636364,
+    "FG%": 0.65217391,
     "FT%": 0.5,
-    "TO": 1.2,
+    "TO": 1.4,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -6440,14 +6440,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.75,
-    "REB": 1.5,
+    "PTS": 9.25,
+    "REB": 1.75,
     "AST": 2.25,
     "STL": 0.75,
     "BLK": 0.0,
     "3PM": 1.0,
-    "FG%": 0.40625,
-    "FT%": 0.83333333,
+    "FG%": 0.39393939,
+    "FT%": 0.875,
     "TO": 1.75,
     "_src": "2027_last_15"
    },
@@ -6717,14 +6717,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.75,
-    "REB": 3.25,
+    "PTS": 11.25,
+    "REB": 3.5,
     "AST": 3.0,
     "STL": 1.25,
     "BLK": 0.25,
     "3PM": 1.5,
     "FG%": 0.33333333,
-    "FT%": 0.84,
+    "FT%": 0.85185185,
     "TO": 3.0,
     "_src": "2027_last_15"
    },
@@ -7325,13 +7325,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.4,
+    "PTS": 9.0,
     "REB": 6.0,
     "AST": 1.4,
     "STL": 1.8,
     "BLK": 1.8,
-    "3PM": 0.8,
-    "FG%": 0.36363636,
+    "3PM": 1.0,
+    "FG%": 0.37777778,
     "FT%": 0.75,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -7492,7 +7492,7 @@
     "PTS": 3.75,
     "REB": 2.75,
     "AST": 1.0,
-    "STL": 2.0,
+    "STL": 2.25,
     "BLK": 0.25,
     "3PM": 0.75,
     "FG%": 0.6,
@@ -7828,11 +7828,11 @@
     "REB": 4.75,
     "AST": 1.75,
     "STL": 1.0,
-    "BLK": 0.25,
+    "BLK": 0.5,
     "3PM": 2.25,
     "FG%": 0.59259259,
     "FT%": 0.5,
-    "TO": 0.75,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9071,7 +9071,7 @@
     "3PM": 0.75,
     "FG%": 0.47058824,
     "FT%": 0.83333333,
-    "TO": 1.0,
+    "TO": 1.25,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10167,11 +10167,11 @@
    "avg": {
     "PTS": 9.0,
     "REB": 1.6,
-    "AST": 2.2,
+    "AST": 2.6,
     "STL": 0.2,
     "BLK": 0.2,
     "3PM": 1.8,
-    "FG%": 0.51515152,
+    "FG%": 0.5,
     "FT%": 1.0,
     "TO": 0.8,
     "_src": "2027_last_15"
@@ -11335,38 +11335,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Caleb Wilson: Productive rookie year continues",
+   "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
+   "published": "Wed, 28 Oct 2026 8:49:00 PM PDT",
+   "summary": "Wilson finished with 20 points (7-18 FG, 3-8 3Pt, 3-4 FT), six rebounds, four assists, two steals and one block over 38 minutes in Wednesday's 133-127 loss to New York.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Norman Powell: Leads Chicago in scoring Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
+   "published": "Wed, 28 Oct 2026 8:47:00 PM PDT",
+   "summary": "Powell finished with 30 points (10-15 FG, 4-9 3Pt, 6-9 FT), two rebounds, two assists and one steal over 37 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "OG Anunoby: Productive in win over Bulls",
+   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
+   "published": "Wed, 28 Oct 2026 8:44:00 PM PDT",
+   "summary": "Anunoby finished with 23 points (7-16 FG, 2-6 3Pt, 7-8 FT), six rebounds and one assist across 31 minutes in Wednesday's 133-127 win over Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Karl-Anthony Towns: Double-doubles again Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
+   "published": "Wed, 28 Oct 2026 8:41:00 PM PDT",
+   "summary": "Towns ended with 19 points (7-14 FG, 3-6 3Pt, 2-2 FT), 13 rebounds, five assists and one steal across 28 minutes in Wednesday's 133-127 win over the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Brunson: Erupts for 38 points Wednesday",
    "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
    "published": "Wed, 28 Oct 2026 8:39:00 PM PDT",
    "summary": "Brunson finished with 38 points (13-25 FG, 6-10 3Pt, 6-8 FT), one rebound, seven assists and two steals across 35 minutes in Wednesday's 133-127 win over Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Fred VanVleet: Strikes for 24 points in victory",
-   "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
-   "published": "Wed, 28 Oct 2026 8:31:00 PM PDT",
-   "summary": "VanVleet notched 24 points (7-14 FG, 4-9 3Pt, 6-6 FT), six rebounds, five assists and two steals across 29 minutes in Wednesday's 132-100 win over the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyler Herro: Logs another 20-plus-point effort in loss",
-   "link": "https://www.rotowire.com//basketball/player/tyler-herro-4780",
-   "published": "Wed, 28 Oct 2026 8:06:00 PM PDT",
-   "summary": "Herro had 23 points (9-13 FG, 4-6 3Pt, 1-1 FT), three rebounds and one steal across 27 minutes in Wednesday's 132-100 loss to the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kingston Flemings: Nets career-high 23 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
-   "published": "Wed, 28 Oct 2026 8:03:00 PM PDT",
-   "summary": "Flemings logged 23 points (9-12 FG, 3-5 3Pt, 2-3 FT), five rebounds, five assists, one block and one steal across 28 minutes during Wednesday's 129-117 loss to the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dyson Daniels: Hands out seven dimes with four stocks",
-   "link": "https://www.rotowire.com//basketball/player/dyson-daniels-5385",
-   "published": "Wed, 28 Oct 2026 8:02:00 PM PDT",
-   "summary": "Daniels accumulated seven points (3-7 FG, 0-1 3Pt, 1-2 FT), four rebounds, seven assists, one block and three steals across 28 minutes during Wednesday's 129-117 loss to Miami.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12237,6 +12237,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 4.5
  }
 }
