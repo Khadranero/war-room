@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:20:24.358510Z",
+ "updated": "2026-10-29T04:30:28.058188Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1228,7 +1228,7 @@
      "STL": 0.75,
      "BLK": 0.0,
      "3PM": 2.5,
-     "FG%": 0.46969697,
+     "FG%": 0.46268657,
      "FT%": 0.77777778,
      "TO": 5.75,
      "_src": "2027_last_15"
@@ -1633,7 +1633,7 @@
      "STL": 1.2,
      "BLK": 0.6,
      "3PM": 2.6,
-     "FG%": 0.578125,
+     "FG%": 0.56923077,
      "FT%": 0.875,
      "TO": 4.2,
      "_src": "2027_last_15"
@@ -6297,14 +6297,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.8,
+    "PTS": 8.0,
     "REB": 3.2,
-    "AST": 2.2,
+    "AST": 2.6,
     "STL": 0.8,
     "BLK": 0.2,
     "3PM": 0.6,
-    "FG%": 0.44827586,
-    "FT%": 0.90909091,
+    "FG%": 0.43333333,
+    "FT%": 0.91666667,
     "TO": 0.8,
     "_src": "2027_last_15"
    },
@@ -6440,14 +6440,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.25,
+    "PTS": 12.0,
     "REB": 1.75,
     "AST": 2.25,
     "STL": 0.75,
     "BLK": 0.0,
-    "3PM": 1.0,
-    "FG%": 0.39393939,
-    "FT%": 0.875,
+    "3PM": 1.5,
+    "FG%": 0.44736842,
+    "FT%": 0.8,
     "TO": 1.75,
     "_src": "2027_last_15"
    },
@@ -6717,14 +6717,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.25,
+    "PTS": 12.25,
     "REB": 3.5,
-    "AST": 3.0,
+    "AST": 3.25,
     "STL": 1.25,
     "BLK": 0.25,
     "3PM": 1.5,
-    "FG%": 0.32,
-    "FT%": 0.85185185,
+    "FG%": 0.33333333,
+    "FT%": 0.86206897,
     "TO": 3.0,
     "_src": "2027_last_15"
    },
@@ -7490,7 +7490,7 @@
    "pct": null,
    "avg": {
     "PTS": 4.25,
-    "REB": 3.5,
+    "REB": 4.0,
     "AST": 1.0,
     "STL": 2.25,
     "BLK": 0.5,
@@ -7825,7 +7825,7 @@
    "pct": null,
    "avg": {
     "PTS": 12.5,
-    "REB": 5.0,
+    "REB": 5.25,
     "AST": 1.75,
     "STL": 1.75,
     "BLK": 0.5,
@@ -7998,7 +7998,7 @@
    "pct": null,
    "avg": {
     "PTS": 8.25,
-    "REB": 5.25,
+    "REB": 5.5,
     "AST": 2.0,
     "STL": 1.75,
     "BLK": 0.5,
@@ -8078,13 +8078,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.4,
-    "REB": 4.2,
-    "AST": 1.4,
-    "STL": 0.4,
+    "PTS": 9.8,
+    "REB": 4.4,
+    "AST": 1.6,
+    "STL": 0.6,
     "BLK": 0.6,
     "3PM": 1.0,
-    "FG%": 0.53125,
+    "FG%": 0.52941176,
     "FT%": 0.72727273,
     "TO": 0.6,
     "_src": "2027_last_15"
@@ -9063,15 +9063,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
+    "PTS": 6.5,
     "REB": 3.75,
     "AST": 0.0,
     "STL": 0.5,
     "BLK": 0.25,
     "3PM": 0.75,
     "FG%": 0.47058824,
-    "FT%": 0.83333333,
-    "TO": 1.25,
+    "FT%": 0.875,
+    "TO": 1.5,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10964,13 +10964,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.5,
+    "PTS": 7.0,
     "REB": 2.75,
     "AST": 2.5,
     "STL": 2.0,
     "BLK": 0.0,
     "3PM": 1.0,
-    "FG%": 0.32,
+    "FG%": 0.34615385,
     "FT%": 1.0,
     "TO": 1.5,
     "_src": "2027_last_15"
@@ -11335,6 +11335,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Cooper Flagg: Leads Dallas to another win",
+   "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
+   "published": "Wed, 28 Oct 2026 9:24:00 PM PDT",
+   "summary": "Flagg finished with 26 points (10-23 FG, 2-8 3Pt, 4-4 FT), five rebounds and eight assists across 33 minutes in Wednesday's 120-96 victory over Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cade Cunningham: Well-rounded outing in win",
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Wed, 28 Oct 2026 9:20:00 PM PDT",
@@ -11360,13 +11367,6 @@
    "link": "https://www.rotowire.com//basketball/player/matas-buzelis-5938",
    "published": "Wed, 28 Oct 2026 8:53:00 PM PDT",
    "summary": "Buzelis finished with 17 points (5-13 FG, 3-6 3Pt, 4-6 FT), five rebounds, three assists, one steal and one block over 33 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Caleb Wilson: Productive rookie year continues",
-   "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
-   "published": "Wed, 28 Oct 2026 8:49:00 PM PDT",
-   "summary": "Wilson finished with 20 points (7-18 FG, 3-8 3Pt, 3-4 FT), six rebounds, four assists, two steals and one block over 38 minutes in Wednesday's 133-127 loss to New York.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12236,6 +12236,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.9
  }
 }
