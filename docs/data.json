@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:10:22.478260Z",
+ "updated": "2026-10-29T04:20:24.358510Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1228,7 +1228,7 @@
      "STL": 0.75,
      "BLK": 0.0,
      "3PM": 2.5,
-     "FG%": 0.47692308,
+     "FG%": 0.46969697,
      "FT%": 0.77777778,
      "TO": 5.75,
      "_src": "2027_last_15"
@@ -1628,14 +1628,14 @@
     "team": "LAL",
     "avg": {
      "PTS": 24.4,
-     "REB": 2.8,
+     "REB": 3.0,
      "AST": 5.4,
      "STL": 1.2,
      "BLK": 0.6,
      "3PM": 2.6,
      "FG%": 0.578125,
      "FT%": 0.875,
-     "TO": 4.0,
+     "TO": 4.2,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -1924,13 +1924,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 8.8,
+     "PTS": 9.4,
      "REB": 1.6,
      "AST": 1.0,
      "STL": 1.6,
      "BLK": 0.8,
-     "3PM": 2.2,
-     "FG%": 0.55172414,
+     "3PM": 2.4,
+     "FG%": 0.56666667,
      "FT%": 0.5,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -6297,14 +6297,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.8,
+    "PTS": 7.8,
     "REB": 3.2,
-    "AST": 2.0,
+    "AST": 2.2,
     "STL": 0.8,
     "BLK": 0.2,
     "3PM": 0.6,
-    "FG%": 0.42857143,
-    "FT%": 0.875,
+    "FG%": 0.44827586,
+    "FT%": 0.90909091,
     "TO": 0.8,
     "_src": "2027_last_15"
    },
@@ -6723,7 +6723,7 @@
     "STL": 1.25,
     "BLK": 0.25,
     "3PM": 1.5,
-    "FG%": 0.33333333,
+    "FG%": 0.32,
     "FT%": 0.85185185,
     "TO": 3.0,
     "_src": "2027_last_15"
@@ -7493,7 +7493,7 @@
     "REB": 3.5,
     "AST": 1.0,
     "STL": 2.25,
-    "BLK": 0.25,
+    "BLK": 0.5,
     "3PM": 0.75,
     "FG%": 0.58333333,
     "FT%": 0.0,
@@ -7824,13 +7824,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.5,
-    "REB": 4.75,
+    "PTS": 12.5,
+    "REB": 5.0,
     "AST": 1.75,
-    "STL": 1.5,
+    "STL": 1.75,
     "BLK": 0.5,
     "3PM": 2.5,
-    "FG%": 0.5862069,
+    "FG%": 0.57575758,
     "FT%": 0.5,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -8078,15 +8078,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.0,
-    "REB": 4.0,
+    "PTS": 9.4,
+    "REB": 4.2,
     "AST": 1.4,
     "STL": 0.4,
     "BLK": 0.6,
     "3PM": 1.0,
-    "FG%": 0.51612903,
+    "FG%": 0.53125,
     "FT%": 0.72727273,
-    "TO": 0.4,
+    "TO": 0.6,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -10967,10 +10967,10 @@
     "PTS": 6.5,
     "REB": 2.75,
     "AST": 2.5,
-    "STL": 1.75,
+    "STL": 2.0,
     "BLK": 0.0,
     "3PM": 1.0,
-    "FG%": 0.33333333,
+    "FG%": 0.32,
     "FT%": 1.0,
     "TO": 1.5,
     "_src": "2027_last_15"
@@ -11335,6 +11335,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Cade Cunningham: Well-rounded outing in win",
+   "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
+   "published": "Wed, 28 Oct 2026 9:20:00 PM PDT",
+   "summary": "Cunningham contributed 30 points (10-22 FG, 4-9 3Pt, 6-8 FT), seven assists, five rebounds and two steals across 39 minutes in Wednesday's 97-89 win over Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Josh Giddey: Falls short of triple-double",
    "link": "https://www.rotowire.com//basketball/player/josh-giddey-5366",
    "published": "Wed, 28 Oct 2026 8:56:00 PM PDT",
@@ -11360,13 +11367,6 @@
    "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
    "published": "Wed, 28 Oct 2026 8:49:00 PM PDT",
    "summary": "Wilson finished with 20 points (7-18 FG, 3-8 3Pt, 3-4 FT), six rebounds, four assists, two steals and one block over 38 minutes in Wednesday's 133-127 loss to New York.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Norman Powell: Leads Chicago in scoring Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
-   "published": "Wed, 28 Oct 2026 8:47:00 PM PDT",
-   "summary": "Powell finished with 30 points (10-15 FG, 4-9 3Pt, 6-9 FT), two rebounds, two assists and one steal over 37 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12236,6 +12236,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.7
  }
 }
