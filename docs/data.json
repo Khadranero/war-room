@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T05:00:30.454102Z",
+ "updated": "2026-10-29T05:10:20.985366Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3757,7 +3757,7 @@
     "name": "Luka Doncic",
     "pos": "PG",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "LAL",
     "avg": {
      "PTS": 36.0,
@@ -6297,14 +6297,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.6,
+    "PTS": 10.2,
     "REB": 3.6,
     "AST": 2.8,
     "STL": 1.2,
     "BLK": 0.2,
     "3PM": 0.6,
-    "FG%": 0.44117647,
-    "FT%": 0.88235294,
+    "FG%": 0.47058824,
+    "FT%": 0.84210526,
     "TO": 1.2,
     "_src": "2027_last_15"
    },
@@ -6747,14 +6747,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 14.5,
+    "PTS": 15.0,
     "REB": 4.25,
     "AST": 3.5,
     "STL": 1.25,
     "BLK": 0.25,
     "3PM": 2.25,
     "FG%": 0.31578947,
-    "FT%": 0.86206897,
+    "FT%": 0.87096774,
     "TO": 3.0,
     "_src": "2027_last_15"
    },
@@ -6837,7 +6837,7 @@
    "name": "Rui Hachimura",
    "pos": "PF",
    "team": "LAC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 10.333333333333334,
@@ -7740,7 +7740,7 @@
    "name": "Ziaire Williams",
    "pos": "SF",
    "team": "LAL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 11.25,
@@ -8079,7 +8079,7 @@
    "pct": null,
    "avg": {
     "PTS": 10.2,
-    "REB": 4.6,
+    "REB": 4.8,
     "AST": 1.8,
     "STL": 0.8,
     "BLK": 0.6,
@@ -11335,6 +11335,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Quentin Grimes: Productive all-around showing in victory",
+   "link": "https://www.rotowire.com//basketball/player/quentin-grimes-5391",
+   "published": "Wed, 28 Oct 2026 10:05:00 PM PDT",
+   "summary": "Grimes finished Wednesday's 103-87 win over the Clippers with 23 points (7-15 FG, 0-3 3Pt, 9-11 FT), five assists, four steals and three rebounds across 38 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cooper Flagg: Leads Dallas to another win",
    "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
    "published": "Wed, 28 Oct 2026 9:24:00 PM PDT",
@@ -11360,13 +11367,6 @@
    "link": "https://www.rotowire.com//basketball/player/brandon-miller-5896",
    "published": "Wed, 28 Oct 2026 8:54:00 PM PDT",
    "summary": "Miller amassed 31 points (12-26 FG, 3-10 3Pt, 4-5 FT), 12 rebounds, three assists and two steals across 38 minutes in Wednesday's 97-89 loss to Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Matas Buzelis: Solid showing in loss to Knicks",
-   "link": "https://www.rotowire.com//basketball/player/matas-buzelis-5938",
-   "published": "Wed, 28 Oct 2026 8:53:00 PM PDT",
-   "summary": "Buzelis finished with 17 points (5-13 FG, 3-6 3Pt, 4-6 FT), five rebounds, three assists, one steal and one block over 33 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12236,6 +12236,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.3
  }
 }
