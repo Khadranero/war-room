@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T03:50:24.861250Z",
+ "updated": "2026-10-29T04:00:30.145856Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1104,7 +1104,7 @@
      "STL": 2.75,
      "BLK": 1.25,
      "3PM": 1.75,
-     "FG%": 0.52941176,
+     "FG%": 0.52173913,
      "FT%": 0.91666667,
      "TO": 3.0,
      "_src": "2027_last_15"
@@ -1224,7 +1224,7 @@
     "avg": {
      "PTS": 20.25,
      "REB": 1.25,
-     "AST": 5.75,
+     "AST": 6.0,
      "STL": 0.75,
      "BLK": 0.0,
      "3PM": 2.5,
@@ -2774,14 +2774,14 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 18.2,
+     "PTS": 18.6,
      "REB": 3.4,
      "AST": 3.6,
-     "STL": 1.8,
+     "STL": 2.0,
      "BLK": 0.6,
      "3PM": 0.8,
-     "FG%": 0.54411765,
-     "FT%": 0.92857143,
+     "FG%": 0.53623188,
+     "FT%": 0.9375,
      "TO": 1.8,
      "_src": "2027_last_15"
     },
@@ -4556,13 +4556,13 @@
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
-     "PTS": 14.6,
-     "REB": 7.2,
+     "PTS": 16.0,
+     "REB": 7.8,
      "AST": 1.2,
      "STL": 0.4,
      "BLK": 1.2,
-     "3PM": 1.8,
-     "FG%": 0.44827586,
+     "3PM": 2.0,
+     "FG%": 0.46031746,
      "FT%": 0.70588235,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -6411,8 +6411,8 @@
    "pct": null,
    "avg": {
     "PTS": 6.6,
-    "REB": 6.6,
-    "AST": 2.4,
+    "REB": 7.0,
+    "AST": 2.6,
     "STL": 1.0,
     "BLK": 2.0,
     "3PM": 0.2,
@@ -7306,14 +7306,14 @@
    "pct": null,
    "avg": {
     "PTS": 5.6,
-    "REB": 3.8,
+    "REB": 4.0,
     "AST": 1.0,
     "STL": 0.2,
     "BLK": 1.4,
     "3PM": 0.0,
-    "FG%": 0.61111111,
+    "FG%": 0.55,
     "FT%": 0.75,
-    "TO": 2.0,
+    "TO": 2.2,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -7490,12 +7490,12 @@
    "pct": null,
    "avg": {
     "PTS": 3.75,
-    "REB": 2.75,
+    "REB": 3.25,
     "AST": 1.0,
     "STL": 2.25,
     "BLK": 0.25,
     "3PM": 0.75,
-    "FG%": 0.6,
+    "FG%": 0.54545455,
     "FT%": 0.0,
     "TO": 0.75,
     "_src": "2027_last_15"
@@ -7824,13 +7824,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.75,
+    "PTS": 11.5,
     "REB": 4.75,
     "AST": 1.75,
     "STL": 1.0,
     "BLK": 0.5,
-    "3PM": 2.25,
-    "FG%": 0.59259259,
+    "3PM": 2.5,
+    "FG%": 0.60714286,
     "FT%": 0.5,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -8222,13 +8222,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.8,
-    "REB": 3.4,
+    "PTS": 7.2,
+    "REB": 3.6,
     "AST": 1.4,
     "STL": 0.2,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.56,
+    "FG%": 0.57692308,
     "FT%": 0.75,
     "TO": 1.6,
     "_src": "2027_last_15"
@@ -8605,7 +8605,7 @@
    "avg": {
     "PTS": 9.0,
     "REB": 4.2,
-    "AST": 2.0,
+    "AST": 2.4,
     "STL": 0.4,
     "BLK": 0.4,
     "3PM": 1.8,
@@ -8894,7 +8894,7 @@
     "STL": 0.25,
     "BLK": 0.25,
     "3PM": 0.75,
-    "FG%": 0.58333333,
+    "FG%": 0.53846154,
     "FT%": 0.33333333,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -10173,7 +10173,7 @@
     "3PM": 1.8,
     "FG%": 0.5,
     "FT%": 1.0,
-    "TO": 0.8,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10661,7 +10661,7 @@
     "BLK": 0.0,
     "3PM": 0.4,
     "FG%": 0.35714286,
-    "FT%": 1.0,
+    "FT%": 0.83333333,
     "TO": 0.4,
     "_src": "2027_last_15"
    },
@@ -11335,6 +11335,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Josh Giddey: Falls short of triple-double",
+   "link": "https://www.rotowire.com//basketball/player/josh-giddey-5366",
+   "published": "Wed, 28 Oct 2026 8:56:00 PM PDT",
+   "summary": "Giddey ended with 10 points (4-9 FG, 1-1 3Pt, 1-1 FT), eight rebounds, 11 assists and one steal over 31 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Brandon Miller: Drops 31 points in defeat",
+   "link": "https://www.rotowire.com//basketball/player/brandon-miller-5896",
+   "published": "Wed, 28 Oct 2026 8:54:00 PM PDT",
+   "summary": "Miller amassed 31 points (12-26 FG, 3-10 3Pt, 4-5 FT), 12 rebounds, three assists and two steals across 38 minutes in Wednesday's 97-89 loss to Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Matas Buzelis: Solid showing in loss to Knicks",
+   "link": "https://www.rotowire.com//basketball/player/matas-buzelis-5938",
+   "published": "Wed, 28 Oct 2026 8:53:00 PM PDT",
+   "summary": "Buzelis finished with 17 points (5-13 FG, 3-6 3Pt, 4-6 FT), five rebounds, three assists, one steal and one block over 33 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Caleb Wilson: Productive rookie year continues",
    "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
    "published": "Wed, 28 Oct 2026 8:49:00 PM PDT",
@@ -11346,32 +11367,11 @@
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Wed, 28 Oct 2026 8:47:00 PM PDT",
    "summary": "Powell finished with 30 points (10-15 FG, 4-9 3Pt, 6-9 FT), two rebounds, two assists and one steal over 37 minutes in Wednesday's 133-127 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "OG Anunoby: Productive in win over Bulls",
-   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
-   "published": "Wed, 28 Oct 2026 8:44:00 PM PDT",
-   "summary": "Anunoby finished with 23 points (7-16 FG, 2-6 3Pt, 7-8 FT), six rebounds and one assist across 31 minutes in Wednesday's 133-127 win over Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Karl-Anthony Towns: Double-doubles again Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
-   "published": "Wed, 28 Oct 2026 8:41:00 PM PDT",
-   "summary": "Towns ended with 19 points (7-14 FG, 3-6 3Pt, 2-2 FT), 13 rebounds, five assists and one steal across 28 minutes in Wednesday's 133-127 win over the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Brunson: Erupts for 38 points Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
-   "published": "Wed, 28 Oct 2026 8:39:00 PM PDT",
-   "summary": "Brunson finished with 38 points (13-25 FG, 6-10 3Pt, 6-8 FT), one rebound, seven assists and two steals across 35 minutes in Wednesday's 133-127 win over Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
-  "today": "2026-10-28",
-  "days_left": 5,
+  "today": "2026-10-29",
+  "days_left": 4,
   "by_team": {
    "ATL": {
     "rest": 2,
@@ -11527,7 +11527,6 @@
    }
   },
   "days": [
-   "2026-10-28",
    "2026-10-29",
    "2026-10-30",
    "2026-10-31",
@@ -12237,6 +12236,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 2.5
  }
 }
