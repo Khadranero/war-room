@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:40:23.193687Z",
+ "updated": "2026-10-29T04:50:24.307037Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1628,7 +1628,7 @@
     "team": "LAL",
     "avg": {
      "PTS": 24.4,
-     "REB": 3.0,
+     "REB": 3.2,
      "AST": 5.4,
      "STL": 1.2,
      "BLK": 0.6,
@@ -1932,7 +1932,7 @@
      "3PM": 2.4,
      "FG%": 0.5483871,
      "FT%": 0.5,
-     "TO": 1.0,
+     "TO": 1.2,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2503,7 +2503,7 @@
     "name": "Lauri Markkanen",
     "pos": "PF",
     "slot": "F",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "UTA",
     "avg": {
      "PTS": 16.0,
@@ -3394,7 +3394,7 @@
     "name": "Chet Holmgren",
     "pos": "C",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
      "PTS": 12.0,
@@ -4137,7 +4137,7 @@
      "STL": 0.25,
      "BLK": 1.25,
      "3PM": 1.5,
-     "FG%": 0.6,
+     "FG%": 0.58333333,
      "FT%": 0.8,
      "TO": 1.25,
      "_src": "2027_last_15"
@@ -4774,13 +4774,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 14.0,
-     "REB": 7.6,
+     "PTS": 14.4,
+     "REB": 7.8,
      "AST": 1.0,
      "STL": 1.2,
      "BLK": 2.2,
      "3PM": 0.0,
-     "FG%": 0.79487179,
+     "FG%": 0.8,
      "FT%": 0.5,
      "TO": 1.6,
      "_src": "2027_last_15"
@@ -6297,15 +6297,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.2,
-    "REB": 3.2,
-    "AST": 2.6,
-    "STL": 1.0,
+    "PTS": 9.6,
+    "REB": 3.4,
+    "AST": 2.8,
+    "STL": 1.2,
     "BLK": 0.2,
     "3PM": 0.6,
     "FG%": 0.46875,
-    "FT%": 0.86666667,
-    "TO": 1.0,
+    "FT%": 0.88235294,
+    "TO": 1.2,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -6447,7 +6447,7 @@
     "BLK": 0.0,
     "3PM": 1.5,
     "FG%": 0.43589744,
-    "FT%": 0.8,
+    "FT%": 0.66666667,
     "TO": 1.75,
     "_src": "2027_last_15"
    },
@@ -6747,13 +6747,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 13.0,
+    "PTS": 13.75,
     "REB": 4.0,
     "AST": 3.5,
     "STL": 1.25,
     "BLK": 0.25,
-    "3PM": 1.75,
-    "FG%": 0.32258065,
+    "3PM": 2.0,
+    "FG%": 0.31428571,
     "FT%": 0.86206897,
     "TO": 3.0,
     "_src": "2027_last_15"
@@ -7023,7 +7023,7 @@
    "name": "Naji Marshall",
    "pos": "SF",
    "team": "DAL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 13.666666666666666,
@@ -7493,7 +7493,7 @@
     "REB": 4.0,
     "AST": 1.0,
     "STL": 2.25,
-    "BLK": 0.5,
+    "BLK": 1.0,
     "3PM": 0.75,
     "FG%": 0.58333333,
     "FT%": 0.0,
@@ -10060,7 +10060,7 @@
    "name": "Sergio de Larrea",
    "pos": "PG",
    "team": "DAL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 5.25,
@@ -12236,6 +12236,6 @@
   "picked_total": 3509.0,
   "direct_total": 3509.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.8
  }
 }
