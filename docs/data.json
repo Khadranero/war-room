@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T07:50:31.909898Z",
+ "updated": "2026-10-29T08:00:32.151504Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -4986,7 +4986,7 @@
    {
     "name": "Kyshawn George",
     "pos": "SG",
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5017,7 +5017,7 @@
    {
     "name": "Dillon Brooks",
     "pos": "SF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -5048,7 +5048,7 @@
    {
     "name": "De'Andre Hunter",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -12271,6 +12271,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.6
  }
 }
