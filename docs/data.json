@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T19:00:38.950694Z",
+ "updated": "2026-10-29T19:10:23.183718Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5504,18 +5504,6 @@
   ]
  },
  "activity": [
-  {
-   "date": "2026-10-29T07:50:25.383000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Kyle Kuzma"
-  },
-  {
-   "date": "2026-10-29T07:50:25.383000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "De'Andre Hunter"
-  },
   {
    "date": "2026-10-29T03:23:58.865000",
    "team": "Crackheads",
@@ -11358,6 +11346,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Robert Williams: Doubtful for Thursday",
+   "link": "https://www.rotowire.com//basketball/player/robert-williams-4382",
+   "published": "Thu, 29 Oct 2026 11:57:00 AM PDT",
+   "summary": "Williams (knee) is doubtful for Thursday's game against Memphis due to left knee injury management, according to the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Smith: Listed as questionable",
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Thu, 29 Oct 2026 11:56:00 AM PDT",
@@ -11383,13 +11378,6 @@
    "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
    "published": "Thu, 29 Oct 2026 10:06:00 AM PDT",
    "summary": "Tyson (neck) is questionable for Thursday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Egor Demin: To be re-evaluated in one week",
-   "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
-   "published": "Thu, 29 Oct 2026 9:40:00 AM PDT",
-   "summary": "Demin has been diagnosed with a right leg bone bruise and will be re-evaluated in one week, Ian Begley of SportsNet New York reports Thursday. The injury occurred during Tuesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12271,6 +12259,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 2.4
  }
 }
