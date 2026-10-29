@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T17:00:32.390297Z",
+ "updated": "2026-10-29T17:10:22.600423Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -8006,7 +8006,7 @@
    "name": "Jaylon Tyson",
    "pos": "SG",
    "team": "CLE",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.0,
@@ -8138,7 +8138,7 @@
    "name": "Meleek Thomas",
    "pos": "SG",
    "team": "CLE",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 13.0,
@@ -11358,6 +11358,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaylon Tyson: Iffy for Thursday",
+   "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
+   "published": "Thu, 29 Oct 2026 10:06:00 AM PDT",
+   "summary": "Tyson (neck) is questionable for Thursday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Egor Demin: To be re-evaluated in one week",
    "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
    "published": "Thu, 29 Oct 2026 9:40:00 AM PDT",
@@ -11383,13 +11390,6 @@
    "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
    "published": "Thu, 29 Oct 2026 7:28:00 AM PDT",
    "summary": "Murray posted 23 points (9-19 FG, 5-11 3Pt), a rebound, six assists and two blocks across 38 minutes in Wednesday's 104-91 win over the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Shai Gilgeous-Alexander: Gets little help in Wednesday's loss",
-   "link": "https://www.rotowire.com//basketball/player/shai-gilgeous-alexander-4387",
-   "published": "Thu, 29 Oct 2026 6:46:00 AM PDT",
-   "summary": "Gilgeous-Alexander produced 21 points (7-19 FG, 1-6 3Pt, 6-6 FT), six rebounds, two assists and one steal in 28 minutes during Wednesday's 120-96 loss to the Mavericks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12271,6 +12271,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.4
  }
 }
