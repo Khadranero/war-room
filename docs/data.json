@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:40:24.117846Z",
+ "updated": "2026-10-29T21:50:22.405263Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -10711,26 +10711,6 @@
    "proj": {}
   },
   {
-   "name": "Ebuka Okorie",
-   "pos": "SG",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 1.0,
-    "REB": 0.0,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 1.0,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Tyler Kolek",
    "pos": "PG",
    "team": "NYK",
@@ -10746,6 +10726,26 @@
     "FG%": 0.27272727,
     "FT%": 1.0,
     "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Ebuka Okorie",
+   "pos": "SG",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 1.0,
+    "REB": 0.0,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 1.0,
+    "TO": 0.5,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -12297,6 +12297,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 4.0
+  "run_seconds": 2.5
  }
 }
