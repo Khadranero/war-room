@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T18:30:26.718947Z",
+ "updated": "2026-10-29T18:40:22.276739Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -6272,37 +6272,6 @@
    }
   },
   {
-   "name": "Jared McCain",
-   "pos": "SG",
-   "team": "OKC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.0,
-    "REB": 2.0,
-    "AST": 2.2,
-    "STL": 0.6,
-    "BLK": 0.2,
-    "3PM": 2.2,
-    "FG%": 0.36,
-    "FT%": 0.8,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.057971014492754,
-    "REB": 2.898550724637681,
-    "AST": 2.0,
-    "STL": 0.6956521739130435,
-    "BLK": 0.10144927536231885,
-    "3PM": 2.1159420289855073,
-    "FG%": 0.428,
-    "FT%": 0.866,
-    "TO": 1.2028985507246377,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Quentin Grimes",
    "pos": "SG",
    "team": "LAL",
@@ -6330,6 +6299,37 @@
     "FG%": 0.454,
     "FT%": 0.804,
     "TO": 1.904109589041096,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jared McCain",
+   "pos": "SG",
+   "team": "OKC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.0,
+    "REB": 2.0,
+    "AST": 2.2,
+    "STL": 0.6,
+    "BLK": 0.2,
+    "3PM": 2.2,
+    "FG%": 0.36,
+    "FT%": 0.8,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 12.057971014492754,
+    "REB": 2.898550724637681,
+    "AST": 2.0,
+    "STL": 0.6956521739130435,
+    "BLK": 0.10144927536231885,
+    "3PM": 2.1159420289855073,
+    "FG%": 0.428,
+    "FT%": 0.866,
+    "TO": 1.2028985507246377,
     "_src": "2027_projected"
    }
   },
@@ -7740,26 +7740,6 @@
    }
   },
   {
-   "name": "Mo Bamba",
-   "pos": "C",
-   "team": "UTA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.0,
-    "REB": 5.5,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 2.5,
-    "3PM": 0.0,
-    "FG%": 0.78571429,
-    "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Pelle Larsson",
    "pos": "SG",
    "team": "MIA",
@@ -7774,6 +7754,26 @@
     "3PM": 1.0,
     "FG%": 0.41666667,
     "FT%": 0.9,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Mo Bamba",
+   "pos": "C",
+   "team": "UTA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.0,
+    "REB": 5.5,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 2.5,
+    "3PM": 0.0,
+    "FG%": 0.78571429,
+    "FT%": 0.0,
     "TO": 1.0,
     "_src": "2027_last_15"
    },
@@ -7831,37 +7831,6 @@
    }
   },
   {
-   "name": "Ziaire Williams",
-   "pos": "SF",
-   "team": "LAL",
-   "injury": "DAY_TO_DAY",
-   "pct": null,
-   "avg": {
-    "PTS": 11.25,
-    "REB": 3.0,
-    "AST": 2.25,
-    "STL": 1.5,
-    "BLK": 0.25,
-    "3PM": 1.75,
-    "FG%": 0.57142857,
-    "FT%": 0.85714286,
-    "TO": 0.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.123076923076923,
-    "REB": 2.8,
-    "AST": 1.1076923076923078,
-    "STL": 1.3076923076923077,
-    "BLK": 0.4,
-    "3PM": 1.5384615384615385,
-    "FG%": 0.421,
-    "FT%": 0.845,
-    "TO": 1.1076923076923078,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Kingston Flemings",
    "pos": "SG",
    "team": "ATL",
@@ -7889,6 +7858,37 @@
     "FG%": 0.432,
     "FT%": 0.797,
     "TO": 2.0985915492957745,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Ziaire Williams",
+   "pos": "SF",
+   "team": "LAL",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 11.25,
+    "REB": 3.0,
+    "AST": 2.25,
+    "STL": 1.5,
+    "BLK": 0.25,
+    "3PM": 1.75,
+    "FG%": 0.57142857,
+    "FT%": 0.85714286,
+    "TO": 0.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.123076923076923,
+    "REB": 2.8,
+    "AST": 1.1076923076923078,
+    "STL": 1.3076923076923077,
+    "BLK": 0.4,
+    "3PM": 1.5384615384615385,
+    "FG%": 0.421,
+    "FT%": 0.845,
+    "TO": 1.1076923076923078,
     "_src": "2027_projected"
    }
   },
@@ -8814,35 +8814,6 @@
    }
   },
   {
-   "name": "Donte DiVincenzo",
-   "pos": "SG",
-   "team": "MIN",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {
-    "PTS": 10.25,
-    "REB": 3.25,
-    "AST": 3.0,
-    "STL": 1.0,
-    "BLK": 0.25,
-    "3PM": 2.5,
-    "FG%": 0.41,
-    "FT%": 0.747,
-    "TO": 1.25,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Russell Westbrook",
-   "pos": "PG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Sidy Cissoko",
    "pos": "SG",
    "team": "POR",
@@ -8872,6 +8843,35 @@
     "TO": 0.8064516129032258,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Donte DiVincenzo",
+   "pos": "SG",
+   "team": "MIN",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 10.25,
+    "REB": 3.25,
+    "AST": 3.0,
+    "STL": 1.0,
+    "BLK": 0.25,
+    "3PM": 2.5,
+    "FG%": 0.41,
+    "FT%": 0.747,
+    "TO": 1.25,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Russell Westbrook",
+   "pos": "PG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
   },
   {
    "name": "Jay Huff",
@@ -9171,15 +9171,6 @@
    "proj": {}
   },
   {
-   "name": "Chris Paul",
-   "pos": "PG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Herbert Jones",
    "pos": "SF",
    "team": "NOP",
@@ -9209,6 +9200,15 @@
     "TO": 1.2063492063492063,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Chris Paul",
+   "pos": "PG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
   },
   {
    "name": "Jose Alvarado",
@@ -9273,6 +9273,57 @@
    }
   },
   {
+   "name": "Sam Merrill",
+   "pos": "SG",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.25,
+    "REB": 3.0,
+    "AST": 2.0,
+    "STL": 0.75,
+    "BLK": 0.0,
+    "3PM": 1.25,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.596774193548388,
+    "REB": 2.306451612903226,
+    "AST": 2.0,
+    "STL": 0.5967741935483871,
+    "BLK": 0.0967741935483871,
+    "3PM": 2.596774193548387,
+    "FG%": 0.451,
+    "FT%": 0.865,
+    "TO": 0.6935483870967742,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jock Landale",
+   "pos": "C",
+   "team": "ATL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.6,
+    "REB": 4.8,
+    "AST": 2.6,
+    "STL": 0.2,
+    "BLK": 0.6,
+    "3PM": 0.2,
+    "FG%": 0.46875,
+    "FT%": 0.7,
+    "TO": 1.6,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Al Horford",
    "pos": "C",
    "team": "GSW",
@@ -9333,57 +9384,6 @@
     "TO": 2.6056338028169015,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Sam Merrill",
-   "pos": "SG",
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.25,
-    "REB": 3.0,
-    "AST": 2.0,
-    "STL": 0.75,
-    "BLK": 0.0,
-    "3PM": 1.25,
-    "FG%": 0.375,
-    "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.596774193548388,
-    "REB": 2.306451612903226,
-    "AST": 2.0,
-    "STL": 0.5967741935483871,
-    "BLK": 0.0967741935483871,
-    "3PM": 2.596774193548387,
-    "FG%": 0.451,
-    "FT%": 0.865,
-    "TO": 0.6935483870967742,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Jock Landale",
-   "pos": "C",
-   "team": "ATL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.6,
-    "REB": 4.8,
-    "AST": 2.6,
-    "STL": 0.2,
-    "BLK": 0.6,
-    "3PM": 0.2,
-    "FG%": 0.46875,
-    "FT%": 0.7,
-    "TO": 1.6,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Dean Wade",
@@ -9691,21 +9691,21 @@
    "proj": {}
   },
   {
-   "name": "Javonte Green",
-   "pos": "SF",
-   "team": "DET",
+   "name": "DeAndre Jordan",
+   "pos": "C",
+   "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.2,
-    "REB": 2.6,
-    "AST": 0.4,
-    "STL": 0.2,
-    "BLK": 0.6,
-    "3PM": 1.6,
-    "FG%": 0.37037037,
-    "FT%": 1.0,
-    "TO": 0.0,
+    "PTS": 6.0,
+    "REB": 6.5,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 1.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.66666667,
+    "TO": 0.5,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -9742,21 +9742,21 @@
    }
   },
   {
-   "name": "DeAndre Jordan",
-   "pos": "C",
-   "team": "NOP",
+   "name": "Javonte Green",
+   "pos": "SF",
+   "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
-    "REB": 6.5,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 1.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.66666667,
-    "TO": 0.5,
+    "PTS": 7.2,
+    "REB": 2.6,
+    "AST": 0.4,
+    "STL": 0.2,
+    "BLK": 0.6,
+    "3PM": 1.6,
+    "FG%": 0.37037037,
+    "FT%": 1.0,
+    "TO": 0.0,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -10180,37 +10180,6 @@
    "proj": {}
   },
   {
-   "name": "Marcus Sasser",
-   "pos": "PG",
-   "team": "DAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.0,
-    "REB": 1.6,
-    "AST": 2.6,
-    "STL": 0.2,
-    "BLK": 0.2,
-    "3PM": 1.8,
-    "FG%": 0.5,
-    "FT%": 1.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 5.733333333333333,
-    "REB": 1.1,
-    "AST": 2.2,
-    "STL": 0.6,
-    "BLK": 0.1,
-    "3PM": 1.1333333333333333,
-    "FG%": 0.41,
-    "FT%": 0.842,
-    "TO": 0.9,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Cam Whitmore",
    "pos": "SF",
    "team": "DEN",
@@ -10258,6 +10227,37 @@
     "FG%": 0.437,
     "FT%": 0.727,
     "TO": 1.2063492063492063,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Marcus Sasser",
+   "pos": "PG",
+   "team": "DAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.0,
+    "REB": 1.6,
+    "AST": 2.6,
+    "STL": 0.2,
+    "BLK": 0.2,
+    "3PM": 1.8,
+    "FG%": 0.5,
+    "FT%": 1.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 5.733333333333333,
+    "REB": 1.1,
+    "AST": 2.2,
+    "STL": 0.6,
+    "BLK": 0.1,
+    "3PM": 1.1333333333333333,
+    "FG%": 0.41,
+    "FT%": 0.842,
+    "TO": 0.9,
     "_src": "2027_projected"
    }
   },
@@ -11142,15 +11142,6 @@
    "proj": {}
   },
   {
-   "name": "Thanasis Antetokounmpo",
-   "pos": "SF",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Chris Cenac Jr.",
    "pos": "PF",
    "team": "BOS",
@@ -11220,6 +11211,15 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Thanasis Antetokounmpo",
+   "pos": "SF",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
   },
   {
    "name": "Isaiah Evans",
@@ -11358,6 +11358,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Anthony Edwards: Officially undergoes surgery",
+   "link": "https://www.rotowire.com//basketball/player/anthony-edwards-5110",
+   "published": "Thu, 29 Oct 2026 11:34:00 AM PDT",
+   "summary": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kon Knueppel: Practicing in G League",
    "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
    "published": "Thu, 29 Oct 2026 11:26:00 AM PDT",
@@ -11375,7 +11382,7 @@
    "title": "Egor Demin: To be re-evaluated in one week",
    "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
    "published": "Thu, 29 Oct 2026 9:40:00 AM PDT",
-   "summary": "Demin has been diagnosed with a right leg bone bruise and will be reevaluated in one week, Ian Begley of SportsNet New York reports Thursday. The injury occurred during Tuesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
+   "summary": "Demin has been diagnosed with a right leg bone bruise and will be re-evaluated in one week, Ian Begley of SportsNet New York reports Thursday. The injury occurred during Tuesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
@@ -11383,13 +11390,6 @@
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Thu, 29 Oct 2026 8:40:00 AM PDT",
    "summary": "Leonard (knee) is expected to be sidelined for at least three to four weeks, Chris Haynes of NBA TV reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zion Williamson: Scores season-high 25 points",
-   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
-   "published": "Thu, 29 Oct 2026 7:57:00 AM PDT",
-   "summary": "Williamson delivered 25 points (10-14 FG, 1-1 3Pt, 4-6 FT), five rebounds, two assists and three steals across 32 minutes in Wednesday's 104-91 loss to the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12271,6 +12271,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.7
  }
 }
