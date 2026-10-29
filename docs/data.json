@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T18:50:24.189085Z",
+ "updated": "2026-10-29T19:00:38.950694Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1405,7 +1405,7 @@
     "name": "Jalen Smith",
     "pos": "PF",
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 13.4,
@@ -2346,7 +2346,7 @@
     "name": "Robert Williams III",
     "pos": "C",
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "POR",
     "avg": {
      "PTS": 9.666666666666666,
@@ -11358,6 +11358,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Smith: Listed as questionable",
+   "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
+   "published": "Thu, 29 Oct 2026 11:56:00 AM PDT",
+   "summary": "Smith is questionable for Friday's game against Boston with a left finger sprain.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Anthony Edwards: Officially undergoes surgery",
    "link": "https://www.rotowire.com//basketball/player/anthony-edwards-5110",
    "published": "Thu, 29 Oct 2026 11:34:00 AM PDT",
@@ -11383,13 +11390,6 @@
    "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
    "published": "Thu, 29 Oct 2026 9:40:00 AM PDT",
    "summary": "Demin has been diagnosed with a right leg bone bruise and will be re-evaluated in one week, Ian Begley of SportsNet New York reports Thursday. The injury occurred during Tuesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kawhi Leonard: To miss 3-4 weeks",
-   "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
-   "published": "Thu, 29 Oct 2026 8:40:00 AM PDT",
-   "summary": "Leonard (knee) is expected to be sidelined for at least three to four weeks, Chris Haynes of NBA TV reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12271,6 +12271,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 4.2
+  "run_seconds": 3.0
  }
 }
