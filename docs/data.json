@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:30:27.194901Z",
+ "updated": "2026-10-30T06:40:23.875109Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5536,6 +5536,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-30T06:32:57.393000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "De'Andre Hunter"
+  },
+  {
+   "date": "2026-10-30T06:32:57.393000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Draymond Green"
+  },
+  {
    "date": "2026-10-30T04:53:09.452000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -5552,18 +5564,6 @@
    "team": "AllThisToBeatLeGoat",
    "action": "FA ADDED",
    "player": "Kingston Flemings"
-  },
-  {
-   "date": "2026-10-29T07:50:25.383000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Kyle Kuzma"
-  },
-  {
-   "date": "2026-10-29T07:50:25.383000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "De'Andre Hunter"
   },
   {
    "date": "2026-10-29T03:23:58.865000",
@@ -5840,6 +5840,24 @@
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
    "player": "Peyton Watson"
+  },
+  {
+   "date": "2026-10-25T09:15:38.282000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Saddiq Bey"
+  },
+  {
+   "date": "2026-10-25T09:15:38.282000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Precious Achiuwa"
+  },
+  {
+   "date": "2026-10-25T07:15:29.442000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Quentin Grimes"
   }
  ],
  "schedule": {
@@ -6539,37 +6557,6 @@
    }
   },
   {
-   "name": "Draymond Green",
-   "pos": "PF",
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 3.25,
-    "REB": 5.5,
-    "AST": 6.75,
-    "STL": 0.25,
-    "BLK": 1.0,
-    "3PM": 0.5,
-    "FG%": 0.38461538,
-    "FT%": 0.5,
-    "TO": 4.25,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.6875,
-    "REB": 6.09375,
-    "AST": 5.703125,
-    "STL": 1.09375,
-    "BLK": 0.796875,
-    "3PM": 1.25,
-    "FG%": 0.439,
-    "FT%": 0.702,
-    "TO": 2.59375,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Neemias Queta",
    "pos": "C",
    "team": "BOS",
@@ -7001,37 +6988,6 @@
    }
   },
   {
-   "name": "Kyle Kuzma",
-   "pos": "PF",
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.8,
-    "REB": 8.0,
-    "AST": 2.8,
-    "STL": 0.8,
-    "BLK": 0.0,
-    "3PM": 1.4,
-    "FG%": 0.45833333,
-    "FT%": 0.75,
-    "TO": 1.8,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.029411764705882,
-    "REB": 4.602941176470588,
-    "AST": 2.6029411764705883,
-    "STL": 0.6029411764705882,
-    "BLK": 0.39705882352941174,
-    "3PM": 1.2205882352941178,
-    "FG%": 0.48,
-    "FT%": 0.714,
-    "TO": 1.7941176470588236,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Jordan Poole",
    "pos": "SG",
    "team": "NOP",
@@ -7059,6 +7015,37 @@
     "FG%": 0.409,
     "FT%": 0.874,
     "TO": 1.893939393939394,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Kyle Kuzma",
+   "pos": "PF",
+   "team": "MIL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.8,
+    "REB": 8.0,
+    "AST": 2.8,
+    "STL": 0.8,
+    "BLK": 0.0,
+    "3PM": 1.4,
+    "FG%": 0.45833333,
+    "FT%": 0.75,
+    "TO": 1.8,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 13.029411764705882,
+    "REB": 4.602941176470588,
+    "AST": 2.6029411764705883,
+    "STL": 0.6029411764705882,
+    "BLK": 0.39705882352941174,
+    "3PM": 1.2205882352941178,
+    "FG%": 0.48,
+    "FT%": 0.714,
+    "TO": 1.7941176470588236,
     "_src": "2027_projected"
    }
   },
@@ -7517,6 +7504,26 @@
    }
   },
   {
+   "name": "Pelle Larsson",
+   "pos": "SG",
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.6,
+    "REB": 3.6,
+    "AST": 4.2,
+    "STL": 1.4,
+    "BLK": 0.2,
+    "3PM": 1.0,
+    "FG%": 0.41666667,
+    "FT%": 0.9,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "T.J. McConnell",
    "pos": "PG",
    "team": "IND",
@@ -7537,24 +7544,35 @@
    }
   },
   {
-   "name": "Pelle Larsson",
-   "pos": "SG",
-   "team": "MIA",
+   "name": "De'Andre Hunter",
+   "pos": "SF",
+   "team": "SAC",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.6,
-    "REB": 3.6,
-    "AST": 4.2,
-    "STL": 1.4,
+    "PTS": 13.0,
+    "REB": 5.2,
+    "AST": 1.2,
+    "STL": 0.2,
     "BLK": 0.2,
-    "3PM": 1.0,
-    "FG%": 0.41666667,
-    "FT%": 0.9,
-    "TO": 1.0,
+    "3PM": 2.6,
+    "FG%": 0.5,
+    "FT%": 0.625,
+    "TO": 1.4,
     "_src": "2027_last_15"
    },
-   "proj": {}
+   "proj": {
+    "PTS": 15.476923076923077,
+    "REB": 4.0,
+    "AST": 1.7076923076923076,
+    "STL": 0.7076923076923077,
+    "BLK": 0.2,
+    "3PM": 2.0615384615384613,
+    "FG%": 0.449,
+    "FT%": 0.853,
+    "TO": 1.5076923076923077,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "Cameron Johnson",
@@ -9193,6 +9211,26 @@
    }
   },
   {
+   "name": "Joan Beringer",
+   "pos": "C",
+   "team": "MIN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.8,
+    "REB": 7.4,
+    "AST": 0.6,
+    "STL": 0.2,
+    "BLK": 0.6,
+    "3PM": 0.0,
+    "FG%": 0.68181818,
+    "FT%": 0.57142857,
+    "TO": 0.8,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Kevin Huerter",
    "pos": "SG",
    "team": "DET",
@@ -9224,64 +9262,6 @@
    }
   },
   {
-   "name": "Joan Beringer",
-   "pos": "C",
-   "team": "MIN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.8,
-    "REB": 7.4,
-    "AST": 0.6,
-    "STL": 0.2,
-    "BLK": 0.6,
-    "3PM": 0.0,
-    "FG%": 0.68181818,
-    "FT%": 0.57142857,
-    "TO": 0.8,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
-   "name": "Jock Landale",
-   "pos": "C",
-   "team": "ATL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.333333333333333,
-    "REB": 5.666666666666667,
-    "AST": 2.3333333333333335,
-    "STL": 0.16666666666666666,
-    "BLK": 0.5,
-    "3PM": 0.5,
-    "FG%": 0.44736842,
-    "FT%": 0.58333333,
-    "TO": 1.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
-   "name": "Chris Paul",
-   "pos": "PG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
-   "name": "Maxime Raynaud",
-   "pos": "C",
-   "team": "SAC",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Nolan Traore",
    "pos": "PG",
    "team": "BKN",
@@ -9311,6 +9291,44 @@
     "TO": 2.6056338028169015,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Chris Paul",
+   "pos": "PG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
+   "name": "Maxime Raynaud",
+   "pos": "C",
+   "team": "SAC",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
+   "name": "Jock Landale",
+   "pos": "C",
+   "team": "ATL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.333333333333333,
+    "REB": 5.666666666666667,
+    "AST": 2.3333333333333335,
+    "STL": 0.16666666666666666,
+    "BLK": 0.5,
+    "3PM": 0.5,
+    "FG%": 0.44736842,
+    "FT%": 0.58333333,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Nikola Jovic",
@@ -9885,26 +9903,6 @@
    }
   },
   {
-   "name": "DeAndre Jordan",
-   "pos": "C",
-   "team": "NOP",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.0,
-    "REB": 6.5,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 1.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.66666667,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Nique Clifford",
    "pos": "SG",
    "team": "SAC",
@@ -9936,21 +9934,21 @@
    }
   },
   {
-   "name": "Mario Hezonja",
-   "pos": "SF",
-   "team": "CLE",
+   "name": "DeAndre Jordan",
+   "pos": "C",
+   "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.4,
-    "REB": 4.0,
-    "AST": 1.6,
-    "STL": 0.8,
-    "BLK": 0.2,
-    "3PM": 1.2,
-    "FG%": 0.44117647,
-    "FT%": 0.5,
-    "TO": 0.8,
+    "PTS": 6.0,
+    "REB": 6.5,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 1.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.66666667,
+    "TO": 0.5,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -9985,6 +9983,26 @@
     "TO": 0.7972972972972973,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Mario Hezonja",
+   "pos": "SF",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.4,
+    "REB": 4.0,
+    "AST": 1.6,
+    "STL": 0.8,
+    "BLK": 0.2,
+    "3PM": 1.2,
+    "FG%": 0.44117647,
+    "FT%": 0.5,
+    "TO": 0.8,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Hannes Steinbach",
@@ -10590,6 +10608,26 @@
    }
   },
   {
+   "name": "Tyler Kolek",
+   "pos": "PG",
+   "team": "NYK",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.6666666666666665,
+    "REB": 2.0,
+    "AST": 7.0,
+    "STL": 1.0,
+    "BLK": 0.0,
+    "3PM": 1.0,
+    "FG%": 0.27272727,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Clint Capela",
    "pos": "C",
    "team": "HOU",
@@ -10618,26 +10656,6 @@
     "TO": 0.6935483870967742,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Tyler Kolek",
-   "pos": "PG",
-   "team": "NYK",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 3.6666666666666665,
-    "REB": 2.0,
-    "AST": 7.0,
-    "STL": 1.0,
-    "BLK": 0.0,
-    "3PM": 1.0,
-    "FG%": 0.27272727,
-    "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Seth Curry",
@@ -11378,6 +11396,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jarrett Allen: Close to double-double, adds two swats",
+   "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
+   "published": "Thu, 29 Oct 2026 11:35:00 PM PDT",
+   "summary": "Allen posted 14 points (5-8 FG, 1-1 3Pt, 3-4 FT), eight rebounds, an assist and two blocks across 30 minutes in Thursday's 114-111 loss to the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cameron Boozer: Secures first career triple-double",
    "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
    "published": "Thu, 29 Oct 2026 9:34:00 PM PDT",
@@ -11403,13 +11428,6 @@
    "link": "https://www.rotowire.com//basketball/player/onyeka-okongwu-5118",
    "published": "Thu, 29 Oct 2026 7:33:00 PM PDT",
    "summary": "Okongwu finished with 29 points (11-17 FG, 4-6 3Pt, 3-4 FT), 12 rebounds, two assists, one steal and one block in 32 minutes during Thursday's 114-111 win over the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Darius Acuff: Massive double-double in defeat",
-   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
-   "published": "Thu, 29 Oct 2026 7:31:00 PM PDT",
-   "summary": "Acuff amassed 34 points (13-26 FG, 3-11 3Pt, 5-5 FT), 14 assists, six rebounds, two steals and one block across 41 minutes in Thursday's 132-120 loss to the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -11793,6 +11811,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-30T06:32:57.393000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "De'Andre Hunter"
+  },
+  {
+   "date": "2026-10-30T06:32:57.393000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Draymond Green"
+  },
   {
    "date": "2026-10-30T04:53:09.452000",
    "team": "Crackheads",
@@ -12299,6 +12329,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 3.6
  }
 }
