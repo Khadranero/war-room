@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:20:23.459057Z",
+ "updated": "2026-10-30T21:30:28.718964Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2128,7 +2128,7 @@
     "name": "Dejounte Murray",
     "pos": "SG",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 17.75,
@@ -2860,35 +2860,24 @@
     }
    },
    {
-    "name": "Kingston Flemings",
+    "name": "Pelle Larsson",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
-    "team": "ATL",
+    "team": "MIA",
     "avg": {
-     "PTS": 6.333333333333333,
-     "REB": 3.0,
-     "AST": 4.5,
-     "STL": 0.3333333333333333,
-     "BLK": 0.3333333333333333,
-     "3PM": 0.6666666666666666,
-     "FG%": 0.47058824,
-     "FT%": 0.5,
-     "TO": 2.1666666666666665,
+     "PTS": 10.6,
+     "REB": 3.6,
+     "AST": 4.2,
+     "STL": 1.4,
+     "BLK": 0.2,
+     "3PM": 1.0,
+     "FG%": 0.41666667,
+     "FT%": 0.9,
+     "TO": 1.0,
      "_src": "2027_last_15"
     },
-    "proj": {
-     "PTS": 10.915492957746478,
-     "REB": 2.8028169014084505,
-     "AST": 3.704225352112676,
-     "STL": 1.1971830985915493,
-     "BLK": 0.5070422535211268,
-     "3PM": 0.36619718309859156,
-     "FG%": 0.432,
-     "FT%": 0.797,
-     "TO": 2.0985915492957745,
-     "_src": "2027_projected"
-    }
+    "proj": {}
    }
   ],
   "Akumpo": [
@@ -5586,6 +5575,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-30T21:25:46.857000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Pelle Larsson"
+  },
+  {
+   "date": "2026-10-30T21:25:46.857000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Kingston Flemings"
+  },
+  {
    "date": "2026-10-30T18:53:22.396000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -6889,7 +6890,7 @@
    "name": "Jordan Poole",
    "pos": "SG",
    "team": "NOP",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -7194,26 +7195,6 @@
     "TO": 0.8970588235294118,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Pelle Larsson",
-   "pos": "SG",
-   "team": "MIA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.6,
-    "REB": 3.6,
-    "AST": 4.2,
-    "STL": 1.4,
-    "BLK": 0.2,
-    "3PM": 1.0,
-    "FG%": 0.41666667,
-    "FT%": 0.9,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Collin Murray-Boyles",
@@ -7888,6 +7869,37 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Kingston Flemings",
+   "pos": "SG",
+   "team": "ATL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.333333333333333,
+    "REB": 3.0,
+    "AST": 4.5,
+    "STL": 0.3333333333333333,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.6666666666666666,
+    "FG%": 0.47058824,
+    "FT%": 0.5,
+    "TO": 2.1666666666666665,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.915492957746478,
+    "REB": 2.8028169014084505,
+    "AST": 3.704225352112676,
+    "STL": 1.1971830985915493,
+    "BLK": 0.5070422535211268,
+    "3PM": 0.36619718309859156,
+    "FG%": 0.432,
+    "FT%": 0.797,
+    "TO": 2.0985915492957745,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "Ziaire Williams",
@@ -11792,6 +11804,18 @@
  },
  "log": [
   {
+   "date": "2026-10-30T21:25:46.857000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Pelle Larsson"
+  },
+  {
+   "date": "2026-10-30T21:25:46.857000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Kingston Flemings"
+  },
+  {
    "date": "2026-10-30T18:53:22.396000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -12333,6 +12357,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.0
+  "run_seconds": 5.5
  }
 }
