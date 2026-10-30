@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T01:10:21.623601Z",
+ "updated": "2026-10-30T01:20:25.813613Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5330,7 +5330,7 @@
     "name": "Ty Jerome",
     "pos": "SG",
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "MEM",
     "avg": {
      "PTS": 29.75,
@@ -6309,13 +6309,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.8,
+    "PTS": 9.4,
     "REB": 3.4,
     "AST": 2.6,
     "STL": 0.6,
-    "BLK": 0.0,
+    "BLK": 0.2,
     "3PM": 1.0,
-    "FG%": 0.34545455,
+    "FG%": 0.33333333,
     "FT%": 0.85714286,
     "TO": 2.0,
     "_src": "2027_last_15"
@@ -11378,6 +11378,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ty Jerome: Late addition to injury report",
+   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
+   "published": "Thu, 29 Oct 2026 6:16:00 PM PDT",
+   "summary": "Jerome is questionable for Thursday's game against the Trail Blazers due to back tightness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Luka Doncic: Set for Friday return",
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Thu, 29 Oct 2026 5:04:00 PM PDT",
@@ -11403,13 +11410,6 @@
    "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
    "published": "Thu, 29 Oct 2026 4:33:00 PM PDT",
    "summary": "Tyson (neck) has been cleared to play Thursday night against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dejounte Murray: Late scratch Thursday",
-   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
-   "published": "Thu, 29 Oct 2026 3:23:00 PM PDT",
-   "summary": "Murray (personal) is out for Thursday's game against the Kings, Jim Eichenhofer of the Pelicans' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12292,6 +12292,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 4.1
  }
 }
