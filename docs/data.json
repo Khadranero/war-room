@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T09:20:23.052947Z",
+ "updated": "2026-10-30T09:30:26.852606Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3817,7 +3817,7 @@
    {
     "name": "Luka Doncic",
     "pos": "PG",
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -3848,7 +3848,7 @@
    {
     "name": "Amen Thompson",
     "pos": "SF",
-    "slot": "SG",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -3879,7 +3879,7 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
-    "slot": "IR",
+    "slot": "C",
     "injury": "DAY_TO_DAY",
     "team": "HOU",
     "avg": {
@@ -4033,7 +4033,7 @@
    {
     "name": "Norman Powell",
     "pos": "SG",
-    "slot": "SF",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -4157,7 +4157,7 @@
    {
     "name": "Davion Mitchell",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4188,7 +4188,7 @@
    {
     "name": "Brook Lopez",
     "pos": "C",
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -12312,6 +12312,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 2.7
  }
 }
