@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:30:27.217929Z",
+ "updated": "2026-10-30T22:40:24.168332Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3869,7 +3869,7 @@
     "name": "Alperen Sengun",
     "pos": "C",
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "HOU",
     "avg": {
      "PTS": 24.5,
@@ -6828,7 +6828,7 @@
    "name": "Rui Hachimura",
    "pos": "PF",
    "team": "LAC",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 10.333333333333334,
@@ -6859,7 +6859,7 @@
    "name": "Scotty Pippen Jr.",
    "pos": "PG",
    "team": "MEM",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.4,
@@ -11388,6 +11388,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Alperen Sengun: Ruled out Friday",
+   "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
+   "published": "Fri, 30 Oct 2026 3:39:00 PM PDT",
+   "summary": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ty Jerome: Questionable versus Kings",
    "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
    "published": "Fri, 30 Oct 2026 3:30:00 PM PDT",
@@ -11413,13 +11420,6 @@
    "link": "https://www.rotowire.com//basketball/player/dennis-schroder-3444",
    "published": "Fri, 30 Oct 2026 2:57:00 PM PDT",
    "summary": "Schroder (foot) is available for Friday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylen Brown: Downgraded to out",
-   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
-   "published": "Fri, 30 Oct 2026 2:50:00 PM PDT",
-   "summary": "Brown (knee) is out for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12357,6 +12357,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.1
  }
 }
