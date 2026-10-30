@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:50:24.374030Z",
+ "updated": "2026-10-30T21:00:31.762759Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -8096,7 +8096,7 @@
    "name": "Jaylon Tyson",
    "pos": "SG",
    "team": "CLE",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.8,
@@ -11376,6 +11376,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaylon Tyson: Ruled out for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
+   "published": "Fri, 30 Oct 2026 1:52:00 PM PDT",
+   "summary": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Gui Santos: Now questionable",
    "link": "https://www.rotowire.com//basketball/player/gui-santos-5738",
    "published": "Fri, 30 Oct 2026 1:37:00 PM PDT",
@@ -11401,13 +11408,6 @@
    "link": "https://www.rotowire.com//basketball/player/ja-morant-4761",
    "published": "Fri, 30 Oct 2026 11:46:00 AM PDT",
    "summary": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cameron Johnson: Expected to play Friday",
-   "link": "https://www.rotowire.com//basketball/player/cameron-johnson-4916",
-   "published": "Fri, 30 Oct 2026 11:42:00 AM PDT",
-   "summary": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12333,6 +12333,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.6
  }
 }
