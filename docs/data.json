@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:30:27.047522Z",
+ "updated": "2026-10-30T16:40:24.848268Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5614,18 +5614,6 @@
    "player": "Kingston Flemings"
   },
   {
-   "date": "2026-10-29T07:50:25.383000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Kyle Kuzma"
-  },
-  {
-   "date": "2026-10-29T07:50:25.383000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "De'Andre Hunter"
-  },
-  {
    "date": "2026-10-29T03:23:58.865000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -8795,26 +8783,6 @@
    "proj": {}
   },
   {
-   "name": "Bradley Beal",
-   "pos": "SF",
-   "team": "LAC",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {
-    "PTS": 13.555555555555555,
-    "REB": 2.9074074074074074,
-    "AST": 3.2962962962962963,
-    "STL": 0.7962962962962963,
-    "BLK": 0.4074074074074074,
-    "3PM": 1.5,
-    "FG%": 0.503,
-    "FT%": 0.807,
-    "TO": 1.7037037037037037,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Joan Beringer",
    "pos": "C",
    "team": "MIN",
@@ -8833,6 +8801,26 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Bradley Beal",
+   "pos": "SF",
+   "team": "LAC",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 13.555555555555555,
+    "REB": 2.9074074074074074,
+    "AST": 3.2962962962962963,
+    "STL": 0.7962962962962963,
+    "BLK": 0.4074074074074074,
+    "3PM": 1.5,
+    "FG%": 0.503,
+    "FT%": 0.807,
+    "TO": 1.7037037037037037,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "GG Jackson",
@@ -12290,6 +12278,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 4.0
  }
 }
