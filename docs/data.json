@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:40:22.591329Z",
+ "updated": "2026-10-30T18:50:23.664664Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -4924,7 +4924,7 @@
     "name": "Ja Morant",
     "pos": "PG",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "POR",
     "avg": {
      "PTS": 15.75,
@@ -11339,6 +11339,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ja Morant: Out four weeks with hamstring strain",
+   "link": "https://www.rotowire.com//basketball/player/ja-morant-4761",
+   "published": "Fri, 30 Oct 2026 11:46:00 AM PDT",
+   "summary": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Cameron Johnson: Expected to play Friday",
+   "link": "https://www.rotowire.com//basketball/player/cameron-johnson-4916",
+   "published": "Fri, 30 Oct 2026 11:42:00 AM PDT",
+   "summary": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Rui Hachimura: Upgraded to probable",
    "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
    "published": "Fri, 30 Oct 2026 11:01:00 AM PDT",
@@ -11357,20 +11371,6 @@
    "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
    "published": "Fri, 30 Oct 2026 8:13:00 AM PDT",
    "summary": "Knueppel (hamstring) was recalled from the G League's Greensboro Swarm on Friday. He remains out for Friday's contest against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Noah Clowney: Downgraded to questionable",
-   "link": "https://www.rotowire.com//basketball/player/noah-clowney-5901",
-   "published": "Fri, 30 Oct 2026 7:16:00 AM PDT",
-   "summary": "Clowney (illness) was downgraded to questionable for Friday's game versus Detroit, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Bounces back Thursday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Fri, 30 Oct 2026 12:26:00 AM PDT",
-   "summary": "Murphy finished with 19 points (6-12 FG, 2-7 3Pt, 5-8 FT), five rebounds, three assists and a steal across 32 minutes in Thursday's 132-120 win over the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12290,6 +12290,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.8
  }
 }
