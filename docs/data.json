@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T04:10:31.857755Z",
+ "updated": "2026-10-30T04:20:24.370631Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2682,8 +2682,8 @@
     "team": "MEM",
     "avg": {
      "PTS": 14.25,
-     "REB": 9.0,
-     "AST": 2.0,
+     "REB": 9.25,
+     "AST": 2.5,
      "STL": 1.25,
      "BLK": 0.25,
      "3PM": 2.75,
@@ -3884,14 +3884,14 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 22.25,
-     "REB": 7.25,
+     "PTS": 22.75,
+     "REB": 7.5,
      "AST": 6.5,
      "STL": 1.0,
      "BLK": 0.25,
      "3PM": 1.75,
      "FG%": 0.49206349,
-     "FT%": 0.625,
+     "FT%": 0.62857143,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -4474,13 +4474,13 @@
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
-     "PTS": 14.8,
-     "REB": 10.4,
-     "AST": 5.8,
+     "PTS": 15.4,
+     "REB": 10.6,
+     "AST": 6.2,
      "STL": 0.4,
      "BLK": 0.6,
-     "3PM": 2.0,
-     "FG%": 0.31428571,
+     "3PM": 2.2,
+     "FG%": 0.32394366,
      "FT%": 0.95238095,
      "TO": 2.2,
      "_src": "2027_last_15"
@@ -4894,7 +4894,7 @@
     "name": "Ja Morant",
     "pos": "PG",
     "slot": "PG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "POR",
     "avg": {
      "PTS": 15.75,
@@ -5508,13 +5508,13 @@
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
-     "PTS": 13.4,
+     "PTS": 13.8,
      "REB": 4.0,
      "AST": 1.2,
      "STL": 1.2,
      "BLK": 0.0,
      "3PM": 2.2,
-     "FG%": 0.57142857,
+     "FG%": 0.56818182,
      "FT%": 0.66666667,
      "TO": 0.4,
      "_src": "2027_last_15"
@@ -7702,7 +7702,7 @@
     "STL": 0.25,
     "BLK": 0.0,
     "3PM": 0.5,
-    "FG%": 0.35483871,
+    "FG%": 0.34375,
     "FT%": 1.0,
     "TO": 2.75,
     "_src": "2027_last_15"
@@ -8203,13 +8203,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.75,
+    "PTS": 9.75,
     "REB": 3.5,
     "AST": 0.5,
     "STL": 0.25,
     "BLK": 0.75,
     "3PM": 1.0,
-    "FG%": 0.56521739,
+    "FG%": 0.6,
     "FT%": 1.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -8441,12 +8441,12 @@
    "pct": null,
    "avg": {
     "PTS": 8.6,
-    "REB": 3.4,
-    "AST": 3.0,
-    "STL": 0.6,
+    "REB": 3.6,
+    "AST": 3.4,
+    "STL": 0.8,
     "BLK": 0.0,
     "3PM": 2.0,
-    "FG%": 0.53333333,
+    "FG%": 0.51612903,
     "FT%": 1.0,
     "TO": 1.2,
     "_src": "2027_last_15"
@@ -8906,7 +8906,7 @@
     "STL": 0.2,
     "BLK": 0.4,
     "3PM": 0.8,
-    "FG%": 0.33333333,
+    "FG%": 0.32352941,
     "FT%": 0.71428571,
     "TO": 1.6,
     "_src": "2027_last_15"
@@ -10392,14 +10392,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 1.25,
+    "PTS": 1.75,
     "REB": 1.0,
-    "AST": 0.75,
+    "AST": 1.0,
     "STL": 0.5,
     "BLK": 0.0,
     "3PM": 0.25,
-    "FG%": 0.14285714,
-    "FT%": 0.5,
+    "FG%": 0.125,
+    "FT%": 0.66666667,
     "TO": 0.5,
     "_src": "2027_last_15"
    },
@@ -10655,15 +10655,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.0,
-    "REB": 3.0,
+    "PTS": 4.0,
+    "REB": 2.5,
     "AST": 0.0,
     "STL": 0.0,
-    "BLK": 0.0,
+    "BLK": 0.5,
     "3PM": 1.0,
-    "FG%": 0.5,
+    "FG%": 0.6,
     "FT%": 0.0,
-    "TO": 2.0,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -11378,6 +11378,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ja Morant: Departs with hamstring issue",
+   "link": "https://www.rotowire.com//basketball/player/ja-morant-4761",
+   "published": "Thu, 29 Oct 2026 9:17:00 PM PDT",
+   "summary": "Morant won't return to Thursday's game against the Grizzlies due to a left hamstring injury. He'll end with 14 points (6-14 FG, 2-5 3Pt), two rebounds and three assists in 23 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "James Harden: Drops 24 points in loss",
    "link": "https://www.rotowire.com//basketball/player/james-harden-3018",
    "published": "Thu, 29 Oct 2026 7:36:00 PM PDT",
@@ -11403,13 +11410,6 @@
    "link": "https://www.rotowire.com//basketball/player/jeremiah-fears-6546",
    "published": "Thu, 29 Oct 2026 7:31:00 PM PDT",
    "summary": "Fears finished Thursday's 132-120 win over the Kings with 22 points (9-16 FG, 3-5 3Pt, 1-3 FT), 13 assists, eight rebounds, four blocks and two steals over 29 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ty Jerome: Available Thursday",
-   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
-   "published": "Thu, 29 Oct 2026 6:36:00 PM PDT",
-   "summary": "Jerome (back) is available for Thursday's game at Portland.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12287,6 +12287,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 2.2
  }
 }
