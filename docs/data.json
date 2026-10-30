@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T02:40:21.897251Z",
+ "updated": "2026-10-30T02:50:24.527327Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2098,7 +2098,7 @@
     "name": "Dejounte Murray",
     "pos": "SG",
     "slot": "SG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
      "PTS": 17.75,
@@ -2132,13 +2132,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 16.25,
+     "PTS": 17.0,
      "REB": 3.5,
      "AST": 3.25,
      "STL": 0.75,
      "BLK": 0.0,
-     "3PM": 3.0,
-     "FG%": 0.40425532,
+     "3PM": 3.25,
+     "FG%": 0.41666667,
      "FT%": 0.75,
      "TO": 1.25,
      "_src": "2027_last_15"
@@ -2195,12 +2195,12 @@
     "team": "MEM",
     "avg": {
      "PTS": 5.5,
-     "REB": 6.75,
+     "REB": 7.0,
      "AST": 1.25,
      "STL": 0.25,
      "BLK": 1.5,
      "3PM": 0.0,
-     "FG%": 0.5625,
+     "FG%": 0.52941176,
      "FT%": 0.8,
      "TO": 0.75,
      "_src": "2027_last_15"
@@ -2537,13 +2537,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 7.75,
-     "REB": 7.5,
+     "PTS": 8.75,
+     "REB": 7.75,
      "AST": 1.5,
      "STL": 0.0,
-     "BLK": 1.25,
+     "BLK": 1.75,
      "3PM": 1.25,
-     "FG%": 0.52380952,
+     "FG%": 0.56521739,
      "FT%": 0.5,
      "TO": 0.5,
      "_src": "2027_last_15"
@@ -3884,14 +3884,14 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 19.0,
+     "PTS": 19.5,
      "REB": 6.25,
-     "AST": 5.25,
+     "AST": 6.0,
      "STL": 1.0,
      "BLK": 0.0,
      "3PM": 1.75,
-     "FG%": 0.50980392,
-     "FT%": 0.62962963,
+     "FG%": 0.5,
+     "FT%": 0.65517241,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -5333,13 +5333,13 @@
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
-     "PTS": 23.8,
+     "PTS": 24.2,
      "REB": 2.8,
      "AST": 5.2,
-     "STL": 0.6,
+     "STL": 0.8,
      "BLK": 0.2,
      "3PM": 2.0,
-     "FG%": 0.48780488,
+     "FG%": 0.48235294,
      "FT%": 0.87878788,
      "TO": 1.6,
      "_src": "2027_last_15"
@@ -6883,13 +6883,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
+    "PTS": 6.4,
     "REB": 2.2,
     "AST": 2.2,
     "STL": 1.0,
     "BLK": 0.2,
     "3PM": 0.4,
-    "FG%": 0.4,
+    "FG%": 0.42307692,
     "FT%": 0.8,
     "TO": 2.0,
     "_src": "2027_last_15"
@@ -6916,11 +6916,11 @@
    "avg": {
     "PTS": 7.8,
     "REB": 2.2,
-    "AST": 1.8,
+    "AST": 2.0,
     "STL": 0.4,
     "BLK": 1.2,
     "3PM": 1.4,
-    "FG%": 0.375,
+    "FG%": 0.36363636,
     "FT%": 0.8,
     "TO": 1.4,
     "_src": "2027_last_15"
@@ -7004,7 +7004,7 @@
    "name": "Jordan Poole",
    "pos": "SG",
    "team": "NOP",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -7665,15 +7665,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.25,
-    "REB": 1.5,
+    "PTS": 5.75,
+    "REB": 2.0,
     "AST": 1.5,
     "STL": 0.25,
     "BLK": 0.0,
     "3PM": 0.25,
     "FG%": 0.30769231,
     "FT%": 1.0,
-    "TO": 2.25,
+    "TO": 2.5,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -8169,7 +8169,7 @@
    "name": "Meleek Thomas",
    "pos": "SG",
    "team": "CLE",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 13.0,
@@ -8820,13 +8820,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
-    "REB": 3.75,
-    "AST": 2.25,
+    "PTS": 6.5,
+    "REB": 4.0,
+    "AST": 2.5,
     "STL": 0.5,
     "BLK": 0.0,
     "3PM": 0.75,
-    "FG%": 0.53333333,
+    "FG%": 0.52941176,
     "FT%": 0.71428571,
     "TO": 0.25,
     "_src": "2027_last_15"
@@ -8880,13 +8880,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.8,
+    "PTS": 4.4,
     "REB": 3.4,
     "AST": 0.6,
     "STL": 0.2,
     "BLK": 0.4,
-    "3PM": 0.4,
-    "FG%": 0.29166667,
+    "3PM": 0.6,
+    "FG%": 0.30769231,
     "FT%": 0.6,
     "TO": 1.6,
     "_src": "2027_last_15"
@@ -12288,6 +12288,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 4.0
  }
 }
