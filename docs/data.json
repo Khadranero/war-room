@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T04:50:20.913263Z",
+ "updated": "2026-10-30T05:00:30.165742Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5536,6 +5536,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-30T04:53:09.452000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Derrick Jones Jr."
+  },
+  {
+   "date": "2026-10-30T04:53:09.452000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaylen Wells"
+  },
+  {
    "date": "2026-10-29T20:37:09.951000",
    "team": "AllThisToBeatLeGoat",
    "action": "FA ADDED",
@@ -5828,18 +5840,6 @@
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
    "player": "Peyton Watson"
-  },
-  {
-   "date": "2026-10-25T09:15:38.282000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Saddiq Bey"
-  },
-  {
-   "date": "2026-10-25T09:15:38.282000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Precious Achiuwa"
   }
  ],
  "schedule": {
@@ -6504,6 +6504,37 @@
     "FG%": 0.484,
     "FT%": 0.859,
     "TO": 2.2,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jaylen Wells",
+   "pos": "SF",
+   "team": "MEM",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 13.8,
+    "REB": 4.0,
+    "AST": 1.2,
+    "STL": 1.2,
+    "BLK": 0.0,
+    "3PM": 2.2,
+    "FG%": 0.56818182,
+    "FT%": 0.66666667,
+    "TO": 0.4,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 11.577464788732394,
+    "REB": 3.0985915492957745,
+    "AST": 1.5070422535211268,
+    "STL": 0.8028169014084507,
+    "BLK": 0.09859154929577464,
+    "3PM": 1.7605633802816902,
+    "FG%": 0.43,
+    "FT%": 0.788,
+    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -7604,37 +7635,6 @@
     "FG%": 0.458,
     "FT%": 0.755,
     "TO": 1.2987012987012987,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Derrick Jones Jr.",
-   "pos": "SF",
-   "team": "LAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.5,
-    "REB": 5.25,
-    "AST": 1.75,
-    "STL": 1.75,
-    "BLK": 0.5,
-    "3PM": 2.5,
-    "FG%": 0.57575758,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 9.705882352941176,
-    "REB": 3.3970588235294117,
-    "AST": 1.1029411764705883,
-    "STL": 0.8970588235294118,
-    "BLK": 0.7941176470588235,
-    "3PM": 1.0588235294117647,
-    "FG%": 0.502,
-    "FT%": 0.737,
-    "TO": 0.7941176470588235,
     "_src": "2027_projected"
    }
   },
@@ -11794,6 +11794,18 @@
  },
  "log": [
   {
+   "date": "2026-10-30T04:53:09.452000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Derrick Jones Jr."
+  },
+  {
+   "date": "2026-10-30T04:53:09.452000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaylen Wells"
+  },
+  {
    "date": "2026-10-29T20:37:09.951000",
    "team": "AllThisToBeatLeGoat",
    "action": "FA ADDED",
@@ -12287,6 +12299,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.2
  }
 }
