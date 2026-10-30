@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:20:25.077442Z",
+ "updated": "2026-10-30T20:30:25.939331Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -6736,7 +6736,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 15.2,
@@ -11376,6 +11376,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaylen Brown: Downgraded to doubtful",
+   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
+   "published": "Fri, 30 Oct 2026 1:23:00 PM PDT",
+   "summary": "Brown (knee) is doubtful for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ja Morant: Out four weeks with hamstring strain",
    "link": "https://www.rotowire.com//basketball/player/ja-morant-4761",
    "published": "Fri, 30 Oct 2026 11:46:00 AM PDT",
@@ -11401,13 +11408,6 @@
    "link": "https://www.rotowire.com//basketball/player/dennis-schroder-3444",
    "published": "Fri, 30 Oct 2026 8:34:00 AM PDT",
    "summary": "Schroder (foot) is probable for Friday against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kon Knueppel: Remains out for Friday",
-   "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
-   "published": "Fri, 30 Oct 2026 8:13:00 AM PDT",
-   "summary": "Knueppel (hamstring) was recalled from the G League's Greensboro Swarm on Friday. He remains out for Friday's contest against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12333,6 +12333,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 2.1
  }
 }
