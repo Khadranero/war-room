@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:40:22.459934Z",
+ "updated": "2026-10-30T21:50:25.207424Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5245,7 +5245,7 @@
     "name": "Jaylen Brown",
     "pos": "SF",
     "slot": "SG",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "PHL",
     "avg": {
      "PTS": 20.6,
@@ -11266,7 +11266,7 @@
    "name": "Dailyn Swain",
    "pos": "SF",
    "team": "CHI",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 2.0,
@@ -11388,6 +11388,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaylen Brown: Downgraded to out",
+   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
+   "published": "Fri, 30 Oct 2026 2:50:00 PM PDT",
+   "summary": "Brown (knee) is out for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Tobias Harris: Remains out Saturday",
+   "link": "https://www.rotowire.com//basketball/player/tobias-harris-3211",
+   "published": "Fri, 30 Oct 2026 2:44:00 PM PDT",
+   "summary": "Harris (calf) is listed as out for Saturday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "AJ Dybantsa: Will remain limited Friday",
    "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
    "published": "Fri, 30 Oct 2026 2:33:00 PM PDT",
@@ -11406,20 +11420,6 @@
    "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
    "published": "Fri, 30 Oct 2026 1:52:00 PM PDT",
    "summary": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Gui Santos: Now questionable",
-   "link": "https://www.rotowire.com//basketball/player/gui-santos-5738",
-   "published": "Fri, 30 Oct 2026 1:37:00 PM PDT",
-   "summary": "Santos (knee) is questionable for Friday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Karl-Anthony Towns: Likely to play Friday",
-   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
-   "published": "Fri, 30 Oct 2026 1:34:00 PM PDT",
-   "summary": "Towns (wrist) is listed as probable for Friday's game against Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12357,6 +12357,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.1
+  "run_seconds": 3.6
  }
 }
