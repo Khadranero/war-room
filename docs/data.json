@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:50:23.664664Z",
+ "updated": "2026-10-30T19:00:31.798364Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -4800,7 +4800,7 @@
    {
     "name": "Evan Mobley",
     "pos": "PF",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -4923,7 +4923,7 @@
    {
     "name": "Ja Morant",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "IR",
     "injury": "OUT",
     "team": "POR",
     "avg": {
@@ -4954,7 +4954,7 @@
    {
     "name": "Payton Pritchard",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -4985,7 +4985,7 @@
    {
     "name": "RJ Barrett",
     "pos": "SF",
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -5109,7 +5109,7 @@
    {
     "name": "Draymond Green",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -5136,6 +5136,26 @@
      "TO": 2.59375,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Daniss Jenkins",
+    "pos": "PG",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "DET",
+    "avg": {
+     "PTS": 12.2,
+     "REB": 4.0,
+     "AST": 3.8,
+     "STL": 0.6,
+     "BLK": 0.2,
+     "3PM": 1.6,
+     "FG%": 0.5,
+     "FT%": 0.84615385,
+     "TO": 1.4,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "Crackheads": [
@@ -5565,6 +5585,12 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-10-30T18:53:22.396000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Daniss Jenkins"
+  },
   {
    "date": "2026-10-30T06:54:48.875000",
    "team": "Momo in Six",
@@ -7425,26 +7451,6 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Daniss Jenkins",
-   "pos": "PG",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.2,
-    "REB": 4.0,
-    "AST": 3.8,
-    "STL": 0.6,
-    "BLK": 0.2,
-    "3PM": 1.6,
-    "FG%": 0.5,
-    "FT%": 0.84615385,
-    "TO": 1.4,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "T.J. McConnell",
@@ -11334,6 +11340,37 @@
    "pct": null,
    "avg": {},
    "proj": {}
+  },
+  {
+   "name": "Kyle Anderson",
+   "pos": "SF",
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.0,
+    "REB": 1.0,
+    "AST": 1.0,
+    "STL": 0.6666666666666666,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 5.451612903225806,
+    "REB": 3.096774193548387,
+    "AST": 2.903225806451613,
+    "STL": 0.8064516129032258,
+    "BLK": 0.5,
+    "3PM": 0.1935483870967742,
+    "FG%": 0.481,
+    "FT%": 0.714,
+    "TO": 0.8064516129032258,
+    "_src": "2027_projected"
+   }
   }
  ],
  "news": [
@@ -11754,6 +11791,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-10-30T18:53:22.396000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Daniss Jenkins"
+  },
   {
    "date": "2026-10-30T06:54:48.875000",
    "team": "Momo in Six",
@@ -12290,6 +12333,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 3.4
  }
 }
