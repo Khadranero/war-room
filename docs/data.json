@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:50:25.207424Z",
+ "updated": "2026-10-30T22:00:29.494838Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1405,7 +1405,7 @@
     "name": "Jalen Smith",
     "pos": "PF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
      "PTS": 13.4,
@@ -7375,7 +7375,7 @@
    "name": "Dennis Schroder",
    "pos": "PG",
    "team": "CHA",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 14.0,
@@ -10521,7 +10521,7 @@
    "name": "Noah Clowney",
    "pos": "PF",
    "team": "BKN",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 6.25,
@@ -11388,6 +11388,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dennis Schroder: Will play Friday",
+   "link": "https://www.rotowire.com//basketball/player/dennis-schroder-3444",
+   "published": "Fri, 30 Oct 2026 2:57:00 PM PDT",
+   "summary": "Schroder (foot) is available for Friday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jaylen Brown: Downgraded to out",
    "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
    "published": "Fri, 30 Oct 2026 2:50:00 PM PDT",
@@ -11413,13 +11420,6 @@
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Fri, 30 Oct 2026 2:20:00 PM PDT",
    "summary": "Murray (personal) is off the injury report for Saturday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylon Tyson: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
-   "published": "Fri, 30 Oct 2026 1:52:00 PM PDT",
-   "summary": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12357,6 +12357,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 2.5
  }
 }
