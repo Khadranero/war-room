@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T05:10:22.465771Z",
+ "updated": "2026-10-30T05:20:22.381824Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5554,6 +5554,18 @@
    "player": "Kingston Flemings"
   },
   {
+   "date": "2026-10-29T07:50:25.383000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Kyle Kuzma"
+  },
+  {
+   "date": "2026-10-29T07:50:25.383000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "De'Andre Hunter"
+  },
+  {
    "date": "2026-10-29T03:23:58.865000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -5828,24 +5840,6 @@
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
    "player": "Peyton Watson"
-  },
-  {
-   "date": "2026-10-25T09:15:38.282000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Saddiq Bey"
-  },
-  {
-   "date": "2026-10-25T09:15:38.282000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Precious Achiuwa"
-  },
-  {
-   "date": "2026-10-25T07:15:29.442000",
-   "team": "Team Batrouni",
-   "action": "FA ADDED",
-   "player": "Quentin Grimes"
   }
  ],
  "schedule": {
@@ -12305,6 +12299,6 @@
   "picked_total": 6242.0,
   "direct_total": 6242.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.5
  }
 }
