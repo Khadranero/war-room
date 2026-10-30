@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:00:30.384882Z",
+ "updated": "2026-10-30T18:10:21.863087Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5612,6 +5612,18 @@
    "team": "AllThisToBeatLeGoat",
    "action": "FA ADDED",
    "player": "Kingston Flemings"
+  },
+  {
+   "date": "2026-10-29T07:50:25.383000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Kyle Kuzma"
+  },
+  {
+   "date": "2026-10-29T07:50:25.383000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "De'Andre Hunter"
   },
   {
    "date": "2026-10-29T03:23:58.865000",
@@ -11327,6 +11339,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Rui Hachimura: Upgraded to probable",
+   "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
+   "published": "Fri, 30 Oct 2026 11:01:00 AM PDT",
+   "summary": "Hachimura (quadriceps) is probable for Friday's game against Minnesota, per Ohm Youngmisuk of ESPN.com.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dennis Schroder: Upgraded to probable",
    "link": "https://www.rotowire.com//basketball/player/dennis-schroder-3444",
    "published": "Fri, 30 Oct 2026 8:34:00 AM PDT",
@@ -11352,13 +11371,6 @@
    "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
    "published": "Fri, 30 Oct 2026 12:26:00 AM PDT",
    "summary": "Murphy finished with 19 points (6-12 FG, 2-7 3Pt, 5-8 FT), five rebounds, three assists and a steal across 32 minutes in Thursday's 132-120 win over the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zion Williamson: Surpasses 20-point mark again",
-   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
-   "published": "Fri, 30 Oct 2026 12:22:00 AM PDT",
-   "summary": "Williamson registered 22 points (10-12 FG, 2-4 FT), six rebounds, two assists, five steals and a block across 31 minutes in Thursday's 132-120 win over the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12278,6 +12290,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.6
  }
 }
