@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:50:20.713428Z",
+ "updated": "2026-10-30T23:00:31.797657Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1436,7 +1436,7 @@
     "name": "Andrew Nembhard",
     "pos": "PG",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "IND",
     "avg": {
      "PTS": 16.5,
@@ -6767,7 +6767,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 15.2,
@@ -8201,7 +8201,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 13.25,
@@ -12357,6 +12357,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.8
  }
 }
