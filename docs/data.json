@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T04:20:24.370631Z",
+ "updated": "2026-10-30T04:30:26.352298Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2346,7 +2346,7 @@
     "name": "Robert Williams III",
     "pos": "C",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "POR",
     "avg": {
      "PTS": 9.666666666666666,
@@ -4475,7 +4475,7 @@
     "team": "MEM",
     "avg": {
      "PTS": 15.4,
-     "REB": 10.6,
+     "REB": 10.8,
      "AST": 6.2,
      "STL": 0.4,
      "BLK": 0.6,
@@ -10657,7 +10657,7 @@
    "avg": {
     "PTS": 4.0,
     "REB": 2.5,
-    "AST": 0.0,
+    "AST": 0.5,
     "STL": 0.0,
     "BLK": 0.5,
     "3PM": 1.0,
