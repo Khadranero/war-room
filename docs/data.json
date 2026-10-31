@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:20:22.357768Z",
+ "updated": "2026-10-31T21:28:14.170835Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2128,7 +2128,7 @@
     "name": "Dejounte Murray",
     "pos": "SG",
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "NOP",
     "avg": {
      "PTS": 17.75,
@@ -3296,7 +3296,7 @@
      "STL": 0.3333333333333333,
      "BLK": 1.8333333333333333,
      "3PM": 1.5,
-     "FG%": 0.50746269,
+     "FG%": 0.5,
      "FT%": 0.75,
      "TO": 1.8333333333333333,
      "_src": "2027_last_15"
@@ -3826,7 +3826,7 @@
    {
     "name": "Amen Thompson",
     "pos": "SF",
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4042,7 +4042,7 @@
    {
     "name": "Dylan Harper",
     "pos": "PG",
-    "slot": "SG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5245,7 +5245,7 @@
     "name": "Jaylen Brown",
     "pos": "SF",
     "slot": "SG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
      "PTS": 20.6,
@@ -5783,12 +5783,6 @@
    "team": "Real Men Eat Ass(ouad)",
    "action": "DROPPED",
    "player": "Rui Hachimura"
-  },
-  {
-   "date": "2026-10-27T23:52:02.050000",
-   "team": "AARON VENGERS",
-   "action": "FA ADDED",
-   "player": "Terrence Shannon Jr."
   }
  ],
  "schedule": {
@@ -7969,13 +7963,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 1.25,
+    "PTS": 2.0,
     "REB": 0.5,
-    "AST": 0.0,
+    "AST": 0.5,
     "STL": 0.75,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.28571429,
+    "3PM": 0.25,
+    "FG%": 0.375,
     "FT%": 1.0,
     "TO": 1.25,
     "_src": "2027_last_15"
@@ -8040,13 +8034,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.166666666666667,
+    "PTS": 7.5,
     "REB": 4.0,
     "AST": 5.666666666666667,
-    "STL": 0.3333333333333333,
+    "STL": 0.5,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.35135135,
+    "FG%": 0.36842105,
     "FT%": 0.5862069,
     "TO": 2.5,
     "_src": "2027_last_15"
@@ -8810,13 +8804,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.166666666666666,
+    "PTS": 9.666666666666666,
     "REB": 3.1666666666666665,
-    "AST": 1.0,
+    "AST": 1.1666666666666667,
     "STL": 0.0,
     "BLK": 0.16666666666666666,
-    "3PM": 1.8333333333333333,
-    "FG%": 0.48648649,
+    "3PM": 2.0,
+    "FG%": 0.48717949,
     "FT%": 1.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -10353,12 +10347,12 @@
    "pct": null,
    "avg": {
     "PTS": 2.4,
-    "REB": 1.4,
+    "REB": 1.6,
     "AST": 1.0,
     "STL": 0.6,
     "BLK": 0.0,
     "3PM": 0.4,
-    "FG%": 0.23076923,
+    "FG%": 0.21428571,
     "FT%": 0.66666667,
     "TO": 0.4,
     "_src": "2027_last_15"
@@ -10636,12 +10630,12 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.6666666666666665,
+    "PTS": 4.666666666666667,
     "REB": 3.3333333333333335,
-    "AST": 0.3333333333333333,
+    "AST": 0.6666666666666666,
     "STL": 0.3333333333333333,
     "BLK": 0.3333333333333333,
-    "3PM": 1.0,
+    "3PM": 1.3333333333333333,
     "FG%": 0.5,
     "FT%": 0.0,
     "TO": 1.0,
@@ -11328,6 +11322,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dejounte Murray: Ruled out Saturday",
+   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
+   "published": "Sat, 31 Oct 2026 2:25:00 PM PDT",
+   "summary": "Murray (personal) won't play in Saturday's game against the Hawks, Jim Eichenhofer of the Pelicans' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jaylen Brown: Available to play",
+   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
+   "published": "Sat, 31 Oct 2026 2:21:00 PM PDT",
+   "summary": "Brown (knee) is available for Sunday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ivica Zubac: Ruled out for Sunday",
    "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
    "published": "Sat, 31 Oct 2026 2:14:00 PM PDT",
@@ -11346,20 +11354,6 @@
    "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
    "published": "Sat, 31 Oct 2026 1:58:00 PM PDT",
    "summary": "Brown (rest) is out for Sunday's game in Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Mitchell Robinson: Questionable for Sunday",
-   "link": "https://www.rotowire.com//basketball/player/mitchell-robinson-4426",
-   "published": "Sat, 31 Oct 2026 1:33:00 PM PDT",
-   "summary": "Robinson (rest) is questionable for Sunday's game in Orlando, Jay King of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Draymond Green: Won't play Sunday",
-   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
-   "published": "Sat, 31 Oct 2026 12:52:00 PM PDT",
-   "summary": "Green (back) is out for Sunday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12338,6 +12332,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.1
  }
 }
