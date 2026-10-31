@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:10:21.241012Z",
+ "updated": "2026-10-31T17:20:22.226246Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1188,7 +1188,7 @@
     "name": "LeBron James",
     "pos": "SF",
     "slot": "SF",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "PHL",
     "avg": {
      "PTS": 16.4,
@@ -3858,7 +3858,7 @@
     "name": "Alperen Sengun",
     "pos": "C",
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
      "PTS": 24.5,
@@ -4448,7 +4448,7 @@
     "name": "Joel Embiid",
     "pos": "C",
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "PHL",
     "avg": {
      "PTS": 19.2,
@@ -4541,7 +4541,7 @@
     "name": "Fred VanVleet",
     "pos": "PG",
     "slot": "G",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "HOU",
     "avg": {
      "PTS": 13.0,
@@ -11346,6 +11346,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "LeBron James: Won't play Saturday",
+   "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
+   "published": "Sat, 31 Oct 2026 10:17:00 AM PDT",
+   "summary": "James (back) has been ruled out for Saturday's meeting in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Joel Embiid: Ruled out for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Sat, 31 Oct 2026 10:12:00 AM PDT",
+   "summary": "Embiid (foot) is out for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jaylen Brown: Questionable for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
+   "published": "Sat, 31 Oct 2026 10:09:00 AM PDT",
+   "summary": "Brown (knee) is questionable for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Julius Randle: Turnover woes continue Friday",
    "link": "https://www.rotowire.com//basketball/player/julius-randle-3574",
    "published": "Sat, 31 Oct 2026 9:11:00 AM PDT",
@@ -11357,27 +11378,6 @@
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Sat, 31 Oct 2026 8:14:00 AM PDT",
    "summary": "Cunningham finished with 20 points (6-15 FG, 1-6 3Pt, 7-7 FT), five rebounds, four assists and one block across 28 minutes in Friday's 110-94 win over Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Brunson: Tallies 24 points in Friday's loss",
-   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
-   "published": "Sat, 31 Oct 2026 7:45:00 AM PDT",
-   "summary": "Brunson recorded 24 points (8-22 FG, 3-10 3Pt, 5-6 FT), five rebounds, six assists and two steals over 35 minutes during Friday's 98-93 loss to the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "LeBron James: Teases triple-double vs. New York",
-   "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
-   "published": "Sat, 31 Oct 2026 7:17:00 AM PDT",
-   "summary": "James (rest) closed with 20 points (8-15 FG, 2-6 3Pt, 2-3 FT), nine rebounds, eight assists, one block and one steal across 34 minutes during Friday's 98-93 win over the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kyrie Irving: Pours in game-high 35 in win",
-   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
-   "published": "Sat, 31 Oct 2026 5:59:00 AM PDT",
-   "summary": "Irving closed Friday's 116-111 win over Houston with 35 points (12-19 FG, 5-8 3Pt, 6-6 FT), four rebounds and nine assists across 35 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12347,6 +12347,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.3
  }
 }
