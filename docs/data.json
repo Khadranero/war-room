@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T04:50:21.470758Z",
+ "updated": "2026-10-31T05:00:29.503934Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5245,7 +5245,7 @@
     "name": "Jaylen Brown",
     "pos": "SF",
     "slot": "SG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 20.6,
@@ -7986,7 +7986,7 @@
    "name": "Ziaire Williams",
    "pos": "SF",
    "team": "LAL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 11.25,
@@ -9077,13 +9077,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.4,
+    "PTS": 7.8,
     "REB": 4.2,
     "AST": 1.4,
     "STL": 0.6,
     "BLK": 0.2,
     "3PM": 0.8,
-    "FG%": 0.46153846,
+    "FG%": 0.48148148,
     "FT%": 0.64285714,
     "TO": 0.6,
     "_src": "2027_last_15"
@@ -11389,6 +11389,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jamal Murray: Erupts for 39 points in win",
+   "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
+   "published": "Fri, 30 Oct 2026 9:49:00 PM PDT",
+   "summary": "Murray finished with 39 points (10-18 FG, 7-9 3Pt, 12-15 FT), eight rebounds, five assists, one steal and one block over 37 minutes in Friday's 127-120 win over Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Andrew Nembhard: Ties career high in threes Friday",
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Fri, 30 Oct 2026 9:30:00 PM PDT",
@@ -11414,13 +11421,6 @@
    "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
    "published": "Fri, 30 Oct 2026 8:56:00 PM PDT",
    "summary": "Wagner ended with 26 points (8-18 FG, 2-7 3Pt, 8-9 FT), five rebounds, 11 assists and one steal across 39 minutes in Friday's 121-114 win over Toronto.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jayson Tatum: Solid all-around effort Friday",
-   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
-   "published": "Fri, 30 Oct 2026 8:53:00 PM PDT",
-   "summary": "Tatum finished with 26 points (9-20 FG, 2-7 3Pt, 6-8 FT), seven rebounds and seven assists across 35 minutes in Friday's 125-111 win over the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12342,6 +12342,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.6
  }
 }
