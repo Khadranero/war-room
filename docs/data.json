@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T05:00:29.503934Z",
+ "updated": "2026-10-31T05:10:22.603944Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1890,7 +1890,7 @@
     "name": "Reed Sheppard",
     "pos": "SG",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "HOU",
     "avg": {
      "PTS": 10.5,
@@ -3869,7 +3869,7 @@
     "name": "Alperen Sengun",
     "pos": "C",
     "slot": "C",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "HOU",
     "avg": {
      "PTS": 24.5,
@@ -6778,7 +6778,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "team": "IND",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 15.2,
@@ -11278,7 +11278,7 @@
    "name": "Dailyn Swain",
    "pos": "SF",
    "team": "CHI",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.0,
@@ -12342,6 +12342,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.5
  }
 }
