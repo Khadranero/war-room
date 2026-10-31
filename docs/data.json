@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:10:22.738034Z",
+ "updated": "2026-10-31T21:20:22.357768Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2286,13 +2286,13 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 12.833333333333334,
+     "PTS": 13.333333333333334,
      "REB": 4.333333333333333,
-     "AST": 2.6666666666666665,
+     "AST": 2.8333333333333335,
      "STL": 1.0,
      "BLK": 0.3333333333333333,
-     "3PM": 1.5,
-     "FG%": 0.35526316,
+     "3PM": 1.6666666666666667,
+     "FG%": 0.35897436,
      "FT%": 0.875,
      "TO": 1.1666666666666667,
      "_src": "2027_last_15"
@@ -2537,7 +2537,7 @@
     "team": "UTA",
     "avg": {
      "PTS": 15.4,
-     "REB": 5.8,
+     "REB": 5.6,
      "AST": 1.6,
      "STL": 0.6,
      "BLK": 0.6,
@@ -3290,15 +3290,15 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 12.833333333333334,
-     "REB": 7.666666666666667,
+     "PTS": 13.333333333333334,
+     "REB": 7.833333333333333,
      "AST": 2.1666666666666665,
      "STL": 0.3333333333333333,
      "BLK": 1.8333333333333333,
-     "3PM": 1.3333333333333333,
-     "FG%": 0.50769231,
+     "3PM": 1.5,
+     "FG%": 0.50746269,
      "FT%": 0.75,
-     "TO": 1.6666666666666667,
+     "TO": 1.8333333333333333,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5281,7 +5281,7 @@
     "avg": {
      "PTS": 21.666666666666668,
      "REB": 3.8333333333333335,
-     "AST": 6.0,
+     "AST": 6.333333333333333,
      "STL": 0.6666666666666666,
      "BLK": 0.0,
      "3PM": 2.3333333333333335,
@@ -7473,15 +7473,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.8,
-    "REB": 2.2,
+    "PTS": 8.8,
+    "REB": 2.4,
     "AST": 1.4,
     "STL": 0.8,
     "BLK": 0.0,
     "3PM": 0.6,
-    "FG%": 0.34146341,
-    "FT%": 1.0,
-    "TO": 2.8,
+    "FG%": 0.34883721,
+    "FT%": 0.91666667,
+    "TO": 3.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -7969,15 +7969,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 1.0,
-    "REB": 0.6666666666666666,
+    "PTS": 1.25,
+    "REB": 0.5,
     "AST": 0.0,
-    "STL": 0.6666666666666666,
+    "STL": 0.75,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.16666667,
+    "FG%": 0.28571429,
     "FT%": 1.0,
-    "TO": 1.6666666666666667,
+    "TO": 1.25,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -8161,7 +8161,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.4,
@@ -8810,7 +8810,7 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.833333333333334,
+    "PTS": 9.166666666666666,
     "REB": 3.1666666666666665,
     "AST": 1.0,
     "STL": 0.0,
@@ -9366,7 +9366,7 @@
    "avg": {
     "PTS": 5.8,
     "REB": 4.4,
-    "AST": 2.0,
+    "AST": 2.2,
     "STL": 0.6,
     "BLK": 0.0,
     "3PM": 0.6,
@@ -10353,7 +10353,7 @@
    "pct": null,
    "avg": {
     "PTS": 2.4,
-    "REB": 1.2,
+    "REB": 1.4,
     "AST": 1.0,
     "STL": 0.6,
     "BLK": 0.0,
@@ -10636,13 +10636,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 2.6666666666666665,
-    "REB": 3.0,
+    "PTS": 3.6666666666666665,
+    "REB": 3.3333333333333335,
     "AST": 0.3333333333333333,
-    "STL": 0.0,
+    "STL": 0.3333333333333333,
     "BLK": 0.3333333333333333,
-    "3PM": 0.6666666666666666,
-    "FG%": 0.42857143,
+    "3PM": 1.0,
+    "FG%": 0.5,
     "FT%": 0.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -11328,6 +11328,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ivica Zubac: Ruled out for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
+   "published": "Sat, 31 Oct 2026 2:14:00 PM PDT",
+   "summary": "Zubac (ankle) will remain on the inactive list for Sunday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Obi Toppin: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/obi-toppin-5109",
+   "published": "Sat, 31 Oct 2026 2:10:00 PM PDT",
+   "summary": "Toppin (back) is questionable for Sunday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Mikel Brown: Won't play Sunday",
    "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
    "published": "Sat, 31 Oct 2026 1:58:00 PM PDT",
@@ -11346,20 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
    "published": "Sat, 31 Oct 2026 12:52:00 PM PDT",
    "summary": "Green (back) is out for Sunday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Stephen Curry: Ruled out for Sunday",
-   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
-   "published": "Sat, 31 Oct 2026 12:49:00 PM PDT",
-   "summary": "Curry (rest) won't play Sunday against the Clippers, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Stephon Castle: Dealing with migraine, iffy for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
-   "published": "Sat, 31 Oct 2026 12:07:00 PM PDT",
-   "summary": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12338,6 +12338,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 4.2
+  "run_seconds": 3.3
  }
 }
