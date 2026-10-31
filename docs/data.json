@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T20:30:26.291255Z",
+ "updated": "2026-10-31T20:40:20.749429Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2162,13 +2162,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 17.2,
-     "REB": 3.4,
-     "AST": 3.2,
-     "STL": 0.6,
+     "PTS": 17.8,
+     "REB": 3.6,
+     "AST": 3.4,
+     "STL": 0.8,
      "BLK": 0.0,
-     "3PM": 3.0,
-     "FG%": 0.3968254,
+     "3PM": 3.2,
+     "FG%": 0.39393939,
      "FT%": 0.75,
      "TO": 1.6,
      "_src": "2027_last_15"
@@ -2286,15 +2286,15 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 12.5,
-     "REB": 4.0,
+     "PTS": 12.833333333333334,
+     "REB": 4.166666666666667,
      "AST": 2.5,
      "STL": 1.0,
      "BLK": 0.3333333333333333,
      "3PM": 1.5,
-     "FG%": 0.36619718,
+     "FG%": 0.36986301,
      "FT%": 0.875,
-     "TO": 0.6666666666666666,
+     "TO": 1.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2537,14 +2537,14 @@
     "team": "UTA",
     "avg": {
      "PTS": 13.6,
-     "REB": 4.8,
-     "AST": 1.4,
+     "REB": 5.6,
+     "AST": 1.6,
      "STL": 0.6,
-     "BLK": 0.4,
+     "BLK": 0.6,
      "3PM": 2.2,
-     "FG%": 0.37037037,
+     "FG%": 0.33898305,
      "FT%": 0.85,
-     "TO": 1.2,
+     "TO": 1.4,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2568,14 +2568,14 @@
     "team": "POR",
     "avg": {
      "PTS": 7.8,
-     "REB": 8.4,
+     "REB": 8.6,
      "AST": 1.4,
      "STL": 0.2,
-     "BLK": 1.8,
+     "BLK": 2.0,
      "3PM": 1.0,
-     "FG%": 0.55555556,
+     "FG%": 0.51724138,
      "FT%": 0.44444444,
-     "TO": 0.8,
+     "TO": 1.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3291,7 +3291,7 @@
     "team": "UTA",
     "avg": {
      "PTS": 12.5,
-     "REB": 7.333333333333333,
+     "REB": 7.5,
      "AST": 2.1666666666666665,
      "STL": 0.16666666666666666,
      "BLK": 1.6666666666666667,
@@ -3893,12 +3893,12 @@
     "team": "POR",
     "avg": {
      "PTS": 22.0,
-     "REB": 6.8,
+     "REB": 7.2,
      "AST": 5.6,
      "STL": 0.8,
      "BLK": 0.2,
      "3PM": 1.6,
-     "FG%": 0.50724638,
+     "FG%": 0.5,
      "FT%": 0.69565217,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -5282,10 +5282,10 @@
      "PTS": 21.333333333333332,
      "REB": 3.6666666666666665,
      "AST": 6.0,
-     "STL": 0.5,
+     "STL": 0.6666666666666666,
      "BLK": 0.0,
      "3PM": 2.3333333333333335,
-     "FG%": 0.46590909,
+     "FG%": 0.46067416,
      "FT%": 0.8,
      "TO": 3.6666666666666665,
      "_src": "2027_last_15"
@@ -5454,13 +5454,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 13.4,
-     "REB": 1.6,
+     "PTS": 14.6,
+     "REB": 2.0,
      "AST": 1.2,
      "STL": 1.2,
-     "BLK": 0.4,
-     "3PM": 3.4,
-     "FG%": 0.58974359,
+     "BLK": 0.6,
+     "3PM": 3.8,
+     "FG%": 0.58139535,
      "FT%": 1.0,
      "TO": 0.8,
      "_src": "2027_last_15"
@@ -5547,14 +5547,14 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 7.2,
-     "REB": 5.6,
+     "PTS": 8.0,
+     "REB": 6.2,
      "AST": 2.2,
      "STL": 1.2,
      "BLK": 1.8,
      "3PM": 0.0,
-     "FG%": 0.63636364,
-     "FT%": 0.61538462,
+     "FG%": 0.625,
+     "FT%": 0.66666667,
      "TO": 1.2,
      "_src": "2027_last_15"
     },
@@ -6740,7 +6740,7 @@
    "name": "Mitchell Robinson",
    "pos": "C",
    "team": "BOS",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.6,
@@ -7474,12 +7474,12 @@
    "pct": null,
    "avg": {
     "PTS": 7.8,
-    "REB": 1.8,
-    "AST": 1.2,
-    "STL": 0.6,
+    "REB": 2.0,
+    "AST": 1.4,
+    "STL": 0.8,
     "BLK": 0.0,
     "3PM": 0.6,
-    "FG%": 0.35897436,
+    "FG%": 0.35,
     "FT%": 1.0,
     "TO": 2.6,
     "_src": "2027_last_15"
@@ -11328,6 +11328,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Mitchell Robinson: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/mitchell-robinson-4426",
+   "published": "Sat, 31 Oct 2026 1:33:00 PM PDT",
+   "summary": "Robinson (rest) is questionable for Sunday's game in Orlando, Jay King of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Draymond Green: Won't play Sunday",
    "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
    "published": "Sat, 31 Oct 2026 12:52:00 PM PDT",
@@ -11353,13 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
    "published": "Sat, 31 Oct 2026 11:10:00 AM PDT",
    "summary": "Markkanen (wrist) is available for Saturday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Rudy Gobert: Nursing back spasms",
-   "link": "https://www.rotowire.com//basketball/player/rudy-gobert-3440",
-   "published": "Sat, 31 Oct 2026 11:04:00 AM PDT",
-   "summary": "Gobert (back) is listed as questionable for Saturday's game at San Antonio.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12338,6 +12338,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 1.8
+  "run_seconds": 2.2
  }
 }
