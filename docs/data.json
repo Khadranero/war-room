@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:10:24.020080Z",
+ "updated": "2026-10-31T08:20:21.223417Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5807,6 +5807,18 @@
    "team": "Crackheads",
    "action": "FA ADDED",
    "player": "Julian Champagnie"
+  },
+  {
+   "date": "2026-10-27T06:04:13.065000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Mitchell Robinson"
+  },
+  {
+   "date": "2026-10-27T06:04:13.065000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Robert Williams III"
   }
  ],
  "schedule": {
@@ -12335,6 +12347,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.4
  }
 }
