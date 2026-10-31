@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:10:21.337216Z",
+ "updated": "2026-10-31T18:20:21.625012Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2533,7 +2533,7 @@
     "name": "Lauri Markkanen",
     "pos": "PF",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
      "PTS": 16.0,
@@ -11328,6 +11328,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Lauri Markkanen: Will play Saturday",
+   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
+   "published": "Sat, 31 Oct 2026 11:10:00 AM PDT",
+   "summary": "Markkanen (wrist) is available for Saturday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Rudy Gobert: Nursing back spasms",
    "link": "https://www.rotowire.com//basketball/player/rudy-gobert-3440",
    "published": "Sat, 31 Oct 2026 11:04:00 AM PDT",
@@ -11353,13 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
    "published": "Sat, 31 Oct 2026 10:33:00 AM PDT",
    "summary": "Sheppard (back) is out for Saturday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Fred VanVleet: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
-   "published": "Sat, 31 Oct 2026 10:32:00 AM PDT",
-   "summary": "VanVleet (knee) won't play Saturday against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12341,6 +12341,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 1.9
+  "run_seconds": 2.3
  }
 }
