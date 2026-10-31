@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T23:00:32.176216Z",
+ "updated": "2026-10-31T23:10:21.776227Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2195,7 +2195,7 @@
     "avg": {
      "PTS": 10.5,
      "REB": 7.0,
-     "AST": 2.3333333333333335,
+     "AST": 2.5,
      "STL": 1.1666666666666667,
      "BLK": 0.3333333333333333,
      "3PM": 1.5,
@@ -3323,7 +3323,7 @@
     "avg": {
      "PTS": 11.142857142857142,
      "REB": 3.4285714285714284,
-     "AST": 5.0,
+     "AST": 5.285714285714286,
      "STL": 0.5714285714285714,
      "BLK": 0.14285714285714285,
      "3PM": 0.8571428571428571,
@@ -4265,13 +4265,13 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 26.428571428571427,
+     "PTS": 26.857142857142858,
      "REB": 3.857142857142857,
      "AST": 4.142857142857143,
      "STL": 1.5714285714285714,
      "BLK": 0.7142857142857143,
-     "3PM": 2.4285714285714284,
-     "FG%": 0.48175182,
+     "3PM": 2.5714285714285716,
+     "FG%": 0.48550725,
      "FT%": 0.81818182,
      "TO": 2.142857142857143,
      "_src": "2027_last_15"
@@ -4364,7 +4364,7 @@
      "STL": 0.7142857142857143,
      "BLK": 0.5714285714285714,
      "3PM": 2.4285714285714284,
-     "FG%": 0.4040404,
+     "FG%": 0.3960396,
      "FT%": 0.6,
      "TO": 2.5714285714285716,
      "_src": "2027_last_15"
@@ -5250,7 +5250,7 @@
     "avg": {
      "PTS": 18.0,
      "REB": 6.0,
-     "AST": 3.8333333333333335,
+     "AST": 4.0,
      "STL": 1.1666666666666667,
      "BLK": 0.5,
      "3PM": 1.5,
@@ -6644,13 +6644,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 13.142857142857142,
+    "PTS": 14.285714285714286,
     "REB": 2.857142857142857,
     "AST": 2.7142857142857144,
     "STL": 0.5714285714285714,
     "BLK": 0.42857142857142855,
-    "3PM": 2.857142857142857,
-    "FG%": 0.43333333,
+    "3PM": 3.142857142857143,
+    "FG%": 0.46031746,
     "FT%": 0.90909091,
     "TO": 2.5714285714285716,
     "_src": "2027_last_15"
@@ -6706,14 +6706,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.714285714285714,
+    "PTS": 10.857142857142858,
     "REB": 2.0,
     "AST": 1.2857142857142858,
     "STL": 0.7142857142857143,
     "BLK": 0.2857142857142857,
-    "3PM": 2.4285714285714284,
-    "FG%": 0.41071429,
-    "FT%": 0.71428571,
+    "3PM": 2.7142857142857144,
+    "FG%": 0.42372881,
+    "FT%": 0.77777778,
     "TO": 0.5714285714285714,
     "_src": "2027_last_15"
    },
@@ -8714,13 +8714,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.142857142857143,
-    "REB": 4.0,
-    "AST": 1.2857142857142858,
+    "PTS": 4.428571428571429,
+    "REB": 4.142857142857143,
+    "AST": 1.4285714285714286,
     "STL": 0.42857142857142855,
     "BLK": 1.0,
     "3PM": 0.0,
-    "FG%": 0.8125,
+    "FG%": 0.82352941,
     "FT%": 0.75,
     "TO": 0.8571428571428571,
     "_src": "2027_last_15"
@@ -9011,7 +9011,7 @@
    "pct": null,
    "avg": {
     "PTS": 5.142857142857143,
-    "REB": 2.4285714285714284,
+    "REB": 2.5714285714285716,
     "AST": 0.42857142857142855,
     "STL": 0.42857142857142855,
     "BLK": 0.2857142857142857,
@@ -9908,8 +9908,8 @@
    "pct": null,
    "avg": {
     "PTS": 1.5714285714285714,
-    "REB": 3.4285714285714284,
-    "AST": 0.42857142857142855,
+    "REB": 3.7142857142857144,
+    "AST": 0.5714285714285714,
     "STL": 0.2857142857142857,
     "BLK": 1.0,
     "3PM": 0.0,
@@ -11322,6 +11322,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Stephon Castle: Cleared to play versus Minnesota",
+   "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
+   "published": "Sat, 31 Oct 2026 4:06:00 PM PDT",
+   "summary": "Castle (illness) is listed as available for Saturday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Marcus Smart: Starting Saturday",
    "link": "https://www.rotowire.com//basketball/player/marcus-smart-3575",
    "published": "Sat, 31 Oct 2026 3:52:00 PM PDT",
@@ -11347,13 +11354,6 @@
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Sat, 31 Oct 2026 2:25:00 PM PDT",
    "summary": "Murray (personal) won't play in Saturday's game against the Hawks, Jim Eichenhofer of the Pelicans' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylen Brown: Available to play",
-   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
-   "published": "Sat, 31 Oct 2026 2:21:00 PM PDT",
-   "summary": "Brown (knee) is available for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12329,6 +12329,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 2.1
  }
 }
