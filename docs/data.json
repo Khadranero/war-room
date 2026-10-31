@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:30:30.475353Z",
+ "updated": "2026-10-31T17:40:25.623163Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -6081,7 +6081,7 @@
    "name": "Reed Sheppard",
    "pos": "SG",
    "team": "HOU",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 10.5,
@@ -11328,6 +11328,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Reed Sheppard: Won't play Saturday",
+   "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
+   "published": "Sat, 31 Oct 2026 10:33:00 AM PDT",
+   "summary": "Sheppard (back) is out for Saturday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Fred VanVleet: Ruled out for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
+   "published": "Sat, 31 Oct 2026 10:32:00 AM PDT",
+   "summary": "VanVleet (knee) won't play Saturday against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Alperen Sengun: Not listed on injury report",
+   "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
+   "published": "Sat, 31 Oct 2026 10:28:00 AM PDT",
+   "summary": "Sengun (back) has been removed from the injury report ahead of Saturday's meeting with the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jabari Walker: Questionable for Saturday",
    "link": "https://www.rotowire.com//basketball/player/jabari-walker-5675",
    "published": "Sat, 31 Oct 2026 10:26:00 AM PDT",
@@ -11339,27 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
    "published": "Sat, 31 Oct 2026 10:17:00 AM PDT",
    "summary": "James (back) has been ruled out for Saturday's meeting in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Joel Embiid: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
-   "published": "Sat, 31 Oct 2026 10:12:00 AM PDT",
-   "summary": "Embiid (foot) is out for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylen Brown: Questionable for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
-   "published": "Sat, 31 Oct 2026 10:09:00 AM PDT",
-   "summary": "Brown (knee) is questionable for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Julius Randle: Turnover woes continue Friday",
-   "link": "https://www.rotowire.com//basketball/player/julius-randle-3574",
-   "published": "Sat, 31 Oct 2026 9:11:00 AM PDT",
-   "summary": "Randle ended with 15 points (4-13 FG, 3-6 3Pt, 4-4 FT), eight rebounds and three assists over 25 minutes in Friday's 110-94 loss to Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12341,6 +12341,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.1
+  "run_seconds": 2.2
  }
 }
