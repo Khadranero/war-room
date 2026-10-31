@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T07:20:20.499840Z",
+ "updated": "2026-10-31T07:30:25.546454Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -4011,7 +4011,7 @@
    {
     "name": "Norman Powell",
     "pos": "SG",
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -4102,37 +4102,6 @@
     }
    },
    {
-    "name": "DeMar DeRozan",
-    "pos": "SF",
-    "slot": "UT",
-    "injury": "ACTIVE",
-    "team": "DEN",
-    "avg": {
-     "PTS": 11.0,
-     "REB": 2.4,
-     "AST": 3.0,
-     "STL": 1.2,
-     "BLK": 0.2,
-     "3PM": 0.4,
-     "FG%": 0.4,
-     "FT%": 0.80952381,
-     "TO": 1.8,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 17.5974025974026,
-     "REB": 3.0,
-     "AST": 3.8051948051948052,
-     "STL": 0.8051948051948052,
-     "BLK": 0.2987012987012987,
-     "3PM": 0.7142857142857143,
-     "FG%": 0.484,
-     "FT%": 0.86,
-     "TO": 1.1948051948051948,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Davion Mitchell",
     "pos": "PG",
     "slot": "BE",
@@ -4197,7 +4166,7 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4222,6 +4191,37 @@
      "FG%": 0.447,
      "FT%": 0.84,
      "TO": 0.8028169014084507,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Julian Champagnie",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "SAS",
+    "avg": {
+     "PTS": 11.6,
+     "REB": 3.4,
+     "AST": 1.4,
+     "STL": 1.2,
+     "BLK": 1.2,
+     "3PM": 3.4,
+     "FG%": 0.5,
+     "FT%": 1.0,
+     "TO": 0.4,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 10.78048780487805,
+     "REB": 5.402439024390244,
+     "AST": 1.5,
+     "STL": 0.6951219512195121,
+     "BLK": 0.5,
+     "3PM": 2.317073170731707,
+     "FG%": 0.433,
+     "FT%": 0.85,
+     "TO": 0.8048780487804879,
      "_src": "2027_projected"
     }
    }
@@ -5575,6 +5575,18 @@
  },
  "activity": [
   {
+   "date": "2026-10-31T07:22:41.125000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Julian Champagnie"
+  },
+  {
+   "date": "2026-10-31T07:22:41.125000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "DeMar DeRozan"
+  },
+  {
    "date": "2026-10-31T07:00:50.727000",
    "team": "Murray Had a Little Lamb",
    "action": "DROPPED",
@@ -5819,24 +5831,6 @@
    "team": "AARON VENGERS",
    "action": "FA ADDED",
    "player": "Isaiah Hartenstein"
-  },
-  {
-   "date": "2026-10-27T02:16:45.773000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Jrue Holiday"
-  },
-  {
-   "date": "2026-10-27T00:29:38.808000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Matisse Thybulle"
-  },
-  {
-   "date": "2026-10-27T00:29:38.808000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Obi Toppin"
   }
  ],
  "schedule": {
@@ -6033,6 +6027,37 @@
  },
  "free_agents": [
   {
+   "name": "DeMar DeRozan",
+   "pos": "SF",
+   "team": "DEN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.0,
+    "REB": 2.4,
+    "AST": 3.0,
+    "STL": 1.2,
+    "BLK": 0.2,
+    "3PM": 0.4,
+    "FG%": 0.4,
+    "FT%": 0.80952381,
+    "TO": 1.8,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 17.5974025974026,
+    "REB": 3.0,
+    "AST": 3.8051948051948052,
+    "STL": 0.8051948051948052,
+    "BLK": 0.2987012987012987,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.484,
+    "FT%": 0.86,
+    "TO": 1.1948051948051948,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "John Collins",
    "pos": "PF",
    "team": "DET",
@@ -6122,37 +6147,6 @@
     "FG%": 0.471,
     "FT%": 0.779,
     "TO": 1.507462686567164,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Julian Champagnie",
-   "pos": "SF",
-   "team": "SAS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.6,
-    "REB": 3.4,
-    "AST": 1.4,
-    "STL": 1.2,
-    "BLK": 1.2,
-    "3PM": 3.4,
-    "FG%": 0.5,
-    "FT%": 1.0,
-    "TO": 0.4,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.78048780487805,
-    "REB": 5.402439024390244,
-    "AST": 1.5,
-    "STL": 0.6951219512195121,
-    "BLK": 0.5,
-    "3PM": 2.317073170731707,
-    "FG%": 0.433,
-    "FT%": 0.85,
-    "TO": 0.8048780487804879,
     "_src": "2027_projected"
    }
   },
@@ -11764,6 +11758,18 @@
  },
  "log": [
   {
+   "date": "2026-10-31T07:22:41.125000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Julian Champagnie"
+  },
+  {
+   "date": "2026-10-31T07:22:41.125000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "DeMar DeRozan"
+  },
+  {
    "date": "2026-10-31T07:00:50.727000",
    "team": "Murray Had a Little Lamb",
    "action": "DROPPED",
@@ -12353,6 +12359,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.0
+  "run_seconds": 2.2
  }
 }
