@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T04:30:27.652277Z",
+ "updated": "2026-10-31T04:40:21.398212Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1346,13 +1346,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 15.25,
+     "PTS": 16.0,
      "REB": 4.75,
      "AST": 5.0,
      "STL": 1.5,
      "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.44897959,
+     "3PM": 2.25,
+     "FG%": 0.45098039,
      "FT%": 0.69230769,
      "TO": 1.75,
      "_src": "2027_last_15"
@@ -1633,7 +1633,7 @@
      "STL": 1.1666666666666667,
      "BLK": 0.5,
      "3PM": 2.3333333333333335,
-     "FG%": 0.55555556,
+     "FG%": 0.54216867,
      "FT%": 0.88095238,
      "TO": 4.833333333333333,
      "_src": "2027_last_15"
@@ -1924,14 +1924,14 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 8.666666666666666,
+     "PTS": 9.5,
      "REB": 1.8333333333333333,
      "AST": 0.8333333333333334,
      "STL": 1.8333333333333333,
      "BLK": 0.6666666666666666,
      "3PM": 2.1666666666666665,
-     "FG%": 0.5,
-     "FT%": 0.75,
+     "FG%": 0.51351351,
+     "FT%": 0.85714286,
      "TO": 1.1666666666666667,
      "_src": "2027_last_15"
     },
@@ -2416,9 +2416,9 @@
      "STL": 1.2,
      "BLK": 0.2,
      "3PM": 1.6,
-     "FG%": 0.35416667,
+     "FG%": 0.36170213,
      "FT%": 0.84615385,
-     "TO": 1.2,
+     "TO": 1.4,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3362,7 +3362,7 @@
      "3PM": 1.0,
      "FG%": 0.47674419,
      "FT%": 0.86363636,
-     "TO": 4.0,
+     "TO": 4.2,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3818,7 +3818,7 @@
      "3PM": 5.4,
      "FG%": 0.47863248,
      "FT%": 0.875,
-     "TO": 5.0,
+     "TO": 5.2,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4527,7 +4527,7 @@
      "PTS": 16.25,
      "REB": 7.25,
      "AST": 2.25,
-     "STL": 0.5,
+     "STL": 0.75,
      "BLK": 1.0,
      "3PM": 1.5,
      "FG%": 0.44827586,
@@ -6238,8 +6238,8 @@
    "pct": null,
    "avg": {
     "PTS": 9.0,
-    "REB": 3.1666666666666665,
-    "AST": 2.5,
+    "REB": 3.5,
+    "AST": 2.6666666666666665,
     "STL": 1.0,
     "BLK": 0.16666666666666666,
     "3PM": 0.6666666666666666,
@@ -6362,9 +6362,9 @@
    "pct": null,
    "avg": {
     "PTS": 9.0,
-    "REB": 2.5,
+    "REB": 2.25,
     "AST": 5.75,
-    "STL": 2.75,
+    "STL": 3.0,
     "BLK": 0.25,
     "3PM": 2.25,
     "FG%": 0.37142857,
@@ -6505,14 +6505,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 15.0,
-    "REB": 4.0,
+    "PTS": 15.4,
+    "REB": 4.2,
     "AST": 2.0,
     "STL": 2.4,
     "BLK": 0.2,
     "3PM": 2.4,
     "FG%": 0.52542373,
-    "FT%": 0.5,
+    "FT%": 0.75,
     "TO": 1.8,
     "_src": "2027_last_15"
    },
@@ -8432,9 +8432,9 @@
    "pct": null,
    "avg": {
     "PTS": 10.333333333333334,
-    "REB": 3.3333333333333335,
+    "REB": 3.5,
     "AST": 2.0,
-    "STL": 1.1666666666666667,
+    "STL": 1.3333333333333333,
     "BLK": 0.3333333333333333,
     "3PM": 2.1666666666666665,
     "FG%": 0.46511628,
@@ -9333,12 +9333,12 @@
    "pct": null,
    "avg": {
     "PTS": 4.2,
-    "REB": 3.6,
+    "REB": 3.8,
     "AST": 0.8,
     "STL": 0.4,
     "BLK": 0.6,
     "3PM": 1.0,
-    "FG%": 0.44444444,
+    "FG%": 0.4,
     "FT%": 0.0,
     "TO": 0.6,
     "_src": "2027_last_15"
@@ -9539,12 +9539,12 @@
    "pct": null,
    "avg": {
     "PTS": 10.666666666666666,
-    "REB": 2.6666666666666665,
-    "AST": 2.1666666666666665,
+    "REB": 2.8333333333333335,
+    "AST": 2.3333333333333335,
     "STL": 1.1666666666666667,
     "BLK": 0.16666666666666666,
     "3PM": 0.8333333333333334,
-    "FG%": 0.33333333,
+    "FG%": 0.32692308,
     "FT%": 0.86206897,
     "TO": 1.6666666666666667,
     "_src": "2027_last_15"
@@ -10286,7 +10286,7 @@
     "STL": 1.75,
     "BLK": 0.0,
     "3PM": 2.25,
-    "FG%": 0.44827586,
+    "FG%": 0.41935484,
     "FT%": 0.0,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -11389,6 +11389,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Andrew Nembhard: Ties career high in threes Friday",
+   "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
+   "published": "Fri, 30 Oct 2026 9:30:00 PM PDT",
+   "summary": "Nembhard finished with 22 points (8-16 FG, 5-8 3Pt, 1-1 FT), two rebounds and nine assists over 30 minutes in Friday's 145-125 loss to Miami.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Paul George: Three swipes vs. Chicago",
    "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
    "published": "Fri, 30 Oct 2026 9:09:00 PM PDT",
@@ -11414,13 +11421,6 @@
    "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
    "published": "Fri, 30 Oct 2026 8:53:00 PM PDT",
    "summary": "Tatum finished with 26 points (9-20 FG, 2-7 3Pt, 6-8 FT), seven rebounds and seven assists across 35 minutes in Friday's 125-111 win over the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "LaMelo Ball: Bounces back Friday",
-   "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
-   "published": "Fri, 30 Oct 2026 8:49:00 PM PDT",
-   "summary": "Ball ended with 24 points (9-20 FG, 6-15 3Pt), four rebounds, seven assists and two steals across 29 minutes in Friday's 127-101 win over the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12342,6 +12342,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 2.4
  }
 }
