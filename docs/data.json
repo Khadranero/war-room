@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:00:27.955018Z",
+ "updated": "2026-10-31T18:10:21.337216Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1655,7 +1655,7 @@
     "name": "Rudy Gobert",
     "pos": "C",
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "MIN",
     "avg": {
      "PTS": 7.0,
@@ -7552,7 +7552,7 @@
    "name": "Robert Williams III",
    "pos": "C",
    "team": "POR",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 9.666666666666666,
@@ -11328,6 +11328,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Rudy Gobert: Nursing back spasms",
+   "link": "https://www.rotowire.com//basketball/player/rudy-gobert-3440",
+   "published": "Sat, 31 Oct 2026 11:04:00 AM PDT",
+   "summary": "Gobert (back) is listed as questionable for Saturday's game at San Antonio.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Robert Williams: Available to play",
+   "link": "https://www.rotowire.com//basketball/player/robert-williams-4382",
+   "published": "Sat, 31 Oct 2026 11:03:00 AM PDT",
+   "summary": "Williams (knee) is available for Saturday's game in Utah.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Scoot Henderson: Starting Saturday",
    "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
    "published": "Sat, 31 Oct 2026 10:45:00 AM PDT",
@@ -11346,20 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
    "published": "Sat, 31 Oct 2026 10:32:00 AM PDT",
    "summary": "VanVleet (knee) won't play Saturday against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Alperen Sengun: Not listed on injury report",
-   "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
-   "published": "Sat, 31 Oct 2026 10:28:00 AM PDT",
-   "summary": "Sengun (back) has been removed from the injury report ahead of Saturday's meeting with the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jabari Walker: Questionable for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/jabari-walker-5675",
-   "published": "Sat, 31 Oct 2026 10:26:00 AM PDT",
-   "summary": "Walker (knee) is questionable for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12341,6 +12341,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 1.9
  }
 }
