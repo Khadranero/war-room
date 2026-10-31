@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T22:10:23.713000Z",
+ "updated": "2026-10-31T22:20:21.342557Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1655,7 +1655,7 @@
     "name": "Rudy Gobert",
     "pos": "C",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "MIN",
     "avg": {
      "PTS": 7.0,
@@ -1832,15 +1832,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 9.333333333333334,
-     "REB": 9.833333333333334,
-     "AST": 1.8333333333333333,
-     "STL": 1.8333333333333333,
-     "BLK": 0.8333333333333334,
+     "PTS": 8.285714285714286,
+     "REB": 8.571428571428571,
+     "AST": 1.7142857142857142,
+     "STL": 1.5714285714285714,
+     "BLK": 0.7142857142857143,
      "3PM": 0.0,
-     "FG%": 0.62162162,
+     "FG%": 0.63157895,
      "FT%": 0.76923077,
-     "TO": 2.1666666666666665,
+     "TO": 1.8571428571428572,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2193,15 +2193,15 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 11.6,
-     "REB": 7.8,
-     "AST": 2.6,
-     "STL": 1.2,
-     "BLK": 0.4,
-     "3PM": 1.6,
-     "FG%": 0.40740741,
+     "PTS": 10.5,
+     "REB": 6.666666666666667,
+     "AST": 2.1666666666666665,
+     "STL": 1.0,
+     "BLK": 0.3333333333333333,
+     "3PM": 1.5,
+     "FG%": 0.42105263,
      "FT%": 0.75,
-     "TO": 1.4,
+     "TO": 1.1666666666666667,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3321,15 +3321,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 13.0,
-     "REB": 3.6666666666666665,
-     "AST": 5.333333333333333,
-     "STL": 0.6666666666666666,
-     "BLK": 0.16666666666666666,
-     "3PM": 1.0,
-     "FG%": 0.41176471,
+     "PTS": 11.142857142857142,
+     "REB": 3.142857142857143,
+     "AST": 4.571428571428571,
+     "STL": 0.5714285714285714,
+     "BLK": 0.14285714285714285,
+     "3PM": 0.8571428571428571,
+     "FG%": 0.4057971,
      "FT%": 0.94117647,
-     "TO": 3.0,
+     "TO": 2.5714285714285716,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3509,15 +3509,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.333333333333333,
-     "AST": 1.8333333333333333,
-     "STL": 1.3333333333333333,
-     "BLK": 1.0,
-     "3PM": 3.0,
-     "FG%": 0.37323944,
+     "PTS": 21.857142857142858,
+     "REB": 5.428571428571429,
+     "AST": 1.5714285714285714,
+     "STL": 1.1428571428571428,
+     "BLK": 0.8571428571428571,
+     "3PM": 2.857142857142857,
+     "FG%": 0.37931034,
      "FT%": 0.85185185,
-     "TO": 2.8333333333333335,
+     "TO": 2.4285714285714284,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4265,15 +4265,15 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 28.166666666666668,
-     "REB": 4.166666666666667,
-     "AST": 4.5,
-     "STL": 1.6666666666666667,
-     "BLK": 0.8333333333333334,
-     "3PM": 2.5,
-     "FG%": 0.472,
+     "PTS": 25.428571428571427,
+     "REB": 3.7142857142857144,
+     "AST": 3.857142857142857,
+     "STL": 1.4285714285714286,
+     "BLK": 0.7142857142857143,
+     "3PM": 2.2857142857142856,
+     "FG%": 0.48461538,
      "FT%": 0.81818182,
-     "TO": 2.3333333333333335,
+     "TO": 2.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4358,15 +4358,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 16.166666666666668,
-     "REB": 9.166666666666666,
-     "AST": 1.8333333333333333,
-     "STL": 0.8333333333333334,
-     "BLK": 0.5,
-     "3PM": 2.8333333333333335,
-     "FG%": 0.40625,
+     "PTS": 14.142857142857142,
+     "REB": 8.0,
+     "AST": 1.5714285714285714,
+     "STL": 0.7142857142857143,
+     "BLK": 0.42857142857142855,
+     "3PM": 2.4285714285714284,
+     "FG%": 0.41237113,
      "FT%": 0.33333333,
-     "TO": 2.8333333333333335,
+     "TO": 2.5714285714285716,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5248,15 +5248,15 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 20.6,
-     "REB": 6.6,
-     "AST": 4.2,
-     "STL": 1.2,
-     "BLK": 0.6,
-     "3PM": 1.8,
-     "FG%": 0.44186047,
-     "FT%": 0.7826087,
-     "TO": 3.0,
+     "PTS": 17.166666666666668,
+     "REB": 5.5,
+     "AST": 3.5,
+     "STL": 1.1666666666666667,
+     "BLK": 0.5,
+     "3PM": 1.5,
+     "FG%": 0.43181818,
+     "FT%": 0.75,
+     "TO": 2.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -9296,13 +9296,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.5,
-    "REB": 2.5,
-    "AST": 0.75,
-    "STL": 2.0,
-    "BLK": 0.5,
-    "3PM": 0.75,
-    "FG%": 0.5,
+    "PTS": 2.8,
+    "REB": 2.2,
+    "AST": 1.0,
+    "STL": 1.6,
+    "BLK": 0.4,
+    "3PM": 0.6,
+    "FG%": 0.44444444,
     "FT%": 0.6,
     "TO": 0.0,
     "_src": "2027_last_15"
@@ -9907,15 +9907,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 1.5,
-    "REB": 3.6666666666666665,
-    "AST": 0.5,
-    "STL": 0.3333333333333333,
-    "BLK": 1.1666666666666667,
+    "PTS": 1.2857142857142858,
+    "REB": 3.2857142857142856,
+    "AST": 0.42857142857142855,
+    "STL": 0.2857142857142857,
+    "BLK": 1.0,
     "3PM": 0.0,
     "FG%": 0.4,
     "FT%": 0.5,
-    "TO": 1.0,
+    "TO": 0.8571428571428571,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -11063,15 +11063,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.6666666666666665,
-    "REB": 3.1666666666666665,
-    "AST": 3.3333333333333335,
-    "STL": 0.6666666666666666,
+    "PTS": 3.142857142857143,
+    "REB": 2.7142857142857144,
+    "AST": 3.0,
+    "STL": 0.5714285714285714,
     "BLK": 0.0,
-    "3PM": 0.8333333333333334,
-    "FG%": 0.18918919,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.18421053,
     "FT%": 0.75,
-    "TO": 0.8333333333333334,
+    "TO": 0.7142857142857143,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -11322,6 +11322,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scoot Henderson: Nets 14 points with three swipes",
+   "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
+   "published": "Sat, 31 Oct 2026 3:15:00 PM PDT",
+   "summary": "Henderson finished with 14 points (4-11 FG, 1-4 3Pt, 5-6 FT), three rebounds, one assist and three steals over 31 minutes during Saturday's 112-90 victory over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dejounte Murray: Ruled out Saturday",
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Sat, 31 Oct 2026 2:25:00 PM PDT",
@@ -11347,27 +11354,12 @@
    "link": "https://www.rotowire.com//basketball/player/obi-toppin-5109",
    "published": "Sat, 31 Oct 2026 2:10:00 PM PDT",
    "summary": "Toppin (back) is questionable for Sunday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Mikel Brown: Won't play Sunday",
-   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
-   "published": "Sat, 31 Oct 2026 1:58:00 PM PDT",
-   "summary": "Brown (rest) is out for Sunday's game in Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
   "today": "2026-10-31",
   "days_left": 2,
   "by_team": {
-   "CHA": {
-    "rest": 1,
-    "next": 3
-   },
-   "PHI": {
-    "rest": 1,
-    "next": 4
-   },
    "NO": {
     "rest": 1,
     "next": 4
@@ -11440,6 +11432,10 @@
     "rest": 1,
     "next": 3
    },
+   "CHA": {
+    "rest": 0,
+    "next": 3
+   },
    "DET": {
     "rest": 0,
     "next": 3
@@ -11449,6 +11445,10 @@
     "next": 3
    },
    "WSH": {
+    "rest": 0,
+    "next": 4
+   },
+   "PHI": {
     "rest": 0,
     "next": 4
    },
@@ -11501,7 +11501,7 @@
     "next": 4
    },
    "PHL": {
-    "rest": 1,
+    "rest": 0,
     "next": 4
    },
    "WAS": {
@@ -11526,9 +11526,6 @@
   ],
   "by_day": {
    "2026-10-31": [
-    "CHA",
-    "PHI",
-    "PHL",
     "NO",
     "NOP",
     "ATL",
