@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:00:33.509618Z",
+ "updated": "2026-10-31T21:10:22.738034Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2162,15 +2162,15 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 18.8,
-     "REB": 3.8,
+     "PTS": 19.2,
+     "REB": 4.0,
      "AST": 3.6,
      "STL": 1.0,
-     "BLK": 0.0,
+     "BLK": 0.2,
      "3PM": 3.2,
-     "FG%": 0.4,
-     "FT%": 0.75862069,
-     "TO": 2.0,
+     "FG%": 0.38888889,
+     "FT%": 0.77419355,
+     "TO": 2.2,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2288,13 +2288,13 @@
     "avg": {
      "PTS": 12.833333333333334,
      "REB": 4.333333333333333,
-     "AST": 2.5,
+     "AST": 2.6666666666666665,
      "STL": 1.0,
      "BLK": 0.3333333333333333,
      "3PM": 1.5,
-     "FG%": 0.36486486,
+     "FG%": 0.35526316,
      "FT%": 0.875,
-     "TO": 1.0,
+     "TO": 1.1666666666666667,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2536,13 +2536,13 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 15.0,
-     "REB": 5.6,
+     "PTS": 15.4,
+     "REB": 5.8,
      "AST": 1.6,
      "STL": 0.6,
      "BLK": 0.6,
      "3PM": 2.4,
-     "FG%": 0.3442623,
+     "FG%": 0.35483871,
      "FT%": 0.875,
      "TO": 1.4,
      "_src": "2027_last_15"
@@ -2567,13 +2567,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 8.2,
-     "REB": 8.6,
+     "PTS": 8.6,
+     "REB": 9.0,
      "AST": 1.4,
      "STL": 0.2,
      "BLK": 2.0,
      "3PM": 1.0,
-     "FG%": 0.51724138,
+     "FG%": 0.53333333,
      "FT%": 0.54545455,
      "TO": 0.8,
      "_src": "2027_last_15"
@@ -3290,13 +3290,13 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 12.5,
+     "PTS": 12.833333333333334,
      "REB": 7.666666666666667,
      "AST": 2.1666666666666665,
-     "STL": 0.16666666666666666,
-     "BLK": 1.6666666666666667,
+     "STL": 0.3333333333333333,
+     "BLK": 1.8333333333333333,
      "3PM": 1.3333333333333333,
-     "FG%": 0.5,
+     "FG%": 0.50769231,
      "FT%": 0.75,
      "TO": 1.6666666666666667,
      "_src": "2027_last_15"
@@ -3747,12 +3747,12 @@
     "team": "POR",
     "avg": {
      "PTS": 12.4,
-     "REB": 3.6,
+     "REB": 3.8,
      "AST": 3.8,
      "STL": 1.2,
      "BLK": 0.2,
      "3PM": 1.8,
-     "FG%": 0.5,
+     "FG%": 0.48780488,
      "FT%": 0.8125,
      "TO": 0.8,
      "_src": "2027_last_15"
@@ -3893,12 +3893,12 @@
     "team": "POR",
     "avg": {
      "PTS": 23.0,
-     "REB": 7.2,
+     "REB": 7.0,
      "AST": 5.6,
      "STL": 1.0,
      "BLK": 0.2,
      "3PM": 1.8,
-     "FG%": 0.50684932,
+     "FG%": 0.49333333,
      "FT%": 0.66666667,
      "TO": 2.2,
      "_src": "2027_last_15"
@@ -5280,14 +5280,14 @@
     "team": "UTA",
     "avg": {
      "PTS": 21.666666666666668,
-     "REB": 3.6666666666666665,
+     "REB": 3.8333333333333335,
      "AST": 6.0,
      "STL": 0.6666666666666666,
      "BLK": 0.0,
      "3PM": 2.3333333333333335,
-     "FG%": 0.46666667,
+     "FG%": 0.46153846,
      "FT%": 0.8,
-     "TO": 3.8333333333333335,
+     "TO": 4.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5455,12 +5455,12 @@
     "team": "POR",
     "avg": {
      "PTS": 15.2,
-     "REB": 2.0,
+     "REB": 2.2,
      "AST": 1.2,
-     "STL": 1.2,
+     "STL": 1.4,
      "BLK": 0.4,
      "3PM": 4.0,
-     "FG%": 0.59090909,
+     "FG%": 0.57777778,
      "FT%": 1.0,
      "TO": 0.8,
      "_src": "2027_last_15"
@@ -5548,10 +5548,10 @@
     "team": "UTA",
     "avg": {
      "PTS": 8.0,
-     "REB": 6.4,
+     "REB": 6.6,
      "AST": 2.4,
      "STL": 1.2,
-     "BLK": 1.8,
+     "BLK": 2.0,
      "3PM": 0.0,
      "FG%": 0.6,
      "FT%": 0.66666667,
@@ -8048,7 +8048,7 @@
     "3PM": 0.0,
     "FG%": 0.35135135,
     "FT%": 0.5862069,
-    "TO": 2.3333333333333335,
+    "TO": 2.5,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -8810,13 +8810,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.166666666666666,
-    "REB": 3.0,
-    "AST": 0.8333333333333334,
+    "PTS": 8.833333333333334,
+    "REB": 3.1666666666666665,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.16666666666666666,
     "3PM": 1.8333333333333333,
-    "FG%": 0.5,
+    "FG%": 0.48648649,
     "FT%": 1.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -9365,9 +9365,9 @@
    "pct": null,
    "avg": {
     "PTS": 5.8,
-    "REB": 4.2,
+    "REB": 4.4,
     "AST": 2.0,
-    "STL": 0.8,
+    "STL": 0.6,
     "BLK": 0.0,
     "3PM": 0.6,
     "FG%": 0.5,
@@ -10352,13 +10352,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 2.0,
+    "PTS": 2.4,
     "REB": 1.2,
     "AST": 1.0,
-    "STL": 0.4,
+    "STL": 0.6,
     "BLK": 0.0,
     "3PM": 0.4,
-    "FG%": 0.16666667,
+    "FG%": 0.23076923,
     "FT%": 0.66666667,
     "TO": 0.4,
     "_src": "2027_last_15"
@@ -10642,7 +10642,7 @@
     "STL": 0.0,
     "BLK": 0.3333333333333333,
     "3PM": 0.6666666666666666,
-    "FG%": 0.5,
+    "FG%": 0.42857143,
     "FT%": 0.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -11328,6 +11328,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Mikel Brown: Won't play Sunday",
+   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
+   "published": "Sat, 31 Oct 2026 1:58:00 PM PDT",
+   "summary": "Brown (rest) is out for Sunday's game in Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Mitchell Robinson: Questionable for Sunday",
    "link": "https://www.rotowire.com//basketball/player/mitchell-robinson-4426",
    "published": "Sat, 31 Oct 2026 1:33:00 PM PDT",
@@ -11353,13 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
    "published": "Sat, 31 Oct 2026 12:07:00 PM PDT",
    "summary": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Lauri Markkanen: Will play Saturday",
-   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
-   "published": "Sat, 31 Oct 2026 11:10:00 AM PDT",
-   "summary": "Markkanen (wrist) is available for Saturday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12338,6 +12338,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 4.2
  }
 }
