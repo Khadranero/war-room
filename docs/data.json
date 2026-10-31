@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:40:23.445256Z",
+ "updated": "2026-10-31T13:50:21.487287Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1188,7 +1188,7 @@
     "name": "LeBron James",
     "pos": "SF",
     "slot": "SF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 16.4,
@@ -4448,7 +4448,7 @@
     "name": "Joel Embiid",
     "pos": "C",
     "slot": "C",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 19.2,
@@ -12347,6 +12347,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 1.8
  }
 }
