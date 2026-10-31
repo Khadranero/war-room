@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:40:22.588542Z",
+ "updated": "2026-10-31T12:50:22.029931Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1983,7 +1983,7 @@
    {
     "name": "Jayson Tatum",
     "pos": "PF",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -2045,7 +2045,7 @@
    {
     "name": "Domantas Sabonis",
     "pos": "C",
-    "slot": "BE",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -2127,7 +2127,7 @@
    {
     "name": "Dejounte Murray",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -2158,7 +2158,7 @@
    {
     "name": "Damian Lillard",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -2220,7 +2220,7 @@
    {
     "name": "Zach Edey",
     "pos": "C",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -2251,7 +2251,7 @@
    {
     "name": "Ausar Thompson",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -2282,7 +2282,7 @@
    {
     "name": "Darryn Peterson",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -2313,7 +2313,7 @@
    {
     "name": "Zach LaVine",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -2344,7 +2344,7 @@
    {
     "name": "Aaron Wiggins",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2375,7 +2375,7 @@
    {
     "name": "Ja'Kobe Walter",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2406,7 +2406,7 @@
    {
     "name": "Aaron Gordon",
     "pos": "PF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -12347,6 +12347,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 1.9
  }
 }
