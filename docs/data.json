@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:50:27.398263Z",
+ "updated": "2026-10-31T20:00:29.931273Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3296,7 +3296,7 @@
      "STL": 0.0,
      "BLK": 1.3333333333333333,
      "3PM": 1.3333333333333333,
-     "FG%": 0.52459016,
+     "FG%": 0.51612903,
      "FT%": 0.75,
      "TO": 1.3333333333333333,
      "_src": "2027_last_15"
@@ -3748,7 +3748,7 @@
     "avg": {
      "PTS": 10.4,
      "REB": 3.0,
-     "AST": 3.4,
+     "AST": 3.6,
      "STL": 1.2,
      "BLK": 0.2,
      "3PM": 1.4,
@@ -3893,7 +3893,7 @@
     "team": "POR",
     "avg": {
      "PTS": 20.6,
-     "REB": 6.6,
+     "REB": 6.8,
      "AST": 5.6,
      "STL": 0.8,
      "BLK": 0.2,
@@ -5088,7 +5088,7 @@
     "name": "Draymond Green",
     "pos": "PF",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "GSW",
     "avg": {
      "PTS": 3.0,
@@ -5279,14 +5279,14 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 20.333333333333332,
+     "PTS": 20.666666666666668,
      "REB": 3.6666666666666665,
      "AST": 5.833333333333333,
      "STL": 0.5,
      "BLK": 0.0,
      "3PM": 2.3333333333333335,
      "FG%": 0.46511628,
-     "FT%": 0.77777778,
+     "FT%": 0.78947368,
      "TO": 3.6666666666666665,
      "_src": "2027_last_15"
     },
@@ -5462,7 +5462,7 @@
      "3PM": 3.4,
      "FG%": 0.58974359,
      "FT%": 1.0,
-     "TO": 0.6,
+     "TO": 0.8,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -7473,15 +7473,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.2,
+    "PTS": 7.8,
     "REB": 1.8,
     "AST": 1.2,
     "STL": 0.6,
     "BLK": 0.0,
-    "3PM": 0.4,
-    "FG%": 0.34210526,
+    "3PM": 0.6,
+    "FG%": 0.35897436,
     "FT%": 1.0,
-    "TO": 2.2,
+    "TO": 2.4,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -7539,7 +7539,7 @@
     "REB": 6.75,
     "AST": 0.75,
     "STL": 0.75,
-    "BLK": 0.75,
+    "BLK": 1.0,
     "3PM": 0.0,
     "FG%": 0.72222222,
     "FT%": 0.66666667,
@@ -8040,14 +8040,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.5,
+    "PTS": 6.666666666666667,
     "REB": 4.0,
     "AST": 5.0,
     "STL": 0.16666666666666666,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.34285714,
-    "FT%": 0.6,
+    "FG%": 0.33333333,
+    "FT%": 0.59259259,
     "TO": 2.1666666666666665,
     "_src": "2027_last_15"
    },
@@ -9106,7 +9106,7 @@
    "name": "Gui Santos",
    "pos": "SF",
    "team": "GSW",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.8,
@@ -10636,12 +10636,12 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 2.5,
-    "AST": 0.5,
+    "PTS": 2.6666666666666665,
+    "REB": 2.3333333333333335,
+    "AST": 0.3333333333333333,
     "STL": 0.0,
-    "BLK": 0.5,
-    "3PM": 1.0,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.6666666666666666,
     "FG%": 0.6,
     "FT%": 0.0,
     "TO": 1.0,
@@ -11328,6 +11328,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Draymond Green: Won't play Sunday",
+   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
+   "published": "Sat, 31 Oct 2026 12:52:00 PM PDT",
+   "summary": "Green (back) is out for Sunday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Stephen Curry: Ruled out for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
+   "published": "Sat, 31 Oct 2026 12:49:00 PM PDT",
+   "summary": "Curry (rest) won't play Sunday against the Clippers, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Stephon Castle: Dealing with migraine, iffy for Saturday",
    "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
    "published": "Sat, 31 Oct 2026 12:07:00 PM PDT",
@@ -11346,20 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/rudy-gobert-3440",
    "published": "Sat, 31 Oct 2026 11:04:00 AM PDT",
    "summary": "Gobert (back) is listed as questionable for Saturday's game at San Antonio.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Robert Williams: Available to play",
-   "link": "https://www.rotowire.com//basketball/player/robert-williams-4382",
-   "published": "Sat, 31 Oct 2026 11:03:00 AM PDT",
-   "summary": "Williams (knee) is available for Saturday's game in Utah.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scoot Henderson: Starting Saturday",
-   "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
-   "published": "Sat, 31 Oct 2026 10:45:00 AM PDT",
-   "summary": "Henderson will move into the starting lineup for Saturday's game in Utah, Trail Blazers' reporter Sean Highkin reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12338,6 +12338,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 3.1
  }
 }
