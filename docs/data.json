@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T02:50:21.140027Z",
+ "updated": "2026-10-31T03:00:31.293941Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1129,13 +1129,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 24.2,
+     "PTS": 24.8,
      "REB": 3.2,
      "AST": 3.0,
      "STL": 1.4,
-     "BLK": 0.0,
-     "3PM": 3.2,
-     "FG%": 0.47826087,
+     "BLK": 0.2,
+     "3PM": 3.4,
+     "FG%": 0.47887324,
      "FT%": 1.0,
      "TO": 1.8,
      "_src": "2027_last_15"
@@ -1629,13 +1629,13 @@
     "avg": {
      "PTS": 21.0,
      "REB": 3.0,
-     "AST": 5.0,
+     "AST": 5.166666666666667,
      "STL": 1.1666666666666667,
      "BLK": 0.5,
      "3PM": 2.1666666666666665,
-     "FG%": 0.55882353,
+     "FG%": 0.54285714,
      "FT%": 0.88095238,
-     "TO": 4.0,
+     "TO": 4.166666666666667,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2773,13 +2773,13 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 6.25,
-     "REB": 5.75,
+     "PTS": 6.75,
+     "REB": 6.0,
      "AST": 1.25,
      "STL": 0.5,
      "BLK": 1.0,
      "3PM": 0.25,
-     "FG%": 0.5625,
+     "FG%": 0.55555556,
      "FT%": 0.75,
      "TO": 1.75,
      "_src": "2027_last_15"
@@ -3356,7 +3356,7 @@
     "avg": {
      "PTS": 19.2,
      "REB": 8.8,
-     "AST": 7.4,
+     "AST": 8.0,
      "STL": 1.2,
      "BLK": 1.4,
      "3PM": 1.0,
@@ -3416,13 +3416,13 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 18.8,
-     "REB": 4.4,
+     "PTS": 19.4,
+     "REB": 4.6,
      "AST": 5.2,
      "STL": 1.0,
      "BLK": 0.8,
-     "3PM": 3.2,
-     "FG%": 0.46376812,
+     "3PM": 3.4,
+     "FG%": 0.46478873,
      "FT%": 0.73684211,
      "TO": 2.2,
      "_src": "2027_last_15"
@@ -4121,13 +4121,13 @@
     "avg": {
      "PTS": 11.0,
      "REB": 2.4,
-     "AST": 2.8,
-     "STL": 0.8,
+     "AST": 3.0,
+     "STL": 1.0,
      "BLK": 0.2,
      "3PM": 0.4,
      "FG%": 0.41860465,
      "FT%": 0.80952381,
-     "TO": 1.6,
+     "TO": 1.8,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4762,15 +4762,15 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 18.5,
+     "PTS": 19.75,
      "REB": 3.25,
      "AST": 4.75,
      "STL": 0.25,
      "BLK": 0.5,
-     "3PM": 0.75,
-     "FG%": 0.52941176,
+     "3PM": 1.0,
+     "FG%": 0.53703704,
      "FT%": 0.94444444,
-     "TO": 1.75,
+     "TO": 2.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4824,13 +4824,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
+     "PTS": 13.333333333333334,
+     "REB": 7.666666666666667,
      "AST": 0.8333333333333334,
      "STL": 1.0,
-     "BLK": 2.3333333333333335,
+     "BLK": 2.6666666666666665,
      "3PM": 0.0,
-     "FG%": 0.76086957,
+     "FG%": 0.75,
      "FT%": 0.44444444,
      "TO": 1.3333333333333333,
      "_src": "2027_last_15"
@@ -5071,13 +5071,13 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 14.75,
-     "REB": 2.75,
-     "AST": 2.5,
-     "STL": 0.75,
+     "PTS": 16.0,
+     "REB": 3.0,
+     "AST": 2.75,
+     "STL": 1.0,
      "BLK": 0.25,
-     "3PM": 2.0,
-     "FG%": 0.44444444,
+     "3PM": 2.25,
+     "FG%": 0.46808511,
      "FT%": 0.6875,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -5104,7 +5104,7 @@
     "avg": {
      "PTS": 2.6,
      "REB": 4.4,
-     "AST": 6.0,
+     "AST": 6.4,
      "STL": 0.4,
      "BLK": 0.8,
      "3PM": 0.4,
@@ -6361,13 +6361,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.25,
-    "REB": 1.75,
-    "AST": 3.75,
+    "PTS": 7.75,
+    "REB": 2.0,
+    "AST": 4.25,
     "STL": 2.0,
     "BLK": 0.25,
     "3PM": 2.0,
-    "FG%": 0.37037037,
+    "FG%": 0.37931034,
     "FT%": 0.25,
     "TO": 2.25,
     "_src": "2027_last_15"
@@ -6413,12 +6413,12 @@
    "pct": null,
    "avg": {
     "PTS": 9.6,
-    "REB": 1.6,
+    "REB": 2.0,
     "AST": 1.8,
-    "STL": 0.6,
+    "STL": 0.8,
     "BLK": 0.2,
     "3PM": 1.2,
-    "FG%": 0.4047619,
+    "FG%": 0.38636364,
     "FT%": 0.66666667,
     "TO": 1.4,
     "_src": "2027_last_15"
@@ -6567,15 +6567,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.4,
+    "PTS": 13.0,
     "REB": 3.6,
-    "AST": 1.8,
-    "STL": 1.8,
+    "AST": 2.0,
+    "STL": 2.0,
     "BLK": 0.2,
-    "3PM": 1.6,
-    "FG%": 0.48979592,
+    "3PM": 2.0,
+    "FG%": 0.51923077,
     "FT%": 0.5,
-    "TO": 1.6,
+    "TO": 1.8,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -7493,12 +7493,12 @@
    "pct": null,
    "avg": {
     "PTS": 6.5,
-    "REB": 3.5,
+    "REB": 4.0,
     "AST": 1.5,
     "STL": 0.5,
     "BLK": 0.0,
     "3PM": 1.5,
-    "FG%": 0.45454545,
+    "FG%": 0.41666667,
     "FT%": 0.0,
     "TO": 0.0,
     "_src": "2027_last_15"
@@ -7562,7 +7562,7 @@
     "3PM": 0.8,
     "FG%": 0.64285714,
     "FT%": 0.0,
-    "TO": 0.6,
+    "TO": 0.8,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -7949,13 +7949,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.2,
+    "PTS": 8.6,
     "REB": 6.0,
     "AST": 0.0,
     "STL": 0.4,
     "BLK": 0.6,
     "3PM": 1.2,
-    "FG%": 0.51724138,
+    "FG%": 0.53333333,
     "FT%": 0.71428571,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -8462,15 +8462,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.5,
-    "REB": 3.1666666666666665,
+    "PTS": 9.333333333333334,
+    "REB": 3.3333333333333335,
     "AST": 1.8333333333333333,
     "STL": 1.0,
     "BLK": 0.3333333333333333,
-    "3PM": 1.6666666666666667,
-    "FG%": 0.44736842,
+    "3PM": 1.8333333333333333,
+    "FG%": 0.47368421,
     "FT%": 1.0,
-    "TO": 1.0,
+    "TO": 1.1666666666666667,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10496,7 +10496,7 @@
    "pct": null,
    "avg": {
     "PTS": 8.166666666666666,
-    "REB": 2.1666666666666665,
+    "REB": 2.3333333333333335,
     "AST": 2.8333333333333335,
     "STL": 1.1666666666666667,
     "BLK": 0.16666666666666666,
@@ -11389,6 +11389,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Giannis Antetokounmpo: Massive triple-double in blowout win",
+   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
+   "published": "Fri, 30 Oct 2026 7:55:00 PM PDT",
+   "summary": "Antetokounmpo racked up 31 points (13-18 FG, 1-2 3Pt, 4-6 FT), 17 rebounds, 10 assists and one block across 31 minutes in Friday's 145-125 win over the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Cooper Flagg: Logs another full stat line Friday",
+   "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
+   "published": "Fri, 30 Oct 2026 7:48:00 PM PDT",
+   "summary": "Flagg finished Friday's 116-111 win over the Rockets with 33 points (13-19 FG, 0-4 3Pt, 7-10 FT), nine rebounds, six assists, two steals and one block across 39 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Karl-Anthony Towns: Extends double-double streak Friday",
    "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
    "published": "Fri, 30 Oct 2026 7:31:00 PM PDT",
@@ -11407,20 +11421,6 @@
    "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
    "published": "Fri, 30 Oct 2026 7:23:00 PM PDT",
    "summary": "Wilson finished Friday's 125-111 loss to the Celtics with 23 points (7-16 FG, 6-11 3Pt, 3-6 FT), five rebounds, four assists, two blocks and one steal across 31 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Erupts for career-high 41 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Fri, 30 Oct 2026 7:17:00 PM PDT",
-   "summary": "Barnes provided 41 points (19-34 FG, 1-2 3Pt, 2-3 FT), five rebounds, five assists and two steals across 39 minutes in Friday's 121-114 loss to the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Brandon Miller: Scores team-high 19 points",
-   "link": "https://www.rotowire.com//basketball/player/brandon-miller-5896",
-   "published": "Fri, 30 Oct 2026 7:13:00 PM PDT",
-   "summary": "Miller notched 19 points (7-24 FG, 3-13 3Pt, 2-2 FT), seven rebounds, two assists, a steal and a block across 37 minutes in Friday's 95-79 loss to the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12343,6 +12343,6 @@
   "picked_total": 7139.0,
   "direct_total": 7139.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 2.0
  }
 }
