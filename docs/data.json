@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:40:25.623163Z",
+ "updated": "2026-10-31T17:50:23.724179Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1187,7 +1187,7 @@
    {
     "name": "LeBron James",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "IR",
     "injury": "OUT",
     "team": "PHL",
     "avg": {
@@ -1373,7 +1373,7 @@
    {
     "name": "Yaxel Lendeborg",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -1435,7 +1435,7 @@
    {
     "name": "Andrew Nembhard",
     "pos": "PG",
-    "slot": "IR",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -11328,6 +11328,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scoot Henderson: Starting Saturday",
+   "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
+   "published": "Sat, 31 Oct 2026 10:45:00 AM PDT",
+   "summary": "Henderson will move into the starting lineup for Saturday's game in Utah, Trail Blazers' reporter Sean Highkin reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Reed Sheppard: Won't play Saturday",
    "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
    "published": "Sat, 31 Oct 2026 10:33:00 AM PDT",
@@ -11353,13 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/jabari-walker-5675",
    "published": "Sat, 31 Oct 2026 10:26:00 AM PDT",
    "summary": "Walker (knee) is questionable for Saturday's game in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "LeBron James: Won't play Saturday",
-   "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
-   "published": "Sat, 31 Oct 2026 10:17:00 AM PDT",
-   "summary": "James (back) has been ruled out for Saturday's meeting in Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12341,6 +12341,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 3.7
  }
 }
