@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:00:29.358766Z",
+ "updated": "2026-10-31T19:10:21.102750Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5307,7 +5307,7 @@
     "name": "Stephon Castle",
     "pos": "PG",
     "slot": "PG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
      "PTS": 17.4,
@@ -11328,6 +11328,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Stephon Castle: Dealing with migraine, iffy for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
+   "published": "Sat, 31 Oct 2026 12:07:00 PM PDT",
+   "summary": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Stephon Castle: Questionable for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
+   "published": "Sat, 31 Oct 2026 12:06:00 PM PDT",
+   "summary": "Castle is questionable for Saturday's game against the Timberwolves due to a migraine.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Lauri Markkanen: Will play Saturday",
    "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
    "published": "Sat, 31 Oct 2026 11:10:00 AM PDT",
@@ -11346,20 +11360,6 @@
    "link": "https://www.rotowire.com//basketball/player/robert-williams-4382",
    "published": "Sat, 31 Oct 2026 11:03:00 AM PDT",
    "summary": "Williams (knee) is available for Saturday's game in Utah.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scoot Henderson: Starting Saturday",
-   "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
-   "published": "Sat, 31 Oct 2026 10:45:00 AM PDT",
-   "summary": "Henderson will move into the starting lineup for Saturday's game in Utah, Trail Blazers' reporter Sean Highkin reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Reed Sheppard: Won't play Saturday",
-   "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
-   "published": "Sat, 31 Oct 2026 10:33:00 AM PDT",
-   "summary": "Sheppard (back) is out for Saturday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12341,6 +12341,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.7
  }
 }
