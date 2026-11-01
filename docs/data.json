@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:30:26.699413Z",
+ "updated": "2026-11-01T09:40:24.106305Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3110,7 +3110,7 @@
    {
     "name": "CJ McCollum",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3259,6 +3259,68 @@
      "FG%": 0.455,
      "FT%": 0.757,
      "TO": 1.5,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Jalen Suggs",
+    "pos": "PG",
+    "slot": "IR",
+    "injury": "OUT",
+    "team": "ORL",
+    "avg": {
+     "PTS": 8.0,
+     "REB": 5.0,
+     "AST": 5.666666666666667,
+     "STL": 2.0,
+     "BLK": 0.3333333333333333,
+     "3PM": 0.3333333333333333,
+     "FG%": 0.35714286,
+     "FT%": 0.75,
+     "TO": 3.0,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 13.209677419354838,
+     "REB": 3.403225806451613,
+     "AST": 4.0,
+     "STL": 1.5,
+     "BLK": 0.6935483870967742,
+     "3PM": 2.0,
+     "FG%": 0.439,
+     "FT%": 0.831,
+     "TO": 2.306451612903226,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Jake LaRavia",
+    "pos": "PF",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "LAL",
+    "avg": {
+     "PTS": 5.4,
+     "REB": 3.8,
+     "AST": 0.8,
+     "STL": 2.0,
+     "BLK": 0.8,
+     "3PM": 1.0,
+     "FG%": 0.52631579,
+     "FT%": 0.5,
+     "TO": 1.2,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 9.64935064935065,
+     "REB": 4.701298701298701,
+     "AST": 2.1948051948051948,
+     "STL": 1.4025974025974026,
+     "BLK": 0.5064935064935064,
+     "3PM": 1.12987012987013,
+     "FG%": 0.458,
+     "FT%": 0.755,
+     "TO": 1.2987012987012987,
      "_src": "2027_projected"
     }
    }
@@ -5472,6 +5534,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-01T09:34:11.988000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Jake LaRavia"
+  },
+  {
+   "date": "2026-11-01T09:32:19.433000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Jalen Suggs"
+  },
+  {
    "date": "2026-11-01T09:15:38.149000",
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
@@ -5704,18 +5778,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Kel'el Ware"
-  },
-  {
-   "date": "2026-10-29T01:44:23.734000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Peyton Watson"
-  },
-  {
-   "date": "2026-10-29T01:44:23.734000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Julian Champagnie"
   }
  ],
  "schedule": {
@@ -6536,37 +6598,6 @@
     "FG%": 0.43,
     "FT%": 0.788,
     "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Jalen Suggs",
-   "pos": "PG",
-   "team": "ORL",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 8.0,
-    "REB": 5.0,
-    "AST": 5.666666666666667,
-    "STL": 2.0,
-    "BLK": 0.3333333333333333,
-    "3PM": 0.3333333333333333,
-    "FG%": 0.35714286,
-    "FT%": 0.75,
-    "TO": 3.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.209677419354838,
-    "REB": 3.403225806451613,
-    "AST": 4.0,
-    "STL": 1.5,
-    "BLK": 0.6935483870967742,
-    "3PM": 2.0,
-    "FG%": 0.439,
-    "FT%": 0.831,
-    "TO": 2.306451612903226,
     "_src": "2027_projected"
    }
   },
@@ -7523,37 +7554,6 @@
     "FG%": 0.471,
     "FT%": 0.849,
     "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Jake LaRavia",
-   "pos": "PF",
-   "team": "LAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.4,
-    "REB": 3.8,
-    "AST": 0.8,
-    "STL": 2.0,
-    "BLK": 0.8,
-    "3PM": 1.0,
-    "FG%": 0.52631579,
-    "FT%": 0.5,
-    "TO": 1.2,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 9.64935064935065,
-    "REB": 4.701298701298701,
-    "AST": 2.1948051948051948,
-    "STL": 1.4025974025974026,
-    "BLK": 0.5064935064935064,
-    "3PM": 1.12987012987013,
-    "FG%": 0.458,
-    "FT%": 0.755,
-    "TO": 1.2987012987012987,
     "_src": "2027_projected"
    }
   },
@@ -11272,6 +11272,46 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Isaiah Evans",
+   "pos": "SG",
+   "team": "MIN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.0,
+    "REB": 0.25,
+    "AST": 0.5,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.25,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Dailyn Swain",
+   "pos": "SF",
+   "team": "CHI",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 2.0,
+    "REB": 2.0,
+    "AST": 2.0,
+    "STL": 2.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.33333333,
+    "FT%": 0.0,
+    "TO": 4.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   }
  ],
  "news": [
@@ -11643,6 +11683,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-01T09:34:11.988000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Jake LaRavia"
+  },
+  {
+   "date": "2026-11-01T09:32:19.433000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Jalen Suggs"
+  },
   {
    "date": "2026-11-01T09:15:38.149000",
    "team": "AllThisToBeatLeGoat",
@@ -12341,6 +12393,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 2.5
  }
 }
