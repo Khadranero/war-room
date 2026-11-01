@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:00:30.568250Z",
+ "updated": "2026-11-01T09:10:21.721401Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -4727,7 +4727,7 @@
    {
     "name": "Evan Mobley",
     "pos": "PF",
-    "slot": "F",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -4819,7 +4819,7 @@
    {
     "name": "Zion Williamson",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -5034,37 +5034,6 @@
     }
    },
    {
-    "name": "Draymond Green",
-    "pos": "PF",
-    "slot": "PF",
-    "injury": "OUT",
-    "team": "GSW",
-    "avg": {
-     "PTS": 3.0,
-     "REB": 5.2,
-     "AST": 7.2,
-     "STL": 0.8,
-     "BLK": 1.0,
-     "3PM": 0.4,
-     "FG%": 0.375,
-     "FT%": 0.5,
-     "TO": 3.6,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 8.6875,
-     "REB": 6.09375,
-     "AST": 5.703125,
-     "STL": 1.09375,
-     "BLK": 0.796875,
-     "3PM": 1.25,
-     "FG%": 0.439,
-     "FT%": 0.702,
-     "TO": 2.59375,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Jeremiah Fears",
     "pos": "SG",
     "slot": "BE",
@@ -5092,6 +5061,37 @@
      "FG%": 0.445,
      "FT%": 0.811,
      "TO": 2.1948051948051948,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Kel'el Ware",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "MIL",
+    "avg": {
+     "PTS": 13.0,
+     "REB": 8.666666666666666,
+     "AST": 0.8333333333333334,
+     "STL": 0.6666666666666666,
+     "BLK": 0.6666666666666666,
+     "3PM": 1.0,
+     "FG%": 0.46774194,
+     "FT%": 0.73684211,
+     "TO": 1.8333333333333333,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 12.972222222222221,
+     "REB": 10.597222222222221,
+     "AST": 0.9027777777777778,
+     "STL": 0.9027777777777778,
+     "BLK": 1.3055555555555556,
+     "3PM": 1.3194444444444444,
+     "FG%": 0.533,
+     "FT%": 0.734,
+     "TO": 1.0,
      "_src": "2027_projected"
     }
    }
@@ -5492,6 +5492,18 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-01T09:09:33.008000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Kel'el Ware"
+  },
+  {
+   "date": "2026-11-01T09:09:33.008000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Draymond Green"
+  },
   {
    "date": "2026-11-01T06:40:23.205000",
    "team": "Crackheads",
@@ -5924,37 +5936,6 @@
     "FG%": 0.484,
     "FT%": 0.86,
     "TO": 1.1948051948051948,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Kel'el Ware",
-   "pos": "C",
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.0,
-    "REB": 8.666666666666666,
-    "AST": 0.8333333333333334,
-    "STL": 0.6666666666666666,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.46774194,
-    "FT%": 0.73684211,
-    "TO": 1.8333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.972222222222221,
-    "REB": 10.597222222222221,
-    "AST": 0.9027777777777778,
-    "STL": 0.9027777777777778,
-    "BLK": 1.3055555555555556,
-    "3PM": 1.3194444444444444,
-    "FG%": 0.533,
-    "FT%": 0.734,
-    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -6428,6 +6409,37 @@
     "FG%": 0.532,
     "FT%": 0.789,
     "TO": 0.8,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Draymond Green",
+   "pos": "PF",
+   "team": "GSW",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 3.0,
+    "REB": 5.2,
+    "AST": 7.2,
+    "STL": 0.8,
+    "BLK": 1.0,
+    "3PM": 0.4,
+    "FG%": 0.375,
+    "FT%": 0.5,
+    "TO": 3.6,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.6875,
+    "REB": 6.09375,
+    "AST": 5.703125,
+    "STL": 1.09375,
+    "BLK": 0.796875,
+    "3PM": 1.25,
+    "FG%": 0.439,
+    "FT%": 0.702,
+    "TO": 2.59375,
     "_src": "2027_projected"
    }
   },
@@ -11628,6 +11640,18 @@
  },
  "log": [
   {
+   "date": "2026-11-01T09:09:33.008000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Kel'el Ware"
+  },
+  {
+   "date": "2026-11-01T09:09:33.008000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Draymond Green"
+  },
+  {
    "date": "2026-11-01T06:40:23.205000",
    "team": "Crackheads",
    "action": "DROPPED",
@@ -12283,6 +12307,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 1.9
+  "run_seconds": 2.1
  }
 }
