@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T06:40:20.665249Z",
+ "updated": "2026-11-01T06:49:19.391822Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5575,6 +5575,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-01T06:40:23.205000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaxson Hayes"
+  },
+  {
    "date": "2026-11-01T01:41:04.973000",
    "team": "Murray Had a Little Lamb",
    "action": "DROPPED",
@@ -5777,18 +5783,6 @@
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
    "player": "Jeremiah Fears"
-  },
-  {
-   "date": "2026-10-28T06:48:55.748000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Daniss Jenkins"
-  },
-  {
-   "date": "2026-10-28T06:48:55.748000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "Kyle Kuzma"
   }
  ],
  "schedule": {
@@ -6640,6 +6634,37 @@
     "FG%": 0.431,
     "FT%": 0.803,
     "TO": 1.1014492753623188,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jaxson Hayes",
+   "pos": "C",
+   "team": "UTA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.0,
+    "REB": 6.6,
+    "AST": 2.4,
+    "STL": 1.2,
+    "BLK": 2.0,
+    "3PM": 0.0,
+    "FG%": 0.6,
+    "FT%": 0.66666667,
+    "TO": 1.2,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 6.34375,
+    "REB": 3.90625,
+    "AST": 0.796875,
+    "STL": 0.5,
+    "BLK": 0.703125,
+    "3PM": 0.03125,
+    "FG%": 0.737,
+    "FT%": 0.639,
+    "TO": 0.59375,
     "_src": "2027_projected"
    }
   },
@@ -11313,26 +11338,6 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Isaiah Evans",
-   "pos": "SG",
-   "team": "MIN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 0.0,
-    "REB": 0.25,
-    "AST": 0.5,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 0.0,
-    "TO": 0.25,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   }
  ],
  "news": [
@@ -11704,6 +11709,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-01T06:40:23.205000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Jaxson Hayes"
+  },
   {
    "date": "2026-11-01T01:41:04.973000",
    "team": "Murray Had a Little Lamb",
@@ -12354,6 +12365,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 1.9
+  "run_seconds": 3.6
  }
 }
