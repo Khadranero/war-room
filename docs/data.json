@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:00:29.707780Z",
+ "updated": "2026-11-01T21:10:23.125224Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1696,7 +1696,7 @@
      "3PM": 3.0,
      "FG%": 0.34666667,
      "FT%": 0.84615385,
-     "TO": 2.3333333333333335,
+     "TO": 2.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -1987,15 +1987,15 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 24.0,
+     "PTS": 24.333333333333332,
      "REB": 5.333333333333333,
      "AST": 7.0,
      "STL": 0.6666666666666666,
      "BLK": 0.3333333333333333,
      "3PM": 1.5,
-     "FG%": 0.44144144,
-     "FT%": 0.84090909,
-     "TO": 1.8333333333333333,
+     "FG%": 0.4375,
+     "FT%": 0.82978723,
+     "TO": 2.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3700,9 +3700,9 @@
      "STL": 0.75,
      "BLK": 0.5,
      "3PM": 2.0,
-     "FG%": 0.53571429,
+     "FG%": 0.5,
      "FT%": 0.6,
-     "TO": 1.25,
+     "TO": 1.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4192,8 +4192,8 @@
     "team": "ORL",
     "avg": {
      "PTS": 11.833333333333334,
-     "REB": 1.6666666666666667,
-     "AST": 1.1666666666666667,
+     "REB": 2.1666666666666665,
+     "AST": 1.3333333333333333,
      "STL": 0.3333333333333333,
      "BLK": 0.5,
      "3PM": 2.8333333333333335,
@@ -4927,12 +4927,12 @@
     "team": "BOS",
     "avg": {
      "PTS": 14.166666666666666,
-     "REB": 1.8333333333333333,
+     "REB": 2.0,
      "AST": 3.0,
      "STL": 0.6666666666666666,
      "BLK": 0.16666666666666666,
      "3PM": 2.1666666666666665,
-     "FG%": 0.49090909,
+     "FG%": 0.46551724,
      "FT%": 0.9,
      "TO": 1.5,
      "_src": "2027_last_15"
@@ -5533,6 +5533,18 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-01T21:01:31.958000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Christian Braun"
+  },
+  {
+   "date": "2026-11-01T21:01:31.958000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Neemias Queta"
+  },
   {
    "date": "2026-11-01T13:28:38.122000",
    "team": "Real Men Eat Ass(ouad)",
@@ -6490,37 +6502,6 @@
    }
   },
   {
-   "name": "Christian Braun",
-   "pos": "SG",
-   "team": "DEN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 15.4,
-    "REB": 4.2,
-    "AST": 2.0,
-    "STL": 2.4,
-    "BLK": 0.2,
-    "3PM": 2.4,
-    "FG%": 0.52542373,
-    "FT%": 0.75,
-    "TO": 1.8,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.938461538461539,
-    "REB": 4.2,
-    "AST": 2.3076923076923075,
-    "STL": 0.7076923076923077,
-    "BLK": 0.3076923076923077,
-    "3PM": 0.8769230769230769,
-    "FG%": 0.532,
-    "FT%": 0.789,
-    "TO": 0.8,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Collin Sexton",
    "pos": "SG",
    "team": "LAL",
@@ -6579,6 +6560,37 @@
     "FG%": 0.439,
     "FT%": 0.702,
     "TO": 2.59375,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Neemias Queta",
+   "pos": "C",
+   "team": "BOS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.5,
+    "REB": 4.666666666666667,
+    "AST": 1.0,
+    "STL": 0.3333333333333333,
+    "BLK": 1.3333333333333333,
+    "3PM": 0.16666666666666666,
+    "FG%": 0.51851852,
+    "FT%": 0.64,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.472222222222221,
+    "REB": 7.694444444444445,
+    "AST": 1.5,
+    "STL": 0.6944444444444444,
+    "BLK": 1.1944444444444444,
+    "3PM": 0.013888888888888888,
+    "FG%": 0.653,
+    "FT%": 0.706,
+    "TO": 0.9027777777777778,
     "_src": "2027_projected"
    }
   },
@@ -8070,7 +8082,7 @@
    "name": "Ziaire Williams",
    "pos": "SF",
    "team": "LAL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 11.25,
@@ -9650,12 +9662,12 @@
    "pct": null,
    "avg": {
     "PTS": 4.333333333333333,
-    "REB": 3.3333333333333335,
+    "REB": 3.5,
     "AST": 0.8333333333333334,
     "STL": 1.0,
     "BLK": 0.16666666666666666,
     "3PM": 0.6666666666666666,
-    "FG%": 0.43478261,
+    "FG%": 0.4,
     "FT%": 1.0,
     "TO": 0.6666666666666666,
     "_src": "2027_last_15"
@@ -11340,6 +11352,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Nic Claxton: Doubtful against Philadelphia",
+   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
+   "published": "Sun, 01 Nov 2026 1:08:00 PM PST",
+   "summary": "Claxton (hamstring) is listed as doubtful for Monday's game against Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dejounte Murray: Not listed on injury report",
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Sun, 01 Nov 2026 12:47:00 PM PST",
@@ -11365,13 +11384,6 @@
    "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
    "published": "Sun, 01 Nov 2026 10:42:00 AM PST",
    "summary": "The Wizards exercised the fourth-year team option on Sarr on Tuesday, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nic Claxton: Log full practice Sunday",
-   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
-   "published": "Sun, 01 Nov 2026 9:15:00 AM PST",
-   "summary": "Claxton (hamstring) was a full participant in Sunday's practice, K.C. Johnson of Chicago Sports Network.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -11704,6 +11716,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-01T21:01:31.958000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Christian Braun"
+  },
+  {
+   "date": "2026-11-01T21:01:31.958000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Neemias Queta"
+  },
   {
    "date": "2026-11-01T13:28:38.122000",
    "team": "Real Men Eat Ass(ouad)",
@@ -12438,6 +12462,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.6
  }
 }
