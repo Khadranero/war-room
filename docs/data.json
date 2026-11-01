@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T02:40:28.013605Z",
+ "updated": "2026-11-01T02:50:24.225395Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -3781,7 +3781,7 @@
      "REB": 5.0,
      "AST": 1.3333333333333333,
      "STL": 0.16666666666666666,
-     "BLK": 1.5,
+     "BLK": 1.8333333333333333,
      "3PM": 0.0,
      "FG%": 0.51851852,
      "FT%": 0.77777778,
@@ -3863,7 +3863,7 @@
     "avg": {
      "PTS": 22.8,
      "REB": 9.0,
-     "AST": 7.6,
+     "AST": 7.4,
      "STL": 1.4,
      "BLK": 0.6,
      "3PM": 1.2,
@@ -5311,7 +5311,7 @@
     "team": "SAS",
     "avg": {
      "PTS": 14.5,
-     "REB": 5.833333333333333,
+     "REB": 5.666666666666667,
      "AST": 5.166666666666667,
      "STL": 1.3333333333333333,
      "BLK": 0.16666666666666666,
@@ -6837,7 +6837,7 @@
     "REB": 5.0,
     "AST": 1.3333333333333333,
     "STL": 0.16666666666666666,
-    "BLK": 1.5,
+    "BLK": 1.8333333333333333,
     "3PM": 0.0,
     "FG%": 0.51851852,
     "FT%": 0.77777778,
@@ -9162,7 +9162,7 @@
    "avg": {
     "PTS": 11.75,
     "REB": 3.0,
-    "AST": 2.25,
+    "AST": 2.5,
     "STL": 1.5,
     "BLK": 0.0,
     "3PM": 2.25,
@@ -10231,12 +10231,12 @@
    "pct": null,
    "avg": {
     "PTS": 7.142857142857143,
-    "REB": 1.2857142857142858,
+    "REB": 1.4285714285714286,
     "AST": 1.2857142857142858,
     "STL": 0.42857142857142855,
     "BLK": 0.0,
     "3PM": 1.4285714285714286,
-    "FG%": 0.5483871,
+    "FG%": 0.51515152,
     "FT%": 1.0,
     "TO": 0.8571428571428571,
     "_src": "2027_last_15"
@@ -10679,12 +10679,12 @@
    "pct": null,
    "avg": {
     "PTS": 4.666666666666667,
-    "REB": 0.3333333333333333,
-    "AST": 0.8333333333333334,
+    "REB": 0.5,
+    "AST": 1.1666666666666667,
     "STL": 0.16666666666666666,
     "BLK": 0.0,
     "3PM": 0.8333333333333334,
-    "FG%": 0.40909091,
+    "FG%": 0.39130435,
     "FT%": 0.83333333,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -11338,6 +11338,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Darius Acuff: Drops 38 points in Saturday's loss",
+   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
+   "published": "Sat, 31 Oct 2026 7:42:00 PM PDT",
+   "summary": "Acuff finished Saturday's 136-105 loss to the Grizzlies with 38 points (12-25 FG, 9-14 3Pt, 5-5 FT), five assists and five rebounds over 37 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Victor Wembanyama: Sensational in Saturday's victory",
    "link": "https://www.rotowire.com//basketball/player/victor-wembanyama-5809",
    "published": "Sat, 31 Oct 2026 7:33:00 PM PDT",
@@ -11363,13 +11370,6 @@
    "link": "https://www.rotowire.com//basketball/player/jeremiah-fears-6546",
    "published": "Sat, 31 Oct 2026 7:05:00 PM PDT",
    "summary": "Fears posted 20 points (9-12 FG, 1-2 3Pt, 1-2 FT), seven assists, five rebounds and one steal over 31 minutes during the Pelicans' 121-99 win over the Hawks on Saturday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyrese Maxey: Shines in win over Charlotte",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-maxey-5158",
-   "published": "Sat, 31 Oct 2026 6:54:00 PM PDT",
-   "summary": "Maxey finished with 38 points (13-23 FG, 4-9 3Pt, 8-9 FT), four rebounds, four assists and two steals across 38 minutes in Saturday's 109-104 win over Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12355,6 +12355,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 2.0
+  "run_seconds": 3.7
  }
 }
