@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T20:10:22.203676Z",
+ "updated": "2026-11-01T20:20:21.480963Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2595,7 +2595,7 @@
     "name": "Trey Murphy III",
     "pos": "SF",
     "slot": "G",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
      "PTS": 14.333333333333334,
@@ -3609,7 +3609,7 @@
     "name": "Brandon Ingram",
     "pos": "SF",
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "LAC",
     "avg": {},
     "proj": {
@@ -10805,7 +10805,7 @@
    "name": "Yanic Konan Niederhauser",
    "pos": "C",
    "team": "LAC",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {},
    "proj": {}
@@ -12451,6 +12451,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 1.8
+  "run_seconds": 2.1
  }
 }
