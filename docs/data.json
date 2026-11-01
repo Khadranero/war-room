@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T04:50:22.312689Z",
+ "updated": "2026-11-01T05:00:28.908132Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1188,7 +1188,7 @@
     "name": "LeBron James",
     "pos": "SF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 16.4,
@@ -1655,7 +1655,7 @@
     "name": "Rudy Gobert",
     "pos": "C",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "MIN",
     "avg": {
      "PTS": 7.0,
@@ -2128,7 +2128,7 @@
     "name": "Dejounte Murray",
     "pos": "SG",
     "slot": "SG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
      "PTS": 17.75,
@@ -4448,7 +4448,7 @@
     "name": "Joel Embiid",
     "pos": "C",
     "slot": "C",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 19.2,
@@ -4541,7 +4541,7 @@
     "name": "Fred VanVleet",
     "pos": "PG",
     "slot": "G",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "HOU",
     "avg": {
      "PTS": 13.0,
@@ -5369,7 +5369,7 @@
     "name": "Ty Jerome",
     "pos": "SG",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "MEM",
     "avg": {
      "PTS": 25.8,
@@ -6081,7 +6081,7 @@
    "name": "Reed Sheppard",
    "pos": "SG",
    "team": "HOU",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 10.5,
@@ -6974,7 +6974,7 @@
    "name": "Scotty Pippen Jr.",
    "pos": "PG",
    "team": "MEM",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.4,
@@ -7036,7 +7036,7 @@
    "name": "Jordan Poole",
    "pos": "SG",
    "team": "NOP",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -8356,7 +8356,7 @@
    "name": "Jaylon Tyson",
    "pos": "SG",
    "team": "CLE",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.8,
@@ -9576,7 +9576,7 @@
    "name": "Jock Landale",
    "pos": "C",
    "team": "ATL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.285714285714286,
@@ -11338,6 +11338,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Shai Gilgeous-Alexander: Scores 26 points in loss",
+   "link": "https://www.rotowire.com//basketball/player/shai-gilgeous-alexander-4387",
+   "published": "Sat, 31 Oct 2026 9:50:00 PM PDT",
+   "summary": "Gilgeous-Alexander ended with 26 points (10-20 FG, 3-6 3Pt, 3-4 FT), four rebounds, three assists and one steal over 31 minutes in Saturday's 119-98 loss to Houston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cameron Boozer: Leads Memphis to another win",
    "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
    "published": "Sat, 31 Oct 2026 9:25:00 PM PDT",
@@ -11363,13 +11370,6 @@
    "link": "https://www.rotowire.com//basketball/player/brandon-miller-5896",
    "published": "Sat, 31 Oct 2026 8:50:00 PM PDT",
    "summary": "Miller ended with 24 points (8-20 FG, 5-12 3Pt, 3-4 FT), five rebounds, five assists, two steals and one block over 33 minutes in Saturday's 109-104 loss to Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Darius Acuff: Drops 38 points in Saturday's loss",
-   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
-   "published": "Sat, 31 Oct 2026 7:42:00 PM PDT",
-   "summary": "Acuff finished Saturday's 136-105 loss to the Grizzlies with 38 points (12-25 FG, 9-14 3Pt, 5-5 FT), five assists and five rebounds over 37 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12354,6 +12354,6 @@
   "picked_total": 9563.0,
   "direct_total": 9563.0,
   "direct_teams": 10,
-  "run_seconds": 1.9
+  "run_seconds": 2.4
  }
 }
