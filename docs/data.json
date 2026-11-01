@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T15:50:23.650658Z",
+ "updated": "2026-11-01T16:00:29.862576Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -10805,7 +10805,7 @@
    "name": "Yanic Konan Niederhauser",
    "pos": "C",
    "team": "LAC",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {},
    "proj": {}
@@ -11340,6 +11340,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Domantas Sabonis: Fills box score in Saturday's loss",
+   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
+   "published": "Sun, 01 Nov 2026 7:56:00 AM PST",
+   "summary": "Sabonis racked up 11 points (3-5 FG, 0-1 3Pt, 5-6 FT), 14 rebounds, eight assists and one steal in 38 minutes during Saturday's 136-105 loss to the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dyson Daniels: Active defensively in loss",
    "link": "https://www.rotowire.com//basketball/player/dyson-daniels-5385",
    "published": "Sun, 01 Nov 2026 7:31:00 AM PST",
@@ -11365,13 +11372,6 @@
    "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
    "published": "Sat, 31 Oct 2026 9:25:00 PM PDT",
    "summary": "Boozer finished with 27 points (8-14 FG, 3-7 3Pt, 8-8 FT), nine rebounds, three assists and one block over 26 minutes in Saturday's 136-105 win over Sacramento.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jarrett Allen: Logs another double-double",
-   "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
-   "published": "Sat, 31 Oct 2026 9:14:00 PM PDT",
-   "summary": "Allen finished with 25 points (12-16 FG, 0-1 3Pt, 1-4 FT), 11 rebounds, four assists and one steal across 24 minutes in Saturday's 136-111 win over the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12440,6 +12440,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.8
  }
 }
