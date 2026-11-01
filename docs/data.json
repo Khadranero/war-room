@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:50:23.670139Z",
+ "updated": "2026-11-01T10:00:35.354529Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1948,33 +1948,33 @@
     }
    },
    {
-    "name": "Tari Eason",
-    "pos": "SF",
-    "slot": "BE",
+    "name": "Neemias Queta",
+    "pos": "C",
+    "slot": "C",
     "injury": "ACTIVE",
-    "team": "HOU",
+    "team": "BOS",
     "avg": {
-     "PTS": 10.0,
-     "REB": 6.142857142857143,
-     "AST": 1.0,
-     "STL": 1.1428571428571428,
-     "BLK": 1.2857142857142858,
-     "3PM": 0.5714285714285714,
-     "FG%": 0.44827586,
-     "FT%": 0.93333333,
-     "TO": 1.1428571428571428,
+     "PTS": 9.0,
+     "REB": 4.8,
+     "AST": 1.2,
+     "STL": 0.4,
+     "BLK": 1.6,
+     "3PM": 0.2,
+     "FG%": 0.58333333,
+     "FT%": 0.64,
+     "TO": 1.2,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 10.378787878787879,
-     "REB": 6.106060606060606,
-     "AST": 1.393939393939394,
-     "STL": 1.196969696969697,
-     "BLK": 0.5,
-     "3PM": 1.4242424242424243,
-     "FG%": 0.427,
-     "FT%": 0.769,
-     "TO": 1.303030303030303,
+     "PTS": 9.472222222222221,
+     "REB": 7.694444444444445,
+     "AST": 1.5,
+     "STL": 0.6944444444444444,
+     "BLK": 1.1944444444444444,
+     "3PM": 0.013888888888888888,
+     "FG%": 0.653,
+     "FT%": 0.706,
+     "TO": 0.9027777777777778,
      "_src": "2027_projected"
     }
    }
@@ -5534,6 +5534,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-01T09:58:22.323000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Neemias Queta"
+  },
+  {
+   "date": "2026-11-01T09:58:22.323000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Tari Eason"
+  },
+  {
    "date": "2026-11-01T09:34:11.988000",
    "team": "Akumpo",
    "action": "FA ADDED",
@@ -5766,18 +5778,6 @@
    "team": "Pasta Warriors",
    "action": "FA ADDED",
    "player": "De'Andre Hunter"
-  },
-  {
-   "date": "2026-10-29T03:23:58.865000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Jaylen Wells"
-  },
-  {
-   "date": "2026-10-29T03:23:58.865000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Kel'el Ware"
   }
  ],
  "schedule": {
@@ -6540,37 +6540,6 @@
    }
   },
   {
-   "name": "Neemias Queta",
-   "pos": "C",
-   "team": "BOS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.0,
-    "REB": 4.8,
-    "AST": 1.2,
-    "STL": 0.4,
-    "BLK": 1.6,
-    "3PM": 0.2,
-    "FG%": 0.58333333,
-    "FT%": 0.64,
-    "TO": 1.2,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 9.472222222222221,
-    "REB": 7.694444444444445,
-    "AST": 1.5,
-    "STL": 0.6944444444444444,
-    "BLK": 1.1944444444444444,
-    "3PM": 0.013888888888888888,
-    "FG%": 0.653,
-    "FT%": 0.706,
-    "TO": 0.9027777777777778,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Jaylen Wells",
    "pos": "SF",
    "team": "MEM",
@@ -6753,6 +6722,37 @@
     "FG%": 0.434,
     "FT%": 0.902,
     "TO": 1.393939393939394,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Tari Eason",
+   "pos": "SF",
+   "team": "HOU",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.0,
+    "REB": 6.142857142857143,
+    "AST": 1.0,
+    "STL": 1.1428571428571428,
+    "BLK": 1.2857142857142858,
+    "3PM": 0.5714285714285714,
+    "FG%": 0.44827586,
+    "FT%": 0.93333333,
+    "TO": 1.1428571428571428,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.378787878787879,
+    "REB": 6.106060606060606,
+    "AST": 1.393939393939394,
+    "STL": 1.196969696969697,
+    "BLK": 0.5,
+    "3PM": 1.4242424242424243,
+    "FG%": 0.427,
+    "FT%": 0.769,
+    "TO": 1.303030303030303,
     "_src": "2027_projected"
    }
   },
@@ -11684,6 +11684,18 @@
  },
  "log": [
   {
+   "date": "2026-11-01T09:58:22.323000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Neemias Queta"
+  },
+  {
+   "date": "2026-11-01T09:58:22.323000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Tari Eason"
+  },
+  {
    "date": "2026-11-01T09:34:11.988000",
    "team": "Akumpo",
    "action": "FA ADDED",
@@ -12393,6 +12405,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 6.6
  }
 }
