@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T21:10:23.125224Z",
+ "updated": "2026-11-01T21:20:27.349323Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1284,13 +1284,13 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 18.166666666666668,
-     "REB": 5.166666666666667,
-     "AST": 4.0,
+     "PTS": 18.5,
+     "REB": 5.333333333333333,
+     "AST": 4.5,
      "STL": 2.0,
      "BLK": 0.0,
      "3PM": 2.6666666666666665,
-     "FG%": 0.46428571,
+     "FG%": 0.45977011,
      "FT%": 0.88235294,
      "TO": 2.3333333333333335,
      "_src": "2027_last_15"
@@ -1471,7 +1471,7 @@
     "team": "ORL",
     "avg": {
      "PTS": 12.833333333333334,
-     "REB": 7.5,
+     "REB": 7.666666666666667,
      "AST": 1.1666666666666667,
      "STL": 1.0,
      "BLK": 0.5,
@@ -1688,13 +1688,13 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 15.333333333333334,
+     "PTS": 16.166666666666668,
      "REB": 3.3333333333333335,
-     "AST": 2.3333333333333335,
+     "AST": 2.5,
      "STL": 0.6666666666666666,
      "BLK": 0.8333333333333334,
-     "3PM": 3.0,
-     "FG%": 0.34666667,
+     "3PM": 3.1666666666666665,
+     "FG%": 0.36363636,
      "FT%": 0.84615385,
      "TO": 2.5,
      "_src": "2027_last_15"
@@ -1954,13 +1954,13 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 7.5,
+     "PTS": 7.833333333333333,
      "REB": 4.666666666666667,
      "AST": 1.0,
      "STL": 0.3333333333333333,
      "BLK": 1.3333333333333333,
      "3PM": 0.16666666666666666,
-     "FG%": 0.51851852,
+     "FG%": 0.53571429,
      "FT%": 0.64,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -1984,7 +1984,7 @@
     "name": "Jayson Tatum",
     "pos": "PF",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
      "PTS": 24.333333333333332,
@@ -3694,15 +3694,15 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 11.0,
-     "REB": 3.5,
+     "PTS": 12.0,
+     "REB": 4.0,
      "AST": 4.25,
      "STL": 0.75,
      "BLK": 0.5,
      "3PM": 2.0,
-     "FG%": 0.5,
+     "FG%": 0.53125,
      "FT%": 0.6,
-     "TO": 1.5,
+     "TO": 1.75,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4191,13 +4191,13 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 11.833333333333334,
+     "PTS": 12.166666666666666,
      "REB": 2.1666666666666665,
      "AST": 1.3333333333333333,
      "STL": 0.3333333333333333,
      "BLK": 0.5,
      "3PM": 2.8333333333333335,
-     "FG%": 0.54,
+     "FG%": 0.53846154,
      "FT%": 0.0,
      "TO": 0.8333333333333334,
      "_src": "2027_last_15"
@@ -4317,13 +4317,13 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 10.166666666666666,
+     "PTS": 10.5,
      "REB": 3.1666666666666665,
      "AST": 4.833333333333333,
-     "STL": 1.3333333333333333,
+     "STL": 1.5,
      "BLK": 0.16666666666666666,
      "3PM": 1.3333333333333333,
-     "FG%": 0.48,
+     "FG%": 0.48076923,
      "FT%": 1.0,
      "TO": 2.5,
      "_src": "2027_last_15"
@@ -4927,12 +4927,12 @@
     "team": "BOS",
     "avg": {
      "PTS": 14.166666666666666,
-     "REB": 2.0,
-     "AST": 3.0,
+     "REB": 2.3333333333333335,
+     "AST": 3.3333333333333335,
      "STL": 0.6666666666666666,
      "BLK": 0.16666666666666666,
      "3PM": 2.1666666666666665,
-     "FG%": 0.46551724,
+     "FG%": 0.45762712,
      "FT%": 0.9,
      "TO": 1.5,
      "_src": "2027_last_15"
@@ -5533,6 +5533,30 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-01T21:18:10.453000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Keon Ellis"
+  },
+  {
+   "date": "2026-11-01T21:18:10.453000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "De'Anthony Melton"
+  },
+  {
+   "date": "2026-11-01T21:14:58.369000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Aday Mara"
+  },
+  {
+   "date": "2026-11-01T21:14:58.369000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Isaiah Jackson"
+  },
   {
    "date": "2026-11-01T21:01:31.958000",
    "team": "Momo in Six",
@@ -6191,12 +6215,12 @@
    "pct": null,
    "avg": {
     "PTS": 2.1666666666666665,
-    "REB": 2.1666666666666665,
-    "AST": 1.1666666666666667,
+    "REB": 2.3333333333333335,
+    "AST": 1.3333333333333333,
     "STL": 0.0,
     "BLK": 0.6666666666666666,
     "3PM": 0.3333333333333333,
-    "FG%": 0.38461538,
+    "FG%": 0.35714286,
     "FT%": 0.5,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -6570,13 +6594,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.5,
+    "PTS": 7.833333333333333,
     "REB": 4.666666666666667,
     "AST": 1.0,
     "STL": 0.3333333333333333,
     "BLK": 1.3333333333333333,
     "3PM": 0.16666666666666666,
-    "FG%": 0.51851852,
+    "FG%": 0.53571429,
     "FT%": 0.64,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -6842,24 +6866,34 @@
    }
   },
   {
-   "name": "Aday Mara",
-   "pos": "C",
-   "team": "OKC",
+   "name": "Isaiah Jackson",
+   "pos": "PF",
+   "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.833333333333333,
-    "REB": 5.0,
-    "AST": 1.3333333333333333,
-    "STL": 0.16666666666666666,
-    "BLK": 1.8333333333333333,
+    "PTS": 8.6,
+    "REB": 5.8,
+    "AST": 2.4,
+    "STL": 2.0,
+    "BLK": 1.2,
     "3PM": 0.0,
-    "FG%": 0.51851852,
-    "FT%": 0.77777778,
-    "TO": 2.1666666666666665,
+    "FG%": 0.6,
+    "FT%": 0.7,
+    "TO": 2.2,
     "_src": "2027_last_15"
    },
-   "proj": {}
+   "proj": {
+    "PTS": 7.552238805970149,
+    "REB": 5.895522388059701,
+    "AST": 1.1044776119402986,
+    "STL": 0.7014925373134329,
+    "BLK": 1.0,
+    "FG%": 0.638,
+    "FT%": 0.648,
+    "TO": 1.1940298507462686,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "Mitchell Robinson",
@@ -7186,37 +7220,6 @@
     "FG%": 0.535,
     "FT%": 0.696,
     "TO": 1.5942028985507246,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "De'Anthony Melton",
-   "pos": "PG",
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.333333333333334,
-    "REB": 3.8333333333333335,
-    "AST": 2.1666666666666665,
-    "STL": 1.3333333333333333,
-    "BLK": 0.3333333333333333,
-    "3PM": 2.1666666666666665,
-    "FG%": 0.45454545,
-    "FT%": 1.0,
-    "TO": 1.1666666666666667,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.153846153846153,
-    "REB": 3.2,
-    "AST": 2.6,
-    "STL": 1.6,
-    "BLK": 0.4,
-    "3PM": 1.4923076923076923,
-    "FG%": 0.406,
-    "FT%": 0.824,
-    "TO": 1.8,
     "_src": "2027_projected"
    }
   },
@@ -8301,6 +8304,37 @@
     "FG%": 0.483,
     "FT%": 0.718,
     "TO": 2.298507462686567,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Keon Ellis",
+   "pos": "SG",
+   "team": "BKN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.0,
+    "REB": 2.0,
+    "AST": 2.6,
+    "STL": 1.4,
+    "BLK": 1.2,
+    "3PM": 1.2,
+    "FG%": 0.4137931,
+    "FT%": 0.0,
+    "TO": 0.8,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 6.972222222222222,
+    "REB": 2.0,
+    "AST": 1.0972222222222223,
+    "STL": 1.1944444444444444,
+    "BLK": 0.6944444444444444,
+    "3PM": 1.3611111111111112,
+    "FG%": 0.45,
+    "FT%": 0.751,
+    "TO": 0.5972222222222222,
     "_src": "2027_projected"
    }
   },
@@ -9664,7 +9698,7 @@
     "PTS": 4.333333333333333,
     "REB": 3.5,
     "AST": 0.8333333333333334,
-    "STL": 1.0,
+    "STL": 0.8333333333333334,
     "BLK": 0.16666666666666666,
     "3PM": 0.6666666666666666,
     "FG%": 0.4,
@@ -9874,15 +9908,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.4,
-    "REB": 3.2,
-    "AST": 1.2,
-    "STL": 0.8,
+    "PTS": 3.3333333333333335,
+    "REB": 3.0,
+    "AST": 1.1666666666666667,
+    "STL": 0.6666666666666666,
     "BLK": 0.0,
-    "3PM": 0.6,
-    "FG%": 0.33333333,
+    "3PM": 0.6666666666666666,
+    "FG%": 0.34782609,
     "FT%": 0.0,
-    "TO": 1.0,
+    "TO": 0.8333333333333334,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10663,9 +10697,9 @@
    "avg": {
     "PTS": 5.0,
     "REB": 2.0,
-    "AST": 1.6666666666666667,
+    "AST": 1.8333333333333333,
     "STL": 0.5,
-    "BLK": 0.5,
+    "BLK": 0.6666666666666666,
     "3PM": 0.8333333333333334,
     "FG%": 0.4,
     "FT%": 0.5,
@@ -11352,6 +11386,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jayson Tatum: Heads to locker room Sunday",
+   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
+   "published": "Sun, 01 Nov 2026 1:14:00 PM PST",
+   "summary": "Tatum (head) exited Sunday's game against the Magic, Bobby Krivitsky of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Doubtful against Philadelphia",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Sun, 01 Nov 2026 1:08:00 PM PST",
@@ -11377,13 +11418,6 @@
    "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
    "published": "Sun, 01 Nov 2026 12:40:00 PM PST",
    "summary": "VanVleet (knee) isn't listed on the injury report for Monday's game against the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Alex Sarr: Gets fourth-year option picked up",
-   "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
-   "published": "Sun, 01 Nov 2026 10:42:00 AM PST",
-   "summary": "The Wizards exercised the fourth-year team option on Sarr on Tuesday, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -11716,6 +11750,30 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-01T21:18:10.453000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Keon Ellis"
+  },
+  {
+   "date": "2026-11-01T21:18:10.453000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "De'Anthony Melton"
+  },
+  {
+   "date": "2026-11-01T21:14:58.369000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Aday Mara"
+  },
+  {
+   "date": "2026-11-01T21:14:58.369000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Isaiah Jackson"
+  },
   {
    "date": "2026-11-01T21:01:31.958000",
    "team": "Momo in Six",
@@ -12462,6 +12520,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 2.2
  }
 }
