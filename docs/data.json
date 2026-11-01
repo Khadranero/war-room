@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T20:00:28.978629Z",
+ "updated": "2026-11-01T20:10:22.203676Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -7119,7 +7119,7 @@
    "name": "Jordan Poole",
    "pos": "SG",
    "team": "NOP",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -12451,6 +12451,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.1
+  "run_seconds": 1.8
  }
 }
