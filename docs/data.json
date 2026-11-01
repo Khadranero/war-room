@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:10:21.721401Z",
+ "updated": "2026-11-01T09:20:22.163259Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -2532,7 +2532,7 @@
    {
     "name": "Lauri Markkanen",
     "pos": "PF",
-    "slot": "IR",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -2738,7 +2738,7 @@
    {
     "name": "Derik Queen",
     "pos": "C",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -2763,37 +2763,6 @@
      "FG%": 0.48,
      "FT%": 0.802,
      "TO": 2.5,
-     "_src": "2027_projected"
-    }
-   },
-   {
-    "name": "Khaman Maluach",
-    "pos": "C",
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "PHO",
-    "avg": {
-     "PTS": 8.0,
-     "REB": 7.0,
-     "AST": 1.25,
-     "STL": 0.5,
-     "BLK": 1.0,
-     "3PM": 0.25,
-     "FG%": 0.57142857,
-     "FT%": 0.77777778,
-     "TO": 2.25,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 7.7846153846153845,
-     "REB": 7.507692307692308,
-     "AST": 0.3076923076923077,
-     "STL": 0.3076923076923077,
-     "BLK": 1.9076923076923078,
-     "3PM": 0.4,
-     "FG%": 0.522,
-     "FT%": 0.722,
-     "TO": 1.4,
      "_src": "2027_projected"
     }
    },
@@ -2829,55 +2798,65 @@
     }
    },
    {
-    "name": "Devin Vassell",
-    "pos": "SG",
-    "slot": "BE",
+    "name": "Isaiah Jackson",
+    "pos": "PF",
+    "slot": "PF",
     "injury": "ACTIVE",
-    "team": "SAS",
+    "team": "LAC",
     "avg": {
-     "PTS": 12.0,
-     "REB": 4.166666666666667,
-     "AST": 3.5,
-     "STL": 1.8333333333333333,
-     "BLK": 0.16666666666666666,
-     "3PM": 1.5,
-     "FG%": 0.40983607,
-     "FT%": 0.92857143,
-     "TO": 1.5,
+     "PTS": 8.6,
+     "REB": 5.8,
+     "AST": 2.4,
+     "STL": 2.0,
+     "BLK": 1.2,
+     "3PM": 0.0,
+     "FG%": 0.6,
+     "FT%": 0.7,
+     "TO": 2.2,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 14.304347826086957,
-     "REB": 3.5072463768115942,
-     "AST": 2.6956521739130435,
-     "STL": 0.8985507246376812,
-     "BLK": 0.4057971014492754,
-     "3PM": 2.1449275362318843,
-     "FG%": 0.451,
-     "FT%": 0.804,
-     "TO": 1.1014492753623188,
+     "PTS": 7.552238805970149,
+     "REB": 5.895522388059701,
+     "AST": 1.1044776119402986,
+     "STL": 0.7014925373134329,
+     "BLK": 1.0,
+     "FG%": 0.638,
+     "FT%": 0.648,
+     "TO": 1.1940298507462686,
      "_src": "2027_projected"
     }
    },
    {
-    "name": "Pelle Larsson",
+    "name": "Keon Ellis",
     "pos": "SG",
     "slot": "SF",
     "injury": "ACTIVE",
-    "team": "MIA",
+    "team": "BKN",
     "avg": {
-     "PTS": 11.833333333333334,
-     "REB": 3.5,
-     "AST": 4.0,
-     "STL": 1.1666666666666667,
-     "BLK": 0.16666666666666666,
-     "3PM": 1.0,
-     "FG%": 0.48780488,
-     "FT%": 0.89285714,
-     "TO": 1.0,
+     "PTS": 6.0,
+     "REB": 2.0,
+     "AST": 2.6,
+     "STL": 1.4,
+     "BLK": 1.2,
+     "3PM": 1.2,
+     "FG%": 0.4137931,
+     "FT%": 0.0,
+     "TO": 0.8,
      "_src": "2027_last_15"
     },
-    "proj": {}
+    "proj": {
+     "PTS": 6.972222222222222,
+     "REB": 2.0,
+     "AST": 1.0972222222222223,
+     "STL": 1.1944444444444444,
+     "BLK": 0.6944444444444444,
+     "3PM": 1.3611111111111112,
+     "FG%": 0.45,
+     "FT%": 0.751,
+     "TO": 0.5972222222222222,
+     "_src": "2027_projected"
+    }
    }
   ],
   "Akumpo": [
@@ -5493,6 +5472,36 @@
  },
  "activity": [
   {
+   "date": "2026-11-01T09:15:38.149000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Pelle Larsson"
+  },
+  {
+   "date": "2026-11-01T09:15:38.149000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Keon Ellis"
+  },
+  {
+   "date": "2026-11-01T09:15:01.186000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Khaman Maluach"
+  },
+  {
+   "date": "2026-11-01T09:15:01.186000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Isaiah Jackson"
+  },
+  {
+   "date": "2026-11-01T09:13:25.229000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Devin Vassell"
+  },
+  {
    "date": "2026-11-01T09:09:33.008000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -5707,12 +5716,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Julian Champagnie"
-  },
-  {
-   "date": "2026-10-28T16:17:15.064000",
-   "team": "AllThisToBeatLeGoat",
-   "action": "DROPPED",
-   "player": "Jeremiah Fears"
   }
  ],
  "schedule": {
@@ -6060,6 +6063,37 @@
     "FG%": 0.504,
     "FT%": 0.809,
     "TO": 2.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Devin Vassell",
+   "pos": "SG",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.0,
+    "REB": 4.166666666666667,
+    "AST": 3.5,
+    "STL": 1.8333333333333333,
+    "BLK": 0.16666666666666666,
+    "3PM": 1.5,
+    "FG%": 0.40983607,
+    "FT%": 0.92857143,
+    "TO": 1.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 14.304347826086957,
+    "REB": 3.5072463768115942,
+    "AST": 2.6956521739130435,
+    "STL": 0.8985507246376812,
+    "BLK": 0.4057971014492754,
+    "3PM": 2.1449275362318843,
+    "FG%": 0.451,
+    "FT%": 0.804,
+    "TO": 1.1014492753623188,
     "_src": "2027_projected"
    }
   },
@@ -6895,6 +6929,26 @@
    }
   },
   {
+   "name": "Pelle Larsson",
+   "pos": "SG",
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.833333333333334,
+    "REB": 3.5,
+    "AST": 4.0,
+    "STL": 1.1666666666666667,
+    "BLK": 0.16666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.48780488,
+    "FT%": 0.89285714,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Scotty Pippen Jr.",
    "pos": "PG",
    "team": "MEM",
@@ -7294,36 +7348,6 @@
     "FG%": 0.416,
     "FT%": 0.836,
     "TO": 1.6944444444444444,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Isaiah Jackson",
-   "pos": "PF",
-   "team": "LAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.6,
-    "REB": 5.8,
-    "AST": 2.4,
-    "STL": 2.0,
-    "BLK": 1.2,
-    "3PM": 0.0,
-    "FG%": 0.6,
-    "FT%": 0.7,
-    "TO": 2.2,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.552238805970149,
-    "REB": 5.895522388059701,
-    "AST": 1.1044776119402986,
-    "STL": 0.7014925373134329,
-    "BLK": 1.0,
-    "FG%": 0.638,
-    "FT%": 0.648,
-    "TO": 1.1940298507462686,
     "_src": "2027_projected"
    }
   },
@@ -7889,6 +7913,37 @@
    }
   },
   {
+   "name": "Khaman Maluach",
+   "pos": "C",
+   "team": "PHO",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.0,
+    "REB": 7.0,
+    "AST": 1.25,
+    "STL": 0.5,
+    "BLK": 1.0,
+    "3PM": 0.25,
+    "FG%": 0.57142857,
+    "FT%": 0.77777778,
+    "TO": 2.25,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.7846153846153845,
+    "REB": 7.507692307692308,
+    "AST": 0.3076923076923077,
+    "STL": 0.3076923076923077,
+    "BLK": 1.9076923076923078,
+    "3PM": 0.4,
+    "FG%": 0.522,
+    "FT%": 0.722,
+    "TO": 1.4,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Cam Thomas",
    "pos": "SG",
    "team": "FA",
@@ -8428,37 +8483,6 @@
     "FG%": 0.425,
     "FT%": 0.866,
     "TO": 0.4025974025974026,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Keon Ellis",
-   "pos": "SG",
-   "team": "BKN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.0,
-    "REB": 2.0,
-    "AST": 2.6,
-    "STL": 1.4,
-    "BLK": 1.2,
-    "3PM": 1.2,
-    "FG%": 0.4137931,
-    "FT%": 0.0,
-    "TO": 0.8,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 6.972222222222222,
-    "REB": 2.0,
-    "AST": 1.0972222222222223,
-    "STL": 1.1944444444444444,
-    "BLK": 0.6944444444444444,
-    "3PM": 1.3611111111111112,
-    "FG%": 0.45,
-    "FT%": 0.751,
-    "TO": 0.5972222222222222,
     "_src": "2027_projected"
    }
   },
@@ -11248,26 +11272,6 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Isaiah Evans",
-   "pos": "SG",
-   "team": "MIN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 0.0,
-    "REB": 0.25,
-    "AST": 0.5,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 0.0,
-    "TO": 0.25,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   }
  ],
  "news": [
@@ -11639,6 +11643,36 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-01T09:15:38.149000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Pelle Larsson"
+  },
+  {
+   "date": "2026-11-01T09:15:38.149000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Keon Ellis"
+  },
+  {
+   "date": "2026-11-01T09:15:01.186000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Khaman Maluach"
+  },
+  {
+   "date": "2026-11-01T09:15:01.186000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Isaiah Jackson"
+  },
+  {
+   "date": "2026-11-01T09:13:25.229000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "DROPPED",
+   "player": "Devin Vassell"
+  },
   {
    "date": "2026-11-01T09:09:33.008000",
    "team": "Pasta Warriors",
@@ -12307,6 +12341,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.1
+  "run_seconds": 2.9
  }
 }
