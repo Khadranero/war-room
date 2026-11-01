@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T16:10:22.492289Z",
+ "updated": "2026-11-01T16:20:21.051519Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1125,7 +1125,7 @@
    {
     "name": "Stephen Curry",
     "pos": "PG",
-    "slot": "G",
+    "slot": "IR",
     "injury": "OUT",
     "team": "GSW",
     "avg": {
@@ -1342,7 +1342,7 @@
    {
     "name": "Brandin Podziemski",
     "pos": "SG",
-    "slot": "IR",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -3422,7 +3422,7 @@
    {
     "name": "Chet Holmgren",
     "pos": "C",
-    "slot": "BE",
+    "slot": "IR",
     "injury": "OUT",
     "team": "OKC",
     "avg": {
@@ -3608,7 +3608,7 @@
    {
     "name": "Brandon Ingram",
     "pos": "SF",
-    "slot": "IR",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {},
@@ -12440,6 +12440,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 1.9
  }
 }
