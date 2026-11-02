@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:20:22.218682Z",
+ "updated": "2026-11-02T21:30:28.572930Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5356,7 +5356,7 @@
     "name": "Scottie Barnes",
     "pos": "SF",
     "slot": "G",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 24.833333333333332,
@@ -9873,7 +9873,7 @@
    "name": "Max Strus",
    "pos": "SF",
    "team": "LAC",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {},
    "proj": {
@@ -11547,6 +11547,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scottie Barnes: Questionable to face LAC",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Mon, 02 Nov 2026 1:23:00 PM PST",
+   "summary": "Barnes (hip) is listed as questionable for Monday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Rui Hachimura: Won't play Monday",
+   "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
+   "published": "Mon, 02 Nov 2026 1:20:00 PM PST",
+   "summary": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Draymond Green: Cleared to suit up",
    "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
    "published": "Mon, 02 Nov 2026 1:07:00 PM PST",
@@ -11565,20 +11579,6 @@
    "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
    "published": "Mon, 02 Nov 2026 11:10:00 AM PST",
    "summary": "Ball is questionable for Monday's game against Milwaukee due to a right wrist contusion.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Paul George: Will sit out Monday",
-   "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
-   "published": "Mon, 02 Nov 2026 11:07:00 AM PST",
-   "summary": "George will be rested Monday against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dejounte Murray: Downgraded to questionable",
-   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
-   "published": "Mon, 02 Nov 2026 10:55:00 AM PST",
-   "summary": "Murray (personal) is now questionable for Monday against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12866,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.7
  }
 }
