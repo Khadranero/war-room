@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:00:36.167148Z",
+ "updated": "2026-11-02T23:10:23.690594Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1847,7 +1847,7 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "PG",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -1908,7 +1908,7 @@
    {
     "name": "Desmond Bane",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -1970,7 +1970,7 @@
    {
     "name": "Onyeka Okongwu",
     "pos": "C",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2001,7 +2001,7 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2113,7 +2113,7 @@
    {
     "name": "Matisse Thybulle",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -2694,7 +2694,7 @@
    {
     "name": "Josh Giddey",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -2787,7 +2787,7 @@
    {
     "name": "Donovan Clingan",
     "pos": "C",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3024,7 +3024,7 @@
    {
     "name": "Aday Mara",
     "pos": "C",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -3044,7 +3044,7 @@
    {
     "name": "De'Anthony Melton",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -3668,7 +3668,7 @@
     "name": "Kyrie Irving",
     "pos": "PG",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "DAL",
     "avg": {
      "PTS": 21.4,
@@ -5963,18 +5963,6 @@
    "team": "Akumpo",
    "action": "DROPPED",
    "player": "Dennis Schroder"
-  },
-  {
-   "date": "2026-10-31T17:20:23.357000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Reed Sheppard"
-  },
-  {
-   "date": "2026-10-31T17:20:23.357000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Tari Eason"
   }
  ],
  "schedule": {
@@ -7129,7 +7117,7 @@
    "name": "Obi Toppin",
    "pos": "PF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 15.2,
@@ -11283,7 +11271,7 @@
    "name": "Larry Nance Jr.",
    "pos": "PF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.2857142857142856,
@@ -11547,6 +11535,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Johnson: Ruled out Monday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
+   "published": "Mon, 02 Nov 2026 2:58:00 PM PST",
+   "summary": "Johnson (ankle) has been ruled out for Monday's game versus Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Coby White: Won't start in season debut",
    "link": "https://www.rotowire.com//basketball/player/coby-white-4801",
    "published": "Mon, 02 Nov 2026 2:56:00 PM PST",
@@ -11572,13 +11567,6 @@
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Mon, 02 Nov 2026 1:23:00 PM PST",
    "summary": "Barnes (hip) is listed as questionable for Monday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Rui Hachimura: Won't play Monday",
-   "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
-   "published": "Mon, 02 Nov 2026 1:20:00 PM PST",
-   "summary": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12866,6 +12854,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.9
+  "run_seconds": 2.7
  }
 }
