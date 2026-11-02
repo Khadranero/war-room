@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T08:40:23.172777Z",
+ "updated": "2026-11-02T08:50:24.543759Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4062,7 +4062,7 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4309,7 +4309,7 @@
    {
     "name": "Davion Mitchell",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4340,7 +4340,7 @@
    {
     "name": "Brook Lopez",
     "pos": "C",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -4371,7 +4371,7 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4402,7 +4402,7 @@
    {
     "name": "Tristan da Silva",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -12883,6 +12883,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 1.9
  }
 }
