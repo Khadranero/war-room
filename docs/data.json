@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T03:40:24.329189Z",
+ "updated": "2026-11-02T03:50:24.452554Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1346,14 +1346,14 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 15.8,
+     "PTS": 16.4,
      "REB": 5.4,
-     "AST": 5.2,
+     "AST": 5.4,
      "STL": 1.2,
      "BLK": 0.4,
      "3PM": 2.2,
-     "FG%": 0.46031746,
-     "FT%": 0.66666667,
+     "FG%": 0.46153846,
+     "FT%": 0.6875,
      "TO": 1.6,
      "_src": "2027_last_15"
     },
@@ -1377,13 +1377,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 21.857142857142858,
-     "REB": 7.142857142857143,
-     "AST": 3.4285714285714284,
+     "PTS": 22.285714285714285,
+     "REB": 7.285714285714286,
+     "AST": 3.7142857142857144,
      "STL": 0.8571428571428571,
      "BLK": 0.42857142857142855,
-     "3PM": 2.4285714285714284,
-     "FG%": 0.53061224,
+     "3PM": 2.5714285714285716,
+     "FG%": 0.51960784,
      "FT%": 0.74418605,
      "TO": 3.5714285714285716,
      "_src": "2027_last_15"
@@ -1787,7 +1787,7 @@
      "STL": 1.0,
      "BLK": 0.0,
      "3PM": 3.0,
-     "FG%": 0.39506173,
+     "FG%": 0.3902439,
      "FT%": 0.77777778,
      "TO": 0.8333333333333334,
      "_src": "2027_last_15"
@@ -3756,14 +3756,14 @@
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
-     "PTS": 12.666666666666666,
+     "PTS": 13.166666666666666,
      "REB": 4.5,
      "AST": 3.5,
      "STL": 0.8333333333333334,
      "BLK": 0.16666666666666666,
      "3PM": 1.6666666666666667,
-     "FG%": 0.27777778,
-     "FT%": 0.87804878,
+     "FG%": 0.28070175,
+     "FT%": 0.88095238,
      "TO": 2.5,
      "_src": "2027_last_15"
     },
@@ -3789,15 +3789,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 36.0,
-     "REB": 7.666666666666667,
+     "PTS": 36.333333333333336,
+     "REB": 7.5,
      "AST": 7.166666666666667,
      "STL": 1.8333333333333333,
      "BLK": 0.8333333333333334,
      "3PM": 5.833333333333333,
-     "FG%": 0.48529412,
+     "FG%": 0.48201439,
      "FT%": 0.89090909,
-     "TO": 5.333333333333333,
+     "TO": 5.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4803,14 +4803,14 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 13.142857142857142,
-     "REB": 9.0,
+     "PTS": 13.428571428571429,
+     "REB": 9.142857142857142,
      "AST": 1.1428571428571428,
      "STL": 1.0,
      "BLK": 2.7142857142857144,
      "3PM": 0.0,
      "FG%": 0.74545455,
-     "FT%": 0.47619048,
+     "FT%": 0.52173913,
      "TO": 1.4285714285714286,
      "_src": "2027_last_15"
     },
@@ -4957,15 +4957,15 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 17.833333333333332,
+     "PTS": 18.333333333333332,
      "REB": 5.833333333333333,
      "AST": 4.0,
      "STL": 0.6666666666666666,
      "BLK": 0.3333333333333333,
-     "3PM": 1.1666666666666667,
-     "FG%": 0.46666667,
+     "3PM": 1.3333333333333333,
+     "FG%": 0.4673913,
      "FT%": 0.61538462,
-     "TO": 1.5,
+     "TO": 1.6666666666666667,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5176,15 +5176,15 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 22.833333333333332,
-     "REB": 6.333333333333333,
-     "AST": 4.166666666666667,
+     "PTS": 23.666666666666668,
+     "REB": 6.5,
+     "AST": 4.333333333333333,
      "STL": 2.1666666666666665,
      "BLK": 0.8333333333333334,
      "3PM": 0.5,
-     "FG%": 0.46666667,
-     "FT%": 0.78571429,
-     "TO": 3.6666666666666665,
+     "FG%": 0.47540984,
+     "FT%": 0.79310345,
+     "TO": 3.8333333333333335,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5503,7 +5503,7 @@
     "name": "Derrick Jones Jr.",
     "pos": "SF",
     "slot": "PF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "LAC",
     "avg": {
      "PTS": 11.5,
@@ -6332,13 +6332,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.0,
+    "PTS": 8.428571428571429,
     "REB": 3.0,
     "AST": 2.4285714285714284,
     "STL": 0.8571428571428571,
     "BLK": 0.14285714285714285,
-    "3PM": 0.5714285714285714,
-    "FG%": 0.46153846,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.46341463,
     "FT%": 0.76190476,
     "TO": 1.1428571428571428,
     "_src": "2027_last_15"
@@ -6515,7 +6515,7 @@
     "3PM": 1.1666666666666667,
     "FG%": 0.41176471,
     "FT%": 0.64285714,
-    "TO": 1.3333333333333333,
+    "TO": 1.5,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -6823,7 +6823,7 @@
     "STL": 1.0,
     "BLK": 0.2,
     "3PM": 2.4,
-    "FG%": 0.375,
+    "FG%": 0.36923077,
     "FT%": 0.58333333,
     "TO": 2.4,
     "_src": "2027_last_15"
@@ -7206,9 +7206,9 @@
    "pct": null,
    "avg": {
     "PTS": 7.666666666666667,
-    "REB": 4.333333333333333,
+    "REB": 4.666666666666667,
     "AST": 1.3333333333333333,
-    "STL": 1.0,
+    "STL": 1.1666666666666667,
     "BLK": 0.3333333333333333,
     "3PM": 0.5,
     "FG%": 0.45945946,
@@ -7650,7 +7650,7 @@
    "avg": {
     "PTS": 9.0,
     "REB": 4.571428571428571,
-    "AST": 1.2857142857142858,
+    "AST": 1.4285714285714286,
     "STL": 0.7142857142857143,
     "BLK": 0.5714285714285714,
     "3PM": 0.8571428571428571,
@@ -8322,7 +8322,7 @@
    "avg": {
     "PTS": 5.833333333333333,
     "REB": 1.8333333333333333,
-    "AST": 4.666666666666667,
+    "AST": 4.833333333333333,
     "STL": 1.5,
     "BLK": 0.3333333333333333,
     "3PM": 0.5,
@@ -11355,13 +11355,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.6666666666666666,
-    "REB": 3.6666666666666665,
+    "PTS": 1.3333333333333333,
+    "REB": 4.0,
     "AST": 1.6666666666666667,
     "STL": 0.3333333333333333,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.5,
+    "FG%": 0.66666667,
     "FT%": 0.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -11403,6 +11403,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Derrick Jones: Leaves game with knee injury",
+   "link": "https://www.rotowire.com//basketball/player/derrick-jones-4083",
+   "published": "Sun, 01 Nov 2026 7:47:00 PM PST",
+   "summary": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kingston Flemings: Suspended one game",
    "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
    "published": "Sun, 01 Nov 2026 6:03:00 PM PST",
@@ -11428,13 +11435,6 @@
    "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
    "published": "Sun, 01 Nov 2026 4:00:00 PM PST",
    "summary": "Tatum racked up 32 points (8-19 FG, 1-5 3Pt, 15-17 FT), four rebounds, seven assists and two blocks over 34 minutes during Sunday's 108-97 victory over the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ty Jerome: Available to play Monday",
-   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
-   "published": "Sun, 01 Nov 2026 3:10:00 PM PST",
-   "summary": "Jerome (back) is not listed on the injury report ahead of Monday's game against New Orleans.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12534,6 +12534,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.2
  }
 }
