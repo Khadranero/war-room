@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T07:10:32.734192Z",
+ "updated": "2026-11-02T07:20:21.069430Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -5141,7 +5141,7 @@
    {
     "name": "Giannis Antetokounmpo",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -12697,6 +12697,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 2.7
  }
 }
