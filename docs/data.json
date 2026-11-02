@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:50:25.492372Z",
+ "updated": "2026-11-02T19:00:40.984440Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2352,7 +2352,7 @@
     "name": "Dejounte Murray",
     "pos": "SG",
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
      "PTS": 17.75,
@@ -2819,7 +2819,7 @@
     "name": "Trey Murphy III",
     "pos": "SF",
     "slot": "SF",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 14.333333333333334,
@@ -11559,6 +11559,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dejounte Murray: Downgraded to questionable",
+   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
+   "published": "Mon, 02 Nov 2026 10:55:00 AM PST",
+   "summary": "Murray (personal) is now questionable for Monday against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Will play Monday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Mon, 02 Nov 2026 10:54:00 AM PST",
+   "summary": "Murphy (knee) will play Monday against the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Kyrie Irving: Downgraded to doubtful",
+   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
+   "published": "Mon, 02 Nov 2026 10:51:00 AM PST",
+   "summary": "Irving (knee) is now doubtful for Monday against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ivica Zubac: Remains out indefinitely",
    "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
    "published": "Mon, 02 Nov 2026 10:19:00 AM PST",
@@ -11570,27 +11591,6 @@
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Mon, 02 Nov 2026 10:10:00 AM PST",
    "summary": "Nembhard (cervical strain) is out for Monday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Pascal Siakam: Resting against Hawks",
-   "link": "https://www.rotowire.com//basketball/player/pascal-siakam-3922",
-   "published": "Mon, 02 Nov 2026 10:06:00 AM PST",
-   "summary": "Siakam will be rested against the Hawks on Monday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Alex Sarr: Confirmed out for Monday",
-   "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
-   "published": "Mon, 02 Nov 2026 10:03:00 AM PST",
-   "summary": "Sarr (knee) is out for Monday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Mikel Brown: Available for Monday",
-   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
-   "published": "Mon, 02 Nov 2026 9:51:00 AM PST",
-   "summary": "Brown (rest) is available for Monday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12878,6 +12878,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 3.1
  }
 }
