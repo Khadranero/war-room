@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:00:40.984440Z",
+ "updated": "2026-11-02T19:10:24.928822Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1506,7 +1506,7 @@
     "name": "Paul George",
     "pos": "SF",
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "BOS",
     "avg": {
      "PTS": 20.666666666666668,
@@ -12878,6 +12878,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.0
  }
 }
