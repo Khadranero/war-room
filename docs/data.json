@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:10:23.690594Z",
+ "updated": "2026-11-02T23:20:25.034868Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5655,7 +5655,7 @@
     "name": "Peyton Watson",
     "pos": "SF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CLE",
     "avg": {
      "PTS": 10.833333333333334,
@@ -11535,6 +11535,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kyrie Irving: Out vs. Sacramento",
+   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
+   "published": "Mon, 02 Nov 2026 3:13:00 PM PST",
+   "summary": "Irving (knee) has been ruled out for Monday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Obi Toppin: Dressing but won't play Monday",
+   "link": "https://www.rotowire.com//basketball/player/obi-toppin-5109",
+   "published": "Mon, 02 Nov 2026 3:07:00 PM PST",
+   "summary": "Toppin (back) will dress for Monday's game against  Hawks but will only play in an emergency, Tony East of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Johnson: Ruled out Monday",
    "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
    "published": "Mon, 02 Nov 2026 2:58:00 PM PST",
@@ -11553,20 +11567,6 @@
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Mon, 02 Nov 2026 2:48:00 PM PST",
    "summary": "Claxton (hamstring) is out for Monday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dejounte Murray: Listed out Monday",
-   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
-   "published": "Mon, 02 Nov 2026 2:33:00 PM PST",
-   "summary": "Murray (personal) is out for Monday's game against the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Questionable to face LAC",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Mon, 02 Nov 2026 1:23:00 PM PST",
-   "summary": "Barnes (hip) is listed as questionable for Monday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12854,6 +12854,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.8
  }
 }
