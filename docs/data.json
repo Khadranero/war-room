@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:00:49.404422Z",
+ "updated": "2026-11-02T18:10:23.060042Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1786,8 +1786,8 @@
    {
     "name": "Pascal Siakam",
     "pos": "PF",
-    "slot": "F",
-    "injury": "ACTIVE",
+    "slot": "BE",
+    "injury": "OUT",
     "team": "IND",
     "avg": {
      "PTS": 21.428571428571427,
@@ -2083,7 +2083,7 @@
    {
     "name": "Matisse Thybulle",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -5294,7 +5294,7 @@
    {
     "name": "Giannis Antetokounmpo",
     "pos": "PF",
-    "slot": "C",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -5480,8 +5480,8 @@
    {
     "name": "Alex Sarr",
     "pos": "C",
-    "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "slot": "IR",
+    "injury": "OUT",
     "team": "WAS",
     "avg": {
      "PTS": 9.333333333333334,
@@ -5713,10 +5713,47 @@
      "TO": 1.7058823529411764,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Paul Reed",
+    "pos": "C",
+    "slot": "C",
+    "injury": "ACTIVE",
+    "team": "DET",
+    "avg": {
+     "PTS": 13.833333333333334,
+     "REB": 7.0,
+     "AST": 1.8333333333333333,
+     "STL": 1.1666666666666667,
+     "BLK": 0.6666666666666666,
+     "3PM": 0.8333333333333334,
+     "FG%": 0.62962963,
+     "FT%": 0.76923077,
+     "TO": 2.0,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 7.428571428571429,
+     "REB": 4.396825396825397,
+     "AST": 1.2063492063492063,
+     "STL": 0.9047619047619048,
+     "BLK": 0.9047619047619048,
+     "3PM": 0.19047619047619047,
+     "FG%": 0.603,
+     "FT%": 0.672,
+     "TO": 0.9047619047619048,
+     "_src": "2027_projected"
+    }
    }
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-02T18:09:12.679000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
   {
    "date": "2026-11-02T14:58:52.995000",
    "team": "Rubio Bzeit ",
@@ -5914,30 +5951,6 @@
    "team": "Akumpo",
    "action": "DROPPED",
    "player": "Grayson Allen"
-  },
-  {
-   "date": "2026-10-31T07:22:41.125000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "FA ADDED",
-   "player": "Julian Champagnie"
-  },
-  {
-   "date": "2026-10-31T07:22:41.125000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "DROPPED",
-   "player": "DeMar DeRozan"
-  },
-  {
-   "date": "2026-10-31T07:00:50.727000",
-   "team": "Murray Had a Little Lamb",
-   "action": "DROPPED",
-   "player": "Paul Reed"
-  },
-  {
-   "date": "2026-10-31T07:00:50.727000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Aday Mara"
   }
  ],
  "schedule": {
@@ -6367,37 +6380,6 @@
     "FG%": 0.462,
     "FT%": 0.861,
     "TO": 2.3870967741935485,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Paul Reed",
-   "pos": "C",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.833333333333334,
-    "REB": 7.0,
-    "AST": 1.8333333333333333,
-    "STL": 1.1666666666666667,
-    "BLK": 0.6666666666666666,
-    "3PM": 0.8333333333333334,
-    "FG%": 0.62962963,
-    "FT%": 0.76923077,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.428571428571429,
-    "REB": 4.396825396825397,
-    "AST": 1.2063492063492063,
-    "STL": 0.9047619047619048,
-    "BLK": 0.9047619047619048,
-    "3PM": 0.19047619047619047,
-    "FG%": 0.603,
-    "FT%": 0.672,
-    "TO": 0.9047619047619048,
     "_src": "2027_projected"
    }
   },
@@ -11515,9 +11497,43 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Tarris Reed Jr.",
+   "pos": "C",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 2.0,
+    "REB": 2.6666666666666665,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.75,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Pascal Siakam: Resting against Hawks",
+   "link": "https://www.rotowire.com//basketball/player/pascal-siakam-3922",
+   "published": "Mon, 02 Nov 2026 10:06:00 AM PST",
+   "summary": "Siakam will be rested against the Hawks on Monday.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Alex Sarr: Confirmed out for Monday",
+   "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
+   "published": "Mon, 02 Nov 2026 10:03:00 AM PST",
+   "summary": "Sarr (knee) is out for Monday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Mikel Brown: Available for Monday",
@@ -11538,111 +11554,6 @@
    "link": "https://www.rotowire.com//basketball/player/isaiah-collier-6260",
    "published": "Mon, 02 Nov 2026 8:53:00 AM PST",
    "summary": "The Jazz will decline Collier's $4.99 million team option for the 2027-28 season, Michael Scotto of HoopsHype.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Brandon Ingram: Returns from G League assignment",
-   "link": "https://www.rotowire.com//basketball/player/brandon-ingram-3861",
-   "published": "Mon, 02 Nov 2026 8:02:00 AM PST",
-   "summary": "The Clippers recalled Ingram (Achilles) from the G League's San Diego Clippers on Sunday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Walker Kessler: Big double-double in Sunday's win",
-   "link": "https://www.rotowire.com//basketball/player/walker-kessler-5644",
-   "published": "Mon, 02 Nov 2026 7:16:00 AM PST",
-   "summary": "Kessler supplied 16 points (6-6 FG, 4-4 FT), 15 rebounds, one assist, three blocks and one steal over 31 minutes during Sunday's 131-125 win over the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "Wide-open title and MVP races: How the NBA has cracked open in just two weeks",
-   "link": "https://www.espn.com/nba/story/_/id/50329551/finals-title-race-injuries-2026-27",
-   "published": "Mon, 2 Nov 2026 10:30:29 EST",
-   "summary": "The season is still young, but injuries and surprising developments have already changed narratives."
-  },
-  {
-   "source": "ESPN",
-   "title": "On 45-point night, Luka's defense steals show: 'This year, I really took a step forward'",
-   "link": "https://www.espn.com/nba/story/_/id/50356293/lakers-luka-doncic-touts-improved-defense-win-vs-raptors",
-   "published": "Mon, 2 Nov 2026 07:20:13 EST",
-   "summary": "Luka Doncic scored 45 points Sunday in the Lakers' 131-125 win over the Raptors, but it was his defensive impact that drew the most praise."
-  },
-  {
-   "source": "ESPN",
-   "title": "Warriors' Lendeborg dazzles with 37, regrets 'falling into peer pressure' to chase 40",
-   "link": "https://www.espn.com/nba/story/_/id/50356142/yaxel-lendeborg-scores-37-points-most-warriors-rookie-stephen-curry",
-   "published": "Mon, 2 Nov 2026 02:07:42 EST",
-   "summary": "Yaxel Lendeborg hit six 3s and scored 37 points -- the most by a Warriors rookie since Stephen Curry in 2010 -- as Golden State beat the Clippers on Sunday night while resting Curry and Draymond Green."
-  },
-  {
-   "source": "ESPN",
-   "title": "OKC declines option for oft-injured ex-lottery pick Topic",
-   "link": "https://www.espn.com/nba/story/_/id/50354448/thunder-decline-option-ex-lottery-pick-nikola-topic",
-   "published": "Mon, 2 Nov 2026 02:07:42 EST",
-   "summary": "The Thunder declined to pick up Nikola Topic's option for next season, making the Serbian point guard a free agent next summer."
-  },
-  {
-   "source": "ESPN",
-   "title": "Hawks' Flemings suspended one game for elbowing Pelicans' McGowens in head",
-   "link": "https://www.espn.com/nba/story/_/id/50354476/hawks-flemings-suspended-elbow-head-pelicans-mcgowens",
-   "published": "Mon, 2 Nov 2026 02:07:42 EST",
-   "summary": "Hawks guard Kingston Flemings was suspended for a game by the NBA on Sunday night for intentionally elbowing Pelicans guard Bryce McGowens in the head."
-  },
-  {
-   "source": "ESPN",
-   "title": "Jeanie Buss accuses siblings of 'cloak and dagger' tactics in Lakers' family saga",
-   "link": "https://www.espn.com/nba/story/_/id/50337158/lakers-jeanie-buss-accuses-siblings-cloak-dagger-tactics",
-   "published": "Mon, 2 Nov 2026 02:07:42 EST",
-   "summary": "Jeanie Buss accused her siblings of conspiring against her in court filings responding to her siblings' ongoing effort to sell their shares in the Lakers."
-  },
-  {
-   "source": "ESPN",
-   "title": "Holmgren (knee) out 8-10 weeks; Thunder reconsider Agbaji, sources say",
-   "link": "https://www.espn.com/nba/story/_/id/50332283/thunder-say-chet-holmgren-8-10-weeks-due-knee",
-   "published": "Mon, 2 Nov 2026 02:07:42 EST",
-   "summary": "Chet Holmgren will be out eight to 10 weeks because of a knee injury, the latest setback for a Thunder team that lost Jalen Williams and Cason Wallace for an extended time early this week."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83c\udfc0 Inside the stunning 72-hour Lakers sale and the uncertainty that still looms",
-   "link": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka",
-   "published": "Mon, 2 Nov 2026 02:07:42 EST",
-   "summary": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings."
-  },
-  {
-   "source": "ESPN",
-   "title": "Thunder's $500 million problem: Execs on what they could -- and should -- do",
-   "link": "https://www.espn.com/nba/story/_/id/50322550/thunder-trade-jalen-williams-cason-wallace",
-   "published": "Sun, 1 Nov 2026 11:36:19 EST",
-   "summary": "What should OKC do after two season-altering injuries? Brian Windhorst and Tim MacMahon take the pulse of the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "An exclusive with Kevin Durant: On his time in OKC, his legacy and the Thunder's 2025 title",
-   "link": "https://www.espn.com/nba/story/_/id/50308763/kevin-durant-oklahoma-city-thunder-reflection",
-   "published": "Sun, 1 Nov 2026 11:36:19 EST",
-   "summary": "After the most acrimonious exit of his career, Durant reveals how much he appreciates Oklahoma City."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
-   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "published": "Mon, 2 Nov 2026 10:30:23 EST",
-   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
-  },
-  {
-   "source": "ESPN",
-   "title": "Seven preseason assumptions already being challenged",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50312576/fantasy-basketball-preseason-assumptions-being-challenged",
-   "published": "Thu, 29 Oct 2026 09:54:59 EST",
-   "summary": "The fantasy basketball experts go over what hasn't gone as planned during the opening week of the NBA season."
-  },
-  {
-   "source": "ESPN",
-   "title": "How good can Cooper Flagg be in Year 2? Our experts weigh in",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50301485/fantasy-basketball-cooper-flagg-improve-2026-2027",
-   "published": "Thu, 29 Oct 2026 09:54:59 EST",
-   "summary": "Andre Snellings and Eric Moody explain what to expect from the young Mavericks star -- and how good he can be -- in his second NBA season."
   }
  ],
  "games": {
@@ -12118,6 +12029,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-02T18:09:12.679000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
   {
    "date": "2026-11-02T14:58:52.995000",
    "team": "Rubio Bzeit ",
@@ -12918,6 +12835,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.4
  }
 }
