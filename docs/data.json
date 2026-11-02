@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:30:27.106025Z",
+ "updated": "2026-11-02T04:40:20.817376Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1901,7 +1901,7 @@
      "3PM": 2.142857142857143,
      "FG%": 0.48837209,
      "FT%": 0.85714286,
-     "TO": 1.0,
+     "TO": 1.1428571428571428,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3789,14 +3789,14 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 37.333333333333336,
-     "REB": 8.0,
+     "PTS": 37.666666666666664,
+     "REB": 8.166666666666666,
      "AST": 7.333333333333333,
      "STL": 1.8333333333333333,
      "BLK": 0.8333333333333334,
      "3PM": 5.833333333333333,
      "FG%": 0.4822695,
-     "FT%": 0.89830508,
+     "FT%": 0.90163934,
      "TO": 5.5,
      "_src": "2027_last_15"
     },
@@ -9738,7 +9738,7 @@
     "STL": 0.6666666666666666,
     "BLK": 0.8333333333333334,
     "3PM": 0.3333333333333333,
-    "FG%": 0.5,
+    "FG%": 0.47826087,
     "FT%": 0.63636364,
     "TO": 0.16666666666666666,
     "_src": "2027_last_15"
@@ -11414,6 +11414,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Luka Doncic: Spectacular Sunday vs. Toronto",
+   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
+   "published": "Sun, 01 Nov 2026 8:36:00 PM PST",
+   "summary": "Doncic posted 45 points (12-23 FG, 8-12 3Pt, 13-13 FT), 15 rebounds, six assists, five steals and one block over 35 minutes in a 131-125 win over the Raptors on Sunday.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kris Dunn: Tallies seven steals vs. Golden State",
    "link": "https://www.rotowire.com//basketball/player/kris-dunn-3854",
    "published": "Sun, 01 Nov 2026 8:03:00 PM PST",
@@ -11439,13 +11446,6 @@
    "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
    "published": "Sun, 01 Nov 2026 6:03:00 PM PST",
    "summary": "Flemings (suspension) won't play in Monday's game against Indiana, Andrew Schlecht of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jakob Poeltl: Late scratch Sunday",
-   "link": "https://www.rotowire.com//basketball/player/jakob-poeltl-3870",
-   "published": "Sun, 01 Nov 2026 5:45:00 PM PST",
-   "summary": "Poeltl (shoulder) won't play in Sunday's game against the Lakers, Vivek Jacob of the Raptors' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12545,6 +12545,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.7
  }
 }
