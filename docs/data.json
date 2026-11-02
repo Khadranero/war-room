@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:10:24.928822Z",
+ "updated": "2026-11-02T19:20:24.916263Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1412,7 +1412,7 @@
    {
     "name": "LeBron James",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -1443,7 +1443,7 @@
    {
     "name": "Darius Garland",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -1505,7 +1505,7 @@
    {
     "name": "Paul George",
     "pos": "SF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "OUT",
     "team": "BOS",
     "avg": {
@@ -2239,7 +2239,7 @@
     "name": "LaMelo Ball",
     "pos": "PG",
     "slot": "PG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "MIN",
     "avg": {
      "PTS": 14.428571428571429,
@@ -7081,7 +7081,7 @@
    "name": "Mitchell Robinson",
    "pos": "C",
    "team": "BOS",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 6.6,
@@ -7358,7 +7358,7 @@
    "name": "Terrence Shannon Jr.",
    "pos": "SG",
    "team": "MIN",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -10232,7 +10232,7 @@
    "name": "Clint Capela",
    "pos": "C",
    "team": "HOU",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.1666666666666665,
@@ -11559,6 +11559,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "LaMelo Ball: Iffy with wrist issue",
+   "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
+   "published": "Mon, 02 Nov 2026 11:10:00 AM PST",
+   "summary": "Ball is questionable for Monday's game against Milwaukee due to a right wrist contusion.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Paul George: Will sit out Monday",
+   "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
+   "published": "Mon, 02 Nov 2026 11:07:00 AM PST",
+   "summary": "George will be rested Monday against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dejounte Murray: Downgraded to questionable",
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Mon, 02 Nov 2026 10:55:00 AM PST",
@@ -11577,20 +11591,6 @@
    "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
    "published": "Mon, 02 Nov 2026 10:51:00 AM PST",
    "summary": "Irving (knee) is now doubtful for Monday against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ivica Zubac: Remains out indefinitely",
-   "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
-   "published": "Mon, 02 Nov 2026 10:19:00 AM PST",
-   "summary": "Zubac (ankle) has been ruled out for Monday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Andrew Nembhard: Taking night off",
-   "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
-   "published": "Mon, 02 Nov 2026 10:10:00 AM PST",
-   "summary": "Nembhard (cervical strain) is out for Monday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12878,6 +12878,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 4.1
  }
 }
