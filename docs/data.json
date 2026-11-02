@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:00:31.453293Z",
+ "updated": "2026-11-02T04:10:22.944203Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1627,14 +1627,14 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 22.428571428571427,
-     "REB": 3.2857142857142856,
+     "PTS": 22.857142857142858,
+     "REB": 3.4285714285714284,
      "AST": 5.142857142857143,
      "STL": 1.0,
      "BLK": 0.5714285714285714,
      "3PM": 2.2857142857142856,
-     "FG%": 0.52631579,
-     "FT%": 0.87234043,
+     "FG%": 0.5257732,
+     "FT%": 0.875,
      "TO": 4.571428571428571,
      "_src": "2027_last_15"
     },
@@ -1781,14 +1781,14 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 16.333333333333332,
+     "PTS": 16.5,
      "REB": 3.8333333333333335,
      "AST": 6.166666666666667,
      "STL": 1.0,
      "BLK": 0.0,
      "3PM": 3.0,
-     "FG%": 0.38554217,
-     "FT%": 0.8,
+     "FG%": 0.37647059,
+     "FT%": 0.80952381,
      "TO": 0.8333333333333334,
      "_src": "2027_last_15"
     },
@@ -1899,7 +1899,7 @@
      "STL": 1.7142857142857142,
      "BLK": 0.8571428571428571,
      "3PM": 2.142857142857143,
-     "FG%": 0.5,
+     "FG%": 0.48837209,
      "FT%": 0.85714286,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -2383,7 +2383,7 @@
      "REB": 3.8333333333333335,
      "AST": 2.1666666666666665,
      "STL": 1.6666666666666667,
-     "BLK": 0.3333333333333333,
+     "BLK": 0.5,
      "3PM": 2.8333333333333335,
      "FG%": 0.46296296,
      "FT%": 0.66666667,
@@ -3789,13 +3789,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 36.333333333333336,
-     "REB": 7.5,
+     "PTS": 36.666666666666664,
+     "REB": 7.666666666666667,
      "AST": 7.166666666666667,
      "STL": 1.8333333333333333,
      "BLK": 0.8333333333333334,
      "3PM": 5.833333333333333,
-     "FG%": 0.48201439,
+     "FG%": 0.4822695,
      "FT%": 0.89090909,
      "TO": 5.5,
      "_src": "2027_last_15"
@@ -4804,7 +4804,7 @@
     "team": "LAL",
     "avg": {
      "PTS": 13.428571428571429,
-     "REB": 9.285714285714286,
+     "REB": 9.571428571428571,
      "AST": 1.1428571428571428,
      "STL": 1.0,
      "BLK": 2.7142857142857144,
@@ -4957,13 +4957,13 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 19.333333333333332,
-     "REB": 5.833333333333333,
+     "PTS": 19.833333333333332,
+     "REB": 6.166666666666667,
      "AST": 4.166666666666667,
      "STL": 0.6666666666666666,
      "BLK": 0.3333333333333333,
-     "3PM": 1.3333333333333333,
-     "FG%": 0.48421053,
+     "3PM": 1.5,
+     "FG%": 0.48958333,
      "FT%": 0.61538462,
      "TO": 1.6666666666666667,
      "_src": "2027_last_15"
@@ -5176,13 +5176,13 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 24.5,
+     "PTS": 24.833333333333332,
      "REB": 6.666666666666667,
      "AST": 4.5,
      "STL": 2.1666666666666665,
      "BLK": 0.8333333333333334,
      "3PM": 0.5,
-     "FG%": 0.48,
+     "FG%": 0.48031496,
      "FT%": 0.77419355,
      "TO": 3.8333333333333335,
      "_src": "2027_last_15"
@@ -6334,7 +6334,7 @@
    "avg": {
     "PTS": 8.428571428571429,
     "REB": 3.0,
-    "AST": 2.5714285714285716,
+    "AST": 2.7142857142857144,
     "STL": 0.8571428571428571,
     "BLK": 0.14285714285714285,
     "3PM": 0.7142857142857143,
@@ -8322,7 +8322,7 @@
    "avg": {
     "PTS": 5.833333333333333,
     "REB": 2.0,
-    "AST": 4.833333333333333,
+    "AST": 5.166666666666667,
     "STL": 1.5,
     "BLK": 0.3333333333333333,
     "3PM": 0.5,
@@ -11403,6 +11403,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kris Dunn: Tallies seven steals vs. Golden State",
+   "link": "https://www.rotowire.com//basketball/player/kris-dunn-3854",
+   "published": "Sun, 01 Nov 2026 8:03:00 PM PST",
+   "summary": "Dunn finished Sunday's 124-112 loss to the Warriors with 12 points (5-8 FG, 0-3 3Pt, 2-2 FT), four assists, two rebounds and seven steals over 27 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Yaxel Lendeborg: Career-high 37 points in Sunday's win",
+   "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
+   "published": "Sun, 01 Nov 2026 8:00:00 PM PST",
+   "summary": "Lendeborg tallied 37 points (13-19 FG, 6-11 3Pt, 5-6 FT), six assists, four rebounds and one steal over 34 minutes in a 124-112 win over the Clippers on Sunday.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Derrick Jones: Leaves game with knee injury",
    "link": "https://www.rotowire.com//basketball/player/derrick-jones-4083",
    "published": "Sun, 01 Nov 2026 7:47:00 PM PST",
@@ -11421,20 +11435,6 @@
    "link": "https://www.rotowire.com//basketball/player/jakob-poeltl-3870",
    "published": "Sun, 01 Nov 2026 5:45:00 PM PST",
    "summary": "Poeltl (shoulder) won't play in Sunday's game against the Lakers, Vivek Jacob of the Raptors' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Julius Randle: Leads Nets to first win of season",
-   "link": "https://www.rotowire.com//basketball/player/julius-randle-3574",
-   "published": "Sun, 01 Nov 2026 5:23:00 PM PST",
-   "summary": "Randle finished with 20 points (5-15 FG, 4-9 3Pt, 6-6 FT), five rebounds, six assists and two steals across 37 minutes in Sunday's 98-90 win over Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jayson Tatum: Scores game-high 32 points in win",
-   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
-   "published": "Sun, 01 Nov 2026 4:00:00 PM PST",
-   "summary": "Tatum racked up 32 points (8-19 FG, 1-5 3Pt, 15-17 FT), four rebounds, seven assists and two blocks over 34 minutes during Sunday's 108-97 victory over the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12534,6 +12534,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 1.9
  }
 }
