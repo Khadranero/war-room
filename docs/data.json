@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:30:36.795496Z",
+ "updated": "2026-11-02T10:40:25.078305Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3356,7 +3356,7 @@
    {
     "name": "Jabari Smith Jr.",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -3511,7 +3511,7 @@
    {
     "name": "Jake LaRavia",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -12883,6 +12883,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 2.7
  }
 }
