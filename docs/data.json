@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:30:28.436286Z",
+ "updated": "2026-11-02T22:40:22.406088Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2352,7 +2352,7 @@
     "name": "Dejounte Murray",
     "pos": "SG",
     "slot": "PG",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NOP",
     "avg": {
      "PTS": 17.75,
@@ -11547,6 +11547,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dejounte Murray: Listed out Monday",
+   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
+   "published": "Mon, 02 Nov 2026 2:33:00 PM PST",
+   "summary": "Murray (personal) is out for Monday's game against the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Scottie Barnes: Questionable to face LAC",
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Mon, 02 Nov 2026 1:23:00 PM PST",
@@ -11572,13 +11579,6 @@
    "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
    "published": "Mon, 02 Nov 2026 1:05:00 PM PST",
    "summary": "Curry (rest) is available Monday against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "LaMelo Ball: Iffy with wrist issue",
-   "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
-   "published": "Mon, 02 Nov 2026 11:10:00 AM PST",
-   "summary": "Ball is questionable for Monday's game against Milwaukee due to a right wrist contusion.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12866,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.8
  }
 }
