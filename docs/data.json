@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T08:00:33.557605Z",
+ "updated": "2026-11-02T08:10:22.082310Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1381,7 +1381,7 @@
    {
     "name": "Trae Young",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -1567,7 +1567,7 @@
    {
     "name": "Brandin Podziemski",
     "pos": "SG",
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -6018,12 +6018,6 @@
    "team": "Pasta Warriors",
    "action": "FA ADDED",
    "player": "Daniss Jenkins"
-  },
-  {
-   "date": "2026-10-30T06:54:48.875000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Daniel Gafford"
   }
  ],
  "schedule": {
@@ -12889,6 +12883,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.6
  }
 }
