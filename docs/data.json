@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:20:24.916263Z",
+ "updated": "2026-11-02T19:30:26.028755Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3760,7 +3760,7 @@
    {
     "name": "Ryan Rollins",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -3904,7 +3904,7 @@
    {
     "name": "Anthony Black",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "OUT",
     "team": "ORL",
     "avg": {
@@ -5975,18 +5975,6 @@
    "team": "Momo in Six",
    "action": "FA ADDED",
    "player": "Tari Eason"
-  },
-  {
-   "date": "2026-10-31T09:21:35.999000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Dennis Schroder"
-  },
-  {
-   "date": "2026-10-31T09:21:35.999000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Grayson Allen"
   }
  ],
  "schedule": {
@@ -8349,7 +8337,7 @@
    "name": "Tim Hardaway Jr.",
    "pos": "SG",
    "team": "MIA",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 6.166666666666667,
@@ -12878,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.1
+  "run_seconds": 2.2
  }
 }
