@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:10:46.357913Z",
+ "updated": "2026-11-02T21:20:22.218682Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5686,7 +5686,7 @@
     "name": "Derrick Jones Jr.",
     "pos": "SF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "LAC",
     "avg": {
      "PTS": 11.5,
@@ -6926,7 +6926,7 @@
    "name": "Rui Hachimura",
    "pos": "PF",
    "team": "LAC",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 13.4,
@@ -11581,7 +11581,478 @@
    "summary": "Murray (personal) is now questionable for Monday against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
- "games": {},
+ "games": {
+  "today": "2026-11-02",
+  "days_left": 7,
+  "by_team": {
+   "CLE": {
+    "rest": 4,
+    "next": 4
+   },
+   "OKC": {
+    "rest": 4,
+    "next": 4
+   },
+   "CHA": {
+    "rest": 3,
+    "next": 3
+   },
+   "DET": {
+    "rest": 3,
+    "next": 3
+   },
+   "IND": {
+    "rest": 3,
+    "next": 4
+   },
+   "ATL": {
+    "rest": 4,
+    "next": 3
+   },
+   "NY": {
+    "rest": 3,
+    "next": 4
+   },
+   "BKN": {
+    "rest": 4,
+    "next": 2
+   },
+   "ORL": {
+    "rest": 3,
+    "next": 3
+   },
+   "WSH": {
+    "rest": 4,
+    "next": 4
+   },
+   "PHI": {
+    "rest": 4,
+    "next": 3
+   },
+   "CHI": {
+    "rest": 3,
+    "next": 3
+   },
+   "DAL": {
+    "rest": 4,
+    "next": 4
+   },
+   "SAC": {
+    "rest": 4,
+    "next": 3
+   },
+   "MEM": {
+    "rest": 3,
+    "next": 4
+   },
+   "NO": {
+    "rest": 4,
+    "next": 4
+   },
+   "MIN": {
+    "rest": 4,
+    "next": 2
+   },
+   "MIL": {
+    "rest": 4,
+    "next": 4
+   },
+   "HOU": {
+    "rest": 3,
+    "next": 4
+   },
+   "BOS": {
+    "rest": 4,
+    "next": 3
+   },
+   "SA": {
+    "rest": 4,
+    "next": 4
+   },
+   "UTAH": {
+    "rest": 4,
+    "next": 4
+   },
+   "DEN": {
+    "rest": 3,
+    "next": 3
+   },
+   "POR": {
+    "rest": 4,
+    "next": 3
+   },
+   "GS": {
+    "rest": 3,
+    "next": 3
+   },
+   "PHX": {
+    "rest": 4,
+    "next": 4
+   },
+   "LAC": {
+    "rest": 3,
+    "next": 3
+   },
+   "TOR": {
+    "rest": 3,
+    "next": 4
+   },
+   "LAL": {
+    "rest": 4,
+    "next": 3
+   },
+   "MIA": {
+    "rest": 4,
+    "next": 3
+   },
+   "GSW": {
+    "rest": 3,
+    "next": 3
+   },
+   "NYK": {
+    "rest": 3,
+    "next": 4
+   },
+   "NOP": {
+    "rest": 4,
+    "next": 4
+   },
+   "SAS": {
+    "rest": 4,
+    "next": 4
+   },
+   "UTA": {
+    "rest": 4,
+    "next": 4
+   },
+   "PHL": {
+    "rest": 4,
+    "next": 3
+   },
+   "WAS": {
+    "rest": 4,
+    "next": 4
+   },
+   "PHO": {
+    "rest": 4,
+    "next": 4
+   }
+  },
+  "days": [
+   "2026-11-02",
+   "2026-11-03",
+   "2026-11-04",
+   "2026-11-05",
+   "2026-11-06",
+   "2026-11-07",
+   "2026-11-08",
+   "2026-11-09",
+   "2026-11-10",
+   "2026-11-11",
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15"
+  ],
+  "by_day": {
+   "2026-11-02": [
+    "CLE",
+    "OKC",
+    "CHA",
+    "DET",
+    "IND",
+    "ATL",
+    "NY",
+    "NYK",
+    "BKN",
+    "ORL",
+    "WSH",
+    "WAS",
+    "PHI",
+    "PHL",
+    "CHI",
+    "DAL",
+    "SAC",
+    "MEM",
+    "NO",
+    "NOP",
+    "MIN",
+    "MIL",
+    "HOU",
+    "BOS",
+    "SA",
+    "SAS",
+    "UTAH",
+    "UTA",
+    "DEN",
+    "POR",
+    "GS",
+    "GSW",
+    "PHX",
+    "PHO",
+    "LAC",
+    "TOR",
+    "LAL",
+    "MIA"
+   ],
+   "2026-11-04": [
+    "DET",
+    "PHI",
+    "PHL",
+    "WSH",
+    "WAS",
+    "ATL",
+    "BOS",
+    "MIL",
+    "BKN",
+    "CHA",
+    "NY",
+    "NYK",
+    "CHI",
+    "MEM",
+    "IND",
+    "NO",
+    "NOP",
+    "UTAH",
+    "UTA",
+    "OKC",
+    "CLE",
+    "HOU",
+    "MIN",
+    "DEN",
+    "TOR",
+    "PHX",
+    "PHO",
+    "POR",
+    "SA",
+    "SAS",
+    "DAL",
+    "SAC",
+    "LAL",
+    "LAC",
+    "MIA"
+   ],
+   "2026-11-05": [
+    "PHX",
+    "PHO",
+    "ORL",
+    "GS",
+    "GSW",
+    "MIA"
+   ],
+   "2026-11-06": [
+    "ATL",
+    "WSH",
+    "WAS",
+    "CHA",
+    "BOS",
+    "CLE",
+    "PHI",
+    "PHL",
+    "DAL",
+    "UTAH",
+    "UTA",
+    "MEM",
+    "OKC",
+    "MIL",
+    "TOR",
+    "NO",
+    "NOP",
+    "MIN",
+    "LAL",
+    "POR",
+    "SAC",
+    "SA",
+    "SAS"
+   ],
+   "2026-11-07": [
+    "IND",
+    "DEN",
+    "ATL",
+    "BKN",
+    "CLE",
+    "NY",
+    "NYK",
+    "OKC",
+    "WSH",
+    "WAS",
+    "GS",
+    "GSW",
+    "ORL",
+    "PHX",
+    "PHO",
+    "HOU",
+    "POR",
+    "SA",
+    "SAS"
+   ],
+   "2026-11-08": [
+    "CHI",
+    "PHI",
+    "PHL",
+    "DET",
+    "LAL",
+    "MIN",
+    "UTAH",
+    "UTA",
+    "DAL",
+    "BKN",
+    "MIL",
+    "BOS",
+    "LAC",
+    "NO",
+    "NOP",
+    "SAC",
+    "MIA"
+   ],
+   "2026-11-09": [
+    "ATL",
+    "LAL",
+    "CHA",
+    "CLE",
+    "DET",
+    "WSH",
+    "WAS",
+    "TOR",
+    "MEM",
+    "DAL",
+    "IND",
+    "HOU",
+    "DEN",
+    "PHX",
+    "PHO",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "NO",
+    "NOP"
+   ],
+   "2026-11-10": [
+    "NY",
+    "NYK",
+    "MIL",
+    "PHI",
+    "PHL",
+    "BOS",
+    "PHX",
+    "PHO",
+    "LAC",
+    "UTAH",
+    "UTA",
+    "MIA",
+    "SAC",
+    "ORL",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-11": [
+    "IND",
+    "WSH",
+    "WAS",
+    "NY",
+    "NYK",
+    "CLE",
+    "TOR",
+    "BOS",
+    "CHI",
+    "SA",
+    "SAS",
+    "MEM",
+    "DEN",
+    "MIL",
+    "LAL",
+    "NO",
+    "NOP",
+    "BKN",
+    "UTAH",
+    "UTA",
+    "ORL",
+    "HOU",
+    "GS",
+    "GSW",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-12": [
+    "PHI",
+    "PHL",
+    "TOR",
+    "WSH",
+    "WAS",
+    "DET",
+    "MIN",
+    "DAL",
+    "PHX",
+    "PHO",
+    "CHA"
+   ],
+   "2026-11-13": [
+    "IND",
+    "NY",
+    "NYK",
+    "ORL",
+    "MIL",
+    "MIA",
+    "CLE",
+    "CHI",
+    "ATL",
+    "NO",
+    "NOP",
+    "MEM",
+    "HOU",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "SAC",
+    "POR",
+    "LAC",
+    "OKC"
+   ],
+   "2026-11-14": [
+    "NO",
+    "NOP",
+    "DEN",
+    "CLE",
+    "DAL",
+    "MIA",
+    "DET",
+    "MEM",
+    "BKN",
+    "MIN",
+    "CHI"
+   ],
+   "2026-11-15": [
+    "PHI",
+    "PHL",
+    "IND",
+    "PHX",
+    "PHO",
+    "LAL",
+    "LAC",
+    "CHA",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "BOS",
+    "DAL",
+    "TOR",
+    "NY",
+    "NYK",
+    "WSH",
+    "WAS",
+    "HOU",
+    "MIL",
+    "ATL",
+    "SAC",
+    "OKC"
+   ]
+  }
+ },
  "log": [
   {
    "date": "2026-11-02T18:11:56.754000",
@@ -12395,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 23.9
+  "run_seconds": 2.6
  }
 }
