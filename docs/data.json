@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:50:24.470383Z",
+ "updated": "2026-11-02T23:00:36.167148Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1755,7 +1755,7 @@
     "name": "Jalen Johnson",
     "pos": "PF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "ATL",
     "avg": {
      "PTS": 18.285714285714285,
@@ -2113,7 +2113,7 @@
    {
     "name": "Matisse Thybulle",
     "pos": "SF",
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -2174,7 +2174,7 @@
    {
     "name": "Christian Braun",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -6678,7 +6678,7 @@
    "name": "Jalen Smith",
    "pos": "PF",
    "team": "CHI",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -9577,7 +9577,7 @@
    "name": "Jose Alvarado",
    "pos": "PG",
    "team": "NYK",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.0,
@@ -11547,6 +11547,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Coby White: Won't start in season debut",
+   "link": "https://www.rotowire.com//basketball/player/coby-white-4801",
+   "published": "Mon, 02 Nov 2026 2:56:00 PM PST",
+   "summary": "White will come off the bench and have his minutes monitored during Monday's game against Detroit, Owen O'Connor of SI.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Nic Claxton: Out again Monday",
+   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
+   "published": "Mon, 02 Nov 2026 2:48:00 PM PST",
+   "summary": "Claxton (hamstring) is out for Monday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dejounte Murray: Listed out Monday",
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Mon, 02 Nov 2026 2:33:00 PM PST",
@@ -11565,20 +11579,6 @@
    "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
    "published": "Mon, 02 Nov 2026 1:20:00 PM PST",
    "summary": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Draymond Green: Cleared to suit up",
-   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
-   "published": "Mon, 02 Nov 2026 1:07:00 PM PST",
-   "summary": "Green (back) is available Monday against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Stephen Curry: Set to return Monday",
-   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
-   "published": "Mon, 02 Nov 2026 1:05:00 PM PST",
-   "summary": "Curry (rest) is available Monday against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12866,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 4.9
  }
 }
