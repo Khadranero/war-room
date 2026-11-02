@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:10:23.060042Z",
+ "updated": "2026-11-02T18:20:35.383370Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1350,7 +1350,7 @@
    {
     "name": "Stephen Curry",
     "pos": "PG",
-    "slot": "IR",
+    "slot": "UT",
     "injury": "DAY_TO_DAY",
     "team": "GSW",
     "avg": {
@@ -1629,8 +1629,8 @@
    {
     "name": "Andrew Nembhard",
     "pos": "PG",
-    "slot": "UT",
-    "injury": "ACTIVE",
+    "slot": "IR",
+    "injury": "OUT",
     "team": "IND",
     "avg": {
      "PTS": 18.5,
@@ -1716,6 +1716,36 @@
      "FG%": 0.463,
      "FT%": 0.739,
      "TO": 1.1066666666666667,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Yves Missi",
+    "pos": "C",
+    "slot": "IR",
+    "injury": "OUT",
+    "team": "NOP",
+    "avg": {
+     "PTS": 9.5,
+     "REB": 7.5,
+     "AST": 2.5,
+     "STL": 1.0,
+     "BLK": 2.0,
+     "3PM": 0.0,
+     "FG%": 0.88888889,
+     "FT%": 0.75,
+     "TO": 0.5,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 7.537313432835821,
+     "REB": 7.507462686567164,
+     "AST": 1.5970149253731343,
+     "STL": 0.40298507462686567,
+     "BLK": 1.8059701492537314,
+     "FG%": 0.545,
+     "FT%": 0.575,
+     "TO": 1.0,
      "_src": "2027_projected"
     }
    }
@@ -5749,6 +5779,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-02T18:11:56.754000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Yves Missi"
+  },
+  {
    "date": "2026-11-02T18:09:12.679000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -6956,36 +6992,6 @@
     "FG%": 0.649,
     "FT%": 0.462,
     "TO": 1.5063291139240507,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Yves Missi",
-   "pos": "C",
-   "team": "NOP",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 9.5,
-    "REB": 7.5,
-    "AST": 2.5,
-    "STL": 1.0,
-    "BLK": 2.0,
-    "3PM": 0.0,
-    "FG%": 0.88888889,
-    "FT%": 0.75,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.537313432835821,
-    "REB": 7.507462686567164,
-    "AST": 1.5970149253731343,
-    "STL": 0.40298507462686567,
-    "BLK": 1.8059701492537314,
-    "FG%": 0.545,
-    "FT%": 0.575,
-    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -8405,7 +8411,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 12.166666666666666,
@@ -11289,7 +11295,7 @@
    "name": "Larry Nance Jr.",
    "pos": "PF",
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 3.2857142857142856,
@@ -11517,9 +11523,47 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Goga Bitadze",
+   "pos": "C",
+   "team": "ORL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.6,
+    "REB": 2.8,
+    "AST": 0.4,
+    "STL": 0.2,
+    "BLK": 0.4,
+    "3PM": 0.0,
+    "FG%": 0.4,
+    "FT%": 0.90909091,
+    "TO": 0.4,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 5.030769230769231,
+    "REB": 4.3076923076923075,
+    "AST": 1.2,
+    "STL": 0.5076923076923077,
+    "BLK": 0.9076923076923077,
+    "3PM": 0.03076923076923077,
+    "FG%": 0.659,
+    "FT%": 0.695,
+    "TO": 0.6,
+    "_src": "2027_projected"
+   }
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Andrew Nembhard: Taking night off",
+   "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
+   "published": "Mon, 02 Nov 2026 10:10:00 AM PST",
+   "summary": "Nembhard (cervical strain) is out for Monday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Pascal Siakam: Resting against Hawks",
@@ -11547,13 +11591,6 @@
    "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
    "published": "Mon, 02 Nov 2026 9:05:00 AM PST",
    "summary": "Black will be rested Monday against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Isaiah Collier: Utah to decline option",
-   "link": "https://www.rotowire.com//basketball/player/isaiah-collier-6260",
-   "published": "Mon, 02 Nov 2026 8:53:00 AM PST",
-   "summary": "The Jazz will decline Collier's $4.99 million team option for the 2027-28 season, Michael Scotto of HoopsHype.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12029,6 +12066,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-02T18:11:56.754000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Yves Missi"
+  },
   {
    "date": "2026-11-02T18:09:12.679000",
    "team": "Crackheads",
@@ -12835,6 +12878,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 3.3
  }
 }
