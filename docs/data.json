@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T02:00:31.206947Z",
+ "updated": "2026-11-02T02:10:22.458196Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -1348,11 +1348,11 @@
     "avg": {
      "PTS": 13.4,
      "REB": 4.2,
-     "AST": 4.0,
+     "AST": 4.2,
      "STL": 1.2,
      "BLK": 0.4,
      "3PM": 1.8,
-     "FG%": 0.43636364,
+     "FG%": 0.42857143,
      "FT%": 0.66666667,
      "TO": 1.4,
      "_src": "2027_last_15"
@@ -1378,7 +1378,7 @@
     "team": "GSW",
     "avg": {
      "PTS": 17.714285714285715,
-     "REB": 6.857142857142857,
+     "REB": 6.714285714285714,
      "AST": 3.142857142857143,
      "STL": 0.7142857142857143,
      "BLK": 0.42857142857142855,
@@ -1502,9 +1502,9 @@
     "team": "LAC",
     "avg": {
      "PTS": 6.833333333333333,
-     "REB": 3.8333333333333335,
+     "REB": 3.6666666666666665,
      "AST": 5.0,
-     "STL": 2.0,
+     "STL": 2.1666666666666665,
      "BLK": 0.6666666666666666,
      "3PM": 0.8333333333333334,
      "FG%": 0.5,
@@ -2805,7 +2805,7 @@
     "team": "LAC",
     "avg": {
      "PTS": 7.5,
-     "REB": 5.333333333333333,
+     "REB": 5.5,
      "AST": 2.1666666666666665,
      "STL": 1.6666666666666667,
      "BLK": 1.0,
@@ -3756,15 +3756,15 @@
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
-     "PTS": 12.0,
-     "REB": 4.0,
-     "AST": 3.3333333333333335,
+     "PTS": 12.333333333333334,
+     "REB": 4.333333333333333,
+     "AST": 3.5,
      "STL": 0.8333333333333334,
      "BLK": 0.16666666666666666,
      "3PM": 1.6666666666666667,
      "FG%": 0.28571429,
-     "FT%": 0.87179487,
-     "TO": 2.3333333333333335,
+     "FT%": 0.87804878,
+     "TO": 2.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4129,13 +4129,13 @@
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
-     "PTS": 11.833333333333334,
+     "PTS": 12.333333333333334,
      "REB": 4.166666666666667,
      "AST": 1.0,
      "STL": 0.16666666666666666,
      "BLK": 1.0,
-     "3PM": 1.1666666666666667,
-     "FG%": 0.57446809,
+     "3PM": 1.3333333333333333,
+     "FG%": 0.57142857,
      "FT%": 0.83333333,
      "TO": 1.1666666666666667,
      "_src": "2027_last_15"
@@ -6787,7 +6787,7 @@
    "pct": null,
    "avg": {
     "PTS": 7.5,
-    "REB": 5.333333333333333,
+    "REB": 5.5,
     "AST": 2.1666666666666665,
     "STL": 1.6666666666666667,
     "BLK": 1.0,
@@ -8795,7 +8795,7 @@
    "pct": null,
    "avg": {
     "PTS": 9.714285714285714,
-    "REB": 2.4285714285714284,
+    "REB": 2.5714285714285716,
     "AST": 2.2857142857142856,
     "STL": 1.0,
     "BLK": 0.14285714285714285,
@@ -9181,15 +9181,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.4,
-    "REB": 3.2,
-    "AST": 0.2,
-    "STL": 0.4,
-    "BLK": 0.4,
-    "3PM": 1.0,
-    "FG%": 0.5,
+    "PTS": 5.333333333333333,
+    "REB": 2.8333333333333335,
+    "AST": 0.16666666666666666,
+    "STL": 0.3333333333333333,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.8333333333333334,
+    "FG%": 0.47619048,
     "FT%": 0.875,
-    "TO": 1.4,
+    "TO": 1.1666666666666667,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9312,13 +9312,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
+    "PTS": 4.5,
     "REB": 3.1666666666666665,
     "AST": 0.6666666666666666,
     "STL": 0.3333333333333333,
     "BLK": 0.5,
-    "3PM": 1.0,
-    "FG%": 0.42857143,
+    "3PM": 1.1666666666666667,
+    "FG%": 0.41666667,
     "FT%": 0.0,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -11403,6 +11403,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kingston Flemings: Suspended one game",
+   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
+   "published": "Sun, 01 Nov 2026 6:03:00 PM PST",
+   "summary": "Flemings (suspension) won't play in Monday's game against Indiana, Andrew Schlecht of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jakob Poeltl: Late scratch Sunday",
    "link": "https://www.rotowire.com//basketball/player/jakob-poeltl-3870",
    "published": "Sun, 01 Nov 2026 5:45:00 PM PST",
@@ -11428,13 +11435,6 @@
    "link": "https://www.rotowire.com//basketball/player/rudy-gobert-3440",
    "published": "Sun, 01 Nov 2026 3:05:00 PM PST",
    "summary": "Gobert (back) is not listed on the injury report for Monday's game against Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Coby White: Not on injury report for Monday",
-   "link": "https://www.rotowire.com//basketball/player/coby-white-4801",
-   "published": "Sun, 01 Nov 2026 2:12:00 PM PST",
-   "summary": "White (calf) is not listed on the injury report for Monday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12538,6 +12538,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.5
  }
 }
