@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T14:50:23.148873Z",
+ "updated": "2026-11-02T15:00:33.350200Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1412,7 +1412,7 @@
    {
     "name": "LeBron James",
     "pos": "SF",
-    "slot": "IR",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -1443,7 +1443,7 @@
    {
     "name": "Darius Garland",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -1536,7 +1536,7 @@
    {
     "name": "Darius Acuff Jr.",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -1623,37 +1623,6 @@
      "FG%": 0.471,
      "FT%": 0.789,
      "TO": 2.295774647887324,
-     "_src": "2027_projected"
-    }
-   },
-   {
-    "name": "Jalen Smith",
-    "pos": "PF",
-    "slot": "BE",
-    "injury": "DAY_TO_DAY",
-    "team": "CHI",
-    "avg": {
-     "PTS": 12.0,
-     "REB": 8.833333333333334,
-     "AST": 1.6666666666666667,
-     "STL": 0.5,
-     "BLK": 1.0,
-     "3PM": 1.5,
-     "FG%": 0.45762712,
-     "FT%": 0.81818182,
-     "TO": 1.0,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 9.787878787878787,
-     "REB": 6.393939393939394,
-     "AST": 1.196969696969697,
-     "STL": 0.3939393939393939,
-     "BLK": 0.803030303030303,
-     "3PM": 1.4242424242424243,
-     "FG%": 0.485,
-     "FT%": 0.749,
-     "TO": 0.8939393939393939,
      "_src": "2027_projected"
     }
    },
@@ -5749,6 +5718,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-02T14:58:52.995000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Jalen Smith"
+  },
+  {
    "date": "2026-11-02T12:29:35.878000",
    "team": "AARON VENGERS",
    "action": "DROPPED",
@@ -6690,6 +6665,37 @@
     "FG%": 0.653,
     "FT%": 0.706,
     "TO": 0.9027777777777778,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jalen Smith",
+   "pos": "PF",
+   "team": "CHI",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 12.0,
+    "REB": 8.833333333333334,
+    "AST": 1.6666666666666667,
+    "STL": 0.5,
+    "BLK": 1.0,
+    "3PM": 1.5,
+    "FG%": 0.45762712,
+    "FT%": 0.81818182,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.787878787878787,
+    "REB": 6.393939393939394,
+    "AST": 1.196969696969697,
+    "STL": 0.3939393939393939,
+    "BLK": 0.803030303030303,
+    "3PM": 1.4242424242424243,
+    "FG%": 0.485,
+    "FT%": 0.749,
+    "TO": 0.8939393939393939,
     "_src": "2027_projected"
    }
   },
@@ -11509,26 +11515,6 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Tarris Reed Jr.",
-   "pos": "C",
-   "team": "SAS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 2.0,
-    "REB": 2.6666666666666665,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.75,
-    "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   }
  ],
  "news": [
@@ -12041,6 +12027,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-02T14:58:52.995000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Jalen Smith"
+  },
   {
    "date": "2026-11-02T12:29:35.878000",
    "team": "AARON VENGERS",
@@ -12835,6 +12827,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.0
+  "run_seconds": 3.5
  }
 }
