@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:50:22.647329Z",
+ "updated": "2026-11-02T05:00:29.969560Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -9240,7 +9240,7 @@
    "name": "Gui Santos",
    "pos": "SF",
    "team": "GSW",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.166666666666667,
@@ -11449,171 +11449,177 @@
   }
  ],
  "games": {
-  "today": "2026-11-01",
-  "days_left": 1,
+  "today": "2026-11-02",
+  "days_left": 7,
   "by_team": {
    "CLE": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "OKC": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "CHA": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "DET": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "IND": {
-    "rest": 0,
-    "next": 3
+    "rest": 3,
+    "next": 4
    },
    "ATL": {
-    "rest": 0,
-    "next": 4
-   },
-   "NY": {
-    "rest": 0,
+    "rest": 4,
     "next": 3
    },
-   "BKN": {
-    "rest": 0,
+   "NY": {
+    "rest": 3,
     "next": 4
    },
+   "BKN": {
+    "rest": 4,
+    "next": 2
+   },
    "ORL": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "WSH": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "PHI": {
-    "rest": 0,
-    "next": 4
+    "rest": 4,
+    "next": 3
    },
    "CHI": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "DAL": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "SAC": {
-    "rest": 0,
-    "next": 4
-   },
-   "MEM": {
-    "rest": 0,
+    "rest": 4,
     "next": 3
    },
+   "MEM": {
+    "rest": 3,
+    "next": 4
+   },
    "NO": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "MIN": {
-    "rest": 0,
-    "next": 4
+    "rest": 4,
+    "next": 2
    },
    "MIL": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "HOU": {
-    "rest": 0,
-    "next": 3
-   },
-   "BOS": {
-    "rest": 0,
+    "rest": 3,
     "next": 4
    },
+   "BOS": {
+    "rest": 4,
+    "next": 3
+   },
    "SA": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "UTAH": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "DEN": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "POR": {
-    "rest": 0,
-    "next": 4
+    "rest": 4,
+    "next": 3
    },
    "GS": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "PHX": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "LAC": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "TOR": {
-    "rest": 0,
-    "next": 3
+    "rest": 3,
+    "next": 4
    },
    "LAL": {
-    "rest": 0,
-    "next": 4
+    "rest": 4,
+    "next": 3
    },
    "MIA": {
-    "rest": 0,
-    "next": 4
+    "rest": 4,
+    "next": 3
    },
    "GSW": {
-    "rest": 0,
+    "rest": 3,
     "next": 3
    },
    "NYK": {
-    "rest": 0,
-    "next": 3
+    "rest": 3,
+    "next": 4
    },
    "NOP": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "SAS": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "UTA": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "PHL": {
-    "rest": 0,
-    "next": 4
+    "rest": 4,
+    "next": 3
    },
    "WAS": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    },
    "PHO": {
-    "rest": 0,
+    "rest": 4,
     "next": 4
    }
   },
   "days": [
-   "2026-11-01",
    "2026-11-02",
    "2026-11-03",
    "2026-11-04",
    "2026-11-05",
    "2026-11-06",
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-09",
+   "2026-11-10",
+   "2026-11-11",
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15"
   ],
   "by_day": {
    "2026-11-02": [
@@ -11765,6 +11771,152 @@
     "NOP",
     "SAC",
     "MIA"
+   ],
+   "2026-11-09": [
+    "ATL",
+    "LAL",
+    "CHA",
+    "CLE",
+    "DET",
+    "WSH",
+    "WAS",
+    "TOR",
+    "MEM",
+    "DAL",
+    "IND",
+    "HOU",
+    "DEN",
+    "PHX",
+    "PHO",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "NO",
+    "NOP"
+   ],
+   "2026-11-10": [
+    "NY",
+    "NYK",
+    "MIL",
+    "PHI",
+    "PHL",
+    "BOS",
+    "PHX",
+    "PHO",
+    "LAC",
+    "UTAH",
+    "UTA",
+    "MIA",
+    "SAC",
+    "ORL",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-11": [
+    "IND",
+    "WSH",
+    "WAS",
+    "NY",
+    "NYK",
+    "CLE",
+    "TOR",
+    "BOS",
+    "CHI",
+    "SA",
+    "SAS",
+    "MEM",
+    "DEN",
+    "MIL",
+    "LAL",
+    "NO",
+    "NOP",
+    "BKN",
+    "UTAH",
+    "UTA",
+    "ORL",
+    "HOU",
+    "GS",
+    "GSW",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-12": [
+    "PHI",
+    "PHL",
+    "TOR",
+    "WSH",
+    "WAS",
+    "DET",
+    "MIN",
+    "DAL",
+    "PHX",
+    "PHO",
+    "CHA"
+   ],
+   "2026-11-13": [
+    "IND",
+    "NY",
+    "NYK",
+    "ORL",
+    "MIL",
+    "MIA",
+    "CLE",
+    "CHI",
+    "ATL",
+    "NO",
+    "NOP",
+    "MEM",
+    "HOU",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "SAC",
+    "POR",
+    "LAC",
+    "OKC"
+   ],
+   "2026-11-14": [
+    "NO",
+    "NOP",
+    "DEN",
+    "CLE",
+    "DAL",
+    "MIA",
+    "DET",
+    "MEM",
+    "BKN",
+    "MIN",
+    "CHI"
+   ],
+   "2026-11-15": [
+    "PHI",
+    "PHL",
+    "IND",
+    "PHX",
+    "PHO",
+    "LAL",
+    "LAC",
+    "CHA",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "BOS",
+    "DAL",
+    "TOR",
+    "NY",
+    "NYK",
+    "WSH",
+    "WAS",
+    "HOU",
+    "MIL",
+    "ATL",
+    "SAC",
+    "OKC"
    ]
   }
  },
@@ -12545,6 +12697,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 2.5
  }
 }
