@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:51:54.941659Z",
+ "updated": "2026-11-02T20:00:37.593670Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2207,7 +2207,7 @@
    {
     "name": "Jayson Tatum",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -2351,7 +2351,7 @@
    {
     "name": "Dejounte Murray",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
@@ -2537,7 +2537,7 @@
    {
     "name": "Zach LaVine",
     "pos": "SG",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "SAC",
     "avg": {
@@ -2568,7 +2568,7 @@
    {
     "name": "Aaron Wiggins",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2599,7 +2599,7 @@
    {
     "name": "Ja'Kobe Walter",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -12866,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 3.9
  }
 }
