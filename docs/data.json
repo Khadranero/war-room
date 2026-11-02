@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:20:29.260580Z",
+ "updated": "2026-11-02T20:30:30.667941Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8110,15 +8110,6 @@
    }
   },
   {
-   "name": "Cam Thomas",
-   "pos": "SG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Khaman Maluach",
    "pos": "C",
    "team": "PHO",
@@ -8148,6 +8139,15 @@
     "TO": 1.4,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Cam Thomas",
+   "pos": "SG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
   },
   {
    "name": "D'Angelo Russell",
@@ -8602,6 +8602,26 @@
    }
   },
   {
+   "name": "Quenton Jackson",
+   "pos": "PG",
+   "team": "IND",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.714285714285714,
+    "REB": 2.4285714285714284,
+    "AST": 2.7142857142857144,
+    "STL": 1.0,
+    "BLK": 0.14285714285714285,
+    "3PM": 0.8571428571428571,
+    "FG%": 0.46666667,
+    "FT%": 0.86666667,
+    "TO": 0.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Jaylon Tyson",
    "pos": "SG",
    "team": "CLE",
@@ -8631,26 +8651,6 @@
     "TO": 1.5,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Quenton Jackson",
-   "pos": "PG",
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.714285714285714,
-    "REB": 2.4285714285714284,
-    "AST": 2.7142857142857144,
-    "STL": 1.0,
-    "BLK": 0.14285714285714285,
-    "3PM": 0.8571428571428571,
-    "FG%": 0.46666667,
-    "FT%": 0.86666667,
-    "TO": 0.5714285714285714,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Luguentz Dort",
@@ -9023,36 +9023,6 @@
    }
   },
   {
-   "name": "Ryan Kalkbrenner",
-   "pos": "C",
-   "team": "CHA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.428571428571429,
-    "REB": 4.142857142857143,
-    "AST": 1.7142857142857142,
-    "STL": 0.42857142857142855,
-    "BLK": 1.1428571428571428,
-    "3PM": 0.0,
-    "FG%": 0.82352941,
-    "FT%": 0.75,
-    "TO": 0.8571428571428571,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.6231884057971016,
-    "REB": 5.898550724637682,
-    "AST": 0.7971014492753623,
-    "STL": 0.5072463768115942,
-    "BLK": 1.5942028985507246,
-    "FG%": 0.686,
-    "FT%": 0.727,
-    "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Kasparas Jakucionis",
    "pos": "PG",
    "team": "MIL",
@@ -9093,6 +9063,36 @@
    "proj": {}
   },
   {
+   "name": "Ryan Kalkbrenner",
+   "pos": "C",
+   "team": "CHA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.428571428571429,
+    "REB": 4.142857142857143,
+    "AST": 1.7142857142857142,
+    "STL": 0.42857142857142855,
+    "BLK": 1.1428571428571428,
+    "3PM": 0.0,
+    "FG%": 0.82352941,
+    "FT%": 0.75,
+    "TO": 0.8571428571428571,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.6231884057971016,
+    "REB": 5.898550724637682,
+    "AST": 0.7971014492753623,
+    "STL": 0.5072463768115942,
+    "BLK": 1.5942028985507246,
+    "FG%": 0.686,
+    "FT%": 0.727,
+    "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Bones Hyland",
    "pos": "PG",
    "team": "MIN",
@@ -9122,6 +9122,26 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Jordan Goodwin",
+   "pos": "PG",
+   "team": "PHO",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.75,
+    "REB": 3.75,
+    "AST": 2.75,
+    "STL": 1.75,
+    "BLK": 0.0,
+    "3PM": 2.25,
+    "FG%": 0.41935484,
+    "FT%": 0.0,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "GG Jackson",
@@ -9184,26 +9204,6 @@
     "TO": 1.6029411764705883,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Jordan Goodwin",
-   "pos": "PG",
-   "team": "PHO",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.75,
-    "REB": 3.75,
-    "AST": 2.75,
-    "STL": 1.75,
-    "BLK": 0.0,
-    "3PM": 2.25,
-    "FG%": 0.41935484,
-    "FT%": 0.0,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Bradley Beal",
@@ -9410,6 +9410,15 @@
    "proj": {}
   },
   {
+   "name": "Chris Paul",
+   "pos": "PG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Al Horford",
    "pos": "C",
    "team": "GSW",
@@ -9439,15 +9448,6 @@
     "TO": 0.8035714285714286,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Chris Paul",
-   "pos": "PG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
   },
   {
    "name": "Nikola Jovic",
@@ -9636,26 +9636,6 @@
    }
   },
   {
-   "name": "Jay Huff",
-   "pos": "C",
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.0,
-    "REB": 3.3333333333333335,
-    "AST": 1.0,
-    "STL": 0.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.5,
-    "FT%": 1.0,
-    "TO": 0.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Luke Kennard",
    "pos": "SG",
    "team": "PHO",
@@ -9685,6 +9665,26 @@
     "TO": 0.7972972972972973,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Jay Huff",
+   "pos": "C",
+   "team": "IND",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.0,
+    "REB": 3.3333333333333335,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.5,
+    "FT%": 1.0,
+    "TO": 0.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Sam Merrill",
@@ -9870,6 +9870,26 @@
    }
   },
   {
+   "name": "Max Strus",
+   "pos": "SF",
+   "team": "LAC",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 9.850746268656716,
+    "REB": 4.0,
+    "AST": 3.1940298507462686,
+    "STL": 0.7014925373134329,
+    "BLK": 0.29850746268656714,
+    "3PM": 2.044776119402985,
+    "FG%": 0.423,
+    "FT%": 0.798,
+    "TO": 1.1940298507462686,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Luke Kornet",
    "pos": "C",
    "team": "SAS",
@@ -9896,26 +9916,6 @@
     "FG%": 0.665,
     "FT%": 0.796,
     "TO": 0.29577464788732394,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Max Strus",
-   "pos": "SF",
-   "team": "LAC",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {
-    "PTS": 9.850746268656716,
-    "REB": 4.0,
-    "AST": 3.1940298507462686,
-    "STL": 0.7014925373134329,
-    "BLK": 0.29850746268656714,
-    "3PM": 2.044776119402985,
-    "FG%": 0.423,
-    "FT%": 0.798,
-    "TO": 1.1940298507462686,
     "_src": "2027_projected"
    }
   },
@@ -10073,6 +10073,26 @@
    }
   },
   {
+   "name": "Kobe Sanders",
+   "pos": "SG",
+   "team": "LAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.5,
+    "REB": 3.0,
+    "AST": 2.0,
+    "STL": 1.5,
+    "BLK": 0.0,
+    "3PM": 1.5,
+    "FG%": 0.46153846,
+    "FT%": 1.0,
+    "TO": 1.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Hugo Gonzalez",
    "pos": "SF",
    "team": "BOS",
@@ -10133,26 +10153,6 @@
     "TO": 0.6935483870967742,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Kobe Sanders",
-   "pos": "SG",
-   "team": "LAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.5,
-    "REB": 3.0,
-    "AST": 2.0,
-    "STL": 1.5,
-    "BLK": 0.0,
-    "3PM": 1.5,
-    "FG%": 0.46153846,
-    "FT%": 1.0,
-    "TO": 1.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "AJ Green",
@@ -11579,104 +11579,6 @@
    "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
    "published": "Mon, 02 Nov 2026 10:51:00 AM PST",
    "summary": "Irving (knee) is now doubtful for Monday against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "Wide-open title and MVP races: How the NBA has cracked open in just two weeks",
-   "link": "https://www.espn.com/nba/story/_/id/50329551/finals-title-race-injuries-2026-27",
-   "published": "Mon, 2 Nov 2026 10:30:29 EST",
-   "summary": "The season is still young, but injuries and surprising developments have already changed narratives."
-  },
-  {
-   "source": "ESPN",
-   "title": "0KC: Thunder will retire Westbrook's No. 0 this season",
-   "link": "https://www.espn.com/nba/story/_/id/50360248/thunder-retire-russell-westbrook-no-0",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "The Thunder will retire Russell Westbrook's No. 0 this season. The former MVP played the first 11 of his 18 seasons in Oklahoma City."
-  },
-  {
-   "source": "ESPN",
-   "title": "ESPN's Wilbon taking leave of absence to address health issues",
-   "link": "https://www.espn.com/nba/story/_/id/50360086/wilbon-taking-leave-absence-espn-address-health-issues",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "Michael Wilbon, the longtime ESPN commentator and co-host of \"Pardon the Interruption,\" is taking a leave of absence to address health issues."
-  },
-  {
-   "source": "ESPN",
-   "title": "On 45-point night, Luka's defense steals show: 'This year, I really took a step forward'",
-   "link": "https://www.espn.com/nba/story/_/id/50356293/lakers-luka-doncic-touts-improved-defense-win-vs-raptors",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "Luka Doncic scored 45 points Sunday in the Lakers' 131-125 win over the Raptors, but it was his defensive impact that drew the most praise."
-  },
-  {
-   "source": "ESPN",
-   "title": "Warriors' Lendeborg dazzles with 37, regrets 'falling into peer pressure' to chase 40",
-   "link": "https://www.espn.com/nba/story/_/id/50356142/yaxel-lendeborg-scores-37-points-most-warriors-rookie-stephen-curry",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "Yaxel Lendeborg hit six 3s and scored 37 points -- the most by a Warriors rookie since Stephen Curry in 2010 -- as Golden State beat the Clippers on Sunday night while resting Curry and Draymond Green."
-  },
-  {
-   "source": "ESPN",
-   "title": "Hawks' Flemings suspended one game for elbowing Pelicans' McGowens in head",
-   "link": "https://www.espn.com/nba/story/_/id/50354476/hawks-flemings-suspended-elbow-head-pelicans-mcgowens",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "Hawks guard Kingston Flemings was suspended for a game by the NBA on Sunday night for intentionally elbowing Pelicans guard Bryce McGowens in the head."
-  },
-  {
-   "source": "ESPN",
-   "title": "Jeanie Buss accuses siblings of 'cloak and dagger' tactics in Lakers' family saga",
-   "link": "https://www.espn.com/nba/story/_/id/50337158/lakers-jeanie-buss-accuses-siblings-cloak-dagger-tactics",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "Jeanie Buss accused her siblings of conspiring against her in court filings responding to her siblings' ongoing effort to sell their shares in the Lakers."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83c\udfc0 Inside the stunning 72-hour Lakers sale and the uncertainty that still looms",
-   "link": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka",
-   "published": "Mon, 2 Nov 2026 14:37:14 EST",
-   "summary": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings."
-  },
-  {
-   "source": "ESPN",
-   "title": "Jaylen Brown shows appreciation for rare, expensive piece in Boston apartment",
-   "link": "https://www.espn.com/nba/story/_/id/50359641/jaylen-brown-keeping-boston-apartment",
-   "published": "Mon, 2 Nov 2026 14:39:57 EST",
-   "summary": "The Sixers guard's Boston apartment contains possession of some rare pieces."
-  },
-  {
-   "source": "ESPN",
-   "title": "Thunder's $500 million problem: Execs on what they could -- and should -- do",
-   "link": "https://www.espn.com/nba/story/_/id/50322550/thunder-trade-jalen-williams-cason-wallace",
-   "published": "Sun, 1 Nov 2026 11:36:19 EST",
-   "summary": "What should OKC do after two season-altering injuries? Brian Windhorst and Tim MacMahon take the pulse of the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "An exclusive with Kevin Durant: On his time in OKC, his legacy and the Thunder's 2025 title",
-   "link": "https://www.espn.com/nba/story/_/id/50308763/kevin-durant-oklahoma-city-thunder-reflection",
-   "published": "Sun, 1 Nov 2026 11:36:19 EST",
-   "summary": "After the most acrimonious exit of his career, Durant reveals how much he appreciates Oklahoma City."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
-   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "published": "Mon, 2 Nov 2026 10:30:23 EST",
-   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
-  },
-  {
-   "source": "ESPN",
-   "title": "Seven preseason assumptions already being challenged",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50312576/fantasy-basketball-preseason-assumptions-being-challenged",
-   "published": "Thu, 29 Oct 2026 09:54:59 EST",
-   "summary": "The fantasy basketball experts go over what hasn't gone as planned during the opening week of the NBA season."
-  },
-  {
-   "source": "ESPN",
-   "title": "How good can Cooper Flagg be in Year 2? Our experts weigh in",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50301485/fantasy-basketball-cooper-flagg-improve-2026-2027",
-   "published": "Thu, 29 Oct 2026 09:54:59 EST",
-   "summary": "Andre Snellings and Eric Moody explain what to expect from the young Mavericks star -- and how good he can be -- in his second NBA season."
   }
  ],
  "games": {
@@ -12964,6 +12866,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.8
  }
 }
