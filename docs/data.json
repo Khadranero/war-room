@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T14:20:34.546628Z",
+ "updated": "2026-11-02T14:30:27.474974Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1351,7 +1351,7 @@
     "name": "Stephen Curry",
     "pos": "PG",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "GSW",
     "avg": {
      "PTS": 29.2,
@@ -6635,7 +6635,7 @@
    "name": "Draymond Green",
    "pos": "PF",
    "team": "GSW",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 3.0,
@@ -9422,7 +9422,7 @@
    "name": "Gui Santos",
    "pos": "SF",
    "team": "GSW",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.166666666666667,
@@ -12835,6 +12835,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 2.6
  }
 }
