@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:40:20.817376Z",
+ "updated": "2026-11-02T04:50:22.647329Z",
  "week": 2,
  "cats": [
   "PTS",
@@ -6268,7 +6268,7 @@
    "name": "Jakob Poeltl",
    "pos": "C",
    "team": "TOR",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 4.6,
@@ -11414,6 +11414,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scottie Barnes: Drops 29 points in Sunday's loss",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Sun, 01 Nov 2026 8:41:00 PM PST",
+   "summary": "Barnes finished Sunday's 131-125 loss to the Lakers with 29 points (11-20 FG, 0-3 3Pt, 7-13 FT), six rebounds, five assists and two steals over 36 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Luka Doncic: Spectacular Sunday vs. Toronto",
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Sun, 01 Nov 2026 8:36:00 PM PST",
@@ -11439,13 +11446,6 @@
    "link": "https://www.rotowire.com//basketball/player/derrick-jones-4083",
    "published": "Sun, 01 Nov 2026 7:47:00 PM PST",
    "summary": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kingston Flemings: Suspended one game",
-   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
-   "published": "Sun, 01 Nov 2026 6:03:00 PM PST",
-   "summary": "Flemings (suspension) won't play in Monday's game against Indiana, Andrew Schlecht of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12545,6 +12545,6 @@
   "picked_total": 11253.0,
   "direct_total": 11253.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.0
  }
 }
