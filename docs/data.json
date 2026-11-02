@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T11:00:33.850537Z",
+ "updated": "2026-11-02T11:10:22.600056Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5480,7 +5480,7 @@
    {
     "name": "Keyonte George",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -5511,7 +5511,7 @@
    {
     "name": "Stephon Castle",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5748,7 +5748,7 @@
    {
     "name": "John Collins",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -12907,6 +12907,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 3.1
  }
 }
