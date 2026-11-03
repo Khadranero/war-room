@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:00:32.831919Z",
+ "updated": "2026-11-03T06:10:22.968966Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1506,7 +1506,7 @@
     "name": "Paul George",
     "pos": "SF",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
      "PTS": 20.666666666666668,
@@ -1572,7 +1572,7 @@
     "team": "GSW",
     "avg": {
      "PTS": 17.0,
-     "REB": 4.833333333333333,
+     "REB": 5.0,
      "AST": 5.0,
      "STL": 1.1666666666666667,
      "BLK": 0.3333333333333333,
@@ -3659,7 +3659,7 @@
     "name": "Kyrie Irving",
     "pos": "PG",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "DAL",
     "avg": {
      "PTS": 21.4,
@@ -7301,7 +7301,7 @@
    "name": "Scotty Pippen Jr.",
    "pos": "PG",
    "team": "MEM",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.4,
@@ -8171,7 +8171,7 @@
     "BLK": 1.0,
     "3PM": 0.2,
     "FG%": 0.58333333,
-    "FT%": 0.8,
+    "FT%": 0.72727273,
     "TO": 1.8,
     "_src": "2027_last_15"
    },
@@ -11555,6 +11555,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Stephen Curry: Drops game-high 34 points, five triples",
+   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
+   "published": "Mon, 02 Nov 2026 10:03:00 PM PST",
+   "summary": "Curry posted 34 points (9-21 FG, 5-13 3Pt, 11-12 FT), six rebounds, seven assists and one steal across 33 minutes during Golden State's 116-113 win over Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Devin Booker: Drops 26 points in loss",
+   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
+   "published": "Mon, 02 Nov 2026 9:59:00 PM PST",
+   "summary": "Booker finished with 26 points (8-18 FG, 2-4 3Pt, 8-8 FT), three rebounds and five assists in 35 minutes during Monday's 116-113 loss to Golden State.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Luka Doncic: Posts monster double-double",
+   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
+   "published": "Mon, 02 Nov 2026 9:50:00 PM PST",
+   "summary": "Doncic erupted for 42 points (14-24 FG, 6-15 3Pt, 8-10 FT), seven rebounds, 13 assists and two steals across 36 minutes in Monday's 138-117 victory over Miami.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Giannis Antetokounmpo: Tallies 30 points in loss",
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Mon, 02 Nov 2026 9:42:00 PM PST",
@@ -11566,27 +11587,6 @@
    "link": "https://www.rotowire.com//basketball/player/meleek-thomas-6989",
    "published": "Mon, 02 Nov 2026 9:24:00 PM PST",
    "summary": "Thomas finished with 17 points (7-16 FG, 3-9 3Pt), five rebounds, one assist and one steal across 26 minutes during Monday's 117-112 loss to the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Draymond Green: Tossed vs. Suns",
-   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
-   "published": "Mon, 02 Nov 2026 8:45:00 PM PST",
-   "summary": "Green was ejected from Monday's game against Phoenix after being assessed two technical fouls, Anthony Slater of ESPN.com reports. He'll end with four points (1-2 FG, 2-2 FT), four rebounds, two assists and one steal in 17 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Lauri Markkanen: Pours in 22 points, four triples in loss",
-   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
-   "published": "Mon, 02 Nov 2026 8:31:00 PM PST",
-   "summary": "Markkanen supplied 22 points (8-16 FG, 4-7 3Pt, 2-2 FT), eight rebounds, three assists and one steal in 31 minutes during Monday's 119-97 loss to the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dylan Harper: Flirts with triple-double",
-   "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
-   "published": "Mon, 02 Nov 2026 8:24:00 PM PST",
-   "summary": "Harper finished with 17 points (6-10 FG, 1-2 3Pt, 4-5 FT), seven rebounds, eight assists and two steals in 27 minutes during Monday's 119-97 win over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12851,6 +12851,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.4
  }
 }
