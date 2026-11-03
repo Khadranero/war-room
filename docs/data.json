@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:40:26.996803Z",
+ "updated": "2026-11-03T21:50:25.235207Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3285,7 +3285,7 @@
     "name": "Josh Hart",
     "pos": "SF",
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 8.571428571428571,
@@ -11604,6 +11604,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Josh Hart: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Tue, 03 Nov 2026 1:50:00 PM PST",
+   "summary": "Hart is questionable for Wednesday's game against the Bulls due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Alex Sarr: Listed as questionable",
+   "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
+   "published": "Tue, 03 Nov 2026 1:47:00 PM PST",
+   "summary": "Sarr (knee) is listed as questionable for Wednesday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Payton Pritchard: Iffy for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
    "published": "Tue, 03 Nov 2026 1:12:00 PM PST",
@@ -11622,20 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
    "published": "Tue, 03 Nov 2026 1:11:00 PM PST",
    "summary": "George (rest) is off the injury report for Wednesday's game against the Bucks, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nic Claxton: Upgraded to questionable",
-   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
-   "published": "Tue, 03 Nov 2026 1:04:00 PM PST",
-   "summary": "Claxton (hamstring) is questionable for Wednesday against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Michael Porter: Scores 18 in loss to NYK",
-   "link": "https://www.rotowire.com//basketball/player/michael-porter-4375",
-   "published": "Tue, 03 Nov 2026 3:45:00 AM PST",
-   "summary": "Porter registered 18 points (6-13 FG, 4-11 3Pt, 2-3 FT), five rebounds, two assists, a steal and a block across 37 minutes in Monday's 103-90 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 2.9
  }
 }
