@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T00:00:34.026371Z",
+ "updated": "2026-11-03T00:10:22.837487Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2538,7 +2538,7 @@
     "name": "Zach LaVine",
     "pos": "SG",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
      "PTS": 23.5,
@@ -4632,7 +4632,7 @@
     "name": "Joel Embiid",
     "pos": "C",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
      "PTS": 19.2,
@@ -11510,6 +11510,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Joel Embiid: Good to go Monday",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Mon, 02 Nov 2026 4:03:00 PM PST",
+   "summary": "Embiid (foot) is available for Monday's game against the Bulls, Austin Krell of OnPattison.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Reed Sheppard: Good to go Monday",
    "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
    "published": "Mon, 02 Nov 2026 3:49:00 PM PST",
@@ -11535,13 +11542,6 @@
    "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
    "published": "Mon, 02 Nov 2026 3:13:00 PM PST",
    "summary": "Irving (knee) has been ruled out for Monday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Obi Toppin: Dressing but won't play Monday",
-   "link": "https://www.rotowire.com//basketball/player/obi-toppin-5109",
-   "published": "Mon, 02 Nov 2026 3:07:00 PM PST",
-   "summary": "Toppin (back) will dress for Monday's game against  Hawks but will only play in an emergency, Tony East of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12835,6 +12835,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.4
  }
 }
