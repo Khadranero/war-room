@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T23:20:21.471406Z",
+ "updated": "2026-11-03T23:30:28.191256Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7351,7 +7351,7 @@
    "name": "Scotty Pippen Jr.",
    "pos": "PG",
    "team": "MEM",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.4,
@@ -11604,6 +11604,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jakob Poeltl: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/jakob-poeltl-3870",
+   "published": "Tue, 03 Nov 2026 3:28:00 PM PST",
+   "summary": "Poeltl is questionable for Wednesday's game against the Nuggets due to left shoulder bursitis, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Scotty Pippen: Ruled out for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/scotty-pippen-5685",
    "published": "Tue, 03 Nov 2026 3:19:00 PM PST",
@@ -11629,13 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
    "published": "Tue, 03 Nov 2026 2:53:00 PM PST",
    "summary": "Murphy (knee) is probable for Wednesday's game versus the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dejounte Murray: Removed from injury report",
-   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
-   "published": "Tue, 03 Nov 2026 2:52:00 PM PST",
-   "summary": "Murray (personal) is off the injury report for Wednesday's game against Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 4.2
  }
 }
