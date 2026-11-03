@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:10:33.033601Z",
+ "updated": "2026-11-03T21:20:29.433147Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2208,7 +2208,7 @@
     "name": "Jayson Tatum",
     "pos": "PF",
     "slot": "SF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
      "PTS": 27.0,
@@ -5106,7 +5106,7 @@
     "name": "Payton Pritchard",
     "pos": "PG",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
      "PTS": 13.428571428571429,
@@ -11604,6 +11604,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Payton Pritchard: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
+   "published": "Tue, 03 Nov 2026 1:12:00 PM PST",
+   "summary": "Pritchard is listed as questionable for Wednesday's game against Milwaukee due to a right shoulder contusion, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jayson Tatum: May be rested",
+   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
+   "published": "Tue, 03 Nov 2026 1:11:00 PM PST",
+   "summary": "Tatum (rest) is questionable for Wednesday against the Bucks, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Paul George: Absent from injury report",
+   "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
+   "published": "Tue, 03 Nov 2026 1:11:00 PM PST",
+   "summary": "George (rest) is off the injury report for Wednesday's game against the Bucks, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Upgraded to questionable",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Tue, 03 Nov 2026 1:04:00 PM PST",
@@ -11615,27 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/michael-porter-4375",
    "published": "Tue, 03 Nov 2026 3:45:00 AM PST",
    "summary": "Porter registered 18 points (6-13 FG, 4-11 3Pt, 2-3 FT), five rebounds, two assists, a steal and a block across 37 minutes in Monday's 103-90 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kobe Sanders: Totals 26 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/kobe-sanders-6619",
-   "published": "Mon, 02 Nov 2026 10:18:00 PM PST",
-   "summary": "Sanders registered 26 points (8-17 FG, 5-11 3Pt, 5-5 FT), four rebounds, three assists and one block in 38 minutes during Monday's 125-118 loss to Toronto.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Near triple-double Monday",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Mon, 02 Nov 2026 10:17:00 PM PST",
-   "summary": "Barnes collected 22 points (7-15 FG, 0-3 3Pt, 8-15 FT), 15 rebounds, eight assists and two steals over 38 minutes during Toronto's 125-118 win over the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Stephen Curry: Drops game-high 34 points, five triples",
-   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
-   "published": "Mon, 02 Nov 2026 10:03:00 PM PST",
-   "summary": "Curry posted 34 points (9-21 FG, 5-13 3Pt, 11-12 FT), six rebounds, seven assists and one steal across 33 minutes during Golden State's 116-113 win over Phoenix on Monday.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.9
  }
 }
