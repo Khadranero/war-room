@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T04:20:23.241680Z",
+ "updated": "2026-11-03T04:30:29.151442Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1355,7 +1355,7 @@
     "team": "GSW",
     "avg": {
      "PTS": 25.833333333333332,
-     "REB": 3.8333333333333335,
+     "REB": 3.6666666666666665,
      "AST": 4.0,
      "STL": 1.1666666666666667,
      "BLK": 0.16666666666666666,
@@ -2386,13 +2386,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 19.0,
+     "PTS": 19.333333333333332,
      "REB": 4.333333333333333,
      "AST": 4.0,
      "STL": 1.0,
      "BLK": 0.16666666666666666,
      "3PM": 2.8333333333333335,
-     "FG%": 0.3902439,
+     "FG%": 0.39759036,
      "FT%": 0.80487805,
      "TO": 2.1666666666666665,
      "_src": "2027_last_15"
@@ -2603,14 +2603,14 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 11.142857142857142,
-     "REB": 3.7142857142857144,
-     "AST": 2.142857142857143,
+     "PTS": 11.428571428571429,
+     "REB": 3.857142857142857,
+     "AST": 2.2857142857142856,
      "STL": 1.4285714285714286,
      "BLK": 0.42857142857142855,
      "3PM": 2.4285714285714284,
      "FG%": 0.46551724,
-     "FT%": 0.63636364,
+     "FT%": 0.69230769,
      "TO": 0.5714285714285714,
      "_src": "2027_last_15"
     },
@@ -2640,7 +2640,7 @@
      "STL": 1.1666666666666667,
      "BLK": 0.3333333333333333,
      "3PM": 1.5,
-     "FG%": 0.36538462,
+     "FG%": 0.35849057,
      "FT%": 0.84615385,
      "TO": 1.5,
      "_src": "2027_last_15"
@@ -2792,12 +2792,12 @@
     "team": "POR",
     "avg": {
      "PTS": 10.0,
-     "REB": 10.333333333333334,
+     "REB": 10.5,
      "AST": 1.6666666666666667,
      "STL": 0.16666666666666666,
      "BLK": 2.3333333333333335,
      "3PM": 1.0,
-     "FG%": 0.54545455,
+     "FG%": 0.52173913,
      "FT%": 0.54545455,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -3538,13 +3538,13 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 21.166666666666668,
+     "PTS": 22.0,
      "REB": 9.666666666666666,
      "AST": 9.0,
      "STL": 2.0,
      "BLK": 1.3333333333333333,
-     "3PM": 1.0,
-     "FG%": 0.46666667,
+     "3PM": 1.1666666666666667,
+     "FG%": 0.47222222,
      "FT%": 0.88461538,
      "TO": 3.8333333333333335,
      "_src": "2027_last_15"
@@ -3600,13 +3600,13 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 26.333333333333332,
+     "PTS": 27.333333333333332,
      "REB": 5.5,
-     "AST": 5.333333333333333,
+     "AST": 5.666666666666667,
      "STL": 1.0,
-     "BLK": 0.6666666666666666,
-     "3PM": 4.166666666666667,
-     "FG%": 0.48039216,
+     "BLK": 0.8333333333333334,
+     "3PM": 4.5,
+     "FG%": 0.48571429,
      "FT%": 0.81395349,
      "TO": 2.8333333333333335,
      "_src": "2027_last_15"
@@ -3930,13 +3930,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 12.666666666666666,
-     "REB": 4.166666666666667,
-     "AST": 4.5,
+     "PTS": 13.166666666666666,
+     "REB": 4.5,
+     "AST": 4.833333333333333,
      "STL": 1.1666666666666667,
-     "BLK": 0.16666666666666666,
-     "3PM": 1.8333333333333333,
-     "FG%": 0.50980392,
+     "BLK": 0.3333333333333333,
+     "3PM": 2.0,
+     "FG%": 0.51923077,
      "FT%": 0.8125,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -3964,7 +3964,7 @@
      "PTS": 7.8,
      "REB": 1.8,
      "AST": 4.8,
-     "STL": 2.8,
+     "STL": 2.6,
      "BLK": 0.2,
      "3PM": 2.0,
      "FG%": 0.35,
@@ -4087,14 +4087,14 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 23.0,
+     "PTS": 23.833333333333332,
      "REB": 6.333333333333333,
-     "AST": 5.166666666666667,
+     "AST": 5.5,
      "STL": 0.8333333333333334,
      "BLK": 0.16666666666666666,
      "3PM": 1.8333333333333333,
-     "FG%": 0.4787234,
-     "FT%": 0.67272727,
+     "FG%": 0.48453608,
+     "FT%": 0.66666667,
      "TO": 2.1666666666666665,
      "_src": "2027_last_15"
     },
@@ -4335,10 +4335,10 @@
     "team": "LAC",
     "avg": {
      "PTS": 12.285714285714286,
-     "REB": 4.285714285714286,
+     "REB": 4.428571428571429,
      "AST": 1.0,
      "STL": 0.42857142857142855,
-     "BLK": 0.8571428571428571,
+     "BLK": 1.0,
      "3PM": 1.2857142857142858,
      "FG%": 0.55932203,
      "FT%": 0.78571429,
@@ -4709,9 +4709,9 @@
     "team": "PHO",
     "avg": {
      "PTS": 15.2,
-     "REB": 7.0,
+     "REB": 6.8,
      "AST": 2.0,
-     "STL": 0.8,
+     "STL": 1.0,
      "BLK": 1.0,
      "3PM": 1.4,
      "FG%": 0.46875,
@@ -5132,12 +5132,12 @@
     "team": "TOR",
     "avg": {
      "PTS": 19.285714285714285,
-     "REB": 5.714285714285714,
+     "REB": 5.857142857142857,
      "AST": 3.857142857142857,
      "STL": 0.5714285714285714,
      "BLK": 0.5714285714285714,
      "3PM": 1.5714285714285714,
-     "FG%": 0.50943396,
+     "FG%": 0.5046729,
      "FT%": 0.59259259,
      "TO": 1.7142857142857142,
      "_src": "2027_last_15"
@@ -5350,13 +5350,13 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 21.571428571428573,
+     "PTS": 21.857142857142858,
      "REB": 6.571428571428571,
-     "AST": 4.571428571428571,
+     "AST": 4.714285714285714,
      "STL": 1.8571428571428572,
      "BLK": 0.7142857142857143,
      "3PM": 0.42857142857142855,
-     "FG%": 0.46616541,
+     "FG%": 0.47014925,
      "FT%": 0.75,
      "TO": 3.4285714285714284,
      "_src": "2027_last_15"
@@ -5618,13 +5618,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 13.666666666666666,
+     "PTS": 14.166666666666666,
      "REB": 2.6666666666666665,
      "AST": 1.1666666666666667,
      "STL": 1.1666666666666667,
      "BLK": 0.3333333333333333,
-     "3PM": 3.6666666666666665,
-     "FG%": 0.53846154,
+     "3PM": 3.8333333333333335,
+     "FG%": 0.54716981,
      "FT%": 1.0,
      "TO": 1.3333333333333333,
      "_src": "2027_last_15"
@@ -6444,7 +6444,7 @@
     "PTS": 7.8,
     "REB": 1.8,
     "AST": 4.8,
-    "STL": 2.8,
+    "STL": 2.6,
     "BLK": 0.2,
     "3PM": 2.0,
     "FG%": 0.35,
@@ -7397,13 +7397,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.428571428571429,
-    "REB": 4.285714285714286,
+    "PTS": 7.714285714285714,
+    "REB": 4.428571428571429,
     "AST": 1.1428571428571428,
     "STL": 1.0,
     "BLK": 0.42857142857142855,
     "3PM": 0.42857142857142855,
-    "FG%": 0.45454545,
+    "FG%": 0.45652174,
     "FT%": 0.9,
     "TO": 1.2857142857142858,
     "_src": "2027_last_15"
@@ -7555,7 +7555,7 @@
     "PTS": 11.142857142857142,
     "REB": 1.2857142857142858,
     "AST": 1.2857142857142858,
-    "STL": 0.2857142857142857,
+    "STL": 0.14285714285714285,
     "BLK": 0.14285714285714285,
     "3PM": 3.142857142857143,
     "FG%": 0.42857143,
@@ -7677,14 +7677,14 @@
    "pct": null,
    "avg": {
     "PTS": 8.0,
-    "REB": 4.666666666666667,
-    "AST": 1.6666666666666667,
+    "REB": 5.0,
+    "AST": 2.0,
     "STL": 1.0,
     "BLK": 0.0,
     "3PM": 1.3333333333333333,
     "FG%": 0.42857143,
     "FT%": 0.5,
-    "TO": 1.3333333333333333,
+    "TO": 1.6666666666666667,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9410,9 +9410,9 @@
     "STL": 0.5714285714285714,
     "BLK": 0.2857142857142857,
     "3PM": 0.7142857142857143,
-    "FG%": 0.43333333,
+    "FG%": 0.40625,
     "FT%": 0.9,
-    "TO": 1.0,
+    "TO": 1.1428571428571428,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -11555,6 +11555,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dylan Harper: Flirts with triple-double",
+   "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
+   "published": "Mon, 02 Nov 2026 8:24:00 PM PST",
+   "summary": "Harper finished with 17 points (6-10 FG, 1-2 3Pt, 4-5 FT), seven rebounds, eight assists and two steals in 27 minutes during Monday's 119-97 win over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jayson Tatum: Struggles from downtown",
+   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
+   "published": "Mon, 02 Nov 2026 8:23:00 PM PST",
+   "summary": "Tatum totaled 19 points (5-16 FG, 1-7 3Pt, 8-8 FT), six rebounds, nine assists and one steal in 32 minutes during Monday's 109-93 loss to Houston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Alperen Sengun: Posts third double-double of season",
+   "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
+   "published": "Mon, 02 Nov 2026 8:22:00 PM PST",
+   "summary": "Sengun finished with 26 points (12-15 FG, 1-2 3Pt, 1-2 FT), seven rebounds, 10 assists, two blocks and two steals across 38 minutes during Monday's 109-93 win over Boston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Daniel Gafford: Scores 20 points in Monday's loss",
    "link": "https://www.rotowire.com//basketball/player/daniel-gafford-4824",
    "published": "Mon, 02 Nov 2026 7:45:00 PM PST",
@@ -11566,27 +11587,6 @@
    "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
    "published": "Mon, 02 Nov 2026 7:45:00 PM PST",
    "summary": "Williamson closed Monday's 135-134 overtime win over the Grizzlies with 25 points (9-15 FG, 7-9 FT), 11 rebounds and four assists across 35 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ty Jerome: Strikes for 40 points in OT loss",
-   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
-   "published": "Mon, 02 Nov 2026 7:42:00 PM PST",
-   "summary": "Jerome recorded 40 points (14-22 FG, 5-6 3Pt, 7-8 FT), five rebounds, five assists and two steals in 37 minutes during Monday's 135-134 overtime loss to New Orleans.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Darius Acuff: Another strong offensive effort in win",
-   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
-   "published": "Mon, 02 Nov 2026 7:38:00 PM PST",
-   "summary": "Acuff notched 25 points (10-21 FG, 2-8 3Pt, 3-4 FT), six assists, five rebounds and one steal across 37 minutes in Monday's 115-100 win over Dallas.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "LaMelo Ball: Pops for 34 points",
-   "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
-   "published": "Mon, 02 Nov 2026 7:37:00 PM PST",
-   "summary": "Ball tallied 34 points (12-21 FG, 6-13 3Pt, 4-5 FT), six rebounds, three assists and one steal in 33 minutes during Monday's 112-100 win over Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12852,6 +12852,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 5.1
  }
 }
