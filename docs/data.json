@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:00:34.104605Z",
+ "updated": "2026-11-03T21:10:33.033601Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1506,7 +1506,7 @@
     "name": "Paul George",
     "pos": "SF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
      "PTS": 20.666666666666668,
@@ -6776,7 +6776,7 @@
    "name": "Jalen Smith",
    "pos": "PF",
    "team": "CHI",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.142857142857142,
@@ -11604,6 +11604,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Nic Claxton: Upgraded to questionable",
+   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
+   "published": "Tue, 03 Nov 2026 1:04:00 PM PST",
+   "summary": "Claxton (hamstring) is questionable for Wednesday against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Michael Porter: Scores 18 in loss to NYK",
    "link": "https://www.rotowire.com//basketball/player/michael-porter-4375",
    "published": "Tue, 03 Nov 2026 3:45:00 AM PST",
@@ -11629,13 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
    "published": "Mon, 02 Nov 2026 10:03:00 PM PST",
    "summary": "Curry posted 34 points (9-21 FG, 5-13 3Pt, 11-12 FT), six rebounds, seven assists and one steal across 33 minutes during Golden State's 116-113 win over Phoenix on Monday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Devin Booker: Drops 26 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
-   "published": "Mon, 02 Nov 2026 9:59:00 PM PST",
-   "summary": "Booker finished with 26 points (8-18 FG, 2-4 3Pt, 8-8 FT), three rebounds and five assists in 35 minutes during Monday's 116-113 loss to Golden State.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
