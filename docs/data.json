@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T23:00:32.434555Z",
+ "updated": "2026-11-03T23:10:26.671773Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8415,7 +8415,7 @@
    "name": "Mo Bamba",
    "pos": "C",
    "team": "UTA",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.0,
@@ -11604,6 +11604,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jusuf Nurkic: Still waiting for season debut",
+   "link": "https://www.rotowire.com//basketball/player/jusuf-nurkic-3580",
+   "published": "Tue, 03 Nov 2026 3:07:00 PM PST",
+   "summary": "Nurkic (foot) is out for Wednesday's game against the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Mo Bamba: Questionable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/mo-bamba-4371",
+   "published": "Tue, 03 Nov 2026 3:05:00 PM PST",
+   "summary": "Bamba is questionable for Wednesday's game in New Orleans due to a sprained right ankle.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Trey Murphy: Probable for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
    "published": "Tue, 03 Nov 2026 2:53:00 PM PST",
@@ -11622,20 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
    "published": "Tue, 03 Nov 2026 2:37:00 PM PST",
    "summary": "Caruso (ankle) is off the injury report for Wednesday's game against the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Max Christie: Ruled out for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/max-christie-5723",
-   "published": "Tue, 03 Nov 2026 2:25:00 PM PST",
-   "summary": "Christie (hip) is out for Wednesday's game against the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kyrie Irving: Not listed on injury report",
-   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
-   "published": "Tue, 03 Nov 2026 2:21:00 PM PST",
-   "summary": "Irving (knee) has been removed from the injury report ahead of Wednesday's meeting in Sacramento.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 4.1
  }
 }
