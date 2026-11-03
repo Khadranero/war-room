@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:20:22.955611Z",
+ "updated": "2026-11-03T22:25:08.916922Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3659,7 +3659,7 @@
     "name": "Kyrie Irving",
     "pos": "PG",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
      "PTS": 21.4,
@@ -8971,7 +8971,7 @@
    "name": "Max Christie",
    "pos": "SG",
    "team": "DAL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.142857142857143,
@@ -11604,6 +11604,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kyrie Irving: Not listed on injury report",
+   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
+   "published": "Tue, 03 Nov 2026 2:21:00 PM PST",
+   "summary": "Irving (knee) has been removed from the injury report ahead of Wednesday's meeting in Sacramento.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kon Knueppel: Expected to play Wednesday",
    "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
    "published": "Tue, 03 Nov 2026 2:13:00 PM PST",
@@ -11629,13 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/coby-white-4801",
    "published": "Tue, 03 Nov 2026 2:06:00 PM PST",
    "summary": "White (calf) is probable for Wednesday's game in Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Iffy for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Tue, 03 Nov 2026 1:50:00 PM PST",
-   "summary": "Hart is questionable for Wednesday's game against the Bulls due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 2.7
  }
 }
