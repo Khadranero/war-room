@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:10:22.968966Z",
+ "updated": "2026-11-03T06:20:22.174677Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5677,7 +5677,7 @@
     "name": "Derrick Jones Jr.",
     "pos": "SF",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "LAC",
     "avg": {
      "PTS": 11.5,
@@ -6408,7 +6408,7 @@
    "name": "Jakob Poeltl",
    "pos": "C",
    "team": "TOR",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 4.6,
@@ -6994,7 +6994,7 @@
    "name": "Rui Hachimura",
    "pos": "PF",
    "team": "LAC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 13.4,
@@ -9034,7 +9034,7 @@
    "name": "Brandon Williams",
    "pos": "PG",
    "team": "GSW",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 11.571428571428571,
@@ -9450,7 +9450,7 @@
    "name": "Al Horford",
    "pos": "C",
    "team": "GSW",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 5.0,
@@ -9543,7 +9543,7 @@
    "name": "Gui Santos",
    "pos": "SF",
    "team": "GSW",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.166666666666667,
@@ -11555,6 +11555,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kobe Sanders: Totals 26 points in loss",
+   "link": "https://www.rotowire.com//basketball/player/kobe-sanders-6619",
+   "published": "Mon, 02 Nov 2026 10:18:00 PM PST",
+   "summary": "Sanders registered 26 points (8-17 FG, 5-11 3Pt, 5-5 FT), four rebounds, three assists and one block in 38 minutes during Monday's 125-118 loss to Toronto.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Scottie Barnes: Near triple-double Monday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Mon, 02 Nov 2026 10:17:00 PM PST",
+   "summary": "Barnes collected 22 points (7-15 FG, 0-3 3 Pt, 8-15 FT), 15 rebounds, eight assists and two steals over 38 minutes during Toronto's 125-118 win over the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Stephen Curry: Drops game-high 34 points, five triples",
    "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
    "published": "Mon, 02 Nov 2026 10:03:00 PM PST",
@@ -11573,20 +11587,6 @@
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Mon, 02 Nov 2026 9:50:00 PM PST",
    "summary": "Doncic erupted for 42 points (14-24 FG, 6-15 3Pt, 8-10 FT), seven rebounds, 13 assists and two steals across 36 minutes in Monday's 138-117 victory over Miami.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Tallies 30 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Mon, 02 Nov 2026 9:42:00 PM PST",
-   "summary": "Antetokounmpo collected 30 points (10-17 FG, 0-3 3Pt, 10-15 FT), 12 rebounds, seven assists, one steal and two blocks in 34 minutes during Monday's 138-117 loss to the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Meleek Thomas: Scores 17 in first career start",
-   "link": "https://www.rotowire.com//basketball/player/meleek-thomas-6989",
-   "published": "Mon, 02 Nov 2026 9:24:00 PM PST",
-   "summary": "Thomas finished with 17 points (7-16 FG, 3-9 3Pt), five rebounds, one assist and one steal across 26 minutes during Monday's 117-112 loss to the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
