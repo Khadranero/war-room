@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T07:50:25.334706Z",
+ "updated": "2026-11-03T08:00:33.135466Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -97,7 +97,11 @@
  "power": [
   {
    "team": "Rubio Bzeit ",
-   "score": 62
+   "score": 55
+  },
+  {
+   "team": "Momo in Six",
+   "score": 54
   },
   {
    "team": "Crackheads",
@@ -105,503 +109,499 @@
   },
   {
    "team": "Murray Had a Little Lamb",
+   "score": 53
+  },
+  {
+   "team": "AARON VENGERS",
    "score": 52
   },
   {
    "team": "Real Men Eat Ass(ouad)",
-   "score": 52
-  },
-  {
-   "team": "Akumpo",
-   "score": 51
-  },
-  {
-   "team": "AARON VENGERS",
-   "score": 51
-  },
-  {
-   "team": "Momo in Six",
    "score": 50
   },
   {
-   "team": "Pasta Warriors",
-   "score": 46
+   "team": "Akumpo",
+   "score": 49
   },
   {
-   "team": "Team Batrouni",
-   "score": 41
+   "team": "Pasta Warriors",
+   "score": 49
   },
   {
    "team": "AllThisToBeatLeGoat",
-   "score": 36
+   "score": 41
+  },
+  {
+   "team": "Team Batrouni",
+   "score": 38
   }
  ],
  "category_table": {
   "PTS": [
    {
     "team": "Rubio Bzeit ",
-    "value": 1566.0,
+    "value": 1748.0,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 1442.0,
+    "value": 1660.0,
     "rank": 2
    },
    {
     "team": "Crackheads",
-    "value": 1354.0,
+    "value": 1542.0,
     "rank": 3
    },
    {
     "team": "Pasta Warriors",
-    "value": 1341.0,
+    "value": 1534.0,
     "rank": 4
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 1313.0,
+    "team": "AARON VENGERS",
+    "value": 1466.0,
     "rank": 5
    },
    {
-    "team": "AARON VENGERS",
-    "value": 1291.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 1464.0,
     "rank": 6
    },
    {
     "team": "Akumpo",
-    "value": 1281.0,
+    "value": 1433.0,
     "rank": 7
    },
    {
     "team": "Momo in Six",
-    "value": 1241.0,
+    "value": 1421.0,
     "rank": 8
    },
    {
     "team": "Team Batrouni",
-    "value": 1051.0,
+    "value": 1171.0,
     "rank": 9
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 954.0,
+    "value": 1098.0,
     "rank": 10
    }
   ],
   "REB": [
    {
-    "team": "Momo in Six",
-    "value": 498.0,
+    "team": "Crackheads",
+    "value": 569.0,
     "rank": 1
    },
    {
-    "team": "Crackheads",
-    "value": 490.0,
+    "team": "Momo in Six",
+    "value": 553.0,
     "rank": 2
    },
    {
     "team": "Akumpo",
-    "value": 481.0,
+    "value": 543.0,
     "rank": 3
    },
    {
     "team": "AARON VENGERS",
-    "value": 461.0,
+    "value": 513.0,
     "rank": 4
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 437.0,
+    "team": "AllThisToBeatLeGoat",
+    "value": 497.0,
     "rank": 5
    },
    {
-    "team": "Team Batrouni",
-    "value": 429.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 492.0,
     "rank": 6
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 427.0,
+    "team": "Pasta Warriors",
+    "value": 481.0,
     "rank": 7
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 420.0,
+    "value": 479.0,
     "rank": 8
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 419.0,
+    "team": "Team Batrouni",
+    "value": 479.0,
     "rank": 9
    },
    {
-    "team": "Pasta Warriors",
-    "value": 411.0,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 464.0,
     "rank": 10
    }
   ],
   "AST": [
    {
     "team": "Rubio Bzeit ",
-    "value": 406.0,
+    "value": 469.0,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 346.0,
+    "value": 404.0,
     "rank": 2
    },
    {
     "team": "Pasta Warriors",
-    "value": 295.0,
+    "value": 335.0,
     "rank": 3
    },
    {
-    "team": "Momo in Six",
-    "value": 294.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 334.0,
     "rank": 4
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 286.0,
+    "team": "Team Batrouni",
+    "value": 325.0,
     "rank": 5
    },
    {
-    "team": "Team Batrouni",
-    "value": 283.0,
+    "team": "Crackheads",
+    "value": 321.0,
     "rank": 6
    },
    {
-    "team": "Crackheads",
-    "value": 282.0,
+    "team": "Momo in Six",
+    "value": 318.0,
     "rank": 7
    },
    {
     "team": "Akumpo",
-    "value": 272.0,
+    "value": 308.0,
     "rank": 8
    },
    {
     "team": "AARON VENGERS",
-    "value": 256.0,
+    "value": 297.0,
     "rank": 9
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 226.0,
+    "value": 266.0,
     "rank": 10
    }
   ],
   "STL": [
    {
     "team": "Rubio Bzeit ",
-    "value": 104.0,
+    "value": 113.0,
     "rank": 1
    },
    {
     "team": "Crackheads",
-    "value": 97.0,
+    "value": 112.0,
     "rank": 2
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 91.0,
+    "value": 104.0,
     "rank": 3
    },
    {
-    "team": "Momo in Six",
-    "value": 85.0,
+    "team": "AARON VENGERS",
+    "value": 101.0,
     "rank": 4
    },
    {
-    "team": "AARON VENGERS",
-    "value": 84.0,
+    "team": "Momo in Six",
+    "value": 97.0,
     "rank": 5
    },
    {
-    "team": "Akumpo",
-    "value": 83.0,
+    "team": "AllThisToBeatLeGoat",
+    "value": 95.0,
     "rank": 6
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 82.0,
+    "team": "Akumpo",
+    "value": 94.0,
     "rank": 7
    },
    {
     "team": "Team Batrouni",
-    "value": 80.0,
+    "value": 89.0,
     "rank": 8
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 76.0,
+    "value": 87.0,
     "rank": 9
    },
    {
     "team": "Pasta Warriors",
-    "value": 72.0,
+    "value": 81.0,
     "rank": 10
    }
   ],
   "BLK": [
    {
     "team": "Murray Had a Little Lamb",
-    "value": 74.0,
+    "value": 85.0,
     "rank": 1
    },
    {
     "team": "Akumpo",
-    "value": 68.0,
+    "value": 76.0,
     "rank": 2
    },
    {
     "team": "Pasta Warriors",
-    "value": 60.0,
+    "value": 66.0,
     "rank": 3
    },
    {
-    "team": "Crackheads",
-    "value": 56.0,
+    "team": "AllThisToBeatLeGoat",
+    "value": 63.0,
     "rank": 4
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 55.0,
+    "team": "Crackheads",
+    "value": 63.0,
     "rank": 5
    },
    {
     "team": "Momo in Six",
-    "value": 53.0,
+    "value": 57.0,
     "rank": 6
    },
    {
     "team": "AARON VENGERS",
-    "value": 39.0,
+    "value": 45.0,
     "rank": 7
    },
    {
     "team": "Team Batrouni",
-    "value": 31.0,
+    "value": 38.0,
     "rank": 8
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 30.0,
+    "value": 31.0,
     "rank": 9
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 24.0,
+    "value": 27.0,
     "rank": 10
    }
   ],
   "3PM": [
    {
     "team": "Rubio Bzeit ",
-    "value": 171.0,
+    "value": 187.0,
     "rank": 1
    },
    {
     "team": "AARON VENGERS",
-    "value": 145.0,
+    "value": 166.0,
     "rank": 2
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 142.0,
+    "team": "Momo in Six",
+    "value": 162.0,
     "rank": 3
    },
    {
-    "team": "Momo in Six",
-    "value": 140.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 159.0,
     "rank": 4
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 137.0,
+    "value": 159.0,
     "rank": 5
    },
    {
     "team": "Akumpo",
-    "value": 134.0,
+    "value": 156.0,
     "rank": 6
    },
    {
     "team": "Crackheads",
-    "value": 123.0,
+    "value": 141.0,
     "rank": 7
    },
    {
-    "team": "Team Batrouni",
-    "value": 113.0,
+    "team": "Pasta Warriors",
+    "value": 126.0,
     "rank": 8
    },
    {
-    "team": "Pasta Warriors",
-    "value": 111.0,
+    "team": "Team Batrouni",
+    "value": 120.0,
     "rank": 9
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 86.0,
+    "value": 99.0,
     "rank": 10
    }
   ],
   "FG%": [
    {
-    "team": "Pasta Warriors",
-    "value": 1.015,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 1.497,
     "rank": 1
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 0.956,
+    "team": "Pasta Warriors",
+    "value": 1.496,
     "rank": 2
    },
    {
-    "team": "Akumpo",
-    "value": 0.949,
+    "team": "Momo in Six",
+    "value": 1.479,
     "rank": 3
    },
    {
     "team": "Crackheads",
-    "value": 0.941,
+    "value": 1.465,
     "rank": 4
    },
    {
-    "team": "Rubio Bzeit ",
-    "value": 0.931,
+    "team": "Akumpo",
+    "value": 1.379,
     "rank": 5
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 0.926,
+    "team": "Team Batrouni",
+    "value": 1.367,
     "rank": 6
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 0.911,
+    "value": 1.364,
     "rank": 7
    },
    {
-    "team": "Team Batrouni",
-    "value": 0.908,
+    "team": "AllThisToBeatLeGoat",
+    "value": 1.324,
     "rank": 8
    },
    {
-    "team": "Momo in Six",
-    "value": 0.892,
+    "team": "AARON VENGERS",
+    "value": 1.31,
     "rank": 9
    },
    {
-    "team": "AARON VENGERS",
-    "value": 0.841,
+    "team": "Rubio Bzeit ",
+    "value": 1.301,
     "rank": 10
    }
   ],
   "FT%": [
    {
-    "team": "Rubio Bzeit ",
-    "value": 1.674,
+    "team": "Murray Had a Little Lamb",
+    "value": 2.519,
     "rank": 1
    },
    {
     "team": "AARON VENGERS",
-    "value": 1.668,
+    "value": 2.478,
     "rank": 2
    },
    {
-    "team": "Team Batrouni",
-    "value": 1.63,
+    "team": "Rubio Bzeit ",
+    "value": 2.468,
     "rank": 3
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 1.609,
+    "team": "AllThisToBeatLeGoat",
+    "value": 2.404,
     "rank": 4
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 1.596,
+    "team": "Team Batrouni",
+    "value": 2.397,
     "rank": 5
    },
    {
     "team": "Akumpo",
-    "value": 1.586,
+    "value": 2.351,
     "rank": 6
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 1.576,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 2.288,
     "rank": 7
    },
    {
     "team": "Momo in Six",
-    "value": 1.546,
+    "value": 2.244,
     "rank": 8
    },
    {
     "team": "Pasta Warriors",
-    "value": 1.476,
+    "value": 2.187,
     "rank": 9
    },
    {
     "team": "Crackheads",
-    "value": 1.476,
+    "value": 2.155,
     "rank": 10
    }
   ],
   "TO": [
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 121.0,
+    "value": 134.0,
     "rank": 1
    },
    {
     "team": "Team Batrouni",
-    "value": 149.0,
+    "value": 168.0,
     "rank": 2
    },
    {
-    "team": "AARON VENGERS",
-    "value": 155.0,
+    "team": "Momo in Six",
+    "value": 179.0,
     "rank": 3
    },
    {
     "team": "Pasta Warriors",
-    "value": 160.0,
+    "value": 179.0,
     "rank": 4
    },
    {
-    "team": "Momo in Six",
-    "value": 165.0,
+    "team": "AARON VENGERS",
+    "value": 181.0,
     "rank": 5
    },
    {
-    "team": "Crackheads",
-    "value": 174.0,
+    "team": "Akumpo",
+    "value": 192.0,
     "rank": 6
    },
    {
-    "team": "Akumpo",
-    "value": 178.0,
+    "team": "Crackheads",
+    "value": 203.0,
     "rank": 7
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 179.0,
+    "value": 204.0,
     "rank": 8
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 191.0,
+    "value": 208.0,
     "rank": 9
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 223.0,
+    "value": 260.0,
     "rank": 10
    }
   ]
@@ -1061,44 +1061,44 @@
    "week": 3,
    "home": "AllThisToBeatLeGoat",
    "away": "Team Batrouni",
-   "home_score": 0,
-   "away_score": 0,
+   "home_score": 7,
+   "away_score": 2,
    "cats": {
     "PTS": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 144.0,
+     "away": 120.0
     },
     "REB": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 70.0,
+     "away": 50.0
     },
     "AST": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 40.0,
+     "away": 42.0
     },
     "STL": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 13.0,
+     "away": 9.0
     },
     "BLK": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 8.0,
+     "away": 7.0
     },
     "3PM": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 13.0,
+     "away": 7.0
     },
     "FG%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.3984375,
+     "away": 0.45977011
     },
     "FT%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.82857143,
+     "away": 0.76744186
     },
     "TO": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 13.0,
+     "away": 19.0
     }
    }
   },
@@ -1106,44 +1106,44 @@
    "week": 3,
    "home": "Pasta Warriors",
    "away": "Rubio Bzeit ",
-   "home_score": 0,
-   "away_score": 0,
+   "home_score": 5,
+   "away_score": 3,
    "cats": {
     "PTS": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 193.0,
+     "away": 182.0
     },
     "REB": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 70.0,
+     "away": 59.0
     },
     "AST": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 40.0,
+     "away": 63.0
     },
     "STL": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 9.0,
+     "away": 9.0
     },
     "BLK": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 6.0,
+     "away": 1.0
     },
     "3PM": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 15.0,
+     "away": 16.0
     },
     "FG%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.48026316,
+     "away": 0.36986301
     },
     "FT%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.71111111,
+     "away": 0.79452055
     },
     "TO": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 19.0,
+     "away": 37.0
     }
    }
   },
@@ -1151,44 +1151,44 @@
    "week": 3,
    "home": "Momo in Six",
    "away": "Akumpo",
-   "home_score": 0,
-   "away_score": 0,
+   "home_score": 3,
+   "away_score": 4,
    "cats": {
     "PTS": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 180.0,
+     "away": 152.0
     },
     "REB": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 55.0,
+     "away": 62.0
     },
     "AST": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 24.0,
+     "away": 36.0
     },
     "STL": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 12.0,
+     "away": 11.0
     },
     "BLK": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 4.0,
+     "away": 8.0
     },
     "3PM": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 22.0,
+     "away": 22.0
     },
     "FG%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.58715596,
+     "away": 0.42975207
     },
     "FT%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.69767442,
+     "away": 0.76470588
     },
     "TO": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 14.0,
+     "away": 14.0
     }
    }
   },
@@ -1196,44 +1196,44 @@
    "week": 3,
    "home": "Real Men Eat Ass(ouad)",
    "away": "Murray Had a Little Lamb",
-   "home_score": 0,
-   "away_score": 0,
+   "home_score": 6,
+   "away_score": 3,
    "cats": {
     "PTS": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 218.0,
+     "away": 151.0
     },
     "REB": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 45.0,
+     "away": 55.0
     },
     "AST": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 58.0,
+     "away": 48.0
     },
     "STL": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 13.0,
+     "away": 11.0
     },
     "BLK": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 3.0,
+     "away": 11.0
     },
     "3PM": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 22.0,
+     "away": 17.0
     },
     "FG%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.54054054,
+     "away": 0.45238095
     },
     "FT%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.69230769,
+     "away": 0.90909091
     },
     "TO": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 17.0,
+     "away": 25.0
     }
    }
   },
@@ -1241,44 +1241,44 @@
    "week": 3,
    "home": "AARON VENGERS",
    "away": "Crackheads",
-   "home_score": 0,
-   "away_score": 0,
+   "home_score": 5,
+   "away_score": 4,
    "cats": {
     "PTS": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 175.0,
+     "away": 188.0
     },
     "REB": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 52.0,
+     "away": 79.0
     },
     "AST": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 41.0,
+     "away": 39.0
     },
     "STL": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 17.0,
+     "away": 15.0
     },
     "BLK": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 6.0,
+     "away": 7.0
     },
     "3PM": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 21.0,
+     "away": 18.0
     },
     "FG%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.46969697,
+     "away": 0.52380952
     },
     "FT%": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 0.81081081,
+     "away": 0.67857143
     },
     "TO": {
-     "home": 0.0,
-     "away": 0.0
+     "home": 26.0,
+     "away": 29.0
     }
    }
   }
@@ -3751,7 +3751,7 @@
    {
     "name": "Ryan Rollins",
     "pos": "SG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -3895,7 +3895,7 @@
    {
     "name": "Anthony Black",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "DAY_TO_DAY",
     "team": "ORL",
     "avg": {
@@ -3955,35 +3955,24 @@
     }
    },
    {
-    "name": "Collin Gillespie",
-    "pos": "PG",
+    "name": "Meleek Thomas",
+    "pos": "SG",
     "slot": "UT",
     "injury": "ACTIVE",
-    "team": "PHO",
+    "team": "CLE",
     "avg": {
-     "PTS": 7.8,
-     "REB": 2.0,
-     "AST": 5.0,
-     "STL": 2.8,
-     "BLK": 0.2,
-     "3PM": 2.0,
-     "FG%": 0.3255814,
-     "FT%": 0.25,
-     "TO": 2.0,
+     "PTS": 14.0,
+     "REB": 3.0,
+     "AST": 1.0,
+     "STL": 1.0,
+     "BLK": 0.25,
+     "3PM": 2.5,
+     "FG%": 0.48888889,
+     "FT%": 1.0,
+     "TO": 0.75,
      "_src": "2027_last_15"
     },
-    "proj": {
-     "PTS": 11.917808219178083,
-     "REB": 3.904109589041096,
-     "AST": 4.397260273972603,
-     "STL": 1.2054794520547945,
-     "BLK": 0.2054794520547945,
-     "3PM": 2.73972602739726,
-     "FG%": 0.419,
-     "FT%": 0.872,
-     "TO": 1.3972602739726028,
-     "_src": "2027_projected"
-    }
+    "proj": {}
    }
   ],
   "Real Men Eat Ass(ouad)": [
@@ -4083,7 +4072,7 @@
    {
     "name": "Deni Avdija",
     "pos": "SF",
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -4175,7 +4164,7 @@
    {
     "name": "Franz Wagner",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4206,7 +4195,7 @@
    {
     "name": "Norman Powell",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -4268,7 +4257,7 @@
    {
     "name": "Jaden McDaniels",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -4299,7 +4288,7 @@
    {
     "name": "Davion Mitchell",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4330,7 +4319,7 @@
    {
     "name": "Brook Lopez",
     "pos": "C",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -5978,7 +5967,7 @@
   "Rubio Bzeit ": [
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Pasta Warriors) 4.5 - 4.5 Team(Rubio Bzeit ))",
+   "Matchup(Team(Pasta Warriors) 5.5 - 3.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Team Batrouni), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Murray Had a Little Lamb))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
@@ -5997,7 +5986,7 @@
   "Momo in Six": [
    "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Team Batrouni))",
    "Matchup(Team(AllThisToBeatLeGoat) 2.5 - 6.5 Team(Momo in Six))",
-   "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Akumpo))",
+   "Matchup(Team(Momo in Six) 4.0 - 5.0 Team(Akumpo))",
    "Matchup(Team(Crackheads), Team(Momo in Six))",
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
@@ -6016,7 +6005,7 @@
   "Team Batrouni": [
    "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni) 2.0 - 7.0 Team(Pasta Warriors))",
-   "Matchup(Team(AllThisToBeatLeGoat) 4.5 - 4.5 Team(Team Batrouni))",
+   "Matchup(Team(AllThisToBeatLeGoat) 7.0 - 2.0 Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(Rubio Bzeit ))",
    "Matchup(Team(Akumpo), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(Murray Had a Little Lamb))",
@@ -6035,7 +6024,7 @@
   "AllThisToBeatLeGoat": [
    "Matchup(Team(AARON VENGERS) 5.0 - 4.0 Team(AllThisToBeatLeGoat))",
    "Matchup(Team(AllThisToBeatLeGoat) 2.5 - 6.5 Team(Momo in Six))",
-   "Matchup(Team(AllThisToBeatLeGoat) 4.5 - 4.5 Team(Team Batrouni))",
+   "Matchup(Team(AllThisToBeatLeGoat) 7.0 - 2.0 Team(Team Batrouni))",
    "Matchup(Team(Akumpo), Team(AllThisToBeatLeGoat))",
    "Matchup(Team(AllThisToBeatLeGoat), Team(Crackheads))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AllThisToBeatLeGoat))",
@@ -6054,7 +6043,7 @@
   "Akumpo": [
    "Matchup(Team(Murray Had a Little Lamb) 2.0 - 7.0 Team(Akumpo))",
    "Matchup(Team(Akumpo) 5.0 - 4.0 Team(AARON VENGERS))",
-   "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Akumpo))",
+   "Matchup(Team(Momo in Six) 4.0 - 5.0 Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(AllThisToBeatLeGoat))",
    "Matchup(Team(Akumpo), Team(Team Batrouni))",
    "Matchup(Team(Crackheads), Team(Akumpo))",
@@ -6073,7 +6062,7 @@
   "Murray Had a Little Lamb": [
    "Matchup(Team(Murray Had a Little Lamb) 2.0 - 7.0 Team(Akumpo))",
    "Matchup(Team(Murray Had a Little Lamb) 7.0 - 2.0 Team(Crackheads))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 4.5 - 4.5 Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Murray Had a Little Lamb))",
    "Matchup(Team(Murray Had a Little Lamb), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Murray Had a Little Lamb))",
    "Matchup(Team(Team Batrouni), Team(Murray Had a Little Lamb))",
@@ -6092,7 +6081,7 @@
   "Real Men Eat Ass(ouad)": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 4.5 - 4.5 Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Murray Had a Little Lamb))",
    "Matchup(Team(AARON VENGERS), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AllThisToBeatLeGoat))",
@@ -6111,7 +6100,7 @@
   "AARON VENGERS": [
    "Matchup(Team(AARON VENGERS) 5.0 - 4.0 Team(AllThisToBeatLeGoat))",
    "Matchup(Team(Akumpo) 5.0 - 4.0 Team(AARON VENGERS))",
-   "Matchup(Team(AARON VENGERS) 4.5 - 4.5 Team(Crackheads))",
+   "Matchup(Team(AARON VENGERS) 5.0 - 4.0 Team(Crackheads))",
    "Matchup(Team(AARON VENGERS), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
@@ -6130,7 +6119,7 @@
   "Pasta Warriors": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Team Batrouni) 2.0 - 7.0 Team(Pasta Warriors))",
-   "Matchup(Team(Pasta Warriors) 4.5 - 4.5 Team(Rubio Bzeit ))",
+   "Matchup(Team(Pasta Warriors) 5.5 - 3.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Murray Had a Little Lamb), Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
@@ -6149,7 +6138,7 @@
   "Crackheads": [
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Murray Had a Little Lamb) 7.0 - 2.0 Team(Crackheads))",
-   "Matchup(Team(AARON VENGERS) 4.5 - 4.5 Team(Crackheads))",
+   "Matchup(Team(AARON VENGERS) 5.0 - 4.0 Team(Crackheads))",
    "Matchup(Team(Crackheads), Team(Momo in Six))",
    "Matchup(Team(AllThisToBeatLeGoat), Team(Crackheads))",
    "Matchup(Team(Crackheads), Team(Akumpo))",
@@ -12851,16 +12840,16 @@
  },
  "debug": {
   "matchup_period": 3,
-  "scoring_period": 14,
+  "scoring_period": 15,
   "variants": {
-   "default": 0.0,
-   "sp": 0.0,
-   "sp+1": 0.0
+   "default": 3084.0,
+   "sp": 3084.0,
+   "sp+1": 3084.0
   },
   "picked": "default",
-  "picked_total": 0.0,
-  "direct_total": 0.0,
+  "picked_total": 3084.0,
+  "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.5
  }
 }
