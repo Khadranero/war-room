@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:10:28.004185Z",
+ "updated": "2026-11-03T22:20:22.955611Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5655,7 +5655,7 @@
     "name": "Peyton Watson",
     "pos": "SF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CLE",
     "avg": {
      "PTS": 10.833333333333334,
@@ -8754,7 +8754,7 @@
    "name": "Jaylon Tyson",
    "pos": "SG",
    "team": "CLE",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.8,
@@ -11604,6 +11604,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kon Knueppel: Expected to play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
+   "published": "Tue, 03 Nov 2026 2:13:00 PM PST",
+   "summary": "Knueppel (hamstring) is listed as probable for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Peyton Watson: Ruled out for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
    "published": "Tue, 03 Nov 2026 2:10:00 PM PST",
@@ -11629,13 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
    "published": "Tue, 03 Nov 2026 1:50:00 PM PST",
    "summary": "Hart is questionable for Wednesday's game against the Bulls due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Alex Sarr: Listed as questionable",
-   "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
-   "published": "Tue, 03 Nov 2026 1:47:00 PM PST",
-   "summary": "Sarr (knee) is listed as questionable for Wednesday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 2.9
  }
 }
