@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:30:32.853485Z",
+ "updated": "2026-11-03T22:40:24.425675Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8878,7 +8878,7 @@
    "name": "Jaylin Williams",
    "pos": "C",
    "team": "OKC",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.857142857142857,
@@ -11604,6 +11604,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Alex Caruso: Cleared from injury report",
+   "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
+   "published": "Tue, 03 Nov 2026 2:37:00 PM PST",
+   "summary": "Caruso (ankle) is off the injury report for Wednesday's game against the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Max Christie: Ruled out for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/max-christie-5723",
    "published": "Tue, 03 Nov 2026 2:25:00 PM PST",
@@ -11629,13 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
    "published": "Tue, 03 Nov 2026 2:10:00 PM PST",
    "summary": "Watson (hamstring) is out for Wednesday's game in Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Johnson: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
-   "published": "Tue, 03 Nov 2026 2:07:00 PM PST",
-   "summary": "Johnson (ankle) is listed as questionable for Wednesday's game in Washington, Kevin Chouinard of the Hawks' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 3.1
  }
 }
