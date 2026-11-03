@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:50:31.590955Z",
+ "updated": "2026-11-03T00:00:34.026371Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -6179,7 +6179,7 @@
    "name": "Reed Sheppard",
    "pos": "SG",
    "team": "HOU",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 10.5,
@@ -11510,6 +11510,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Reed Sheppard: Good to go Monday",
+   "link": "https://www.rotowire.com//basketball/player/reed-sheppard-6257",
+   "published": "Mon, 02 Nov 2026 3:49:00 PM PST",
+   "summary": "Sheppard (back) is available for Monday's matchup with Boston, Will Guillory of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Meleek Thomas: Making first NBA start",
    "link": "https://www.rotowire.com//basketball/player/meleek-thomas-6989",
    "published": "Mon, 02 Nov 2026 3:24:00 PM PST",
@@ -11535,13 +11542,6 @@
    "link": "https://www.rotowire.com//basketball/player/obi-toppin-5109",
    "published": "Mon, 02 Nov 2026 3:07:00 PM PST",
    "summary": "Toppin (back) will dress for Monday's game against  Hawks but will only play in an emergency, Tony East of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Johnson: Ruled out Monday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
-   "published": "Mon, 02 Nov 2026 2:58:00 PM PST",
-   "summary": "Johnson (ankle) has been ruled out for Monday's game versus Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12835,6 +12835,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.8
  }
 }
