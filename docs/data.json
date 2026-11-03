@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:00:33.299092Z",
+ "updated": "2026-11-03T22:10:28.004185Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2881,7 +2881,7 @@
     "name": "Coby White",
     "pos": "PG",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CHA",
     "avg": {
      "PTS": 7.0,
@@ -10236,7 +10236,7 @@
    "name": "Jock Landale",
    "pos": "C",
    "team": "ATL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.285714285714286,
@@ -11604,6 +11604,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Peyton Watson: Ruled out for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
+   "published": "Tue, 03 Nov 2026 2:10:00 PM PST",
+   "summary": "Watson (hamstring) is out for Wednesday's game in Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jalen Johnson: Questionable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
+   "published": "Tue, 03 Nov 2026 2:07:00 PM PST",
+   "summary": "Johnson (ankle) is listed as questionable for Wednesday's game in Washington, Kevin Chouinard of the Hawks' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Coby White: Probable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/coby-white-4801",
+   "published": "Tue, 03 Nov 2026 2:06:00 PM PST",
+   "summary": "White (calf) is probable for Wednesday's game in Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Josh Hart: Iffy for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
    "published": "Tue, 03 Nov 2026 1:50:00 PM PST",
@@ -11615,27 +11636,6 @@
    "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
    "published": "Tue, 03 Nov 2026 1:47:00 PM PST",
    "summary": "Sarr (knee) is listed as questionable for Wednesday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Payton Pritchard: Iffy for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
-   "published": "Tue, 03 Nov 2026 1:12:00 PM PST",
-   "summary": "Pritchard is listed as questionable for Wednesday's game against Milwaukee due to a right shoulder contusion, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jayson Tatum: May be rested",
-   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
-   "published": "Tue, 03 Nov 2026 1:11:00 PM PST",
-   "summary": "Tatum (rest) is questionable for Wednesday against the Bucks, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Paul George: Absent from injury report",
-   "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
-   "published": "Tue, 03 Nov 2026 1:11:00 PM PST",
-   "summary": "George (rest) is off the injury report for Wednesday's game against the Bucks, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12930,6 +12930,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 4.6
+  "run_seconds": 3.3
  }
 }
