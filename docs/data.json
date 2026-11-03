@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T23:40:24.023338Z",
+ "updated": "2026-11-03T23:50:26.233483Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1630,7 +1630,7 @@
     "name": "Andrew Nembhard",
     "pos": "PG",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "IND",
     "avg": {
      "PTS": 18.5,
@@ -1817,7 +1817,7 @@
     "name": "Pascal Siakam",
     "pos": "PF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "IND",
     "avg": {
      "PTS": 21.428571428571427,
@@ -7692,7 +7692,7 @@
    "name": "Cameron Johnson",
    "pos": "SF",
    "team": "DEN",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -8486,7 +8486,7 @@
    "name": "Aaron Nesmith",
    "pos": "SF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 12.166666666666666,
@@ -11573,7 +11573,7 @@
    "name": "Larry Nance Jr.",
    "pos": "PF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 3.2857142857142856,
@@ -11604,6 +11604,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ivica Zubac: Might return Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
+   "published": "Tue, 03 Nov 2026 3:43:00 PM PST",
+   "summary": "Zubac (ankle) is listed as questionable for Wednesday's game against the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Aaron Nesmith: Not listed on injury report",
+   "link": "https://www.rotowire.com//basketball/player/aaron-nesmith-5120",
+   "published": "Tue, 03 Nov 2026 3:40:00 PM PST",
+   "summary": "Nesmith (rest) is not listed on the injury report for Wednesday's game in Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Andrew Nembhard: Not listed on injury report",
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Tue, 03 Nov 2026 3:38:00 PM PST",
@@ -11624,18 +11638,102 @@
    "summary": "Poeltl is questionable for Wednesday's game against the Nuggets due to left shoulder bursitis, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Scotty Pippen: Ruled out for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/scotty-pippen-5685",
-   "published": "Tue, 03 Nov 2026 3:19:00 PM PST",
-   "summary": "Pippen (back) won't play Wednesday against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "NBA Contract Year All-Stars: Grizzlies' Ty Jerome and 11 others playing for a payday",
+   "link": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
+   "published": "Tue, 3 Nov 2026 17:02:32 EST",
+   "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027."
   },
   {
-   "source": "RotoWire",
-   "title": "Jusuf Nurkic: Still waiting for season debut",
-   "link": "https://www.rotowire.com//basketball/player/jusuf-nurkic-3580",
-   "published": "Tue, 03 Nov 2026 3:07:00 PM PST",
-   "summary": "Nurkic (foot) is out for Wednesday's game against the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Dumonts now controlling owners of Mavs with nearly 70% share",
+   "link": "https://www.espn.com/nba/story/_/id/50371176/dumonts-take-controlling-owners-mavericks",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "Sivan and Patrick Dumont purchased Miriam Adelson's shares of the Mavericks last month, making the Dumont family the controlling owners of the franchise."
+  },
+  {
+   "source": "ESPN",
+   "title": "In sign of good times, LeBron takes sip of fan's wine as 76ers roll on",
+   "link": "https://www.espn.com/nba/story/_/id/50365929/lebron-james-takes-sip-wine-crashing-76ers-fan",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "LeBron James took a sip of a fan's wine during the 76ers 126-107 win over the Bulls, saying he wanted to try \"how good it was.\""
+  },
+  {
+   "source": "ESPN",
+   "title": "Luka stays hot with 42, earns high praise from Giannis that 'some people are scared to say'",
+   "link": "https://www.espn.com/nba/story/_/id/50366831/luka-doncic-earns-praise-giannis-antetokounmpo-hot-streak-continues-lakers-win-vs-heat",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "Luka Doncic's volcanic scoring spree continued Monday with 42 points in the Lakers' 138-117 win over the Heat, prompting Giannis Antetokounmpo to call him \"one of the best scorers to play this game.\""
+  },
+  {
+   "source": "ESPN",
+   "title": "Draymond ejected after scuffle with Brooks, Suns; Curry says it 'lit a fire' in Warriors",
+   "link": "https://www.espn.com/nba/story/_/id/50365914/warriors-draymond-green-ejected-scuffle-suns",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "Draymond Green was ejected for the first time this season -- and 31st time of his career -- after receiving two technical fouls in the same sequence vs. the Suns."
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA defends Rwanda partnership in letter to concerned senators",
+   "link": "https://www.espn.com/nba/story/_/id/50370258/nba-defends-rwanda-partnership-letter-concerned-senators",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "NBA deputy commissioner Mark Tatum cited the removal of a military-backed team from the Basketball Africa League as evidence the NBA has adapted to changing U.S. policies toward the East African nation."
+  },
+  {
+   "source": "ESPN",
+   "title": "Missing 11 players, Pacers play just six in loss to Hawks",
+   "link": "https://www.espn.com/nba/story/_/id/50364213/missing-11-players-pacers-play-just-six-loss-hawks",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "With 11 players on the sideline Monday, the Pacers had just six log minutes in their 108-104 loss to the Hawks."
+  },
+  {
+   "source": "ESPN",
+   "title": "Injury-plagued Thunder agree to 2-year deal with veteran Terry, sources say",
+   "link": "https://www.espn.com/nba/story/_/id/50368707/sources-thunder-agree-2-year-deal-dalen-terry",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "Dalen Terry has agreed to a two-year deal with the Thunder, sources told ESPN."
+  },
+  {
+   "source": "ESPN",
+   "title": "SGA, with 'look in his eye,' nets 43 as Thunder hand Cavaliers first home loss",
+   "link": "https://www.espn.com/nba/story/_/id/50364171/thunder-bounce-back-hand-cavaliers-first-loss-home",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "Shai Gilgeous-Alexander scored a season-high 43 points and made a go-ahead 3-pointer with 32.6 seconds remaining as the Oklahoma City Thunder defeated the Cleveland Cavaliers 117-112 on Monday night at Rocket Arena in the first of a two-game set."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83c\udfb6 Inside Jaylen Brown's Boston apartment: His most-cherished acquisition",
+   "link": "https://www.espn.com/nba/story/_/id/50359641/jaylen-brown-keeping-boston-apartment",
+   "published": "Tue, 3 Nov 2026 17:02:37 EST",
+   "summary": "The Sixers guard's Boston apartment contains possession of some rare pieces."
+  },
+  {
+   "source": "ESPN",
+   "title": "Off-court turmoil and on-court woes: How the Knicks' title defense got chaotic -- fast",
+   "link": "https://www.espn.com/nba/story/_/id/50360774/new-york-knicks-rings-contracts-losses",
+   "published": "Tue, 3 Nov 2026 10:58:42 EST",
+   "summary": "New York has stayed in the headlines -- for all the wrong reasons. Can the 2026 champs bounce back?"
+  },
+  {
+   "source": "ESPN",
+   "title": "Karabell notebook: On Gobert and Bridges' slow starts, Zion's steals and more",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50370129/fantasy-basketball-trends-nba-2026-2027",
+   "published": "Tue, 3 Nov 2026 13:23:03 EST",
+   "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy."
+  },
+  {
+   "source": "ESPN",
+   "title": "Category specialists: Risacher, Robinson among players to add",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50359329/fantasy-basketball-category-specialist-waiver-additions",
+   "published": "Tue, 3 Nov 2026 13:23:03 EST",
+   "summary": "Steve Alexander looks at category specialists that might be available to add, including some who fill multiple voids."
+  },
+  {
+   "source": "ESPN",
+   "title": "Wide-open title and MVP races: How the NBA has cracked open in just two weeks",
+   "link": "https://www.espn.com/nba/story/_/id/50329551/finals-title-race-injuries-2026-27",
+   "published": "Mon, 2 Nov 2026 10:30:29 EST",
+   "summary": "The season is still young, but injuries and surprising developments have already changed narratives."
   }
  ],
  "games": {
@@ -12930,6 +13028,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.6
  }
 }
