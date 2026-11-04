@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:50:21.874180Z",
+ "updated": "2026-11-04T08:00:33.760987Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1350,7 +1350,7 @@
    {
     "name": "Stephen Curry",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -1505,7 +1505,7 @@
    {
     "name": "Paul George",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -1598,7 +1598,7 @@
    {
     "name": "Yaxel Lendeborg",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -1691,7 +1691,7 @@
    {
     "name": "Kris Dunn",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -1754,7 +1754,7 @@
    {
     "name": "Jalen Johnson",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "PF",
     "injury": "DAY_TO_DAY",
     "team": "ATL",
     "avg": {
@@ -1816,7 +1816,7 @@
    {
     "name": "Pascal Siakam",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -1847,7 +1847,7 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -1908,7 +1908,7 @@
    {
     "name": "Desmond Bane",
     "pos": "SG",
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -1970,7 +1970,7 @@
    {
     "name": "Onyeka Okongwu",
     "pos": "C",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2001,7 +2001,7 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2052,7 +2052,7 @@
    {
     "name": "Moussa Diabate",
     "pos": "PF",
-    "slot": "PF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -2082,7 +2082,7 @@
    {
     "name": "Duncan Robinson",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -2174,7 +2174,7 @@
    {
     "name": "Christian Braun",
     "pos": "SG",
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -3253,7 +3253,7 @@
    {
     "name": "OG Anunoby",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -3315,7 +3315,7 @@
    {
     "name": "CJ McCollum",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3346,7 +3346,7 @@
    {
     "name": "Jabari Smith Jr.",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -3439,7 +3439,7 @@
    {
     "name": "Ace Bailey",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -3565,7 +3565,7 @@
    {
     "name": "Kevin Durant",
     "pos": "PF",
-    "slot": "SF",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -3596,7 +3596,7 @@
    {
     "name": "Jamal Murray",
     "pos": "PG",
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -3689,7 +3689,7 @@
    {
     "name": "Brandon Miller",
     "pos": "SF",
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -3751,7 +3751,7 @@
    {
     "name": "Ryan Rollins",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -3782,7 +3782,7 @@
    {
     "name": "Matas Buzelis",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -3833,7 +3833,7 @@
    {
     "name": "Ayo Dosunmu",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -3864,7 +3864,7 @@
    {
     "name": "Jonathan Kuminga",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -3895,7 +3895,7 @@
    {
     "name": "Anthony Black",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "ORL",
     "avg": {
@@ -3926,7 +3926,7 @@
    {
     "name": "Jrue Holiday",
     "pos": "PG",
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3957,7 +3957,7 @@
    {
     "name": "Meleek Thomas",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -4164,7 +4164,7 @@
    {
     "name": "Franz Wagner",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4257,7 +4257,7 @@
    {
     "name": "Jaden McDaniels",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -4350,7 +4350,7 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -5981,24 +5981,6 @@
    "team": "Pasta Warriors",
    "action": "DROPPED",
    "player": "Draymond Green"
-  },
-  {
-   "date": "2026-11-01T06:40:23.205000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Jaxson Hayes"
-  },
-  {
-   "date": "2026-11-01T01:41:04.973000",
-   "team": "Murray Had a Little Lamb",
-   "action": "DROPPED",
-   "player": "Aday Mara"
-  },
-  {
-   "date": "2026-11-01T01:41:04.973000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Keaton Wagler"
   }
  ],
  "schedule": {
@@ -12907,7 +12889,7 @@
  },
  "debug": {
   "matchup_period": 3,
-  "scoring_period": 15,
+  "scoring_period": 16,
   "variants": {
    "default": 3084.0,
    "sp": 3084.0,
@@ -12917,6 +12899,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 2.1
  }
 }
