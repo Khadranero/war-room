@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:00:32.181444Z",
+ "updated": "2026-11-04T18:10:27.633605Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2332,7 +2332,7 @@
     "name": "Kon Knueppel",
     "pos": "SF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "ACTIVE",
     "team": "CHA",
     "avg": {},
     "proj": {
@@ -3285,7 +3285,7 @@
     "name": "Josh Hart",
     "pos": "SF",
     "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NYK",
     "avg": {
      "PTS": 8.571428571428571,
@@ -11540,6 +11540,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kon Knueppel: Cleared to play",
+   "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
+   "published": "Wed, 04 Nov 2026 10:03:00 AM PST",
+   "summary": "Knueppel (hamstring) is available for Wednesday against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jayson Tatum: Confirmed out for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
    "published": "Wed, 04 Nov 2026 9:48:00 AM PST",
@@ -11565,13 +11572,6 @@
    "link": "https://www.rotowire.com//basketball/player/derrick-jones-4083",
    "published": "Tue, 03 Nov 2026 4:51:00 PM PST",
    "summary": "Jones (knee) has been removed from the injury report ahead of Wednesday's game against the Heat, NBA writer Justin Russo reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dylan Cardwell: Not listed on injury report",
-   "link": "https://www.rotowire.com//basketball/player/dylan-cardwell-6638",
-   "published": "Tue, 03 Nov 2026 4:37:00 PM PST",
-   "summary": "Cardwell (calf) is not listed on the injury report for Wednesday's meeting with the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12865,6 +12865,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.0
+  "run_seconds": 2.6
  }
 }
