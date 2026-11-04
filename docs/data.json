@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:10:22.639721Z",
+ "updated": "2026-11-04T20:20:24.201477Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7124,7 +7124,7 @@
    "name": "Isaiah Jackson",
    "pos": "PF",
    "team": "LAC",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.571428571428571,
@@ -11540,6 +11540,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Isaiah Jackson: Added to injury report",
+   "link": "https://www.rotowire.com//basketball/player/isaiah-jackson-5403",
+   "published": "Wed, 04 Nov 2026 12:12:00 PM PST",
+   "summary": "Jackson is questionable for Wednesday's game against the Heat with left groin soreness, per Law Murray of The Athletic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Anthony Black: Removed from injury report",
    "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
    "published": "Wed, 04 Nov 2026 11:06:00 AM PST",
@@ -11565,13 +11572,6 @@
    "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
    "published": "Wed, 04 Nov 2026 10:03:00 AM PST",
    "summary": "Knueppel (hamstring) is available for Wednesday against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jayson Tatum: Confirmed out for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
-   "published": "Wed, 04 Nov 2026 9:48:00 AM PST",
-   "summary": "Tatum will be rested Wednesday against the Bucks, Jack Simone of BostonSportsJournal.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12865,6 +12865,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 4.3
  }
 }
