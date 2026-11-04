@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:30:28.304046Z",
+ "updated": "2026-11-04T08:40:23.714804Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8402,26 +8402,6 @@
    "proj": {}
   },
   {
-   "name": "Quenton Jackson",
-   "pos": "PG",
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.125,
-    "REB": 3.0,
-    "AST": 2.75,
-    "STL": 1.375,
-    "BLK": 0.375,
-    "3PM": 0.875,
-    "FG%": 0.45901639,
-    "FT%": 0.9,
-    "TO": 1.125,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Karlo Matkovic",
    "pos": "PF",
    "team": "NOP",
@@ -8437,6 +8417,26 @@
     "FG%": 0.64705882,
     "FT%": 0.6,
     "TO": 1.1666666666666667,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Quenton Jackson",
+   "pos": "PG",
+   "team": "IND",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.125,
+    "REB": 3.0,
+    "AST": 2.75,
+    "STL": 1.375,
+    "BLK": 0.375,
+    "3PM": 0.875,
+    "FG%": 0.45901639,
+    "FT%": 0.9,
+    "TO": 1.125,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -11146,26 +11146,6 @@
    "proj": {}
   },
   {
-   "name": "Gary Payton II",
-   "pos": "SG",
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.625,
-    "REB": 2.0,
-    "AST": 0.5,
-    "STL": 0.625,
-    "BLK": 0.0,
-    "3PM": 0.375,
-    "FG%": 0.43589744,
-    "FT%": 0.0,
-    "TO": 0.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Caris LeVert",
    "pos": "SG",
    "team": "MIL",
@@ -11184,6 +11164,26 @@
     "TO": 1.3934426229508197,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Gary Payton II",
+   "pos": "SG",
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.625,
+    "REB": 2.0,
+    "AST": 0.5,
+    "STL": 0.625,
+    "BLK": 0.0,
+    "3PM": 0.375,
+    "FG%": 0.43589744,
+    "FT%": 0.0,
+    "TO": 0.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Jeremy Sochan",
@@ -12899,6 +12899,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.4
  }
 }
