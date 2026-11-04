@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:30:32.747713Z",
+ "updated": "2026-11-04T11:40:21.889208Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7349,37 +7349,6 @@
    }
   },
   {
-   "name": "Naji Marshall",
-   "pos": "SF",
-   "team": "DAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.5,
-    "REB": 3.0,
-    "AST": 6.0,
-    "STL": 1.75,
-    "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.43478261,
-    "FT%": 0.42857143,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 11.442857142857143,
-    "REB": 4.1,
-    "AST": 2.6,
-    "STL": 0.9,
-    "BLK": 0.1,
-    "3PM": 0.8,
-    "FG%": 0.502,
-    "FT%": 0.777,
-    "TO": 1.3,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Klay Thompson",
    "pos": "SG",
    "team": "MIA",
@@ -7407,6 +7376,37 @@
     "FG%": 0.399,
     "FT%": 0.814,
     "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Naji Marshall",
+   "pos": "SF",
+   "team": "DAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.5,
+    "REB": 3.0,
+    "AST": 6.0,
+    "STL": 1.75,
+    "BLK": 0.0,
+    "3PM": 0.75,
+    "FG%": 0.43478261,
+    "FT%": 0.42857143,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 11.442857142857143,
+    "REB": 4.1,
+    "AST": 2.6,
+    "STL": 0.9,
+    "BLK": 0.1,
+    "3PM": 0.8,
+    "FG%": 0.502,
+    "FT%": 0.777,
+    "TO": 1.3,
     "_src": "2027_projected"
    }
   },
@@ -8362,26 +8362,6 @@
    }
   },
   {
-   "name": "Trevon Brazile",
-   "pos": "SF",
-   "team": "DEN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.333333333333334,
-    "REB": 6.333333333333333,
-    "AST": 0.3333333333333333,
-    "STL": 0.8333333333333334,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.55882353,
-    "FT%": 0.54545455,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Karlo Matkovic",
    "pos": "PF",
    "team": "NOP",
@@ -8402,21 +8382,21 @@
    "proj": {}
   },
   {
-   "name": "Mo Bamba",
-   "pos": "C",
-   "team": "UTA",
-   "injury": "DAY_TO_DAY",
+   "name": "Trevon Brazile",
+   "pos": "SF",
+   "team": "DEN",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.0,
-    "REB": 5.75,
-    "AST": 0.5,
-    "STL": 0.25,
-    "BLK": 1.75,
-    "3PM": 0.0,
-    "FG%": 0.76190476,
-    "FT%": 0.8,
-    "TO": 0.75,
+    "PTS": 8.333333333333334,
+    "REB": 6.333333333333333,
+    "AST": 0.3333333333333333,
+    "STL": 0.8333333333333334,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.55882353,
+    "FT%": 0.54545455,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -8437,6 +8417,26 @@
     "FG%": 0.45901639,
     "FT%": 0.9,
     "TO": 1.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Mo Bamba",
+   "pos": "C",
+   "team": "UTA",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 9.0,
+    "REB": 5.75,
+    "AST": 0.5,
+    "STL": 0.25,
+    "BLK": 1.75,
+    "3PM": 0.0,
+    "FG%": 0.76190476,
+    "FT%": 0.8,
+    "TO": 0.75,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -8845,37 +8845,6 @@
    }
   },
   {
-   "name": "Jarace Walker",
-   "pos": "PF",
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.875,
-    "REB": 6.125,
-    "AST": 2.125,
-    "STL": 0.75,
-    "BLK": 0.5,
-    "3PM": 1.25,
-    "FG%": 0.37704918,
-    "FT%": 0.53846154,
-    "TO": 1.875,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.714285714285714,
-    "REB": 3.6031746031746033,
-    "AST": 1.7936507936507937,
-    "STL": 0.6984126984126984,
-    "BLK": 0.30158730158730157,
-    "3PM": 1.2063492063492063,
-    "FG%": 0.437,
-    "FT%": 0.727,
-    "TO": 1.2063492063492063,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Max Strus",
    "pos": "SF",
    "team": "LAC",
@@ -8903,6 +8872,37 @@
     "FG%": 0.423,
     "FT%": 0.798,
     "TO": 1.1940298507462686,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jarace Walker",
+   "pos": "PF",
+   "team": "IND",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.875,
+    "REB": 6.125,
+    "AST": 2.125,
+    "STL": 0.75,
+    "BLK": 0.5,
+    "3PM": 1.25,
+    "FG%": 0.37704918,
+    "FT%": 0.53846154,
+    "TO": 1.875,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.714285714285714,
+    "REB": 3.6031746031746033,
+    "AST": 1.7936507936507937,
+    "STL": 0.6984126984126984,
+    "BLK": 0.30158730158730157,
+    "3PM": 1.2063492063492063,
+    "FG%": 0.437,
+    "FT%": 0.727,
+    "TO": 1.2063492063492063,
     "_src": "2027_projected"
    }
   },
@@ -9387,6 +9387,15 @@
    }
   },
   {
+   "name": "Maxime Raynaud",
+   "pos": "C",
+   "team": "SAC",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Royce O'Neale",
    "pos": "SF",
    "team": "CHA",
@@ -9416,15 +9425,6 @@
     "TO": 1.105263157894737,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Maxime Raynaud",
-   "pos": "C",
-   "team": "SAC",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {}
   },
   {
    "name": "Justin Champagnie",
@@ -10663,6 +10663,15 @@
    }
   },
   {
+   "name": "Lonzo Ball",
+   "pos": "PG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Noah Clowney",
    "pos": "PF",
    "team": "BKN",
@@ -10694,12 +10703,23 @@
    }
   },
   {
-   "name": "Lonzo Ball",
+   "name": "Braden Smith",
    "pos": "PG",
-   "team": "FA",
+   "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
-   "avg": {},
+   "avg": {
+    "PTS": 4.0,
+    "REB": 0.8,
+    "AST": 2.4,
+    "STL": 0.8,
+    "BLK": 0.2,
+    "3PM": 0.4,
+    "FG%": 0.5,
+    "FT%": 0.5,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
    "proj": {}
   },
   {
@@ -10763,26 +10783,6 @@
     "TO": 0.9076923076923077,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Braden Smith",
-   "pos": "PG",
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.0,
-    "REB": 0.8,
-    "AST": 2.4,
-    "STL": 0.8,
-    "BLK": 0.2,
-    "3PM": 0.4,
-    "FG%": 0.5,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Jase Richardson",
@@ -12899,6 +12899,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 1.8
  }
 }
