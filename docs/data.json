@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:50:20.712263Z",
+ "updated": "2026-11-04T23:00:31.986451Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1754,7 +1754,7 @@
    {
     "name": "Jalen Johnson",
     "pos": "PF",
-    "slot": "PF",
+    "slot": "UT",
     "injury": "DAY_TO_DAY",
     "team": "ATL",
     "avg": {
@@ -1816,7 +1816,7 @@
    {
     "name": "Pascal Siakam",
     "pos": "PF",
-    "slot": "F",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -2052,7 +2052,7 @@
    {
     "name": "Moussa Diabate",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -5939,18 +5939,6 @@
    "team": "Akumpo",
    "action": "FA ADDED",
    "player": "Jalen Suggs"
-  },
-  {
-   "date": "2026-11-01T09:15:38.149000",
-   "team": "AllThisToBeatLeGoat",
-   "action": "DROPPED",
-   "player": "Pelle Larsson"
-  },
-  {
-   "date": "2026-11-01T09:15:38.149000",
-   "team": "AllThisToBeatLeGoat",
-   "action": "FA ADDED",
-   "player": "Keon Ellis"
   }
  ],
  "schedule": {
@@ -12847,6 +12835,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.7
  }
 }
