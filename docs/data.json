@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:10:27.633605Z",
+ "updated": "2026-11-04T18:20:24.090913Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7619,7 +7619,7 @@
    "name": "Terrence Shannon Jr.",
    "pos": "SG",
    "team": "MIN",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -11540,6 +11540,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Josh Hart: Out with sore ankle",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Wed, 04 Nov 2026 10:08:00 AM PST",
+   "summary": "Hart is out for Wednesday's game against the Bulls due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kon Knueppel: Cleared to play",
    "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
    "published": "Wed, 04 Nov 2026 10:03:00 AM PST",
@@ -11565,13 +11572,6 @@
    "link": "https://www.rotowire.com//basketball/player/rui-hachimura-4778",
    "published": "Tue, 03 Nov 2026 4:52:00 PM PST",
    "summary": "Hachimura (quadriceps) is not listed on the injury report ahead of Wednesday's game against Miami.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Derrick Jones: Not listed on injury report",
-   "link": "https://www.rotowire.com//basketball/player/derrick-jones-4083",
-   "published": "Tue, 03 Nov 2026 4:51:00 PM PST",
-   "summary": "Jones (knee) has been removed from the injury report ahead of Wednesday's game against the Heat, NBA writer Justin Russo reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12865,6 +12865,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.0
  }
 }
