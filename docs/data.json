@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:50:24.512260Z",
+ "updated": "2026-11-04T16:00:31.521655Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2694,7 +2694,7 @@
    {
     "name": "Josh Giddey",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -2787,7 +2787,7 @@
    {
     "name": "Donovan Clingan",
     "pos": "C",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3035,7 +3035,7 @@
    {
     "name": "De'Anthony Melton",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -12899,6 +12899,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.8
  }
 }
