@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:30:31.473017Z",
+ "updated": "2026-11-04T12:40:23.082183Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -9122,6 +9122,15 @@
    }
   },
   {
+   "name": "Russell Westbrook",
+   "pos": "PG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Brandon Williams",
    "pos": "PG",
    "team": "GSW",
@@ -9139,15 +9148,6 @@
     "TO": 1.5714285714285714,
     "_src": "2027_last_15"
    },
-   "proj": {}
-  },
-  {
-   "name": "Russell Westbrook",
-   "pos": "PG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
    "proj": {}
   },
   {
@@ -10457,26 +10457,6 @@
    "proj": {}
   },
   {
-   "name": "Sergio de Larrea",
-   "pos": "PG",
-   "team": "DAL",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 5.25,
-    "REB": 2.0,
-    "AST": 1.25,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.5,
-    "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Buddy Hield",
    "pos": "SG",
    "team": "CHI",
@@ -10506,6 +10486,26 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Sergio de Larrea",
+   "pos": "PG",
+   "team": "DAL",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 5.25,
+    "REB": 2.0,
+    "AST": 1.25,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.75,
+    "FG%": 0.5,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Nate Ament",
@@ -12899,6 +12899,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 4.0
+  "run_seconds": 3.5
  }
 }
