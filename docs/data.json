@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T05:50:30.750359Z",
+ "updated": "2026-11-04T06:00:30.799476Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5479,7 +5479,7 @@
    {
     "name": "Stephon Castle",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5510,7 +5510,7 @@
    {
     "name": "Alex Sarr",
     "pos": "C",
-    "slot": "IR",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "WAS",
     "avg": {
@@ -5654,7 +5654,7 @@
    {
     "name": "Peyton Watson",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "IR",
     "injury": "OUT",
     "team": "CLE",
     "avg": {
@@ -5685,7 +5685,7 @@
    {
     "name": "John Collins",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -5999,18 +5999,6 @@
    "team": "Murray Had a Little Lamb",
    "action": "FA ADDED",
    "player": "Keaton Wagler"
-  },
-  {
-   "date": "2026-11-01T00:36:14.543000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Jalen Williams"
-  },
-  {
-   "date": "2026-11-01T00:29:50.497000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Dennis Schroder"
   }
  ],
  "schedule": {
@@ -12929,6 +12917,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.4
  }
 }
