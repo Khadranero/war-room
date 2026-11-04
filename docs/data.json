@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T10:50:25.381466Z",
+ "updated": "2026-11-04T11:00:34.565268Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5198,7 +5198,7 @@
    {
     "name": "Kyshawn George",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5291,7 +5291,7 @@
    {
     "name": "Zaccharie Risacher",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -12899,6 +12899,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.2
  }
 }
