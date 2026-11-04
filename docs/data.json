@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T23:10:23.718825Z",
+ "updated": "2026-11-04T23:20:21.609360Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2818,7 +2818,7 @@
    {
     "name": "Trey Murphy III",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "IR",
     "injury": "OUT",
     "team": "NOP",
     "avg": {
@@ -3062,6 +3062,37 @@
      "TO": 1.8,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Klay Thompson",
+    "pos": "SG",
+    "slot": "SF",
+    "injury": "ACTIVE",
+    "team": "MIA",
+    "avg": {
+     "PTS": 11.857142857142858,
+     "REB": 1.2857142857142858,
+     "AST": 1.2857142857142858,
+     "STL": 0.14285714285714285,
+     "BLK": 0.14285714285714285,
+     "3PM": 3.2857142857142856,
+     "FG%": 0.43939394,
+     "FT%": 1.0,
+     "TO": 0.8571428571428571,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 12.4,
+     "REB": 2.3,
+     "AST": 1.5,
+     "STL": 0.5,
+     "BLK": 0.3,
+     "3PM": 2.9714285714285715,
+     "FG%": 0.399,
+     "FT%": 0.814,
+     "TO": 1.0,
+     "_src": "2027_projected"
+    }
    }
   ],
   "Akumpo": [
@@ -3284,7 +3315,7 @@
    {
     "name": "Josh Hart",
     "pos": "SF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "OUT",
     "team": "NYK",
     "avg": {
@@ -3439,7 +3470,7 @@
    {
     "name": "Ace Bailey",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -5106,7 +5137,7 @@
     "name": "Payton Pritchard",
     "pos": "PG",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
      "PTS": 13.428571428571429,
@@ -5779,6 +5810,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-04T23:14:26.154000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Klay Thompson"
+  },
+  {
    "date": "2026-11-03T09:37:00.236000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -5903,36 +5940,6 @@
    "team": "Momo in Six",
    "action": "DROPPED",
    "player": "Neemias Queta"
-  },
-  {
-   "date": "2026-11-01T13:28:38.122000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "FA ADDED",
-   "player": "Tristan da Silva"
-  },
-  {
-   "date": "2026-11-01T13:28:38.122000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "DROPPED",
-   "player": "Julian Champagnie"
-  },
-  {
-   "date": "2026-11-01T09:58:22.323000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Neemias Queta"
-  },
-  {
-   "date": "2026-11-01T09:58:22.323000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Tari Eason"
-  },
-  {
-   "date": "2026-11-01T09:34:11.988000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Jake LaRavia"
   }
  ],
  "schedule": {
@@ -7142,37 +7149,6 @@
     "FG%": 0.44,
     "FT%": 0.855,
     "TO": 2.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Klay Thompson",
-   "pos": "SG",
-   "team": "MIA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.857142857142858,
-    "REB": 1.2857142857142858,
-    "AST": 1.2857142857142858,
-    "STL": 0.14285714285714285,
-    "BLK": 0.14285714285714285,
-    "3PM": 3.2857142857142856,
-    "FG%": 0.43939394,
-    "FT%": 1.0,
-    "TO": 0.8571428571428571,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.4,
-    "REB": 2.3,
-    "AST": 1.5,
-    "STL": 0.5,
-    "BLK": 0.3,
-    "3PM": 2.9714285714285715,
-    "FG%": 0.399,
-    "FT%": 0.814,
-    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -8862,7 +8838,7 @@
    "name": "Jaylin Williams",
    "pos": "C",
    "team": "OKC",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 2.857142857142857,
@@ -11499,9 +11475,54 @@
     "TO": 0.6935483870967742,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Jarred Vanderbilt",
+   "pos": "PF",
+   "team": "LAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 1.5,
+    "REB": 3.5,
+    "AST": 1.5,
+    "STL": 0.25,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.75,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 4.548387096774194,
+    "REB": 4.693548387096774,
+    "AST": 1.1935483870967742,
+    "STL": 1.0,
+    "BLK": 0.3064516129032258,
+    "3PM": 0.3709677419354839,
+    "FG%": 0.484,
+    "FT%": 0.6,
+    "TO": 0.9032258064516129,
+    "_src": "2027_projected"
+   }
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Payton Pritchard: Good to go Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
+   "published": "Wed, 04 Nov 2026 3:12:00 PM PST",
+   "summary": "Pritchard (shoulder) is available for Wednesday's game against the Bucks, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Won't play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Wed, 04 Nov 2026 3:10:00 PM PST",
+   "summary": "Murphy (knees) is listed as out for Wednesday's game against Utah.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Jalen Johnson: Out again Wednesday",
@@ -11522,20 +11543,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Wed, 04 Nov 2026 2:36:00 PM PST",
    "summary": "Smith is available for Wednesday's game against the Knicks with a left finger sprain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nic Claxton: Won't return from absence Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
-   "published": "Wed, 04 Nov 2026 2:35:00 PM PST",
-   "summary": "Claxton (hamstring) is listed as out for Wednesday's game against New York.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "AJ Dybantsa: Minutes restriction lifted",
-   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
-   "published": "Wed, 04 Nov 2026 2:27:00 PM PST",
-   "summary": "Head coach Brian Keefe said Wednesday that Dybantsa (ankle) is no longer on a minutes restriction, Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -11969,6 +11976,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-04T23:14:26.154000",
+   "team": "AllThisToBeatLeGoat",
+   "action": "FA ADDED",
+   "player": "Klay Thompson"
+  },
   {
    "date": "2026-11-03T09:37:00.236000",
    "team": "Crackheads",
@@ -12829,6 +12842,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.3
  }
 }
