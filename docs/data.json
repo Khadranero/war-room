@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:00:31.521655Z",
+ "updated": "2026-11-04T16:10:25.188906Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2238,7 +2238,7 @@
    {
     "name": "LaMelo Ball",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -2413,7 +2413,7 @@
    {
     "name": "VJ Edgecombe",
     "pos": "SG",
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -2506,7 +2506,7 @@
    {
     "name": "Darryn Peterson",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -2537,7 +2537,7 @@
    {
     "name": "Zach LaVine",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -2599,7 +2599,7 @@
    {
     "name": "Ja'Kobe Walter",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -5969,18 +5969,6 @@
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
    "player": "Devin Vassell"
-  },
-  {
-   "date": "2026-11-01T09:09:33.008000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "Kel'el Ware"
-  },
-  {
-   "date": "2026-11-01T09:09:33.008000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Draymond Green"
   }
  ],
  "schedule": {
@@ -12899,6 +12887,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 4.5
  }
 }
