@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T15:00:33.995597Z",
+ "updated": "2026-11-05T15:10:25.830754Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2830,7 +2830,7 @@
     "name": "Trey Murphy III",
     "pos": "SF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
      "PTS": 14.857142857142858,
@@ -5676,7 +5676,7 @@
     "name": "Peyton Watson",
     "pos": "SF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
      "PTS": 10.833333333333334,
@@ -6154,7 +6154,7 @@
    "name": "DeMar DeRozan",
    "pos": "SF",
    "team": "DEN",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 10.666666666666666,
@@ -7657,7 +7657,7 @@
    "name": "Terrence Shannon Jr.",
    "pos": "SG",
    "team": "MIN",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -8905,7 +8905,7 @@
    "name": "Jaylin Williams",
    "pos": "C",
    "team": "OKC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.5,
@@ -8967,7 +8967,7 @@
    "name": "Max Christie",
    "pos": "SG",
    "team": "DAL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.142857142857143,
@@ -9282,7 +9282,7 @@
    "name": "Jordan Goodwin",
    "pos": "PG",
    "team": "PHO",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.8,
@@ -10649,7 +10649,7 @@
    "name": "Clint Capela",
    "pos": "C",
    "team": "HOU",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 3.1666666666666665,
@@ -12920,6 +12920,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 3.6
  }
 }
