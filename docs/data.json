@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:10:24.631790Z",
+ "updated": "2026-11-05T17:20:22.916265Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2332,7 +2332,7 @@
     "name": "Kon Knueppel",
     "pos": "SF",
     "slot": "SF",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CHA",
     "avg": {
      "PTS": 3.0,
@@ -12920,6 +12920,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.6
  }
 }
