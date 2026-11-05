@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:10:21.218001Z",
+ "updated": "2026-11-05T20:20:25.021817Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -9364,7 +9364,7 @@
    "name": "Jordan Goodwin",
    "pos": "PG",
    "team": "PHO",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.8,
@@ -11561,6 +11561,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Trey Murphy: Expected to play Friday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Thu, 05 Nov 2026 12:20:00 PM PST",
+   "summary": "Murphy (knee) is probable for Friday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Devin Booker: Nets game-high 33 points in loss",
    "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
    "published": "Wed, 04 Nov 2026 10:00:00 PM PST",
@@ -11586,13 +11593,6 @@
    "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
    "published": "Wed, 04 Nov 2026 9:33:00 PM PST",
    "summary": "George registered 39 points (14-26 FG, 2-9 3Pt, 9-13 FT), two rebounds, nine assists, four steals and one block over 44 minutes in Wednesday's 120-113 overtime loss to the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Vit Krejci: Suffers leg fracture",
-   "link": "https://www.rotowire.com//basketball/player/vit-krejci-5233",
-   "published": "Wed, 04 Nov 2026 9:17:00 PM PST",
-   "summary": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12944,6 +12944,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 3.5
  }
 }
