@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:50:22.699972Z",
+ "updated": "2026-11-05T23:00:37.490629Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4529,7 +4529,7 @@
     "name": "Anthony Davis",
     "pos": "C",
     "slot": "PF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "WAS",
     "avg": {
      "PTS": 23.375,
@@ -11561,6 +11561,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Anthony Davis: Tagged questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
+   "published": "Thu, 05 Nov 2026 2:52:00 PM PST",
+   "summary": "Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Santi Aldama: Upgraded to Probable Friday",
    "link": "https://www.rotowire.com//basketball/player/santi-aldama-5428",
    "published": "Thu, 05 Nov 2026 2:25:00 PM PST",
@@ -11586,13 +11593,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
    "published": "Thu, 05 Nov 2026 2:09:00 PM PST",
    "summary": "Johnson is questionable to suit up for Friday's game against Washington.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Moussa Diabate: Questionable for Friday",
-   "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
-   "published": "Thu, 05 Nov 2026 2:08:00 PM PST",
-   "summary": "Diabate (quadriceps) is questionable for Friday's game against the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12944,6 +12944,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.7
  }
 }
