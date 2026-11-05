@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:00:31.470261Z",
+ "updated": "2026-11-05T06:10:24.408104Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1447,14 +1447,14 @@
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
-     "PTS": 19.75,
+     "PTS": 20.0,
      "REB": 1.625,
      "AST": 6.625,
      "STL": 0.625,
      "BLK": 0.0,
      "3PM": 2.375,
      "FG%": 0.45238095,
-     "FT%": 0.83333333,
+     "FT%": 0.84375,
      "TO": 5.5,
      "_src": "2027_last_15"
     },
@@ -5378,7 +5378,7 @@
      "3PM": 0.5,
      "FG%": 0.56578947,
      "FT%": 0.64864865,
-     "TO": 3.25,
+     "TO": 3.375,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5438,7 +5438,7 @@
      "STL": 2.125,
      "BLK": 0.625,
      "3PM": 0.625,
-     "FG%": 0.53921569,
+     "FG%": 0.53398058,
      "FT%": 0.76190476,
      "TO": 2.125,
      "_src": "2027_last_15"
@@ -7053,14 +7053,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 14.5,
+    "PTS": 14.666666666666666,
     "REB": 6.5,
     "AST": 1.6666666666666667,
     "STL": 1.0,
     "BLK": 0.16666666666666666,
     "3PM": 2.1666666666666665,
     "FG%": 0.38271605,
-    "FT%": 0.70588235,
+    "FT%": 0.68421053,
     "TO": 2.1666666666666665,
     "_src": "2027_last_15"
    },
@@ -11569,6 +11569,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Devin Booker: Nets game-high 33 points in loss",
+   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
+   "published": "Wed, 04 Nov 2026 10:00:00 PM PST",
+   "summary": "Booker finished with 33 points (9-19 FG, 2-8 3Pt, 13-13 FT), one rebound, two assists and two turnovers across 34 minutes in Wednesday's 132-119 loss to the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Victor Wembanyama: Posts monster double-double in win",
    "link": "https://www.rotowire.com//basketball/player/victor-wembanyama-5809",
    "published": "Wed, 04 Nov 2026 9:49:00 PM PST",
@@ -11594,13 +11601,6 @@
    "link": "https://www.rotowire.com//basketball/player/vit-krejci-5233",
    "published": "Wed, 04 Nov 2026 9:17:00 PM PST",
    "summary": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Vit Krejci: Won't return Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/vit-krejci-5233",
-   "published": "Wed, 04 Nov 2026 8:12:00 PM PST",
-   "summary": "Krejci won't return to Wednesday's game against the Suns due to a left ankle injury.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12898,6 +12898,6 @@
   "picked_total": 3084.0,
   "direct_total": 3084.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.6
  }
 }
