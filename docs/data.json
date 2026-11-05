@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:40:28.129810Z",
+ "updated": "2026-11-05T13:50:36.795630Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3965,37 +3965,6 @@
     }
    },
    {
-    "name": "Brayden Burries",
-    "pos": "SG",
-    "slot": "G",
-    "injury": "ACTIVE",
-    "team": "MIL",
-    "avg": {
-     "PTS": 8.875,
-     "REB": 4.5,
-     "AST": 1.5,
-     "STL": 0.625,
-     "BLK": 0.0,
-     "3PM": 0.75,
-     "FG%": 0.41071429,
-     "FT%": 0.73076923,
-     "TO": 1.125,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 10.971830985915492,
-     "REB": 2.704225352112676,
-     "AST": 4.098591549295775,
-     "STL": 1.0985915492957747,
-     "BLK": 0.29577464788732394,
-     "3PM": 0.4225352112676056,
-     "FG%": 0.449,
-     "FT%": 0.821,
-     "TO": 2.0985915492957745,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Reed Sheppard",
     "pos": "SG",
     "slot": "PG",
@@ -4023,6 +3992,37 @@
      "FG%": 0.426,
      "FT%": 0.803,
      "TO": 1.5,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Jeremiah Fears",
+    "pos": "SG",
+    "slot": "G",
+    "injury": "ACTIVE",
+    "team": "NOP",
+    "avg": {
+     "PTS": 13.625,
+     "REB": 4.5,
+     "AST": 4.5,
+     "STL": 1.0,
+     "BLK": 0.5,
+     "3PM": 1.0,
+     "FG%": 0.40566038,
+     "FT%": 0.78947368,
+     "TO": 2.625,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 15.090909090909092,
+     "REB": 3.8051948051948052,
+     "AST": 3.5064935064935066,
+     "STL": 1.1948051948051948,
+     "BLK": 0.4025974025974026,
+     "3PM": 1.3506493506493507,
+     "FG%": 0.445,
+     "FT%": 0.811,
+     "TO": 2.1948051948051948,
      "_src": "2027_projected"
     }
    }
@@ -5789,6 +5789,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-05T13:48:29.288000",
+   "team": "Murray Had a Little Lamb",
+   "action": "DROPPED",
+   "player": "Brayden Burries"
+  },
+  {
+   "date": "2026-11-05T13:48:29.288000",
+   "team": "Murray Had a Little Lamb",
+   "action": "FA ADDED",
+   "player": "Jeremiah Fears"
+  },
+  {
    "date": "2026-11-05T07:53:19.305000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -6290,37 +6302,6 @@
     "FG%": 0.504,
     "FT%": 0.809,
     "TO": 2.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Jeremiah Fears",
-   "pos": "SG",
-   "team": "NOP",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.625,
-    "REB": 4.5,
-    "AST": 4.5,
-    "STL": 1.0,
-    "BLK": 0.5,
-    "3PM": 1.0,
-    "FG%": 0.40566038,
-    "FT%": 0.78947368,
-    "TO": 2.625,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 15.090909090909092,
-    "REB": 3.8051948051948052,
-    "AST": 3.5064935064935066,
-    "STL": 1.1948051948051948,
-    "BLK": 0.4025974025974026,
-    "3PM": 1.3506493506493507,
-    "FG%": 0.445,
-    "FT%": 0.811,
-    "TO": 2.1948051948051948,
     "_src": "2027_projected"
    }
   },
@@ -8607,6 +8588,37 @@
     "FG%": 0.493,
     "FT%": 0.755,
     "TO": 1.0985915492957747,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Brayden Burries",
+   "pos": "SG",
+   "team": "MIL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.875,
+    "REB": 4.5,
+    "AST": 1.5,
+    "STL": 0.625,
+    "BLK": 0.0,
+    "3PM": 0.75,
+    "FG%": 0.41071429,
+    "FT%": 0.73076923,
+    "TO": 1.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.971830985915492,
+    "REB": 2.704225352112676,
+    "AST": 4.098591549295775,
+    "STL": 1.0985915492957747,
+    "BLK": 0.29577464788732394,
+    "3PM": 0.4225352112676056,
+    "FG%": 0.449,
+    "FT%": 0.821,
+    "TO": 2.0985915492957745,
     "_src": "2027_projected"
    }
   },
@@ -11569,6 +11581,125 @@
    "link": "https://www.rotowire.com//basketball/player/vit-krejci-5233",
    "published": "Wed, 04 Nov 2026 9:17:00 PM PST",
    "summary": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "ESPN",
+   "title": "Wemby draws MVP chants with career performance, predicts more to come",
+   "link": "https://www.espn.com/nba/story/_/id/50385705/wembanyama-52-points-24-rebounds-8-blocks-spurs-mavs",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "Victor Wembanyama had career highs of 52 points and 24 rebounds along with eight blocks to power the Spurs past the Mavericks on Wednesday night."
+  },
+  {
+   "source": "ESPN",
+   "title": "Super 8: Thompson's game-winning 3 completes Heat's dramatic comeback",
+   "link": "https://www.espn.com/nba/story/_/id/50387296/klay-thompson-hits-game-winner-miami-heat-comeback",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "The Heat engulfed Klay Thompson in a jubilant celebration after his corner 3 -- his eighth of the game -- went in with one second left in overtime of Miami's 117-116 victory over the Clippers."
+  },
+  {
+   "source": "ESPN",
+   "title": "Redick lauds Luka as latest hot streak continues",
+   "link": "https://www.espn.com/nba/story/_/id/50386480/luka-doncic-40-points-hot-streak-lakers-kings",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "By dropping another 40 points Wednesday, Luka Doncic joined Kobe Bryant and Elgin Baylor as the only Lakers to ever score 35-plus points in six straight games."
+  },
+  {
+   "source": "ESPN",
+   "title": "Finals bound? LeBron pumps brakes despite 76ers' blistering start",
+   "link": "https://www.espn.com/nba/story/_/id/50385564/lebron-says-too-early-talking-finals-8-1-start",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "LeBron James is cautioning against any proclamations the 76ers are NBA Finals-bound despite a blistering 8-1 start."
+  },
+  {
+   "source": "ESPN",
+   "title": "Warriors withholding payments to Porzingis on $20M salary, sources say",
+   "link": "https://www.espn.com/nba/story/_/id/50379460/warriors-not-making-payments-porzingis-sources-say",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "The Golden State Warriors are not delivering semimonthly payments to veteran center Kristaps Porzingis on his $20 million salary, league sources told ESPN, ruling that the currently absent center is not rendering his services."
+  },
+  {
+   "source": "ESPN",
+   "title": "Hornets' Knueppel exits 6 minutes into season debut with leg soreness",
+   "link": "https://www.espn.com/nba/story/_/id/50384048/hornets-knueppel-exits-season-debut-left-leg-injury",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "Charlotte Hornets guard Kon Knueppel exited his season debut after appearing to aggravate the left hamstring injury that had sidelined him to start the year."
+  },
+  {
+   "source": "ESPN",
+   "title": "Raptors' Leonard completes knee treatment, begins 'return to play process'",
+   "link": "https://www.espn.com/nba/story/_/id/50373620/kawhi-leonard-finishes-knee-treatment-begins-return-process",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "Kawhi Leonard has completed a treatment to address left knee swelling and is beginning the \"return to play process\" in Toronto, the Raptors announced."
+  },
+  {
+   "source": "ESPN",
+   "title": "Dumonts now controlling owners of Mavs with nearly 70% share",
+   "link": "https://www.espn.com/nba/story/_/id/50371176/dumonts-take-controlling-owners-mavericks",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "Sivan and Patrick Dumont purchased Miriam Adelson's shares of the Mavericks last month, making the Dumont family the controlling owners of the franchise."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83c\udfc0 Contract Year All-Stars: Grizzlies' Jerome and 11 others playing for a payday",
+   "link": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
+   "published": "Thu, 5 Nov 2026 07:08:29 EST",
+   "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027."
+  },
+  {
+   "source": "ESPN",
+   "title": "Even Nikola Jokic might not be able to save these Nuggets",
+   "link": "https://www.espn.com/nba/story/_/id/50371585/nikola-jokic-mvp-denver-nuggets-struggles",
+   "published": "Thu, 5 Nov 2026 07:36:45 EST",
+   "summary": "Denver's roster was never built to overcome any slippage from its three-time MVP."
+  },
+  {
+   "source": "ESPN",
+   "title": "Updated NBA Power Rankings: Summing up the starts for all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
+   "published": "Wed, 4 Nov 2026 17:20:54 EST",
+   "summary": "Here's where every team ranks after two weeks of action, plus the four words used to describe how each team has started the season."
+  },
+  {
+   "source": "ESPN",
+   "title": "Rankings: Debuting the top 100 prospects",
+   "link": "https://www.espn.com/nba/story/_/id/50379717/2027-nba-draft-rankings-top-100-prospects",
+   "published": "Thu, 5 Nov 2026 07:32:32 EST",
+   "summary": "Which top prospects lead in Jeremy Woo's debut rankings? Here's our top 100 big board for the 2027 class."
+  },
+  {
+   "source": "ESPN",
+   "title": "Off-court turmoil and on-court woes: How the Knicks' title defense got chaotic -- fast",
+   "link": "https://www.espn.com/nba/story/_/id/50360774/new-york-knicks-rings-contracts-losses",
+   "published": "Tue, 3 Nov 2026 22:04:08 EST",
+   "summary": "New York has stayed in the headlines -- for all the wrong reasons. Can the 2026 champs bounce back?"
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
+   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "published": "Wed, 4 Nov 2026 10:53:51 EST",
+   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
+  },
+  {
+   "source": "ESPN",
+   "title": "Karabell notebook: On Gobert and Bridges' slow starts, Zion's steals and more",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50370129/fantasy-basketball-trends-nba-2026-2027",
+   "published": "Tue, 3 Nov 2026 13:23:03 EST",
+   "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy."
+  },
+  {
+   "source": "ESPN",
+   "title": "Category specialists: Risacher, Robinson among players to add",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50359329/fantasy-basketball-category-specialist-waiver-additions",
+   "published": "Tue, 3 Nov 2026 13:23:03 EST",
+   "summary": "Steve Alexander looks at category specialists that might be available to add, including some who fill multiple voids."
+  },
+  {
+   "source": "ESPN",
+   "title": "Wide-open title and MVP races: How the NBA has cracked open in just two weeks",
+   "link": "https://www.espn.com/nba/story/_/id/50329551/finals-title-race-injuries-2026-27",
+   "published": "Mon, 2 Nov 2026 10:30:29 EST",
+   "summary": "The season is still young, but injuries and surprising developments have already changed narratives."
   }
  ],
  "games": {
@@ -11964,6 +12095,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-05T13:48:29.288000",
+   "team": "Murray Had a Little Lamb",
+   "action": "DROPPED",
+   "player": "Brayden Burries"
+  },
+  {
+   "date": "2026-11-05T13:48:29.288000",
+   "team": "Murray Had a Little Lamb",
+   "action": "FA ADDED",
+   "player": "Jeremiah Fears"
+  },
   {
    "date": "2026-11-05T07:53:19.305000",
    "team": "Pasta Warriors",
@@ -12896,6 +13039,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 4.4
+  "run_seconds": 3.1
  }
 }
