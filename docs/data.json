@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:05:38.232936Z",
+ "updated": "2026-11-05T19:10:22.314504Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -11583,7 +11583,398 @@
    "summary": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
- "games": {},
+ "games": {
+  "today": "2026-11-05",
+  "days_left": 4,
+  "by_team": {
+   "PHX": {
+    "rest": 2,
+    "next": 4
+   },
+   "ORL": {
+    "rest": 2,
+    "next": 3
+   },
+   "GS": {
+    "rest": 2,
+    "next": 3
+   },
+   "MIA": {
+    "rest": 2,
+    "next": 3
+   },
+   "ATL": {
+    "rest": 2,
+    "next": 3
+   },
+   "WSH": {
+    "rest": 2,
+    "next": 4
+   },
+   "CHA": {
+    "rest": 1,
+    "next": 3
+   },
+   "BOS": {
+    "rest": 2,
+    "next": 3
+   },
+   "CLE": {
+    "rest": 2,
+    "next": 4
+   },
+   "PHI": {
+    "rest": 2,
+    "next": 3
+   },
+   "DAL": {
+    "rest": 2,
+    "next": 4
+   },
+   "UTAH": {
+    "rest": 2,
+    "next": 4
+   },
+   "MEM": {
+    "rest": 1,
+    "next": 4
+   },
+   "OKC": {
+    "rest": 2,
+    "next": 4
+   },
+   "MIL": {
+    "rest": 2,
+    "next": 4
+   },
+   "TOR": {
+    "rest": 1,
+    "next": 4
+   },
+   "NO": {
+    "rest": 2,
+    "next": 4
+   },
+   "MIN": {
+    "rest": 2,
+    "next": 2
+   },
+   "LAL": {
+    "rest": 2,
+    "next": 3
+   },
+   "POR": {
+    "rest": 2,
+    "next": 3
+   },
+   "SAC": {
+    "rest": 2,
+    "next": 3
+   },
+   "SA": {
+    "rest": 2,
+    "next": 4
+   },
+   "IND": {
+    "rest": 1,
+    "next": 4
+   },
+   "DEN": {
+    "rest": 1,
+    "next": 3
+   },
+   "BKN": {
+    "rest": 2,
+    "next": 2
+   },
+   "NY": {
+    "rest": 1,
+    "next": 4
+   },
+   "HOU": {
+    "rest": 1,
+    "next": 4
+   },
+   "CHI": {
+    "rest": 1,
+    "next": 3
+   },
+   "DET": {
+    "rest": 1,
+    "next": 3
+   },
+   "LAC": {
+    "rest": 1,
+    "next": 3
+   },
+   "GSW": {
+    "rest": 2,
+    "next": 3
+   },
+   "NYK": {
+    "rest": 1,
+    "next": 4
+   },
+   "NOP": {
+    "rest": 2,
+    "next": 4
+   },
+   "SAS": {
+    "rest": 2,
+    "next": 4
+   },
+   "UTA": {
+    "rest": 2,
+    "next": 4
+   },
+   "PHL": {
+    "rest": 2,
+    "next": 3
+   },
+   "WAS": {
+    "rest": 2,
+    "next": 4
+   },
+   "PHO": {
+    "rest": 2,
+    "next": 4
+   }
+  },
+  "days": [
+   "2026-11-05",
+   "2026-11-06",
+   "2026-11-07",
+   "2026-11-08",
+   "2026-11-09",
+   "2026-11-10",
+   "2026-11-11",
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15"
+  ],
+  "by_day": {
+   "2026-11-05": [
+    "PHX",
+    "PHO",
+    "ORL",
+    "GS",
+    "GSW",
+    "MIA"
+   ],
+   "2026-11-06": [
+    "ATL",
+    "WSH",
+    "WAS",
+    "CHA",
+    "BOS",
+    "CLE",
+    "PHI",
+    "PHL",
+    "DAL",
+    "UTAH",
+    "UTA",
+    "MEM",
+    "OKC",
+    "MIL",
+    "TOR",
+    "NO",
+    "NOP",
+    "MIN",
+    "LAL",
+    "POR",
+    "SAC",
+    "SA",
+    "SAS"
+   ],
+   "2026-11-07": [
+    "IND",
+    "DEN",
+    "ATL",
+    "BKN",
+    "CLE",
+    "NY",
+    "NYK",
+    "OKC",
+    "WSH",
+    "WAS",
+    "GS",
+    "GSW",
+    "ORL",
+    "PHX",
+    "PHO",
+    "HOU",
+    "POR",
+    "SA",
+    "SAS"
+   ],
+   "2026-11-08": [
+    "CHI",
+    "PHI",
+    "PHL",
+    "DET",
+    "LAL",
+    "MIN",
+    "UTAH",
+    "UTA",
+    "DAL",
+    "BKN",
+    "MIL",
+    "BOS",
+    "LAC",
+    "NO",
+    "NOP",
+    "SAC",
+    "MIA"
+   ],
+   "2026-11-09": [
+    "ATL",
+    "LAL",
+    "CHA",
+    "CLE",
+    "DET",
+    "WSH",
+    "WAS",
+    "TOR",
+    "MEM",
+    "DAL",
+    "IND",
+    "HOU",
+    "DEN",
+    "PHX",
+    "PHO",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "NO",
+    "NOP"
+   ],
+   "2026-11-10": [
+    "NY",
+    "NYK",
+    "MIL",
+    "PHI",
+    "PHL",
+    "BOS",
+    "PHX",
+    "PHO",
+    "LAC",
+    "UTAH",
+    "UTA",
+    "MIA",
+    "SAC",
+    "ORL",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-11": [
+    "IND",
+    "WSH",
+    "WAS",
+    "NY",
+    "NYK",
+    "CLE",
+    "TOR",
+    "BOS",
+    "CHI",
+    "SA",
+    "SAS",
+    "MEM",
+    "DEN",
+    "MIL",
+    "LAL",
+    "NO",
+    "NOP",
+    "BKN",
+    "UTAH",
+    "UTA",
+    "ORL",
+    "HOU",
+    "GS",
+    "GSW",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-12": [
+    "PHI",
+    "PHL",
+    "TOR",
+    "WSH",
+    "WAS",
+    "DET",
+    "MIN",
+    "DAL",
+    "PHX",
+    "PHO",
+    "CHA"
+   ],
+   "2026-11-13": [
+    "IND",
+    "NY",
+    "NYK",
+    "ORL",
+    "MIL",
+    "MIA",
+    "CLE",
+    "CHI",
+    "ATL",
+    "NO",
+    "NOP",
+    "MEM",
+    "HOU",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "SAC",
+    "POR",
+    "LAC",
+    "OKC"
+   ],
+   "2026-11-14": [
+    "NO",
+    "NOP",
+    "DEN",
+    "CLE",
+    "DAL",
+    "MIA",
+    "DET",
+    "MEM",
+    "BKN",
+    "MIN",
+    "CHI"
+   ],
+   "2026-11-15": [
+    "PHI",
+    "PHL",
+    "IND",
+    "PHX",
+    "PHO",
+    "LAL",
+    "LAC",
+    "CHA",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "BOS",
+    "DAL",
+    "TOR",
+    "NY",
+    "NYK",
+    "WSH",
+    "WAS",
+    "HOU",
+    "MIL",
+    "ATL",
+    "SAC",
+    "OKC"
+   ]
+  }
+ },
  "log": [
   {
    "date": "2026-11-05T13:48:29.288000",
