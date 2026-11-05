@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:50:25.676544Z",
+ "updated": "2026-11-05T20:00:32.001223Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4093,7 +4093,7 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4369,37 +4369,6 @@
     }
    },
    {
-    "name": "Brook Lopez",
-    "pos": "C",
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "LAC",
-    "avg": {
-     "PTS": 13.5,
-     "REB": 5.125,
-     "AST": 1.0,
-     "STL": 0.5,
-     "BLK": 1.125,
-     "3PM": 1.375,
-     "FG%": 0.56,
-     "FT%": 0.68421053,
-     "TO": 1.25,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 10.625,
-     "REB": 4.305555555555555,
-     "AST": 1.5,
-     "STL": 0.5972222222222222,
-     "BLK": 1.6944444444444444,
-     "3PM": 1.6111111111111112,
-     "FG%": 0.475,
-     "FT%": 0.806,
-     "TO": 0.9027777777777778,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Saddiq Bey",
     "pos": "SF",
     "slot": "BE",
@@ -4458,6 +4427,37 @@
      "FG%": 0.445,
      "FT%": 0.883,
      "TO": 0.8051948051948052,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Bobby Portis",
+    "pos": "PF",
+    "slot": "C",
+    "injury": "ACTIVE",
+    "team": "MIA",
+    "avg": {
+     "PTS": 8.25,
+     "REB": 7.125,
+     "AST": 2.125,
+     "STL": 0.875,
+     "BLK": 0.625,
+     "3PM": 1.5,
+     "FG%": 0.3968254,
+     "FT%": 0.8,
+     "TO": 1.125,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 13.646153846153846,
+     "REB": 6.707692307692308,
+     "AST": 1.6,
+     "STL": 0.6,
+     "BLK": 0.2,
+     "3PM": 1.8615384615384616,
+     "FG%": 0.486,
+     "FT%": 0.733,
+     "TO": 1.0,
      "_src": "2027_projected"
     }
    }
@@ -5789,6 +5789,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-05T19:56:29.963000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Brook Lopez"
+  },
+  {
+   "date": "2026-11-05T19:56:29.963000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Bobby Portis"
+  },
+  {
    "date": "2026-11-05T13:48:29.288000",
    "team": "Murray Had a Little Lamb",
    "action": "DROPPED",
@@ -6655,6 +6667,37 @@
    }
   },
   {
+   "name": "Brook Lopez",
+   "pos": "C",
+   "team": "LAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 13.5,
+    "REB": 5.125,
+    "AST": 1.0,
+    "STL": 0.5,
+    "BLK": 1.125,
+    "3PM": 1.375,
+    "FG%": 0.56,
+    "FT%": 0.68421053,
+    "TO": 1.25,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.625,
+    "REB": 4.305555555555555,
+    "AST": 1.5,
+    "STL": 0.5972222222222222,
+    "BLK": 1.6944444444444444,
+    "3PM": 1.6111111111111112,
+    "FG%": 0.475,
+    "FT%": 0.806,
+    "TO": 0.9027777777777778,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Collin Sexton",
    "pos": "SG",
    "team": "LAL",
@@ -6744,37 +6787,6 @@
     "FG%": 0.431,
     "FT%": 0.803,
     "TO": 1.1014492753623188,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Bobby Portis",
-   "pos": "PF",
-   "team": "MIA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.25,
-    "REB": 7.125,
-    "AST": 2.125,
-    "STL": 0.875,
-    "BLK": 0.625,
-    "3PM": 1.5,
-    "FG%": 0.3968254,
-    "FT%": 0.8,
-    "TO": 1.125,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.646153846153846,
-    "REB": 6.707692307692308,
-    "AST": 1.6,
-    "STL": 0.6,
-    "BLK": 0.2,
-    "3PM": 1.8615384615384616,
-    "FG%": 0.486,
-    "FT%": 0.733,
-    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -11977,6 +11989,18 @@
  },
  "log": [
   {
+   "date": "2026-11-05T19:56:29.963000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Brook Lopez"
+  },
+  {
+   "date": "2026-11-05T19:56:29.963000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Bobby Portis"
+  },
+  {
    "date": "2026-11-05T13:48:29.288000",
    "team": "Murray Had a Little Lamb",
    "action": "DROPPED",
@@ -12920,6 +12944,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 4.4
+  "run_seconds": 3.6
  }
 }
