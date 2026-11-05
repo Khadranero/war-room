@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:00:31.501399Z",
+ "updated": "2026-11-05T22:10:27.211110Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2053,7 +2053,7 @@
     "name": "Moussa Diabate",
     "pos": "PF",
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CHA",
     "avg": {
      "PTS": 8.88888888888889,
@@ -2332,7 +2332,7 @@
     "name": "Kon Knueppel",
     "pos": "SF",
     "slot": "SF",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHA",
     "avg": {
      "PTS": 3.0,
@@ -11561,6 +11561,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Johnson: Remains Questionable Friday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
+   "published": "Thu, 05 Nov 2026 2:09:00 PM PST",
+   "summary": "Johnson is questionable to suit up for Friday's game against Washington.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Moussa Diabate: Questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
+   "published": "Thu, 05 Nov 2026 2:08:00 PM PST",
+   "summary": "Diabate (quadriceps) is questionable for Friday's game against the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Kon Knueppel: Out with hamstring strain",
+   "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
+   "published": "Thu, 05 Nov 2026 2:05:00 PM PST",
+   "summary": "Knueppel (hamstring) is out for Friday's game against the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Payton Pritchard: Listed as questionable",
    "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
    "published": "Thu, 05 Nov 2026 1:10:00 PM PST",
@@ -11572,27 +11593,6 @@
    "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
    "published": "Thu, 05 Nov 2026 1:09:00 PM PST",
    "summary": "Tatum (rest) is off the injury report for Friday's game versus Charlotte, per Taylor Snow of the Celtics' official site.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Available Thursday",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Thu, 05 Nov 2026 12:52:00 PM PST",
-   "summary": "Antetokounmpo (wrist) is available for Thursday's game against the Warriors, Anthony Chiang of the Miami Herald reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Expected to play Friday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Thu, 05 Nov 2026 12:20:00 PM PST",
-   "summary": "Murphy (knee) is probable for Friday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Devin Booker: Nets game-high 33 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
-   "published": "Wed, 04 Nov 2026 10:00:00 PM PST",
-   "summary": "Booker finished with 33 points (9-19 FG, 2-8 3Pt, 13-13 FT), one rebound, two assists and two turnovers across 34 minutes in Wednesday's 132-119 loss to the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12944,6 +12944,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 4.6
  }
 }
