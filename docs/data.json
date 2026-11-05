@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:00:37.490629Z",
+ "updated": "2026-11-05T23:10:25.784269Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8117,7 +8117,7 @@
    "name": "Isaiah Stewart",
    "pos": "C",
    "team": "MEM",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 11.857142857142858,
@@ -11561,6 +11561,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scotty Pippen: Out vs. Thunder",
+   "link": "https://www.rotowire.com//basketball/player/scotty-pippen-5685",
+   "published": "Thu, 05 Nov 2026 3:04:00 PM PST",
+   "summary": "Pippen (back) has been ruled out for Friday's game against Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Anthony Davis: Tagged questionable for Friday",
    "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
    "published": "Thu, 05 Nov 2026 2:52:00 PM PST",
@@ -11586,13 +11593,6 @@
    "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
    "published": "Thu, 05 Nov 2026 2:13:00 PM PST",
    "summary": "Allen (knee) is questionable for Friday's game against Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Johnson: Remains Questionable Friday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
-   "published": "Thu, 05 Nov 2026 2:09:00 PM PST",
-   "summary": "Johnson is questionable to suit up for Friday's game against Washington.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12944,6 +12944,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.2
  }
 }
