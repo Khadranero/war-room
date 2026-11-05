@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:40:22.116504Z",
+ "updated": "2026-11-05T08:50:31.132384Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4497,7 +4497,7 @@
    {
     "name": "Tyrese Maxey",
     "pos": "PG",
-    "slot": "SG",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -4559,7 +4559,7 @@
    {
     "name": "Derrick White",
     "pos": "SG",
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -4590,7 +4590,7 @@
    {
     "name": "Naz Reid",
     "pos": "C",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -4621,7 +4621,7 @@
    {
     "name": "Mikal Bridges",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -4683,7 +4683,7 @@
    {
     "name": "Joel Embiid",
     "pos": "C",
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -4745,7 +4745,7 @@
    {
     "name": "Miles Bridges",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -4858,7 +4858,7 @@
    {
     "name": "Isaiah Hartenstein",
     "pos": "C",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -4888,7 +4888,7 @@
    {
     "name": "Pelle Larsson",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -12885,6 +12885,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 4.2
  }
 }
