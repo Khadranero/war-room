@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T14:50:26.685803Z",
+ "updated": "2026-11-05T15:00:33.995597Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1755,7 +1755,7 @@
     "name": "Jalen Johnson",
     "pos": "PF",
     "slot": "PF",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "ATL",
     "avg": {
      "PTS": 18.285714285714285,
@@ -2208,7 +2208,7 @@
     "name": "Jayson Tatum",
     "pos": "PF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
      "PTS": 29.333333333333332,
@@ -3327,7 +3327,7 @@
     "name": "Josh Hart",
     "pos": "SF",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 7.666666666666667,
@@ -8145,7 +8145,7 @@
    "name": "Kelly Oubre Jr.",
    "pos": "SF",
    "team": "IND",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.428571428571429,
@@ -10436,7 +10436,7 @@
    "name": "Jock Landale",
    "pos": "C",
    "team": "ATL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.285714285714286,
@@ -12920,6 +12920,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 2.9
  }
 }
