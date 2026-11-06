@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:00:33.923662Z",
+ "updated": "2026-11-06T18:10:23.829258Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2002,7 +2002,7 @@
     "name": "Immanuel Quickley",
     "pos": "PG",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 16.571428571428573,
@@ -2053,7 +2053,7 @@
     "name": "Moussa Diabate",
     "pos": "PF",
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHA",
     "avg": {
      "PTS": 7.875,
@@ -2830,7 +2830,7 @@
     "name": "Trey Murphy III",
     "pos": "SF",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 15.5,
@@ -6510,7 +6510,7 @@
    "name": "Jakob Poeltl",
    "pos": "C",
    "team": "TOR",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 5.6,
@@ -7714,7 +7714,7 @@
    "name": "Terrence Shannon Jr.",
    "pos": "SG",
    "team": "MIN",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 12.333333333333334,
@@ -7990,7 +7990,7 @@
    "name": "Dennis Schroder",
    "pos": "PG",
    "team": "CHA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 9.125,
@@ -11597,6 +11597,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Trey Murphy: Available Friday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Fri, 06 Nov 2026 10:03:00 AM PST",
+   "summary": "Murphy (knees) is available for Friday's game against the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Immanuel Quickley: Downgraded to questionable",
+   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
+   "published": "Fri, 06 Nov 2026 10:00:00 AM PST",
+   "summary": "Quickley (hamstring) is questionable for Friday against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Moussa Diabate: Ruled out for Friday",
+   "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
+   "published": "Fri, 06 Nov 2026 9:57:00 AM PST",
+   "summary": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Scottie Barnes: Absent from shootaround",
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Fri, 06 Nov 2026 9:47:00 AM PST",
@@ -11608,27 +11629,6 @@
    "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
    "published": "Fri, 06 Nov 2026 9:28:00 AM PST",
    "summary": "Pritchard (eye) is available for Friday's game against the Hornets, Zack Cox of the Boston Heraldreports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Extends double-double streak to six games",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Thu, 05 Nov 2026 9:50:00 PM PST",
-   "summary": "Antetokounmpo tallied 20 points (7-13 FG, 1-5 3Pt, 5-7 FT), 14 rebounds and four assists across 31 minutes during Thursday's 120-100 loss to the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Stephen Curry: Strikes for 29 points",
-   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
-   "published": "Thu, 05 Nov 2026 9:46:00 PM PST",
-   "summary": "Curry tallied 29 points (9-19 FG, 6-12 3Pt, 5-5 FT), one rebound, four assists and one steal in 28 minutes during Thursday's 120-100 win over Miami.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Franz Wagner: Dishes out 15 assists",
-   "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
-   "published": "Thu, 05 Nov 2026 9:36:00 PM PST",
-   "summary": "Wagner collected 15 points (7-13 FG, 0-1 3Pt, 1-4 FT), eight rebounds, 15 assists and four steals in 38 minutes during Thursday's 117-104 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13031,6 +13031,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.8
  }
 }
