@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:30:29.637757Z",
+ "updated": "2026-11-06T22:40:24.082337Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4529,7 +4529,7 @@
     "name": "Anthony Davis",
     "pos": "C",
     "slot": "PF",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "WAS",
     "avg": {
      "PTS": 21.857142857142858,
@@ -11586,6 +11586,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Anthony Davis: Ruled out Friday night",
+   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
+   "published": "Fri, 06 Nov 2026 2:37:00 PM PST",
+   "summary": "Davis (ankle) is listed as out for Friday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Draymond Green: Questionable versus Orlando",
    "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
    "published": "Fri, 06 Nov 2026 2:22:00 PM PST",
@@ -11611,13 +11618,6 @@
    "link": "https://www.rotowire.com//basketball/player/kristaps-porzingis-3669",
    "published": "Fri, 06 Nov 2026 1:27:00 PM PST",
    "summary": "Porzingis announced on his social media that he's stepping away from basketball.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "De'Andre Hunter: Late addition to injury report",
-   "link": "https://www.rotowire.com//basketball/player/deandre-hunter-4776",
-   "published": "Fri, 06 Nov 2026 1:08:00 PM PST",
-   "summary": "Hunter is questionable for Friday against the Spurs due to an illness.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13020,6 +13020,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 2.4
  }
 }
