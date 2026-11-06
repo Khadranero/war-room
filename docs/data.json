@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:30:25.095090Z",
+ "updated": "2026-11-06T01:40:22.639136Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8095,6 +8095,15 @@
    }
   },
   {
+   "name": "Cam Thomas",
+   "pos": "SG",
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Isaiah Stewart",
    "pos": "C",
    "team": "MEM",
@@ -8124,15 +8133,6 @@
     "TO": 1.2028985507246377,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Cam Thomas",
-   "pos": "SG",
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
   },
   {
    "name": "Matisse Thybulle",
@@ -8956,6 +8956,36 @@
    }
   },
   {
+   "name": "Jase Richardson",
+   "pos": "SG",
+   "team": "ORL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.857142857142857,
+    "REB": 1.8571428571428572,
+    "AST": 2.4285714285714284,
+    "STL": 0.5714285714285714,
+    "BLK": 0.42857142857142855,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.36363636,
+    "FT%": 0.8,
+    "TO": 0.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 4.481481481481482,
+    "REB": 1.2037037037037037,
+    "AST": 1.0925925925925926,
+    "STL": 0.4074074074074074,
+    "3PM": 0.5555555555555556,
+    "FG%": 0.466,
+    "FT%": 0.744,
+    "TO": 0.5,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Jaylin Williams",
    "pos": "C",
    "team": "OKC",
@@ -9018,36 +9048,6 @@
    }
   },
   {
-   "name": "Jase Richardson",
-   "pos": "SG",
-   "team": "ORL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.857142857142857,
-    "REB": 1.8571428571428572,
-    "AST": 2.4285714285714284,
-    "STL": 0.5714285714285714,
-    "BLK": 0.42857142857142855,
-    "3PM": 0.7142857142857143,
-    "FG%": 0.36363636,
-    "FT%": 0.8,
-    "TO": 0.5714285714285714,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 4.481481481481482,
-    "REB": 1.2037037037037037,
-    "AST": 1.0925925925925926,
-    "STL": 0.4074074074074074,
-    "3PM": 0.5555555555555556,
-    "FG%": 0.466,
-    "FT%": 0.744,
-    "TO": 0.5,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Max Christie",
    "pos": "SG",
    "team": "DAL",
@@ -9075,6 +9075,37 @@
     "FG%": 0.439,
     "FT%": 0.89,
     "TO": 1.1948051948051948,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Al Horford",
+   "pos": "C",
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.0,
+    "REB": 4.0,
+    "AST": 1.0,
+    "STL": 0.3333333333333333,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.40740741,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.696428571428571,
+    "REB": 5.803571428571429,
+    "AST": 2.392857142857143,
+    "STL": 0.6071428571428571,
+    "BLK": 1.0,
+    "3PM": 1.75,
+    "FG%": 0.452,
+    "FT%": 0.87,
+    "TO": 0.8035714285714286,
     "_src": "2027_projected"
    }
   },
@@ -9119,37 +9150,6 @@
    "proj": {}
   },
   {
-   "name": "Al Horford",
-   "pos": "C",
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.0,
-    "REB": 4.0,
-    "AST": 1.0,
-    "STL": 0.3333333333333333,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.3333333333333333,
-    "FG%": 0.40740741,
-    "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.696428571428571,
-    "REB": 5.803571428571429,
-    "AST": 2.392857142857143,
-    "STL": 0.6071428571428571,
-    "BLK": 1.0,
-    "3PM": 1.75,
-    "FG%": 0.452,
-    "FT%": 0.87,
-    "TO": 0.8035714285714286,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Russell Westbrook",
    "pos": "PG",
    "team": "FA",
@@ -9189,26 +9189,6 @@
    }
   },
   {
-   "name": "Bradley Beal",
-   "pos": "SF",
-   "team": "LAC",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {
-    "PTS": 13.555555555555555,
-    "REB": 2.9074074074074074,
-    "AST": 3.2962962962962963,
-    "STL": 0.7962962962962963,
-    "BLK": 0.4074074074074074,
-    "3PM": 1.5,
-    "FG%": 0.503,
-    "FT%": 0.807,
-    "TO": 1.7037037037037037,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Georges Niang",
    "pos": "PF",
    "team": "GSW",
@@ -9227,6 +9207,26 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Bradley Beal",
+   "pos": "SF",
+   "team": "LAC",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 13.555555555555555,
+    "REB": 2.9074074074074074,
+    "AST": 3.2962962962962963,
+    "STL": 0.7962962962962963,
+    "BLK": 0.4074074074074074,
+    "3PM": 1.5,
+    "FG%": 0.503,
+    "FT%": 0.807,
+    "TO": 1.7037037037037037,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "Walter Clayton Jr.",
@@ -9608,26 +9608,6 @@
    "proj": {}
   },
   {
-   "name": "Jordan Goodwin",
-   "pos": "PG",
-   "team": "PHO",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 7.8,
-    "REB": 3.4,
-    "AST": 2.6,
-    "STL": 1.6,
-    "BLK": 0.0,
-    "3PM": 1.8,
-    "FG%": 0.44117647,
-    "FT%": 0.0,
-    "TO": 0.6,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Nikola Jovic",
    "pos": "PF",
    "team": "MIA",
@@ -9657,6 +9637,26 @@
     "TO": 1.704225352112676,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Jordan Goodwin",
+   "pos": "PG",
+   "team": "PHO",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 7.8,
+    "REB": 3.4,
+    "AST": 2.6,
+    "STL": 1.6,
+    "BLK": 0.0,
+    "3PM": 1.8,
+    "FG%": 0.44117647,
+    "FT%": 0.0,
+    "TO": 0.6,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Kevin Huerter",
@@ -10437,15 +10437,6 @@
    }
   },
   {
-   "name": "Tacko Fall",
-   "pos": "C",
-   "team": "PHL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
-  },
-  {
    "name": "Kenrich Williams",
    "pos": "SF",
    "team": "OKC",
@@ -10477,6 +10468,15 @@
    }
   },
   {
+   "name": "Tacko Fall",
+   "pos": "C",
+   "team": "PHL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Cameron Carr",
    "pos": "SF",
    "team": "LAL",
@@ -10492,6 +10492,26 @@
     "FG%": 0.0,
     "FT%": 0.0,
     "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Cam Whitmore",
+   "pos": "SF",
+   "team": "DEN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.0,
+    "REB": 1.0,
+    "AST": 0.5,
+    "STL": 0.5,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.57142857,
+    "FT%": 0.0,
+    "TO": 0.5,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -10526,26 +10546,6 @@
     "TO": 0.6935483870967742,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Cam Whitmore",
-   "pos": "SF",
-   "team": "DEN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.0,
-    "REB": 1.0,
-    "AST": 0.5,
-    "STL": 0.5,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.57142857,
-    "FT%": 0.0,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Allen Graves",
@@ -11573,6 +11573,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scottie Barnes: Questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Thu, 05 Nov 2026 5:27:00 PM PST",
+   "summary": "Barnes (groin) is questionable to play Friday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Recalled from Windy City",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Thu, 05 Nov 2026 3:39:00 PM PST",
@@ -11598,13 +11605,6 @@
    "link": "https://www.rotowire.com//basketball/player/santi-aldama-5428",
    "published": "Thu, 05 Nov 2026 2:25:00 PM PST",
    "summary": "Aldama (knee) is probable for Friday's game against the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Peyton Watson: Listed questionable for Friday",
-   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
-   "published": "Thu, 05 Nov 2026 2:16:00 PM PST",
-   "summary": "Watson (hamstring) is questionable for Friday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12968,6 +12968,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.5
  }
 }
