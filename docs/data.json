@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T09:40:25.276795Z",
+ "updated": "2026-11-06T09:50:24.893550Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2207,7 +2207,7 @@
    {
     "name": "Jayson Tatum",
     "pos": "PF",
-    "slot": "IR",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -2331,7 +2331,7 @@
    {
     "name": "Kon Knueppel",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "IR",
     "injury": "OUT",
     "team": "CHA",
     "avg": {
@@ -2486,7 +2486,7 @@
    {
     "name": "Ausar Thompson",
     "pos": "SF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -2579,7 +2579,7 @@
    {
     "name": "Aaron Wiggins",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -13013,6 +13013,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 3.9
  }
 }
