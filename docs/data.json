@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:30:29.278342Z",
+ "updated": "2026-11-06T17:40:23.050636Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5147,7 +5147,7 @@
     "name": "Payton Pritchard",
     "pos": "PG",
     "slot": "PG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
      "PTS": 12.428571428571429,
@@ -11603,6 +11603,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Payton Pritchard: Good to go Friday",
+   "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
+   "published": "Fri, 06 Nov 2026 9:28:00 AM PST",
+   "summary": "Pritchard (eye) is available for Friday's game against the Hornets, Zack Cox of the Boston Heraldreports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Giannis Antetokounmpo: Extends double-double streak to six games",
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Thu, 05 Nov 2026 9:50:00 PM PST",
@@ -11628,13 +11635,6 @@
    "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
    "published": "Thu, 05 Nov 2026 8:38:00 PM PST",
    "summary": "Booker posted 30 points (11-22 FG, 4-8 3Pt, 4-4 FT), one rebound, eight assists and three steals in 34 minutes during Thursday's 117-104 win over the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Wendell Carter: Rolls to double-double in loss",
-   "link": "https://www.rotowire.com//basketball/player/wendell-carter-4407",
-   "published": "Thu, 05 Nov 2026 8:30:00 PM PST",
-   "summary": "Carter finished with 27 points (10-12 FG, 2-2 3Pt, 5-6 FT), 13 rebounds, two assists and one steal in 34 minutes during Thursday's 117-104 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13037,6 +13037,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 2.5
  }
 }
