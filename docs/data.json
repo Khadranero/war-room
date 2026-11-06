@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:50:27.382567Z",
+ "updated": "2026-11-06T18:00:33.923662Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1754,7 +1754,7 @@
    {
     "name": "Jalen Johnson",
     "pos": "PF",
-    "slot": "PF",
+    "slot": "F",
     "injury": "DAY_TO_DAY",
     "team": "ATL",
     "avg": {
@@ -1847,7 +1847,7 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -2001,7 +2001,7 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2052,7 +2052,7 @@
    {
     "name": "Moussa Diabate",
     "pos": "PF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "CHA",
     "avg": {
@@ -5981,12 +5981,6 @@
    "team": "Crackheads",
    "action": "FA ADDED",
    "player": "Paul Reed"
-  },
-  {
-   "date": "2026-11-02T14:58:52.995000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Jalen Smith"
   }
  ],
  "schedule": {
@@ -11603,6 +11597,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scottie Barnes: Absent from shootaround",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Fri, 06 Nov 2026 9:47:00 AM PST",
+   "summary": "Barnes (adductor) was not present at the morning shootaround, Michael Grange of Sportsnet.careports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Payton Pritchard: Good to go Friday",
    "link": "https://www.rotowire.com//basketball/player/payton-pritchard-5131",
    "published": "Fri, 06 Nov 2026 9:28:00 AM PST",
@@ -11628,13 +11629,6 @@
    "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
    "published": "Thu, 05 Nov 2026 9:36:00 PM PST",
    "summary": "Wagner collected 15 points (7-13 FG, 0-1 3Pt, 1-4 FT), eight rebounds, 15 assists and four steals in 38 minutes during Thursday's 117-104 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Devin Booker: Drops game-high 30 points in win",
-   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
-   "published": "Thu, 05 Nov 2026 8:38:00 PM PST",
-   "summary": "Booker posted 30 points (11-22 FG, 4-8 3Pt, 4-4 FT), one rebound, eight assists and three steals in 34 minutes during Thursday's 117-104 win over the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
