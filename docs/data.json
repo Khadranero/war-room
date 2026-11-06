@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T23:40:24.602486Z",
+ "updated": "2026-11-06T23:50:21.687170Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1816,7 +1816,7 @@
    {
     "name": "Pascal Siakam",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -1847,7 +1847,7 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -1908,7 +1908,7 @@
    {
     "name": "Desmond Bane",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -1939,7 +1939,7 @@
    {
     "name": "Michael Porter Jr.",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -2001,8 +2001,8 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "PG",
-    "injury": "DAY_TO_DAY",
+    "slot": "BE",
+    "injury": "OUT",
     "team": "TOR",
     "avg": {
      "PTS": 16.571428571428573,
@@ -2082,7 +2082,7 @@
    {
     "name": "Duncan Robinson",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -2143,7 +2143,7 @@
    {
     "name": "Christian Braun",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -5356,7 +5356,7 @@
     "name": "Scottie Barnes",
     "pos": "SF",
     "slot": "G",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "TOR",
     "avg": {
      "PTS": 23.571428571428573,
@@ -5995,12 +5995,6 @@
    "team": "AllThisToBeatLeGoat",
    "action": "DROPPED",
    "player": "Aday Mara"
-  },
-  {
-   "date": "2026-11-02T18:11:56.754000",
-   "team": "Rubio Bzeit ",
-   "action": "FA ADDED",
-   "player": "Yves Missi"
   }
  ],
  "schedule": {
@@ -11616,38 +11610,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jordan Walsh: Starting Friday",
+   "link": "https://www.rotowire.com//basketball/player/jordan-walsh-5942",
+   "published": "Fri, 06 Nov 2026 3:46:00 PM PST",
+   "summary": "Walsh will start Friday against the Hornets, Sean Grande of NBC Sports Boston reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Scottie Barnes: Ruled out Friday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Fri, 06 Nov 2026 3:44:00 PM PST",
+   "summary": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Immanuel Quickley: Ruled out for Friday",
+   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
+   "published": "Fri, 06 Nov 2026 3:41:00 PM PST",
+   "summary": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Grayson Allen: Starting versus Boston",
+   "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
+   "published": "Fri, 06 Nov 2026 3:40:00 PM PST",
+   "summary": "Allen will start in Friday's game against the Celtics\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Deandre Ayton: Starting Friday",
    "link": "https://www.rotowire.com//basketball/player/deandre-ayton-4372",
    "published": "Fri, 06 Nov 2026 3:36:00 PM PST",
    "summary": "Ayton will start Friday against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ryan Kalkbrenner: Starting sans Diabate",
-   "link": "https://www.rotowire.com//basketball/player/ryan-kalkbrenner-6567",
-   "published": "Fri, 06 Nov 2026 3:36:00 PM PST",
-   "summary": "Kalkbrenner is starting Friday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kyrie Irving: Upgraded to available",
-   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
-   "published": "Fri, 06 Nov 2026 3:11:00 PM PST",
-   "summary": "Irving (illness) is available for Friday's game against Utah.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Santi Aldama: Available to play",
-   "link": "https://www.rotowire.com//basketball/player/santi-aldama-5428",
-   "published": "Fri, 06 Nov 2026 3:10:00 PM PST",
-   "summary": "Aldama (knee) is available for Friday's game against the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Davis: Ruled out Friday night",
-   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
-   "published": "Fri, 06 Nov 2026 2:37:00 PM PST",
-   "summary": "Davis (ankle) is listed as out for Friday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13086,6 +13080,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.4
  }
 }
