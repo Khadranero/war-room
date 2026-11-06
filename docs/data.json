@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T05:30:29.082325Z",
+ "updated": "2026-11-06T05:40:29.341002Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1572,7 +1572,7 @@
     "team": "GSW",
     "avg": {
      "PTS": 15.857142857142858,
-     "REB": 5.0,
+     "REB": 5.142857142857143,
      "AST": 4.714285714285714,
      "STL": 1.1428571428571428,
      "BLK": 0.42857142857142855,
@@ -1602,13 +1602,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 20.77777777777778,
+     "PTS": 21.0,
      "REB": 7.111111111111111,
-     "AST": 4.0,
+     "AST": 4.111111111111111,
      "STL": 1.1111111111111112,
      "BLK": 0.5555555555555556,
      "3PM": 2.3333333333333335,
-     "FG%": 0.488,
+     "FG%": 0.49206349,
      "FT%": 0.75862069,
      "TO": 3.2222222222222223,
      "_src": "2027_last_15"
@@ -4344,13 +4344,13 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 15.88888888888889,
+     "PTS": 16.11111111111111,
      "REB": 1.5555555555555556,
-     "AST": 8.11111111111111,
+     "AST": 8.222222222222221,
      "STL": 1.3333333333333333,
      "BLK": 0.5555555555555556,
      "3PM": 2.2222222222222223,
-     "FG%": 0.49557522,
+     "FG%": 0.5,
      "FT%": 0.73333333,
      "TO": 2.6666666666666665,
      "_src": "2027_last_15"
@@ -5349,15 +5349,15 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 27.22222222222222,
+     "PTS": 27.333333333333332,
      "REB": 12.666666666666666,
      "AST": 5.555555555555555,
      "STL": 0.8888888888888888,
      "BLK": 1.0,
      "3PM": 0.5555555555555556,
      "FG%": 0.56024096,
-     "FT%": 0.66666667,
-     "TO": 3.3333333333333335,
+     "FT%": 0.6626506,
+     "TO": 3.4444444444444446,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5417,7 +5417,7 @@
      "STL": 2.0,
      "BLK": 0.6666666666666666,
      "3PM": 0.5555555555555556,
-     "FG%": 0.54310345,
+     "FG%": 0.53846154,
      "FT%": 0.73469388,
      "TO": 1.8888888888888888,
      "_src": "2027_last_15"
@@ -8352,13 +8352,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.125,
+    "PTS": 11.375,
     "REB": 2.625,
-    "AST": 2.5,
+    "AST": 2.625,
     "STL": 0.875,
-    "BLK": 0.375,
+    "BLK": 0.5,
     "3PM": 0.875,
-    "FG%": 0.39130435,
+    "FG%": 0.4,
     "FT%": 0.84848485,
     "TO": 1.625,
     "_src": "2027_last_15"
@@ -8805,14 +8805,14 @@
    "pct": null,
    "avg": {
     "PTS": 7.0,
-    "REB": 5.142857142857143,
+    "REB": 5.285714285714286,
     "AST": 0.5714285714285714,
     "STL": 0.14285714285714285,
     "BLK": 1.0,
     "3PM": 0.0,
-    "FG%": 0.67857143,
+    "FG%": 0.65517241,
     "FT%": 0.84615385,
-    "TO": 0.7142857142857143,
+    "TO": 0.8571428571428571,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9581,15 +9581,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.555555555555555,
+    "PTS": 7.888888888888889,
     "REB": 3.111111111111111,
     "AST": 1.6666666666666667,
     "STL": 0.6666666666666666,
     "BLK": 0.1111111111111111,
-    "3PM": 1.1111111111111112,
-    "FG%": 0.45,
+    "3PM": 1.2222222222222223,
+    "FG%": 0.45901639,
     "FT%": 0.66666667,
-    "TO": 1.3333333333333333,
+    "TO": 1.4444444444444444,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -11631,6 +11631,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Franz Wagner: Dishes out 15 assists",
+   "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
+   "published": "Thu, 05 Nov 2026 9:36:00 PM PST",
+   "summary": "Wagner collected 15 points (7-13 FG, 0-1 3Pt, 1-4 FT), eight rebounds, 15 assists and four steals in 38 minutes during Thursday's 117-104 win over Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Devin Booker: Drops game-high 30 points in win",
    "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
    "published": "Thu, 05 Nov 2026 8:38:00 PM PST",
@@ -11656,13 +11663,6 @@
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Thu, 05 Nov 2026 3:39:00 PM PST",
    "summary": "Claxton (hamstring) was recalled from the G League's Windy City Bulls on Thursday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scotty Pippen: Out vs. Thunder",
-   "link": "https://www.rotowire.com//basketball/player/scotty-pippen-5685",
-   "published": "Thu, 05 Nov 2026 3:04:00 PM PST",
-   "summary": "Pippen (back) has been ruled out for Friday's game against Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
