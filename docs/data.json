@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T23:10:22.308785Z",
+ "updated": "2026-11-06T23:20:29.654256Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2001,7 +2001,7 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
@@ -3691,7 +3691,7 @@
     "name": "Kyrie Irving",
     "pos": "PG",
     "slot": "PG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
      "PTS": 24.2,
@@ -7970,7 +7970,7 @@
    "name": "Santi Aldama",
    "pos": "PF",
    "team": "DAL",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {},
    "proj": {
@@ -11616,6 +11616,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kyrie Irving: Upgraded to available",
+   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
+   "published": "Fri, 06 Nov 2026 3:11:00 PM PST",
+   "summary": "Irving (illness) is available for Friday's game against Utah.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Santi Aldama: Available to play",
+   "link": "https://www.rotowire.com//basketball/player/santi-aldama-5428",
+   "published": "Fri, 06 Nov 2026 3:10:00 PM PST",
+   "summary": "Aldama (knee) is available for Friday's game against the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Anthony Davis: Ruled out Friday night",
    "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
    "published": "Fri, 06 Nov 2026 2:37:00 PM PST",
@@ -11634,20 +11648,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
    "published": "Fri, 06 Nov 2026 2:06:00 PM PST",
    "summary": "Johnson (ankle) is out for Friday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Fri, 06 Nov 2026 1:49:00 PM PST",
-   "summary": "Hart is out for Saturday's game against the Cavaliers due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kristaps Porzingis: Stepping away from basketball",
-   "link": "https://www.rotowire.com//basketball/player/kristaps-porzingis-3669",
-   "published": "Fri, 06 Nov 2026 1:27:00 PM PST",
-   "summary": "Porzingis announced on his social media that he's stepping away from basketball.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13086,6 +13086,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 2.4
  }
 }
