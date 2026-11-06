@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:50:23.932760Z",
+ "updated": "2026-11-06T08:00:33.982724Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -97,30 +97,26 @@
  "power": [
   {
    "team": "Rubio Bzeit ",
-   "score": 55
+   "score": 59
   },
   {
    "team": "Momo in Six",
-   "score": 54
+   "score": 53
+  },
+  {
+   "team": "AARON VENGERS",
+   "score": 52
   },
   {
    "team": "Crackheads",
-   "score": 54
-  },
-  {
-   "team": "Murray Had a Little Lamb",
    "score": 52
   },
   {
    "team": "Akumpo",
-   "score": 51
-  },
-  {
-   "team": "Real Men Eat Ass(ouad)",
    "score": 50
   },
   {
-   "team": "AARON VENGERS",
+   "team": "Real Men Eat Ass(ouad)",
    "score": 50
   },
   {
@@ -128,59 +124,63 @@
    "score": 49
   },
   {
+   "team": "Murray Had a Little Lamb",
+   "score": 48
+  },
+  {
    "team": "AllThisToBeatLeGoat",
-   "score": 42
+   "score": 43
   },
   {
    "team": "Team Batrouni",
-   "score": 38
+   "score": 39
   }
  ],
  "category_table": {
   "PTS": [
    {
     "team": "Rubio Bzeit ",
-    "value": 1925.0,
+    "value": 2007.0,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 1854.0,
+    "value": 1909.0,
     "rank": 2
    },
    {
-    "team": "Crackheads",
-    "value": 1754.0,
+    "team": "Pasta Warriors",
+    "value": 1807.0,
     "rank": 3
    },
    {
-    "team": "Pasta Warriors",
-    "value": 1747.0,
+    "team": "Crackheads",
+    "value": 1800.0,
     "rank": 4
    },
    {
     "team": "AARON VENGERS",
-    "value": 1668.0,
+    "value": 1699.0,
     "rank": 5
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 1643.0,
+    "value": 1653.0,
     "rank": 6
    },
    {
     "team": "Akumpo",
-    "value": 1592.0,
+    "value": 1594.0,
     "rank": 7
    },
    {
     "team": "Momo in Six",
-    "value": 1570.0,
+    "value": 1585.0,
     "rank": 8
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 1318.0,
+    "value": 1340.0,
     "rank": 9
    },
    {
@@ -192,27 +192,27 @@
   "REB": [
    {
     "team": "Crackheads",
-    "value": 638.0,
+    "value": 668.0,
     "rank": 1
    },
    {
     "team": "Momo in Six",
-    "value": 612.0,
+    "value": 618.0,
     "rank": 2
    },
    {
     "team": "Akumpo",
-    "value": 600.0,
+    "value": 605.0,
     "rank": 3
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 595.0,
+    "value": 601.0,
     "rank": 4
    },
    {
     "team": "AARON VENGERS",
-    "value": 576.0,
+    "value": 590.0,
     "rank": 5
    },
    {
@@ -222,49 +222,49 @@
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 542.0,
+    "value": 549.0,
     "rank": 7
    },
    {
-    "team": "Pasta Warriors",
-    "value": 529.0,
+    "team": "Rubio Bzeit ",
+    "value": 547.0,
     "rank": 8
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 525.0,
+    "value": 542.0,
     "rank": 9
    },
    {
-    "team": "Rubio Bzeit ",
-    "value": 519.0,
+    "team": "Pasta Warriors",
+    "value": 533.0,
     "rank": 10
    }
   ],
   "AST": [
    {
     "team": "Rubio Bzeit ",
-    "value": 525.0,
+    "value": 540.0,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 455.0,
+    "value": 479.0,
     "rank": 2
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 374.0,
+    "team": "Pasta Warriors",
+    "value": 381.0,
     "rank": 3
    },
    {
-    "team": "Pasta Warriors",
-    "value": 370.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 380.0,
     "rank": 4
    },
    {
     "team": "Crackheads",
-    "value": 359.0,
+    "value": 365.0,
     "rank": 5
    },
    {
@@ -278,50 +278,50 @@
     "rank": 7
    },
    {
-    "team": "Akumpo",
-    "value": 343.0,
+    "team": "AARON VENGERS",
+    "value": 345.0,
     "rank": 8
    },
    {
-    "team": "AARON VENGERS",
-    "value": 336.0,
+    "team": "Akumpo",
+    "value": 344.0,
     "rank": 9
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 307.0,
+    "value": 315.0,
     "rank": 10
    }
   ],
   "STL": [
    {
     "team": "Rubio Bzeit ",
-    "value": 126.0,
+    "value": 132.0,
     "rank": 1
    },
    {
     "team": "Crackheads",
-    "value": 125.0,
+    "value": 128.0,
     "rank": 2
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 112.0,
+    "value": 117.0,
     "rank": 3
+   },
+   {
+    "team": "AARON VENGERS",
+    "value": 112.0,
+    "rank": 4
+   },
+   {
+    "team": "AllThisToBeatLeGoat",
+    "value": 109.0,
+    "rank": 5
    },
    {
     "team": "Momo in Six",
     "value": 107.0,
-    "rank": 4
-   },
-   {
-    "team": "AARON VENGERS",
-    "value": 107.0,
-    "rank": 5
-   },
-   {
-    "team": "AllThisToBeatLeGoat",
-    "value": 104.0,
     "rank": 6
    },
    {
@@ -336,39 +336,39 @@
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 99.0,
+    "value": 100.0,
     "rank": 9
    },
    {
     "team": "Pasta Warriors",
-    "value": 89.0,
+    "value": 97.0,
     "rank": 10
    }
   ],
   "BLK": [
    {
-    "team": "Murray Had a Little Lamb",
+    "team": "Akumpo",
     "value": 87.0,
     "rank": 1
    },
    {
-    "team": "Akumpo",
-    "value": 86.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 87.0,
     "rank": 2
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 78.0,
+    "value": 80.0,
     "rank": 3
    },
    {
     "team": "Pasta Warriors",
-    "value": 77.0,
+    "value": 78.0,
     "rank": 4
    },
    {
     "team": "Crackheads",
-    "value": 69.0,
+    "value": 70.0,
     "rank": 5
    },
    {
@@ -388,7 +388,7 @@
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 34.0,
+    "value": 37.0,
     "rank": 9
    },
    {
@@ -400,42 +400,42 @@
   "3PM": [
    {
     "team": "Rubio Bzeit ",
-    "value": 210.0,
+    "value": 221.0,
     "rank": 1
    },
    {
     "team": "AARON VENGERS",
-    "value": 189.0,
+    "value": 195.0,
     "rank": 2
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 182.0,
+    "team": "Momo in Six",
+    "value": 184.0,
     "rank": 3
    },
    {
-    "team": "Momo in Six",
-    "value": 181.0,
+    "team": "Murray Had a Little Lamb",
+    "value": 183.0,
     "rank": 4
+   },
+   {
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 181.0,
+    "rank": 5
    },
    {
     "team": "Akumpo",
     "value": 176.0,
-    "rank": 5
-   },
-   {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 173.0,
     "rank": 6
    },
    {
-    "team": "Crackheads",
-    "value": 154.0,
+    "team": "Pasta Warriors",
+    "value": 155.0,
     "rank": 7
    },
    {
-    "team": "Pasta Warriors",
-    "value": 145.0,
+    "team": "Crackheads",
+    "value": 155.0,
     "rank": 8
    },
    {
@@ -445,34 +445,34 @@
    },
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 120.0,
+    "value": 122.0,
     "rank": 10
    }
   ],
   "FG%": [
    {
     "team": "Pasta Warriors",
-    "value": 1.499,
+    "value": 1.497,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 1.453,
+    "value": 1.446,
     "rank": 2
    },
    {
     "team": "Momo in Six",
-    "value": 1.443,
+    "value": 1.435,
     "rank": 3
    },
    {
     "team": "Crackheads",
-    "value": 1.426,
+    "value": 1.435,
     "rank": 4
    },
    {
     "team": "Akumpo",
-    "value": 1.376,
+    "value": 1.377,
     "rank": 5
    },
    {
@@ -481,40 +481,40 @@
     "rank": 6
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 1.368,
+    "team": "Rubio Bzeit ",
+    "value": 1.37,
     "rank": 7
    },
    {
-    "team": "Murray Had a Little Lamb",
-    "value": 1.354,
+    "team": "AllThisToBeatLeGoat",
+    "value": 1.359,
     "rank": 8
    },
    {
-    "team": "Rubio Bzeit ",
-    "value": 1.353,
+    "team": "Murray Had a Little Lamb",
+    "value": 1.352,
     "rank": 9
    },
    {
     "team": "AARON VENGERS",
-    "value": 1.307,
+    "value": 1.311,
     "rank": 10
    }
   ],
   "FT%": [
    {
     "team": "AARON VENGERS",
-    "value": 2.549,
+    "value": 2.557,
     "rank": 1
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 2.47,
+    "value": 2.469,
     "rank": 2
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 2.457,
+    "value": 2.451,
     "rank": 3
    },
    {
@@ -524,84 +524,84 @@
    },
    {
     "team": "Akumpo",
-    "value": 2.393,
+    "value": 2.376,
     "rank": 5
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 2.362,
+    "team": "AllThisToBeatLeGoat",
+    "value": 2.359,
     "rank": 6
    },
    {
-    "team": "AllThisToBeatLeGoat",
-    "value": 2.353,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 2.348,
     "rank": 7
    },
    {
     "team": "Pasta Warriors",
-    "value": 2.25,
+    "value": 2.262,
     "rank": 8
    },
    {
     "team": "Momo in Six",
-    "value": 2.237,
+    "value": 2.236,
     "rank": 9
    },
    {
     "team": "Crackheads",
-    "value": 2.157,
+    "value": 2.153,
     "rank": 10
    }
   ],
   "TO": [
    {
     "team": "AllThisToBeatLeGoat",
-    "value": 155.0,
+    "value": 163.0,
     "rank": 1
    },
    {
     "team": "Momo in Six",
-    "value": 190.0,
+    "value": 192.0,
     "rank": 2
-   },
-   {
-    "team": "Pasta Warriors",
-    "value": 195.0,
-    "rank": 3
    },
    {
     "team": "Team Batrouni",
     "value": 198.0,
+    "rank": 3
+   },
+   {
+    "team": "Pasta Warriors",
+    "value": 200.0,
     "rank": 4
    },
    {
     "team": "AARON VENGERS",
-    "value": 203.0,
+    "value": 209.0,
     "rank": 5
    },
    {
     "team": "Akumpo",
-    "value": 211.0,
+    "value": 213.0,
     "rank": 6
    },
    {
     "team": "Murray Had a Little Lamb",
-    "value": 224.0,
+    "value": 229.0,
     "rank": 7
    },
    {
     "team": "Crackheads",
-    "value": 228.0,
+    "value": 233.0,
     "rank": 8
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 233.0,
+    "value": 247.0,
     "rank": 9
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 290.0,
+    "value": 296.0,
     "rank": 10
    }
   ]
@@ -1065,39 +1065,39 @@
    "away_score": 2,
    "cats": {
     "PTS": {
-     "home": 364.0,
+     "home": 386.0,
      "away": 265.0
     },
     "REB": {
-     "home": 168.0,
+     "home": 174.0,
      "away": 122.0
     },
     "AST": {
-     "home": 81.0,
+     "home": 89.0,
      "away": 73.0
     },
     "STL": {
-     "home": 22.0,
+     "home": 27.0,
      "away": 20.0
     },
     "BLK": {
-     "home": 23.0,
+     "home": 25.0,
      "away": 12.0
     },
     "3PM": {
-     "home": 34.0,
+     "home": 36.0,
      "away": 18.0
     },
     "FG%": {
-     "home": 0.44217687,
+     "home": 0.4335443,
      "away": 0.46703297
     },
     "FT%": {
-     "home": 0.77777778,
+     "home": 0.78350515,
      "away": 0.80208333
     },
     "TO": {
-     "home": 34.0,
+     "home": 42.0,
      "away": 49.0
     }
    }
@@ -1106,44 +1106,44 @@
    "week": 3,
    "home": "Pasta Warriors",
    "away": "Rubio Bzeit ",
-   "home_score": 5,
-   "away_score": 4,
+   "home_score": 4,
+   "away_score": 5,
    "cats": {
     "PTS": {
-     "home": 406.0,
-     "away": 359.0
+     "home": 466.0,
+     "away": 441.0
     },
     "REB": {
-     "home": 118.0,
-     "away": 99.0
+     "home": 122.0,
+     "away": 127.0
     },
     "AST": {
-     "home": 75.0,
-     "away": 119.0
+     "home": 86.0,
+     "away": 134.0
     },
     "STL": {
-     "home": 17.0,
-     "away": 22.0
+     "home": 25.0,
+     "away": 28.0
     },
     "BLK": {
-     "home": 17.0,
-     "away": 4.0
+     "home": 18.0,
+     "away": 7.0
     },
     "3PM": {
-     "home": 34.0,
-     "away": 39.0
+     "home": 44.0,
+     "away": 50.0
     },
     "FG%": {
-     "home": 0.48333333,
-     "away": 0.42238267
+     "home": 0.48126801,
+     "away": 0.43939394
     },
     "FT%": {
-     "home": 0.77358491,
-     "away": 0.7962963
+     "home": 0.78571429,
+     "away": 0.79527559
     },
     "TO": {
-     "home": 35.0,
-     "away": 67.0
+     "home": 40.0,
+     "away": 73.0
     }
    }
   },
@@ -1151,20 +1151,20 @@
    "week": 3,
    "home": "Momo in Six",
    "away": "Akumpo",
-   "home_score": 4,
-   "away_score": 5,
+   "home_score": 5,
+   "away_score": 4,
    "cats": {
     "PTS": {
-     "home": 329.0,
-     "away": 311.0
+     "home": 344.0,
+     "away": 313.0
     },
     "REB": {
-     "home": 114.0,
-     "away": 119.0
+     "home": 120.0,
+     "away": 124.0
     },
     "AST": {
      "home": 51.0,
-     "away": 71.0
+     "away": 72.0
     },
     "STL": {
      "home": 22.0,
@@ -1172,23 +1172,23 @@
     },
     "BLK": {
      "home": 12.0,
-     "away": 18.0
+     "away": 19.0
     },
     "3PM": {
-     "home": 41.0,
+     "home": 44.0,
      "away": 42.0
     },
     "FG%": {
-     "home": 0.55023923,
-     "away": 0.42731278
+     "home": 0.54298643,
+     "away": 0.4279476
     },
     "FT%": {
-     "home": 0.69047619,
-     "away": 0.80645161
+     "home": 0.68965517,
+     "away": 0.78947368
     },
     "TO": {
-     "home": 25.0,
-     "away": 33.0
+     "home": 27.0,
+     "away": 35.0
     }
    }
   },
@@ -1196,44 +1196,44 @@
    "week": 3,
    "home": "Real Men Eat Ass(ouad)",
    "away": "Murray Had a Little Lamb",
-   "home_score": 5,
-   "away_score": 4,
+   "home_score": 6,
+   "away_score": 3,
    "cats": {
     "PTS": {
-     "home": 412.0,
-     "away": 330.0
+     "home": 467.0,
+     "away": 340.0
     },
     "REB": {
-     "home": 106.0,
-     "away": 105.0
+     "home": 123.0,
+     "away": 112.0
     },
     "AST": {
-     "home": 109.0,
-     "away": 88.0
+     "home": 133.0,
+     "away": 94.0
     },
     "STL": {
-     "home": 21.0,
-     "away": 23.0
+     "home": 26.0,
+     "away": 24.0
     },
     "BLK": {
      "home": 8.0,
      "away": 13.0
     },
     "3PM": {
-     "home": 36.0,
-     "away": 40.0
+     "home": 44.0,
+     "away": 41.0
     },
     "FG%": {
-     "home": 0.49662162,
-     "away": 0.44280443
+     "home": 0.48985507,
+     "away": 0.44086022
     },
     "FT%": {
-     "home": 0.76635514,
-     "away": 0.84745763
+     "home": 0.75221239,
+     "away": 0.84126984
     },
     "TO": {
-     "home": 42.0,
-     "away": 45.0
+     "home": 56.0,
+     "away": 50.0
     }
    }
   },
@@ -1245,40 +1245,40 @@
    "away_score": 5,
    "cats": {
     "PTS": {
-     "home": 377.0,
-     "away": 400.0
+     "home": 408.0,
+     "away": 446.0
     },
     "REB": {
-     "home": 115.0,
-     "away": 148.0
+     "home": 129.0,
+     "away": 178.0
     },
     "AST": {
-     "home": 80.0,
-     "away": 77.0
+     "home": 89.0,
+     "away": 83.0
     },
     "STL": {
-     "home": 23.0,
-     "away": 28.0
+     "home": 28.0,
+     "away": 31.0
     },
     "BLK": {
      "home": 12.0,
-     "away": 13.0
+     "away": 14.0
     },
     "3PM": {
-     "home": 44.0,
-     "away": 31.0
+     "home": 50.0,
+     "away": 32.0
     },
     "FG%": {
-     "home": 0.46666667,
-     "away": 0.48504983
+     "home": 0.47039474,
+     "away": 0.4939759
     },
     "FT%": {
-     "home": 0.88157895,
-     "away": 0.68141593
+     "home": 0.88888889,
+     "away": 0.67716535
     },
     "TO": {
-     "home": 48.0,
-     "away": 54.0
+     "home": 54.0,
+     "away": 59.0
     }
    }
   }
@@ -1816,7 +1816,7 @@
    {
     "name": "Pascal Siakam",
     "pos": "PF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -1847,7 +1847,7 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "PG",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -1908,7 +1908,7 @@
    {
     "name": "Desmond Bane",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -1939,7 +1939,7 @@
    {
     "name": "Michael Porter Jr.",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -2001,7 +2001,7 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2052,7 +2052,7 @@
    {
     "name": "Moussa Diabate",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "F",
     "injury": "DAY_TO_DAY",
     "team": "CHA",
     "avg": {
@@ -2174,7 +2174,7 @@
    {
     "name": "Grayson Allen",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -2736,7 +2736,7 @@
    {
     "name": "Dyson Daniels",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2860,7 +2860,7 @@
    {
     "name": "Jalen Green",
     "pos": "SG",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -2891,7 +2891,7 @@
    {
     "name": "Coby White",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -2922,7 +2922,7 @@
    {
     "name": "AJ Dybantsa",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -2953,7 +2953,7 @@
    {
     "name": "Cedric Coward",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -2984,7 +2984,7 @@
    {
     "name": "Derik Queen",
     "pos": "C",
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -3015,7 +3015,7 @@
    {
     "name": "Ajay Mitchell",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -3046,7 +3046,7 @@
    {
     "name": "De'Anthony Melton",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -3077,7 +3077,7 @@
    {
     "name": "Klay Thompson",
     "pos": "SG",
-    "slot": "G",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -3141,7 +3141,7 @@
    {
     "name": "Karl-Anthony Towns",
     "pos": "C",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -3419,7 +3419,7 @@
    {
     "name": "Myles Turner",
     "pos": "C",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -3450,7 +3450,7 @@
    {
     "name": "Precious Achiuwa",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -3543,7 +3543,7 @@
    {
     "name": "Oso Ighodaro",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -3575,7 +3575,7 @@
    {
     "name": "Nikola Jokic",
     "pos": "C",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -3699,7 +3699,7 @@
    {
     "name": "Kyrie Irving",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -3843,7 +3843,7 @@
    {
     "name": "Ayo Dosunmu",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -3905,7 +3905,7 @@
    {
     "name": "Anthony Black",
     "pos": "PG",
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -3936,7 +3936,7 @@
    {
     "name": "Jrue Holiday",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3967,7 +3967,7 @@
    {
     "name": "Reed Sheppard",
     "pos": "SG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4031,7 +4031,7 @@
    {
     "name": "Luka Doncic",
     "pos": "PG",
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -4062,7 +4062,7 @@
    {
     "name": "Amen Thompson",
     "pos": "SF",
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4093,7 +4093,7 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4124,7 +4124,7 @@
    {
     "name": "Deni Avdija",
     "pos": "SF",
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -4185,7 +4185,7 @@
    {
     "name": "Tyler Herro",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -4216,7 +4216,7 @@
    {
     "name": "Franz Wagner",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4278,7 +4278,7 @@
    {
     "name": "Dylan Harper",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -4309,7 +4309,7 @@
    {
     "name": "Jaden McDaniels",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -4340,7 +4340,7 @@
    {
     "name": "Davion Mitchell",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4371,7 +4371,7 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4402,7 +4402,7 @@
    {
     "name": "Tristan da Silva",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4433,7 +4433,7 @@
    {
     "name": "Bobby Portis",
     "pos": "PF",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4497,7 +4497,7 @@
    {
     "name": "Tyrese Maxey",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -4559,7 +4559,7 @@
    {
     "name": "Derrick White",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -4590,7 +4590,7 @@
    {
     "name": "Naz Reid",
     "pos": "C",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -4619,40 +4619,9 @@
     }
    },
    {
-    "name": "Mikal Bridges",
-    "pos": "SF",
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "NYK",
-    "avg": {
-     "PTS": 6.571428571428571,
-     "REB": 2.857142857142857,
-     "AST": 2.142857142857143,
-     "STL": 1.0,
-     "BLK": 0.2857142857142857,
-     "3PM": 1.1428571428571428,
-     "FG%": 0.34693878,
-     "FT%": 1.0,
-     "TO": 1.1428571428571428,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 15.195121951219512,
-     "REB": 3.6951219512195124,
-     "AST": 3.6951219512195124,
-     "STL": 1.1951219512195121,
-     "BLK": 0.6951219512195121,
-     "3PM": 1.951219512195122,
-     "FG%": 0.488,
-     "FT%": 0.823,
-     "TO": 1.1951219512195121,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Nickeil Alexander-Walker",
     "pos": "SG",
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -4683,7 +4652,7 @@
    {
     "name": "Joel Embiid",
     "pos": "C",
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -4745,7 +4714,7 @@
    {
     "name": "Miles Bridges",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -4776,7 +4745,7 @@
    {
     "name": "Fred VanVleet",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4827,7 +4796,7 @@
    {
     "name": "P.J. Washington",
     "pos": "PF",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -4888,7 +4857,7 @@
    {
     "name": "Pelle Larsson",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4904,13 +4873,33 @@
      "_src": "2027_last_15"
     },
     "proj": {}
+   },
+   {
+    "name": "Cam Spencer",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "MEM",
+    "avg": {
+     "PTS": 9.125,
+     "REB": 3.75,
+     "AST": 5.75,
+     "STL": 0.75,
+     "BLK": 0.0,
+     "3PM": 1.875,
+     "FG%": 0.52941176,
+     "FT%": 1.0,
+     "TO": 1.375,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "Pasta Warriors": [
    {
     "name": "Cade Cunningham",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -4941,7 +4930,7 @@
    {
     "name": "Jalen Brunson",
     "pos": "PG",
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -5003,7 +4992,7 @@
    {
     "name": "Evan Mobley",
     "pos": "PF",
-    "slot": "F",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -5095,7 +5084,7 @@
    {
     "name": "Zion Williamson",
     "pos": "PF",
-    "slot": "PF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -5157,7 +5146,7 @@
    {
     "name": "Payton Pritchard",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
@@ -5188,7 +5177,7 @@
    {
     "name": "RJ Barrett",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -5219,7 +5208,7 @@
    {
     "name": "Jaime Jaquez Jr.",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -5281,7 +5270,7 @@
    {
     "name": "Dillon Brooks",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -5310,33 +5299,33 @@
     }
    },
    {
-    "name": "Collin Gillespie",
-    "pos": "PG",
+    "name": "Julian Champagnie",
+    "pos": "SF",
     "slot": "UT",
     "injury": "ACTIVE",
-    "team": "PHO",
+    "team": "SAS",
     "avg": {
-     "PTS": 6.714285714285714,
-     "REB": 2.142857142857143,
-     "AST": 4.142857142857143,
-     "STL": 2.7142857142857144,
-     "BLK": 0.14285714285714285,
-     "3PM": 1.7142857142857142,
-     "FG%": 0.29824561,
-     "FT%": 0.25,
-     "TO": 1.8571428571428572,
+     "PTS": 10.0,
+     "REB": 3.857142857142857,
+     "AST": 1.4285714285714286,
+     "STL": 0.8571428571428571,
+     "BLK": 0.42857142857142855,
+     "3PM": 2.857142857142857,
+     "FG%": 0.44,
+     "FT%": 0.85714286,
+     "TO": 0.42857142857142855,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 11.917808219178083,
-     "REB": 3.904109589041096,
-     "AST": 4.397260273972603,
-     "STL": 1.2054794520547945,
-     "BLK": 0.2054794520547945,
-     "3PM": 2.73972602739726,
-     "FG%": 0.419,
-     "FT%": 0.872,
-     "TO": 1.3972602739726028,
+     "PTS": 10.78048780487805,
+     "REB": 5.402439024390244,
+     "AST": 1.5,
+     "STL": 0.6951219512195121,
+     "BLK": 0.5,
+     "3PM": 2.317073170731707,
+     "FG%": 0.433,
+     "FT%": 0.85,
+     "TO": 0.8048780487804879,
      "_src": "2027_projected"
     }
    }
@@ -5345,7 +5334,7 @@
    {
     "name": "Giannis Antetokounmpo",
     "pos": "PF",
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -5407,7 +5396,7 @@
    {
     "name": "Bam Adebayo",
     "pos": "C",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -5500,7 +5489,7 @@
    {
     "name": "Stephon Castle",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5531,7 +5520,7 @@
    {
     "name": "Alex Sarr",
     "pos": "C",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5644,7 +5633,7 @@
    {
     "name": "Toumani Camara",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -5706,7 +5695,7 @@
    {
     "name": "John Collins",
     "pos": "PF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -5735,40 +5724,9 @@
     }
    },
    {
-    "name": "Khaman Maluach",
-    "pos": "C",
-    "slot": "C",
-    "injury": "ACTIVE",
-    "team": "PHO",
-    "avg": {
-     "PTS": 7.285714285714286,
-     "REB": 6.0,
-     "AST": 1.2857142857142858,
-     "STL": 0.7142857142857143,
-     "BLK": 0.8571428571428571,
-     "3PM": 0.14285714285714285,
-     "FG%": 0.56756757,
-     "FT%": 0.72727273,
-     "TO": 1.4285714285714286,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 7.7846153846153845,
-     "REB": 7.507692307692308,
-     "AST": 0.3076923076923077,
-     "STL": 0.3076923076923077,
-     "BLK": 1.9076923076923078,
-     "3PM": 0.4,
-     "FG%": 0.522,
-     "FT%": 0.722,
-     "TO": 1.4,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Mo Bamba",
     "pos": "C",
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -5781,6 +5739,26 @@
      "FG%": 0.73076923,
      "FT%": 0.71428571,
      "TO": 0.6,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
+   },
+   {
+    "name": "Aday Mara",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "OKC",
+    "avg": {
+     "PTS": 6.714285714285714,
+     "REB": 6.0,
+     "AST": 1.2857142857142858,
+     "STL": 0.14285714285714285,
+     "BLK": 2.0,
+     "3PM": 0.0,
+     "FG%": 0.55555556,
+     "FT%": 0.77777778,
+     "TO": 2.0,
      "_src": "2027_last_15"
     },
     "proj": {}
@@ -5997,31 +5975,13 @@
    "team": "Rubio Bzeit ",
    "action": "DROPPED",
    "player": "Jalen Smith"
-  },
-  {
-   "date": "2026-11-02T12:29:35.878000",
-   "team": "AARON VENGERS",
-   "action": "DROPPED",
-   "player": "Terrence Shannon Jr."
-  },
-  {
-   "date": "2026-11-02T10:50:54.022000",
-   "team": "Murray Had a Little Lamb",
-   "action": "DROPPED",
-   "player": "Keaton Wagler"
-  },
-  {
-   "date": "2026-11-02T10:50:54.022000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Collin Gillespie"
   }
  ],
  "schedule": {
   "Rubio Bzeit ": [
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Pasta Warriors) 5.0 - 4.0 Team(Rubio Bzeit ))",
+   "Matchup(Team(Pasta Warriors) 4.0 - 5.0 Team(Rubio Bzeit ))",
    "Matchup(Team(Team Batrouni), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Murray Had a Little Lamb))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
@@ -6040,7 +6000,7 @@
   "Momo in Six": [
    "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Team Batrouni))",
    "Matchup(Team(AllThisToBeatLeGoat) 2.5 - 6.5 Team(Momo in Six))",
-   "Matchup(Team(Momo in Six) 4.0 - 5.0 Team(Akumpo))",
+   "Matchup(Team(Momo in Six) 5.0 - 4.0 Team(Akumpo))",
    "Matchup(Team(Crackheads), Team(Momo in Six))",
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
@@ -6097,7 +6057,7 @@
   "Akumpo": [
    "Matchup(Team(Murray Had a Little Lamb) 2.0 - 7.0 Team(Akumpo))",
    "Matchup(Team(Akumpo) 5.0 - 4.0 Team(AARON VENGERS))",
-   "Matchup(Team(Momo in Six) 4.0 - 5.0 Team(Akumpo))",
+   "Matchup(Team(Momo in Six) 5.0 - 4.0 Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(AllThisToBeatLeGoat))",
    "Matchup(Team(Akumpo), Team(Team Batrouni))",
    "Matchup(Team(Crackheads), Team(Akumpo))",
@@ -6116,7 +6076,7 @@
   "Murray Had a Little Lamb": [
    "Matchup(Team(Murray Had a Little Lamb) 2.0 - 7.0 Team(Akumpo))",
    "Matchup(Team(Murray Had a Little Lamb) 7.0 - 2.0 Team(Crackheads))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Murray Had a Little Lamb))",
    "Matchup(Team(Murray Had a Little Lamb), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Murray Had a Little Lamb))",
    "Matchup(Team(Team Batrouni), Team(Murray Had a Little Lamb))",
@@ -6135,7 +6095,7 @@
   "Real Men Eat Ass(ouad)": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(Murray Had a Little Lamb))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Murray Had a Little Lamb))",
    "Matchup(Team(AARON VENGERS), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AllThisToBeatLeGoat))",
@@ -6173,7 +6133,7 @@
   "Pasta Warriors": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Team Batrouni) 2.0 - 7.0 Team(Pasta Warriors))",
-   "Matchup(Team(Pasta Warriors) 5.0 - 4.0 Team(Rubio Bzeit ))",
+   "Matchup(Team(Pasta Warriors) 4.0 - 5.0 Team(Rubio Bzeit ))",
    "Matchup(Team(Murray Had a Little Lamb), Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
@@ -13043,16 +13003,16 @@
  },
  "debug": {
   "matchup_period": 3,
-  "scoring_period": 17,
+  "scoring_period": 18,
   "variants": {
-   "default": 6300.0,
-   "sp": 6300.0,
-   "sp+1": 6300.0
+   "default": 6903.0,
+   "sp": 6903.0,
+   "sp+1": 6903.0
   },
   "picked": "default",
-  "picked_total": 6300.0,
-  "direct_total": 6300.0,
+  "picked_total": 6903.0,
+  "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 2.1
+  "run_seconds": 2.2
  }
 }
