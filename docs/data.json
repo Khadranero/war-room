@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T21:00:33.029132Z",
+ "updated": "2026-11-06T21:10:22.124450Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7725,7 +7725,7 @@
    "name": "De'Andre Hunter",
    "pos": "SF",
    "team": "SAC",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 14.0,
@@ -8102,7 +8102,7 @@
    "name": "Sandro Mamukelashvili",
    "pos": "C",
    "team": "LAL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 9.5,
@@ -10931,7 +10931,7 @@
    "name": "Noah Clowney",
    "pos": "PF",
    "team": "BKN",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.142857142857143,
@@ -13020,6 +13020,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.2
  }
 }
