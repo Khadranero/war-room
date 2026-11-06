@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T05:40:29.341002Z",
+ "updated": "2026-11-06T05:50:27.266460Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -9193,7 +9193,7 @@
    "pct": null,
    "avg": {
     "PTS": 5.428571428571429,
-    "REB": 4.0,
+    "REB": 4.142857142857143,
     "AST": 1.0,
     "STL": 0.2857142857142857,
     "BLK": 0.5714285714285714,
@@ -9895,7 +9895,7 @@
    "name": "Gui Santos",
    "pos": "SF",
    "team": "GSW",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.166666666666667,
@@ -10989,7 +10989,7 @@
    "pct": null,
    "avg": {
     "PTS": 5.222222222222222,
-    "REB": 1.8888888888888888,
+    "REB": 1.7777777777777777,
     "AST": 1.0,
     "STL": 0.4444444444444444,
     "BLK": 0.3333333333333333,
@@ -11631,6 +11631,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Stephen Curry: Strikes for 29 points",
+   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
+   "published": "Thu, 05 Nov 2026 9:46:00 PM PST",
+   "summary": "Curry tallied 29 points (9-19 FG, 6-12 3Pt, 5-5 FT), one rebound, four assists and one steal in 28 minutes during Thursday's 120-100 win over Miami.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Franz Wagner: Dishes out 15 assists",
    "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
    "published": "Thu, 05 Nov 2026 9:36:00 PM PST",
@@ -11656,13 +11663,6 @@
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Thu, 05 Nov 2026 5:27:00 PM PST",
    "summary": "Barnes (adductor/groin) is questionable for Friday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nic Claxton: Recalled from Windy City",
-   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
-   "published": "Thu, 05 Nov 2026 3:39:00 PM PST",
-   "summary": "Claxton (hamstring) was recalled from the G League's Windy City Bulls on Thursday.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13053,6 +13053,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 2.6
  }
 }
