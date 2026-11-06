@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:20:22.697399Z",
+ "updated": "2026-11-06T01:30:25.095090Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5377,7 +5377,7 @@
     "name": "Scottie Barnes",
     "pos": "SF",
     "slot": "G",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 23.5,
@@ -12968,6 +12968,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.6
  }
 }
