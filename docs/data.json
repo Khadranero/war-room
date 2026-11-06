@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T04:40:22.684172Z",
+ "updated": "2026-11-06T04:50:29.780581Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1602,14 +1602,14 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 20.444444444444443,
+     "PTS": 20.666666666666668,
      "REB": 6.555555555555555,
      "AST": 3.6666666666666665,
-     "STL": 0.7777777777777778,
+     "STL": 0.8888888888888888,
      "BLK": 0.4444444444444444,
      "3PM": 2.3333333333333335,
      "FG%": 0.50413223,
-     "FT%": 0.75925926,
+     "FT%": 0.76785714,
      "TO": 3.111111111111111,
      "_src": "2027_last_15"
     },
@@ -3050,14 +3050,14 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 9.666666666666666,
-     "REB": 4.333333333333333,
+     "PTS": 9.777777777777779,
+     "REB": 4.444444444444445,
      "AST": 2.2222222222222223,
      "STL": 1.5555555555555556,
      "BLK": 0.3333333333333333,
      "3PM": 2.111111111111111,
-     "FG%": 0.43076923,
-     "FT%": 0.85714286,
+     "FG%": 0.42424242,
+     "FT%": 0.8125,
      "TO": 1.3333333333333333,
      "_src": "2027_last_15"
     },
@@ -3082,12 +3082,12 @@
     "team": "MIA",
     "avg": {
      "PTS": 13.777777777777779,
-     "REB": 1.6666666666666667,
+     "REB": 1.5555555555555556,
      "AST": 1.6666666666666667,
      "STL": 0.1111111111111111,
      "BLK": 0.3333333333333333,
      "3PM": 3.6666666666666665,
-     "FG%": 0.44791667,
+     "FG%": 0.43877551,
      "FT%": 1.0,
      "TO": 1.2222222222222223,
      "_src": "2027_last_15"
@@ -4438,12 +4438,12 @@
     "team": "MIA",
     "avg": {
      "PTS": 7.333333333333333,
-     "REB": 6.777777777777778,
+     "REB": 6.888888888888889,
      "AST": 1.8888888888888888,
      "STL": 0.7777777777777778,
      "BLK": 0.5555555555555556,
      "3PM": 1.3333333333333333,
-     "FG%": 0.38461538,
+     "FG%": 0.37878788,
      "FT%": 0.8,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -5411,14 +5411,14 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 17.88888888888889,
+     "PTS": 18.0,
      "REB": 8.11111111111111,
      "AST": 3.111111111111111,
      "STL": 1.8888888888888888,
      "BLK": 0.5555555555555556,
      "3PM": 0.5555555555555556,
      "FG%": 0.53508772,
-     "FT%": 0.73913043,
+     "FT%": 0.72916667,
      "TO": 1.8888888888888888,
      "_src": "2027_last_15"
     },
@@ -6299,8 +6299,8 @@
    "pct": null,
    "avg": {
     "PTS": 8.555555555555555,
-    "REB": 3.0,
-    "AST": 1.5555555555555556,
+    "REB": 3.111111111111111,
+    "AST": 1.4444444444444444,
     "STL": 0.5555555555555556,
     "BLK": 0.6666666666666666,
     "3PM": 1.2222222222222223,
@@ -6710,7 +6710,7 @@
    "pct": null,
    "avg": {
     "PTS": 3.0,
-    "REB": 4.714285714285714,
+    "REB": 4.857142857142857,
     "AST": 6.428571428571429,
     "STL": 0.8571428571428571,
     "BLK": 0.7142857142857143,
@@ -9395,7 +9395,7 @@
    "pct": null,
    "avg": {
     "PTS": 6.777777777777778,
-    "REB": 2.7777777777777777,
+    "REB": 2.888888888888889,
     "AST": 1.6666666666666667,
     "STL": 0.6666666666666666,
     "BLK": 0.1111111111111111,
@@ -11619,6 +11619,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Devin Booker: Drops game-high 30 points in win",
+   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
+   "published": "Thu, 05 Nov 2026 8:38:00 PM PST",
+   "summary": "Booker posted 30 points (11-22 FG, 4-8 3Pt, 4-4 FT), one rebound, eight assists and three steals in 34 minutes during Thursday's 117-104 win over the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Wendell Carter: Rolls to double-double in loss",
    "link": "https://www.rotowire.com//basketball/player/wendell-carter-4407",
    "published": "Thu, 05 Nov 2026 8:30:00 PM PST",
@@ -11644,13 +11651,6 @@
    "link": "https://www.rotowire.com//basketball/player/scotty-pippen-5685",
    "published": "Thu, 05 Nov 2026 3:04:00 PM PST",
    "summary": "Pippen (back) has been ruled out for Friday's game against Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Davis: Tagged questionable for Friday",
-   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
-   "published": "Thu, 05 Nov 2026 2:52:00 PM PST",
-   "summary": "Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13030,6 +13030,6 @@
   "picked_total": 6300.0,
   "direct_total": 6300.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 4.0
  }
 }
