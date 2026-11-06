@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:50:26.619928Z",
+ "updated": "2026-11-06T23:00:42.091833Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3513,7 +3513,7 @@
    {
     "name": "Ja Morant",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "IR",
     "injury": "OUT",
     "team": "POR",
     "avg": {
@@ -3540,6 +3540,26 @@
      "TO": 3.5076923076923077,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Mario Hezonja",
+    "pos": "SF",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "CLE",
+    "avg": {
+     "PTS": 8.625,
+     "REB": 5.875,
+     "AST": 2.0,
+     "STL": 0.75,
+     "BLK": 0.125,
+     "3PM": 1.5,
+     "FG%": 0.45762712,
+     "FT%": 0.5,
+     "TO": 1.0,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "Murray Had a Little Lamb": [
@@ -5737,6 +5757,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-06T22:52:31.145000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Mario Hezonja"
+  },
+  {
    "date": "2026-11-06T22:49:36.145000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -5975,12 +6001,6 @@
    "team": "Rubio Bzeit ",
    "action": "FA ADDED",
    "player": "Yves Missi"
-  },
-  {
-   "date": "2026-11-02T18:09:12.679000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Paul Reed"
   }
  ],
  "schedule": {
@@ -8761,26 +8781,6 @@
     "TO": 0.7936507936507936,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Mario Hezonja",
-   "pos": "SF",
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.625,
-    "REB": 5.875,
-    "AST": 2.0,
-    "STL": 0.75,
-    "BLK": 0.125,
-    "3PM": 1.5,
-    "FG%": 0.45762712,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Luguentz Dort",
@@ -11591,6 +11591,26 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Tarris Reed Jr.",
+   "pos": "C",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.3333333333333335,
+    "REB": 5.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.0,
+    "FG%": 0.8,
+    "FT%": 1.0,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   }
  ],
  "news": [
@@ -12014,6 +12034,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-06T22:52:31.145000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Mario Hezonja"
+  },
   {
    "date": "2026-11-06T22:49:36.145000",
    "team": "Pasta Warriors",
@@ -13060,6 +13086,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 4.0
  }
 }
