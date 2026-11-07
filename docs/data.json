@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:30:28.912513Z",
+ "updated": "2026-11-07T20:40:21.385681Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7757,7 +7757,7 @@
    "name": "T.J. McConnell",
    "pos": "PG",
    "team": "IND",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {},
    "proj": {
@@ -8430,7 +8430,7 @@
    "name": "Kelly Oubre Jr.",
    "pos": "SF",
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 10.333333333333334,
@@ -13140,6 +13140,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 2.4
  }
 }
