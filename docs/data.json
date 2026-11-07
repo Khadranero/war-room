@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:00:32.397174Z",
+ "updated": "2026-11-07T15:10:24.294206Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4489,7 +4489,7 @@
     "name": "Anthony Davis",
     "pos": "C",
     "slot": "PF",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "WAS",
     "avg": {
      "PTS": 21.857142857142858,
@@ -5169,7 +5169,7 @@
     "name": "Jarrett Allen",
     "pos": "C",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
      "PTS": 13.142857142857142,
@@ -8001,7 +8001,7 @@
    "name": "De'Andre Hunter",
    "pos": "SF",
    "team": "SAC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 14.0,
@@ -9137,7 +9137,7 @@
    "name": "Jaylin Williams",
    "pos": "C",
    "team": "OKC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.4,
@@ -9228,7 +9228,7 @@
    "name": "Joan Beringer",
    "pos": "C",
    "team": "MIN",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.444444444444445,
@@ -9657,7 +9657,7 @@
    "name": "Sam Merrill",
    "pos": "SG",
    "team": "CLE",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -13105,6 +13105,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 2.0
+  "run_seconds": 2.9
  }
 }
