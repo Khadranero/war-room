@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:10:22.326072Z",
+ "updated": "2026-11-07T23:20:23.018337Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1635,7 +1635,7 @@
     "avg": {
      "PTS": 16.857142857142858,
      "REB": 1.8571428571428572,
-     "AST": 5.857142857142857,
+     "AST": 6.0,
      "STL": 0.5714285714285714,
      "BLK": 0.14285714285714285,
      "3PM": 2.5714285714285716,
@@ -1820,13 +1820,13 @@
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
-     "PTS": 18.25,
+     "PTS": 18.5,
      "REB": 6.25,
      "AST": 4.0,
      "STL": 0.875,
      "BLK": 0.125,
      "3PM": 1.375,
-     "FG%": 0.48672566,
+     "FG%": 0.48695652,
      "FT%": 0.73529412,
      "TO": 2.375,
      "_src": "2027_last_15"
@@ -2153,7 +2153,7 @@
      "STL": 2.142857142857143,
      "BLK": 0.14285714285714285,
      "3PM": 1.8571428571428572,
-     "FG%": 0.57575758,
+     "FG%": 0.56716418,
      "FT%": 0.83333333,
      "TO": 1.2857142857142858,
      "_src": "2027_last_15"
@@ -3590,13 +3590,13 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 25.285714285714285,
-     "REB": 4.285714285714286,
+     "PTS": 25.571428571428573,
+     "REB": 4.428571428571429,
      "AST": 5.857142857142857,
      "STL": 1.0,
      "BLK": 0.7142857142857143,
      "3PM": 4.285714285714286,
-     "FG%": 0.4954955,
+     "FG%": 0.5,
      "FT%": 0.86046512,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -7653,7 +7653,7 @@
     "STL": 1.25,
     "BLK": 0.0,
     "3PM": 2.0,
-    "FG%": 0.46875,
+    "FG%": 0.45454545,
     "FT%": 0.5,
     "TO": 1.5,
     "_src": "2027_last_15"
@@ -9395,14 +9395,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.111111111111111,
+    "PTS": 7.333333333333333,
     "REB": 6.0,
     "AST": 1.7777777777777777,
     "STL": 0.6666666666666666,
     "BLK": 0.5555555555555556,
     "3PM": 1.0,
     "FG%": 0.38709677,
-    "FT%": 0.53846154,
+    "FT%": 0.6,
     "TO": 1.3333333333333333,
     "_src": "2027_last_15"
    },
@@ -11641,6 +11641,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Lauri Markkanen: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
+   "published": "Sat, 07 Nov 2026 3:15:00 PM PST",
+   "summary": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Joel Embiid: Probable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Sat, 07 Nov 2026 3:13:00 PM PST",
+   "summary": "Embiid (foot) is probable for Sunday's game against the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Joan Beringer: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/joan-beringer-6576",
+   "published": "Sat, 07 Nov 2026 3:11:00 PM PST",
+   "summary": "Beringer (nose) is questionable for Sunday's game against the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Johnson: Back in action Saturday",
    "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
    "published": "Sat, 07 Nov 2026 2:33:00 PM PST",
@@ -11652,27 +11673,6 @@
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Sat, 07 Nov 2026 2:12:00 PM PST",
    "summary": "Doncic (back) is questionable for Sunday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nic Claxton: Downgraded to questionable",
-   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
-   "published": "Sat, 07 Nov 2026 1:26:00 PM PST",
-   "summary": "Claxton (hamstring) has been downgraded to questionable for Sunday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyrese Haliburton: Still without timetable to return",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
-   "published": "Sat, 07 Nov 2026 12:46:00 PM PST",
-   "summary": "Haliburton (hamstring) is progressing well but does not have a timetable to return, Dustin Dopirak of The Indianapolis Star reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Desmond Bane: Ruled out Saturday",
-   "link": "https://www.rotowire.com//basketball/player/desmond-bane-5159",
-   "published": "Sat, 07 Nov 2026 11:37:00 AM PST",
-   "summary": "Bane (illness) has been ruled out for Saturday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13149,6 +13149,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.5
  }
 }
