@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:00:31.176702Z",
+ "updated": "2026-11-07T22:08:44.620648Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3981,7 +3981,7 @@
     "name": "Luka Doncic",
     "pos": "PG",
     "slot": "G",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "LAL",
     "avg": {
      "PTS": 41.625,
@@ -13140,6 +13140,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 3.5
  }
 }
