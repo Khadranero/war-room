@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:00:30.799912Z",
+ "updated": "2026-11-07T18:10:22.815845Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5169,7 +5169,7 @@
     "name": "Jarrett Allen",
     "pos": "C",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CLE",
     "avg": {
      "PTS": 13.142857142857142,
@@ -9770,7 +9770,7 @@
    "name": "Sam Merrill",
    "pos": "SG",
    "team": "CLE",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -13105,6 +13105,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 3.0
  }
 }
