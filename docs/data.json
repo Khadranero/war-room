@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T23:50:21.687170Z",
+ "updated": "2026-11-07T00:00:31.326298Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5262,7 +5262,7 @@
     "name": "Jarrett Allen",
     "pos": "C",
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CLE",
     "avg": {
      "PTS": 13.25,
@@ -5655,7 +5655,7 @@
     "name": "Peyton Watson",
     "pos": "SF",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
      "PTS": 10.833333333333334,
@@ -6524,7 +6524,7 @@
    "name": "Jakob Poeltl",
    "pos": "C",
    "team": "TOR",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.6,
@@ -11610,6 +11610,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jarrett Allen: Won't play Friday",
+   "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
+   "published": "Fri, 06 Nov 2026 3:56:00 PM PST",
+   "summary": "Allen (knee) is out for Friday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jakob Poeltl: Cleared to suit up Friday",
+   "link": "https://www.rotowire.com//basketball/player/jakob-poeltl-3870",
+   "published": "Fri, 06 Nov 2026 3:54:00 PM PST",
+   "summary": "Poeltl (shoulder) is available to play in Friday's game versus Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Peyton Watson: Available to play",
+   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
+   "published": "Fri, 06 Nov 2026 3:53:00 PM PST",
+   "summary": "Watson (hamstring) is available for Friday's meeting with the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jordan Walsh: Starting Friday",
    "link": "https://www.rotowire.com//basketball/player/jordan-walsh-5942",
    "published": "Fri, 06 Nov 2026 3:46:00 PM PST",
@@ -11621,27 +11642,6 @@
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Fri, 06 Nov 2026 3:44:00 PM PST",
    "summary": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Immanuel Quickley: Ruled out for Friday",
-   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
-   "published": "Fri, 06 Nov 2026 3:41:00 PM PST",
-   "summary": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Grayson Allen: Starting versus Boston",
-   "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
-   "published": "Fri, 06 Nov 2026 3:40:00 PM PST",
-   "summary": "Allen will start in Friday's game against the Celtics\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Deandre Ayton: Starting Friday",
-   "link": "https://www.rotowire.com//basketball/player/deandre-ayton-4372",
-   "published": "Fri, 06 Nov 2026 3:36:00 PM PST",
-   "summary": "Ayton will start Friday against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13080,6 +13080,6 @@
   "picked_total": 6903.0,
   "direct_total": 6903.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 2.3
  }
 }
