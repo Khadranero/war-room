@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:20:20.991231Z",
+ "updated": "2026-11-07T18:30:27.803126Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1847,7 +1847,7 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -1878,7 +1878,7 @@
    {
     "name": "Rudy Gobert",
     "pos": "C",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -2001,7 +2001,7 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
@@ -2113,7 +2113,7 @@
    {
     "name": "Daniel Gafford",
     "pos": "C",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -13105,6 +13105,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 3.3
  }
 }
