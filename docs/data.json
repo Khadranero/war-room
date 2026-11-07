@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:30:27.733251Z",
+ "updated": "2026-11-07T17:40:21.784996Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2002,7 +2002,7 @@
     "name": "Immanuel Quickley",
     "pos": "PG",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 16.571428571428573,
@@ -2053,7 +2053,7 @@
     "name": "Moussa Diabate",
     "pos": "PF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CHA",
     "avg": {
      "PTS": 7.875,
@@ -5230,7 +5230,7 @@
     "name": "Scottie Barnes",
     "pos": "SF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 23.571428571428573,
@@ -10831,7 +10831,7 @@
    "name": "Adem Bona",
    "pos": "C",
    "team": "PHL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.4285714285714284,
@@ -13105,6 +13105,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 2.5
  }
 }
