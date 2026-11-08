@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T20:00:28.900131Z",
+ "updated": "2026-11-08T20:10:24.588715Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -4593,7 +4593,7 @@
     "name": "Joel Embiid",
     "pos": "C",
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
      "PTS": 17.666666666666668,
@@ -11616,6 +11616,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Joel Embiid: Upgraded to available",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Sun, 08 Nov 2026 12:01:00 PM PST",
+   "summary": "Embiid (foot) is available for Sunday's game against the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Available, coming off bench Sunday",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Sun, 08 Nov 2026 10:56:00 AM PST",
@@ -11641,13 +11648,6 @@
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Sun, 08 Nov 2026 10:20:00 AM PST",
    "summary": "Doncic has been ruled out for Sunday's game at Detroit due to lower-back tightness, Trevor Lane of LakersNation.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nique Clifford: Traded to Oklahoma City",
-   "link": "https://www.rotowire.com//basketball/player/nique-clifford-6547",
-   "published": "Sun, 08 Nov 2026 10:15:00 AM PST",
-   "summary": "Oklahoma City acquired Clifford from Sacramento on Sunday in exchange for two second-round picks, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13182,6 +13182,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 3.0
  }
 }
