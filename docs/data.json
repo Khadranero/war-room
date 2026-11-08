@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:10:20.861771Z",
+ "updated": "2026-11-08T17:20:24.198422Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -3639,7 +3639,7 @@
    {
     "name": "Chet Holmgren",
     "pos": "C",
-    "slot": "IR",
+    "slot": "C",
     "injury": "OUT",
     "team": "OKC",
     "avg": {
@@ -3794,7 +3794,7 @@
    {
     "name": "Brandon Ingram",
     "pos": "SF",
-    "slot": "F",
+    "slot": "IR",
     "injury": "OUT",
     "team": "LAC",
     "avg": {},
@@ -6552,16 +6552,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.0,
-    "REB": 3.0,
-    "AST": 0.5,
-    "STL": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.29411765,
+    "FG%": 0.44444444,
     "FT%": 1.0,
-    "TO": 0.5,
-    "_src": "2027_last_30"
+    "TO": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 13.830985915492958,
@@ -11246,16 +11246,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -11616,6 +11616,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Immanuel Quickley: Questionable for Monday",
+   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
+   "published": "Sun, 08 Nov 2026 9:14:00 AM PST",
+   "summary": "Quickley (hamstring) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Scottie Barnes: Questionable for Monday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Sun, 08 Nov 2026 9:12:00 AM PST",
+   "summary": "Barnes (adductor) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Keyonte George: Questionable Sunday",
    "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
    "published": "Sun, 08 Nov 2026 8:20:00 AM PST",
@@ -11634,20 +11648,6 @@
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Sun, 08 Nov 2026 7:08:00 AM PST",
    "summary": "Powell (shoulder) is listed as questionable for Sunday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Black: Exits game with cramps",
-   "link": "https://www.rotowire.com//basketball/player/anthony-black-5910",
-   "published": "Sat, 07 Nov 2026 9:31:00 PM PST",
-   "summary": "Black exited Saturday's 126-119 overtime loss to the Warriors with left leg cramps and did not return, Jason Beede of the Orlando Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jabari Smith: Nets 15 points with full line",
-   "link": "https://www.rotowire.com//basketball/player/jabari-smith-5643",
-   "published": "Sat, 07 Nov 2026 9:26:00 PM PST",
-   "summary": "Smith racked up 15 points (7-12 FG, 1-4 3Pt), nine rebounds, two assists, one block and three steals over 39 minutes during Saturday's 102-99 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13182,6 +13182,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 3.7
  }
 }
