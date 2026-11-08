@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:20:23.810137Z",
+ "updated": "2026-11-08T04:30:25.417006Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1572,9 +1572,9 @@
     "team": "GSW",
     "avg": {
      "PTS": 15.75,
-     "REB": 5.25,
+     "REB": 5.375,
      "AST": 4.25,
-     "STL": 1.125,
+     "STL": 1.25,
      "BLK": 0.5,
      "3PM": 2.5,
      "FG%": 0.47368421,
@@ -1602,14 +1602,14 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 21.77777777777778,
+     "PTS": 22.22222222222222,
      "REB": 7.666666666666667,
      "AST": 4.222222222222222,
      "STL": 1.0,
      "BLK": 0.8888888888888888,
      "3PM": 2.4444444444444446,
-     "FG%": 0.50387597,
-     "FT%": 0.77192982,
+     "FG%": 0.50769231,
+     "FT%": 0.77966102,
      "TO": 3.888888888888889,
      "_src": "2027_last_15"
     },
@@ -1664,15 +1664,15 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 13.75,
+     "PTS": 13.875,
      "REB": 9.875,
      "AST": 1.125,
      "STL": 1.0,
      "BLK": 0.75,
      "3PM": 1.25,
      "FG%": 0.6031746,
-     "FT%": 0.70588235,
-     "TO": 2.0,
+     "FT%": 0.69444444,
+     "TO": 2.125,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3321,7 +3321,7 @@
     "team": "HOU",
     "avg": {
      "PTS": 15.88888888888889,
-     "REB": 6.666666666666667,
+     "REB": 6.555555555555555,
      "AST": 2.4444444444444446,
      "STL": 0.8888888888888888,
      "BLK": 1.1111111111111112,
@@ -3559,13 +3559,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 19.555555555555557,
+     "PTS": 19.77777777777778,
      "REB": 5.666666666666667,
      "AST": 3.0,
      "STL": 0.6666666666666666,
      "BLK": 1.4444444444444444,
      "3PM": 1.3333333333333333,
-     "FG%": 0.49074074,
+     "FG%": 0.49090909,
      "FT%": 0.86567164,
      "TO": 2.888888888888889,
      "_src": "2027_last_15"
@@ -4047,7 +4047,7 @@
     "team": "HOU",
     "avg": {
      "PTS": 21.285714285714285,
-     "REB": 8.428571428571429,
+     "REB": 8.571428571428571,
      "AST": 8.142857142857142,
      "STL": 1.2857142857142858,
      "BLK": 1.2857142857142858,
@@ -4170,12 +4170,12 @@
     "team": "ORL",
     "avg": {
      "PTS": 20.625,
-     "REB": 6.25,
+     "REB": 6.375,
      "AST": 9.25,
      "STL": 1.375,
      "BLK": 0.0,
      "3PM": 1.0,
-     "FG%": 0.44202899,
+     "FG%": 0.43884892,
      "FT%": 0.79545455,
      "TO": 4.75,
      "_src": "2027_last_15"
@@ -4361,7 +4361,7 @@
      "STL": 0.25,
      "BLK": 0.25,
      "3PM": 3.5,
-     "FG%": 0.46,
+     "FG%": 0.45544554,
      "FT%": 0.4,
      "TO": 1.375,
      "_src": "2027_last_15"
@@ -4668,7 +4668,7 @@
     "team": "PHO",
     "avg": {
      "PTS": 18.142857142857142,
-     "REB": 8.571428571428571,
+     "REB": 8.714285714285714,
      "AST": 4.142857142857143,
      "STL": 1.4285714285714286,
      "BLK": 0.7142857142857143,
@@ -4699,12 +4699,12 @@
     "team": "HOU",
     "avg": {
      "PTS": 14.428571428571429,
-     "REB": 3.857142857142857,
-     "AST": 5.142857142857143,
+     "REB": 3.7142857142857144,
+     "AST": 5.285714285714286,
      "STL": 1.0,
      "BLK": 0.14285714285714285,
      "3PM": 2.857142857142857,
-     "FG%": 0.41463415,
+     "FG%": 0.41975309,
      "FT%": 0.86666667,
      "TO": 1.5714285714285714,
      "_src": "2027_last_15"
@@ -5704,7 +5704,7 @@
      "STL": 1.1428571428571428,
      "BLK": 0.14285714285714285,
      "3PM": 2.142857142857143,
-     "FG%": 0.47368421,
+     "FG%": 0.47014925,
      "FT%": 0.95,
      "TO": 2.7142857142857144,
      "_src": "2027_last_15"
@@ -10034,7 +10034,7 @@
    "avg": {
     "PTS": 8.333333333333334,
     "REB": 3.111111111111111,
-    "AST": 1.4444444444444444,
+    "AST": 1.5555555555555556,
     "STL": 0.5555555555555556,
     "BLK": 0.1111111111111111,
     "3PM": 1.5555555555555556,
@@ -11630,6 +11630,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kyshawn George: Swats three shots Saturday",
+   "link": "https://www.rotowire.com//basketball/player/kyshawn-george-6269",
+   "published": "Sat, 07 Nov 2026 8:20:00 PM PST",
+   "summary": "George finished with 14 points (5-16 FG, 2-8 3Pt, 2-2 FT), seven rebounds, six assists and three blocks across 30 minutes in Saturday's 114-75 loss to Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nickeil Alexander-Walker: Scores 20 points in win",
    "link": "https://www.rotowire.com//basketball/player/nickeil-alexander-walker-4765",
    "published": "Sat, 07 Nov 2026 8:12:00 PM PST",
@@ -11655,13 +11662,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
    "published": "Sat, 07 Nov 2026 8:08:00 PM PST",
    "summary": "Brunson ended with 31 points (12-25 FG, 3-7 3Pt, 4-5 FT), six rebounds and nine assists over 34 minutes during Saturday's 109-97 victory over the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Mikel Brown: Scores 18 points Saturday, won't play Sunday",
-   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
-   "published": "Sat, 07 Nov 2026 8:04:00 PM PST",
-   "summary": "Brown, who finished with 18 points (5-13 FG, 3-8 3Pt, 5-7 FT), one rebound, three assists and one steal over 25 minutes in Saturday's 124-121 loss to Atlanta, won't play in Sunday's game against Dallas, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13119,6 +13119,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.3
  }
 }
