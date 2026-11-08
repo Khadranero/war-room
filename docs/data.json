@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:20:23.784782Z",
+ "updated": "2026-11-08T05:30:25.402881Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -7554,15 +7554,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.777777777777778,
-    "REB": 5.666666666666667,
+    "PTS": 8.0,
+    "REB": 5.888888888888889,
     "AST": 2.0,
     "STL": 0.3333333333333333,
     "BLK": 0.0,
     "3PM": 0.1111111111111111,
     "FG%": 0.42857143,
-    "FT%": 0.68181818,
-    "TO": 0.7777777777777778,
+    "FT%": 0.70833333,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10183,12 +10183,12 @@
    "pct": null,
    "avg": {
     "PTS": 2.875,
-    "REB": 0.625,
+    "REB": 0.75,
     "AST": 0.375,
     "STL": 0.125,
     "BLK": 0.375,
     "3PM": 0.75,
-    "FG%": 0.38095238,
+    "FG%": 0.34782609,
     "FT%": 0.5,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -10572,12 +10572,12 @@
    "pct": null,
    "avg": {
     "PTS": 5.428571428571429,
-    "REB": 0.5714285714285714,
+    "REB": 0.7142857142857143,
     "AST": 0.0,
     "STL": 0.14285714285714285,
     "BLK": 0.14285714285714285,
     "3PM": 1.0,
-    "FG%": 0.47826087,
+    "FG%": 0.44,
     "FT%": 0.75,
     "TO": 0.0,
     "_src": "2027_last_15"
@@ -11110,7 +11110,7 @@
    "pct": null,
    "avg": {
     "PTS": 3.8,
-    "REB": 3.0,
+    "REB": 3.2,
     "AST": 0.6,
     "STL": 0.2,
     "BLK": 0.2,
@@ -11630,6 +11630,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jabari Smith: Nets 15 points with full line",
+   "link": "https://www.rotowire.com//basketball/player/jabari-smith-5643",
+   "published": "Sat, 07 Nov 2026 9:26:00 PM PST",
+   "summary": "Smith racked up 15 points (7-12 FG, 1-4 3Pt), nine rebounds, two assists, one block and three steals over 39 minutes during Saturday's 102-99 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Franz Wagner: Double-doubles in loss",
    "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
    "published": "Sat, 07 Nov 2026 8:49:00 PM PST",
@@ -11655,13 +11662,6 @@
    "link": "https://www.rotowire.com//basketball/player/nickeil-alexander-walker-4765",
    "published": "Sat, 07 Nov 2026 8:12:00 PM PST",
    "summary": "Alexander-Walker finished with 20 points (7-17 FG, 2-9 3Pt, 4-5 FT), three rebounds and one assist across 31 minutes in Saturday's 124-121 win over Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Donovan Mitchell: Nets season-high 37 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/donovan-mitchell-4166",
-   "published": "Sat, 07 Nov 2026 8:11:00 PM PST",
-   "summary": "Mitchell provided 37 points (13-22 FG, 5-13 3Pt, 6-11 FT), four rebounds, four assists, one block and two steals across 37 minutes during Saturday's 109-97 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13118,6 +13118,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.0
  }
 }
