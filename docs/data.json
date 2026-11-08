@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T07:10:21.485048Z",
+ "updated": "2026-11-08T07:20:28.934691Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -5726,6 +5726,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-08T07:18:11.851000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Julian Champagnie"
+  },
+  {
+   "date": "2026-11-08T07:18:11.851000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Rui Hachimura"
+  },
+  {
    "date": "2026-11-08T06:10:03.067000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -6438,6 +6450,37 @@
    }
   },
   {
+   "name": "Julian Champagnie",
+   "pos": "SF",
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.222222222222221,
+    "REB": 4.222222222222222,
+    "AST": 1.3333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 0.3333333333333333,
+    "3PM": 2.888888888888889,
+    "FG%": 0.46774194,
+    "FT%": 0.88888889,
+    "TO": 0.4444444444444444,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.78048780487805,
+    "REB": 5.402439024390244,
+    "AST": 1.5,
+    "STL": 0.6951219512195121,
+    "BLK": 0.5,
+    "3PM": 2.317073170731707,
+    "FG%": 0.433,
+    "FT%": 0.85,
+    "TO": 0.8048780487804879,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Paul Reed",
    "pos": "C",
    "team": "DET",
@@ -6938,37 +6981,6 @@
     "FG%": 0.427,
     "FT%": 0.769,
     "TO": 1.303030303030303,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Rui Hachimura",
-   "pos": "PF",
-   "team": "LAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 15.6,
-    "REB": 6.2,
-    "AST": 1.6,
-    "STL": 1.0,
-    "BLK": 0.0,
-    "3PM": 2.2,
-    "FG%": 0.4,
-    "FT%": 0.78571429,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.0,
-    "REB": 4.098591549295775,
-    "AST": 1.0985915492957747,
-    "STL": 0.704225352112676,
-    "BLK": 0.39436619718309857,
-    "3PM": 1.7746478873239437,
-    "FG%": 0.518,
-    "FT%": 0.726,
-    "TO": 0.704225352112676,
     "_src": "2027_projected"
    }
   },
@@ -12002,6 +12014,18 @@
  },
  "log": [
   {
+   "date": "2026-11-08T07:18:11.851000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Julian Champagnie"
+  },
+  {
+   "date": "2026-11-08T07:18:11.851000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Rui Hachimura"
+  },
+  {
    "date": "2026-11-08T06:10:03.067000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -13131,6 +13155,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 3.1
  }
 }
