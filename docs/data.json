@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T23:10:21.470357Z",
+ "updated": "2026-11-08T23:13:05.406504Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1851,15 +1851,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 23.0,
-     "REB": 3.25,
-     "AST": 4.0,
-     "STL": 0.875,
-     "BLK": 0.375,
-     "3PM": 2.25,
-     "FG%": 0.4765625,
+     "PTS": 20.666666666666668,
+     "REB": 2.888888888888889,
+     "AST": 3.5555555555555554,
+     "STL": 0.7777777777777778,
+     "BLK": 0.3333333333333333,
+     "3PM": 2.0,
+     "FG%": 0.48062016,
      "FT%": 0.88,
-     "TO": 3.625,
+     "TO": 3.2222222222222223,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2097,15 +2097,15 @@
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
-     "PTS": 19.0,
-     "REB": 2.0,
-     "AST": 2.3333333333333335,
-     "STL": 2.0,
-     "BLK": 0.3333333333333333,
-     "3PM": 4.166666666666667,
+     "PTS": 16.285714285714285,
+     "REB": 1.7142857142857142,
+     "AST": 2.0,
+     "STL": 1.7142857142857142,
+     "BLK": 0.2857142857142857,
+     "3PM": 3.5714285714285716,
      "FG%": 0.47945205,
      "FT%": 0.86363636,
-     "TO": 0.8333333333333334,
+     "TO": 0.7142857142857143,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2501,15 +2501,15 @@
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
-     "PTS": 10.8,
-     "REB": 9.2,
-     "AST": 4.6,
-     "STL": 1.0,
-     "BLK": 0.6,
+     "PTS": 9.333333333333334,
+     "REB": 7.833333333333333,
+     "AST": 3.8333333333333335,
+     "STL": 0.8333333333333334,
+     "BLK": 0.5,
      "3PM": 0.0,
-     "FG%": 0.55,
+     "FG%": 0.56097561,
      "FT%": 0.625,
-     "TO": 2.0,
+     "TO": 1.8333333333333333,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4885,15 +4885,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 12.25,
-     "REB": 10.875,
-     "AST": 1.0,
-     "STL": 1.25,
-     "BLK": 2.0,
+     "PTS": 10.88888888888889,
+     "REB": 9.666666666666666,
+     "AST": 0.8888888888888888,
+     "STL": 1.1111111111111112,
+     "BLK": 1.7777777777777777,
      "3PM": 0.0,
      "FG%": 0.66129032,
      "FT%": 0.61538462,
-     "TO": 1.25,
+     "TO": 1.1111111111111112,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5618,15 +5618,15 @@
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
-     "PTS": 7.666666666666667,
-     "REB": 5.833333333333333,
-     "AST": 0.3333333333333333,
-     "STL": 0.3333333333333333,
-     "BLK": 1.0,
-     "3PM": 0.3333333333333333,
-     "FG%": 0.43478261,
+     "PTS": 6.571428571428571,
+     "REB": 5.142857142857143,
+     "AST": 0.2857142857142857,
+     "STL": 0.2857142857142857,
+     "BLK": 0.8571428571428571,
+     "3PM": 0.2857142857142857,
+     "FG%": 0.42553191,
      "FT%": 0.57142857,
-     "TO": 1.0,
+     "TO": 0.8571428571428571,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5649,15 +5649,15 @@
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
-     "PTS": 25.666666666666668,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.8333333333333333,
-     "BLK": 0.8333333333333334,
-     "3PM": 2.5,
-     "FG%": 0.46551724,
+     "PTS": 22.0,
+     "REB": 5.571428571428571,
+     "AST": 6.428571428571429,
+     "STL": 1.5714285714285714,
+     "BLK": 0.7142857142857143,
+     "3PM": 2.142857142857143,
+     "FG%": 0.46153846,
      "FT%": 0.79487179,
-     "TO": 3.1666666666666665,
+     "TO": 2.7142857142857144,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6389,15 +6389,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 12.833333333333334,
-    "REB": 6.166666666666667,
-    "AST": 2.3333333333333335,
-    "STL": 1.5,
-    "BLK": 1.0,
-    "3PM": 0.5,
+    "PTS": 11.0,
+    "REB": 5.285714285714286,
+    "AST": 2.0,
+    "STL": 1.2857142857142858,
+    "BLK": 0.8571428571428571,
+    "3PM": 0.42857142857142855,
     "FG%": 0.55,
     "FT%": 0.66666667,
-    "TO": 2.1666666666666665,
+    "TO": 1.8571428571428572,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -6563,16 +6563,16 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 7.0,
+    "REB": 3.0,
+    "AST": 0.5,
+    "STL": 1.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.44444444,
+    "FG%": 0.29411765,
     "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 0.5,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 13.830985915492958,
@@ -6594,15 +6594,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.625,
-    "REB": 2.125,
-    "AST": 2.0,
-    "STL": 0.875,
+    "PTS": 5.888888888888889,
+    "REB": 1.8888888888888888,
+    "AST": 1.7777777777777777,
+    "STL": 0.7777777777777778,
     "BLK": 0.0,
-    "3PM": 0.375,
+    "3PM": 0.3333333333333333,
     "FG%": 0.425,
     "FT%": 0.66666667,
-    "TO": 1.375,
+    "TO": 1.2222222222222223,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -7562,15 +7562,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.0,
-    "REB": 4.125,
-    "AST": 1.625,
-    "STL": 1.625,
-    "BLK": 1.0,
-    "3PM": 1.25,
+    "PTS": 5.333333333333333,
+    "REB": 3.6666666666666665,
+    "AST": 1.4444444444444444,
+    "STL": 1.4444444444444444,
+    "BLK": 0.8888888888888888,
+    "3PM": 1.1111111111111112,
     "FG%": 0.53125,
     "FT%": 0.4,
-    "TO": 1.625,
+    "TO": 1.4444444444444444,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -8359,15 +8359,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.25,
-    "REB": 1.625,
-    "AST": 1.125,
-    "STL": 1.875,
-    "BLK": 0.875,
-    "3PM": 1.75,
+    "PTS": 6.444444444444445,
+    "REB": 1.4444444444444444,
+    "AST": 1.0,
+    "STL": 1.7777777777777777,
+    "BLK": 0.7777777777777778,
+    "3PM": 1.5555555555555556,
     "FG%": 0.41860465,
     "FT%": 0.88888889,
-    "TO": 1.25,
+    "TO": 1.1111111111111112,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -11268,16 +11268,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -11627,6 +11627,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Keyonte George: Available Sunday",
+   "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
+   "published": "Sun, 08 Nov 2026 3:10:00 PM PST",
+   "summary": "George (illness) is available for Sunday's game against the Timberwolves, Shreyas Laddha of The Salt Lake Tribune reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Domantas Sabonis: Downgraded to questionable Sunday",
    "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
    "published": "Sun, 08 Nov 2026 2:53:00 PM PST",
@@ -11652,27 +11659,12 @@
    "link": "https://www.rotowire.com//basketball/player/aaron-gordon-3577",
    "published": "Sun, 08 Nov 2026 2:42:00 PM PST",
    "summary": "Gordon (lower body injury management) is listed as questionable for Monday's game against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Quentin Grimes: Starting against Pistons",
-   "link": "https://www.rotowire.com//basketball/player/quentin-grimes-5391",
-   "published": "Sun, 08 Nov 2026 2:40:00 PM PST",
-   "summary": "Grimes will start in Sunday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
   "today": "2026-11-08",
   "days_left": 1,
   "by_team": {
-   "DET": {
-    "rest": 1,
-    "next": 3
-   },
-   "LAL": {
-    "rest": 1,
-    "next": 3
-   },
    "MIN": {
     "rest": 1,
     "next": 2
@@ -11717,6 +11709,10 @@
     "rest": 0,
     "next": 3
    },
+   "LAL": {
+    "rest": 0,
+    "next": 3
+   },
    "CHA": {
     "rest": 0,
     "next": 3
@@ -11724,6 +11720,10 @@
    "CLE": {
     "rest": 0,
     "next": 4
+   },
+   "DET": {
+    "rest": 0,
+    "next": 3
    },
    "WSH": {
     "rest": 0,
@@ -11830,8 +11830,6 @@
   ],
   "by_day": {
    "2026-11-08": [
-    "DET",
-    "LAL",
     "MIN",
     "UTAH",
     "UTA",
@@ -13190,6 +13188,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 2.0
  }
 }
