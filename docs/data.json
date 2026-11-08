@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T08:20:23.401862Z",
+ "updated": "2026-11-08T08:30:28.497615Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2172,24 +2172,35 @@
     }
    },
    {
-    "name": "Meleek Thomas",
+    "name": "Jeremiah Fears",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
-    "team": "CLE",
+    "team": "NOP",
     "avg": {
-     "PTS": 12.285714285714286,
-     "REB": 2.5714285714285716,
-     "AST": 1.0,
-     "STL": 1.0,
-     "BLK": 0.14285714285714285,
-     "3PM": 2.5714285714285716,
-     "FG%": 0.45070423,
-     "FT%": 1.0,
-     "TO": 1.1428571428571428,
+     "PTS": 15.625,
+     "REB": 4.75,
+     "AST": 5.0,
+     "STL": 1.25,
+     "BLK": 0.5,
+     "3PM": 0.875,
+     "FG%": 0.44642857,
+     "FT%": 0.81818182,
+     "TO": 2.75,
      "_src": "2027_last_15"
     },
-    "proj": {}
+    "proj": {
+     "PTS": 15.090909090909092,
+     "REB": 3.8051948051948052,
+     "AST": 3.5064935064935066,
+     "STL": 1.1948051948051948,
+     "BLK": 0.4025974025974026,
+     "3PM": 1.3506493506493507,
+     "FG%": 0.445,
+     "FT%": 0.811,
+     "TO": 2.1948051948051948,
+     "_src": "2027_projected"
+    }
    }
   ],
   "Team Batrouni": [
@@ -5737,6 +5748,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-08T08:22:16.046000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Meleek Thomas"
+  },
+  {
+   "date": "2026-11-08T08:22:16.046000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Jeremiah Fears"
+  },
+  {
    "date": "2026-11-08T07:18:11.851000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -6358,37 +6381,6 @@
     "FG%": 0.472,
     "FT%": 0.796,
     "TO": 2.3043478260869565,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Jeremiah Fears",
-   "pos": "SG",
-   "team": "NOP",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 15.625,
-    "REB": 4.75,
-    "AST": 5.0,
-    "STL": 1.25,
-    "BLK": 0.5,
-    "3PM": 0.875,
-    "FG%": 0.44642857,
-    "FT%": 0.81818182,
-    "TO": 2.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 15.090909090909092,
-    "REB": 3.8051948051948052,
-    "AST": 3.5064935064935066,
-    "STL": 1.1948051948051948,
-    "BLK": 0.4025974025974026,
-    "3PM": 1.3506493506493507,
-    "FG%": 0.445,
-    "FT%": 0.811,
-    "TO": 2.1948051948051948,
     "_src": "2027_projected"
    }
   },
@@ -8412,6 +8404,26 @@
     "TO": 0.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Meleek Thomas",
+   "pos": "SG",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.285714285714286,
+    "REB": 2.5714285714285716,
+    "AST": 1.0,
+    "STL": 1.0,
+    "BLK": 0.14285714285714285,
+    "3PM": 2.5714285714285716,
+    "FG%": 0.45070423,
+    "FT%": 1.0,
+    "TO": 1.1428571428571428,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Matisse Thybulle",
@@ -12019,6 +12031,18 @@
  },
  "log": [
   {
+   "date": "2026-11-08T08:22:16.046000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Meleek Thomas"
+  },
+  {
+   "date": "2026-11-08T08:22:16.046000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Jeremiah Fears"
+  },
+  {
    "date": "2026-11-08T07:18:11.851000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -13160,6 +13184,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 2.1
  }
 }
