@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:50:21.712067Z",
+ "updated": "2026-11-08T23:00:32.957339Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -2281,7 +2281,7 @@
     "name": "Domantas Sabonis",
     "pos": "C",
     "slot": "PF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "SAC",
     "avg": {
      "PTS": 13.857142857142858,
@@ -6231,7 +6231,7 @@
    "name": "DeMar DeRozan",
    "pos": "SF",
    "team": "DEN",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 10.333333333333334,
@@ -6563,16 +6563,16 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 7.0,
+    "REB": 3.0,
+    "AST": 0.5,
+    "STL": 1.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.44444444,
+    "FG%": 0.29411765,
     "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 0.5,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 13.830985915492958,
@@ -7652,7 +7652,7 @@
    "name": "Cameron Johnson",
    "pos": "SF",
    "team": "DEN",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.25,
@@ -11268,16 +11268,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -11627,6 +11627,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Domantas Sabonis: Downgraded to questionable Sunday",
+   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
+   "published": "Sun, 08 Nov 2026 2:53:00 PM PST",
+   "summary": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Christian Braun: Questionable for Monday",
    "link": "https://www.rotowire.com//basketball/player/christian-braun-5710",
    "published": "Sun, 08 Nov 2026 2:47:00 PM PST",
@@ -11652,13 +11659,6 @@
    "link": "https://www.rotowire.com//basketball/player/quentin-grimes-5391",
    "published": "Sun, 08 Nov 2026 2:40:00 PM PST",
    "summary": "Grimes will start in Sunday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nikola Jokic: Questionable to play Monday",
-   "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
-   "published": "Sun, 08 Nov 2026 2:36:00 PM PST",
-   "summary": "Jokic (elbow) is listed as questionable for Monday's game in Houston.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13190,6 +13190,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.3
  }
 }
