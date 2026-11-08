@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:00:31.283851Z",
+ "updated": "2026-11-08T04:10:24.501032Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1354,13 +1354,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 31.428571428571427,
+     "PTS": 31.714285714285715,
      "REB": 4.285714285714286,
      "AST": 5.142857142857143,
      "STL": 1.0,
      "BLK": 0.14285714285714285,
      "3PM": 5.142857142857143,
-     "FG%": 0.4921875,
+     "FG%": 0.49612403,
      "FT%": 0.98305085,
      "TO": 1.8571428571428572,
      "_src": "2027_last_15"
@@ -1574,7 +1574,7 @@
      "PTS": 15.75,
      "REB": 5.125,
      "AST": 4.25,
-     "STL": 1.0,
+     "STL": 1.125,
      "BLK": 0.5,
      "3PM": 2.5,
      "FG%": 0.47368421,
@@ -1670,7 +1670,7 @@
      "STL": 1.0,
      "BLK": 0.75,
      "3PM": 1.125,
-     "FG%": 0.62711864,
+     "FG%": 0.60655738,
      "FT%": 0.73333333,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -2667,14 +2667,14 @@
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
-     "PTS": 28.666666666666668,
+     "PTS": 29.11111111111111,
      "REB": 11.444444444444445,
      "AST": 2.6666666666666665,
-     "STL": 1.2222222222222223,
+     "STL": 1.3333333333333333,
      "BLK": 3.5555555555555554,
      "3PM": 2.0,
      "FG%": 0.52717391,
-     "FT%": 0.74193548,
+     "FT%": 0.75757576,
      "TO": 1.8888888888888888,
      "_src": "2027_last_15"
     },
@@ -2853,14 +2853,14 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 12.571428571428571,
-     "REB": 3.142857142857143,
-     "AST": 3.4285714285714284,
+     "PTS": 12.714285714285714,
+     "REB": 3.0,
+     "AST": 3.5714285714285716,
      "STL": 0.8571428571428571,
      "BLK": 0.7142857142857143,
      "3PM": 0.5714285714285714,
-     "FG%": 0.44303797,
-     "FT%": 0.66666667,
+     "FG%": 0.43209877,
+     "FT%": 0.65217391,
      "TO": 2.5714285714285716,
      "_src": "2027_last_15"
     },
@@ -3196,14 +3196,14 @@
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
-     "PTS": 13.11111111111111,
-     "REB": 3.2222222222222223,
+     "PTS": 13.444444444444445,
+     "REB": 3.3333333333333335,
      "AST": 5.555555555555555,
      "STL": 1.2222222222222223,
      "BLK": 0.5555555555555556,
      "3PM": 0.8888888888888888,
      "FG%": 0.5,
-     "FT%": 0.82926829,
+     "FT%": 0.82222222,
      "TO": 2.6666666666666665,
      "_src": "2027_last_15"
     },
@@ -3321,7 +3321,7 @@
     "team": "HOU",
     "avg": {
      "PTS": 15.88888888888889,
-     "REB": 6.777777777777778,
+     "REB": 6.666666666666667,
      "AST": 2.4444444444444446,
      "STL": 0.8888888888888888,
      "BLK": 1.1111111111111112,
@@ -3565,7 +3565,7 @@
      "STL": 0.6666666666666666,
      "BLK": 1.4444444444444444,
      "3PM": 1.3333333333333333,
-     "FG%": 0.5047619,
+     "FG%": 0.5,
      "FT%": 0.86567164,
      "TO": 2.888888888888889,
      "_src": "2027_last_15"
@@ -3859,7 +3859,7 @@
     "team": "ORL",
     "avg": {
      "PTS": 15.666666666666666,
-     "REB": 5.5,
+     "REB": 5.666666666666667,
      "AST": 5.0,
      "STL": 1.6666666666666667,
      "BLK": 0.6666666666666666,
@@ -3897,7 +3897,7 @@
      "3PM": 2.5,
      "FG%": 0.53125,
      "FT%": 0.82352941,
-     "TO": 1.125,
+     "TO": 1.375,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4015,13 +4015,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 15.11111111111111,
-     "REB": 5.777777777777778,
+     "PTS": 15.333333333333334,
+     "REB": 6.0,
      "AST": 2.888888888888889,
      "STL": 1.2222222222222223,
-     "BLK": 0.5555555555555556,
+     "BLK": 0.6666666666666666,
      "3PM": 0.1111111111111111,
-     "FG%": 0.5,
+     "FG%": 0.5047619,
      "FT%": 0.79487179,
      "TO": 1.7777777777777777,
      "_src": "2027_last_15"
@@ -4046,13 +4046,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 19.714285714285715,
+     "PTS": 21.0,
      "REB": 8.428571428571429,
-     "AST": 8.0,
+     "AST": 8.142857142857142,
      "STL": 1.2857142857142858,
-     "BLK": 1.1428571428571428,
-     "3PM": 0.7142857142857143,
-     "FG%": 0.48571429,
+     "BLK": 1.2857142857142858,
+     "3PM": 0.8571428571428571,
+     "FG%": 0.5,
      "FT%": 0.75609756,
      "TO": 3.142857142857143,
      "_src": "2027_last_15"
@@ -4177,7 +4177,7 @@
      "3PM": 1.0,
      "FG%": 0.44525547,
      "FT%": 0.79545455,
-     "TO": 4.625,
+     "TO": 4.75,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4235,9 +4235,9 @@
      "REB": 4.777777777777778,
      "AST": 4.111111111111111,
      "STL": 0.8888888888888888,
-     "BLK": 0.0,
+     "BLK": 0.1111111111111111,
      "3PM": 1.2222222222222223,
-     "FG%": 0.51327434,
+     "FG%": 0.50877193,
      "FT%": 0.87096774,
      "TO": 1.5555555555555556,
      "_src": "2027_last_15"
@@ -4361,7 +4361,7 @@
      "STL": 0.25,
      "BLK": 0.25,
      "3PM": 3.375,
-     "FG%": 0.46875,
+     "FG%": 0.46391753,
      "FT%": 0.4,
      "TO": 1.375,
      "_src": "2027_last_15"
@@ -4667,13 +4667,13 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 17.142857142857142,
+     "PTS": 18.142857142857142,
      "REB": 8.571428571428571,
      "AST": 4.0,
      "STL": 1.4285714285714286,
      "BLK": 0.7142857142857143,
-     "3PM": 2.2857142857142856,
-     "FG%": 0.47826087,
+     "3PM": 2.4285714285714284,
+     "FG%": 0.49473684,
      "FT%": 0.84210526,
      "TO": 0.7142857142857143,
      "_src": "2027_last_15"
@@ -4699,12 +4699,12 @@
     "team": "HOU",
     "avg": {
      "PTS": 14.428571428571429,
-     "REB": 3.5714285714285716,
+     "REB": 3.7142857142857144,
      "AST": 5.0,
      "STL": 1.0,
      "BLK": 0.14285714285714285,
      "3PM": 2.857142857142857,
-     "FG%": 0.43037975,
+     "FG%": 0.41975309,
      "FT%": 0.86666667,
      "TO": 1.5714285714285714,
      "_src": "2027_last_15"
@@ -5070,7 +5070,7 @@
     "avg": {
      "PTS": 17.714285714285715,
      "REB": 3.7142857142857144,
-     "AST": 2.7142857142857144,
+     "AST": 2.857142857142857,
      "STL": 1.0,
      "BLK": 0.2857142857142857,
      "3PM": 2.4285714285714284,
@@ -5191,13 +5191,13 @@
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
-     "PTS": 11.444444444444445,
-     "REB": 3.6666666666666665,
+     "PTS": 11.777777777777779,
+     "REB": 3.7777777777777777,
      "AST": 3.2222222222222223,
      "STL": 1.7777777777777777,
      "BLK": 0.3333333333333333,
-     "3PM": 1.5555555555555556,
-     "FG%": 0.41176471,
+     "3PM": 1.6666666666666667,
+     "FG%": 0.4137931,
      "FT%": 0.95,
      "TO": 1.1111111111111112,
      "_src": "2027_last_15"
@@ -5410,14 +5410,14 @@
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
-     "PTS": 13.333333333333334,
-     "REB": 5.666666666666667,
-     "AST": 5.0,
+     "PTS": 13.555555555555555,
+     "REB": 5.777777777777778,
+     "AST": 5.111111111111111,
      "STL": 0.8888888888888888,
      "BLK": 0.2222222222222222,
      "3PM": 1.7777777777777777,
-     "FG%": 0.39655172,
-     "FT%": 0.75,
+     "FG%": 0.39316239,
+     "FT%": 0.77777778,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -5554,13 +5554,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 12.25,
+     "PTS": 12.5,
      "REB": 3.375,
      "AST": 0.875,
      "STL": 0.875,
      "BLK": 0.25,
      "3PM": 3.0,
-     "FG%": 0.50724638,
+     "FG%": 0.50704225,
      "FT%": 0.5,
      "TO": 1.375,
      "_src": "2027_last_15"
@@ -5699,12 +5699,12 @@
     "team": "PHO",
     "avg": {
      "PTS": 24.285714285714285,
-     "REB": 2.2857142857142856,
+     "REB": 2.4285714285714284,
      "AST": 5.285714285714286,
      "STL": 1.1428571428571428,
      "BLK": 0.14285714285714285,
      "3PM": 2.0,
-     "FG%": 0.46825397,
+     "FG%": 0.46456693,
      "FT%": 0.95,
      "TO": 2.7142857142857144,
      "_src": "2027_last_15"
@@ -6515,8 +6515,8 @@
    "pct": null,
    "avg": {
     "PTS": 7.714285714285714,
-    "REB": 2.2857142857142856,
-    "AST": 4.285714285714286,
+    "REB": 2.4285714285714284,
+    "AST": 4.428571428571429,
     "STL": 2.142857142857143,
     "BLK": 0.14285714285714285,
     "3PM": 1.8571428571428572,
@@ -7037,7 +7037,7 @@
     "3PM": 0.0,
     "FG%": 0.7,
     "FT%": 0.42857143,
-    "TO": 2.4,
+    "TO": 2.6,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -7560,7 +7560,7 @@
     "STL": 0.2222222222222222,
     "BLK": 0.0,
     "3PM": 0.1111111111111111,
-    "FG%": 0.43636364,
+    "FG%": 0.42857143,
     "FT%": 0.65,
     "TO": 0.6666666666666666,
     "_src": "2027_last_15"
@@ -7985,14 +7985,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.625,
-    "REB": 2.125,
-    "AST": 1.125,
+    "PTS": 6.875,
+    "REB": 2.25,
+    "AST": 1.25,
     "STL": 0.625,
-    "BLK": 0.0,
+    "BLK": 0.125,
     "3PM": 0.625,
-    "FG%": 0.2745098,
-    "FT%": 0.76923077,
+    "FG%": 0.26923077,
+    "FT%": 0.78571429,
     "TO": 2.375,
     "_src": "2027_last_15"
    },
@@ -8320,14 +8320,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.714285714285714,
-    "REB": 6.428571428571429,
+    "PTS": 8.142857142857142,
+    "REB": 6.571428571428571,
     "AST": 1.1428571428571428,
     "STL": 0.8571428571428571,
     "BLK": 1.0,
     "3PM": 0.14285714285714285,
-    "FG%": 0.57894737,
-    "FT%": 0.69230769,
+    "FG%": 0.58974359,
+    "FT%": 0.71428571,
     "TO": 1.5714285714285714,
     "_src": "2027_last_15"
    },
@@ -8867,7 +8867,7 @@
    "avg": {
     "PTS": 10.75,
     "REB": 2.125,
-    "AST": 2.375,
+    "AST": 2.5,
     "STL": 0.75,
     "BLK": 0.5,
     "3PM": 0.75,
@@ -9274,14 +9274,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.625,
+    "PTS": 7.125,
     "REB": 5.125,
     "AST": 0.5,
     "STL": 0.125,
-    "BLK": 0.875,
+    "BLK": 1.0,
     "3PM": 0.0,
-    "FG%": 0.625,
-    "FT%": 0.86666667,
+    "FG%": 0.63636364,
+    "FT%": 0.88235294,
     "TO": 0.75,
     "_src": "2027_last_15"
    },
@@ -10253,14 +10253,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 2.6666666666666665,
-    "REB": 4.333333333333333,
+    "PTS": 2.888888888888889,
+    "REB": 4.444444444444445,
     "AST": 0.8888888888888888,
     "STL": 0.1111111111111111,
     "BLK": 0.5555555555555556,
     "3PM": 0.0,
     "FG%": 0.4,
-    "FT%": 0.72727273,
+    "FT%": 0.76923077,
     "TO": 0.4444444444444444,
     "_src": "2027_last_15"
    },
@@ -11630,6 +11630,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Brunson: Nets 31 points with nine assists",
+   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
+   "published": "Sat, 07 Nov 2026 8:08:00 PM PST",
+   "summary": "Brunson ended with 31 points (12-25 FG, 3-7 3Pt, 4-5 FT), six rebounds and nine assists over 34 minutes during Saturday's 109-97 victory over the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Mikel Brown: Scores 18 points Saturday, won't play Sunday",
+   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
+   "published": "Sat, 07 Nov 2026 8:04:00 PM PST",
+   "summary": "Brown, who finished with 18 points (5-13 FG, 3-8 3Pt, 5-7 FT), one rebound, three assists and one steal over 25 minutes in Saturday's 124-121 loss to Atlanta, won't play in Sunday's game against Dallas, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Day'Ron Sharpe: Records first career triple-double",
    "link": "https://www.rotowire.com//basketball/player/dayron-sharpe-5418",
    "published": "Sat, 07 Nov 2026 7:51:00 PM PST",
@@ -11648,20 +11662,6 @@
    "link": "https://www.rotowire.com//basketball/player/deandre-ayton-4372",
    "published": "Sat, 07 Nov 2026 6:47:00 PM PST",
    "summary": "Ayton won't return to Saturday's game against the Thunder due to a lower leg injury.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nikola Jokic: Flirts with triple-double Saturday",
-   "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
-   "published": "Sat, 07 Nov 2026 6:23:00 PM PST",
-   "summary": "Jokic finished with 19 points (7-20 FG, 1-3 3Pt, 4-4 FT), 13 rebounds, eight assists, one steal and one block across 36 minutes in Saturday's 114-102 win over the Pacers in Mexico City.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ja Morant: Making good progress in recovery",
-   "link": "https://www.rotowire.com//basketball/player/ja-morant-4761",
-   "published": "Sat, 07 Nov 2026 6:18:00 PM PST",
-   "summary": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13119,6 +13119,6 @@
   "picked_total": 9097.0,
   "direct_total": 9097.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.8
  }
 }
