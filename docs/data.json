@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:40:21.265767Z",
+ "updated": "2026-11-08T22:50:21.712067Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1417,12 +1417,12 @@
     "team": "PHL",
     "avg": {
      "PTS": 15.571428571428571,
-     "REB": 6.285714285714286,
+     "REB": 6.428571428571429,
      "AST": 6.857142857142857,
-     "STL": 1.1428571428571428,
+     "STL": 1.2857142857142858,
      "BLK": 0.7142857142857143,
      "3PM": 1.0,
-     "FG%": 0.4673913,
+     "FG%": 0.46236559,
      "FT%": 0.64,
      "TO": 2.857142857142857,
      "_src": "2027_last_15"
@@ -1726,16 +1726,16 @@
     "injury": "OUT",
     "team": "NOP",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.5,
-     "AST": 2.5,
-     "STL": 1.0,
-     "BLK": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.88888889,
-     "FT%": 0.75,
-     "TO": 0.5,
-     "_src": "2027_last_30"
+     "FG%": 1.0,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 7.537313432835821,
@@ -2155,7 +2155,7 @@
     "name": "Christian Braun",
     "pos": "SG",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "DEN",
     "avg": {
      "PTS": 14.428571428571429,
@@ -2315,16 +2315,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -2622,7 +2622,7 @@
     "name": "Aaron Gordon",
     "pos": "PF",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "DEN",
     "avg": {
      "PTS": 11.142857142857142,
@@ -2722,13 +2722,13 @@
     "avg": {
      "PTS": 12.142857142857142,
      "REB": 4.714285714285714,
-     "AST": 8.571428571428571,
+     "AST": 8.714285714285714,
      "STL": 0.7142857142857143,
      "BLK": 0.42857142857142855,
      "3PM": 1.2857142857142858,
      "FG%": 0.47692308,
      "FT%": 0.77777778,
-     "TO": 2.5714285714285716,
+     "TO": 2.7142857142857144,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3187,16 +3187,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -3620,7 +3620,7 @@
     "name": "Jamal Murray",
     "pos": "PG",
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "DEN",
     "avg": {
      "PTS": 26.857142857142858,
@@ -3778,13 +3778,13 @@
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
-     "PTS": 13.714285714285714,
+     "PTS": 14.0,
      "REB": 4.142857142857143,
      "AST": 2.142857142857143,
      "STL": 0.5714285714285714,
      "BLK": 0.42857142857142855,
      "3PM": 1.8571428571428572,
-     "FG%": 0.47761194,
+     "FG%": 0.47826087,
      "FT%": 0.86363636,
      "TO": 2.4285714285714284,
      "_src": "2027_last_15"
@@ -4110,16 +4110,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -4458,7 +4458,7 @@
      "STL": 1.1111111111111112,
      "BLK": 0.4444444444444444,
      "3PM": 2.6666666666666665,
-     "FG%": 0.47904192,
+     "FG%": 0.47619048,
      "FT%": 0.86666667,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -5224,14 +5224,14 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 22.375,
-     "REB": 6.25,
+     "PTS": 22.875,
+     "REB": 6.375,
      "AST": 3.75,
      "STL": 1.25,
      "BLK": 0.375,
      "3PM": 2.125,
-     "FG%": 0.4751773,
-     "FT%": 0.68292683,
+     "FG%": 0.47183099,
+     "FT%": 0.71111111,
      "TO": 1.875,
      "_src": "2027_last_15"
     },
@@ -5505,14 +5505,14 @@
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
-     "PTS": 19.285714285714285,
+     "PTS": 19.571428571428573,
      "REB": 6.714285714285714,
      "AST": 2.5714285714285716,
      "STL": 1.8571428571428572,
      "BLK": 0.8571428571428571,
      "3PM": 2.5714285714285716,
      "FG%": 0.40833333,
-     "FT%": 0.67857143,
+     "FT%": 0.7,
      "TO": 1.8571428571428572,
      "_src": "2027_last_15"
     },
@@ -6975,14 +6975,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.714285714285714,
-    "REB": 6.857142857142857,
+    "PTS": 10.857142857142858,
+    "REB": 7.0,
     "AST": 2.0,
     "STL": 0.0,
     "BLK": 1.4285714285714286,
     "3PM": 1.5714285714285714,
     "FG%": 0.47619048,
-    "FT%": 0.66666667,
+    "FT%": 0.625,
     "TO": 0.7142857142857143,
     "_src": "2027_last_15"
    },
@@ -9943,7 +9943,7 @@
    "name": "Sam Merrill",
    "pos": "SG",
    "team": "CLE",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -11627,38 +11627,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Christian Braun: Questionable for Monday",
+   "link": "https://www.rotowire.com//basketball/player/christian-braun-5710",
+   "published": "Sun, 08 Nov 2026 2:47:00 PM PST",
+   "summary": "Braun (calf/illness) is listed as questionable for Monday's game against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jamal Murray: Questionable against Houston",
+   "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
+   "published": "Sun, 08 Nov 2026 2:43:00 PM PST",
+   "summary": "Murray is questionable for Monday's game against the Rockets due to a left shin contusion.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Aaron Gordon: Iffy for Monday",
+   "link": "https://www.rotowire.com//basketball/player/aaron-gordon-3577",
+   "published": "Sun, 08 Nov 2026 2:42:00 PM PST",
+   "summary": "Gordon (lower body injury management) is listed as questionable for Monday's game against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Quentin Grimes: Starting against Pistons",
+   "link": "https://www.rotowire.com//basketball/player/quentin-grimes-5391",
+   "published": "Sun, 08 Nov 2026 2:40:00 PM PST",
+   "summary": "Grimes will start in Sunday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nikola Jokic: Questionable to play Monday",
    "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
    "published": "Sun, 08 Nov 2026 2:36:00 PM PST",
    "summary": "Jokic (elbow) is listed as questionable for Monday's game in Houston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kon Knueppel: Out at least four weeks",
-   "link": "https://www.rotowire.com//basketball/player/kon-knueppel-6540",
-   "published": "Sun, 08 Nov 2026 2:32:00 PM PST",
-   "summary": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Brandon Miller: Ruled out Monday",
-   "link": "https://www.rotowire.com//basketball/player/brandon-miller-5896",
-   "published": "Sun, 08 Nov 2026 2:25:00 PM PST",
-   "summary": "Miller (groin) is listed as out for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jarrett Allen: Might return Monday",
-   "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
-   "published": "Sun, 08 Nov 2026 2:16:00 PM PST",
-   "summary": "Allen (knee) is questionable for Monday's game against Charlotte.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Davis: Questionable to suit up Monday",
-   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
-   "published": "Sun, 08 Nov 2026 2:08:00 PM PST",
-   "summary": "Davis (ankle) is listed as questionable for Monday's game in Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13190,6 +13190,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.6
  }
 }
