@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:00:29.997281Z",
+ "updated": "2026-11-08T16:10:22.937217Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1726,16 +1726,16 @@
     "injury": "OUT",
     "team": "NOP",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.5,
-     "AST": 2.5,
-     "STL": 1.0,
-     "BLK": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.88888889,
-     "FT%": 0.75,
-     "TO": 0.5,
-     "_src": "2027_last_30"
+     "FG%": 1.0,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 7.537313432835821,
@@ -2304,16 +2304,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3176,16 +3176,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -3266,7 +3266,7 @@
     "name": "Josh Hart",
     "pos": "SF",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 7.2,
@@ -4099,16 +4099,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -4469,7 +4469,7 @@
     "name": "Anthony Davis",
     "pos": "C",
     "slot": "F",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "WAS",
     "avg": {
      "PTS": 24.0,
@@ -5118,7 +5118,7 @@
     "name": "Jarrett Allen",
     "pos": "C",
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
      "PTS": 13.142857142857142,
@@ -9892,7 +9892,7 @@
    "name": "Sam Merrill",
    "pos": "SG",
    "team": "CLE",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -11627,6 +11627,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Duren: To miss at least two more weeks",
+   "link": "https://www.rotowire.com//basketball/player/jalen-duren-5703",
+   "published": "Sun, 08 Nov 2026 8:05:00 AM PST",
+   "summary": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Norman Powell: Late addition to injury report",
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Sun, 08 Nov 2026 7:08:00 AM PST",
@@ -11652,13 +11659,6 @@
    "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
    "published": "Sat, 07 Nov 2026 8:49:00 PM PST",
    "summary": "Wagner produced 30 points (11-22 FG, 3-7 3Pt, 5-5 FT), six rebounds, 11 assists, two steals and six turnovers across 40 minutes in Saturday's 126-119 overtime loss to the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Stephen Curry: Erupts for 41 points in win",
-   "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
-   "published": "Sat, 07 Nov 2026 8:47:00 PM PST",
-   "summary": "Curry popped off for 41 points (13-19 FG, 5-10 3Pt, 10-10 FT), six rebounds and six assists over 36 minutes in Saturday's 126-119 overtime win over Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13193,6 +13193,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 2.7
  }
 }
