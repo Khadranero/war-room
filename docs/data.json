@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:20:22.374590Z",
+ "updated": "2026-11-08T16:30:27.221348Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -8184,7 +8184,7 @@
    "name": "Robert Williams III",
    "pos": "C",
    "team": "POR",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.4,
@@ -11627,6 +11627,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Keyonte George: Questionable Sunday",
+   "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
+   "published": "Sun, 08 Nov 2026 8:20:00 AM PST",
+   "summary": "George (illness) has been downgraded to questionable for Sunday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Duren: To miss at least two more weeks",
    "link": "https://www.rotowire.com//basketball/player/jalen-duren-5703",
    "published": "Sun, 08 Nov 2026 8:05:00 AM PST",
@@ -11652,13 +11659,6 @@
    "link": "https://www.rotowire.com//basketball/player/jabari-smith-5643",
    "published": "Sat, 07 Nov 2026 9:26:00 PM PST",
    "summary": "Smith racked up 15 points (7-12 FG, 1-4 3Pt), nine rebounds, two assists, one block and three steals over 39 minutes during Saturday's 102-99 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Franz Wagner: Double-doubles in loss",
-   "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
-   "published": "Sat, 07 Nov 2026 8:49:00 PM PST",
-   "summary": "Wagner produced 30 points (11-22 FG, 3-7 3Pt, 5-5 FT), six rebounds, 11 assists, two steals and six turnovers across 40 minutes in Saturday's 126-119 overtime loss to the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13193,6 +13193,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.3
  }
 }
