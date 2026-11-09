@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:40:23.644849Z",
+ "updated": "2026-11-09T21:50:23.096374Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4227,7 +4227,7 @@
    {
     "name": "Luka Doncic",
     "pos": "PG",
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -4258,7 +4258,7 @@
    {
     "name": "Amen Thompson",
     "pos": "SF",
-    "slot": "SG",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4474,7 +4474,7 @@
    {
     "name": "Dylan Harper",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -4505,7 +4505,7 @@
    {
     "name": "Jaden McDaniels",
     "pos": "SF",
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -4567,7 +4567,7 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4598,7 +4598,7 @@
    {
     "name": "Tristan da Silva",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4656,6 +4656,26 @@
      "TO": 1.0,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Meleek Thomas",
+    "pos": "SG",
+    "slot": "SG",
+    "injury": "ACTIVE",
+    "team": "CLE",
+    "avg": {
+     "PTS": 12.285714285714286,
+     "REB": 2.5714285714285716,
+     "AST": 1.0,
+     "STL": 1.0,
+     "BLK": 0.14285714285714285,
+     "3PM": 2.5714285714285716,
+     "FG%": 0.45070423,
+     "FT%": 1.0,
+     "TO": 1.1428571428571428,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "AARON VENGERS": [
@@ -5106,7 +5126,7 @@
    {
     "name": "Evan Mobley",
     "pos": "PF",
-    "slot": "F",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -5198,8 +5218,8 @@
    {
     "name": "Zion Williamson",
     "pos": "PF",
-    "slot": "PF",
-    "injury": "ACTIVE",
+    "slot": "IR",
+    "injury": "OUT",
     "team": "NOP",
     "avg": {
      "PTS": 21.142857142857142,
@@ -5229,7 +5249,7 @@
    {
     "name": "RJ Barrett",
     "pos": "SF",
-    "slot": "SG",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -5291,7 +5311,7 @@
    {
     "name": "Kyshawn George",
     "pos": "SG",
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5322,7 +5342,7 @@
    {
     "name": "Dillon Brooks",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -5414,7 +5434,7 @@
    {
     "name": "Scottie Barnes",
     "pos": "SF",
-    "slot": "IR",
+    "slot": "SF",
     "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
@@ -5445,7 +5465,7 @@
    {
     "name": "Jaylen Brown",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -5994,6 +6014,12 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-09T21:49:44.791000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Meleek Thomas"
+  },
   {
    "date": "2026-11-09T21:21:55.766000",
    "team": "Wembelieve I can fly",
@@ -8779,26 +8805,6 @@
     "TO": 0.8055555555555556,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Meleek Thomas",
-   "pos": "SG",
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.285714285714286,
-    "REB": 2.5714285714285716,
-    "AST": 1.0,
-    "STL": 1.0,
-    "BLK": 0.14285714285714285,
-    "3PM": 2.5714285714285716,
-    "FG%": 0.45070423,
-    "FT%": 1.0,
-    "TO": 1.1428571428571428,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Isaiah Stewart",
@@ -11845,6 +11851,36 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Trayce Jackson-Davis",
+   "pos": "PF",
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 2.5,
+    "REB": 2.8333333333333335,
+    "AST": 0.5,
+    "STL": 0.8333333333333334,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.0,
+    "FG%": 0.66666667,
+    "FT%": 0.75,
+    "TO": 0.16666666666666666,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 6.8307692307692305,
+    "REB": 4.907692307692308,
+    "AST": 1.4,
+    "STL": 0.4,
+    "BLK": 0.8,
+    "FG%": 0.628,
+    "FT%": 0.552,
+    "TO": 0.7076923076923077,
+    "_src": "2027_projected"
+   }
   }
  ],
  "news": [
@@ -12352,6 +12388,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-09T21:49:44.791000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Meleek Thomas"
+  },
   {
    "date": "2026-11-09T21:21:55.766000",
    "team": "Wembelieve I can fly",
@@ -13722,6 +13764,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.9
  }
 }
