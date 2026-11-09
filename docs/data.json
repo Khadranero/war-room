@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:10:24.359944Z",
+ "updated": "2026-11-09T22:20:28.448582Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2197,7 +2197,7 @@
     "name": "Moussa Diabate",
     "pos": "PF",
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHA",
     "avg": {
      "PTS": 9.0,
@@ -4382,7 +4382,7 @@
     "name": "Tyler Herro",
     "pos": "SG",
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "MIL",
     "avg": {
      "PTS": 20.428571428571427,
@@ -13790,6 +13790,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 2.8
  }
 }
