@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:00:31.912353Z",
+ "updated": "2026-11-09T22:10:24.359944Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -11079,7 +11079,7 @@
    "name": "Adem Bona",
    "pos": "C",
    "team": "PHL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 2.8333333333333335,
@@ -11170,7 +11170,7 @@
    "name": "Jock Landale",
    "pos": "C",
    "team": "ATL",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -11906,6 +11906,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Josh Hart: Iffy for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Mon, 09 Nov 2026 2:04:00 PM PST",
+   "summary": "Hart is questionable for Tuesday's game against the Bucks due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Zion Williamson: Sitting out Monday",
    "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
    "published": "Mon, 09 Nov 2026 1:50:00 PM PST",
@@ -11931,13 +11938,6 @@
    "link": "https://www.rotowire.com//basketball/player/aaron-gordon-3577",
    "published": "Mon, 09 Nov 2026 11:22:00 AM PST",
    "summary": "Gordon (left calf injury management) has been upgraded to probable for Monday's game against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nikola Jokic: Upgraded to probable",
-   "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
-   "published": "Mon, 09 Nov 2026 11:21:00 AM PST",
-   "summary": "Jokic (elbow) has been upgraded to probable for Monday's game against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13790,6 +13790,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.0
+  "run_seconds": 3.2
  }
 }
