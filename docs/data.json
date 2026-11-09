@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:50:23.096374Z",
+ "updated": "2026-11-09T22:00:31.912353Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -5249,7 +5249,7 @@
    {
     "name": "RJ Barrett",
     "pos": "SF",
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -5434,7 +5434,7 @@
    {
     "name": "Scottie Barnes",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "F",
     "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
@@ -5465,7 +5465,7 @@
    {
     "name": "Jaylen Brown",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -5552,6 +5552,37 @@
      "FG%": 0.419,
      "FT%": 0.872,
      "TO": 1.3972602739726028,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Jake LaRavia",
+    "pos": "PF",
+    "slot": "SF",
+    "injury": "ACTIVE",
+    "team": "LAL",
+    "avg": {
+     "PTS": 5.888888888888889,
+     "REB": 3.7777777777777777,
+     "AST": 1.6666666666666667,
+     "STL": 1.4444444444444444,
+     "BLK": 0.8888888888888888,
+     "3PM": 1.1111111111111112,
+     "FG%": 0.51428571,
+     "FT%": 0.5,
+     "TO": 1.4444444444444444,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 9.64935064935065,
+     "REB": 4.701298701298701,
+     "AST": 2.1948051948051948,
+     "STL": 1.4025974025974026,
+     "BLK": 0.5064935064935064,
+     "3PM": 1.12987012987013,
+     "FG%": 0.458,
+     "FT%": 0.755,
+     "TO": 1.2987012987012987,
      "_src": "2027_projected"
     }
    }
@@ -6015,6 +6046,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-09T21:52:53.501000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Jake LaRavia"
+  },
+  {
    "date": "2026-11-09T21:49:44.791000",
    "team": "Real Men Eat Ass(ouad)",
    "action": "FA ADDED",
@@ -6265,12 +6302,6 @@
    "team": "Momo in Six",
    "action": "DROPPED",
    "player": "Grayson Allen"
-  },
-  {
-   "date": "2026-11-07T09:04:23.707000",
-   "team": "Wembelieve I can fly",
-   "action": "DROPPED",
-   "player": "Naji Marshall"
   }
  ],
  "schedule": {
@@ -7842,37 +7873,6 @@
     "FG%": 0.444,
     "FT%": 0.817,
     "TO": 1.8970588235294117,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Jake LaRavia",
-   "pos": "PF",
-   "team": "LAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.888888888888889,
-    "REB": 3.7777777777777777,
-    "AST": 1.6666666666666667,
-    "STL": 1.4444444444444444,
-    "BLK": 0.8888888888888888,
-    "3PM": 1.1111111111111112,
-    "FG%": 0.51428571,
-    "FT%": 0.5,
-    "TO": 1.4444444444444444,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 9.64935064935065,
-    "REB": 4.701298701298701,
-    "AST": 2.1948051948051948,
-    "STL": 1.4025974025974026,
-    "BLK": 0.5064935064935064,
-    "3PM": 1.12987012987013,
-    "FG%": 0.458,
-    "FT%": 0.755,
-    "TO": 1.2987012987012987,
     "_src": "2027_projected"
    }
   },
@@ -11881,9 +11881,36 @@
     "TO": 0.7076923076923077,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Christian Anderson",
+   "pos": "PG",
+   "team": "CHA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.8333333333333335,
+    "REB": 2.0,
+    "AST": 2.0,
+    "STL": 0.16666666666666666,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.3333333333333333,
+    "FG%": 0.34482759,
+    "FT%": 1.0,
+    "TO": 1.8333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Zion Williamson: Sitting out Monday",
+   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
+   "published": "Mon, 09 Nov 2026 1:50:00 PM PST",
+   "summary": "Williamson (rest) is out for Monday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Trey Murphy: Out Monday",
@@ -11911,13 +11938,6 @@
    "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
    "published": "Mon, 09 Nov 2026 11:21:00 AM PST",
    "summary": "Jokic (elbow) has been upgraded to probable for Monday's game against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jamal Murray: Upgraded to probable",
-   "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
-   "published": "Mon, 09 Nov 2026 11:19:00 AM PST",
-   "summary": "Murray (leg) has been upgraded to probable for Monday against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12388,6 +12408,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-09T21:52:53.501000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Jake LaRavia"
+  },
   {
    "date": "2026-11-09T21:49:44.791000",
    "team": "Real Men Eat Ass(ouad)",
@@ -13764,6 +13790,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 4.0
  }
 }
