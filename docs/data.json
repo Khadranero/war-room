@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:10:32.570522Z",
+ "updated": "2026-11-09T21:20:23.684882Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3035,7 +3035,7 @@
    {
     "name": "Trey Murphy III",
     "pos": "SF",
-    "slot": "G",
+    "slot": "IR",
     "injury": "OUT",
     "team": "NOP",
     "avg": {
@@ -4168,6 +4168,37 @@
      "FG%": 0.672,
      "FT%": 0.599,
      "TO": 1.4027777777777777,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Brayden Burries",
+    "pos": "SG",
+    "slot": "G",
+    "injury": "ACTIVE",
+    "team": "MIL",
+    "avg": {
+     "PTS": 11.428571428571429,
+     "REB": 6.285714285714286,
+     "AST": 2.4285714285714284,
+     "STL": 0.5714285714285714,
+     "BLK": 0.2857142857142857,
+     "3PM": 0.5714285714285714,
+     "FG%": 0.44615385,
+     "FT%": 0.7826087,
+     "TO": 1.2857142857142858,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 10.971830985915492,
+     "REB": 2.704225352112676,
+     "AST": 4.098591549295775,
+     "STL": 1.0985915492957747,
+     "BLK": 0.29577464788732394,
+     "3PM": 0.4225352112676056,
+     "FG%": 0.449,
+     "FT%": 0.821,
+     "TO": 2.0985915492957745,
      "_src": "2027_projected"
     }
    }
@@ -5944,6 +5975,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-09T21:20:11.092000",
+   "team": "Murray Had a Little Lamb",
+   "action": "FA ADDED",
+   "player": "Brayden Burries"
+  },
+  {
    "date": "2026-11-09T20:14:51.922000",
    "team": "Akumpo",
    "action": "DROPPED",
@@ -6218,18 +6255,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Mo Bamba"
-  },
-  {
-   "date": "2026-11-07T00:46:16.010000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Kingston Flemings"
-  },
-  {
-   "date": "2026-11-07T00:46:16.010000",
-   "team": "Murray Had a Little Lamb",
-   "action": "DROPPED",
-   "player": "Jeremiah Fears"
   }
  ],
  "schedule": {
@@ -7317,37 +7342,6 @@
     "FG%": 0.649,
     "FT%": 0.462,
     "TO": 1.5063291139240507,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Brayden Burries",
-   "pos": "SG",
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.428571428571429,
-    "REB": 6.285714285714286,
-    "AST": 2.4285714285714284,
-    "STL": 0.5714285714285714,
-    "BLK": 0.2857142857142857,
-    "3PM": 0.5714285714285714,
-    "FG%": 0.44615385,
-    "FT%": 0.7826087,
-    "TO": 1.2857142857142858,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.971830985915492,
-    "REB": 2.704225352112676,
-    "AST": 4.098591549295775,
-    "STL": 1.0985915492957747,
-    "BLK": 0.29577464788732394,
-    "3PM": 0.4225352112676056,
-    "FG%": 0.449,
-    "FT%": 0.821,
-    "TO": 2.0985915492957745,
     "_src": "2027_projected"
    }
   },
@@ -11841,6 +11835,26 @@
    "pct": null,
    "avg": {},
    "proj": {}
+  },
+  {
+   "name": "Koa Peat",
+   "pos": "PF",
+   "team": "PHO",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.6666666666666666,
+    "REB": 0.6666666666666666,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   }
  ],
  "news": [
@@ -12348,6 +12362,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-09T21:20:11.092000",
+   "team": "Murray Had a Little Lamb",
+   "action": "FA ADDED",
+   "player": "Brayden Burries"
+  },
   {
    "date": "2026-11-09T20:14:51.922000",
    "team": "Akumpo",
@@ -13706,6 +13726,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 3.4
  }
 }
