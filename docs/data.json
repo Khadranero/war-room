@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T08:20:22.424274Z",
+ "updated": "2026-11-09T08:30:26.675290Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2941,7 +2941,7 @@
    {
     "name": "Josh Giddey",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -2972,7 +2972,7 @@
    {
     "name": "Dyson Daniels",
     "pos": "SG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3003,7 +3003,7 @@
    {
     "name": "Lauri Markkanen",
     "pos": "PF",
-    "slot": "PF",
+    "slot": "IR",
     "injury": "OUT",
     "team": "UTA",
     "avg": {
@@ -3034,7 +3034,7 @@
    {
     "name": "Donovan Clingan",
     "pos": "C",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3065,7 +3065,7 @@
    {
     "name": "Trey Murphy III",
     "pos": "SF",
-    "slot": "F",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -3096,7 +3096,7 @@
    {
     "name": "Jalen Green",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -3127,7 +3127,7 @@
    {
     "name": "Coby White",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -3158,7 +3158,7 @@
    {
     "name": "AJ Dybantsa",
     "pos": "SF",
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -3189,7 +3189,7 @@
    {
     "name": "Cedric Coward",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -3220,7 +3220,7 @@
    {
     "name": "Derik Queen",
     "pos": "C",
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -3251,7 +3251,7 @@
    {
     "name": "Ajay Mitchell",
     "pos": "PG",
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -3282,7 +3282,7 @@
    {
     "name": "Payton Pritchard",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -4207,7 +4207,7 @@
    {
     "name": "Luka Doncic",
     "pos": "PG",
-    "slot": "PG",
+    "slot": "G",
     "injury": "OUT",
     "team": "LAL",
     "avg": {
@@ -4238,7 +4238,7 @@
    {
     "name": "Amen Thompson",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4269,7 +4269,7 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4300,7 +4300,7 @@
    {
     "name": "Deni Avdija",
     "pos": "SF",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -4361,7 +4361,7 @@
    {
     "name": "Tyler Herro",
     "pos": "SG",
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -4392,7 +4392,7 @@
    {
     "name": "Franz Wagner",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4423,7 +4423,7 @@
    {
     "name": "Norman Powell",
     "pos": "SG",
-    "slot": "SF",
+    "slot": "BE",
     "injury": "OUT",
     "team": "CHI",
     "avg": {
@@ -4454,7 +4454,7 @@
    {
     "name": "Dylan Harper",
     "pos": "PG",
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -4516,7 +4516,7 @@
    {
     "name": "Davion Mitchell",
     "pos": "PG",
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4547,7 +4547,7 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4578,7 +4578,7 @@
    {
     "name": "Tristan da Silva",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -4609,7 +4609,7 @@
    {
     "name": "Bobby Portis",
     "pos": "PF",
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -6202,42 +6202,6 @@
    "team": "AARON VENGERS",
    "action": "FA ADDED",
    "player": "Cam Spencer"
-  },
-  {
-   "date": "2026-11-06T01:09:34.607000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Grayson Allen"
-  },
-  {
-   "date": "2026-11-06T01:09:34.607000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Matisse Thybulle"
-  },
-  {
-   "date": "2026-11-05T19:56:29.963000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "DROPPED",
-   "player": "Brook Lopez"
-  },
-  {
-   "date": "2026-11-05T19:56:29.963000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "FA ADDED",
-   "player": "Bobby Portis"
-  },
-  {
-   "date": "2026-11-05T13:48:29.288000",
-   "team": "Murray Had a Little Lamb",
-   "action": "DROPPED",
-   "player": "Brayden Burries"
-  },
-  {
-   "date": "2026-11-05T13:48:29.288000",
-   "team": "Murray Had a Little Lamb",
-   "action": "FA ADDED",
-   "player": "Jeremiah Fears"
   }
  ],
  "schedule": {
@@ -13574,6 +13538,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 2.9
  }
 }
