@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:40:25.526579Z",
+ "updated": "2026-11-09T18:50:23.188098Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2845,33 +2845,33 @@
     }
    },
    {
-    "name": "Max Strus",
-    "pos": "SF",
-    "slot": "BE",
+    "name": "Kevin Huerter",
+    "pos": "SG",
+    "slot": "G",
     "injury": "ACTIVE",
-    "team": "LAC",
+    "team": "DET",
     "avg": {
-     "PTS": 9.0,
-     "REB": 4.333333333333333,
-     "AST": 4.333333333333333,
-     "STL": 0.6666666666666666,
-     "BLK": 0.0,
-     "3PM": 2.3333333333333335,
-     "FG%": 0.33333333,
-     "FT%": 0.66666667,
-     "TO": 0.6666666666666666,
+     "PTS": 9.714285714285714,
+     "REB": 2.0,
+     "AST": 2.2857142857142856,
+     "STL": 1.0,
+     "BLK": 1.1428571428571428,
+     "3PM": 2.0,
+     "FG%": 0.48076923,
+     "FT%": 0.57142857,
+     "TO": 0.7142857142857143,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 9.850746268656716,
-     "REB": 4.0,
-     "AST": 3.1940298507462686,
-     "STL": 0.7014925373134329,
-     "BLK": 0.29850746268656714,
-     "3PM": 2.044776119402985,
-     "FG%": 0.423,
-     "FT%": 0.798,
-     "TO": 1.1940298507462686,
+     "PTS": 10.318840579710145,
+     "REB": 3.5072463768115942,
+     "AST": 2.5942028985507246,
+     "STL": 0.8985507246376812,
+     "BLK": 0.5072463768115942,
+     "3PM": 1.5797101449275361,
+     "FG%": 0.447,
+     "FT%": 0.768,
+     "TO": 1.1014492753623188,
      "_src": "2027_projected"
     }
    }
@@ -3004,7 +3004,7 @@
    {
     "name": "Donovan Clingan",
     "pos": "C",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3277,6 +3277,37 @@
      "FG%": 0.465,
      "FT%": 0.885,
      "TO": 1.3055555555555556,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Paul Reed",
+    "pos": "C",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "DET",
+    "avg": {
+     "PTS": 12.142857142857142,
+     "REB": 6.714285714285714,
+     "AST": 2.0,
+     "STL": 1.2857142857142858,
+     "BLK": 0.8571428571428571,
+     "3PM": 0.42857142857142855,
+     "FG%": 0.54411765,
+     "FT%": 0.57142857,
+     "TO": 2.142857142857143,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 7.428571428571429,
+     "REB": 4.396825396825397,
+     "AST": 1.2063492063492063,
+     "STL": 0.9047619047619048,
+     "BLK": 0.9047619047619048,
+     "3PM": 0.19047619047619047,
+     "FG%": 0.603,
+     "FT%": 0.672,
+     "TO": 0.9047619047619048,
      "_src": "2027_projected"
     }
    }
@@ -5330,37 +5361,6 @@
     }
    },
    {
-    "name": "Devin Vassell",
-    "pos": "SG",
-    "slot": "UT",
-    "injury": "DAY_TO_DAY",
-    "team": "SAS",
-    "avg": {
-     "PTS": 13.0,
-     "REB": 3.857142857142857,
-     "AST": 3.142857142857143,
-     "STL": 1.7142857142857142,
-     "BLK": 0.42857142857142855,
-     "3PM": 1.7142857142857142,
-     "FG%": 0.41428571,
-     "FT%": 0.95454545,
-     "TO": 0.7142857142857143,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 14.304347826086957,
-     "REB": 3.5072463768115942,
-     "AST": 2.6956521739130435,
-     "STL": 0.8985507246376812,
-     "BLK": 0.4057971014492754,
-     "3PM": 2.1449275362318843,
-     "FG%": 0.451,
-     "FT%": 0.804,
-     "TO": 1.1014492753623188,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Scottie Barnes",
     "pos": "SF",
     "slot": "IR",
@@ -5943,6 +5943,30 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-09T18:46:30.296000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Devin Vassell"
+  },
+  {
+   "date": "2026-11-09T18:46:11.463000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Max Strus"
+  },
+  {
+   "date": "2026-11-09T18:46:11.463000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Kevin Huerter"
+  },
+  {
+   "date": "2026-11-09T18:40:44.477000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
   {
    "date": "2026-11-09T17:18:02.096000",
    "team": "Momo in Six",
@@ -6607,33 +6631,33 @@
    }
   },
   {
-   "name": "Paul Reed",
-   "pos": "C",
-   "team": "DET",
-   "injury": "ACTIVE",
+   "name": "Devin Vassell",
+   "pos": "SG",
+   "team": "SAS",
+   "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 12.142857142857142,
-    "REB": 6.714285714285714,
-    "AST": 2.0,
-    "STL": 1.2857142857142858,
-    "BLK": 0.8571428571428571,
-    "3PM": 0.42857142857142855,
-    "FG%": 0.54411765,
-    "FT%": 0.57142857,
-    "TO": 2.142857142857143,
+    "PTS": 13.0,
+    "REB": 3.857142857142857,
+    "AST": 3.142857142857143,
+    "STL": 1.7142857142857142,
+    "BLK": 0.42857142857142855,
+    "3PM": 1.7142857142857142,
+    "FG%": 0.41428571,
+    "FT%": 0.95454545,
+    "TO": 0.7142857142857143,
     "_src": "2027_last_15"
    },
    "proj": {
-    "PTS": 7.428571428571429,
-    "REB": 4.396825396825397,
-    "AST": 1.2063492063492063,
-    "STL": 0.9047619047619048,
-    "BLK": 0.9047619047619048,
-    "3PM": 0.19047619047619047,
-    "FG%": 0.603,
-    "FT%": 0.672,
-    "TO": 0.9047619047619048,
+    "PTS": 14.304347826086957,
+    "REB": 3.5072463768115942,
+    "AST": 2.6956521739130435,
+    "STL": 0.8985507246376812,
+    "BLK": 0.4057971014492754,
+    "3PM": 2.1449275362318843,
+    "FG%": 0.451,
+    "FT%": 0.804,
+    "TO": 1.1014492753623188,
     "_src": "2027_projected"
    }
   },
@@ -8184,7 +8208,7 @@
    "name": "Morez Johnson Jr.",
    "pos": "PF",
    "team": "DAL",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -8516,6 +8540,37 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Max Strus",
+   "pos": "SF",
+   "team": "LAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.0,
+    "REB": 4.333333333333333,
+    "AST": 4.333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 0.0,
+    "3PM": 2.3333333333333335,
+    "FG%": 0.33333333,
+    "FT%": 0.66666667,
+    "TO": 0.6666666666666666,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.850746268656716,
+    "REB": 4.0,
+    "AST": 3.1940298507462686,
+    "STL": 0.7014925373134329,
+    "BLK": 0.29850746268656714,
+    "3PM": 2.044776119402985,
+    "FG%": 0.423,
+    "FT%": 0.798,
+    "TO": 1.1940298507462686,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "Daniss Jenkins",
@@ -9054,37 +9109,6 @@
     "FG%": 0.4,
     "FT%": 0.839,
     "TO": 0.7936507936507936,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Kevin Huerter",
-   "pos": "SG",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.714285714285714,
-    "REB": 2.0,
-    "AST": 2.2857142857142856,
-    "STL": 1.0,
-    "BLK": 1.1428571428571428,
-    "3PM": 2.0,
-    "FG%": 0.48076923,
-    "FT%": 0.57142857,
-    "TO": 0.7142857142857143,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.318840579710145,
-    "REB": 3.5072463768115942,
-    "AST": 2.5942028985507246,
-    "STL": 0.8985507246376812,
-    "BLK": 0.5072463768115942,
-    "3PM": 1.5797101449275361,
-    "FG%": 0.447,
-    "FT%": 0.768,
-    "TO": 1.1014492753623188,
     "_src": "2027_projected"
    }
   },
@@ -11810,6 +11834,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Devin Vassell: Ruled out for Monday",
+   "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
+   "published": "Mon, 09 Nov 2026 10:42:00 AM PST",
+   "summary": "Vassell (groin) is out for Monday's game against the Suns, Tom Orsborn of the San Antonio Express-News reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Austin Reaves: Questionable with illness",
    "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
    "published": "Mon, 09 Nov 2026 10:10:00 AM PST",
@@ -11835,13 +11866,6 @@
    "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
    "published": "Sun, 08 Nov 2026 9:38:00 PM PST",
    "summary": "Acuff recorded 32 points (11-21 FG, 3-7 3Pt, 7-7 FT), 10 assists, five rebounds and a steal in 39 minutes during Sunday's 114-108 loss to the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zion Williamson: Perfect from field in loss",
-   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
-   "published": "Sun, 08 Nov 2026 9:26:00 PM PST",
-   "summary": "Williamson recorded 25 points (9-9 FG, 7-9 FT), four rebounds and two assists in 31 minutes during Sunday's 139-123 loss to the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12312,6 +12336,30 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-09T18:46:30.296000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Devin Vassell"
+  },
+  {
+   "date": "2026-11-09T18:46:11.463000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Max Strus"
+  },
+  {
+   "date": "2026-11-09T18:46:11.463000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Kevin Huerter"
+  },
+  {
+   "date": "2026-11-09T18:40:44.477000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
   {
    "date": "2026-11-09T17:18:02.096000",
    "team": "Momo in Six",
@@ -13634,6 +13682,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.8
  }
 }
