@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T23:10:25.063018Z",
+ "updated": "2026-11-09T23:20:22.681892Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3896,7 +3896,7 @@
    {
     "name": "Brandon Miller",
     "pos": "SF",
-    "slot": "BE",
+    "slot": "SG",
     "injury": "OUT",
     "team": "CHA",
     "avg": {
@@ -5467,7 +5467,7 @@
     "name": "Jarrett Allen",
     "pos": "C",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
      "PTS": 11.833333333333334,
@@ -6364,18 +6364,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Aday Mara"
-  },
-  {
-   "date": "2026-11-07T19:09:22.991000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Meleek Thomas"
-  },
-  {
-   "date": "2026-11-07T19:09:22.991000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Grayson Allen"
   }
  ],
  "schedule": {
@@ -11559,16 +11547,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -11980,6 +11968,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jarrett Allen: Cleared to play",
+   "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
+   "published": "Mon, 09 Nov 2026 3:14:00 PM PST",
+   "summary": "Allen (knee) will play Monday night against the Hornets, Serena Winters of FanDuel Sports Network Ohio reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jalen Suggs: Remains out for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
+   "published": "Mon, 09 Nov 2026 3:11:00 PM PST",
+   "summary": "Suggs (knee) has been ruled out for Tuesday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Giannis Antetokounmpo: Tagged probable for Tuesday",
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Mon, 09 Nov 2026 3:06:00 PM PST",
@@ -11998,20 +12000,6 @@
    "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
    "published": "Mon, 09 Nov 2026 3:03:00 PM PST",
    "summary": "Davis (ankle) will play Monday against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Immanuel Quickley: Ruled out Monday",
-   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
-   "published": "Mon, 09 Nov 2026 2:54:00 PM PST",
-   "summary": "Quickley (hamstring) has been ruled out for Monday's game against Memphis, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Out vs. Memphis",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Mon, 09 Nov 2026 2:51:00 PM PST",
-   "summary": "Barnes (groin) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
