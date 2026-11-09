@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:50:26.609984Z",
+ "updated": "2026-11-09T23:00:35.596832Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -70,7 +70,7 @@
    "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_A_2.svg"
   },
   {
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -128,7 +128,7 @@
    "score": 48
   },
   {
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "score": 42
   },
   {
@@ -164,7 +164,7 @@
     "rank": 5
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 1925.0,
     "rank": 6
    },
@@ -236,7 +236,7 @@
     "rank": 9
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 620.0,
     "rank": 10
    }
@@ -263,7 +263,7 @@
     "rank": 4
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 436.0,
     "rank": 5
    },
@@ -335,7 +335,7 @@
     "rank": 8
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 118.0,
     "rank": 9
    },
@@ -352,7 +352,7 @@
     "rank": 1
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 95.0,
     "rank": 2
    },
@@ -419,7 +419,7 @@
     "rank": 4
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 209.0,
     "rank": 5
    },
@@ -491,7 +491,7 @@
     "rank": 8
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 1.355,
     "rank": 9
    },
@@ -518,7 +518,7 @@
     "rank": 3
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 2.461,
     "rank": 4
    },
@@ -585,7 +585,7 @@
     "rank": 6
    },
    {
-    "team": "Mo Trades Moe Wins",
+    "team": "KhadraCadabra",
     "value": 258.0,
     "rank": 7
    },
@@ -789,7 +789,7 @@
   },
   {
    "week": 1,
-   "home": "Mo Trades Moe Wins",
+   "home": "KhadraCadabra",
    "away": "Akumpo",
    "home_score": 2,
    "away_score": 7,
@@ -1014,7 +1014,7 @@
   },
   {
    "week": 2,
-   "home": "Mo Trades Moe Wins",
+   "home": "KhadraCadabra",
    "away": "Crackheads",
    "home_score": 7,
    "away_score": 2,
@@ -1195,7 +1195,7 @@
   {
    "week": 3,
    "home": "Real Men Eat Ass(ouad)",
-   "away": "Mo Trades Moe Wins",
+   "away": "KhadraCadabra",
    "home_score": 5,
    "away_score": 4,
    "cats": {
@@ -1374,7 +1374,7 @@
   },
   {
    "week": 4,
-   "home": "Mo Trades Moe Wins",
+   "home": "KhadraCadabra",
    "away": "Pasta Warriors",
    "home_score": 0,
    "away_score": 0,
@@ -2134,8 +2134,8 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
-    "slot": "G",
-    "injury": "DAY_TO_DAY",
+    "slot": "BE",
+    "injury": "OUT",
     "team": "TOR",
     "avg": {
      "PTS": 17.333333333333332,
@@ -2405,6 +2405,37 @@
      "FG%": 0.479,
      "FT%": 0.883,
      "TO": 2.2028985507246377,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Jamal Shead",
+    "pos": "PG",
+    "slot": "G",
+    "injury": "ACTIVE",
+    "team": "TOR",
+    "avg": {
+     "PTS": 6.714285714285714,
+     "REB": 2.142857142857143,
+     "AST": 7.0,
+     "STL": 1.7142857142857142,
+     "BLK": 0.2857142857142857,
+     "3PM": 0.7142857142857143,
+     "FG%": 0.38636364,
+     "FT%": 0.88888889,
+     "TO": 1.8571428571428572,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 7.074074074074074,
+     "REB": 1.8024691358024691,
+     "AST": 5.506172839506172,
+     "STL": 1.0,
+     "BLK": 0.19753086419753085,
+     "3PM": 1.0617283950617284,
+     "FG%": 0.373,
+     "FT%": 0.783,
+     "TO": 1.5061728395061729,
      "_src": "2027_projected"
     }
    }
@@ -3799,7 +3830,7 @@
     }
    }
   ],
-  "Mo Trades Moe Wins": [
+  "KhadraCadabra": [
    {
     "name": "Nikola Jokic",
     "pos": "C",
@@ -4219,6 +4250,37 @@
      "FG%": 0.449,
      "FT%": 0.821,
      "TO": 2.0985915492957745,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Isaiah Collier",
+    "pos": "PG",
+    "slot": "BE",
+    "injury": "ACTIVE",
+    "team": "UTA",
+    "avg": {
+     "PTS": 5.625,
+     "REB": 3.625,
+     "AST": 3.875,
+     "STL": 0.25,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.43589744,
+     "FT%": 0.55,
+     "TO": 2.0,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 9.850746268656716,
+     "REB": 2.4029850746268657,
+     "AST": 6.1940298507462686,
+     "STL": 1.0,
+     "BLK": 0.29850746268656714,
+     "3PM": 0.417910447761194,
+     "FG%": 0.483,
+     "FT%": 0.718,
+     "TO": 2.298507462686567,
      "_src": "2027_projected"
     }
    }
@@ -5094,7 +5156,7 @@
     "name": "Collin Murray-Boyles",
     "pos": "PF",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "TOR",
     "avg": {
      "PTS": 11.714285714285714,
@@ -6046,6 +6108,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-09T22:53:01.189000",
+   "team": "KhadraCadabra",
+   "action": "FA ADDED",
+   "player": "Isaiah Collier"
+  },
+  {
+   "date": "2026-11-09T22:50:47.758000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Jamal Shead"
+  },
+  {
    "date": "2026-11-09T21:52:53.501000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -6065,7 +6139,7 @@
   },
   {
    "date": "2026-11-09T21:20:11.092000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "FA ADDED",
    "player": "Brayden Burries"
   },
@@ -6125,13 +6199,13 @@
   },
   {
    "date": "2026-11-09T17:18:02.096000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "TRADED",
    "player": "Jamal Murray"
   },
   {
    "date": "2026-11-09T17:18:02.096000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "TRADED",
    "player": "Jrue Holiday"
   },
@@ -6149,25 +6223,25 @@
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "TRADED",
    "player": "Matas Buzelis"
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "TRADED",
    "player": "Chet Holmgren"
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "TRADED",
    "player": "Jonathan Kuminga"
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "TRADED",
    "player": "Kevin Durant"
   },
@@ -6179,13 +6253,13 @@
   },
   {
    "date": "2026-11-09T13:31:13.388000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "FA ADDED",
    "player": "Matisse Thybulle"
   },
   {
    "date": "2026-11-09T13:31:13.388000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "DROPPED",
    "player": "Reed Sheppard"
   },
@@ -6215,7 +6289,7 @@
   },
   {
    "date": "2026-11-08T14:22:28.543000",
-   "team": "Mo Trades Moe Wins",
+   "team": "KhadraCadabra",
    "action": "DROPPED",
    "player": "Kingston Flemings"
   },
@@ -6310,7 +6384,7 @@
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors) 5.0 - 4.0 Team(Rubio Bzeit ))",
    "Matchup(Team(Team Batrouni) 4.5 - 4.5 Team(Rubio Bzeit ))",
-   "Matchup(Team(Rubio Bzeit ), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Rubio Bzeit ), Team(KhadraCadabra))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Rubio Bzeit ))",
@@ -6319,7 +6393,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Team Batrouni))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Rubio Bzeit ))",
+   "Matchup(Team(KhadraCadabra), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Wembelieve I can fly))"
@@ -6332,7 +6406,7 @@
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Momo in Six))",
-   "Matchup(Team(Momo in Six), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Momo in Six), Team(KhadraCadabra))",
    "Matchup(Team(AARON VENGERS), Team(Momo in Six))",
    "Matchup(Team(Team Batrouni), Team(Momo in Six))",
    "Matchup(Team(Momo in Six), Team(Wembelieve I can fly))",
@@ -6341,7 +6415,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Momo in Six))",
    "Matchup(Team(Pasta Warriors), Team(Momo in Six))",
    "Matchup(Team(Momo in Six), Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Momo in Six))"
+   "Matchup(Team(KhadraCadabra), Team(Momo in Six))"
   ],
   "Team Batrouni": [
    "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Team Batrouni))",
@@ -6349,7 +6423,7 @@
    "Matchup(Team(Wembelieve I can fly) 6.0 - 3.0 Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni) 4.5 - 4.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Akumpo), Team(Team Batrouni))",
-   "Matchup(Team(Team Batrouni), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Team Batrouni), Team(KhadraCadabra))",
    "Matchup(Team(Crackheads), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(AARON VENGERS))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Team Batrouni))",
@@ -6358,7 +6432,7 @@
    "Matchup(Team(Team Batrouni), Team(Wembelieve I can fly))",
    "Matchup(Team(Rubio Bzeit ), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(Akumpo))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Team Batrouni))",
+   "Matchup(Team(KhadraCadabra), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(Crackheads))",
    "Matchup(Team(AARON VENGERS), Team(Team Batrouni))"
   ],
@@ -6371,7 +6445,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Wembelieve I can fly))",
    "Matchup(Team(Wembelieve I can fly), Team(Pasta Warriors))",
    "Matchup(Team(Wembelieve I can fly), Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Wembelieve I can fly))",
+   "Matchup(Team(KhadraCadabra), Team(Wembelieve I can fly))",
    "Matchup(Team(Wembelieve I can fly), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Wembelieve I can fly))",
    "Matchup(Team(Team Batrouni), Team(Wembelieve I can fly))",
@@ -6382,7 +6456,7 @@
    "Matchup(Team(Rubio Bzeit ), Team(Wembelieve I can fly))"
   ],
   "Akumpo": [
-   "Matchup(Team(Mo Trades Moe Wins) 2.0 - 7.0 Team(Akumpo))",
+   "Matchup(Team(KhadraCadabra) 2.0 - 7.0 Team(Akumpo))",
    "Matchup(Team(Akumpo) 5.0 - 4.0 Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six) 3.0 - 6.0 Team(Akumpo))",
    "Matchup(Team(Akumpo) 4.5 - 4.5 Team(Wembelieve I can fly))",
@@ -6391,7 +6465,7 @@
    "Matchup(Team(Akumpo), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(Rubio Bzeit ))",
-   "Matchup(Team(Akumpo), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Akumpo), Team(KhadraCadabra))",
    "Matchup(Team(AARON VENGERS), Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Akumpo))",
@@ -6400,29 +6474,29 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(Pasta Warriors))"
   ],
-  "Mo Trades Moe Wins": [
-   "Matchup(Team(Mo Trades Moe Wins) 2.0 - 7.0 Team(Akumpo))",
-   "Matchup(Team(Mo Trades Moe Wins) 7.0 - 2.0 Team(Crackheads))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Mo Trades Moe Wins) 4.5 - 4.5 Team(Pasta Warriors))",
-   "Matchup(Team(Rubio Bzeit ), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Team Batrouni), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(AARON VENGERS))",
-   "Matchup(Team(Momo in Six), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Wembelieve I can fly))",
-   "Matchup(Team(Akumpo), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Crackheads), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Pasta Warriors), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Team Batrouni))",
-   "Matchup(Team(AARON VENGERS), Team(Mo Trades Moe Wins))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Momo in Six))"
+  "KhadraCadabra": [
+   "Matchup(Team(KhadraCadabra) 2.0 - 7.0 Team(Akumpo))",
+   "Matchup(Team(KhadraCadabra) 7.0 - 2.0 Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(KhadraCadabra))",
+   "Matchup(Team(KhadraCadabra) 4.5 - 4.5 Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(KhadraCadabra))",
+   "Matchup(Team(Team Batrouni), Team(KhadraCadabra))",
+   "Matchup(Team(KhadraCadabra), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(KhadraCadabra))",
+   "Matchup(Team(KhadraCadabra), Team(Wembelieve I can fly))",
+   "Matchup(Team(Akumpo), Team(KhadraCadabra))",
+   "Matchup(Team(Crackheads), Team(KhadraCadabra))",
+   "Matchup(Team(KhadraCadabra), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(KhadraCadabra))",
+   "Matchup(Team(KhadraCadabra), Team(Rubio Bzeit ))",
+   "Matchup(Team(KhadraCadabra), Team(Team Batrouni))",
+   "Matchup(Team(AARON VENGERS), Team(KhadraCadabra))",
+   "Matchup(Team(KhadraCadabra), Team(Momo in Six))"
   ],
   "Real Men Eat Ass(ouad)": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(KhadraCadabra))",
    "Matchup(Team(AARON VENGERS) 4.5 - 4.5 Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Wembelieve I can fly))",
@@ -6431,7 +6505,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Team Batrouni))",
    "Matchup(Team(Pasta Warriors), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(KhadraCadabra), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AARON VENGERS))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Real Men Eat Ass(ouad)))",
@@ -6445,7 +6519,7 @@
    "Matchup(Team(AARON VENGERS) 4.5 - 4.5 Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins), Team(AARON VENGERS))",
+   "Matchup(Team(KhadraCadabra), Team(AARON VENGERS))",
    "Matchup(Team(Team Batrouni), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(AARON VENGERS))",
@@ -6454,14 +6528,14 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(AARON VENGERS))",
-   "Matchup(Team(AARON VENGERS), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(AARON VENGERS), Team(KhadraCadabra))",
    "Matchup(Team(AARON VENGERS), Team(Team Batrouni))"
   ],
   "Pasta Warriors": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Team Batrouni) 2.0 - 7.0 Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors) 5.0 - 4.0 Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins) 4.5 - 4.5 Team(Pasta Warriors))",
+   "Matchup(Team(KhadraCadabra) 4.5 - 4.5 Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
    "Matchup(Team(Wembelieve I can fly), Team(Pasta Warriors))",
@@ -6470,7 +6544,7 @@
    "Matchup(Team(Pasta Warriors), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(Team Batrouni))",
    "Matchup(Team(Rubio Bzeit ), Team(Pasta Warriors))",
-   "Matchup(Team(Pasta Warriors), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Pasta Warriors), Team(KhadraCadabra))",
    "Matchup(Team(AARON VENGERS), Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors), Team(Momo in Six))",
    "Matchup(Team(Pasta Warriors), Team(Wembelieve I can fly))",
@@ -6478,7 +6552,7 @@
   ],
   "Crackheads": [
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Rubio Bzeit ))",
-   "Matchup(Team(Mo Trades Moe Wins) 7.0 - 2.0 Team(Crackheads))",
+   "Matchup(Team(KhadraCadabra) 7.0 - 2.0 Team(Crackheads))",
    "Matchup(Team(AARON VENGERS) 4.0 - 5.0 Team(Crackheads))",
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Crackheads))",
@@ -6487,7 +6561,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Crackheads))",
    "Matchup(Team(Crackheads), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Crackheads))",
-   "Matchup(Team(Crackheads), Team(Mo Trades Moe Wins))",
+   "Matchup(Team(Crackheads), Team(KhadraCadabra))",
    "Matchup(Team(Crackheads), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Crackheads))",
    "Matchup(Team(Crackheads), Team(Wembelieve I can fly))",
@@ -8289,37 +8363,6 @@
    }
   },
   {
-   "name": "Jamal Shead",
-   "pos": "PG",
-   "team": "TOR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.714285714285714,
-    "REB": 2.142857142857143,
-    "AST": 7.0,
-    "STL": 1.7142857142857142,
-    "BLK": 0.2857142857142857,
-    "3PM": 0.7142857142857143,
-    "FG%": 0.38636364,
-    "FT%": 0.88888889,
-    "TO": 1.8571428571428572,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.074074074074074,
-    "REB": 1.8024691358024691,
-    "AST": 5.506172839506172,
-    "STL": 1.0,
-    "BLK": 0.19753086419753085,
-    "3PM": 1.0617283950617284,
-    "FG%": 0.373,
-    "FT%": 0.783,
-    "TO": 1.5061728395061729,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Mark Williams",
    "pos": "C",
    "team": "PHO",
@@ -9029,37 +9072,6 @@
     "FG%": 0.472,
     "FT%": 0.772,
     "TO": 1.5070422535211268,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Isaiah Collier",
-   "pos": "PG",
-   "team": "UTA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.625,
-    "REB": 3.625,
-    "AST": 3.875,
-    "STL": 0.25,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.43589744,
-    "FT%": 0.55,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 9.850746268656716,
-    "REB": 2.4029850746268657,
-    "AST": 6.1940298507462686,
-    "STL": 1.0,
-    "BLK": 0.29850746268656714,
-    "3PM": 0.417910447761194,
-    "FG%": 0.483,
-    "FT%": 0.718,
-    "TO": 2.298507462686567,
     "_src": "2027_projected"
    }
   },
@@ -11901,9 +11913,85 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Kevon Looney",
+   "pos": "C",
+   "team": "LAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.6666666666666666,
+    "REB": 0.6666666666666666,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 4.230769230769231,
+    "REB": 5.8,
+    "AST": 1.7076923076923076,
+    "STL": 0.5076923076923077,
+    "BLK": 0.4,
+    "3PM": 0.015384615384615385,
+    "FG%": 0.534,
+    "FT%": 0.621,
+    "TO": 0.6,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Cody Williams",
+   "pos": "SG",
+   "team": "MIN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 0.0,
+    "REB": 0.25,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.921875,
+    "REB": 2.703125,
+    "AST": 1.90625,
+    "STL": 0.703125,
+    "BLK": 0.40625,
+    "3PM": 0.421875,
+    "FG%": 0.456,
+    "FT%": 0.707,
+    "TO": 1.0,
+    "_src": "2027_projected"
+   }
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Immanuel Quickley: Ruled out Monday",
+   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
+   "published": "Mon, 09 Nov 2026 2:54:00 PM PST",
+   "summary": "Quickley (hamstring) has been ruled out for Monday's game against Memphis, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Scottie Barnes: Out vs. Memphis",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Mon, 09 Nov 2026 2:51:00 PM PST",
+   "summary": "Barnes (groin) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Austin Reaves: Won't play Monday",
@@ -11924,20 +12012,6 @@
    "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
    "published": "Mon, 09 Nov 2026 2:16:00 PM PST",
    "summary": "Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Iffy for Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Mon, 09 Nov 2026 2:04:00 PM PST",
-   "summary": "Hart is questionable for Tuesday's game against the Bucks due to right ankle soreness.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zion Williamson: Sitting out Monday",
-   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
-   "published": "Mon, 09 Nov 2026 1:50:00 PM PST",
-   "summary": "Williamson (rest) is out for Monday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12409,6 +12483,18 @@
  },
  "log": [
   {
+   "date": "2026-11-09T22:53:01.189000",
+   "team": "KhadraCadabra",
+   "action": "FA ADDED",
+   "player": "Isaiah Collier"
+  },
+  {
+   "date": "2026-11-09T22:50:47.758000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Jamal Shead"
+  },
+  {
    "date": "2026-11-09T21:52:53.501000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -12435,6 +12521,12 @@
   {
    "date": "2026-11-09T21:20:11.092000",
    "team": "Mo Trades Moe Wins",
+   "action": "FA ADDED",
+   "player": "Brayden Burries"
+  },
+  {
+   "date": "2026-11-09T21:20:11.092000",
+   "team": "KhadraCadabra",
    "action": "FA ADDED",
    "player": "Brayden Burries"
   },
@@ -12517,6 +12609,18 @@
    "player": "Jrue Holiday"
   },
   {
+   "date": "2026-11-09T17:18:02.096000",
+   "team": "KhadraCadabra",
+   "action": "TRADED",
+   "player": "Jamal Murray"
+  },
+  {
+   "date": "2026-11-09T17:18:02.096000",
+   "team": "KhadraCadabra",
+   "action": "TRADED",
+   "player": "Jrue Holiday"
+  },
+  {
    "date": "2026-11-09T14:20:44.624000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -12583,6 +12687,30 @@
    "player": "Kevin Durant"
   },
   {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "KhadraCadabra",
+   "action": "TRADED",
+   "player": "Matas Buzelis"
+  },
+  {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "KhadraCadabra",
+   "action": "TRADED",
+   "player": "Chet Holmgren"
+  },
+  {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "KhadraCadabra",
+   "action": "TRADED",
+   "player": "Jonathan Kuminga"
+  },
+  {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "KhadraCadabra",
+   "action": "TRADED",
+   "player": "Kevin Durant"
+  },
+  {
    "date": "2026-11-09T13:31:13.388000",
    "team": "Murray Had a Little Lamb",
    "action": "FA ADDED",
@@ -12603,6 +12731,18 @@
   {
    "date": "2026-11-09T13:31:13.388000",
    "team": "Mo Trades Moe Wins",
+   "action": "DROPPED",
+   "player": "Reed Sheppard"
+  },
+  {
+   "date": "2026-11-09T13:31:13.388000",
+   "team": "KhadraCadabra",
+   "action": "FA ADDED",
+   "player": "Matisse Thybulle"
+  },
+  {
+   "date": "2026-11-09T13:31:13.388000",
+   "team": "KhadraCadabra",
    "action": "DROPPED",
    "player": "Reed Sheppard"
   },
@@ -12639,6 +12779,12 @@
   {
    "date": "2026-11-08T14:22:28.543000",
    "team": "Mo Trades Moe Wins",
+   "action": "DROPPED",
+   "player": "Kingston Flemings"
+  },
+  {
+   "date": "2026-11-08T14:22:28.543000",
+   "team": "KhadraCadabra",
    "action": "DROPPED",
    "player": "Kingston Flemings"
   },
@@ -13850,6 +13996,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 5.4
+  "run_seconds": 3.7
  }
 }
