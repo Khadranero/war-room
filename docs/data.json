@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T05:10:22.660928Z",
+ "updated": "2026-11-09T05:20:23.015499Z",
  "week": 3,
  "cats": [
   "PTS",
@@ -1726,16 +1726,16 @@
     "injury": "OUT",
     "team": "NOP",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.5,
-     "AST": 2.5,
-     "STL": 1.0,
-     "BLK": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.88888889,
-     "FT%": 0.75,
-     "TO": 0.5,
-     "_src": "2027_last_30"
+     "FG%": 1.0,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 7.537313432835821,
@@ -2315,16 +2315,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3187,16 +3187,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -4110,16 +4110,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -11627,6 +11627,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ayo Dosunmu: Scores 26 in win",
+   "link": "https://www.rotowire.com//basketball/player/ayo-dosunmu-5337",
+   "published": "Sun, 08 Nov 2026 9:11:00 PM PST",
+   "summary": "Dosunmu logged 26 points (7-13 FG, 4-5 3Pt, 8-8 FT), four rebounds, two steals and an assist in 29 minutes during Sunday's 115-100 win over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Austin Reaves: Drops 43 in win",
    "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
    "published": "Sun, 08 Nov 2026 8:44:00 PM PST",
@@ -11652,13 +11659,6 @@
    "link": "https://www.rotowire.com//basketball/player/tobias-harris-3211",
    "published": "Sun, 08 Nov 2026 4:27:00 PM PST",
    "summary": "Harris (calf) is listed as out for Monday's game against Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Mitchell Robinson: Cleared to play Sunday",
-   "link": "https://www.rotowire.com//basketball/player/mitchell-robinson-4426",
-   "published": "Sun, 08 Nov 2026 4:22:00 PM PST",
-   "summary": "Robinson (illness) is available for Sunday's game against Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13325,6 +13325,6 @@
   "picked_total": 10870.0,
   "direct_total": 10870.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 4.5
  }
 }
