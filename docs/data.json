@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T23:00:35.596832Z",
+ "updated": "2026-11-09T23:10:25.063018Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -75,7 +75,7 @@
    "losses": 2,
    "ties": 0,
    "rank": 8,
-   "logo": "https://g.espncdn.com/lm-static/logo-packs/fba/DreamTeam-ESPN/dreamTeam-11.svg"
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_cookie.svg"
   },
   {
    "team": "Wembelieve I can fly",
@@ -1951,16 +1951,16 @@
     "injury": "OUT",
     "team": "NOP",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.5,
-     "AST": 2.5,
-     "STL": 1.0,
-     "BLK": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.88888889,
-     "FT%": 0.75,
-     "TO": 0.5,
-     "_src": "2027_last_30"
+     "FG%": 1.0,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 7.537313432835821,
@@ -2541,16 +2541,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3464,16 +3464,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -4165,7 +4165,7 @@
     "name": "Desmond Bane",
     "pos": "SG",
     "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
      "PTS": 19.5,
@@ -4417,16 +4417,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -4807,7 +4807,7 @@
     "name": "Anthony Davis",
     "pos": "C",
     "slot": "PF",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
      "PTS": 25.0,
@@ -5654,7 +5654,7 @@
     "name": "Giannis Antetokounmpo",
     "pos": "PF",
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "MIA",
     "avg": {
      "PTS": 27.142857142857142,
@@ -8335,7 +8335,7 @@
    "name": "Morez Johnson Jr.",
    "pos": "PF",
    "team": "DAL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -8599,7 +8599,7 @@
    "name": "Bilal Coulibaly",
    "pos": "SF",
    "team": "WAS",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.142857142857143,
@@ -11559,16 +11559,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -11980,6 +11980,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Giannis Antetokounmpo: Tagged probable for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
+   "published": "Mon, 09 Nov 2026 3:06:00 PM PST",
+   "summary": "Antetokounmpo is probable for Tuesday's game against the Jazz due to a right wrist sprain.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Desmond Bane: Cleared from injury report",
+   "link": "https://www.rotowire.com//basketball/player/desmond-bane-5159",
+   "published": "Mon, 09 Nov 2026 3:06:00 PM PST",
+   "summary": "Bane (illness) is off the injury report for Tuesday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Anthony Davis: Available Monday",
+   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
+   "published": "Mon, 09 Nov 2026 3:03:00 PM PST",
+   "summary": "Davis (ankle) will play Monday against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Immanuel Quickley: Ruled out Monday",
    "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
    "published": "Mon, 09 Nov 2026 2:54:00 PM PST",
@@ -11991,27 +12012,6 @@
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Mon, 09 Nov 2026 2:51:00 PM PST",
    "summary": "Barnes (groin) is out for Monday's game against the Grizzlies, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Austin Reaves: Won't play Monday",
-   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
-   "published": "Mon, 09 Nov 2026 2:34:00 PM PST",
-   "summary": "Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyler Herro: Iffy for Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/tyler-herro-4780",
-   "published": "Mon, 09 Nov 2026 2:21:00 PM PST",
-   "summary": "Herro (contusion) is listed as questionable for Tuesday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Moussa Diabate: Won't go Monday",
-   "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
-   "published": "Mon, 09 Nov 2026 2:16:00 PM PST",
-   "summary": "Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13996,6 +13996,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.0
  }
 }
