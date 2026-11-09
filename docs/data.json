@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:50:23.188098Z",
+ "updated": "2026-11-09T19:00:33.422658Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -8474,7 +8474,7 @@
    "name": "Bilal Coulibaly",
    "pos": "SF",
    "team": "WAS",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.142857142857143,
@@ -11834,6 +11834,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Bilal Coulibaly: Iffy for Monday",
+   "link": "https://www.rotowire.com//basketball/player/bilal-coulibaly-5945",
+   "published": "Mon, 09 Nov 2026 10:53:00 AM PST",
+   "summary": "Coulibaly (hand) is listed as questionable for Monday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Devin Vassell: Ruled out for Monday",
    "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
    "published": "Mon, 09 Nov 2026 10:42:00 AM PST",
@@ -11859,13 +11866,6 @@
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Mon, 09 Nov 2026 7:27:00 AM PST",
    "summary": "Antetokounmpo posted 29 points (14-23 FG, 0-1 3Pt, 1-7 FT), 14 rebounds, three assists, two blocks and two steals over 34 minutes during Sunday's 114-108 victory over the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Darius Acuff: Strong double-double in loss",
-   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
-   "published": "Sun, 08 Nov 2026 9:38:00 PM PST",
-   "summary": "Acuff recorded 32 points (11-21 FG, 3-7 3Pt, 7-7 FT), 10 assists, five rebounds and a steal in 39 minutes during Sunday's 114-108 loss to the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13682,6 +13682,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 3.3
  }
 }
