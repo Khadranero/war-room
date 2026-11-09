@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:30:31.975952Z",
+ "updated": "2026-11-09T22:40:23.345875Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2041,8 +2041,8 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
-    "slot": "SG",
-    "injury": "DAY_TO_DAY",
+    "slot": "BE",
+    "injury": "OUT",
     "team": "LAL",
     "avg": {
      "PTS": 25.22222222222222,
@@ -2318,7 +2318,7 @@
    {
     "name": "Jeremiah Fears",
     "pos": "SG",
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -11906,6 +11906,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Austin Reaves: Won't play Monday",
+   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
+   "published": "Mon, 09 Nov 2026 2:34:00 PM PST",
+   "summary": "Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Tyler Herro: Iffy for Tuesday",
    "link": "https://www.rotowire.com//basketball/player/tyler-herro-4780",
    "published": "Mon, 09 Nov 2026 2:21:00 PM PST",
@@ -11931,13 +11938,6 @@
    "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
    "published": "Mon, 09 Nov 2026 1:50:00 PM PST",
    "summary": "Williamson (rest) is out for Monday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Out Monday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Mon, 09 Nov 2026 12:50:00 PM PST",
-   "summary": "Murphy (knees) has been ruled out for Monday's game against Golden State.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13790,6 +13790,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 2.4
  }
 }
