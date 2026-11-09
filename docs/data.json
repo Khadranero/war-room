@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:10:27.259701Z",
+ "updated": "2026-11-09T20:20:25.116706Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3624,37 +3624,6 @@
     }
    },
    {
-    "name": "Precious Achiuwa",
-    "pos": "PF",
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "SAC",
-    "avg": {
-     "PTS": 9.375,
-     "REB": 7.0,
-     "AST": 1.125,
-     "STL": 1.125,
-     "BLK": 1.5,
-     "3PM": 0.25,
-     "FG%": 0.50746269,
-     "FT%": 0.3125,
-     "TO": 1.375,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 9.943661971830986,
-     "REB": 6.802816901408451,
-     "AST": 1.3943661971830985,
-     "STL": 0.9014084507042254,
-     "BLK": 0.704225352112676,
-     "3PM": 0.36619718309859156,
-     "FG%": 0.525,
-     "FT%": 0.56,
-     "TO": 0.9014084507042254,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Ace Bailey",
     "pos": "SF",
     "slot": "F",
@@ -3688,7 +3657,7 @@
    {
     "name": "Jalen Brunson",
     "pos": "PG",
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -3775,6 +3744,37 @@
      "FG%": 0.399,
      "FT%": 0.814,
      "TO": 1.0,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Grayson Allen",
+    "pos": "SG",
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "CHA",
+    "avg": {
+     "PTS": 12.714285714285714,
+     "REB": 2.7142857142857144,
+     "AST": 2.142857142857143,
+     "STL": 0.7142857142857143,
+     "BLK": 0.5714285714285714,
+     "3PM": 2.857142857142857,
+     "FG%": 0.40983607,
+     "FT%": 0.95,
+     "TO": 2.142857142857143,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 14.047619047619047,
+     "REB": 2.9047619047619047,
+     "AST": 3.2063492063492065,
+     "STL": 1.0952380952380953,
+     "BLK": 0.30158730158730157,
+     "3PM": 2.7301587301587302,
+     "FG%": 0.413,
+     "FT%": 0.854,
+     "TO": 1.3968253968253967,
      "_src": "2027_projected"
     }
    }
@@ -5944,6 +5944,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-09T20:14:51.922000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Precious Achiuwa"
+  },
+  {
+   "date": "2026-11-09T20:14:51.922000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Grayson Allen"
+  },
+  {
    "date": "2026-11-09T18:46:30.296000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -6949,6 +6961,37 @@
    }
   },
   {
+   "name": "Precious Achiuwa",
+   "pos": "PF",
+   "team": "SAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.375,
+    "REB": 7.0,
+    "AST": 1.125,
+    "STL": 1.125,
+    "BLK": 1.5,
+    "3PM": 0.25,
+    "FG%": 0.50746269,
+    "FT%": 0.3125,
+    "TO": 1.375,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.943661971830986,
+    "REB": 6.802816901408451,
+    "AST": 1.3943661971830985,
+    "STL": 0.9014084507042254,
+    "BLK": 0.704225352112676,
+    "3PM": 0.36619718309859156,
+    "FG%": 0.525,
+    "FT%": 0.56,
+    "TO": 0.9014084507042254,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Brook Lopez",
    "pos": "C",
    "team": "LAC",
@@ -7091,37 +7134,6 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Grayson Allen",
-   "pos": "SG",
-   "team": "CHA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.714285714285714,
-    "REB": 2.7142857142857144,
-    "AST": 2.142857142857143,
-    "STL": 0.7142857142857143,
-    "BLK": 0.5714285714285714,
-    "3PM": 2.857142857142857,
-    "FG%": 0.40983607,
-    "FT%": 0.95,
-    "TO": 2.142857142857143,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.047619047619047,
-    "REB": 2.9047619047619047,
-    "AST": 3.2063492063492065,
-    "STL": 1.0952380952380953,
-    "BLK": 0.30158730158730157,
-    "3PM": 2.7301587301587302,
-    "FG%": 0.413,
-    "FT%": 0.854,
-    "TO": 1.3968253968253967,
-    "_src": "2027_projected"
-   }
   },
   {
    "name": "Day'Ron Sharpe",
@@ -11837,7 +11849,7 @@
    "title": "Cameron Johnson: Upgraded to probable",
    "link": "https://www.rotowire.com//basketball/player/cameron-johnson-4916",
    "published": "Mon, 09 Nov 2026 11:23:00 AM PST",
-   "summary": "Johnson (ankle) is probable for Monday against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
+   "summary": "Johnson (ankle) has been upgraded to probable for Monday against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
@@ -11851,7 +11863,7 @@
    "title": "Nikola Jokic: Upgraded to probable",
    "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
    "published": "Mon, 09 Nov 2026 11:21:00 AM PST",
-   "summary": "Jokic (right elbow sprain) is probable for Monday's game against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
+   "summary": "Jokic (elbow) has been upgraded to probable for Monday's game against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
@@ -11862,7 +11874,7 @@
   },
   {
    "source": "RotoWire",
-   "title": "Bilal Coulibaly: Iffy for Monday",
+   "title": "Bilal Coulibaly: Iffy Monday",
    "link": "https://www.rotowire.com//basketball/player/bilal-coulibaly-5945",
    "published": "Mon, 09 Nov 2026 10:53:00 AM PST",
    "summary": "Coulibaly (hand) is listed as questionable for Monday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
@@ -12336,6 +12348,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-09T20:14:51.922000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Precious Achiuwa"
+  },
+  {
+   "date": "2026-11-09T20:14:51.922000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Grayson Allen"
+  },
   {
    "date": "2026-11-09T18:46:30.296000",
    "team": "Pasta Warriors",
@@ -13682,6 +13706,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 4.0
  }
 }
