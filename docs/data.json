@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T18:00:35.018966Z",
+ "updated": "2026-11-09T18:21:12.002816Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2042,7 +2042,7 @@
     "name": "Austin Reaves",
     "pos": "SG",
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "LAL",
     "avg": {
      "PTS": 25.22222222222222,
@@ -4146,7 +4146,7 @@
     "name": "Luka Doncic",
     "pos": "PG",
     "slot": "G",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
      "PTS": 44.285714285714285,
@@ -6846,7 +6846,7 @@
    "name": "Quentin Grimes",
    "pos": "SG",
    "team": "LAL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.222222222222222,
@@ -11810,6 +11810,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Austin Reaves: Questionable with illness",
+   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
+   "published": "Mon, 09 Nov 2026 10:10:00 AM PST",
+   "summary": "Reaves is questionable for Monday's game against the Hawks due to an illness, per Dave McMenamin of ESPN.com.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Luka Doncic: Absent from injury report",
+   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
+   "published": "Mon, 09 Nov 2026 10:07:00 AM PST",
+   "summary": "Doncic (back) is off the injury report for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Giannis Antetokounmpo: Delivers team-high 29 in Sunday's win",
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Mon, 09 Nov 2026 7:27:00 AM PST",
@@ -11828,20 +11842,6 @@
    "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
    "published": "Sun, 08 Nov 2026 9:26:00 PM PST",
    "summary": "Williamson recorded 25 points (9-9 FG, 7-9 FT), four rebounds and two assists in 31 minutes during Sunday's 139-123 loss to the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cooper Flagg: Dishes 12 dimes in win",
-   "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
-   "published": "Sun, 08 Nov 2026 9:20:00 PM PST",
-   "summary": "Flagg logged 25 points (8-13 FG, 3-5 3Pt, 6-6 FT), 12 assists, five rebounds and a steal in 28 minutes during Sunday's 130-93 win over the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ayo Dosunmu: Scores 26 in win",
-   "link": "https://www.rotowire.com//basketball/player/ayo-dosunmu-5337",
-   "published": "Sun, 08 Nov 2026 9:11:00 PM PST",
-   "summary": "Dosunmu logged 26 points (7-13 FG, 4-5 3Pt, 8-8 FT), four rebounds, two steals and an assist in 29 minutes during Sunday's 115-100 win over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13616,6 +13616,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.6
  }
 }
