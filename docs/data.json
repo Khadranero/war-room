@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:00:31.956315Z",
+ "updated": "2026-11-09T16:10:22.333774Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2506,7 +2506,7 @@
     "name": "Domantas Sabonis",
     "pos": "C",
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "SAC",
     "avg": {
      "PTS": 13.857142857142858,
@@ -13592,6 +13592,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 2.5
  }
 }
