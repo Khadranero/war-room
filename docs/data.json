@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T15:40:24.758784Z",
+ "updated": "2026-11-09T15:50:25.280885Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3004,7 +3004,7 @@
     "name": "Lauri Markkanen",
     "pos": "PF",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "UTA",
     "avg": {
      "PTS": 18.333333333333332,
@@ -4362,7 +4362,7 @@
     "name": "Norman Powell",
     "pos": "SG",
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 19.2,
@@ -8119,7 +8119,7 @@
    "name": "Mikel Brown Jr.",
    "pos": "PG",
    "team": "BKN",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 15.2,
@@ -11048,7 +11048,7 @@
    "name": "Adem Bona",
    "pos": "C",
    "team": "PHL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.8333333333333335,
@@ -13592,6 +13592,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 2.5
  }
 }
