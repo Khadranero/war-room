@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T20:50:23.704183Z",
+ "updated": "2026-11-10T21:00:39.045366Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2627,7 +2627,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
      "PTS": 13.666666666666666,
@@ -7534,7 +7534,7 @@
     "PF"
    ],
    "team": "SAC",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 10.0,
@@ -13266,6 +13266,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Domantas Sabonis: Upgraded to available",
+   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
+   "published": "Tue, 10 Nov 2026 12:48:00 PM PST",
+   "summary": "Sabonis (knee) is available for Tuesday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Zion Williamson: Absent from injury report",
    "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
    "published": "Tue, 10 Nov 2026 11:25:00 AM PST",
@@ -13291,13 +13298,6 @@
    "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
    "published": "Tue, 10 Nov 2026 10:30:00 AM PST",
    "summary": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kawhi Leonard: Remains out for at least one more week",
-   "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
-   "published": "Tue, 10 Nov 2026 9:34:00 AM PST",
-   "summary": "Leonard (knee) is continuing the reconditioning process, and another update will be provided in one week, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15444,6 +15444,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 4.9
  }
 }
