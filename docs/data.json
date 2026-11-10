@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:00:35.141592Z",
+ "updated": "2026-11-10T13:10:22.899933Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1513,6 +1513,10 @@
    {
     "name": "Donovan Mitchell",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "SG",
     "injury": "ACTIVE",
     "team": "CLE",
@@ -1544,6 +1548,10 @@
    {
     "name": "Cooper Flagg",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "DAL",
@@ -1575,6 +1583,9 @@
    {
     "name": "Stephen Curry",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
@@ -1606,6 +1617,9 @@
    {
     "name": "Trae Young",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "WAS",
@@ -1637,6 +1651,10 @@
    {
     "name": "LeBron James",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
@@ -1668,6 +1686,9 @@
    {
     "name": "Darius Garland",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
@@ -1699,6 +1720,9 @@
    {
     "name": "Julius Randle",
     "pos": "PF",
+    "elig": [
+     "PF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "BKN",
@@ -1730,6 +1754,10 @@
    {
     "name": "Paul George",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "BOS",
@@ -1761,6 +1789,9 @@
    {
     "name": "Darius Acuff Jr.",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "SAC",
@@ -1792,6 +1823,10 @@
    {
     "name": "Brandin Podziemski",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
@@ -1823,6 +1858,10 @@
    {
     "name": "Yaxel Lendeborg",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "GSW",
@@ -1854,6 +1893,10 @@
    {
     "name": "Andrew Nembhard",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "IR",
     "injury": "ACTIVE",
     "team": "IND",
@@ -1885,6 +1928,9 @@
    {
     "name": "Wendell Carter Jr.",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "ORL",
@@ -1916,6 +1962,10 @@
    {
     "name": "Kris Dunn",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
@@ -1947,6 +1997,9 @@
    {
     "name": "Yves Missi",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "NOP",
@@ -1979,6 +2032,9 @@
    {
     "name": "Jalen Johnson",
     "pos": "PF",
+    "elig": [
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
@@ -2010,6 +2066,10 @@
    {
     "name": "Tyrese Haliburton",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "IND",
@@ -2041,6 +2101,10 @@
    {
     "name": "Austin Reaves",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "LAL",
@@ -2072,6 +2136,10 @@
    {
     "name": "Michael Porter Jr.",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "BKN",
@@ -2103,6 +2171,9 @@
    {
     "name": "Onyeka Okongwu",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
@@ -2134,6 +2205,10 @@
    {
     "name": "Immanuel Quickley",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "TOR",
@@ -2165,6 +2240,10 @@
    {
     "name": "Moussa Diabate",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "IR",
     "injury": "DAY_TO_DAY",
     "team": "CHA",
@@ -2195,6 +2274,10 @@
    {
     "name": "Duncan Robinson",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
@@ -2226,6 +2309,10 @@
    {
     "name": "Christian Braun",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DEN",
@@ -2257,6 +2344,10 @@
    {
     "name": "Jeremiah Fears",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "NOP",
@@ -2288,6 +2379,10 @@
    {
     "name": "Jrue Holiday",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "POR",
@@ -2319,6 +2414,9 @@
    {
     "name": "Jamal Murray",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DEN",
@@ -2350,6 +2448,9 @@
    {
     "name": "Jamal Shead",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
@@ -2381,6 +2482,10 @@
    {
     "name": "Aaron Wiggins",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
@@ -2412,6 +2517,9 @@
    {
     "name": "Zach Edey",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "MEM",
@@ -2445,6 +2553,10 @@
    {
     "name": "Jayson Tatum",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "BOS",
@@ -2476,6 +2588,9 @@
    {
     "name": "LaMelo Ball",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
@@ -2507,6 +2622,10 @@
    {
     "name": "Domantas Sabonis",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "C",
     "injury": "DAY_TO_DAY",
     "team": "SAC",
@@ -2538,6 +2657,10 @@
    {
     "name": "Kawhi Leonard",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "TOR",
@@ -2569,6 +2692,10 @@
    {
     "name": "Kon Knueppel",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "CHA",
@@ -2600,6 +2727,10 @@
    {
     "name": "Dejounte Murray",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "NOP",
@@ -2631,6 +2762,9 @@
    {
     "name": "Damian Lillard",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "POR",
@@ -2662,6 +2796,9 @@
    {
     "name": "VJ Edgecombe",
     "pos": "SG",
+    "elig": [
+     "SG"
+    ],
     "slot": "SG",
     "injury": "ACTIVE",
     "team": "PHL",
@@ -2693,6 +2830,10 @@
    {
     "name": "Ausar Thompson",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
@@ -2724,6 +2865,10 @@
    {
     "name": "Darryn Peterson",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "UTA",
@@ -2755,6 +2900,10 @@
    {
     "name": "Zach LaVine",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "SAC",
@@ -2786,6 +2935,9 @@
    {
     "name": "Aaron Gordon",
     "pos": "PF",
+    "elig": [
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DEN",
@@ -2817,6 +2969,9 @@
    {
     "name": "Daniel Gafford",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
@@ -2847,6 +3002,9 @@
    {
     "name": "Nic Claxton",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
@@ -2878,6 +3036,10 @@
    {
     "name": "Kyle Kuzma",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "MIL",
@@ -2911,6 +3073,9 @@
    {
     "name": "Victor Wembanyama",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
@@ -2942,6 +3107,10 @@
    {
     "name": "Josh Giddey",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
@@ -2973,6 +3142,10 @@
    {
     "name": "Dyson Daniels",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "ATL",
@@ -3004,6 +3177,10 @@
    {
     "name": "Lauri Markkanen",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "IR",
     "injury": "DAY_TO_DAY",
     "team": "UTA",
@@ -3035,6 +3212,9 @@
    {
     "name": "Donovan Clingan",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "POR",
@@ -3066,6 +3246,10 @@
    {
     "name": "Trey Murphy III",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "IR",
     "injury": "DAY_TO_DAY",
     "team": "NOP",
@@ -3097,6 +3281,10 @@
    {
     "name": "Jalen Green",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "PHO",
@@ -3128,6 +3316,10 @@
    {
     "name": "Coby White",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHA",
@@ -3159,6 +3351,9 @@
    {
     "name": "AJ Dybantsa",
     "pos": "SF",
+    "elig": [
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "WAS",
@@ -3190,6 +3385,10 @@
    {
     "name": "Cedric Coward",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "MEM",
@@ -3221,6 +3420,10 @@
    {
     "name": "Derik Queen",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "NOP",
@@ -3252,6 +3455,10 @@
    {
     "name": "Ajay Mitchell",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "OKC",
@@ -3283,6 +3490,10 @@
    {
     "name": "Payton Pritchard",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "SG",
     "injury": "ACTIVE",
     "team": "BOS",
@@ -3314,6 +3525,10 @@
    {
     "name": "Spencer Jones",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DEN",
@@ -3334,6 +3549,9 @@
    {
     "name": "Mitchell Robinson",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "BOS",
@@ -3366,6 +3584,9 @@
    {
     "name": "Shai Gilgeous-Alexander",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "OKC",
@@ -3397,6 +3618,9 @@
    {
     "name": "Karl-Anthony Towns",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "NYK",
@@ -3428,6 +3652,10 @@
    {
     "name": "James Harden",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
@@ -3459,6 +3687,10 @@
    {
     "name": "Paolo Banchero",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "ORL",
@@ -3490,6 +3722,10 @@
    {
     "name": "De'Aaron Fox",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAS",
@@ -3521,6 +3757,10 @@
    {
     "name": "OG Anunoby",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "NYK",
@@ -3552,6 +3792,10 @@
    {
     "name": "Josh Hart",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "SG",
     "injury": "DAY_TO_DAY",
     "team": "NYK",
@@ -3583,6 +3827,10 @@
    {
     "name": "CJ McCollum",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
@@ -3614,6 +3862,10 @@
    {
     "name": "Jabari Smith Jr.",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "HOU",
@@ -3645,6 +3897,9 @@
    {
     "name": "Myles Turner",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIL",
@@ -3676,6 +3931,10 @@
    {
     "name": "Ace Bailey",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "UTA",
@@ -3707,6 +3966,9 @@
    {
     "name": "Jalen Brunson",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "NYK",
@@ -3738,6 +4000,9 @@
    {
     "name": "Ja Morant",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "POR",
@@ -3769,6 +4034,10 @@
    {
     "name": "Klay Thompson",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIA",
@@ -3800,6 +4069,9 @@
    {
     "name": "Aday Mara",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
@@ -3822,6 +4094,9 @@
    {
     "name": "Nikola Jokic",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "DEN",
@@ -3853,6 +4128,9 @@
    {
     "name": "Kyrie Irving",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
@@ -3884,6 +4162,10 @@
    {
     "name": "Brandon Miller",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "CHA",
@@ -3915,6 +4197,10 @@
    {
     "name": "Jaren Jackson Jr.",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "UTA",
@@ -3946,6 +4232,10 @@
    {
     "name": "Brandon Ingram",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "LAC",
@@ -3966,6 +4256,10 @@
    {
     "name": "Ayo Dosunmu",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIN",
@@ -3997,6 +4291,10 @@
    {
     "name": "Anthony Black",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "ORL",
@@ -4028,6 +4326,9 @@
    {
     "name": "Matisse Thybulle",
     "pos": "SF",
+    "elig": [
+     "SF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "LAL",
@@ -4059,6 +4360,10 @@
    {
     "name": "Devin Booker",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "PHO",
@@ -4090,6 +4395,10 @@
    {
     "name": "Keyonte George",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "UT",
     "injury": "OUT",
     "team": "UTA",
@@ -4121,6 +4430,9 @@
    {
     "name": "Pascal Siakam",
     "pos": "PF",
+    "elig": [
+     "PF"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "IND",
@@ -4152,6 +4464,10 @@
    {
     "name": "Desmond Bane",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "ORL",
@@ -4183,6 +4499,9 @@
    {
     "name": "Rudy Gobert",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
@@ -4213,6 +4532,9 @@
    {
     "name": "Brayden Burries",
     "pos": "SG",
+    "elig": [
+     "SG"
+    ],
     "slot": "SG",
     "injury": "ACTIVE",
     "team": "MIL",
@@ -4244,6 +4566,9 @@
    {
     "name": "Isaiah Collier",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "UTA",
@@ -4277,6 +4602,9 @@
    {
     "name": "Luka Doncic",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "LAL",
@@ -4308,6 +4636,10 @@
    {
     "name": "Amen Thompson",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
@@ -4339,6 +4671,9 @@
    {
     "name": "Alperen Sengun",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
@@ -4370,6 +4705,10 @@
    {
     "name": "Deni Avdija",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "POR",
@@ -4401,6 +4740,9 @@
    {
     "name": "Jalen Duren",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "DET",
@@ -4431,6 +4773,10 @@
    {
     "name": "Tyler Herro",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "SG",
     "injury": "DAY_TO_DAY",
     "team": "MIL",
@@ -4462,6 +4808,10 @@
    {
     "name": "Franz Wagner",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "ORL",
@@ -4493,6 +4843,10 @@
    {
     "name": "Norman Powell",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "IR",
     "injury": "DAY_TO_DAY",
     "team": "CHI",
@@ -4524,6 +4878,10 @@
    {
     "name": "Dylan Harper",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
@@ -4555,6 +4913,10 @@
    {
     "name": "Jaden McDaniels",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIN",
@@ -4586,6 +4948,9 @@
    {
     "name": "Davion Mitchell",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIA",
@@ -4617,6 +4982,10 @@
    {
     "name": "Saddiq Bey",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "NOP",
@@ -4648,6 +5017,10 @@
    {
     "name": "Tristan da Silva",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "ORL",
@@ -4679,6 +5052,10 @@
    {
     "name": "Bobby Portis",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "MIA",
@@ -4710,6 +5087,9 @@
    {
     "name": "Meleek Thomas",
     "pos": "SG",
+    "elig": [
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
@@ -4732,6 +5112,10 @@
    {
     "name": "Anthony Edwards",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "MIN",
@@ -4763,6 +5147,10 @@
    {
     "name": "Tyrese Maxey",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "PHL",
@@ -4794,6 +5182,10 @@
    {
     "name": "Anthony Davis",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "WAS",
@@ -4825,6 +5217,10 @@
    {
     "name": "Derrick White",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "SG",
     "injury": "ACTIVE",
     "team": "BOS",
@@ -4856,6 +5252,10 @@
    {
     "name": "Naz Reid",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHA",
@@ -4887,6 +5287,10 @@
    {
     "name": "Nickeil Alexander-Walker",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "ATL",
@@ -4918,6 +5322,9 @@
    {
     "name": "Joel Embiid",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "PHL",
@@ -4949,6 +5356,9 @@
    {
     "name": "Cameron Boozer",
     "pos": "PF",
+    "elig": [
+     "PF"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "MEM",
@@ -4980,6 +5390,10 @@
    {
     "name": "Miles Bridges",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "PHO",
@@ -5011,6 +5425,10 @@
    {
     "name": "Fred VanVleet",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
@@ -5042,6 +5460,10 @@
    {
     "name": "Kristaps Porzingis",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "GSW",
@@ -5062,6 +5484,10 @@
    {
     "name": "P.J. Washington",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
@@ -5093,6 +5519,9 @@
    {
     "name": "Isaiah Hartenstein",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
@@ -5123,6 +5552,10 @@
    {
     "name": "Jalen Smith",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "CHI",
@@ -5154,6 +5587,10 @@
    {
     "name": "Jared McCain",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "OKC",
@@ -5187,6 +5624,10 @@
    {
     "name": "Evan Mobley",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "CLE",
@@ -5218,6 +5659,9 @@
    {
     "name": "Walker Kessler",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "C",
     "injury": "ACTIVE",
     "team": "LAL",
@@ -5249,6 +5693,9 @@
    {
     "name": "Ivica Zubac",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "IND",
@@ -5279,6 +5726,10 @@
    {
     "name": "Zion Williamson",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "IR",
     "injury": "DAY_TO_DAY",
     "team": "NOP",
@@ -5310,6 +5761,10 @@
    {
     "name": "RJ Barrett",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
@@ -5341,6 +5796,10 @@
    {
     "name": "Jaime Jaquez Jr.",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIL",
@@ -5372,6 +5831,10 @@
    {
     "name": "Kyshawn George",
     "pos": "SG",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "WAS",
@@ -5403,6 +5866,10 @@
    {
     "name": "Dillon Brooks",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "PHO",
@@ -5434,6 +5901,10 @@
    {
     "name": "Jalen Suggs",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "ORL",
@@ -5465,6 +5936,9 @@
    {
     "name": "Jarrett Allen",
     "pos": "C",
+    "elig": [
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "CLE",
@@ -5495,6 +5969,10 @@
    {
     "name": "Scottie Barnes",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "TOR",
@@ -5526,6 +6004,10 @@
    {
     "name": "Jaylen Brown",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "PHL",
@@ -5557,6 +6039,10 @@
    {
     "name": "Rui Hachimura",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "LAC",
@@ -5588,6 +6074,9 @@
    {
     "name": "Collin Gillespie",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "PHO",
@@ -5619,6 +6108,10 @@
    {
     "name": "Mikal Bridges",
     "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
     "slot": "SG",
     "injury": "ACTIVE",
     "team": "NYK",
@@ -5652,6 +6145,10 @@
    {
     "name": "Giannis Antetokounmpo",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "C",
     "injury": "DAY_TO_DAY",
     "team": "MIA",
@@ -5683,6 +6180,10 @@
    {
     "name": "Bam Adebayo",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "PF",
     "injury": "ACTIVE",
     "team": "MIA",
@@ -5714,6 +6215,10 @@
    {
     "name": "Stephon Castle",
     "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "PG",
     "injury": "ACTIVE",
     "team": "SAS",
@@ -5745,6 +6250,10 @@
    {
     "name": "Alex Sarr",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "WAS",
@@ -5776,6 +6285,10 @@
    {
     "name": "Ty Jerome",
     "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "MEM",
@@ -5807,6 +6320,9 @@
    {
     "name": "Caleb Wilson",
     "pos": "SF",
+    "elig": [
+     "SF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
@@ -5838,6 +6354,10 @@
    {
     "name": "Tobias Harris",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "SAS",
@@ -5858,6 +6378,10 @@
    {
     "name": "Peyton Watson",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "CLE",
@@ -5889,6 +6413,10 @@
    {
     "name": "John Collins",
     "pos": "PF",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "UT",
     "injury": "ACTIVE",
     "team": "DET",
@@ -5920,6 +6448,9 @@
    {
     "name": "Cade Cunningham",
     "pos": "PG",
+    "elig": [
+     "PG"
+    ],
     "slot": "G",
     "injury": "ACTIVE",
     "team": "DET",
@@ -5951,6 +6482,10 @@
    {
     "name": "Kevin Durant",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "F",
     "injury": "ACTIVE",
     "team": "HOU",
@@ -5982,6 +6517,10 @@
    {
     "name": "Chet Holmgren",
     "pos": "C",
+    "elig": [
+     "PF",
+     "C"
+    ],
     "slot": "IR",
     "injury": "OUT",
     "team": "OKC",
@@ -6013,6 +6552,10 @@
    {
     "name": "Matas Buzelis",
     "pos": "SF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
@@ -6044,6 +6587,10 @@
    {
     "name": "Jonathan Kuminga",
     "pos": "PF",
+    "elig": [
+     "SF",
+     "PF"
+    ],
     "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
@@ -6075,6 +6622,9 @@
    {
     "name": "Leaky Black",
     "pos": "SF",
+    "elig": [
+     "SF"
+    ],
     "slot": "SF",
     "injury": "ACTIVE",
     "team": "SAC",
@@ -6610,6 +7160,10 @@
   {
    "name": "DeMar DeRozan",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DEN",
    "injury": "ACTIVE",
    "pct": null,
@@ -6641,6 +7195,10 @@
   {
    "name": "Reed Sheppard",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "HOU",
    "injury": "ACTIVE",
    "pct": null,
@@ -6672,6 +7230,9 @@
   {
    "name": "Kel'el Ware",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "MIL",
    "injury": "ACTIVE",
    "pct": null,
@@ -6703,6 +7264,10 @@
   {
    "name": "Ryan Rollins",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "MIL",
    "injury": "ACTIVE",
    "pct": null,
@@ -6734,6 +7299,10 @@
   {
    "name": "Andrew Wiggins",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "MIA",
    "injury": "ACTIVE",
    "pct": null,
@@ -6765,6 +7334,10 @@
   {
    "name": "Jalen Williams",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "OKC",
    "injury": "OUT",
    "pct": null,
@@ -6796,6 +7369,9 @@
   {
    "name": "Jakob Poeltl",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "TOR",
    "injury": "ACTIVE",
    "pct": null,
@@ -6826,6 +7402,10 @@
   {
    "name": "Julian Champagnie",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "SAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -6857,6 +7437,10 @@
   {
    "name": "Paul Reed",
    "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
@@ -6888,6 +7472,10 @@
   {
    "name": "Devin Vassell",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "SAS",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -6919,6 +7507,9 @@
   {
    "name": "Nikola Vucevic",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "ORL",
    "injury": "ACTIVE",
    "pct": null,
@@ -6950,6 +7541,10 @@
   {
    "name": "Kevin Porter Jr.",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -6970,6 +7565,10 @@
   {
    "name": "Keegan Murray",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "SAC",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -7001,6 +7600,10 @@
   {
    "name": "Toumani Camara",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "POR",
    "injury": "ACTIVE",
    "pct": null,
@@ -7032,6 +7635,10 @@
   {
    "name": "Jimmy Butler III",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "GSW",
    "injury": "OUT",
    "pct": null,
@@ -7052,6 +7659,10 @@
   {
    "name": "Egor Demin",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "BKN",
    "injury": "OUT",
    "pct": null,
@@ -7083,6 +7694,10 @@
   {
    "name": "Quentin Grimes",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "LAL",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -7114,6 +7729,10 @@
   {
    "name": "Draymond Green",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "GSW",
    "injury": "ACTIVE",
    "pct": null,
@@ -7145,6 +7764,9 @@
   {
    "name": "Brook Lopez",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -7176,6 +7798,10 @@
   {
    "name": "Precious Achiuwa",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "SAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -7207,6 +7833,9 @@
   {
    "name": "Neemias Queta",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -7238,6 +7867,10 @@
   {
    "name": "Collin Sexton",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -7269,6 +7902,10 @@
   {
    "name": "Grayson Allen",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "CHA",
    "injury": "ACTIVE",
    "pct": null,
@@ -7300,6 +7937,9 @@
   {
    "name": "Nolan Traore",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -7331,6 +7971,9 @@
   {
    "name": "Day'Ron Sharpe",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -7362,6 +8005,10 @@
   {
    "name": "Tari Eason",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "HOU",
    "injury": "ACTIVE",
    "pct": null,
@@ -7393,6 +8040,10 @@
   {
    "name": "Alex Caruso",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "OKC",
    "injury": "ACTIVE",
    "pct": null,
@@ -7424,6 +8075,9 @@
   {
    "name": "Oso Ighodaro",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "PHO",
    "injury": "ACTIVE",
    "pct": null,
@@ -7454,6 +8108,10 @@
   {
    "name": "Naji Marshall",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -7485,6 +8143,9 @@
   {
    "name": "Jaxson Hayes",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "UTA",
    "injury": "ACTIVE",
    "pct": null,
@@ -7516,6 +8177,9 @@
   {
    "name": "Collin Murray-Boyles",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "TOR",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -7547,6 +8211,10 @@
   {
    "name": "Anfernee Simons",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "PHL",
    "injury": "ACTIVE",
    "pct": null,
@@ -7578,6 +8246,10 @@
   {
    "name": "Pelle Larsson",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "MIA",
    "injury": "ACTIVE",
    "pct": null,
@@ -7598,6 +8270,9 @@
   {
    "name": "Ja'Kobe Walter",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "TOR",
    "injury": "ACTIVE",
    "pct": null,
@@ -7629,6 +8304,10 @@
   {
    "name": "Malik Monk",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "SAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -7660,6 +8339,10 @@
   {
    "name": "Keaton Wagler",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -7691,6 +8374,10 @@
   {
    "name": "Derrick Jones Jr.",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -7722,6 +8409,10 @@
   {
    "name": "Jordan Poole",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
@@ -7753,6 +8444,9 @@
   {
    "name": "Obi Toppin",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -7784,6 +8478,9 @@
   {
    "name": "Daniss Jenkins",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
@@ -7804,6 +8501,10 @@
   {
    "name": "Cam Spencer",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "MEM",
    "injury": "ACTIVE",
    "pct": null,
@@ -7824,6 +8525,9 @@
   {
    "name": "Deandre Ayton",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "WAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -7855,6 +8559,10 @@
   {
    "name": "Scotty Pippen Jr.",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "MEM",
    "injury": "OUT",
    "pct": null,
@@ -7886,6 +8594,9 @@
   {
    "name": "Zaccharie Risacher",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "DAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -7917,6 +8628,10 @@
   {
    "name": "Keldon Johnson",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "SAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -7948,6 +8663,9 @@
   {
    "name": "Jerami Grant",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "MEM",
    "injury": "ACTIVE",
    "pct": null,
@@ -7979,6 +8697,10 @@
   {
    "name": "Cameron Johnson",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DEN",
    "injury": "ACTIVE",
    "pct": null,
@@ -8010,6 +8732,10 @@
   {
    "name": "Jaylen Wells",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "MEM",
    "injury": "ACTIVE",
    "pct": null,
@@ -8041,6 +8767,9 @@
   {
    "name": "Andre Drummond",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -8072,6 +8801,10 @@
   {
    "name": "Jake LaRavia",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -8103,6 +8836,10 @@
   {
    "name": "De'Anthony Melton",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "GSW",
    "injury": "ACTIVE",
    "pct": null,
@@ -8134,6 +8871,9 @@
   {
    "name": "T.J. McConnell",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -8165,6 +8905,10 @@
   {
    "name": "Bennedict Mathurin",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
@@ -8196,6 +8940,10 @@
   {
    "name": "Cason Wallace",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "OKC",
    "injury": "OUT",
    "pct": null,
@@ -8227,6 +8975,10 @@
   {
    "name": "Santi Aldama",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -8258,6 +9010,10 @@
   {
    "name": "Kingston Flemings",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "PG"
+   ],
    "team": "ATL",
    "injury": "ACTIVE",
    "pct": null,
@@ -8289,6 +9045,9 @@
   {
    "name": "Jusuf Nurkic",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "UTA",
    "injury": "OUT",
    "pct": null,
@@ -8309,6 +9068,10 @@
   {
    "name": "Shaedon Sharpe",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "POR",
    "injury": "OUT",
    "pct": null,
@@ -8329,6 +9092,9 @@
   {
    "name": "Mikel Brown Jr.",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "BKN",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -8360,6 +9126,10 @@
   {
    "name": "Scoot Henderson",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "POR",
    "injury": "ACTIVE",
    "pct": null,
@@ -8391,6 +9161,10 @@
   {
    "name": "Isaiah Jackson",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -8421,6 +9195,10 @@
   {
    "name": "Ziaire Williams",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -8452,6 +9230,9 @@
   {
    "name": "Mark Williams",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "PHO",
    "injury": "OUT",
    "pct": null,
@@ -8471,6 +9252,10 @@
   {
    "name": "De'Andre Hunter",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "SAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -8502,6 +9287,9 @@
   {
    "name": "Khaman Maluach",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "PHO",
    "injury": "ACTIVE",
    "pct": null,
@@ -8533,6 +9321,9 @@
   {
    "name": "Robert Williams III",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "POR",
    "injury": "ACTIVE",
    "pct": null,
@@ -8564,6 +9355,9 @@
   {
    "name": "Tre Jones",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "CHI",
    "injury": "ACTIVE",
    "pct": null,
@@ -8595,6 +9389,9 @@
   {
    "name": "Terrence Shannon Jr.",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "MIN",
    "injury": "ACTIVE",
    "pct": null,
@@ -8626,6 +9423,10 @@
   {
    "name": "Quenton Jackson",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -8646,6 +9447,10 @@
   {
    "name": "Morez Johnson Jr.",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "DAL",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -8677,6 +9482,10 @@
   {
    "name": "Sandro Mamukelashvili",
    "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -8697,6 +9506,9 @@
   {
    "name": "Dereck Lively II",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "DAL",
    "injury": "OUT",
    "pct": null,
@@ -8716,6 +9528,10 @@
   {
    "name": "Bilal Coulibaly",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "WAS",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -8747,6 +9563,10 @@
   {
    "name": "Cam Thomas",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -8756,6 +9576,9 @@
   {
    "name": "Max Strus",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -8787,6 +9610,10 @@
   {
    "name": "D'Angelo Russell",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -8807,6 +9634,9 @@
   {
    "name": "Dennis Schroder",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "CHA",
    "injury": "OUT",
    "pct": null,
@@ -8838,6 +9668,9 @@
   {
    "name": "Karlo Matkovic",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
@@ -8858,6 +9691,10 @@
   {
    "name": "Isaiah Stewart",
    "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "MEM",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -8889,6 +9726,10 @@
   {
    "name": "Kelly Oubre Jr.",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -8920,6 +9761,10 @@
   {
    "name": "Luguentz Dort",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "ATL",
    "injury": "ACTIVE",
    "pct": null,
@@ -8951,6 +9796,10 @@
   {
    "name": "Aaron Nesmith",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -8982,6 +9831,10 @@
   {
    "name": "Kyle Filipowski",
    "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "UTA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9013,6 +9866,10 @@
   {
    "name": "Kevin Huerter",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
@@ -9044,6 +9901,10 @@
   {
    "name": "Tim Hardaway Jr.",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "MIA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9075,6 +9936,9 @@
   {
    "name": "Mo Bamba",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "UTA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9095,6 +9959,10 @@
   {
    "name": "Danny Wolf",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -9126,6 +9994,10 @@
   {
    "name": "Bronny James",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -9157,6 +10029,10 @@
   {
    "name": "Trevon Brazile",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DEN",
    "injury": "ACTIVE",
    "pct": null,
@@ -9177,6 +10053,9 @@
   {
    "name": "Mario Hezonja",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "CLE",
    "injury": "ACTIVE",
    "pct": null,
@@ -9197,6 +10076,10 @@
   {
    "name": "Walter Clayton Jr.",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "DAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -9228,6 +10111,9 @@
   {
    "name": "Bones Hyland",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "MIN",
    "injury": "ACTIVE",
    "pct": null,
@@ -9259,6 +10145,10 @@
   {
    "name": "Sam Hauser",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -9290,6 +10180,10 @@
   {
    "name": "Jaylon Tyson",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "CLE",
    "injury": "OUT",
    "pct": null,
@@ -9321,6 +10215,10 @@
   {
    "name": "Kentavious Caldwell-Pope",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "PHL",
    "injury": "ACTIVE",
    "pct": null,
@@ -9352,6 +10250,10 @@
   {
    "name": "Bub Carrington",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "WAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -9383,6 +10285,9 @@
   {
    "name": "Ryan Kalkbrenner",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "CHA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9413,6 +10318,10 @@
   {
    "name": "Brandon Williams",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "GSW",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -9433,6 +10342,10 @@
   {
    "name": "Marcus Smart",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "HOU",
    "injury": "ACTIVE",
    "pct": null,
@@ -9464,6 +10377,9 @@
   {
    "name": "Moritz Wagner",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -9495,6 +10411,10 @@
   {
    "name": "Donte DiVincenzo",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "MIN",
    "injury": "OUT",
    "pct": null,
@@ -9515,6 +10435,9 @@
   {
    "name": "Russell Westbrook",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9524,6 +10447,9 @@
   {
    "name": "Bennett Stirtz",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "OKC",
    "injury": "ACTIVE",
    "pct": null,
@@ -9544,6 +10470,9 @@
   {
    "name": "Max Christie",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "DAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -9575,6 +10504,10 @@
   {
    "name": "Jaylin Williams",
    "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "OKC",
    "injury": "OUT",
    "pct": null,
@@ -9606,6 +10539,9 @@
   {
    "name": "Maxime Raynaud",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "SAC",
    "injury": "OUT",
    "pct": null,
@@ -9615,6 +10551,10 @@
   {
    "name": "Bradley Beal",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "LAC",
    "injury": "OUT",
    "pct": null,
@@ -9635,6 +10575,10 @@
   {
    "name": "Ryan Dunn",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "PHO",
    "injury": "ACTIVE",
    "pct": null,
@@ -9666,6 +10610,9 @@
   {
    "name": "Tre Johnson",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "WAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -9697,6 +10644,10 @@
   {
    "name": "Royce O'Neale",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "CHA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9728,6 +10679,9 @@
   {
    "name": "GG Jackson",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "MEM",
    "injury": "ACTIVE",
    "pct": null,
@@ -9759,6 +10713,10 @@
   {
    "name": "Gradey Dick",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -9790,6 +10748,10 @@
   {
    "name": "Herbert Jones",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
@@ -9821,6 +10783,10 @@
   {
    "name": "Jarace Walker",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -9852,6 +10818,10 @@
   {
    "name": "Al Horford",
    "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "GSW",
    "injury": "ACTIVE",
    "pct": null,
@@ -9883,6 +10853,9 @@
   {
    "name": "Chris Paul",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9892,6 +10865,9 @@
   {
    "name": "Joan Beringer",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "MIN",
    "injury": "ACTIVE",
    "pct": null,
@@ -9912,6 +10888,10 @@
   {
    "name": "Brice Sensabaugh",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "UTA",
    "injury": "ACTIVE",
    "pct": null,
@@ -9943,6 +10923,9 @@
   {
    "name": "Luke Kennard",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "PHO",
    "injury": "ACTIVE",
    "pct": null,
@@ -9974,6 +10957,9 @@
   {
    "name": "Nikola Jovic",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "MIA",
    "injury": "ACTIVE",
    "pct": null,
@@ -10005,6 +10991,10 @@
   {
    "name": "Miles McBride",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -10036,6 +11026,10 @@
   {
    "name": "Justin Champagnie",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "WAS",
    "injury": "OUT",
    "pct": null,
@@ -10056,6 +11050,9 @@
   {
    "name": "Jose Alvarado",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -10087,6 +11084,9 @@
   {
    "name": "Kasparas Jakucionis",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "MIL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10118,6 +11118,9 @@
   {
    "name": "Charles Bassey",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "GSW",
    "injury": "ACTIVE",
    "pct": null,
@@ -10148,6 +11151,10 @@
   {
    "name": "Keon Ellis",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -10179,6 +11186,10 @@
   {
    "name": "Dalton Knecht",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -10210,6 +11221,9 @@
   {
    "name": "Dean Wade",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "PHL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10241,6 +11255,9 @@
   {
    "name": "Landry Shamet",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -10272,6 +11289,10 @@
   {
    "name": "Nique Clifford",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "OKC",
    "injury": "ACTIVE",
    "pct": null,
@@ -10303,6 +11324,9 @@
   {
    "name": "Gui Santos",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "GSW",
    "injury": "ACTIVE",
    "pct": null,
@@ -10334,6 +11358,9 @@
   {
    "name": "Kobe Sanders",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "LAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -10354,6 +11381,9 @@
   {
    "name": "Ben Simmons",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "SAC",
    "injury": "OUT",
    "pct": null,
@@ -10373,6 +11403,9 @@
   {
    "name": "Isaiah Joe",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "DET",
    "injury": "OUT",
    "pct": null,
@@ -10404,6 +11437,9 @@
   {
    "name": "Carter Bryant",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "SAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10424,6 +11460,9 @@
   {
    "name": "Georges Niang",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "GSW",
    "injury": "ACTIVE",
    "pct": null,
@@ -10444,6 +11483,9 @@
   {
    "name": "Baylor Scheierman",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10475,6 +11517,9 @@
   {
    "name": "Kenrich Williams",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "OKC",
    "injury": "ACTIVE",
    "pct": null,
@@ -10506,6 +11551,10 @@
   {
    "name": "Labaron Philon Jr.",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "PHL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10526,6 +11575,9 @@
   {
    "name": "Sam Merrill",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "CLE",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -10557,6 +11609,10 @@
   {
    "name": "Jordan Goodwin",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "PHO",
    "injury": "OUT",
    "pct": null,
@@ -10577,6 +11633,9 @@
   {
    "name": "Luke Kornet",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "SAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10607,6 +11666,10 @@
   {
    "name": "Ronald Holland II",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
@@ -10638,6 +11701,9 @@
   {
    "name": "Jordan Walsh",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10669,6 +11735,9 @@
   {
    "name": "AJ Green",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "MIL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10700,6 +11769,9 @@
   {
    "name": "Jay Huff",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -10720,6 +11792,9 @@
   {
    "name": "Hannes Steinbach",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "CHA",
    "injury": "ACTIVE",
    "pct": null,
@@ -10751,6 +11826,9 @@
   {
    "name": "Jase Richardson",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "ORL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10781,6 +11859,9 @@
   {
    "name": "Luka Garza",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10801,6 +11882,10 @@
   {
    "name": "Marvin Bagley III",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "DEN",
    "injury": "ACTIVE",
    "pct": null,
@@ -10832,6 +11917,9 @@
   {
    "name": "Hugo Gonzalez",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10863,6 +11951,9 @@
   {
    "name": "Tacko Fall",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "PHL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10883,6 +11974,9 @@
   {
    "name": "Javonte Green",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
@@ -10903,6 +11997,10 @@
   {
    "name": "Harrison Barnes",
    "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "SAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -10934,6 +12032,9 @@
   {
    "name": "Nate Ament",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "MIL",
    "injury": "ACTIVE",
    "pct": null,
@@ -10965,6 +12066,10 @@
   {
    "name": "Cam Whitmore",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "DEN",
    "injury": "ACTIVE",
    "pct": null,
@@ -10985,6 +12090,10 @@
   {
    "name": "Jordan Clarkson",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -11016,6 +12125,10 @@
   {
    "name": "Buddy Hield",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "CHI",
    "injury": "ACTIVE",
    "pct": null,
@@ -11047,6 +12160,10 @@
   {
    "name": "Cameron Carr",
    "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -11067,6 +12184,9 @@
   {
    "name": "Sergio de Larrea",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "DAL",
    "injury": "OUT",
    "pct": null,
@@ -11087,6 +12207,9 @@
   {
    "name": "Dylan Cardwell",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "SAC",
    "injury": "ACTIVE",
    "pct": null,
@@ -11107,6 +12230,9 @@
   {
    "name": "Allen Graves",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "TOR",
    "injury": "ACTIVE",
    "pct": null,
@@ -11127,6 +12253,9 @@
   {
    "name": "Adem Bona",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "PHL",
    "injury": "OUT",
    "pct": null,
@@ -11158,6 +12287,10 @@
   {
    "name": "Lonzo Ball",
    "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -11167,6 +12300,9 @@
   {
    "name": "Sion James",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "CHA",
    "injury": "ACTIVE",
    "pct": null,
@@ -11187,6 +12323,9 @@
   {
    "name": "Braden Smith",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "IND",
    "injury": "ACTIVE",
    "pct": null,
@@ -11207,6 +12346,9 @@
   {
    "name": "Vit Krejci",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "POR",
    "injury": "OUT",
    "pct": null,
@@ -11238,6 +12380,9 @@
   {
    "name": "Leonard Miller",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "CHI",
    "injury": "ACTIVE",
    "pct": null,
@@ -11269,6 +12414,9 @@
   {
    "name": "Sidy Cissoko",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "POR",
    "injury": "ACTIVE",
    "pct": null,
@@ -11300,6 +12448,9 @@
   {
    "name": "Clint Capela",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "HOU",
    "injury": "OUT",
    "pct": null,
@@ -11330,6 +12481,9 @@
   {
    "name": "Jock Landale",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "ATL",
    "injury": "ACTIVE",
    "pct": null,
@@ -11350,6 +12504,9 @@
   {
    "name": "Jamal Cain",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "ORL",
    "injury": "ACTIVE",
    "pct": null,
@@ -11381,6 +12538,10 @@
   {
    "name": "Seth Curry",
    "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -11390,6 +12551,9 @@
   {
    "name": "Trey Lyles",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "MIN",
    "injury": "ACTIVE",
    "pct": null,
@@ -11421,6 +12585,10 @@
   {
    "name": "Bogdan Bogdanovic",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "HOU",
    "injury": "ACTIVE",
    "pct": null,
@@ -11452,6 +12620,9 @@
   {
    "name": "Yang Hansen",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "POR",
    "injury": "ACTIVE",
    "pct": null,
@@ -11483,6 +12654,9 @@
   {
    "name": "Noah Clowney",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -11514,6 +12688,10 @@
   {
    "name": "Khris Middleton",
    "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
    "team": "WAS",
    "injury": "ACTIVE",
    "pct": null,
@@ -11545,6 +12723,9 @@
   {
    "name": "Yanic Konan Niederhauser",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "LAC",
    "injury": "OUT",
    "pct": null,
@@ -11554,6 +12735,9 @@
   {
    "name": "Rob Dillingham",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "FA",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -11574,6 +12758,10 @@
   {
    "name": "Moses Moody",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "GSW",
    "injury": "OUT",
    "pct": null,
@@ -11594,6 +12782,10 @@
   {
    "name": "Jayden Quaintance",
    "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
    "team": "SAS",
    "injury": "OUT",
    "pct": null,
@@ -11603,6 +12795,9 @@
   {
    "name": "Tyus Jones",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "DEN",
    "injury": "ACTIVE",
    "pct": null,
@@ -11634,6 +12829,9 @@
   {
    "name": "Steven Adams",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "HOU",
    "injury": "OUT",
    "pct": null,
@@ -11664,6 +12862,10 @@
   {
    "name": "Ebuka Okorie",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "PG"
+   ],
    "team": "DET",
    "injury": "ACTIVE",
    "pct": null,
@@ -11684,6 +12886,9 @@
   {
    "name": "Tyler Kolek",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "NYK",
    "injury": "ACTIVE",
    "pct": null,
@@ -11704,6 +12909,9 @@
   {
    "name": "Gary Payton II",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "GSW",
    "injury": "DAY_TO_DAY",
    "pct": null,
@@ -11724,6 +12932,10 @@
   {
    "name": "Caris LeVert",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "MIL",
    "injury": "ACTIVE",
    "pct": null,
@@ -11744,6 +12956,10 @@
   {
    "name": "Terance Mann",
    "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
    "team": "BKN",
    "injury": "ACTIVE",
    "pct": null,
@@ -11775,6 +12991,9 @@
   {
    "name": "Jeremy Sochan",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -11795,6 +13014,9 @@
   {
    "name": "Mike Conley",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "BOS",
    "injury": "ACTIVE",
    "pct": null,
@@ -11826,6 +13048,9 @@
   {
    "name": "Tyrese Proctor",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "CLE",
    "injury": "ACTIVE",
    "pct": null,
@@ -11846,6 +13071,9 @@
   {
    "name": "Zuby Ejiofor",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "ATL",
    "injury": "ACTIVE",
    "pct": null,
@@ -11866,6 +13094,9 @@
   {
    "name": "Trayce Jackson-Davis",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "TOR",
    "injury": "ACTIVE",
    "pct": null,
@@ -11896,6 +13127,9 @@
   {
    "name": "Marcus Sasser",
    "pos": "PG",
+   "elig": [
+    "PG"
+   ],
    "team": "DAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -11927,6 +13161,9 @@
   {
    "name": "Ryan Conwell",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "MIA",
    "injury": "ACTIVE",
    "pct": null,
@@ -11947,6 +13184,9 @@
   {
    "name": "Thanasis Antetokounmpo",
    "pos": "SF",
+   "elig": [
+    "SF"
+   ],
    "team": "FA",
    "injury": "ACTIVE",
    "pct": null,
@@ -11956,6 +13196,9 @@
   {
    "name": "Koa Peat",
    "pos": "PF",
+   "elig": [
+    "PF"
+   ],
    "team": "PHO",
    "injury": "ACTIVE",
    "pct": null,
@@ -11976,6 +13219,9 @@
   {
    "name": "Alijah Martin",
    "pos": "SG",
+   "elig": [
+    "SG"
+   ],
    "team": "TOR",
    "injury": "ACTIVE",
    "pct": null,
@@ -11996,6 +13242,9 @@
   {
    "name": "Kevon Looney",
    "pos": "C",
+   "elig": [
+    "C"
+   ],
    "team": "LAL",
    "injury": "ACTIVE",
    "pct": null,
@@ -14194,6 +15443,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 2.8
  }
 }
