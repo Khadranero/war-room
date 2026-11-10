@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T06:10:23.648828Z",
+ "updated": "2026-11-10T06:20:25.070331Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -11595,16 +11595,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -14135,6 +14135,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.3
  }
 }
