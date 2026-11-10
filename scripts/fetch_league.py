@@ -190,10 +190,17 @@ for c in CATS:
         power[t] += len(order) - i
 power_rank = sorted(({"team": t, "score": s} for t, s in power.items()), key=lambda r: -r["score"])
 
+
+def elig_of(p):
+    try:
+        return [x for x in getattr(p, "eligibleSlots", []) if x in ("PG", "SG", "SF", "PF", "C")]
+    except Exception:
+        return []
+
 rosters = {}
 for t in league.teams:
     rosters[name(t)] = [{
-        "name": p.name, "pos": p.position, "slot": getattr(p, "lineupSlot", ""),
+        "name": p.name, "pos": p.position, "elig": elig_of(p), "slot": getattr(p, "lineupSlot", ""),
         "injury": getattr(p, "injuryStatus", "ACTIVE"),
         "team": getattr(p, "proTeam", ""),
         "avg": player_avgs(p),
@@ -229,7 +236,7 @@ free_agents = []
 try:
     for p in league.free_agents(size=200):
         free_agents.append({
-            "name": p.name, "pos": getattr(p, "position", ""), "team": getattr(p, "proTeam", ""),
+            "name": p.name, "pos": getattr(p, "position", ""), "elig": elig_of(p), "team": getattr(p, "proTeam", ""),
             "injury": getattr(p, "injuryStatus", "ACTIVE"),
             "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p), "proj": player_proj(p)})
 except Exception as e:
