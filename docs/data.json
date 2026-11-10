@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T19:10:26.776080Z",
+ "updated": "2026-11-10T19:20:24.006797Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3111,7 +3111,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -3146,7 +3146,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3459,7 +3459,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -3523,30 +3523,6 @@
     }
    },
    {
-    "name": "Spencer Jones",
-    "pos": "SF",
-    "elig": [
-     "SF",
-     "PF"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "DEN",
-    "avg": {
-     "PTS": 6.5,
-     "REB": 3.0,
-     "AST": 0.5,
-     "STL": 0.0,
-     "BLK": 1.0,
-     "3PM": 1.5,
-     "FG%": 0.55555556,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
-    },
-    "proj": {}
-   },
-   {
     "name": "Mitchell Robinson",
     "pos": "C",
     "elig": [
@@ -3576,6 +3552,41 @@
      "FG%": 0.715,
      "FT%": 0.417,
      "TO": 0.9016393442622951,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Ryan Rollins",
+    "pos": "SG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
+    "slot": "PG",
+    "injury": "ACTIVE",
+    "team": "MIL",
+    "avg": {
+     "PTS": 10.285714285714286,
+     "REB": 3.857142857142857,
+     "AST": 4.285714285714286,
+     "STL": 0.7142857142857143,
+     "BLK": 0.2857142857142857,
+     "3PM": 1.4285714285714286,
+     "FG%": 0.40298507,
+     "FT%": 0.66666667,
+     "TO": 2.4285714285714284,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 14.91304347826087,
+     "REB": 4.0,
+     "AST": 4.797101449275362,
+     "STL": 1.3043478260869565,
+     "BLK": 0.4057971014492754,
+     "3PM": 2.1449275362318843,
+     "FG%": 0.472,
+     "FT%": 0.796,
+     "TO": 2.3043478260869565,
      "_src": "2027_projected"
     }
    }
@@ -6646,6 +6657,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-10T19:19:29.123000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Ryan Rollins"
+  },
+  {
+   "date": "2026-11-10T19:19:29.123000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Spencer Jones"
+  },
+  {
    "date": "2026-11-10T07:29:45.845000",
    "team": "Team Batrouni",
    "action": "DROPPED",
@@ -6938,18 +6961,6 @@
    "team": "Khadracadabra",
    "action": "DROPPED",
    "player": "Kingston Flemings"
-  },
-  {
-   "date": "2026-11-08T10:39:19.033000",
-   "team": "Wembelieve I can fly",
-   "action": "DROPPED",
-   "player": "De'Anthony Melton"
-  },
-  {
-   "date": "2026-11-08T10:39:19.033000",
-   "team": "Wembelieve I can fly",
-   "action": "FA ADDED",
-   "player": "Payton Pritchard"
   }
  ],
  "schedule": {
@@ -7246,41 +7257,6 @@
     "FG%": 0.533,
     "FT%": 0.734,
     "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Ryan Rollins",
-   "pos": "SG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.285714285714286,
-    "REB": 3.857142857142857,
-    "AST": 4.285714285714286,
-    "STL": 0.7142857142857143,
-    "BLK": 0.2857142857142857,
-    "3PM": 1.4285714285714286,
-    "FG%": 0.40298507,
-    "FT%": 0.66666667,
-    "TO": 2.4285714285714284,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.91304347826087,
-    "REB": 4.0,
-    "AST": 4.797101449275362,
-    "STL": 1.3043478260869565,
-    "BLK": 0.4057971014492754,
-    "3PM": 2.1449275362318843,
-    "FG%": 0.472,
-    "FT%": 0.796,
-    "TO": 2.3043478260869565,
     "_src": "2027_projected"
    }
   },
@@ -10290,6 +10266,30 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Spencer Jones",
+   "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
+   "team": "DEN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.5,
+    "REB": 3.0,
+    "AST": 0.5,
+    "STL": 0.0,
+    "BLK": 1.0,
+    "3PM": 1.5,
+    "FG%": 0.55555556,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Bub Carrington",
@@ -13745,6 +13745,18 @@
  },
  "log": [
   {
+   "date": "2026-11-10T19:19:29.123000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Ryan Rollins"
+  },
+  {
+   "date": "2026-11-10T19:19:29.123000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Spencer Jones"
+  },
+  {
    "date": "2026-11-10T07:29:45.845000",
    "team": "Team Batrouni",
    "action": "DROPPED",
@@ -15432,6 +15444,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 4.9
+  "run_seconds": 2.9
  }
 }
