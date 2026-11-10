@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:00:41.373167Z",
+ "updated": "2026-11-10T22:10:27.751309Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -8804,7 +8804,7 @@
     "PG"
    ],
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 4.0,
@@ -13266,6 +13266,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaylon Tyson: Questionable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
+   "published": "Tue, 10 Nov 2026 2:07:00 PM PST",
+   "summary": "Tyson (ankle) is questionable to face the Knicks on Wednesday.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Immanuel Quickley: Iffy for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
    "published": "Tue, 10 Nov 2026 1:50:00 PM PST",
@@ -13291,13 +13298,6 @@
    "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
    "published": "Tue, 10 Nov 2026 11:25:00 AM PST",
    "summary": "Williamson (rest) is off the injury report for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Expected to play Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Tue, 10 Nov 2026 11:22:00 AM PST",
-   "summary": "Murphy (knee) is probable for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15444,6 +15444,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 5.5
+  "run_seconds": 4.3
  }
 }
