@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T06:40:24.915605Z",
+ "updated": "2026-11-10T06:50:23.419997Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1951,16 +1951,16 @@
     "injury": "OUT",
     "team": "NOP",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.5,
-     "AST": 2.5,
-     "STL": 1.0,
-     "BLK": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.88888889,
-     "FT%": 0.75,
-     "TO": 0.5,
-     "_src": "2027_last_30"
+     "FG%": 1.0,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 7.537313432835821,
@@ -2541,16 +2541,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3464,16 +3464,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -4417,16 +4417,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -6108,6 +6108,30 @@
  },
  "activity": [
   {
+   "date": "2026-11-10T06:44:22.931000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-10T06:44:22.931000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Mitchell Robinson"
+  },
+  {
+   "date": "2026-11-10T06:42:09.174000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Aday Mara"
+  },
+  {
+   "date": "2026-11-10T06:42:09.174000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Grayson Allen"
+  },
+  {
    "date": "2026-11-10T05:01:00.731000",
    "team": "Team Batrouni",
    "action": "TRADED",
@@ -6794,6 +6818,37 @@
    }
   },
   {
+   "name": "Paul Reed",
+   "pos": "C",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.125,
+    "REB": 7.125,
+    "AST": 2.0,
+    "STL": 1.25,
+    "BLK": 1.125,
+    "3PM": 0.375,
+    "FG%": 0.53521127,
+    "FT%": 0.625,
+    "TO": 2.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.428571428571429,
+    "REB": 4.396825396825397,
+    "AST": 1.2063492063492063,
+    "STL": 0.9047619047619048,
+    "BLK": 0.9047619047619048,
+    "3PM": 0.19047619047619047,
+    "FG%": 0.603,
+    "FT%": 0.672,
+    "TO": 0.9047619047619048,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Julian Champagnie",
    "pos": "SF",
    "team": "SAS",
@@ -7236,24 +7291,35 @@
    }
   },
   {
-   "name": "Aday Mara",
-   "pos": "C",
-   "team": "OKC",
+   "name": "Grayson Allen",
+   "pos": "SG",
+   "team": "CHA",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.0,
-    "REB": 6.75,
-    "AST": 1.5,
-    "STL": 0.0,
-    "BLK": 2.125,
-    "3PM": 0.125,
-    "FG%": 0.63265306,
-    "FT%": 0.6,
-    "TO": 1.875,
+    "PTS": 14.5,
+    "REB": 2.875,
+    "AST": 2.625,
+    "STL": 0.875,
+    "BLK": 0.5,
+    "3PM": 3.25,
+    "FG%": 0.44,
+    "FT%": 0.92307692,
+    "TO": 2.25,
     "_src": "2027_last_15"
    },
-   "proj": {}
+   "proj": {
+    "PTS": 14.047619047619047,
+    "REB": 2.9047619047619047,
+    "AST": 3.2063492063492065,
+    "STL": 1.0952380952380953,
+    "BLK": 0.30158730158730157,
+    "3PM": 2.7301587301587302,
+    "FG%": 0.413,
+    "FT%": 0.854,
+    "TO": 1.3968253968253967,
+    "_src": "2027_projected"
+   }
   },
   {
    "name": "Nolan Traore",
@@ -7530,36 +7596,6 @@
     "FG%": 0.434,
     "FT%": 0.902,
     "TO": 1.393939393939394,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Mitchell Robinson",
-   "pos": "C",
-   "team": "BOS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.142857142857143,
-    "REB": 6.285714285714286,
-    "AST": 0.42857142857142855,
-    "STL": 0.8571428571428571,
-    "BLK": 0.5714285714285714,
-    "3PM": 0.0,
-    "FG%": 0.6875,
-    "FT%": 0.375,
-    "TO": 0.7142857142857143,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.344262295081967,
-    "REB": 11.098360655737705,
-    "AST": 1.098360655737705,
-    "STL": 1.1967213114754098,
-    "BLK": 1.5081967213114753,
-    "FG%": 0.715,
-    "FT%": 0.417,
-    "TO": 0.9016393442622951,
     "_src": "2027_projected"
    }
   },
@@ -12495,6 +12531,30 @@
  },
  "log": [
   {
+   "date": "2026-11-10T06:44:22.931000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-10T06:44:22.931000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Mitchell Robinson"
+  },
+  {
+   "date": "2026-11-10T06:42:09.174000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Aday Mara"
+  },
+  {
+   "date": "2026-11-10T06:42:09.174000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Grayson Allen"
+  },
+  {
    "date": "2026-11-10T05:01:00.731000",
    "team": "Team Batrouni",
    "action": "TRADED",
@@ -14146,6 +14206,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.1
  }
 }
