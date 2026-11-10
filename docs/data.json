@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T05:40:23.770086Z",
+ "updated": "2026-11-10T05:50:24.880943Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -11595,16 +11595,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -12005,6 +12005,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Brandin Podziemski: Drills five treys in victory",
+   "link": "https://www.rotowire.com//basketball/player/brandin-podziemski-5889",
+   "published": "Mon, 09 Nov 2026 9:38:00 PM PST",
+   "summary": "Podziemski totaled 25 points (10-19 FG, 5-11 3Pt), two rebounds, four assists, one steal and one block in 26 minutes during Monday's 138-87 win over the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Devin Booker: Produces 32 points in loss",
    "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
    "published": "Mon, 09 Nov 2026 8:31:00 PM PST",
@@ -12030,13 +12037,6 @@
    "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
    "published": "Mon, 09 Nov 2026 7:58:00 PM PST",
    "summary": "Murray amassed 38 points (14-23 FG, 5-8 3Pt, 5-5 FT), two rebounds, two assists, two blocks and one steal across 39 minutes in Monday's 110-100 loss to the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cooper Flagg: Pops for 43 points",
-   "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
-   "published": "Mon, 09 Nov 2026 7:46:00 PM PST",
-   "summary": "Flagg finished with 43 points (16-25 FG, 3-6 3Pt, 8-8 FT), 11 rebounds, six assists, three steals and one block in 39 minutes during Monday's 125-122 win over Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -14135,6 +14135,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.1
  }
 }
