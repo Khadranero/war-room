@@ -214,7 +214,13 @@ except Exception as e:
 schedule = {}
 try:
     for t in league.teams:
-        schedule[name(t)] = [getattr(o, "team_name", str(o)) for o in t.schedule]
+        def _opp(o, t=t):
+            if hasattr(o, "team_name"):
+                return o.team_name
+            h, a = getattr(o, "home_team", None), getattr(o, "away_team", None)
+            other = a if (h is t or getattr(h, "team_id", None) == t.team_id) else h
+            return name(other) if other is not None and hasattr(other, "team_name") else str(o)
+        schedule[name(t)] = [_opp(o) for o in t.schedule]
 except Exception as e:
     print(f"schedule: {e}", file=sys.stderr)
 
