@@ -830,6 +830,17 @@ document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>showTab(b.data
 showTab((location.hash||'').slice(1));
 const RAW='https://raw.githubusercontent.com/khadranero/war-room/main/docs/data.json';
 let SRC='';
+function fixSchedule(d){
+  if(!d||!d.schedule)return;
+  const names=Object.keys(d.schedule);
+  const find=k=>names.find(t=>t.trim().toLowerCase()===String(k).trim().toLowerCase());
+  names.forEach(t=>{d.schedule[t]=(d.schedule[t]||[]).map(o=>{
+    const m=String(o).match(/^Matchup\(Team\((.*?)\)(?:\s+[\d.]+\s*-\s*[\d.]+\s+|,\s*)Team\((.*)\)\)$/);
+    if(!m)return o;
+    const a=find(m[1]),b=find(m[2]);
+    return (a&&a!==t)?a:(b&&b!==t)?b:(a||b||o);
+  })});
+}
 function load(){
   const get=u=>fetch(u+'?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
   // GitHub Pages only rebuilds ~10 times an hour, so also read the repo's own copy and use whichever is newer.
@@ -842,7 +853,7 @@ function load(){
       const lag=Math.round((new Date(a.value.updated)-new Date(b.value.updated))/60000);
       if(lag>20)SRC='live copy (site is '+lag+' min behind)';
     }
-    D=best;ZS=null;buildStatic();render();
+    D=best;fixSchedule(D);ZS=null;buildStatic();render();
   }).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
 }
 load();
