@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T19:20:24.006797Z",
+ "updated": "2026-11-10T19:30:29.224835Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -5742,7 +5742,7 @@
      "C"
     ],
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 21.142857142857142,
@@ -10351,6 +10351,18 @@
    }
   },
   {
+   "name": "Russell Westbrook",
+   "pos": "PG",
+   "elig": [
+    "PG"
+   ],
+   "team": "FA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {},
+   "proj": {}
+  },
+  {
    "name": "Marcus Smart",
    "pos": "SG",
    "elig": [
@@ -10384,18 +10396,6 @@
     "TO": 1.596774193548387,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Russell Westbrook",
-   "pos": "PG",
-   "elig": [
-    "PG"
-   ],
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
   },
   {
    "name": "Moritz Wagner",
@@ -13266,6 +13266,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Zion Williamson: Absent from injury report",
+   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
+   "published": "Tue, 10 Nov 2026 11:25:00 AM PST",
+   "summary": "Williamson (rest) is off the injury report for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Expected to play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Tue, 10 Nov 2026 11:22:00 AM PST",
+   "summary": "Murphy (knee) is probable for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Josh Hart: Downgraded to doubtful",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Tue, 10 Nov 2026 11:20:00 AM PST",
+   "summary": "Hart is doubtful for Tuesday's game against the Bucks due to an illness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Lauri Markkanen: Ruled out with wrist sprain",
    "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
    "published": "Tue, 10 Nov 2026 10:30:00 AM PST",
@@ -13277,27 +13298,6 @@
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Tue, 10 Nov 2026 9:34:00 AM PST",
    "summary": "Leonard (knee) is continuing the reconditioning process, and another update will be provided in one week, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tristan da Silva: Late addition to injury report",
-   "link": "https://www.rotowire.com//basketball/player/tristan-da-silva-6267",
-   "published": "Tue, 10 Nov 2026 8:51:00 AM PST",
-   "summary": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Brandin Podziemski: Drills five treys in victory",
-   "link": "https://www.rotowire.com//basketball/player/brandin-podziemski-5889",
-   "published": "Mon, 09 Nov 2026 9:38:00 PM PST",
-   "summary": "Podziemski totaled 25 points (10-19 FG, 5-11 3Pt), two rebounds, four assists, one steal and one block in 26 minutes during Monday's 138-87 win over the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Devin Booker: Produces 32 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
-   "published": "Mon, 09 Nov 2026 8:31:00 PM PST",
-   "summary": "Booker tallied 32 points (10-17 FG, 3-5 3Pt, 9-10 FT), two rebounds, four assists, one steal and one block in 29 minutes during Monday's 122-96 loss to San Antonio.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15444,6 +15444,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 4.1
  }
 }
