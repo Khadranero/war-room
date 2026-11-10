@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T23:00:32.995346Z",
+ "updated": "2026-11-10T23:10:24.952254Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2106,7 +2106,7 @@
      "SG"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
      "PTS": 24.75,
@@ -13272,6 +13272,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Austin Reaves: Set to return Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
+   "published": "Tue, 10 Nov 2026 3:06:00 PM PST",
+   "summary": "Reaves (illness) is off the injury report for Wednesday's game against the Bucks, Ryan Ward of SI.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Josh Hart: Ruled out for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Tue, 10 Nov 2026 2:59:00 PM PST",
+   "summary": "Hart (illness) won't play Tuesday against the Bucks, Kristian Winfield of the New York Daily News reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Mikel Brown: Not listed on injury report",
    "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
    "published": "Tue, 10 Nov 2026 2:51:00 PM PST",
@@ -13290,20 +13304,6 @@
    "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
    "published": "Tue, 10 Nov 2026 2:48:00 PM PST",
    "summary": "Vassell (groin) is listed as questionable for Wednesday's game versus the Bulls, NBA reporter Matthew Tynan reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Norman Powell: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
-   "published": "Tue, 10 Nov 2026 2:22:00 PM PST",
-   "summary": "Powell (shoulder) is listed as questionable for Wednesday's game versus the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Bilal Coulibaly: Not listed on injury report",
-   "link": "https://www.rotowire.com//basketball/player/bilal-coulibaly-5945",
-   "published": "Tue, 10 Nov 2026 2:13:00 PM PST",
-   "summary": "Coulibaly (hand) has been removed from the injury report ahead of Wednesday's meeting in Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15462,6 +15462,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.4
  }
 }
