@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T04:30:28.553346Z",
+ "updated": "2026-11-10T04:40:24.680132Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -70,7 +70,7 @@
    "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_A_2.svg"
   },
   {
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "wins": 1,
    "losses": 2,
    "ties": 0,
@@ -128,7 +128,7 @@
    "score": 48
   },
   {
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "score": 42
   },
   {
@@ -164,7 +164,7 @@
     "rank": 5
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 1925.0,
     "rank": 6
    },
@@ -236,7 +236,7 @@
     "rank": 9
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 620.0,
     "rank": 10
    }
@@ -263,7 +263,7 @@
     "rank": 4
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 436.0,
     "rank": 5
    },
@@ -335,7 +335,7 @@
     "rank": 8
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 118.0,
     "rank": 9
    },
@@ -352,7 +352,7 @@
     "rank": 1
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 95.0,
     "rank": 2
    },
@@ -419,7 +419,7 @@
     "rank": 4
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 209.0,
     "rank": 5
    },
@@ -491,7 +491,7 @@
     "rank": 8
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 1.355,
     "rank": 9
    },
@@ -518,7 +518,7 @@
     "rank": 3
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 2.461,
     "rank": 4
    },
@@ -585,7 +585,7 @@
     "rank": 6
    },
    {
-    "team": "KhadraCadabra",
+    "team": "Khadracadabra",
     "value": 258.0,
     "rank": 7
    },
@@ -789,7 +789,7 @@
   },
   {
    "week": 1,
-   "home": "KhadraCadabra",
+   "home": "Khadracadabra",
    "away": "Akumpo",
    "home_score": 2,
    "away_score": 7,
@@ -1014,7 +1014,7 @@
   },
   {
    "week": 2,
-   "home": "KhadraCadabra",
+   "home": "Khadracadabra",
    "away": "Crackheads",
    "home_score": 7,
    "away_score": 2,
@@ -1195,7 +1195,7 @@
   {
    "week": 3,
    "home": "Real Men Eat Ass(ouad)",
-   "away": "KhadraCadabra",
+   "away": "Khadracadabra",
    "home_score": 5,
    "away_score": 4,
    "cats": {
@@ -1374,7 +1374,7 @@
   },
   {
    "week": 4,
-   "home": "KhadraCadabra",
+   "home": "Khadracadabra",
    "away": "Pasta Warriors",
    "home_score": 0,
    "away_score": 0,
@@ -1579,15 +1579,15 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 31.0,
-     "REB": 4.571428571428571,
+     "PTS": 31.571428571428573,
+     "REB": 4.714285714285714,
      "AST": 4.857142857142857,
      "STL": 1.0,
      "BLK": 0.14285714285714285,
-     "3PM": 5.0,
-     "FG%": 0.52,
-     "FT%": 0.98113208,
-     "TO": 1.8571428571428572,
+     "3PM": 5.142857142857143,
+     "FG%": 0.52380952,
+     "FT%": 0.98148148,
+     "TO": 2.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -1796,13 +1796,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 15.625,
+     "PTS": 16.0,
      "REB": 5.375,
      "AST": 4.125,
      "STL": 1.0,
      "BLK": 0.5,
-     "3PM": 2.625,
-     "FG%": 0.5,
+     "3PM": 2.75,
+     "FG%": 0.50549451,
      "FT%": 0.63636364,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -1951,16 +1951,16 @@
     "injury": "OUT",
     "team": "NOP",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.5,
-     "AST": 2.5,
-     "STL": 1.0,
-     "BLK": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.88888889,
-     "FT%": 0.75,
-     "TO": 0.5,
-     "_src": "2027_last_30"
+     "FG%": 1.0,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 7.537313432835821,
@@ -2324,13 +2324,13 @@
     "avg": {
      "PTS": 18.0,
      "REB": 5.125,
-     "AST": 6.125,
+     "AST": 6.25,
      "STL": 1.25,
      "BLK": 0.625,
      "3PM": 1.25,
-     "FG%": 0.49137931,
+     "FG%": 0.48717949,
      "FT%": 0.76923077,
-     "TO": 2.625,
+     "TO": 2.875,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2541,16 +2541,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -2603,13 +2603,13 @@
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
-     "PTS": 9.8,
+     "PTS": 11.0,
      "REB": 4.8,
      "AST": 3.4,
      "STL": 1.2,
      "BLK": 0.2,
-     "3PM": 0.4,
-     "FG%": 0.34883721,
+     "3PM": 0.8,
+     "FG%": 0.37777778,
      "FT%": 1.0,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -2919,7 +2919,7 @@
      "REB": 12.25,
      "AST": 3.25,
      "STL": 1.25,
-     "BLK": 4.375,
+     "BLK": 4.5,
      "3PM": 2.125,
      "FG%": 0.57803468,
      "FT%": 0.79411765,
@@ -3464,16 +3464,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -3830,7 +3830,7 @@
     }
    }
   ],
-  "KhadraCadabra": [
+  "Khadracadabra": [
    {
     "name": "Nikola Jokic",
     "pos": "C",
@@ -4417,16 +4417,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -4639,7 +4639,7 @@
      "STL": 1.125,
      "BLK": 0.125,
      "3PM": 1.5,
-     "FG%": 0.45652174,
+     "FG%": 0.4516129,
      "FT%": 0.93103448,
      "TO": 0.875,
      "_src": "2027_last_15"
@@ -6081,8 +6081,8 @@
     "team": "GSW",
     "avg": {
      "PTS": 2.5714285714285716,
-     "REB": 4.857142857142857,
-     "AST": 7.571428571428571,
+     "REB": 5.0,
+     "AST": 7.714285714285714,
      "STL": 1.1428571428571428,
      "BLK": 0.8571428571428571,
      "3PM": 0.14285714285714285,
@@ -6157,7 +6157,7 @@
   },
   {
    "date": "2026-11-09T22:53:01.189000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "FA ADDED",
    "player": "Isaiah Collier"
   },
@@ -6187,7 +6187,7 @@
   },
   {
    "date": "2026-11-09T21:20:11.092000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "FA ADDED",
    "player": "Brayden Burries"
   },
@@ -6247,13 +6247,13 @@
   },
   {
    "date": "2026-11-09T17:18:02.096000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Jamal Murray"
   },
   {
    "date": "2026-11-09T17:18:02.096000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Jrue Holiday"
   },
@@ -6271,25 +6271,25 @@
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Matas Buzelis"
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Chet Holmgren"
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Jonathan Kuminga"
   },
   {
    "date": "2026-11-09T14:16:00.810000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Kevin Durant"
   },
@@ -6301,13 +6301,13 @@
   },
   {
    "date": "2026-11-09T13:31:13.388000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "FA ADDED",
    "player": "Matisse Thybulle"
   },
   {
    "date": "2026-11-09T13:31:13.388000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "DROPPED",
    "player": "Reed Sheppard"
   },
@@ -6337,7 +6337,7 @@
   },
   {
    "date": "2026-11-08T14:22:28.543000",
-   "team": "KhadraCadabra",
+   "team": "Khadracadabra",
    "action": "DROPPED",
    "player": "Kingston Flemings"
   },
@@ -6396,7 +6396,7 @@
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors) 5.0 - 4.0 Team(Rubio Bzeit ))",
    "Matchup(Team(Team Batrouni) 4.5 - 4.5 Team(Rubio Bzeit ))",
-   "Matchup(Team(Rubio Bzeit ), Team(KhadraCadabra))",
+   "Matchup(Team(Rubio Bzeit ), Team(Khadracadabra))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Rubio Bzeit ))",
@@ -6405,7 +6405,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Team Batrouni))",
-   "Matchup(Team(KhadraCadabra), Team(Rubio Bzeit ))",
+   "Matchup(Team(Khadracadabra), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Rubio Bzeit ))",
    "Matchup(Team(Rubio Bzeit ), Team(Wembelieve I can fly))"
@@ -6418,7 +6418,7 @@
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Momo in Six))",
-   "Matchup(Team(Momo in Six), Team(KhadraCadabra))",
+   "Matchup(Team(Momo in Six), Team(Khadracadabra))",
    "Matchup(Team(AARON VENGERS), Team(Momo in Six))",
    "Matchup(Team(Team Batrouni), Team(Momo in Six))",
    "Matchup(Team(Momo in Six), Team(Wembelieve I can fly))",
@@ -6427,7 +6427,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Momo in Six))",
    "Matchup(Team(Pasta Warriors), Team(Momo in Six))",
    "Matchup(Team(Momo in Six), Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra), Team(Momo in Six))"
+   "Matchup(Team(Khadracadabra), Team(Momo in Six))"
   ],
   "Team Batrouni": [
    "Matchup(Team(Momo in Six) 4.5 - 4.5 Team(Team Batrouni))",
@@ -6435,7 +6435,7 @@
    "Matchup(Team(Wembelieve I can fly) 6.0 - 3.0 Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni) 4.5 - 4.5 Team(Rubio Bzeit ))",
    "Matchup(Team(Akumpo), Team(Team Batrouni))",
-   "Matchup(Team(Team Batrouni), Team(KhadraCadabra))",
+   "Matchup(Team(Team Batrouni), Team(Khadracadabra))",
    "Matchup(Team(Crackheads), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(AARON VENGERS))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Team Batrouni))",
@@ -6444,7 +6444,7 @@
    "Matchup(Team(Team Batrouni), Team(Wembelieve I can fly))",
    "Matchup(Team(Rubio Bzeit ), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(Akumpo))",
-   "Matchup(Team(KhadraCadabra), Team(Team Batrouni))",
+   "Matchup(Team(Khadracadabra), Team(Team Batrouni))",
    "Matchup(Team(Team Batrouni), Team(Crackheads))",
    "Matchup(Team(AARON VENGERS), Team(Team Batrouni))"
   ],
@@ -6457,7 +6457,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Wembelieve I can fly))",
    "Matchup(Team(Wembelieve I can fly), Team(Pasta Warriors))",
    "Matchup(Team(Wembelieve I can fly), Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra), Team(Wembelieve I can fly))",
+   "Matchup(Team(Khadracadabra), Team(Wembelieve I can fly))",
    "Matchup(Team(Wembelieve I can fly), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Wembelieve I can fly))",
    "Matchup(Team(Team Batrouni), Team(Wembelieve I can fly))",
@@ -6468,7 +6468,7 @@
    "Matchup(Team(Rubio Bzeit ), Team(Wembelieve I can fly))"
   ],
   "Akumpo": [
-   "Matchup(Team(KhadraCadabra) 2.0 - 7.0 Team(Akumpo))",
+   "Matchup(Team(Khadracadabra) 2.0 - 7.0 Team(Akumpo))",
    "Matchup(Team(Akumpo) 5.0 - 4.0 Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six) 3.0 - 6.0 Team(Akumpo))",
    "Matchup(Team(Akumpo) 4.5 - 4.5 Team(Wembelieve I can fly))",
@@ -6477,7 +6477,7 @@
    "Matchup(Team(Akumpo), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(Rubio Bzeit ))",
-   "Matchup(Team(Akumpo), Team(KhadraCadabra))",
+   "Matchup(Team(Akumpo), Team(Khadracadabra))",
    "Matchup(Team(AARON VENGERS), Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Akumpo))",
@@ -6486,29 +6486,29 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Akumpo))",
    "Matchup(Team(Akumpo), Team(Pasta Warriors))"
   ],
-  "KhadraCadabra": [
-   "Matchup(Team(KhadraCadabra) 2.0 - 7.0 Team(Akumpo))",
-   "Matchup(Team(KhadraCadabra) 7.0 - 2.0 Team(Crackheads))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(KhadraCadabra))",
-   "Matchup(Team(KhadraCadabra) 4.5 - 4.5 Team(Pasta Warriors))",
-   "Matchup(Team(Rubio Bzeit ), Team(KhadraCadabra))",
-   "Matchup(Team(Team Batrouni), Team(KhadraCadabra))",
-   "Matchup(Team(KhadraCadabra), Team(AARON VENGERS))",
-   "Matchup(Team(Momo in Six), Team(KhadraCadabra))",
-   "Matchup(Team(KhadraCadabra), Team(Wembelieve I can fly))",
-   "Matchup(Team(Akumpo), Team(KhadraCadabra))",
-   "Matchup(Team(Crackheads), Team(KhadraCadabra))",
-   "Matchup(Team(KhadraCadabra), Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Pasta Warriors), Team(KhadraCadabra))",
-   "Matchup(Team(KhadraCadabra), Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra), Team(Team Batrouni))",
-   "Matchup(Team(AARON VENGERS), Team(KhadraCadabra))",
-   "Matchup(Team(KhadraCadabra), Team(Momo in Six))"
+  "Khadracadabra": [
+   "Matchup(Team(Khadracadabra) 2.0 - 7.0 Team(Akumpo))",
+   "Matchup(Team(Khadracadabra) 7.0 - 2.0 Team(Crackheads))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(Khadracadabra))",
+   "Matchup(Team(Khadracadabra) 4.5 - 4.5 Team(Pasta Warriors))",
+   "Matchup(Team(Rubio Bzeit ), Team(Khadracadabra))",
+   "Matchup(Team(Team Batrouni), Team(Khadracadabra))",
+   "Matchup(Team(Khadracadabra), Team(AARON VENGERS))",
+   "Matchup(Team(Momo in Six), Team(Khadracadabra))",
+   "Matchup(Team(Khadracadabra), Team(Wembelieve I can fly))",
+   "Matchup(Team(Akumpo), Team(Khadracadabra))",
+   "Matchup(Team(Crackheads), Team(Khadracadabra))",
+   "Matchup(Team(Khadracadabra), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Pasta Warriors), Team(Khadracadabra))",
+   "Matchup(Team(Khadracadabra), Team(Rubio Bzeit ))",
+   "Matchup(Team(Khadracadabra), Team(Team Batrouni))",
+   "Matchup(Team(AARON VENGERS), Team(Khadracadabra))",
+   "Matchup(Team(Khadracadabra), Team(Momo in Six))"
   ],
   "Real Men Eat Ass(ouad)": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ) 6.0 - 3.0 Team(Real Men Eat Ass(ouad)))",
-   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(KhadraCadabra))",
+   "Matchup(Team(Real Men Eat Ass(ouad)) 5.0 - 4.0 Team(Khadracadabra))",
    "Matchup(Team(AARON VENGERS) 4.5 - 4.5 Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Momo in Six), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Wembelieve I can fly))",
@@ -6517,7 +6517,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Team Batrouni))",
    "Matchup(Team(Pasta Warriors), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra), Team(Real Men Eat Ass(ouad)))",
+   "Matchup(Team(Khadracadabra), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AARON VENGERS))",
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Real Men Eat Ass(ouad)))",
@@ -6531,7 +6531,7 @@
    "Matchup(Team(AARON VENGERS) 4.5 - 4.5 Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra), Team(AARON VENGERS))",
+   "Matchup(Team(Khadracadabra), Team(AARON VENGERS))",
    "Matchup(Team(Team Batrouni), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(AARON VENGERS))",
@@ -6540,14 +6540,14 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(AARON VENGERS))",
    "Matchup(Team(AARON VENGERS), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(AARON VENGERS))",
-   "Matchup(Team(AARON VENGERS), Team(KhadraCadabra))",
+   "Matchup(Team(AARON VENGERS), Team(Khadracadabra))",
    "Matchup(Team(AARON VENGERS), Team(Team Batrouni))"
   ],
   "Pasta Warriors": [
    "Matchup(Team(Real Men Eat Ass(ouad)) 6.0 - 3.0 Team(Pasta Warriors))",
    "Matchup(Team(Team Batrouni) 2.0 - 7.0 Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors) 5.0 - 4.0 Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra) 4.5 - 4.5 Team(Pasta Warriors))",
+   "Matchup(Team(Khadracadabra) 4.5 - 4.5 Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Pasta Warriors))",
    "Matchup(Team(Wembelieve I can fly), Team(Pasta Warriors))",
@@ -6556,7 +6556,7 @@
    "Matchup(Team(Pasta Warriors), Team(Real Men Eat Ass(ouad)))",
    "Matchup(Team(Pasta Warriors), Team(Team Batrouni))",
    "Matchup(Team(Rubio Bzeit ), Team(Pasta Warriors))",
-   "Matchup(Team(Pasta Warriors), Team(KhadraCadabra))",
+   "Matchup(Team(Pasta Warriors), Team(Khadracadabra))",
    "Matchup(Team(AARON VENGERS), Team(Pasta Warriors))",
    "Matchup(Team(Pasta Warriors), Team(Momo in Six))",
    "Matchup(Team(Pasta Warriors), Team(Wembelieve I can fly))",
@@ -6564,7 +6564,7 @@
   ],
   "Crackheads": [
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Rubio Bzeit ))",
-   "Matchup(Team(KhadraCadabra) 7.0 - 2.0 Team(Crackheads))",
+   "Matchup(Team(Khadracadabra) 7.0 - 2.0 Team(Crackheads))",
    "Matchup(Team(AARON VENGERS) 4.0 - 5.0 Team(Crackheads))",
    "Matchup(Team(Crackheads) 4.5 - 4.5 Team(Momo in Six))",
    "Matchup(Team(Wembelieve I can fly), Team(Crackheads))",
@@ -6573,7 +6573,7 @@
    "Matchup(Team(Real Men Eat Ass(ouad)), Team(Crackheads))",
    "Matchup(Team(Crackheads), Team(Pasta Warriors))",
    "Matchup(Team(Rubio Bzeit ), Team(Crackheads))",
-   "Matchup(Team(Crackheads), Team(KhadraCadabra))",
+   "Matchup(Team(Crackheads), Team(Khadracadabra))",
    "Matchup(Team(Crackheads), Team(AARON VENGERS))",
    "Matchup(Team(Momo in Six), Team(Crackheads))",
    "Matchup(Team(Crackheads), Team(Wembelieve I can fly))",
@@ -6834,7 +6834,7 @@
    "name": "Devin Vassell",
    "pos": "SG",
    "team": "SAS",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 13.0,
@@ -7064,8 +7064,8 @@
    "pct": null,
    "avg": {
     "PTS": 2.5714285714285716,
-    "REB": 4.857142857142857,
-    "AST": 7.571428571428571,
+    "REB": 5.0,
+    "AST": 7.714285714285714,
     "STL": 1.1428571428571428,
     "BLK": 0.8571428571428571,
     "3PM": 0.14285714285714285,
@@ -7325,37 +7325,6 @@
    }
   },
   {
-   "name": "Naji Marshall",
-   "pos": "SF",
-   "team": "DAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.6,
-    "REB": 2.8,
-    "AST": 3.8,
-    "STL": 1.0,
-    "BLK": 0.4,
-    "3PM": 0.8,
-    "FG%": 0.46341463,
-    "FT%": 0.54545455,
-    "TO": 1.8,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 11.442857142857143,
-    "REB": 4.1,
-    "AST": 2.6,
-    "STL": 0.9,
-    "BLK": 0.1,
-    "3PM": 0.8,
-    "FG%": 0.502,
-    "FT%": 0.777,
-    "TO": 1.3,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Alex Caruso",
    "pos": "SG",
    "team": "OKC",
@@ -7383,6 +7352,37 @@
     "FG%": 0.431,
     "FT%": 0.803,
     "TO": 1.1014492753623188,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Naji Marshall",
+   "pos": "SF",
+   "team": "DAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.6,
+    "REB": 2.8,
+    "AST": 3.8,
+    "STL": 1.0,
+    "BLK": 0.4,
+    "3PM": 0.8,
+    "FG%": 0.46341463,
+    "FT%": 0.54545455,
+    "TO": 1.8,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 11.442857142857143,
+    "REB": 4.1,
+    "AST": 2.6,
+    "STL": 0.9,
+    "BLK": 0.1,
+    "3PM": 0.8,
+    "FG%": 0.502,
+    "FT%": 0.777,
+    "TO": 1.3,
     "_src": "2027_projected"
    }
   },
@@ -7479,37 +7479,6 @@
    }
   },
   {
-   "name": "Ja'Kobe Walter",
-   "pos": "SG",
-   "team": "TOR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.625,
-    "REB": 4.375,
-    "AST": 2.0,
-    "STL": 0.875,
-    "BLK": 0.375,
-    "3PM": 2.25,
-    "FG%": 0.38961039,
-    "FT%": 0.68181818,
-    "TO": 0.875,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.028985507246377,
-    "REB": 2.7971014492753623,
-    "AST": 1.3043478260869565,
-    "STL": 1.0,
-    "BLK": 0.2028985507246377,
-    "3PM": 1.565217391304348,
-    "FG%": 0.44,
-    "FT%": 0.79,
-    "TO": 0.5942028985507246,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Anfernee Simons",
    "pos": "SG",
    "team": "PHL",
@@ -7537,6 +7506,37 @@
     "FG%": 0.434,
     "FT%": 0.902,
     "TO": 1.393939393939394,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Ja'Kobe Walter",
+   "pos": "SG",
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.625,
+    "REB": 4.375,
+    "AST": 2.0,
+    "STL": 0.875,
+    "BLK": 0.375,
+    "3PM": 2.25,
+    "FG%": 0.38961039,
+    "FT%": 0.68181818,
+    "TO": 0.875,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.028985507246377,
+    "REB": 2.7971014492753623,
+    "AST": 1.3043478260869565,
+    "STL": 1.0,
+    "BLK": 0.2028985507246377,
+    "3PM": 1.565217391304348,
+    "FG%": 0.44,
+    "FT%": 0.79,
+    "TO": 0.5942028985507246,
     "_src": "2027_projected"
    }
   },
@@ -7591,37 +7591,6 @@
    "proj": {}
   },
   {
-   "name": "Malik Monk",
-   "pos": "SG",
-   "team": "SAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.625,
-    "REB": 1.25,
-    "AST": 4.0,
-    "STL": 0.5,
-    "BLK": 0.125,
-    "3PM": 1.375,
-    "FG%": 0.39393939,
-    "FT%": 0.875,
-    "TO": 1.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.852941176470589,
-    "REB": 2.7941176470588234,
-    "AST": 4.5,
-    "STL": 0.7058823529411765,
-    "BLK": 0.5,
-    "3PM": 2.0588235294117645,
-    "FG%": 0.44,
-    "FT%": 0.855,
-    "TO": 2.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Kyle Kuzma",
    "pos": "PF",
    "team": "MIL",
@@ -7649,6 +7618,37 @@
     "FG%": 0.48,
     "FT%": 0.714,
     "TO": 1.7941176470588236,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Malik Monk",
+   "pos": "SG",
+   "team": "SAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.625,
+    "REB": 1.25,
+    "AST": 4.0,
+    "STL": 0.5,
+    "BLK": 0.125,
+    "3PM": 1.375,
+    "FG%": 0.39393939,
+    "FT%": 0.875,
+    "TO": 1.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 14.852941176470589,
+    "REB": 2.7941176470588234,
+    "AST": 4.5,
+    "STL": 0.7058823529411765,
+    "BLK": 0.5,
+    "3PM": 2.0588235294117645,
+    "FG%": 0.44,
+    "FT%": 0.855,
+    "TO": 2.0,
     "_src": "2027_projected"
    }
   },
@@ -7725,7 +7725,7 @@
     "REB": 1.5,
     "AST": 0.0,
     "STL": 0.5,
-    "BLK": 0.0,
+    "BLK": 0.5,
     "3PM": 0.5,
     "FG%": 0.33333333,
     "FT%": 0.0,
@@ -8052,12 +8052,12 @@
    "pct": null,
    "avg": {
     "PTS": 8.25,
-    "REB": 4.625,
+    "REB": 4.75,
     "AST": 2.0,
-    "STL": 1.25,
-    "BLK": 0.375,
+    "STL": 1.375,
+    "BLK": 0.5,
     "3PM": 1.875,
-    "FG%": 0.35185185,
+    "FG%": 0.32758621,
     "FT%": 0.76470588,
     "TO": 1.125,
     "_src": "2027_last_15"
@@ -8105,6 +8105,26 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Daniss Jenkins",
+   "pos": "PG",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 13.625,
+    "REB": 3.625,
+    "AST": 4.875,
+    "STL": 0.875,
+    "BLK": 0.125,
+    "3PM": 2.375,
+    "FG%": 0.43902439,
+    "FT%": 0.94736842,
+    "TO": 1.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "T.J. McConnell",
@@ -8169,37 +8189,6 @@
    }
   },
   {
-   "name": "Kingston Flemings",
-   "pos": "SG",
-   "team": "ATL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.75,
-    "REB": 2.25,
-    "AST": 4.375,
-    "STL": 0.875,
-    "BLK": 0.375,
-    "3PM": 1.0,
-    "FG%": 0.59322034,
-    "FT%": 0.72727273,
-    "TO": 2.25,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.915492957746478,
-    "REB": 2.8028169014084505,
-    "AST": 3.704225352112676,
-    "STL": 1.1971830985915493,
-    "BLK": 0.5070422535211268,
-    "3PM": 0.36619718309859156,
-    "FG%": 0.432,
-    "FT%": 0.797,
-    "TO": 2.0985915492957745,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Santi Aldama",
    "pos": "PF",
    "team": "DAL",
@@ -8227,6 +8216,37 @@
     "FG%": 0.467,
     "FT%": 0.662,
     "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Kingston Flemings",
+   "pos": "SG",
+   "team": "ATL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.75,
+    "REB": 2.25,
+    "AST": 4.375,
+    "STL": 0.875,
+    "BLK": 0.375,
+    "3PM": 1.0,
+    "FG%": 0.59322034,
+    "FT%": 0.72727273,
+    "TO": 2.25,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.915492957746478,
+    "REB": 2.8028169014084505,
+    "AST": 3.704225352112676,
+    "STL": 1.1971830985915493,
+    "BLK": 0.5070422535211268,
+    "3PM": 0.36619718309859156,
+    "FG%": 0.432,
+    "FT%": 0.797,
+    "TO": 2.0985915492957745,
     "_src": "2027_projected"
    }
   },
@@ -8260,26 +8280,6 @@
     "TO": 0.8846153846153846,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Daniss Jenkins",
-   "pos": "PG",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.625,
-    "REB": 3.625,
-    "AST": 4.875,
-    "STL": 0.875,
-    "BLK": 0.125,
-    "3PM": 2.375,
-    "FG%": 0.43902439,
-    "FT%": 0.94736842,
-    "TO": 1.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Jusuf Nurkic",
@@ -8639,26 +8639,6 @@
    "proj": {}
   },
   {
-   "name": "Karlo Matkovic",
-   "pos": "PF",
-   "team": "NOP",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.0,
-    "REB": 4.75,
-    "AST": 1.125,
-    "STL": 0.75,
-    "BLK": 0.625,
-    "3PM": 1.875,
-    "FG%": 0.57692308,
-    "FT%": 0.625,
-    "TO": 1.375,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Robert Williams III",
    "pos": "C",
    "team": "POR",
@@ -8688,6 +8668,26 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Karlo Matkovic",
+   "pos": "PF",
+   "team": "NOP",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.0,
+    "REB": 4.875,
+    "AST": 1.25,
+    "STL": 0.75,
+    "BLK": 0.625,
+    "3PM": 1.875,
+    "FG%": 0.57692308,
+    "FT%": 0.625,
+    "TO": 1.375,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Dereck Lively II",
@@ -9057,26 +9057,6 @@
    "proj": {}
   },
   {
-   "name": "Mario Hezonja",
-   "pos": "SF",
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.333333333333334,
-    "REB": 6.333333333333333,
-    "AST": 1.6666666666666667,
-    "STL": 0.4444444444444444,
-    "BLK": 0.1111111111111111,
-    "3PM": 1.3333333333333333,
-    "FG%": 0.42253521,
-    "FT%": 0.5,
-    "TO": 0.7777777777777778,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Danny Wolf",
    "pos": "PF",
    "team": "BKN",
@@ -9106,6 +9086,26 @@
     "TO": 1.5070422535211268,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Mario Hezonja",
+   "pos": "SF",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.333333333333334,
+    "REB": 6.333333333333333,
+    "AST": 1.6666666666666667,
+    "STL": 0.4444444444444444,
+    "BLK": 0.1111111111111111,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.42253521,
+    "FT%": 0.5,
+    "TO": 0.7777777777777778,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Trevon Brazile",
@@ -9317,7 +9317,7 @@
    "name": "Brandon Williams",
    "pos": "PG",
    "team": "GSW",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.428571428571429,
@@ -9639,37 +9639,6 @@
    }
   },
   {
-   "name": "Jarace Walker",
-   "pos": "PF",
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.444444444444445,
-    "REB": 6.222222222222222,
-    "AST": 1.8888888888888888,
-    "STL": 0.6666666666666666,
-    "BLK": 0.5555555555555556,
-    "3PM": 1.3333333333333333,
-    "FG%": 0.38028169,
-    "FT%": 0.58823529,
-    "TO": 0.8888888888888888,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.714285714285714,
-    "REB": 3.6031746031746033,
-    "AST": 1.7936507936507937,
-    "STL": 0.6984126984126984,
-    "BLK": 0.30158730158730157,
-    "3PM": 1.2063492063492063,
-    "FG%": 0.437,
-    "FT%": 0.727,
-    "TO": 1.2063492063492063,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "GG Jackson",
    "pos": "PF",
    "team": "MEM",
@@ -9732,21 +9701,52 @@
    }
   },
   {
+   "name": "Jarace Walker",
+   "pos": "PF",
+   "team": "IND",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.444444444444445,
+    "REB": 6.222222222222222,
+    "AST": 1.8888888888888888,
+    "STL": 0.6666666666666666,
+    "BLK": 0.5555555555555556,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.38028169,
+    "FT%": 0.58823529,
+    "TO": 0.8888888888888888,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.714285714285714,
+    "REB": 3.6031746031746033,
+    "AST": 1.7936507936507937,
+    "STL": 0.6984126984126984,
+    "BLK": 0.30158730158730157,
+    "3PM": 1.2063492063492063,
+    "FG%": 0.437,
+    "FT%": 0.727,
+    "TO": 1.2063492063492063,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Herbert Jones",
    "pos": "SF",
    "team": "NOP",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.625,
-    "REB": 3.125,
+    "PTS": 7.0,
+    "REB": 3.5,
     "AST": 1.125,
     "STL": 0.75,
-    "BLK": 0.25,
-    "3PM": 0.625,
-    "FG%": 0.37931034,
+    "BLK": 0.375,
+    "3PM": 0.75,
+    "FG%": 0.38333333,
     "FT%": 0.8,
-    "TO": 1.25,
+    "TO": 1.375,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9802,11 +9802,11 @@
    "avg": {
     "PTS": 6.0,
     "REB": 3.857142857142857,
-    "AST": 1.7142857142857142,
-    "STL": 0.2857142857142857,
+    "AST": 1.8571428571428572,
+    "STL": 0.42857142857142855,
     "BLK": 0.8571428571428571,
     "3PM": 1.4285714285714286,
-    "FG%": 0.5,
+    "FG%": 0.48484848,
     "FT%": 0.0,
     "TO": 0.7142857142857143,
     "_src": "2027_last_15"
@@ -9916,6 +9916,26 @@
    }
   },
   {
+   "name": "Bennett Stirtz",
+   "pos": "PG",
+   "team": "OKC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.5,
+    "REB": 1.5,
+    "AST": 1.625,
+    "STL": 0.625,
+    "BLK": 0.125,
+    "3PM": 2.0,
+    "FG%": 0.48076923,
+    "FT%": 0.90909091,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Nikola Jovic",
    "pos": "PF",
    "team": "MIA",
@@ -9945,26 +9965,6 @@
     "TO": 1.704225352112676,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Bennett Stirtz",
-   "pos": "PG",
-   "team": "OKC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.5,
-    "REB": 1.5,
-    "AST": 1.625,
-    "STL": 0.625,
-    "BLK": 0.125,
-    "3PM": 2.0,
-    "FG%": 0.48076923,
-    "FT%": 0.90909091,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Miles McBride",
@@ -10110,37 +10110,6 @@
    }
   },
   {
-   "name": "Dalton Knecht",
-   "pos": "SG",
-   "team": "NYK",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.0,
-    "REB": 3.5,
-    "AST": 0.5,
-    "STL": 0.0,
-    "BLK": 0.5,
-    "3PM": 1.0,
-    "FG%": 0.66666667,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 5.208333333333333,
-    "REB": 1.7083333333333333,
-    "AST": 0.5,
-    "STL": 0.20833333333333334,
-    "BLK": 0.20833333333333334,
-    "3PM": 0.875,
-    "FG%": 0.458,
-    "FT%": 0.741,
-    "TO": 0.3958333333333333,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Keon Ellis",
    "pos": "SG",
    "team": "BKN",
@@ -10168,6 +10137,37 @@
     "FG%": 0.45,
     "FT%": 0.751,
     "TO": 0.5972222222222222,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Dalton Knecht",
+   "pos": "SG",
+   "team": "NYK",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.0,
+    "REB": 3.5,
+    "AST": 0.5,
+    "STL": 0.0,
+    "BLK": 0.5,
+    "3PM": 1.0,
+    "FG%": 0.66666667,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 5.208333333333333,
+    "REB": 1.7083333333333333,
+    "AST": 0.5,
+    "STL": 0.20833333333333334,
+    "BLK": 0.20833333333333334,
+    "3PM": 0.875,
+    "FG%": 0.458,
+    "FT%": 0.741,
+    "TO": 0.3958333333333333,
     "_src": "2027_projected"
    }
   },
@@ -10265,26 +10265,6 @@
    }
   },
   {
-   "name": "Georges Niang",
-   "pos": "PF",
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.125,
-    "REB": 2.75,
-    "AST": 1.75,
-    "STL": 0.5,
-    "BLK": 0.25,
-    "3PM": 1.75,
-    "FG%": 0.57142857,
-    "FT%": 0.6,
-    "TO": 0.875,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Landry Shamet",
    "pos": "SG",
    "team": "NYK",
@@ -10314,6 +10294,26 @@
     "TO": 0.5970149253731343,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Georges Niang",
+   "pos": "PF",
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.125,
+    "REB": 2.75,
+    "AST": 1.75,
+    "STL": 0.5,
+    "BLK": 0.25,
+    "3PM": 1.75,
+    "FG%": 0.56,
+    "FT%": 0.6,
+    "TO": 0.875,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Ben Simmons",
@@ -10406,6 +10406,26 @@
    "proj": {}
   },
   {
+   "name": "Labaron Philon Jr.",
+   "pos": "PG",
+   "team": "PHL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.0,
+    "REB": 1.2,
+    "AST": 0.4,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.4,
+    "FG%": 0.4,
+    "FT%": 0.25,
+    "TO": 0.6,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Sam Merrill",
    "pos": "SG",
    "team": "CLE",
@@ -10435,46 +10455,6 @@
     "TO": 0.6935483870967742,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Labaron Philon Jr.",
-   "pos": "PG",
-   "team": "PHL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 3.0,
-    "REB": 1.2,
-    "AST": 0.4,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.4,
-    "FG%": 0.4,
-    "FT%": 0.25,
-    "TO": 0.6,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
-   "name": "Jordan Goodwin",
-   "pos": "PG",
-   "team": "PHO",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 9.0,
-    "REB": 3.6666666666666665,
-    "AST": 3.0,
-    "STL": 1.0,
-    "BLK": 0.0,
-    "3PM": 2.3333333333333335,
-    "FG%": 0.45454545,
-    "FT%": 0.0,
-    "TO": 0.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Baylor Scheierman",
@@ -10508,6 +10488,26 @@
    }
   },
   {
+   "name": "Jordan Goodwin",
+   "pos": "PG",
+   "team": "PHO",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 9.0,
+    "REB": 3.6666666666666665,
+    "AST": 3.0,
+    "STL": 1.0,
+    "BLK": 0.0,
+    "3PM": 2.3333333333333335,
+    "FG%": 0.45454545,
+    "FT%": 0.0,
+    "TO": 0.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Luke Kornet",
    "pos": "C",
    "team": "SAS",
@@ -10534,37 +10534,6 @@
     "FG%": 0.665,
     "FT%": 0.796,
     "TO": 0.29577464788732394,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Ronald Holland II",
-   "pos": "SF",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.5,
-    "REB": 3.5,
-    "AST": 1.5,
-    "STL": 0.625,
-    "BLK": 0.875,
-    "3PM": 0.875,
-    "FG%": 0.35714286,
-    "FT%": 0.63636364,
-    "TO": 1.125,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.6455696202531644,
-    "REB": 3.5949367088607596,
-    "AST": 1.2025316455696202,
-    "STL": 1.0,
-    "BLK": 0.3037974683544304,
-    "3PM": 0.569620253164557,
-    "FG%": 0.442,
-    "FT%": 0.792,
-    "TO": 1.1012658227848102,
     "_src": "2027_projected"
    }
   },
@@ -10600,6 +10569,37 @@
    }
   },
   {
+   "name": "Ronald Holland II",
+   "pos": "SF",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.5,
+    "REB": 3.5,
+    "AST": 1.5,
+    "STL": 0.625,
+    "BLK": 0.875,
+    "3PM": 0.875,
+    "FG%": 0.35714286,
+    "FT%": 0.63636364,
+    "TO": 1.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.6455696202531644,
+    "REB": 3.5949367088607596,
+    "AST": 1.2025316455696202,
+    "STL": 1.0,
+    "BLK": 0.3037974683544304,
+    "3PM": 0.569620253164557,
+    "FG%": 0.442,
+    "FT%": 0.792,
+    "TO": 1.1012658227848102,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Jay Huff",
    "pos": "C",
    "team": "IND",
@@ -10618,37 +10618,6 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Hannes Steinbach",
-   "pos": "PF",
-   "team": "CHA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 2.0,
-    "REB": 4.0,
-    "AST": 0.5,
-    "STL": 0.0,
-    "BLK": 0.75,
-    "3PM": 0.0,
-    "FG%": 0.36363636,
-    "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.070422535211268,
-    "REB": 4.098591549295775,
-    "AST": 1.0985915492957747,
-    "STL": 0.704225352112676,
-    "BLK": 0.9014084507042254,
-    "3PM": 0.19718309859154928,
-    "FG%": 0.472,
-    "FT%": 0.761,
-    "TO": 0.9014084507042254,
-    "_src": "2027_projected"
-   }
   },
   {
    "name": "Jordan Walsh",
@@ -10678,6 +10647,37 @@
     "FG%": 0.502,
     "FT%": 0.765,
     "TO": 0.6056338028169014,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Hannes Steinbach",
+   "pos": "PF",
+   "team": "CHA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 2.0,
+    "REB": 4.0,
+    "AST": 0.5,
+    "STL": 0.0,
+    "BLK": 0.75,
+    "3PM": 0.0,
+    "FG%": 0.36363636,
+    "FT%": 0.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.070422535211268,
+    "REB": 4.098591549295775,
+    "AST": 1.0985915492957747,
+    "STL": 0.704225352112676,
+    "BLK": 0.9014084507042254,
+    "3PM": 0.19718309859154928,
+    "FG%": 0.472,
+    "FT%": 0.761,
+    "TO": 0.9014084507042254,
     "_src": "2027_projected"
    }
   },
@@ -10795,26 +10795,6 @@
    }
   },
   {
-   "name": "Javonte Green",
-   "pos": "SF",
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.75,
-    "REB": 2.125,
-    "AST": 0.75,
-    "STL": 0.875,
-    "BLK": 0.375,
-    "3PM": 0.625,
-    "FG%": 0.34285714,
-    "FT%": 0.9,
-    "TO": 0.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Jase Richardson",
    "pos": "SG",
    "team": "ORL",
@@ -10843,6 +10823,26 @@
     "TO": 0.5,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Javonte Green",
+   "pos": "SF",
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.75,
+    "REB": 2.125,
+    "AST": 0.75,
+    "STL": 0.875,
+    "BLK": 0.375,
+    "3PM": 0.625,
+    "FG%": 0.34285714,
+    "FT%": 0.9,
+    "TO": 0.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Tacko Fall",
@@ -11211,26 +11211,6 @@
    }
   },
   {
-   "name": "Jock Landale",
-   "pos": "C",
-   "team": "ATL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.8,
-    "REB": 5.4,
-    "AST": 1.2,
-    "STL": 0.0,
-    "BLK": 0.4,
-    "3PM": 0.6,
-    "FG%": 0.47826087,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Clint Capela",
    "pos": "C",
    "team": "HOU",
@@ -11259,6 +11239,26 @@
     "TO": 0.6935483870967742,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Jock Landale",
+   "pos": "C",
+   "team": "ATL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.8,
+    "REB": 5.4,
+    "AST": 1.2,
+    "STL": 0.0,
+    "BLK": 0.4,
+    "3PM": 0.6,
+    "FG%": 0.47826087,
+    "FT%": 0.5,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Sidy Cissoko",
@@ -11485,37 +11485,6 @@
    "proj": {}
   },
   {
-   "name": "Tyus Jones",
-   "pos": "PG",
-   "team": "DEN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 3.0,
-    "REB": 0.7142857142857143,
-    "AST": 2.2857142857142856,
-    "STL": 0.7142857142857143,
-    "BLK": 0.14285714285714285,
-    "3PM": 0.42857142857142855,
-    "FG%": 0.38888889,
-    "FT%": 1.0,
-    "TO": 0.42857142857142855,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 4.695652173913044,
-    "REB": 1.4057971014492754,
-    "AST": 3.101449275362319,
-    "STL": 0.5942028985507246,
-    "BLK": 0.10144927536231885,
-    "3PM": 0.8840579710144928,
-    "FG%": 0.397,
-    "FT%": 0.837,
-    "TO": 0.5072463768115942,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Moses Moody",
    "pos": "SG",
    "team": "GSW",
@@ -11556,6 +11525,37 @@
    }
   },
   {
+   "name": "Tyus Jones",
+   "pos": "PG",
+   "team": "DEN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.0,
+    "REB": 0.7142857142857143,
+    "AST": 2.2857142857142856,
+    "STL": 0.7142857142857143,
+    "BLK": 0.14285714285714285,
+    "3PM": 0.42857142857142855,
+    "FG%": 0.38888889,
+    "FT%": 1.0,
+    "TO": 0.42857142857142855,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 4.695652173913044,
+    "REB": 1.4057971014492754,
+    "AST": 3.101449275362319,
+    "STL": 0.5942028985507246,
+    "BLK": 0.10144927536231885,
+    "3PM": 0.8840579710144928,
+    "FG%": 0.397,
+    "FT%": 0.837,
+    "TO": 0.5072463768115942,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Jayden Quaintance",
    "pos": "PF",
    "team": "SAS",
@@ -11571,16 +11571,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -11671,6 +11671,37 @@
     "FG%": 0.427,
     "FT%": 0.695,
     "TO": 1.3934426229508197,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jamal Cain",
+   "pos": "SF",
+   "team": "ORL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.285714285714286,
+    "REB": 3.857142857142857,
+    "AST": 0.42857142857142855,
+    "STL": 0.42857142857142855,
+    "BLK": 0.14285714285714285,
+    "3PM": 1.4285714285714286,
+    "FG%": 0.47826087,
+    "FT%": 0.91666667,
+    "TO": 1.4285714285714286,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.289855072463768,
+    "REB": 3.101449275362319,
+    "AST": 1.1014492753623188,
+    "STL": 0.5942028985507246,
+    "BLK": 0.2028985507246377,
+    "3PM": 1.0724637681159421,
+    "FG%": 0.472,
+    "FT%": 0.807,
+    "TO": 0.7971014492753623,
     "_src": "2027_projected"
    }
   },
@@ -11766,57 +11797,6 @@
    }
   },
   {
-   "name": "Jamal Cain",
-   "pos": "SF",
-   "team": "ORL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.285714285714286,
-    "REB": 3.857142857142857,
-    "AST": 0.42857142857142855,
-    "STL": 0.42857142857142855,
-    "BLK": 0.14285714285714285,
-    "3PM": 1.4285714285714286,
-    "FG%": 0.47826087,
-    "FT%": 0.91666667,
-    "TO": 1.4285714285714286,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.289855072463768,
-    "REB": 3.101449275362319,
-    "AST": 1.1014492753623188,
-    "STL": 0.5942028985507246,
-    "BLK": 0.2028985507246377,
-    "3PM": 1.0724637681159421,
-    "FG%": 0.472,
-    "FT%": 0.807,
-    "TO": 0.7971014492753623,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Tyrese Proctor",
-   "pos": "SG",
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.875,
-    "REB": 3.25,
-    "AST": 2.5,
-    "STL": 0.5,
-    "BLK": 0.0,
-    "3PM": 1.25,
-    "FG%": 0.48717949,
-    "FT%": 0.77777778,
-    "TO": 0.375,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Marcus Sasser",
    "pos": "PG",
    "team": "DAL",
@@ -11877,6 +11857,26 @@
     "TO": 0.7090909090909091,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Tyrese Proctor",
+   "pos": "SG",
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.875,
+    "REB": 3.25,
+    "AST": 2.5,
+    "STL": 0.5,
+    "BLK": 0.0,
+    "3PM": 1.25,
+    "FG%": 0.48717949,
+    "FT%": 0.77777778,
+    "TO": 0.375,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Trayce Jackson-Davis",
@@ -11981,6 +11981,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Devin Booker: Produces 32 points in loss",
+   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
+   "published": "Mon, 09 Nov 2026 8:31:00 PM PST",
+   "summary": "Booker tallied 32 points (10-17 FG, 3-5 3Pt, 9-10 FT), two rebounds, four assists, one steal and one block in 29 minutes during Monday's 122-96 loss to San Antonio.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Victor Wembanyama: Racks up eight blocks",
    "link": "https://www.rotowire.com//basketball/player/victor-wembanyama-5809",
    "published": "Mon, 09 Nov 2026 8:26:00 PM PST",
@@ -12006,13 +12013,6 @@
    "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
    "published": "Mon, 09 Nov 2026 7:46:00 PM PST",
    "summary": "Flagg finished with 43 points (16-25 FG, 3-6 3Pt, 8-8 FT), 11 rebounds, six assists, three steals and one block in 39 minutes during Monday's 125-122 win over Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Pascal Siakam: Paces Indiana in loss",
-   "link": "https://www.rotowire.com//basketball/player/pascal-siakam-3922",
-   "published": "Mon, 09 Nov 2026 7:43:00 PM PST",
-   "summary": "Siakam supplied 29 points (9-16 FG, 5-8 3Pt, 6-8 FT), nine rebounds, eight assists and two steals across 35 minutes in Monday's 125-122 loss to Dallas.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -12515,6 +12515,12 @@
    "player": "Isaiah Collier"
   },
   {
+   "date": "2026-11-09T22:53:01.189000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "Isaiah Collier"
+  },
+  {
    "date": "2026-11-09T22:50:47.758000",
    "team": "Momo in Six",
    "action": "FA ADDED",
@@ -12553,6 +12559,12 @@
   {
    "date": "2026-11-09T21:20:11.092000",
    "team": "KhadraCadabra",
+   "action": "FA ADDED",
+   "player": "Brayden Burries"
+  },
+  {
+   "date": "2026-11-09T21:20:11.092000",
+   "team": "Khadracadabra",
    "action": "FA ADDED",
    "player": "Brayden Burries"
   },
@@ -12647,6 +12659,18 @@
    "player": "Jrue Holiday"
   },
   {
+   "date": "2026-11-09T17:18:02.096000",
+   "team": "Khadracadabra",
+   "action": "TRADED",
+   "player": "Jamal Murray"
+  },
+  {
+   "date": "2026-11-09T17:18:02.096000",
+   "team": "Khadracadabra",
+   "action": "TRADED",
+   "player": "Jrue Holiday"
+  },
+  {
    "date": "2026-11-09T14:20:44.624000",
    "team": "Crackheads",
    "action": "FA ADDED",
@@ -12737,6 +12761,30 @@
    "player": "Kevin Durant"
   },
   {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "Khadracadabra",
+   "action": "TRADED",
+   "player": "Matas Buzelis"
+  },
+  {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "Khadracadabra",
+   "action": "TRADED",
+   "player": "Chet Holmgren"
+  },
+  {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "Khadracadabra",
+   "action": "TRADED",
+   "player": "Jonathan Kuminga"
+  },
+  {
+   "date": "2026-11-09T14:16:00.810000",
+   "team": "Khadracadabra",
+   "action": "TRADED",
+   "player": "Kevin Durant"
+  },
+  {
    "date": "2026-11-09T13:31:13.388000",
    "team": "Murray Had a Little Lamb",
    "action": "FA ADDED",
@@ -12769,6 +12817,18 @@
   {
    "date": "2026-11-09T13:31:13.388000",
    "team": "KhadraCadabra",
+   "action": "DROPPED",
+   "player": "Reed Sheppard"
+  },
+  {
+   "date": "2026-11-09T13:31:13.388000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "Matisse Thybulle"
+  },
+  {
+   "date": "2026-11-09T13:31:13.388000",
+   "team": "Khadracadabra",
    "action": "DROPPED",
    "player": "Reed Sheppard"
   },
@@ -12811,6 +12871,12 @@
   {
    "date": "2026-11-08T14:22:28.543000",
    "team": "KhadraCadabra",
+   "action": "DROPPED",
+   "player": "Kingston Flemings"
+  },
+  {
+   "date": "2026-11-08T14:22:28.543000",
+   "team": "Khadracadabra",
    "action": "DROPPED",
    "player": "Kingston Flemings"
   },
@@ -14022,6 +14088,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 4.1
  }
 }
