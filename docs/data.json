@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T21:50:24.401592Z",
+ "updated": "2026-11-10T22:00:41.373167Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -13040,7 +13040,7 @@
     "PF"
    ],
    "team": "TOR",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 2.6666666666666665,
@@ -13266,6 +13266,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Immanuel Quickley: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
+   "published": "Tue, 10 Nov 2026 1:50:00 PM PST",
+   "summary": "Quickley (hamstring) is questionable for Wednesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Scottie Barnes: Another absence coming",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Tue, 10 Nov 2026 1:48:00 PM PST",
+   "summary": "Barnes (groin) is out for Wednesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Domantas Sabonis: Upgraded to available",
    "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
    "published": "Tue, 10 Nov 2026 12:48:00 PM PST",
@@ -13284,20 +13298,6 @@
    "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
    "published": "Tue, 10 Nov 2026 11:22:00 AM PST",
    "summary": "Murphy (knee) is probable for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Downgraded to doubtful",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Tue, 10 Nov 2026 11:20:00 AM PST",
-   "summary": "Hart is doubtful for Tuesday's game against the Bucks due to an illness.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Lauri Markkanen: Ruled out with wrist sprain",
-   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
-   "published": "Tue, 10 Nov 2026 10:30:00 AM PST",
-   "summary": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15444,6 +15444,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 4.6
+  "run_seconds": 5.5
  }
 }
