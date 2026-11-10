@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T00:00:35.950330Z",
+ "updated": "2026-11-10T00:10:23.134031Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4103,7 +4103,7 @@
     "name": "Keyonte George",
     "pos": "PG",
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "UTA",
     "avg": {
      "PTS": 21.25,
@@ -11957,6 +11957,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Isaiah Jackson: Available for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/isaiah-jackson-5403",
+   "published": "Mon, 09 Nov 2026 4:02:00 PM PST",
+   "summary": "Jackson (groin) has been cleared to play Tuesday against Phoenix, Ohm Youngmisuk of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Brandon Ingram: Remains out for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/brandon-ingram-3861",
+   "published": "Mon, 09 Nov 2026 4:00:00 PM PST",
+   "summary": "Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Daniss Jenkins: Promoted to starting lineup",
    "link": "https://www.rotowire.com//basketball/player/daniss-jenkins-6336",
    "published": "Mon, 09 Nov 2026 3:49:00 PM PST",
@@ -11975,20 +11989,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
    "published": "Mon, 09 Nov 2026 3:11:00 PM PST",
    "summary": "Suggs (knee) has been ruled out for Tuesday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Tagged probable for Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Mon, 09 Nov 2026 3:06:00 PM PST",
-   "summary": "Antetokounmpo is probable for Tuesday's game against the Jazz due to a right wrist sprain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Desmond Bane: Cleared from injury report",
-   "link": "https://www.rotowire.com//basketball/player/desmond-bane-5159",
-   "published": "Mon, 09 Nov 2026 3:06:00 PM PST",
-   "summary": "Bane (illness) is off the injury report for Tuesday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13973,6 +13973,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 5.8
+  "run_seconds": 2.8
  }
 }
