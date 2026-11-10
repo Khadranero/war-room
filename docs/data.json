@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:50:24.587599Z",
+ "updated": "2026-11-10T23:00:32.995346Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3808,7 +3808,7 @@
      "SF"
     ],
     "slot": "SG",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NYK",
     "avg": {
      "PTS": 5.75,
@@ -5026,48 +5026,13 @@
     }
    },
    {
-    "name": "Tristan da Silva",
-    "pos": "SF",
-    "elig": [
-     "SF",
-     "PF"
-    ],
-    "slot": "PF",
-    "injury": "DAY_TO_DAY",
-    "team": "ORL",
-    "avg": {
-     "PTS": 16.333333333333332,
-     "REB": 4.333333333333333,
-     "AST": 1.5,
-     "STL": 0.16666666666666666,
-     "BLK": 0.16666666666666666,
-     "3PM": 3.6666666666666665,
-     "FG%": 0.46835443,
-     "FT%": 0.4,
-     "TO": 1.8333333333333333,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 8.337662337662337,
-     "REB": 3.1948051948051948,
-     "AST": 1.4025974025974026,
-     "STL": 0.7012987012987013,
-     "BLK": 0.2987012987012987,
-     "3PM": 1.3246753246753247,
-     "FG%": 0.445,
-     "FT%": 0.883,
-     "TO": 0.8051948051948052,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Bobby Portis",
     "pos": "PF",
     "elig": [
      "PF",
      "C"
     ],
-    "slot": "C",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -5117,6 +5082,40 @@
      "_src": "2027_last_15"
     },
     "proj": {}
+   },
+   {
+    "name": "Brook Lopez",
+    "pos": "C",
+    "elig": [
+     "C"
+    ],
+    "slot": "C",
+    "injury": "ACTIVE",
+    "team": "LAC",
+    "avg": {
+     "PTS": 12.333333333333334,
+     "REB": 5.333333333333333,
+     "AST": 1.0,
+     "STL": 0.5,
+     "BLK": 0.6666666666666666,
+     "3PM": 1.0,
+     "FG%": 0.54545455,
+     "FT%": 0.61538462,
+     "TO": 1.0,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 10.625,
+     "REB": 4.305555555555555,
+     "AST": 1.5,
+     "STL": 0.5972222222222222,
+     "BLK": 1.6944444444444444,
+     "3PM": 1.6111111111111112,
+     "FG%": 0.475,
+     "FT%": 0.806,
+     "TO": 0.9027777777777778,
+     "_src": "2027_projected"
+    }
    }
   ],
   "AARON VENGERS": [
@@ -6657,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-10T23:00:18.453000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Tristan da Silva"
+  },
+  {
+   "date": "2026-11-10T23:00:18.453000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Brook Lopez"
+  },
+  {
    "date": "2026-11-10T19:19:29.123000",
    "team": "Wembelieve I can fly",
    "action": "FA ADDED",
@@ -6955,12 +6966,6 @@
    "team": "Pasta Warriors",
    "action": "DROPPED",
    "player": "Nolan Traore"
-  },
-  {
-   "date": "2026-11-08T14:22:28.543000",
-   "team": "Khadracadabra",
-   "action": "DROPPED",
-   "player": "Kingston Flemings"
   }
  ],
  "schedule": {
@@ -7656,40 +7661,6 @@
    }
   },
   {
-   "name": "Brook Lopez",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "LAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.333333333333334,
-    "REB": 5.333333333333333,
-    "AST": 1.0,
-    "STL": 0.5,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.54545455,
-    "FT%": 0.61538462,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.625,
-    "REB": 4.305555555555555,
-    "AST": 1.5,
-    "STL": 0.5972222222222222,
-    "BLK": 1.6944444444444444,
-    "3PM": 1.6111111111111112,
-    "FG%": 0.475,
-    "FT%": 0.806,
-    "TO": 0.9027777777777778,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Quentin Grimes",
    "pos": "SG",
    "elig": [
@@ -7939,7 +7910,7 @@
     "PG"
    ],
    "team": "BKN",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 15.142857142857142,
@@ -8169,6 +8140,41 @@
     "FG%": 0.6,
     "FT%": 0.67,
     "TO": 1.106060606060606,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Tristan da Silva",
+   "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
+   "team": "ORL",
+   "injury": "DAY_TO_DAY",
+   "pct": null,
+   "avg": {
+    "PTS": 16.333333333333332,
+    "REB": 4.333333333333333,
+    "AST": 1.5,
+    "STL": 0.16666666666666666,
+    "BLK": 0.16666666666666666,
+    "3PM": 3.6666666666666665,
+    "FG%": 0.46835443,
+    "FT%": 0.4,
+    "TO": 1.8333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.337662337662337,
+    "REB": 3.1948051948051948,
+    "AST": 1.4025974025974026,
+    "STL": 0.7012987012987013,
+    "BLK": 0.2987012987012987,
+    "3PM": 1.3246753246753247,
+    "FG%": 0.445,
+    "FT%": 0.883,
+    "TO": 0.8051948051948052,
     "_src": "2027_projected"
    }
   },
@@ -9060,7 +9066,7 @@
     "PG"
    ],
    "team": "BKN",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 15.2,
@@ -13266,6 +13272,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Mikel Brown: Not listed on injury report",
+   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
+   "published": "Tue, 10 Nov 2026 2:51:00 PM PST",
+   "summary": "Brown (rest) is not listed on the injury report ahead of Wednesday's meeting in New Orleans.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Egor Demin: Expected to play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
+   "published": "Tue, 10 Nov 2026 2:51:00 PM PST",
+   "summary": "Demin (leg) is probable for Wednesday's game against the Pelicans, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Devin Vassell: Questionable against Chicago",
+   "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
+   "published": "Tue, 10 Nov 2026 2:48:00 PM PST",
+   "summary": "Vassell (groin) is listed as questionable for Wednesday's game versus the Bulls, NBA reporter Matthew Tynan reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Norman Powell: Questionable for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Tue, 10 Nov 2026 2:22:00 PM PST",
@@ -13277,27 +13304,6 @@
    "link": "https://www.rotowire.com//basketball/player/bilal-coulibaly-5945",
    "published": "Tue, 10 Nov 2026 2:13:00 PM PST",
    "summary": "Coulibaly (hand) has been removed from the injury report ahead of Wednesday's meeting in Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylon Tyson: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
-   "published": "Tue, 10 Nov 2026 2:07:00 PM PST",
-   "summary": "Tyson (ankle) is questionable to face the Knicks on Wednesday.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Immanuel Quickley: Iffy for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
-   "published": "Tue, 10 Nov 2026 1:50:00 PM PST",
-   "summary": "Quickley (hamstring) is questionable for Wednesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Another absence coming",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Tue, 10 Nov 2026 1:48:00 PM PST",
-   "summary": "Barnes (groin) is out for Wednesday's game against Boston.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13744,6 +13750,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-10T23:00:18.453000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Tristan da Silva"
+  },
+  {
+   "date": "2026-11-10T23:00:18.453000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Brook Lopez"
+  },
   {
    "date": "2026-11-10T19:19:29.123000",
    "team": "Wembelieve I can fly",
@@ -15444,6 +15462,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.5
  }
 }
