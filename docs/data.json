@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T23:50:27.069411Z",
+ "updated": "2026-11-10T00:00:35.950330Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -8393,7 +8393,7 @@
    "name": "Isaiah Jackson",
    "pos": "PF",
    "team": "LAC",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 8.333333333333334,
@@ -11957,6 +11957,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Daniss Jenkins: Promoted to starting lineup",
+   "link": "https://www.rotowire.com//basketball/player/daniss-jenkins-6336",
+   "published": "Mon, 09 Nov 2026 3:49:00 PM PST",
+   "summary": "Jenkins is in the starting lineup for Monday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jarrett Allen: Cleared to play",
    "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
    "published": "Mon, 09 Nov 2026 3:14:00 PM PST",
@@ -11982,13 +11989,6 @@
    "link": "https://www.rotowire.com//basketball/player/desmond-bane-5159",
    "published": "Mon, 09 Nov 2026 3:06:00 PM PST",
    "summary": "Bane (illness) is off the injury report for Tuesday's game against the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Davis: Available Monday",
-   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
-   "published": "Mon, 09 Nov 2026 3:03:00 PM PST",
-   "summary": "Davis (ankle) will play Monday against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13973,6 +13973,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 5.8
  }
 }
