@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T05:00:34.439053Z",
+ "updated": "2026-11-10T05:10:22.599699Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1796,13 +1796,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 16.25,
+     "PTS": 16.625,
      "REB": 5.375,
      "AST": 4.25,
      "STL": 1.0,
      "BLK": 0.5,
-     "3PM": 2.75,
-     "FG%": 0.48958333,
+     "3PM": 2.875,
+     "FG%": 0.49484536,
      "FT%": 0.63636364,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -3225,14 +3225,14 @@
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
-     "PTS": 12.0,
+     "PTS": 12.25,
      "REB": 6.375,
      "AST": 2.875,
      "STL": 0.625,
      "BLK": 0.875,
      "3PM": 0.25,
      "FG%": 0.45714286,
-     "FT%": 0.81081081,
+     "FT%": 0.82051282,
      "TO": 3.0,
      "_src": "2027_last_15"
     },
@@ -6108,6 +6108,30 @@
  },
  "activity": [
   {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Team Batrouni",
+   "action": "TRADED",
+   "player": "Aaron Wiggins"
+  },
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Team Batrouni",
+   "action": "TRADED",
+   "player": "Zach Edey"
+  },
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Momo in Six",
+   "action": "TRADED",
+   "player": "Nic Claxton"
+  },
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Momo in Six",
+   "action": "TRADED",
+   "player": "Daniel Gafford"
+  },
+  {
    "date": "2026-11-10T03:32:31.528000",
    "team": "AARON VENGERS",
    "action": "FA ADDED",
@@ -7721,14 +7745,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 2.5,
+    "PTS": 3.5,
     "REB": 1.5,
-    "AST": 0.5,
+    "AST": 1.0,
     "STL": 0.5,
     "BLK": 0.5,
     "3PM": 0.5,
     "FG%": 0.28571429,
-    "FT%": 0.0,
+    "FT%": 1.0,
     "TO": 0.5,
     "_src": "2027_last_15"
    },
@@ -8051,13 +8075,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.0,
-    "REB": 4.875,
+    "PTS": 9.375,
+    "REB": 5.0,
     "AST": 2.0,
     "STL": 1.375,
     "BLK": 0.375,
-    "3PM": 2.125,
-    "FG%": 0.35,
+    "3PM": 2.25,
+    "FG%": 0.36065574,
     "FT%": 0.76470588,
     "TO": 1.125,
     "_src": "2027_last_15"
@@ -8170,7 +8194,7 @@
     "STL": 0.375,
     "BLK": 0.0,
     "3PM": 0.5,
-    "FG%": 0.33333333,
+    "FG%": 0.325,
     "FT%": 1.0,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -10308,7 +10332,7 @@
     "STL": 0.5,
     "BLK": 0.25,
     "3PM": 1.75,
-    "FG%": 0.56,
+    "FG%": 0.54901961,
     "FT%": 0.6,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -11571,16 +11595,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -12459,6 +12483,30 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Team Batrouni",
+   "action": "TRADED",
+   "player": "Aaron Wiggins"
+  },
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Team Batrouni",
+   "action": "TRADED",
+   "player": "Zach Edey"
+  },
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Momo in Six",
+   "action": "TRADED",
+   "player": "Nic Claxton"
+  },
+  {
+   "date": "2026-11-10T05:01:00.731000",
+   "team": "Momo in Six",
+   "action": "TRADED",
+   "player": "Daniel Gafford"
+  },
   {
    "date": "2026-11-10T03:32:31.528000",
    "team": "AARON VENGERS",
@@ -14087,6 +14135,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 3.0
  }
 }
