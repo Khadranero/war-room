@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T10:50:42.190798Z",
+ "updated": "2026-11-10T11:00:36.541521Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -12062,7 +12062,449 @@
    "summary": "Murray amassed 38 points (14-23 FG, 5-8 3Pt, 5-5 FT), two rebounds, two assists, two blocks and one steal across 39 minutes in Monday's 110-100 loss to the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
- "games": {},
+ "games": {
+  "today": "2026-11-10",
+  "days_left": 6,
+  "by_team": {
+   "NY": {
+    "rest": 4,
+    "next": 4
+   },
+   "MIL": {
+    "rest": 4,
+    "next": 3
+   },
+   "PHI": {
+    "rest": 3,
+    "next": 3
+   },
+   "BOS": {
+    "rest": 3,
+    "next": 4
+   },
+   "PHX": {
+    "rest": 3,
+    "next": 3
+   },
+   "LAC": {
+    "rest": 3,
+    "next": 3
+   },
+   "UTAH": {
+    "rest": 4,
+    "next": 4
+   },
+   "MIA": {
+    "rest": 3,
+    "next": 3
+   },
+   "SAC": {
+    "rest": 3,
+    "next": 3
+   },
+   "ORL": {
+    "rest": 3,
+    "next": 4
+   },
+   "POR": {
+    "rest": 3,
+    "next": 4
+   },
+   "OKC": {
+    "rest": 4,
+    "next": 3
+   },
+   "IND": {
+    "rest": 3,
+    "next": 3
+   },
+   "WSH": {
+    "rest": 3,
+    "next": 4
+   },
+   "CLE": {
+    "rest": 3,
+    "next": 3
+   },
+   "TOR": {
+    "rest": 3,
+    "next": 3
+   },
+   "CHI": {
+    "rest": 3,
+    "next": 4
+   },
+   "SA": {
+    "rest": 3,
+    "next": 3
+   },
+   "MEM": {
+    "rest": 3,
+    "next": 4
+   },
+   "DEN": {
+    "rest": 2,
+    "next": 4
+   },
+   "LAL": {
+    "rest": 2,
+    "next": 3
+   },
+   "NO": {
+    "rest": 3,
+    "next": 4
+   },
+   "BKN": {
+    "rest": 2,
+    "next": 3
+   },
+   "HOU": {
+    "rest": 3,
+    "next": 3
+   },
+   "GS": {
+    "rest": 2,
+    "next": 4
+   },
+   "DET": {
+    "rest": 2,
+    "next": 4
+   },
+   "MIN": {
+    "rest": 2,
+    "next": 4
+   },
+   "DAL": {
+    "rest": 3,
+    "next": 3
+   },
+   "CHA": {
+    "rest": 2,
+    "next": 2
+   },
+   "ATL": {
+    "rest": 2,
+    "next": 3
+   },
+   "GSW": {
+    "rest": 2,
+    "next": 4
+   },
+   "NYK": {
+    "rest": 4,
+    "next": 4
+   },
+   "NOP": {
+    "rest": 3,
+    "next": 4
+   },
+   "SAS": {
+    "rest": 3,
+    "next": 3
+   },
+   "UTA": {
+    "rest": 4,
+    "next": 4
+   },
+   "PHL": {
+    "rest": 3,
+    "next": 3
+   },
+   "WAS": {
+    "rest": 3,
+    "next": 4
+   },
+   "PHO": {
+    "rest": 3,
+    "next": 3
+   }
+  },
+  "days": [
+   "2026-11-10",
+   "2026-11-11",
+   "2026-11-12",
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15",
+   "2026-11-16",
+   "2026-11-17",
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20",
+   "2026-11-21",
+   "2026-11-22"
+  ],
+  "by_day": {
+   "2026-11-10": [
+    "NY",
+    "NYK",
+    "MIL",
+    "PHI",
+    "PHL",
+    "BOS",
+    "PHX",
+    "PHO",
+    "LAC",
+    "UTAH",
+    "UTA",
+    "MIA",
+    "SAC",
+    "ORL",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-11": [
+    "IND",
+    "WSH",
+    "WAS",
+    "NY",
+    "NYK",
+    "CLE",
+    "TOR",
+    "BOS",
+    "CHI",
+    "SA",
+    "SAS",
+    "MEM",
+    "DEN",
+    "MIL",
+    "LAL",
+    "NO",
+    "NOP",
+    "BKN",
+    "UTAH",
+    "UTA",
+    "ORL",
+    "HOU",
+    "GS",
+    "GSW",
+    "POR",
+    "OKC"
+   ],
+   "2026-11-12": [
+    "PHI",
+    "PHL",
+    "TOR",
+    "WSH",
+    "WAS",
+    "DET",
+    "MIN",
+    "DAL",
+    "PHX",
+    "PHO",
+    "CHA"
+   ],
+   "2026-11-13": [
+    "IND",
+    "NY",
+    "NYK",
+    "ORL",
+    "MIL",
+    "MIA",
+    "CLE",
+    "CHI",
+    "ATL",
+    "NO",
+    "NOP",
+    "MEM",
+    "HOU",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "GS",
+    "GSW",
+    "SAC",
+    "POR",
+    "LAC",
+    "OKC"
+   ],
+   "2026-11-14": [
+    "NO",
+    "NOP",
+    "DEN",
+    "CLE",
+    "DAL",
+    "MIA",
+    "DET",
+    "MEM",
+    "BKN",
+    "MIN",
+    "CHI"
+   ],
+   "2026-11-15": [
+    "PHI",
+    "PHL",
+    "IND",
+    "PHX",
+    "PHO",
+    "LAL",
+    "LAC",
+    "CHA",
+    "UTAH",
+    "UTA",
+    "SA",
+    "SAS",
+    "BOS",
+    "DAL",
+    "TOR",
+    "NY",
+    "NYK",
+    "WSH",
+    "WAS",
+    "HOU",
+    "MIL",
+    "ATL",
+    "SAC",
+    "OKC"
+   ],
+   "2026-11-16": [
+    "BOS",
+    "ORL",
+    "CLE",
+    "CHI",
+    "WSH",
+    "WAS",
+    "MEM",
+    "BKN",
+    "PHI",
+    "PHL",
+    "MIA",
+    "HOU",
+    "MIN",
+    "POR",
+    "NO",
+    "NOP",
+    "GS",
+    "GSW",
+    "DEN",
+    "PHX",
+    "PHO"
+   ],
+   "2026-11-17": [
+    "TOR",
+    "NY",
+    "NYK",
+    "MIN",
+    "POR",
+    "SA",
+    "SAS",
+    "DET",
+    "LAC",
+    "UTAH",
+    "UTA",
+    "LAL",
+    "CHA"
+   ],
+   "2026-11-18": [
+    "CLE",
+    "MEM",
+    "IND",
+    "HOU",
+    "MIA",
+    "MIL",
+    "ORL",
+    "PHI",
+    "PHL",
+    "BKN",
+    "CHI",
+    "TOR",
+    "WSH",
+    "WAS",
+    "NO",
+    "NOP",
+    "DET",
+    "OKC",
+    "ATL",
+    "DEN",
+    "BOS",
+    "DAL",
+    "GS",
+    "GSW",
+    "LAL",
+    "UTAH",
+    "UTA",
+    "SAC",
+    "PHX",
+    "PHO"
+   ],
+   "2026-11-19": [
+    "MEM",
+    "GS",
+    "GSW",
+    "MIL",
+    "POR",
+    "MIN",
+    "NY",
+    "NYK",
+    "SA",
+    "SAS",
+    "LAC"
+   ],
+   "2026-11-20": [
+    "ATL",
+    "CHA",
+    "BKN",
+    "ORL",
+    "CLE",
+    "IND",
+    "DET",
+    "TOR",
+    "CHI",
+    "WSH",
+    "WAS",
+    "OKC",
+    "NO",
+    "NOP",
+    "UTAH",
+    "UTA",
+    "PHX",
+    "PHO",
+    "DEN",
+    "HOU",
+    "LAL",
+    "SAC"
+   ],
+   "2026-11-21": [
+    "PHI",
+    "PHL",
+    "MIL",
+    "NY",
+    "NYK",
+    "POR",
+    "DAL",
+    "LAC",
+    "MIN",
+    "MEM",
+    "SA",
+    "SAS",
+    "NO",
+    "NOP",
+    "SAC",
+    "BOS"
+   ],
+   "2026-11-22": [
+    "ATL",
+    "DET",
+    "MIA",
+    "OKC",
+    "WSH",
+    "WAS",
+    "ORL",
+    "CHI",
+    "DEN",
+    "UTAH",
+    "UTA",
+    "DAL",
+    "NY",
+    "NYK",
+    "IND",
+    "GS",
+    "GSW",
+    "BOS"
+   ]
+  }
+ },
  "log": [
   {
    "date": "2026-11-10T07:29:45.845000",
@@ -13752,6 +14194,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 23.0
+  "run_seconds": 3.9
  }
 }
