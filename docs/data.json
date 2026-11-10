@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T15:00:36.196162Z",
+ "updated": "2026-11-10T15:10:29.507985Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3111,7 +3111,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -3215,7 +3215,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3424,7 +3424,7 @@
      "PF",
      "C"
     ],
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -3552,7 +3552,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -6950,18 +6950,6 @@
    "team": "Wembelieve I can fly",
    "action": "FA ADDED",
    "player": "Payton Pritchard"
-  },
-  {
-   "date": "2026-11-08T10:37:30.333000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Klay Thompson"
-  },
-  {
-   "date": "2026-11-08T10:37:30.333000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Mario Hezonja"
   }
  ],
  "schedule": {
@@ -15444,6 +15432,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 9.7
  }
 }
