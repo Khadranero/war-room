@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:10:27.751309Z",
+ "updated": "2026-11-10T22:20:21.915251Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -9568,7 +9568,7 @@
     "SF"
    ],
    "team": "WAS",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 6.142857142857143,
@@ -11568,7 +11568,7 @@
     "SG"
    ],
    "team": "CLE",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.142857142857142,
@@ -13266,6 +13266,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Bilal Coulibaly: Not listed on injury report",
+   "link": "https://www.rotowire.com//basketball/player/bilal-coulibaly-5945",
+   "published": "Tue, 10 Nov 2026 2:13:00 PM PST",
+   "summary": "Coulibaly (hand) has been removed from the injury report ahead of Wednesday's meeting in Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jaylon Tyson: Questionable for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
    "published": "Tue, 10 Nov 2026 2:07:00 PM PST",
@@ -13291,13 +13298,6 @@
    "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
    "published": "Tue, 10 Nov 2026 12:48:00 PM PST",
    "summary": "Sabonis (knee) is available for Tuesday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zion Williamson: Absent from injury report",
-   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
-   "published": "Tue, 10 Nov 2026 11:25:00 AM PST",
-   "summary": "Williamson (rest) is off the injury report for Wednesday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15444,6 +15444,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 2.8
  }
 }
