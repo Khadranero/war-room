@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:50:24.246697Z",
+ "updated": "2026-11-10T17:00:38.195716Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -5022,7 +5022,7 @@
      "PF"
     ],
     "slot": "PF",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "ORL",
     "avg": {
      "PTS": 16.333333333333332,
@@ -13266,6 +13266,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Tristan da Silva: Late addition to injury report",
+   "link": "https://www.rotowire.com//basketball/player/tristan-da-silva-6267",
+   "published": "Tue, 10 Nov 2026 8:51:00 AM PST",
+   "summary": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Brandin Podziemski: Drills five treys in victory",
    "link": "https://www.rotowire.com//basketball/player/brandin-podziemski-5889",
    "published": "Mon, 09 Nov 2026 9:38:00 PM PST",
@@ -13291,13 +13298,6 @@
    "link": "https://www.rotowire.com//basketball/player/kevin-durant-2811",
    "published": "Mon, 09 Nov 2026 8:02:00 PM PST",
    "summary": "Durant posted 23 points (6-15 FG, 1-3 3Pt, 10-10 FT), 12 rebounds, eight assists and one block in 36 minutes during Monday's 110-100 win over Denver.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jamal Murray: Drops 38 points in defeat",
-   "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
-   "published": "Mon, 09 Nov 2026 7:58:00 PM PST",
-   "summary": "Murray amassed 38 points (14-23 FG, 5-8 3Pt, 5-5 FT), two rebounds, two assists, two blocks and one steal across 39 minutes in Monday's 110-100 loss to the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15432,6 +15432,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.6
  }
 }
