@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:50:24.113478Z",
+ "updated": "2026-11-11T22:00:33.827990Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -7923,7 +7923,7 @@
     "PG"
    ],
    "team": "BKN",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 15.142857142857142,
@@ -13248,6 +13248,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaylin Williams: Remains out indefinitely",
+   "link": "https://www.rotowire.com//basketball/player/jaylin-williams-5690",
+   "published": "Wed, 11 Nov 2026 1:20:00 PM PST",
+   "summary": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ajay Mitchell: Dealing with left ankle sprain",
    "link": "https://www.rotowire.com//basketball/player/ajay-mitchell-6289",
    "published": "Wed, 11 Nov 2026 1:18:00 PM PST",
@@ -13273,13 +13280,6 @@
    "link": "https://www.rotowire.com//basketball/player/tyler-herro-4780",
    "published": "Wed, 11 Nov 2026 11:06:00 AM PST",
    "summary": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Myles Turner: Resting Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/myles-turner-3725",
-   "published": "Wed, 11 Nov 2026 11:03:00 AM PST",
-   "summary": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15467,6 +15467,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 4.2
  }
 }
