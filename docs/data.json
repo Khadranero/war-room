@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:10:26.231366Z",
+ "updated": "2026-11-11T21:20:28.571620Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3460,7 +3460,7 @@
      "SG"
     ],
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "OKC",
     "avg": {
      "PTS": 19.857142857142858,
@@ -13248,6 +13248,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ajay Mitchell: Dealing with left ankle sprain",
+   "link": "https://www.rotowire.com//basketball/player/ajay-mitchell-6289",
+   "published": "Wed, 11 Nov 2026 1:18:00 PM PST",
+   "summary": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Keyonte George: Questionable to play Wednesday",
    "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
    "published": "Wed, 11 Nov 2026 12:04:00 PM PST",
@@ -13273,13 +13280,6 @@
    "link": "https://www.rotowire.com//basketball/player/myles-turner-3725",
    "published": "Wed, 11 Nov 2026 11:03:00 AM PST",
    "summary": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Lauri Markkanen: Will miss at least one month",
-   "link": "https://www.rotowire.com//basketball/player/lauri-markkanen-4119",
-   "published": "Wed, 11 Nov 2026 10:23:00 AM PST",
-   "summary": "Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15467,6 +15467,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 5.1
  }
 }
