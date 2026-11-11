@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T05:40:22.289908Z",
+ "updated": "2026-11-11T05:50:22.342376Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2387,13 +2387,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 12.5,
+     "PTS": 12.75,
      "REB": 3.5,
      "AST": 3.625,
      "STL": 0.75,
      "BLK": 0.125,
      "3PM": 2.375,
-     "FG%": 0.53968254,
+     "FG%": 0.546875,
      "FT%": 0.86666667,
      "TO": 1.625,
      "_src": "2027_last_15"
@@ -2769,13 +2769,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 18.25,
-     "REB": 2.75,
-     "AST": 4.25,
+     "PTS": 19.125,
+     "REB": 3.0,
+     "AST": 4.375,
      "STL": 0.625,
      "BLK": 0.125,
-     "3PM": 2.375,
-     "FG%": 0.40594059,
+     "3PM": 2.5,
+     "FG%": 0.41904762,
      "FT%": 0.83333333,
      "TO": 2.25,
      "_src": "2027_last_15"
@@ -3602,15 +3602,15 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 29.75,
+     "PTS": 30.0,
      "REB": 4.0,
-     "AST": 4.875,
+     "AST": 5.0,
      "STL": 0.625,
      "BLK": 0.75,
      "3PM": 2.5,
-     "FG%": 0.46327684,
+     "FG%": 0.45856354,
      "FT%": 0.85714286,
-     "TO": 2.25,
+     "TO": 2.375,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4725,8 +4725,8 @@
     "team": "POR",
     "avg": {
      "PTS": 21.5,
-     "REB": 5.75,
-     "AST": 6.625,
+     "REB": 5.875,
+     "AST": 6.75,
      "STL": 0.75,
      "BLK": 0.125,
      "3PM": 1.625,
@@ -5607,13 +5607,13 @@
     "avg": {
      "PTS": 13.75,
      "REB": 4.0,
-     "AST": 2.25,
+     "AST": 2.125,
      "STL": 1.0,
      "BLK": 0.375,
      "3PM": 1.625,
      "FG%": 0.4375,
      "FT%": 0.8125,
-     "TO": 1.625,
+     "TO": 1.75,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -7546,7 +7546,7 @@
    "avg": {
     "PTS": 11.375,
     "REB": 3.625,
-    "AST": 1.0,
+    "AST": 1.125,
     "STL": 0.625,
     "BLK": 0.25,
     "3PM": 2.625,
@@ -7922,7 +7922,7 @@
     "STL": 0.4,
     "BLK": 0.2,
     "3PM": 1.2,
-    "FG%": 0.4375,
+    "FG%": 0.38888889,
     "FT%": 1.0,
     "TO": 0.6,
     "_src": "2027_last_15"
@@ -9070,13 +9070,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.833333333333333,
-    "REB": 5.5,
+    "PTS": 7.166666666666667,
+    "REB": 5.666666666666667,
     "AST": 1.1666666666666667,
     "STL": 1.1666666666666667,
     "BLK": 1.1666666666666667,
     "3PM": 0.0,
-    "FG%": 0.62068966,
+    "FG%": 0.63333333,
     "FT%": 0.83333333,
     "TO": 0.6666666666666666,
     "_src": "2027_last_15"
@@ -12255,14 +12255,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.5,
+    "PTS": 5.75,
     "REB": 3.125,
     "AST": 2.0,
     "STL": 0.375,
     "BLK": 0.375,
     "3PM": 0.75,
     "FG%": 0.42424242,
-    "FT%": 0.66666667,
+    "FT%": 0.70588235,
     "TO": 0.625,
     "_src": "2027_last_15"
    },
@@ -13262,6 +13262,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Zach LaVine: Nets 31 points; tweaks ankle",
+   "link": "https://www.rotowire.com//basketball/player/zach-lavine-3597",
+   "published": "Tue, 10 Nov 2026 9:45:00 PM PST",
+   "summary": "LaVine tallied 31 points (10-16 FG, 6-9 3Pt, 5-5 FT), three rebounds, two assists and two steals over 33 minutes in Tuesday's 107-100 loss to the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ace Bailey: Nets 23 points with seven rebounds",
    "link": "https://www.rotowire.com//basketball/player/ace-bailey-6551",
    "published": "Tue, 10 Nov 2026 8:56:00 PM PST",
@@ -13287,13 +13294,6 @@
    "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
    "published": "Tue, 10 Nov 2026 7:58:00 PM PST",
    "summary": "Henderson is not listed in the starting lineup for Tuesday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Aday Mara: Shifting back to bench Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/aday-mara-6932",
-   "published": "Tue, 10 Nov 2026 7:54:00 PM PST",
-   "summary": "Mara is not listed in the starting lineup for Tuesday's game against the Trail Blazers, Brandon Rahbar of DailyThunder.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15445,6 +15445,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.5
  }
 }
