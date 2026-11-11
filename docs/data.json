@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:00:33.827990Z",
+ "updated": "2026-11-11T22:10:23.543672Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1656,7 +1656,7 @@
      "PF"
     ],
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 14.571428571428571,
@@ -5326,7 +5326,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 16.0,
@@ -13248,6 +13248,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Joel Embiid: Questionable to play Thursday",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Wed, 11 Nov 2026 2:07:00 PM PST",
+   "summary": "Embiid (foot) is listed as questionable for Thursday's game against Toronto, Adam Aaronson of PhillyVoice.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "LeBron James: Iffy for Thursday",
+   "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
+   "published": "Wed, 11 Nov 2026 2:06:00 PM PST",
+   "summary": "James (back) is questionable for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jaylin Williams: Remains out indefinitely",
    "link": "https://www.rotowire.com//basketball/player/jaylin-williams-5690",
    "published": "Wed, 11 Nov 2026 1:20:00 PM PST",
@@ -13266,20 +13280,6 @@
    "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
    "published": "Wed, 11 Nov 2026 12:04:00 PM PST",
    "summary": "George (ankle) is questionable for Wednesday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tristan da Silva: Iffy to face Utah",
-   "link": "https://www.rotowire.com//basketball/player/tristan-da-silva-6267",
-   "published": "Wed, 11 Nov 2026 11:50:00 AM PST",
-   "summary": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyler Herro: Questionable Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/tyler-herro-4780",
-   "published": "Wed, 11 Nov 2026 11:06:00 AM PST",
-   "summary": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15467,6 +15467,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 4.2
+  "run_seconds": 3.2
  }
 }
