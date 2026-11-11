@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T05:50:22.342376Z",
+ "updated": "2026-11-11T06:00:30.391598Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2387,14 +2387,14 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 12.75,
+     "PTS": 12.875,
      "REB": 3.5,
      "AST": 3.625,
      "STL": 0.75,
      "BLK": 0.125,
      "3PM": 2.375,
-     "FG%": 0.546875,
-     "FT%": 0.86666667,
+     "FG%": 0.53846154,
+     "FT%": 0.875,
      "TO": 1.625,
      "_src": "2027_last_15"
     },
@@ -3220,7 +3220,7 @@
     "team": "POR",
     "avg": {
      "PTS": 11.625,
-     "REB": 10.0,
+     "REB": 10.125,
      "AST": 1.125,
      "STL": 0.375,
      "BLK": 2.0,
@@ -3602,15 +3602,15 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 30.0,
-     "REB": 4.0,
+     "PTS": 30.25,
+     "REB": 4.125,
      "AST": 5.0,
      "STL": 0.625,
-     "BLK": 0.75,
+     "BLK": 0.875,
      "3PM": 2.5,
-     "FG%": 0.45856354,
-     "FT%": 0.85714286,
-     "TO": 2.375,
+     "FG%": 0.45604396,
+     "FT%": 0.86153846,
+     "TO": 2.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4088,12 +4088,12 @@
     "team": "OKC",
     "avg": {
      "PTS": 9.5,
-     "REB": 6.875,
+     "REB": 7.125,
      "AST": 1.5,
      "STL": 0.0,
      "BLK": 2.125,
      "3PM": 0.125,
-     "FG%": 0.64705882,
+     "FG%": 0.63461538,
      "FT%": 0.6,
      "TO": 1.625,
      "_src": "2027_last_15"
@@ -4724,13 +4724,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 21.5,
+     "PTS": 22.125,
      "REB": 5.875,
      "AST": 6.75,
      "STL": 0.75,
      "BLK": 0.125,
-     "3PM": 1.625,
-     "FG%": 0.46956522,
+     "3PM": 1.75,
+     "FG%": 0.47863248,
      "FT%": 0.68,
      "TO": 3.0,
      "_src": "2027_last_15"
@@ -5544,7 +5544,7 @@
      "3PM": 0.0,
      "FG%": 0.45652174,
      "FT%": 0.8,
-     "TO": 1.125,
+     "TO": 1.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -7548,7 +7548,7 @@
     "REB": 3.625,
     "AST": 1.125,
     "STL": 0.625,
-    "BLK": 0.25,
+    "BLK": 0.375,
     "3PM": 2.625,
     "FG%": 0.47058824,
     "FT%": 0.6,
@@ -7916,7 +7916,7 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.8,
+    "PTS": 5.2,
     "REB": 3.2,
     "AST": 2.4,
     "STL": 0.4,
@@ -7924,7 +7924,7 @@
     "3PM": 1.2,
     "FG%": 0.38888889,
     "FT%": 1.0,
-    "TO": 0.6,
+    "TO": 0.8,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9071,14 +9071,14 @@
    "pct": null,
    "avg": {
     "PTS": 7.166666666666667,
-    "REB": 5.666666666666667,
+    "REB": 5.833333333333333,
     "AST": 1.1666666666666667,
     "STL": 1.1666666666666667,
     "BLK": 1.1666666666666667,
     "3PM": 0.0,
     "FG%": 0.63333333,
     "FT%": 0.83333333,
-    "TO": 0.6666666666666666,
+    "TO": 0.8333333333333334,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9139,13 +9139,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.5,
+    "PTS": 7.875,
     "REB": 2.25,
     "AST": 1.25,
     "STL": 0.625,
     "BLK": 0.125,
-    "3PM": 0.75,
-    "FG%": 0.29090909,
+    "3PM": 0.875,
+    "FG%": 0.29310345,
     "FT%": 0.78571429,
     "TO": 2.375,
     "_src": "2027_last_15"
@@ -11269,13 +11269,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.375,
-    "REB": 4.375,
+    "PTS": 7.75,
+    "REB": 4.5,
     "AST": 1.375,
     "STL": 0.125,
     "BLK": 0.125,
-    "3PM": 1.375,
-    "FG%": 0.4375,
+    "3PM": 1.5,
+    "FG%": 0.44,
     "FT%": 0.75,
     "TO": 0.5,
     "_src": "2027_last_15"
@@ -12258,10 +12258,10 @@
     "PTS": 5.75,
     "REB": 3.125,
     "AST": 2.0,
-    "STL": 0.375,
+    "STL": 0.5,
     "BLK": 0.375,
     "3PM": 0.75,
-    "FG%": 0.42424242,
+    "FG%": 0.41176471,
     "FT%": 0.70588235,
     "TO": 0.625,
     "_src": "2027_last_15"
@@ -13262,6 +13262,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Franz Wagner: Nets 33 points with full line",
+   "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
+   "published": "Tue, 10 Nov 2026 9:52:00 PM PST",
+   "summary": "Wagner finished with 33 points (11-23 FG, 1-5 3Pt, 10-10 FT), seven rebounds, seven assists and two steals over 38 minutes in Tuesday's 107-100 win over the Kings.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Zach LaVine: Nets 31 points; tweaks ankle",
    "link": "https://www.rotowire.com//basketball/player/zach-lavine-3597",
    "published": "Tue, 10 Nov 2026 9:45:00 PM PST",
@@ -13287,13 +13294,6 @@
    "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
    "published": "Tue, 10 Nov 2026 8:38:00 PM PST",
    "summary": "Booker registered 17 points (6-14 FG, 2-6 3Pt, 3-4 FT), three rebounds and five assists across 29 minutes in Tuesday's 133-110 win over the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scoot Henderson: Not starting Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/scoot-henderson-5377",
-   "published": "Tue, 10 Nov 2026 7:58:00 PM PST",
-   "summary": "Henderson is not listed in the starting lineup for Tuesday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15445,6 +15445,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 3.4
  }
 }
