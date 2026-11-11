@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:10:23.543672Z",
+ "updated": "2026-11-11T22:20:31.528070Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3250,7 +3250,7 @@
      "SG",
      "SF"
     ],
-    "slot": "IR",
+    "slot": "UT",
     "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
@@ -3459,7 +3459,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "IR",
     "injury": "OUT",
     "team": "OKC",
     "avg": {
@@ -6936,12 +6936,6 @@
    "team": "Khadracadabra",
    "action": "TRADED",
    "player": "Jrue Holiday"
-  },
-  {
-   "date": "2026-11-09T14:20:44.624000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Draymond Green"
   }
  ],
  "schedule": {
@@ -13248,6 +13242,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dereck Lively: Still out Thursday",
+   "link": "https://www.rotowire.com//basketball/player/dereck-lively-5904",
+   "published": "Wed, 11 Nov 2026 2:14:00 PM PST",
+   "summary": "Lively (foot) is listed as out for Thursday's game in Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Joel Embiid: Questionable to play Thursday",
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Wed, 11 Nov 2026 2:07:00 PM PST",
@@ -13273,13 +13274,6 @@
    "link": "https://www.rotowire.com//basketball/player/ajay-mitchell-6289",
    "published": "Wed, 11 Nov 2026 1:18:00 PM PST",
    "summary": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Keyonte George: Questionable to play Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
-   "published": "Wed, 11 Nov 2026 12:04:00 PM PST",
-   "summary": "George (ankle) is questionable for Wednesday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15467,6 +15461,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 5.3
  }
 }
