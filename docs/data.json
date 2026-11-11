@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T06:40:23.937894Z",
+ "updated": "2026-11-11T06:50:27.395987Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -6656,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-11T06:43:46.118000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Rui Hachimura"
+  },
+  {
+   "date": "2026-11-11T06:43:46.118000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Alex Caruso"
+  },
+  {
    "date": "2026-11-11T04:47:50.593000",
    "team": "Crackheads",
    "action": "DROPPED",
@@ -7837,6 +7849,41 @@
    }
   },
   {
+   "name": "Rui Hachimura",
+   "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
+   "team": "LAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 16.8,
+    "REB": 5.8,
+    "AST": 2.0,
+    "STL": 1.2,
+    "BLK": 0.0,
+    "3PM": 2.4,
+    "FG%": 0.45588235,
+    "FT%": 0.76923077,
+    "TO": 1.2,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 13.0,
+    "REB": 4.098591549295775,
+    "AST": 1.0985915492957747,
+    "STL": 0.704225352112676,
+    "BLK": 0.39436619718309857,
+    "3PM": 1.7746478873239437,
+    "FG%": 0.518,
+    "FT%": 0.726,
+    "TO": 0.704225352112676,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Day'Ron Sharpe",
    "pos": "C",
    "elig": [
@@ -7902,41 +7949,6 @@
     "FG%": 0.427,
     "FT%": 0.769,
     "TO": 1.303030303030303,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Alex Caruso",
-   "pos": "SG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "OKC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.2,
-    "REB": 3.4,
-    "AST": 2.4,
-    "STL": 0.4,
-    "BLK": 0.4,
-    "3PM": 1.2,
-    "FG%": 0.38888889,
-    "FT%": 1.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.376811594202898,
-    "REB": 3.5942028985507246,
-    "AST": 2.6956521739130435,
-    "STL": 1.6956521739130435,
-    "BLK": 0.5072463768115942,
-    "3PM": 1.3043478260869565,
-    "FG%": 0.431,
-    "FT%": 0.803,
-    "TO": 1.1014492753623188,
     "_src": "2027_projected"
    }
   },
@@ -13261,6 +13273,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Darius Acuff: Drives offense in loss",
+   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
+   "published": "Tue, 10 Nov 2026 10:34:00 PM PST",
+   "summary": "Acuff supplied 29 points (10-21 FG, 4-9 3Pt, 5-6 FT), four rebounds, six assists and two steals over 40 minutes during Tuesday's 107-100 loss to Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Precious Achiuwa: Exits game with leg contusion",
    "link": "https://www.rotowire.com//basketball/player/precious-achiuwa-5249",
    "published": "Tue, 10 Nov 2026 10:04:00 PM PST",
@@ -13286,13 +13305,6 @@
    "link": "https://www.rotowire.com//basketball/player/ace-bailey-6551",
    "published": "Tue, 10 Nov 2026 8:56:00 PM PST",
    "summary": "Bailey recorded 23 points (10-15 FG, 3-5 3Pt), seven rebounds and two assists over 35 minutes in Tuesday's 115-109 loss to the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Double-doubles in win",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Tue, 10 Nov 2026 8:50:00 PM PST",
-   "summary": "Antetokounmpo racked up 30 points (12-21 FG, 1-2 3Pt, 5-9 FT), 11 rebounds and four assists over 31 minutes in Tuesday's 115-109 win over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13720,6 +13732,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-11T06:43:46.118000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Rui Hachimura"
+  },
+  {
+   "date": "2026-11-11T06:43:46.118000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Alex Caruso"
+  },
   {
    "date": "2026-11-11T04:47:50.593000",
    "team": "Crackheads",
@@ -15444,6 +15468,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 4.7
+  "run_seconds": 4.8
  }
 }
