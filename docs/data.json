@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T23:20:25.401778Z",
+ "updated": "2026-11-11T23:30:30.077607Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4849,7 +4849,7 @@
      "SF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHI",
     "avg": {
      "PTS": 19.0,
@@ -7348,7 +7348,7 @@
     "SF"
    ],
    "team": "SAS",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 13.0,
@@ -13242,6 +13242,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Norman Powell: Ruled out Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
+   "published": "Wed, 11 Nov 2026 3:28:00 PM PST",
+   "summary": "Powell (shoulder) won't play in Wednesday's game against the Spurs,Joel Lorenzi of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Devin Vassell: Won't play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
+   "published": "Wed, 11 Nov 2026 3:26:00 PM PST",
+   "summary": "Vassell (adductor) won't play in Wednesday's game against the Bulls, Jeff Garcia of KENS 5 San Antonio reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kawhi Leonard: Progresses to individual on-court work",
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Wed, 11 Nov 2026 2:34:00 PM PST",
@@ -13260,20 +13274,6 @@
    "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
    "published": "Wed, 11 Nov 2026 2:30:00 PM PST",
    "summary": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Will play Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Wed, 11 Nov 2026 2:29:00 PM PST",
-   "summary": "Hart (illness) will play in Wednesday's game against the Cavaliers, Ian Begley of SportsNet New York reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Immanuel Quickley: Back in action Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
-   "published": "Wed, 11 Nov 2026 2:25:00 PM PST",
-   "summary": "Quickley (hamstring) is available for Wednesday's game versus the Celtics, Jack Simone of BostonSportsJournal.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15461,6 +15461,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 4.2
  }
 }
