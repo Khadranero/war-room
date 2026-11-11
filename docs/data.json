@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:10:23.693608Z",
+ "updated": "2026-11-11T07:20:22.837791Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -6656,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-11T07:13:17.184000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "Daniss Jenkins"
+  },
+  {
+   "date": "2026-11-11T07:13:17.184000",
+   "team": "Khadracadabra",
+   "action": "DROPPED",
+   "player": "Brayden Burries"
+  },
+  {
    "date": "2026-11-11T06:43:46.118000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -7987,6 +7999,40 @@
    }
   },
   {
+   "name": "Brayden Burries",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "MIL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.375,
+    "REB": 5.875,
+    "AST": 2.5,
+    "STL": 0.5,
+    "BLK": 0.25,
+    "3PM": 0.625,
+    "FG%": 0.42253521,
+    "FT%": 0.7826087,
+    "TO": 1.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.971830985915492,
+    "REB": 2.704225352112676,
+    "AST": 4.098591549295775,
+    "STL": 1.0985915492957747,
+    "BLK": 0.29577464788732394,
+    "3PM": 0.4225352112676056,
+    "FG%": 0.449,
+    "FT%": 0.821,
+    "TO": 2.0985915492957745,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Jaxson Hayes",
    "pos": "C",
    "elig": [
@@ -8052,29 +8098,6 @@
     "TO": 1.5063291139240507,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Daniss Jenkins",
-   "pos": "PG",
-   "elig": [
-    "PG"
-   ],
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.0,
-    "REB": 3.0,
-    "AST": 4.714285714285714,
-    "STL": 1.0,
-    "BLK": 0.0,
-    "3PM": 2.2857142857142856,
-    "FG%": 0.42253521,
-    "FT%": 1.0,
-    "TO": 1.4285714285714286,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Collin Murray-Boyles",
@@ -13733,6 +13756,18 @@
  },
  "log": [
   {
+   "date": "2026-11-11T07:13:17.184000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "Daniss Jenkins"
+  },
+  {
+   "date": "2026-11-11T07:13:17.184000",
+   "team": "Khadracadabra",
+   "action": "DROPPED",
+   "player": "Brayden Burries"
+  },
+  {
    "date": "2026-11-11T06:43:46.118000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -15468,6 +15503,6 @@
   "picked_total": 2017.0,
   "direct_total": 2017.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 3.9
  }
 }
