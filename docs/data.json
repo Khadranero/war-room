@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:40:30.284190Z",
+ "updated": "2026-11-11T19:50:27.642821Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4541,40 +4541,6 @@
     }
    },
    {
-    "name": "Isaiah Collier",
-    "pos": "PG",
-    "elig": [
-     "PG"
-    ],
-    "slot": "UT",
-    "injury": "ACTIVE",
-    "team": "UTA",
-    "avg": {
-     "PTS": 7.0,
-     "REB": 3.2857142857142856,
-     "AST": 3.142857142857143,
-     "STL": 0.42857142857142855,
-     "BLK": 0.0,
-     "3PM": 0.5714285714285714,
-     "FG%": 0.52941176,
-     "FT%": 0.5625,
-     "TO": 2.4285714285714284,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 9.850746268656716,
-     "REB": 2.4029850746268657,
-     "AST": 6.1940298507462686,
-     "STL": 1.0,
-     "BLK": 0.29850746268656714,
-     "3PM": 0.417910447761194,
-     "FG%": 0.483,
-     "FT%": 0.718,
-     "TO": 2.298507462686567,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Daniss Jenkins",
     "pos": "PG",
     "elig": [
@@ -4596,6 +4562,41 @@
      "_src": "2027_last_15"
     },
     "proj": {}
+   },
+   {
+    "name": "De'Anthony Melton",
+    "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
+    "slot": "SG",
+    "injury": "ACTIVE",
+    "team": "GSW",
+    "avg": {
+     "PTS": 10.285714285714286,
+     "REB": 5.0,
+     "AST": 2.0,
+     "STL": 1.5714285714285714,
+     "BLK": 0.42857142857142855,
+     "3PM": 2.4285714285714284,
+     "FG%": 0.375,
+     "FT%": 0.76470588,
+     "TO": 1.4285714285714286,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 12.153846153846153,
+     "REB": 3.2,
+     "AST": 2.6,
+     "STL": 1.6,
+     "BLK": 0.4,
+     "3PM": 1.4923076923076923,
+     "FG%": 0.406,
+     "FT%": 0.824,
+     "TO": 1.8,
+     "_src": "2027_projected"
+    }
    }
   ],
   "Real Men Eat Ass(ouad)": [
@@ -6655,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-11T19:48:10.269000",
+   "team": "Khadracadabra",
+   "action": "DROPPED",
+   "player": "Isaiah Collier"
+  },
+  {
+   "date": "2026-11-11T19:48:10.269000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "De'Anthony Melton"
+  },
+  {
    "date": "2026-11-11T07:13:17.184000",
    "team": "Khadracadabra",
    "action": "FA ADDED",
@@ -8689,41 +8702,6 @@
    }
   },
   {
-   "name": "De'Anthony Melton",
-   "pos": "PG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.285714285714286,
-    "REB": 5.0,
-    "AST": 2.0,
-    "STL": 1.5714285714285714,
-    "BLK": 0.42857142857142855,
-    "3PM": 2.4285714285714284,
-    "FG%": 0.375,
-    "FT%": 0.76470588,
-    "TO": 1.4285714285714286,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.153846153846153,
-    "REB": 3.2,
-    "AST": 2.6,
-    "STL": 1.6,
-    "BLK": 0.4,
-    "3PM": 1.4923076923076923,
-    "FG%": 0.406,
-    "FT%": 0.824,
-    "TO": 1.8,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Jaylen Wells",
    "pos": "SF",
    "elig": [
@@ -9412,6 +9390,40 @@
     "FG%": 0.729,
     "FT%": 0.566,
     "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Isaiah Collier",
+   "pos": "PG",
+   "elig": [
+    "PG"
+   ],
+   "team": "UTA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.0,
+    "REB": 3.2857142857142856,
+    "AST": 3.142857142857143,
+    "STL": 0.42857142857142855,
+    "BLK": 0.0,
+    "3PM": 0.5714285714285714,
+    "FG%": 0.52941176,
+    "FT%": 0.5625,
+    "TO": 2.4285714285714284,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.850746268656716,
+    "REB": 2.4029850746268657,
+    "AST": 6.1940298507462686,
+    "STL": 1.0,
+    "BLK": 0.29850746268656714,
+    "3PM": 0.417910447761194,
+    "FG%": 0.483,
+    "FT%": 0.718,
+    "TO": 2.298507462686567,
     "_src": "2027_projected"
    }
   },
@@ -11710,7 +11722,7 @@
     "SF"
    ],
    "team": "ORL",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.285714285714286,
@@ -13744,6 +13756,18 @@
  },
  "log": [
   {
+   "date": "2026-11-11T19:48:10.269000",
+   "team": "Khadracadabra",
+   "action": "DROPPED",
+   "player": "Isaiah Collier"
+  },
+  {
+   "date": "2026-11-11T19:48:10.269000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "De'Anthony Melton"
+  },
+  {
    "date": "2026-11-11T07:13:17.184000",
    "team": "Khadracadabra",
    "action": "FA ADDED",
@@ -15491,6 +15515,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 3.6
  }
 }
