@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T23:40:25.447344Z",
+ "updated": "2026-11-11T23:50:25.195675Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3251,7 +3251,7 @@
      "SF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NOP",
     "avg": {
      "PTS": 15.666666666666666,
@@ -13242,6 +13242,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kelly Oubre: Back in starting lineup",
+   "link": "https://www.rotowire.com//basketball/player/kelly-oubre-3721",
+   "published": "Wed, 11 Nov 2026 3:41:00 PM PST",
+   "summary": "Oubre is in the starting lineup for Wednesday's game against the Wizards, Dustin Dopirak of The Indianapolis Star reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Norman Powell: Ruled out Wednesday",
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Wed, 11 Nov 2026 3:28:00 PM PST",
@@ -13267,13 +13274,6 @@
    "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
    "published": "Wed, 11 Nov 2026 2:31:00 PM PST",
    "summary": "Towns (calf) is available for Wednesday's game against the Cavaliers, James L. Edwards III of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyrese Haliburton: To miss at least 10 more days",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
-   "published": "Wed, 11 Nov 2026 2:30:00 PM PST",
-   "summary": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15461,6 +15461,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 4.9
+  "run_seconds": 4.3
  }
 }
