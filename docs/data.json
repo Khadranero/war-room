@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:20:31.528070Z",
+ "updated": "2026-11-11T22:30:26.492082Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2210,7 +2210,7 @@
      "SG"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
      "PTS": 17.0,
@@ -3633,7 +3633,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
      "PTS": 20.857142857142858,
@@ -3808,7 +3808,7 @@
      "SF"
     ],
     "slot": "SF",
-    "injury": "OUT",
+    "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
      "PTS": 5.75,
@@ -8052,7 +8052,7 @@
     "PF"
    ],
    "team": "TOR",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 13.166666666666666,
@@ -13242,38 +13242,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Tyrese Haliburton: To miss at least 10 more days",
+   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
+   "published": "Wed, 11 Nov 2026 2:30:00 PM PST",
+   "summary": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Josh Hart: Will play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Wed, 11 Nov 2026 2:29:00 PM PST",
+   "summary": "Hart (illness) will play in Wednesday's game against the Cavaliers, Ian Begley of SportsNet New York reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Immanuel Quickley: Back in action Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/immanuel-quickley-5201",
+   "published": "Wed, 11 Nov 2026 2:25:00 PM PST",
+   "summary": "Quickley (hamstring) is available for Wednesday's game versus the Celtics, Jack Simone of BostonSportsJournal.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Collin Murray-Boyles: Will play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/collin-murray-boyles-6585",
+   "published": "Wed, 11 Nov 2026 2:24:00 PM PST",
+   "summary": "Murray-Boyles (illness) will play in Wednesday's game against the Celtics, Josh Lewenberg of TSN.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dereck Lively: Still out Thursday",
    "link": "https://www.rotowire.com//basketball/player/dereck-lively-5904",
    "published": "Wed, 11 Nov 2026 2:14:00 PM PST",
    "summary": "Lively (foot) is listed as out for Thursday's game in Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Joel Embiid: Questionable to play Thursday",
-   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
-   "published": "Wed, 11 Nov 2026 2:07:00 PM PST",
-   "summary": "Embiid (foot) is listed as questionable for Thursday's game against Toronto, Adam Aaronson of PhillyVoice.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "LeBron James: Iffy for Thursday",
-   "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
-   "published": "Wed, 11 Nov 2026 2:06:00 PM PST",
-   "summary": "James (back) is questionable for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylin Williams: Remains out indefinitely",
-   "link": "https://www.rotowire.com//basketball/player/jaylin-williams-5690",
-   "published": "Wed, 11 Nov 2026 1:20:00 PM PST",
-   "summary": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ajay Mitchell: Dealing with left ankle sprain",
-   "link": "https://www.rotowire.com//basketball/player/ajay-mitchell-6289",
-   "published": "Wed, 11 Nov 2026 1:18:00 PM PST",
-   "summary": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15461,6 +15461,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 5.3
+  "run_seconds": 3.6
  }
 }
