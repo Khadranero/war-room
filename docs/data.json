@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T16:50:24.345037Z",
+ "updated": "2026-11-12T17:00:33.563930Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2208,7 +2208,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2277,7 +2277,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -2450,7 +2450,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -6955,18 +6955,6 @@
    "team": "Khadracadabra",
    "action": "FA ADDED",
    "player": "Brayden Burries"
-  },
-  {
-   "date": "2026-11-09T20:14:51.922000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Precious Achiuwa"
-  },
-  {
-   "date": "2026-11-09T20:14:51.922000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Grayson Allen"
   }
  ],
  "schedule": {
@@ -15545,6 +15533,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.1
  }
 }
