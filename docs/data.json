@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:50:26.285879Z",
+ "updated": "2026-11-12T19:00:34.508307Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2244,7 +2244,7 @@
      "C"
     ],
     "slot": "IR",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
      "PTS": 8.6,
@@ -13259,6 +13259,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Moussa Diabate: Upgraded to available",
+   "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
+   "published": "Thu, 12 Nov 2026 10:55:00 AM PST",
+   "summary": "Diabate (quadriceps) is listed as available for Thursday's game against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Pelle Larsson: Dealing with illness",
    "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
    "published": "Thu, 12 Nov 2026 10:35:00 AM PST",
@@ -13284,13 +13291,6 @@
    "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
    "published": "Thu, 12 Nov 2026 9:03:00 AM PST",
    "summary": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Joel Embiid: Participates in shootaround",
-   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
-   "published": "Thu, 12 Nov 2026 8:35:00 AM PST",
-   "summary": "Embiid (foot) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15545,6 +15545,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 3.9
  }
 }
