@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:00:31.687053Z",
+ "updated": "2026-11-12T22:10:25.148061Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4643,7 +4643,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4920,7 +4920,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -4989,7 +4989,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -5016,29 +5016,6 @@
      "TO": 0.8028169014084507,
      "_src": "2027_projected"
     }
-   },
-   {
-    "name": "Meleek Thomas",
-    "pos": "SG",
-    "elig": [
-     "SG"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "CLE",
-    "avg": {
-     "PTS": 12.75,
-     "REB": 2.875,
-     "AST": 1.375,
-     "STL": 1.25,
-     "BLK": 0.375,
-     "3PM": 2.5,
-     "FG%": 0.46428571,
-     "FT%": 1.0,
-     "TO": 0.875,
-     "_src": "2027_last_15"
-    },
-    "proj": {}
    },
    {
     "name": "Brook Lopez",
@@ -5106,6 +5083,40 @@
      "FG%": 0.425,
      "FT%": 0.744,
      "TO": 1.3970588235294117,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Zaccharie Risacher",
+    "pos": "SF",
+    "elig": [
+     "SF"
+    ],
+    "slot": "SF",
+    "injury": "ACTIVE",
+    "team": "DAL",
+    "avg": {
+     "PTS": 6.571428571428571,
+     "REB": 4.285714285714286,
+     "AST": 1.2857142857142858,
+     "STL": 0.8571428571428571,
+     "BLK": 0.5714285714285714,
+     "3PM": 0.8571428571428571,
+     "FG%": 0.46341463,
+     "FT%": 0.33333333,
+     "TO": 1.1428571428571428,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 10.102941176470589,
+     "REB": 3.7941176470588234,
+     "AST": 1.2058823529411764,
+     "STL": 0.8970588235294118,
+     "BLK": 0.5,
+     "3PM": 1.4705882352941178,
+     "FG%": 0.456,
+     "FT%": 0.66,
+     "TO": 0.8970588235294118,
      "_src": "2027_projected"
     }
    }
@@ -5631,7 +5642,7 @@
      "C"
     ],
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "CLE",
     "avg": {
      "PTS": 16.333333333333332,
@@ -6657,6 +6668,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-12T22:02:19.169000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Meleek Thomas"
+  },
+  {
+   "date": "2026-11-12T22:02:19.169000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Zaccharie Risacher"
+  },
+  {
    "date": "2026-11-12T21:43:43.121000",
    "team": "Real Men Eat Ass(ouad)",
    "action": "FA ADDED",
@@ -6961,12 +6984,6 @@
    "team": "Pasta Warriors",
    "action": "FA ADDED",
    "player": "Jake LaRavia"
-  },
-  {
-   "date": "2026-11-09T21:49:44.791000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "FA ADDED",
-   "player": "Meleek Thomas"
   }
  ],
  "schedule": {
@@ -8865,40 +8882,6 @@
    }
   },
   {
-   "name": "Zaccharie Risacher",
-   "pos": "SF",
-   "elig": [
-    "SF"
-   ],
-   "team": "DAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.571428571428571,
-    "REB": 4.285714285714286,
-    "AST": 1.2857142857142858,
-    "STL": 0.8571428571428571,
-    "BLK": 0.5714285714285714,
-    "3PM": 0.8571428571428571,
-    "FG%": 0.46341463,
-    "FT%": 0.33333333,
-    "TO": 1.1428571428571428,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.102941176470589,
-    "REB": 3.7941176470588234,
-    "AST": 1.2058823529411764,
-    "STL": 0.8970588235294118,
-    "BLK": 0.5,
-    "3PM": 1.4705882352941178,
-    "FG%": 0.456,
-    "FT%": 0.66,
-    "TO": 0.8970588235294118,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "T.J. McConnell",
    "pos": "PG",
    "elig": [
@@ -9106,6 +9089,29 @@
     "TO": 0.8846153846153846,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Meleek Thomas",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.75,
+    "REB": 2.875,
+    "AST": 1.375,
+    "STL": 1.25,
+    "BLK": 0.375,
+    "3PM": 2.5,
+    "FG%": 0.46428571,
+    "FT%": 1.0,
+    "TO": 0.875,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Jusuf Nurkic",
@@ -13271,6 +13277,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jamal Cain: Questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/jamal-cain-5796",
+   "published": "Thu, 12 Nov 2026 2:05:00 PM PST",
+   "summary": "Cain (shoulder) is questionable for Friday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jalen Suggs: Upgraded to questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
+   "published": "Thu, 12 Nov 2026 2:04:00 PM PST",
+   "summary": "Suggs (knee) is questionable for Friday's game against Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Norman Powell: Iffy for Friday",
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Thu, 12 Nov 2026 1:39:00 PM PST",
@@ -13281,7 +13301,7 @@
    "title": "Caleb Wilson: To miss at least four weeks",
    "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
    "published": "Thu, 12 Nov 2026 1:36:00 PM PST",
-   "summary": "Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
+   "summary": "Wilson is undergoing surgery for a fractured right hand and will miss at least four to six weeks, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
@@ -13289,20 +13309,6 @@
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Thu, 12 Nov 2026 1:22:00 PM PST",
    "summary": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Pelle Larsson: Iffy for Friday",
-   "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
-   "published": "Thu, 12 Nov 2026 1:20:00 PM PST",
-   "summary": "Larsson (illness) is listed as questionable for Friday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Brandon Ingram: Not ready for season debut",
-   "link": "https://www.rotowire.com//basketball/player/brandon-ingram-3861",
-   "published": "Thu, 12 Nov 2026 1:05:00 PM PST",
-   "summary": "Ingram (Achilles) won't play in Friday's game against the Thunder, per Law Murray of The Athletic.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13701,6 +13707,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-12T22:02:19.169000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Meleek Thomas"
+  },
+  {
+   "date": "2026-11-12T22:02:19.169000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Zaccharie Risacher"
+  },
   {
    "date": "2026-11-12T21:43:43.121000",
    "team": "Real Men Eat Ass(ouad)",
@@ -15569,6 +15587,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.4
+  "run_seconds": 2.6
  }
 }
