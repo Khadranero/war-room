@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:10:23.249486Z",
+ "updated": "2026-11-12T23:20:24.812915Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2243,7 +2243,7 @@
      "PF",
      "C"
     ],
-    "slot": "IR",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -2450,7 +2450,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2519,8 +2519,8 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
-    "injury": "ACTIVE",
+    "slot": "IR",
+    "injury": "OUT",
     "team": "MEM",
     "avg": {
      "PTS": 8.285714285714286,
@@ -13277,6 +13277,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Zach Edey: Ruled out for Friday",
+   "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
+   "published": "Thu, 12 Nov 2026 3:17:00 PM PST",
+   "summary": "Edey won't play in Friday's game against the Pelicans due to left ankle injury management.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Devin Vassell: Questionable for Friday",
    "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
    "published": "Thu, 12 Nov 2026 3:07:00 PM PST",
@@ -13302,13 +13309,6 @@
    "link": "https://www.rotowire.com//basketball/player/aaron-nesmith-5120",
    "published": "Thu, 12 Nov 2026 3:03:00 PM PST",
    "summary": "Nesmith (knee) is questionable for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Marcus Smart: Hit with three-game suspension",
-   "link": "https://www.rotowire.com//basketball/player/marcus-smart-3575",
-   "published": "Thu, 12 Nov 2026 2:45:00 PM PST",
-   "summary": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15587,6 +15587,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 2.8
  }
 }
