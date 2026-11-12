@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T14:50:33.145354Z",
+ "updated": "2026-11-12T15:00:33.059560Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4851,7 +4851,7 @@
      "SF"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 19.0,
@@ -7489,7 +7489,7 @@
     "SF"
    ],
    "team": "SAS",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.833333333333334,
@@ -15551,6 +15551,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 5.5
+  "run_seconds": 3.2
  }
 }
