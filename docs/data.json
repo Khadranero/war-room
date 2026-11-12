@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:10:25.148061Z",
+ "updated": "2026-11-12T22:20:23.934141Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3903,7 +3903,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
      "PTS": 6.428571428571429,
@@ -7361,7 +7361,7 @@
     "SG"
    ],
    "team": "MIL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 9.375,
@@ -11063,7 +11063,7 @@
     "C"
    ],
    "team": "GSW",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.25,
@@ -12983,7 +12983,7 @@
     "SG"
    ],
    "team": "GSW",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 4.0,
@@ -13277,6 +13277,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Myles Turner: Cleared for Friday",
+   "link": "https://www.rotowire.com//basketball/player/myles-turner-3725",
+   "published": "Thu, 12 Nov 2026 2:13:00 PM PST",
+   "summary": "Turner (rest) isn't listed on the injury report ahead of Friday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Evan Mobley: Won't play Friday",
+   "link": "https://www.rotowire.com//basketball/player/evan-mobley-5355",
+   "published": "Thu, 12 Nov 2026 2:08:00 PM PST",
+   "summary": "Mobley (toe) is out for Friday's game against the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jamal Cain: Questionable for Friday",
    "link": "https://www.rotowire.com//basketball/player/jamal-cain-5796",
    "published": "Thu, 12 Nov 2026 2:05:00 PM PST",
@@ -13295,20 +13309,6 @@
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Thu, 12 Nov 2026 1:39:00 PM PST",
    "summary": "Powell (shoulder) is questionable for Friday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Caleb Wilson: To miss at least four weeks",
-   "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
-   "published": "Thu, 12 Nov 2026 1:36:00 PM PST",
-   "summary": "Wilson is undergoing surgery for a fractured right hand and will miss at least four to six weeks, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Expected to play Friday",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Thu, 12 Nov 2026 1:22:00 PM PST",
-   "summary": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15587,6 +15587,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.8
  }
 }
