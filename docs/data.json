@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T06:40:25.841250Z",
+ "updated": "2026-11-12T06:50:24.444964Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -6656,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-12T06:42:05.593000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Mikal Bridges"
+  },
+  {
+   "date": "2026-11-12T06:42:05.593000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Khaman Maluach"
+  },
+  {
    "date": "2026-11-12T06:35:09.189000",
    "team": "Akumpo",
    "action": "FA ADDED",
@@ -7179,6 +7191,41 @@
   ]
  },
  "free_agents": [
+  {
+   "name": "Mikal Bridges",
+   "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "NYK",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.875,
+    "REB": 3.25,
+    "AST": 2.125,
+    "STL": 1.125,
+    "BLK": 0.5,
+    "3PM": 1.125,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 1.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 15.195121951219512,
+    "REB": 3.6951219512195124,
+    "AST": 3.6951219512195124,
+    "STL": 1.1951219512195121,
+    "BLK": 0.6951219512195121,
+    "3PM": 1.951219512195122,
+    "FG%": 0.488,
+    "FT%": 0.823,
+    "TO": 1.1951219512195121,
+    "_src": "2027_projected"
+   }
+  },
   {
    "name": "DeMar DeRozan",
    "pos": "SF",
@@ -9096,40 +9143,6 @@
     "FG%": 0.449,
     "FT%": 0.789,
     "TO": 2.185185185185185,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Khaman Maluach",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "PHO",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.285714285714286,
-    "REB": 6.0,
-    "AST": 1.2857142857142858,
-    "STL": 0.5714285714285714,
-    "BLK": 0.7142857142857143,
-    "3PM": 0.14285714285714285,
-    "FG%": 0.64864865,
-    "FT%": 0.81818182,
-    "TO": 0.7142857142857143,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.7846153846153845,
-    "REB": 7.507692307692308,
-    "AST": 0.3076923076923077,
-    "STL": 0.3076923076923077,
-    "BLK": 1.9076923076923078,
-    "3PM": 0.4,
-    "FG%": 0.522,
-    "FT%": 0.722,
-    "TO": 1.4,
     "_src": "2027_projected"
    }
   },
@@ -13718,6 +13731,18 @@
  },
  "log": [
   {
+   "date": "2026-11-12T06:42:05.593000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Mikal Bridges"
+  },
+  {
+   "date": "2026-11-12T06:42:05.593000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Khaman Maluach"
+  },
+  {
    "date": "2026-11-12T06:35:09.189000",
    "team": "Akumpo",
    "action": "FA ADDED",
@@ -15525,6 +15550,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 4.1
  }
 }
