@@ -539,10 +539,13 @@ function renderBuyLow(me){
   <p class="note">Values are total z-scores across all nine categories. Gap = recent minus projected. A big positive gap often cools off; a big negative gap on a proven player often rebounds.</p>`;
 }
 
-let TA={team:null,give:new Set(),get:new Set()};
+let TA={a:null,team:null,give:new Set(),get:new Set()};
 const prof=(players,n=10)=>{const ps=players.filter(p=>p.slot!=='IR'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,n),o={};D.cats.forEach(c=>o[c]=ps.reduce((s,p)=>s+z(p,c),0));return o};
-function renderAnalyzer(me){
-  const teams=D.power.map(p=>p.team).filter(t=>t!==me);
+function renderAnalyzer(me0){
+  const allT=D.power.map(p=>p.team);
+  if(!TA.a||!allT.includes(TA.a))TA.a=me0;
+  const me=TA.a;
+  const teams=allT.filter(t=>t!==me);
   if(!TA.team||!teams.includes(TA.team))TA.team=teams[0];
   const mine=D.rosters[me]||[],theirs=D.rosters[TA.team]||[];
   const list=(arr,set,k)=>[...arr].filter(hasStats).sort((a,b)=>totZ(b)-totZ(a)).map(p=>`<label class="pick"><input type="checkbox" data-k="${k}" data-n="${esc(p.name)}" ${set.has(p.name)?'checked':''}> ${esc(p.name)} <span class="mut">${posOf(p)} · ${totZ(p).toFixed(1)}</span></label>`).join('');
@@ -564,20 +567,21 @@ function renderAnalyzer(me){
     const gap=give.reduce((s,p)=>s+totZ(p),0)-get.reduce((s,p)=>s+totZ(p),0);
     let v;
     if(myD>0.5&&thD>0.5)v='<b class="good">Win-win.</b> Both teams improve, so they have a reason to accept.';
-    else if(myD>0.5)v='<b class="good">Good for you.</b> They lose more than they gain, so expect pushback unless they value the names.';
-    else if(myD<-0.5&&thD>0.5)v='<b class="bad">Favors them.</b> You lose ground in your categories.';
+    else if(myD>0.5)v='<b class="good">Good for ${esc(me)}.</b> The other side loses more than it gains, so expect pushback unless they value the names.';
+    else if(myD<-0.5&&thD>0.5)v='<b class="bad">Favors ${esc(TA.team)}.</b> ${esc(me)} loses ground.';
     else if(myD<-0.5)v='<b class="bad">Bad for both sides.</b> Not worth proposing.';
     else v='<b>Roughly even.</b> Small effect on your categories.';
     const spots=get.length-give.length;
-    res=`<div class="verdict">${v}<br><span class="mut">Your category change (non-punted): ${myD>0?'+':''}${myD.toFixed(1)} · theirs: ${thD>0?'+':''}${thD.toFixed(1)} · name value gap: ${gap>0?'+':''}${gap.toFixed(1)} in their favor when positive.</span><br>${spots>0?`You would need to drop ${spots} player${spots>1?'s':''} to make room.`:spots<0?`You would free ${-spots} roster spot${spots<-1?'s':''}.`:'Roster sizes stay the same.'}</div>
-    <table><tr><th>Cat</th><th class=n>You</th><th class=n>Your rank</th><th class=n>${esc(TA.team)}</th><th class=n>Their rank</th></tr>${rows}</table>
+    res=`<div class="verdict">${v}<br><span class="mut">Category change for ${esc(me)} (non-punted): ${myD>0?'+':''}${myD.toFixed(1)} · theirs: ${thD>0?'+':''}${thD.toFixed(1)} · name value gap: ${gap>0?'+':''}${gap.toFixed(1)} in their favor when positive.</span><br>${spots>0?`You would need to drop ${spots} player${spots>1?'s':''} to make room.`:spots<0?`You would free ${-spots} roster spot${spots<-1?'s':''}.`:'Roster sizes stay the same.'}</div>
+    <table><tr><th>Cat</th><th class=n>${esc(me)}</th><th class=n>Rank</th><th class=n>${esc(TA.team)}</th><th class=n>Rank</th></tr>${rows}</table>
     <p class="note">Team strength = sum of z-scores of each team's best 10 players. Rank is among all 10 teams. Positions and minutes are not checked.</p>`;
   }
-  $('analyzer').innerHTML=`<label class="mut">Trade with: <select id="ta_t">${teams.map(t=>`<option ${t===TA.team?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
-  <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">You give</h3><div class="picks">${list(mine,TA.give,'give')}</div></div><div><h3 style="margin-top:0">You get</h3><div class="picks">${list(theirs,TA.get,'get')}</div></div></div>
+  $('analyzer').innerHTML=`<label class="mut">Team A: <select id="ta_a">${allT.map(t=>`<option ${t===me?'selected':''}>${esc(t)}</option>`).join('')}</select></label> &nbsp; <label class="mut">Team B: <select id="ta_t">${teams.map(t=>`<option ${t===TA.team?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+  <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">${esc(me)} gives</h3><div class="picks">${list(mine,TA.give,'give')}</div></div><div><h3 style="margin-top:0">${esc(TA.team)} gives</h3><div class="picks">${list(theirs,TA.get,'get')}</div></div></div>
   <div style="margin-top:12px">${res}</div>`;
-  $('ta_t').onchange=e=>{TA.team=e.target.value;TA.get=new Set();renderAnalyzer(me)};
-  $('analyzer').querySelectorAll('input[type=checkbox]').forEach(i=>i.onchange=()=>{const s=i.dataset.k==='give'?TA.give:TA.get;i.checked?s.add(i.dataset.n):s.delete(i.dataset.n);renderAnalyzer(me)});
+  $('ta_a').onchange=e=>{TA.a=e.target.value;TA.give=new Set();TA.get=new Set();renderAnalyzer(me0)};
+  $('ta_t').onchange=e=>{TA.team=e.target.value;TA.get=new Set();renderAnalyzer(me0)};
+  $('analyzer').querySelectorAll('input[type=checkbox]').forEach(i=>i.onchange=()=>{const s=i.dataset.k==='give'?TA.give:TA.get;i.checked?s.add(i.dataset.n):s.delete(i.dataset.n);renderAnalyzer(me0)});
 }
 
 /* ---------- POSITIONS + TRADE LAB ---------- */
@@ -605,66 +609,71 @@ function lineupFit(players){
 }
 const labProf=(players,n=10)=>{const ps=players.filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,n),o={};D.cats.forEach(c=>o[c]=ps.reduce((s,p)=>s+z(p,c),0));return o};
 let TL=[];try{TL=JSON.parse(lsGet('tradeplan','[]'))||[]}catch(e){TL=[]}
-let LD={team:null,give:new Set(),get:new Set()};
+let LD={a:null,team:null,give:new Set(),get:new Set(),focus:null};
 const saveTL=()=>lsSet('tradeplan',JSON.stringify(TL));
 function simulate(me,plan){
   const R={};Object.keys(D.rosters).forEach(t=>R[t]=D.rosters[t].slice());const notes=[];
   plan.forEach((tr,i)=>{
-    if(!R[tr.team]){notes.push(`Trade ${i+1}: team "${esc(tr.team)}" not found.`);return}
-    const mine=R[me],theirs=R[tr.team];
-    const gp=mine.filter(p=>tr.give.includes(p.name)),hp=theirs.filter(p=>tr.get.includes(p.name));
+    const a=tr.a||me,b=tr.team;
+    if(!R[a]||!R[b]){notes.push(`Trade ${i+1}: a team in this trade was not found.`);return}
+    const A=R[a],B=R[b];
+    const gp=A.filter(p=>tr.give.includes(p.name)),hp=B.filter(p=>tr.get.includes(p.name));
     if(gp.length!==tr.give.length||hp.length!==tr.get.length)notes.push(`Trade ${i+1}: a player is no longer where the plan expects (already moved, or ESPN changed). Remove or redo it.`);
-    const mv=(p)=>Object.assign({},p,{slot:p.injury==='OUT'?'IR':'BE'});
-    R[me]=mine.filter(p=>!tr.give.includes(p.name)).concat(hp.map(mv));
-    R[tr.team]=theirs.filter(p=>!tr.get.includes(p.name)).concat(gp.map(mv));
+    const mv=p=>Object.assign({},p,{slot:p.injury==='OUT'?'IR':'BE'});
+    R[a]=A.filter(p=>!tr.give.includes(p.name)).concat(hp.map(mv));
+    R[b]=B.filter(p=>!tr.get.includes(p.name)).concat(gp.map(mv));
   });
   return{R,notes};
 }
-function labStats(R){
-  const ts=Object.keys(R),P={};ts.forEach(t=>P[t]=labProf(R[t]));return P;
-}
+const labStats=R=>{const P={};Object.keys(R).forEach(t=>P[t]=labProf(R[t]));return P};
 function labSd(P){const ts=Object.keys(P),sd={};D.cats.forEach(c=>{const v=ts.map(x=>P[x][c]),m=v.reduce((a,b)=>a+b,0)/v.length;sd[c]=Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/v.length)||1});return sd}
 function labWin(P,sd,t){const ts=Object.keys(P).filter(o=>o!==t);let s=0;
   ts.forEach(o=>{const probs={};D.cats.forEach(c=>{probs[c]=Phi((P[t][c]-P[o][c])/(sd[c]*1.2))});s+=dpWin(probs)});return s/ts.length}
 const labRank=(P,c,t)=>1+Object.keys(P).filter(o=>o!==t&&P[o][c]>P[t][c]+1e-9).length;
 function renderLab(me){
   const el=$('lab');if(!el)return;
-  const teams=D.power.map(p=>p.team).filter(t=>t!==me);
-  if(!LD.team||!teams.includes(LD.team))LD.team=teams[0];
+  const all=D.power.map(p=>p.team);
+  if(!LD.a||!all.includes(LD.a))LD.a=me;
+  const bTeams=all.filter(t=>t!==LD.a);
+  if(!LD.team||!bTeams.includes(LD.team))LD.team=bTeams[0];
   const base=simulate(me,[]),cur=simulate(me,TL);
   const P0=labStats(base.R),P1=labStats(cur.R),sd=labSd(P0);
-  const mineNow=cur.R[me],theirsNow=cur.R[LD.team]||[];
+  const A=LD.a,B=LD.team,aNow=cur.R[A],bNow=cur.R[B]||[];
   const pick=(arr,set,k)=>[...arr].filter(hasStats).sort((a,b)=>totZ(b)-totZ(a)).map(p=>`<label class="pick"><input type="checkbox" data-k="${k}" data-n="${esc(p.name)}" ${set.has(p.name)?'checked':''}> ${esc(p.name)} <span class="mut">${posOf(p)}${p.injury&&p.injury!=='ACTIVE'?' · '+esc(p.injury):''} · ${totZ(p).toFixed(1)}</span></label>`).join('');
-  const planRows=TL.length?TL.map((t,i)=>`<tr><td>${i+1}</td><td>${esc(t.team)}</td><td>${t.give.map(esc).join(' + ')}</td><td>${t.get.map(esc).join(' + ')}</td><td><button class="lbx" data-i="${i}">✕</button></td></tr>`).join(''):'';
-  let out='<p class="note">Build a trade below and press <b>Add to plan</b>. Add as many as you like, with any teams. Each one is applied on top of the previous ones, so you can plan a chain. Nothing is sent to ESPN.</p>';
+  const involved=[...new Set(TL.flatMap(t=>[t.a||me,t.team]))];
+  const planRows=TL.map((t,i)=>`<tr><td>${i+1}</td><td>${esc(t.a||me)}</td><td>${esc(t.team)}</td><td>${t.give.map(esc).join(' + ')}</td><td>${t.get.map(esc).join(' + ')}</td><td><button class="lbx" data-i="${i}">✕</button></td></tr>`).join('');
+  let out='<p class="note">Pick <b>any two teams</b> below, build a trade between them and press <b>Add to plan</b>. Add as many trades as you like, between any teams. Each one is applied on top of the previous ones. Nothing is sent to ESPN.</p>';
   if(TL.length){
-    const f0=lineupFit(base.R[me]),f1=lineupFit(cur.R[me]);
-    const w0=labWin(P0,sd,me),w1=labWin(P1,sd,me);
-    const rows=D.cats.map(c=>{const r0=labRank(P0,c,me),r1=labRank(P1,c,me),d=P1[me][c]-P0[me][c];
+    if(!LD.focus||!involved.includes(LD.focus))LD.focus=involved.includes(me)?me:involved[0];
+    const F=LD.focus,f0=lineupFit(base.R[F]),f1=lineupFit(cur.R[F]);
+    const rows=D.cats.map(c=>{const r0=labRank(P0,c,F),r1=labRank(P1,c,F),d=P1[F][c]-P0[F][c];
       return `<tr><td>${c}</td><td class="n ${d>0.15?'good':d<-0.15?'bad':'mut'}">${d>0?'+':''}${d.toFixed(1)}</td><td class="n">${r0}${r1!==r0?` → <b class="${r1<r0?'good':'bad'}">${r1}</b>`:''}</td></tr>`}).join('');
-    const rc0=base.R[me].length,rc1=cur.R[me].length;
-    const part=[...new Set(TL.map(t=>t.team))].map(t=>{const a=labWin(P0,sd,t),b=labWin(P1,sd,t),f=lineupFit(cur.R[t]),n=cur.R[t].length;
-      return `<tr><td>${esc(t)}</td><td class="n">${Math.round(a*100)}% → <b class="${b>a+.005?'good':b<a-.005?'bad':''}">${Math.round(b*100)}%</b></td><td class="n ${n>15?'bad':''}">${n}${n>15?' (must drop '+(n-15)+')':''}</td><td>${f.empty.length?`<span class="bad">empty: ${f.empty.join(', ')}</span>`:'<span class="good">full</span>'}</td></tr>`}).join('');
-    const dw=w1-w0;
-    const v=dw>0.03?'<b class="good">The plan improves your team.</b>':dw<-0.03?'<b class="bad">The plan weakens your team on raw value.</b>':'<b>Roughly neutral on raw value.</b>';
-    out+=`<table><tr><th>#</th><th>With</th><th>You give</th><th>You get</th><th></th></tr>${planRows}</table>
+    const part=involved.map(t=>{const a=labWin(P0,sd,t),b=labWin(P1,sd,t),f=lineupFit(cur.R[t]),n=cur.R[t].length,n0=base.R[t].length;
+      return `<tr><td class="${cls(t)}">${esc(t)}</td><td class="n">${Math.round(a*100)}% → <b class="${b>a+.005?'good':b<a-.005?'bad':''}">${Math.round(b*100)}%</b></td><td class="n ${n>15?'bad':''}">${n0} → ${n}${n>15?' (must drop '+(n-15)+')':''}</td><td>${f.empty.length?`<span class="bad">empty: ${f.empty.join(', ')}</span>`:'<span class="good">full</span>'}</td></tr>`}).join('');
+    const w0=labWin(P0,sd,F),w1=labWin(P1,sd,F),dw=w1-w0;
+    const v=dw>0.03?'<b class="good">The plan improves this team.</b>':dw<-0.03?'<b class="bad">The plan weakens this team on raw value.</b>':'<b>Roughly neutral on raw value.</b>';
+    out+=`<table><tr><th>#</th><th>Team A</th><th>Team B</th><th>A gives</th><th>A gets</th><th></th></tr>${planRows}</table>
     <p style="margin:8px 0"><button id="lclear">Clear plan</button></p>
-    <div class="verdict">${v}<br><span class="mut">Your avg chance to beat a random opponent: ${Math.round(w0*100)}% → <b>${Math.round(w1*100)}%</b>. Roster: ${rc0} → <b class="${rc1>15?'bad':''}">${rc1}</b>${rc1>15?' (you must drop '+(rc1-15)+')':' of 15'}.</span><br>
-    <span class="mut">Lineup slots filled (10 total): ${f0.filled} → <b class="${f1.filled<10?'bad':'good'}">${f1.filled}</b>${f1.empty.length?`. Empty after the plan: <b class="bad">${f1.empty.join(', ')}</b>.`:'. Every slot is filled.'}${f1.bench.length?` Bench: ${f1.bench.map(esc).join(', ')}.`:''}</span></div>
+    <h3>Results for all teams in the plan</h3><table><tr><th>Team</th><th class=n>Win chance</th><th class=n>Roster</th><th>Lineup</th></tr>${part}</table>
+    <h3>Look closer at:</h3><label class="mut"><select id="lab_f">${involved.map(t=>`<option ${t===F?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+    <div class="verdict">${v}<br><span class="mut">Avg chance to beat a random opponent: ${Math.round(w0*100)}% → <b>${Math.round(w1*100)}%</b>. Lineup slots filled: ${f0.filled} → <b class="${f1.filled<10?'bad':'good'}">${f1.filled}</b> of 10${f1.empty.length?`. Empty after the plan: <b class="bad">${f1.empty.join(', ')}</b>.`:'.'}${f1.bench.length?` Bench: ${f1.bench.map(esc).join(', ')}.`:''}</span></div>
     ${cur.notes.length?`<p class="note bad">${cur.notes.join('<br>')}</p>`:''}
-    <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">Your categories</h3><table><tr><th>Cat</th><th class=n>Change</th><th class=n>Rank</th></tr>${rows}</table></div>
-    <div><h3 style="margin-top:0">Your lineup after the plan</h3><table><tr><th>Slot</th><th>Player</th><th>Pos</th></tr>${f1.slots.map(x=>`<tr><td>${x.s}</td><td>${x.p?esc(x.p.name):'<span class="bad">EMPTY</span>'}</td><td class="mut">${x.p?posOf(x.p):''}</td></tr>`).join('')}</table></div></div>
-    <h3>Other teams in the plan</h3><table><tr><th>Team</th><th class=n>Win chance</th><th class=n>Roster</th><th>Lineup</th></tr>${part}</table>`;
+    <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">Categories</h3><table><tr><th>Cat</th><th class=n>Change</th><th class=n>Rank</th></tr>${rows}</table></div>
+    <div><h3 style="margin-top:0">Lineup after the plan</h3><table><tr><th>Slot</th><th>Player</th><th>Pos</th></tr>${f1.slots.map(x=>`<tr><td>${x.s}</td><td>${x.p?esc(x.p.name):'<span class="bad">EMPTY</span>'}</td><td class="mut">${x.p?posOf(x.p):''}</td></tr>`).join('')}</table></div></div>`;
   }
-  const give=mineNow.filter(p=>LD.give.has(p.name)),get=theirsNow.filter(p=>LD.get.has(p.name));
+  const give=aNow.filter(p=>LD.give.has(p.name)),get=bNow.filter(p=>LD.get.has(p.name));
   const ok=give.length&&get.length;
-  el.innerHTML=out+`<h3>Add a trade</h3><label class="mut">Trade with: <select id="lab_t">${teams.map(t=>`<option ${t===LD.team?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
-  <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">You give</h3><div class="picks">${pick(mineNow,LD.give,'give')}</div></div><div><h3 style="margin-top:0">You get</h3><div class="picks">${pick(theirsNow,LD.get,'get')}</div></div></div>
+  el.innerHTML=out+`<h3>Add a trade</h3>
+  <div class="grid"><label class="mut">Team A: <select id="lab_a">${all.map(t=>`<option ${t===A?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+  <label class="mut">Team B: <select id="lab_t">${bTeams.map(t=>`<option ${t===B?'selected':''}>${esc(t)}</option>`).join('')}</select></label></div>
+  <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">${esc(A)} gives</h3><div class="picks">${pick(aNow,LD.give,'give')}</div></div><div><h3 style="margin-top:0">${esc(B)} gives</h3><div class="picks">${pick(bNow,LD.get,'get')}</div></div></div>
   <p style="margin:10px 0"><button id="ladd" ${ok?'':'disabled'}>Add to plan</button> <span class="mut">${ok?'':'Tick at least one player on each side.'}</span></p>
   <p class="note">Positions are ESPN eligibility when the data has it, otherwise your confirmed list or the main position. Team strength = sum of z-scores of each team's best 10 healthy players (IR and OUT excluded). Win chance is against a random opponent. The lineup check uses PG, SG, SF, PF, C, G, F and 3 UT.</p>`;
+  $('lab_a').onchange=e=>{LD.a=e.target.value;LD.give=new Set();LD.get=new Set();renderLab(me)};
   $('lab_t').onchange=e=>{LD.team=e.target.value;LD.get=new Set();renderLab(me)};
+  const ff=$('lab_f');if(ff)ff.onchange=e=>{LD.focus=e.target.value;renderLab(me)};
   el.querySelectorAll('input[type=checkbox]').forEach(i=>i.onchange=()=>{const st=i.dataset.k==='give'?LD.give:LD.get;i.checked?st.add(i.dataset.n):st.delete(i.dataset.n);renderLab(me)});
-  const add=$('ladd');if(add)add.onclick=()=>{TL.push({team:LD.team,give:[...LD.give],get:[...LD.get]});LD={team:LD.team,give:new Set(),get:new Set()};saveTL();renderLab(me)};
+  const add=$('ladd');if(add)add.onclick=()=>{TL.push({a:A,team:B,give:[...LD.give],get:[...LD.get]});LD.give=new Set();LD.get=new Set();saveTL();renderLab(me)};
   el.querySelectorAll('.lbx').forEach(b=>b.onclick=()=>{TL.splice(+b.dataset.i,1);saveTL();renderLab(me)});
   const cl=$('lclear');if(cl)cl.onclick=()=>{TL=[];saveTL();LD.give=new Set();LD.get=new Set();renderLab(me)};
 }
