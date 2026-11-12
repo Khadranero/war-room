@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:40:26.004175Z",
+ "updated": "2026-11-12T21:50:24.150003Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4885,7 +4885,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5018,41 +5018,6 @@
     }
    },
    {
-    "name": "Bobby Portis",
-    "pos": "PF",
-    "elig": [
-     "PF",
-     "C"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "MIA",
-    "avg": {
-     "PTS": 4.857142857142857,
-     "REB": 4.571428571428571,
-     "AST": 2.0,
-     "STL": 0.5714285714285714,
-     "BLK": 0.2857142857142857,
-     "3PM": 0.7142857142857143,
-     "FG%": 0.34146341,
-     "FT%": 0.5,
-     "TO": 0.42857142857142855,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 13.646153846153846,
-     "REB": 6.707692307692308,
-     "AST": 1.6,
-     "STL": 0.6,
-     "BLK": 0.2,
-     "3PM": 1.8615384615384616,
-     "FG%": 0.486,
-     "FT%": 0.733,
-     "TO": 1.0,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Meleek Thomas",
     "pos": "SG",
     "elig": [
@@ -5106,6 +5071,41 @@
      "FG%": 0.475,
      "FT%": 0.806,
      "TO": 0.9027777777777778,
+     "_src": "2027_projected"
+    }
+   },
+   {
+    "name": "Bilal Coulibaly",
+    "pos": "SF",
+    "elig": [
+     "SG",
+     "SF"
+    ],
+    "slot": "SG",
+    "injury": "ACTIVE",
+    "team": "WAS",
+    "avg": {
+     "PTS": 6.428571428571429,
+     "REB": 3.7142857142857144,
+     "AST": 1.0,
+     "STL": 0.8571428571428571,
+     "BLK": 1.1428571428571428,
+     "3PM": 0.2857142857142857,
+     "FG%": 0.48717949,
+     "FT%": 0.625,
+     "TO": 0.5714285714285714,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 10.25,
+     "REB": 3.8970588235294117,
+     "AST": 2.2941176470588234,
+     "STL": 1.2058823529411764,
+     "BLK": 0.7941176470588235,
+     "3PM": 1.0,
+     "FG%": 0.425,
+     "FT%": 0.744,
+     "TO": 1.3970588235294117,
      "_src": "2027_projected"
     }
    }
@@ -6656,6 +6656,18 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-12T21:43:43.121000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Bilal Coulibaly"
+  },
+  {
+   "date": "2026-11-12T21:43:43.121000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Bobby Portis"
+  },
   {
    "date": "2026-11-12T18:13:00.396000",
    "team": "Crackheads",
@@ -8261,6 +8273,41 @@
    }
   },
   {
+   "name": "Bobby Portis",
+   "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.857142857142857,
+    "REB": 4.571428571428571,
+    "AST": 2.0,
+    "STL": 0.5714285714285714,
+    "BLK": 0.2857142857142857,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.34146341,
+    "FT%": 0.5,
+    "TO": 0.42857142857142855,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 13.646153846153846,
+    "REB": 6.707692307692308,
+    "AST": 1.6,
+    "STL": 0.6,
+    "BLK": 0.2,
+    "3PM": 1.8615384615384616,
+    "FG%": 0.486,
+    "FT%": 0.733,
+    "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Brayden Burries",
    "pos": "SG",
    "elig": [
@@ -9334,41 +9381,6 @@
     "FG%": 0.693,
     "FT%": 0.66,
     "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Bilal Coulibaly",
-   "pos": "SF",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "WAS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.428571428571429,
-    "REB": 3.7142857142857144,
-    "AST": 1.0,
-    "STL": 0.8571428571428571,
-    "BLK": 1.1428571428571428,
-    "3PM": 0.2857142857142857,
-    "FG%": 0.48717949,
-    "FT%": 0.625,
-    "TO": 0.5714285714285714,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 10.25,
-    "REB": 3.8970588235294117,
-    "AST": 2.2941176470588234,
-    "STL": 1.2058823529411764,
-    "BLK": 0.7941176470588235,
-    "3PM": 1.0,
-    "FG%": 0.425,
-    "FT%": 0.744,
-    "TO": 1.3970588235294117,
     "_src": "2027_projected"
    }
   },
@@ -13259,6 +13271,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Norman Powell: Iffy for Friday",
+   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
+   "published": "Thu, 12 Nov 2026 1:39:00 PM PST",
+   "summary": "Powell (shoulder) is questionable for Friday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Caleb Wilson: To miss at least four weeks",
    "link": "https://www.rotowire.com//basketball/player/caleb-wilson-6926",
    "published": "Thu, 12 Nov 2026 1:36:00 PM PST",
@@ -13284,13 +13303,6 @@
    "link": "https://www.rotowire.com//basketball/player/brandon-ingram-3861",
    "published": "Thu, 12 Nov 2026 1:05:00 PM PST",
    "summary": "Ingram (Achilles) won't play in Friday's game against the Thunder, per Law Murray of The Athletic.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Yves Missi: Unlikely to play Friday",
-   "link": "https://www.rotowire.com//basketball/player/yves-missi-6268",
-   "published": "Thu, 12 Nov 2026 12:51:00 PM PST",
-   "summary": "Missi (knee) is listed as doubtful for Friday's game against the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13689,6 +13701,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-12T21:43:43.121000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Bilal Coulibaly"
+  },
+  {
+   "date": "2026-11-12T21:43:43.121000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Bobby Portis"
+  },
   {
    "date": "2026-11-12T18:13:00.396000",
    "team": "Crackheads",
@@ -15545,6 +15569,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.5
  }
 }
