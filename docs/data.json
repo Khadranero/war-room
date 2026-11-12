@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T00:00:36.024665Z",
+ "updated": "2026-11-12T00:10:26.438928Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4178,7 +4178,7 @@
      "SF"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHA",
     "avg": {
      "PTS": 18.166666666666668,
@@ -6656,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-12T00:00:38.724000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-12T00:00:38.724000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Mitchell Robinson"
+  },
+  {
    "date": "2026-11-11T19:48:10.269000",
    "team": "Khadracadabra",
    "action": "DROPPED",
@@ -7376,41 +7388,6 @@
    }
   },
   {
-   "name": "Paul Reed",
-   "pos": "C",
-   "elig": [
-    "PF",
-    "C"
-   ],
-   "team": "DET",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.571428571428571,
-    "REB": 7.0,
-    "AST": 2.0,
-    "STL": 1.4285714285714286,
-    "BLK": 1.0,
-    "3PM": 0.42857142857142855,
-    "FG%": 0.5483871,
-    "FT%": 0.71428571,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.428571428571429,
-    "REB": 4.396825396825397,
-    "AST": 1.2063492063492063,
-    "STL": 0.9047619047619048,
-    "BLK": 0.9047619047619048,
-    "3PM": 0.19047619047619047,
-    "FG%": 0.603,
-    "FT%": 0.672,
-    "TO": 0.9047619047619048,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Nikola Vucevic",
    "pos": "C",
    "elig": [
@@ -8076,6 +8053,39 @@
     "FG%": 0.6,
     "FT%": 0.67,
     "TO": 1.106060606060606,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Mitchell Robinson",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "BOS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.428571428571429,
+    "REB": 6.142857142857143,
+    "AST": 0.7142857142857143,
+    "STL": 1.0,
+    "BLK": 0.7142857142857143,
+    "3PM": 0.0,
+    "FG%": 0.58823529,
+    "FT%": 0.35714286,
+    "TO": 0.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.344262295081967,
+    "REB": 11.098360655737705,
+    "AST": 1.098360655737705,
+    "STL": 1.1967213114754098,
+    "BLK": 1.5081967213114753,
+    "FG%": 0.715,
+    "FT%": 0.417,
+    "TO": 0.9016393442622951,
     "_src": "2027_projected"
    }
   },
@@ -9591,7 +9601,7 @@
     "C"
    ],
    "team": "MEM",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 15.5,
@@ -12773,7 +12783,7 @@
     "PG"
    ],
    "team": "FA",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {},
    "proj": {
@@ -13701,6 +13711,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-12T00:00:38.724000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-12T00:00:38.724000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Mitchell Robinson"
+  },
   {
    "date": "2026-11-11T19:48:10.269000",
    "team": "Khadracadabra",
