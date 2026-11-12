@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T06:20:22.054661Z",
+ "updated": "2026-11-12T06:30:30.341850Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -6656,6 +6656,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-12T06:29:53.291000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Grayson Allen"
+  },
+  {
+   "date": "2026-11-12T06:29:53.291000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Kyle Kuzma"
+  },
+  {
    "date": "2026-11-12T00:00:38.724000",
    "team": "Wembelieve I can fly",
    "action": "FA ADDED",
@@ -7645,41 +7657,6 @@
    }
   },
   {
-   "name": "Grayson Allen",
-   "pos": "SG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "CHA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 14.428571428571429,
-    "REB": 3.0,
-    "AST": 2.857142857142857,
-    "STL": 1.0,
-    "BLK": 0.5714285714285714,
-    "3PM": 3.4285714285714284,
-    "FG%": 0.44776119,
-    "FT%": 0.89473684,
-    "TO": 2.2857142857142856,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.047619047619047,
-    "REB": 2.9047619047619047,
-    "AST": 3.2063492063492065,
-    "STL": 1.0952380952380953,
-    "BLK": 0.30158730158730157,
-    "3PM": 2.7301587301587302,
-    "FG%": 0.413,
-    "FT%": 0.854,
-    "TO": 1.3968253968253967,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Neemias Queta",
    "pos": "C",
    "elig": [
@@ -7884,6 +7861,41 @@
     "FG%": 0.427,
     "FT%": 0.769,
     "TO": 1.303030303030303,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Kyle Kuzma",
+   "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
+   "team": "MIL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.0,
+    "REB": 3.75,
+    "AST": 2.25,
+    "STL": 1.125,
+    "BLK": 0.5,
+    "3PM": 1.5,
+    "FG%": 0.44776119,
+    "FT%": 0.66666667,
+    "TO": 1.625,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 13.029411764705882,
+    "REB": 4.602941176470588,
+    "AST": 2.6029411764705883,
+    "STL": 0.6029411764705882,
+    "BLK": 0.39705882352941174,
+    "3PM": 1.2205882352941178,
+    "FG%": 0.48,
+    "FT%": 0.714,
+    "TO": 1.7941176470588236,
     "_src": "2027_projected"
    }
   },
@@ -13683,6 +13695,18 @@
  },
  "log": [
   {
+   "date": "2026-11-12T06:29:53.291000",
+   "team": "Team Batrouni",
+   "action": "FA ADDED",
+   "player": "Grayson Allen"
+  },
+  {
+   "date": "2026-11-12T06:29:53.291000",
+   "team": "Team Batrouni",
+   "action": "DROPPED",
+   "player": "Kyle Kuzma"
+  },
+  {
    "date": "2026-11-12T00:00:38.724000",
    "team": "Wembelieve I can fly",
    "action": "FA ADDED",
@@ -15454,6 +15478,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 4.3
  }
 }
