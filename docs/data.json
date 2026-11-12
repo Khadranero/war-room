@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:00:34.287234Z",
+ "updated": "2026-11-12T18:10:25.105675Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1656,7 +1656,7 @@
      "PF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "PHL",
     "avg": {
      "PTS": 14.571428571428571,
@@ -13166,7 +13166,7 @@
     "PF"
    ],
    "team": "TOR",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 2.6666666666666665,
@@ -13253,6 +13253,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scottie Barnes: Ruled out Thursday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Thu, 12 Nov 2026 10:06:00 AM PST",
+   "summary": "Barnes (groin) is out for Thursday's game against Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Stephen Curry: Diagnosed with abdominal tear",
    "link": "https://www.rotowire.com//basketball/player/stephen-curry-3014",
    "published": "Thu, 12 Nov 2026 9:03:00 AM PST",
@@ -13278,13 +13285,6 @@
    "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
    "published": "Wed, 11 Nov 2026 9:49:00 PM PST",
    "summary": "Jerome produced 22 points (9-18 FG, 1-5 3Pt, 3-3 FT), two rebounds and five assists over 32 minutes in Wednesday's 123-118 loss to the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jamal Murray: Scores game-high 30 points in win",
-   "link": "https://www.rotowire.com//basketball/player/jamal-murray-3882",
-   "published": "Wed, 11 Nov 2026 9:46:00 PM PST",
-   "summary": "Murray popped off for 30 points (12-19 FG, 4-7 3Pt, 2-3 FT), four rebounds, eight assists and two blocks over 32 minutes in Wednesday's 123-118 win over Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15527,6 +15527,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 3.4
  }
 }
