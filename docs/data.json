@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:00:38.077966Z",
+ "updated": "2026-11-12T23:10:23.249486Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3729,7 +3729,7 @@
      "SG"
     ],
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
      "PTS": 13.375,
@@ -7434,16 +7434,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 13.666666666666666,
-    "REB": 4.666666666666667,
-    "AST": 3.3333333333333335,
-    "STL": 1.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.38461538,
-    "FT%": 0.8,
-    "TO": 1.3333333333333333,
-    "_src": "2027_last_30"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 20.6,
@@ -8923,7 +8923,7 @@
     "PG"
    ],
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 5.0,
@@ -9066,16 +9066,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 6.333333333333333,
-    "REB": 2.3333333333333335,
-    "AST": 1.3333333333333333,
-    "STL": 2.3333333333333335,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 1.0,
-    "FG%": 0.4,
+    "3PM": 0.0,
+    "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_30"
+    "TO": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -9272,7 +9272,7 @@
     "PG"
    ],
    "team": "ATL",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 11.428571428571429,
@@ -11134,16 +11134,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.25,
-    "REB": 7.5,
-    "AST": 1.25,
-    "STL": 0.5,
-    "BLK": 0.5,
-    "3PM": 0.5,
-    "FG%": 0.6,
-    "FT%": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {}
   },
@@ -11467,16 +11467,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.333333333333333,
-    "REB": 1.6666666666666667,
-    "AST": 1.0,
-    "STL": 0.3333333333333333,
-    "BLK": 0.3333333333333333,
-    "3PM": 1.0,
-    "FG%": 0.36842105,
-    "FT%": 0.625,
-    "TO": 0.6666666666666666,
-    "_src": "2027_last_30"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 10.75,
@@ -12155,16 +12155,16 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 1.0,
-    "AST": 0.5,
-    "STL": 0.5,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.57142857,
+    "FG%": 1.0,
     "FT%": 0.0,
-    "TO": 0.5,
-    "_src": "2027_last_30"
+    "TO": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {}
   },
@@ -12248,16 +12248,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 5.25,
-    "REB": 2.0,
-    "AST": 1.25,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.5,
+    "3PM": 0.0,
+    "FG%": 0.0,
     "FT%": 0.0,
-    "TO": 1.0,
-    "_src": "2027_last_30"
+    "TO": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {}
   },
@@ -12882,16 +12882,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -13277,38 +13277,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Devin Vassell: Questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/devin-vassell-5113",
+   "published": "Thu, 12 Nov 2026 3:07:00 PM PST",
+   "summary": "Vassell is questionable for Friday's game against the Warriors due to left adductor tightness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "De'Aaron Fox: Listed questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/deaaron-fox-4116",
+   "published": "Thu, 12 Nov 2026 3:05:00 PM PST",
+   "summary": "Fox is questionable for Friday's game against the Warriors due to left hip soreness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Kingston Flemings: Iffy for Friday",
+   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
+   "published": "Thu, 12 Nov 2026 3:04:00 PM PST",
+   "summary": "Flemings (back) is questionable for Friday's game against the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Aaron Nesmith: Tagged questionable for Friday",
+   "link": "https://www.rotowire.com//basketball/player/aaron-nesmith-5120",
+   "published": "Thu, 12 Nov 2026 3:03:00 PM PST",
+   "summary": "Nesmith (knee) is questionable for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Marcus Smart: Hit with three-game suspension",
    "link": "https://www.rotowire.com//basketball/player/marcus-smart-3575",
    "published": "Thu, 12 Nov 2026 2:45:00 PM PST",
    "summary": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Myles Turner: Cleared for Friday",
-   "link": "https://www.rotowire.com//basketball/player/myles-turner-3725",
-   "published": "Thu, 12 Nov 2026 2:13:00 PM PST",
-   "summary": "Turner (rest) isn't listed on the injury report ahead of Friday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Evan Mobley: Won't play Friday",
-   "link": "https://www.rotowire.com//basketball/player/evan-mobley-5355",
-   "published": "Thu, 12 Nov 2026 2:08:00 PM PST",
-   "summary": "Mobley (toe) is out for Friday's game against the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jamal Cain: Questionable for Friday",
-   "link": "https://www.rotowire.com//basketball/player/jamal-cain-5796",
-   "published": "Thu, 12 Nov 2026 2:05:00 PM PST",
-   "summary": "Cain (shoulder) is questionable for Friday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Suggs: Upgraded to questionable for Friday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
-   "published": "Thu, 12 Nov 2026 2:04:00 PM PST",
-   "summary": "Suggs (knee) is questionable for Friday's game against Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15587,6 +15587,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.3
  }
 }
