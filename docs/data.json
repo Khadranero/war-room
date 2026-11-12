@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T04:00:33.906633Z",
+ "updated": "2026-11-12T04:10:27.146833Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1831,13 +1831,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 15.125,
+     "PTS": 15.625,
      "REB": 4.875,
      "AST": 4.0,
      "STL": 1.0,
      "BLK": 0.5,
      "3PM": 2.625,
-     "FG%": 0.47191011,
+     "FG%": 0.48351648,
      "FT%": 0.64,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -1866,13 +1866,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 20.75,
+     "PTS": 21.0,
      "REB": 6.25,
      "AST": 3.125,
      "STL": 1.125,
      "BLK": 0.75,
      "3PM": 2.5,
-     "FG%": 0.56190476,
+     "FG%": 0.56603774,
      "FT%": 0.73684211,
      "TO": 3.5,
      "_src": "2027_last_15"
@@ -2387,13 +2387,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 12.555555555555555,
+     "PTS": 13.222222222222221,
      "REB": 3.4444444444444446,
      "AST": 3.3333333333333335,
-     "STL": 0.6666666666666666,
+     "STL": 1.0,
      "BLK": 0.1111111111111111,
-     "3PM": 2.3333333333333335,
-     "FG%": 0.53521127,
+     "3PM": 2.5555555555555554,
+     "FG%": 0.54054054,
      "FT%": 0.88888889,
      "TO": 1.7777777777777777,
      "_src": "2027_last_15"
@@ -2769,15 +2769,15 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 17.77777777777778,
-     "REB": 2.888888888888889,
-     "AST": 4.111111111111111,
+     "PTS": 17.88888888888889,
+     "REB": 3.0,
+     "AST": 4.222222222222222,
      "STL": 0.5555555555555556,
      "BLK": 0.1111111111111111,
      "3PM": 2.3333333333333335,
-     "FG%": 0.41818182,
-     "FT%": 0.83928571,
-     "TO": 2.111111111111111,
+     "FG%": 0.41441441,
+     "FT%": 0.84210526,
+     "TO": 2.2222222222222223,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2875,13 +2875,13 @@
     "avg": {
      "PTS": 17.75,
      "REB": 3.75,
-     "AST": 4.625,
+     "AST": 4.75,
      "STL": 1.125,
      "BLK": 1.0,
      "3PM": 2.625,
-     "FG%": 0.42982456,
+     "FG%": 0.42608696,
      "FT%": 0.88461538,
-     "TO": 2.25,
+     "TO": 2.375,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3219,13 +3219,13 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 10.555555555555555,
-     "REB": 10.0,
+     "PTS": 10.88888888888889,
+     "REB": 10.11111111111111,
      "AST": 1.1111111111111112,
      "STL": 0.3333333333333333,
      "BLK": 2.111111111111111,
-     "3PM": 1.0,
-     "FG%": 0.59375,
+     "3PM": 1.1111111111111112,
+     "FG%": 0.59090909,
      "FT%": 0.625,
      "TO": 1.5555555555555556,
      "_src": "2027_last_15"
@@ -3602,15 +3602,15 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 27.75,
+     "PTS": 28.0,
      "REB": 4.0,
      "AST": 4.625,
      "STL": 0.75,
      "BLK": 0.625,
      "3PM": 2.375,
-     "FG%": 0.43103448,
-     "FT%": 0.86885246,
-     "TO": 2.0,
+     "FG%": 0.42857143,
+     "FT%": 0.87301587,
+     "TO": 2.125,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3887,7 +3887,7 @@
      "STL": 0.625,
      "BLK": 1.125,
      "3PM": 2.75,
-     "FG%": 0.5,
+     "FG%": 0.48351648,
      "FT%": 0.88235294,
      "TO": 0.875,
      "_src": "2027_last_15"
@@ -4091,11 +4091,11 @@
      "REB": 6.625,
      "AST": 1.5,
      "STL": 0.0,
-     "BLK": 1.875,
+     "BLK": 2.0,
      "3PM": 0.125,
      "FG%": 0.6,
      "FT%": 0.5,
-     "TO": 1.125,
+     "TO": 1.25,
      "_src": "2027_last_15"
     },
     "proj": {}
@@ -4310,13 +4310,13 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 17.0,
-     "REB": 6.142857142857143,
+     "PTS": 17.428571428571427,
+     "REB": 6.285714285714286,
      "AST": 5.285714285714286,
-     "STL": 1.7142857142857142,
+     "STL": 1.8571428571428572,
      "BLK": 0.7142857142857143,
-     "3PM": 1.5714285714285714,
-     "FG%": 0.46511628,
+     "3PM": 1.7142857142857142,
+     "FG%": 0.47126437,
      "FT%": 0.8,
      "TO": 3.142857142857143,
      "_src": "2027_last_15"
@@ -4483,15 +4483,15 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 17.714285714285715,
+     "PTS": 18.142857142857142,
      "REB": 3.7142857142857144,
      "AST": 2.7142857142857144,
      "STL": 0.5714285714285714,
      "BLK": 0.5714285714285714,
-     "3PM": 4.0,
-     "FG%": 0.40196078,
+     "3PM": 4.142857142857143,
+     "FG%": 0.40384615,
      "FT%": 0.875,
-     "TO": 2.142857142857143,
+     "TO": 2.2857142857142856,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4574,13 +4574,13 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 9.25,
-     "REB": 4.625,
+     "PTS": 10.0,
+     "REB": 4.75,
      "AST": 2.0,
      "STL": 1.375,
      "BLK": 0.5,
-     "3PM": 2.125,
-     "FG%": 0.36842105,
+     "3PM": 2.375,
+     "FG%": 0.38983051,
      "FT%": 0.78947368,
      "TO": 1.375,
      "_src": "2027_last_15"
@@ -4645,13 +4645,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 12.5,
-     "REB": 5.5,
+     "PTS": 13.0,
+     "REB": 5.625,
      "AST": 2.5,
      "STL": 1.125,
      "BLK": 0.75,
      "3PM": 0.0,
-     "FG%": 0.46987952,
+     "FG%": 0.48235294,
      "FT%": 0.75862069,
      "TO": 1.25,
      "_src": "2027_last_15"
@@ -4680,12 +4680,12 @@
     "team": "HOU",
     "avg": {
      "PTS": 18.5,
-     "REB": 8.833333333333334,
-     "AST": 7.666666666666667,
+     "REB": 9.166666666666666,
+     "AST": 8.0,
      "STL": 0.6666666666666666,
      "BLK": 1.3333333333333333,
      "3PM": 0.6666666666666666,
-     "FG%": 0.5,
+     "FG%": 0.48913043,
      "FT%": 0.70833333,
      "TO": 2.3333333333333335,
      "_src": "2027_last_15"
@@ -5433,13 +5433,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 14.428571428571429,
+     "PTS": 15.142857142857142,
      "REB": 2.857142857142857,
      "AST": 4.428571428571429,
      "STL": 0.8571428571428571,
      "BLK": 0.14285714285714285,
-     "3PM": 3.0,
-     "FG%": 0.43589744,
+     "3PM": 3.142857142857143,
+     "FG%": 0.45,
      "FT%": 0.85714286,
      "TO": 1.4285714285714286,
      "_src": "2027_last_15"
@@ -6116,15 +6116,15 @@
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
-     "PTS": 5.0,
-     "REB": 3.6,
+     "PTS": 5.6,
+     "REB": 3.8,
      "AST": 2.0,
-     "STL": 0.8,
+     "STL": 1.0,
      "BLK": 0.4,
-     "3PM": 1.0,
-     "FG%": 0.375,
+     "3PM": 1.2,
+     "FG%": 0.41176471,
      "FT%": 1.0,
-     "TO": 1.0,
+     "TO": 1.2,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6498,7 +6498,7 @@
      "3PM": 1.0,
      "FG%": 0.47959184,
      "FT%": 0.86206897,
-     "TO": 2.875,
+     "TO": 3.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -7491,13 +7491,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.11111111111111,
-    "REB": 3.3333333333333335,
-    "AST": 1.1111111111111112,
+    "PTS": 11.333333333333334,
+    "REB": 3.5555555555555554,
+    "AST": 1.2222222222222223,
     "STL": 0.5555555555555556,
     "BLK": 0.3333333333333333,
     "3PM": 2.4444444444444446,
-    "FG%": 0.47297297,
+    "FG%": 0.48,
     "FT%": 0.66666667,
     "TO": 1.2222222222222223,
     "_src": "2027_last_15"
@@ -7622,11 +7622,11 @@
    "avg": {
     "PTS": 3.142857142857143,
     "REB": 4.857142857142857,
-    "AST": 7.0,
+    "AST": 7.428571428571429,
     "STL": 1.1428571428571428,
-    "BLK": 0.8571428571428571,
+    "BLK": 1.0,
     "3PM": 0.14285714285714285,
-    "FG%": 0.42857143,
+    "FG%": 0.40909091,
     "FT%": 0.5,
     "TO": 2.0,
     "_src": "2027_last_15"
@@ -7898,9 +7898,9 @@
    "pct": null,
    "avg": {
     "PTS": 7.375,
-    "REB": 6.25,
+    "REB": 6.375,
     "AST": 1.5,
-    "STL": 0.875,
+    "STL": 1.0,
     "BLK": 1.125,
     "3PM": 0.0,
     "FG%": 0.55,
@@ -9402,7 +9402,7 @@
     "3PM": 0.625,
     "FG%": 0.54054054,
     "FT%": 0.55,
-    "TO": 2.125,
+    "TO": 2.25,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10004,7 +10004,7 @@
     "STL": 0.875,
     "BLK": 0.125,
     "3PM": 2.25,
-    "FG%": 0.50877193,
+    "FG%": 0.5,
     "FT%": 0.875,
     "TO": 0.625,
     "_src": "2027_last_15"
@@ -10580,12 +10580,12 @@
    "pct": null,
    "avg": {
     "PTS": 4.714285714285714,
-    "REB": 3.5714285714285716,
-    "AST": 2.4285714285714284,
+    "REB": 3.7142857142857144,
+    "AST": 2.7142857142857144,
     "STL": 0.42857142857142855,
     "BLK": 1.0,
     "3PM": 1.0,
-    "FG%": 0.39393939,
+    "FG%": 0.38235294,
     "FT%": 0.0,
     "TO": 0.7142857142857143,
     "_src": "2027_last_15"
@@ -10683,15 +10683,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.0,
+    "PTS": 7.75,
     "REB": 2.625,
     "AST": 1.375,
     "STL": 0.75,
     "BLK": 0.25,
-    "3PM": 1.25,
-    "FG%": 0.32075472,
-    "FT%": 0.85714286,
-    "TO": 1.125,
+    "3PM": 1.375,
+    "FG%": 0.34545455,
+    "FT%": 0.86666667,
+    "TO": 1.25,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -13252,6 +13252,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Derrick White: Swats four shots vs. Toronto",
+   "link": "https://www.rotowire.com//basketball/player/derrick-white-4195",
+   "published": "Wed, 11 Nov 2026 8:04:00 PM PST",
+   "summary": "White posted 19 points (7-15 FG, 3-7 3Pt, 2-2 FT), seven assists, one rebound, four blocks and one steal over 38 minutes during the Celtics' 98-93 win over the Raptors on Wednesday.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Zion Williamson: Paces New Orleans in blowout loss",
+   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
+   "published": "Wed, 11 Nov 2026 7:59:00 PM PST",
+   "summary": "Williamson finished Wednesday's 145-111 loss to the Nets with 29 points (8-14 FG, 1-1 3Pt, 12-14 FT), four rebounds, two assists and one block across 30 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Egor Demin: Strikes for 22 points in return",
    "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
    "published": "Wed, 11 Nov 2026 7:51:00 PM PST",
@@ -13270,20 +13284,6 @@
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Wed, 11 Nov 2026 7:45:00 PM PST",
    "summary": "Claxton finished with 17 points (5-6 FG, 7-9 FT), six rebounds, one assist and one block in 16 minutes during Wednesday's 124-119 loss to the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dylan Harper: Posts season-high four steals in win",
-   "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
-   "published": "Wed, 11 Nov 2026 7:38:00 PM PST",
-   "summary": "Harper recorded 18 points (7-18 FG, 2-4 3Pt, 2-2 FT), 10 assists, six rebounds, four steals and one block over 36 minutes in Wednesday's 124-119 win over the Bulls.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Luka Doncic: Erupts for 32 points, exits early Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
-   "published": "Wed, 11 Nov 2026 7:35:00 PM PST",
-   "summary": "Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15455,6 +15455,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 4.7
  }
 }
