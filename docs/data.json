@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T05:30:28.832794Z",
+ "updated": "2026-11-12T05:40:25.313717Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4715,7 +4715,7 @@
     "team": "POR",
     "avg": {
      "PTS": 23.22222222222222,
-     "REB": 5.444444444444445,
+     "REB": 5.555555555555555,
      "AST": 6.777777777777778,
      "STL": 1.1111111111111112,
      "BLK": 0.3333333333333333,
@@ -5601,7 +5601,7 @@
      "STL": 1.0,
      "BLK": 0.25,
      "3PM": 1.5,
-     "FG%": 0.40816327,
+     "FG%": 0.4040404,
      "FT%": 0.78947368,
      "TO": 1.625,
      "_src": "2027_last_15"
@@ -13252,6 +13252,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Alperen Sengun: Double-doubles with nine dimes",
+   "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
+   "published": "Wed, 11 Nov 2026 9:28:00 PM PST",
+   "summary": "Sengun tallied 19 points (8-14 FG, 1-2 3Pt, 2-4 FT), 13 rebounds, nine assists, one steal and one block over 37 minutes in Wednesday's 115-108 victory over the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Yaxel Lendeborg: Double-doubles with two steals",
    "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
    "published": "Wed, 11 Nov 2026 9:22:00 PM PST",
@@ -13277,13 +13284,6 @@
    "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
    "published": "Wed, 11 Nov 2026 8:47:00 PM PST",
    "summary": "Wagner totaled 38 points (13-23 FG, 3-8 3Pt, 9-10 FT), eight rebounds, one assist and one steal over 39 minutes in Wednesday's 123-108 win over the Jazz.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ja'Kobe Walter: Team-high 17 points in Wednesday's loss",
-   "link": "https://www.rotowire.com//basketball/player/jakobe-walter-6261",
-   "published": "Wed, 11 Nov 2026 8:15:00 PM PST",
-   "summary": "Walter posted 17 points (5-11 FG, 5-10 3Pt, 2-2 FT), three rebounds, one assist and two steals over 35 minutes during the Raptors' 98-93 loss to the Celtics on Wednesday.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15454,6 +15454,6 @@
   "picked_total": 3413.0,
   "direct_total": 3413.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 4.2
  }
 }
