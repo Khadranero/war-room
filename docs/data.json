@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:40:27.587006Z",
+ "updated": "2026-11-12T17:50:24.902275Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1586,7 +1586,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "IR",
     "injury": "OUT",
     "team": "GSW",
     "avg": {
@@ -1689,7 +1689,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -1758,7 +1758,7 @@
      "SF",
      "PF"
     ],
-    "slot": "IR",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
@@ -6949,12 +6949,6 @@
    "team": "Wembelieve I can fly",
    "action": "FA ADDED",
    "player": "Spencer Jones"
-  },
-  {
-   "date": "2026-11-09T21:20:11.092000",
-   "team": "Khadracadabra",
-   "action": "FA ADDED",
-   "player": "Brayden Burries"
   }
  ],
  "schedule": {
@@ -15533,6 +15527,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 3.3
  }
 }
