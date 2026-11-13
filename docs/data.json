@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:10:23.560710Z",
+ "updated": "2026-11-13T22:20:24.314945Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -5919,7 +5919,7 @@
      "SG"
     ],
     "slot": "PG",
-    "injury": "OUT",
+    "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
      "PTS": 8.0,
@@ -8570,7 +8570,7 @@
     "PF"
    ],
    "team": "ORL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 15.6,
@@ -12803,7 +12803,7 @@
     "SF"
    ],
    "team": "ORL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 9.333333333333334,
@@ -13230,6 +13230,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Suggs: Available vs. Milwaukee",
+   "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
+   "published": "Fri, 13 Nov 2026 2:16:00 PM PST",
+   "summary": "Suggs (knee) is available for Friday's game against the Bucks, according to Philip Rossman-Reich of OrlandoMagicDaily.com.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Tristan da Silva: Available Friday",
+   "link": "https://www.rotowire.com//basketball/player/tristan-da-silva-6267",
+   "published": "Fri, 13 Nov 2026 2:14:00 PM PST",
+   "summary": "Da Silva (calf) is available for Friday's game against the Bucks, Philip Rossman-Reich of OrlandoMagicDaily.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Mikel Brown: Iffy for Saturday",
    "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
    "published": "Fri, 13 Nov 2026 2:08:00 PM PST",
@@ -13248,20 +13262,6 @@
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Fri, 13 Nov 2026 12:41:00 PM PST",
    "summary": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Austin Reaves: Listed as day-to-day",
-   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
-   "published": "Fri, 13 Nov 2026 12:41:00 PM PST",
-   "summary": "Reaves (heel) won't undergo imaging and is considered day-to-day ahead of Sunday's game against the Suns, Jovan Buha of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dejounte Murray: Officially ruled out Friday",
-   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
-   "published": "Fri, 13 Nov 2026 12:20:00 PM PST",
-   "summary": "Murray (ankle) is out for Friday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15598,6 +15598,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.4
  }
 }
