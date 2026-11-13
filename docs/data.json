@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:50:23.689140Z",
+ "updated": "2026-11-13T20:00:34.534535Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3112,7 +3112,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -3251,7 +3251,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "IR",
     "injury": "OUT",
     "team": "NOP",
     "avg": {
@@ -3460,7 +3460,7 @@
      "PG",
      "SG"
     ],
-    "slot": "IR",
+    "slot": "G",
     "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
@@ -3530,7 +3530,7 @@
      "PF",
      "C"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -3565,7 +3565,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -5641,7 +5641,7 @@
      "PF",
      "C"
     ],
-    "slot": "F",
+    "slot": "IR",
     "injury": "OUT",
     "team": "CLE",
     "avg": {
@@ -5709,7 +5709,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -5848,7 +5848,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5918,7 +5918,7 @@
      "PG",
      "SG"
     ],
-    "slot": "IR",
+    "slot": "PG",
     "injury": "OUT",
     "team": "ORL",
     "avg": {
@@ -5952,7 +5952,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -6021,7 +6021,7 @@
      "SG",
      "SF"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -6090,7 +6090,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -6125,7 +6125,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -6932,66 +6932,6 @@
    "team": "Team Batrouni",
    "action": "FA ADDED",
    "player": "Kyle Kuzma"
-  },
-  {
-   "date": "2026-11-10T06:44:22.931000",
-   "team": "Wembelieve I can fly",
-   "action": "DROPPED",
-   "player": "Paul Reed"
-  },
-  {
-   "date": "2026-11-10T06:44:22.931000",
-   "team": "Wembelieve I can fly",
-   "action": "FA ADDED",
-   "player": "Mitchell Robinson"
-  },
-  {
-   "date": "2026-11-10T06:42:09.174000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Aday Mara"
-  },
-  {
-   "date": "2026-11-10T06:42:09.174000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Grayson Allen"
-  },
-  {
-   "date": "2026-11-10T05:01:00.731000",
-   "team": "Team Batrouni",
-   "action": "TRADED",
-   "player": "Aaron Wiggins"
-  },
-  {
-   "date": "2026-11-10T05:01:00.731000",
-   "team": "Team Batrouni",
-   "action": "TRADED",
-   "player": "Zach Edey"
-  },
-  {
-   "date": "2026-11-10T05:01:00.731000",
-   "team": "Momo in Six",
-   "action": "TRADED",
-   "player": "Nic Claxton"
-  },
-  {
-   "date": "2026-11-10T05:01:00.731000",
-   "team": "Momo in Six",
-   "action": "TRADED",
-   "player": "Daniel Gafford"
-  },
-  {
-   "date": "2026-11-10T03:32:31.528000",
-   "team": "AARON VENGERS",
-   "action": "FA ADDED",
-   "player": "Jared McCain"
-  },
-  {
-   "date": "2026-11-10T03:32:31.528000",
-   "team": "AARON VENGERS",
-   "action": "DROPPED",
-   "player": "Cam Spencer"
   }
  ],
  "schedule": {
@@ -13290,6 +13230,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dejounte Murray: Requests trade from Pelicans",
+   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
+   "published": "Fri, 13 Nov 2026 11:58:00 AM PST",
+   "summary": "Murray (ankle) requested a trade from the Pelicans on Friday, per Shams Charania of ESPN.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Giannis Antetokounmpo: Will play Friday",
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Fri, 13 Nov 2026 10:24:00 AM PST",
@@ -13315,13 +13262,6 @@
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Fri, 13 Nov 2026 10:09:00 AM PST",
    "summary": "Murray (ankle) is doubtful for Friday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Won't play Friday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Fri, 13 Nov 2026 10:07:00 AM PST",
-   "summary": "Murphy (knee) is out for Friday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15658,6 +15598,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 3.1
  }
 }
