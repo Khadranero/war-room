@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:40:31.631742Z",
+ "updated": "2026-11-13T06:50:25.424702Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2664,16 +2664,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -4750,16 +4750,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -5133,16 +5133,16 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 33.25,
-     "REB": 4.75,
-     "AST": 3.5,
-     "STL": 2.0,
-     "BLK": 0.75,
-     "3PM": 4.5,
-     "FG%": 0.48076923,
-     "FT%": 0.75,
-     "TO": 3.5,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.55882353,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -7453,16 +7453,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.375,
-    "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "PTS": 13.666666666666666,
+    "REB": 4.666666666666667,
+    "AST": 3.3333333333333335,
+    "STL": 1.0,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.38461538,
+    "FT%": 0.8,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 20.6,
@@ -9142,16 +9142,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 6.333333333333333,
+    "REB": 2.3333333333333335,
+    "AST": 1.3333333333333333,
+    "STL": 2.3333333333333335,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.5,
+    "3PM": 1.0,
+    "FG%": 0.4,
     "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 1.0,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -11220,16 +11220,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
+    "PTS": 7.25,
+    "REB": 7.5,
+    "AST": 1.25,
+    "STL": 0.5,
+    "BLK": 0.5,
+    "3PM": 0.5,
+    "FG%": 0.6,
+    "FT%": 1.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {}
   },
@@ -11519,16 +11519,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "PTS": 7.333333333333333,
+    "REB": 1.6666666666666667,
+    "AST": 1.0,
+    "STL": 0.3333333333333333,
+    "BLK": 0.3333333333333333,
+    "3PM": 1.0,
+    "FG%": 0.36842105,
+    "FT%": 0.625,
+    "TO": 0.6666666666666666,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 10.75,
@@ -12241,16 +12241,16 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 4.0,
+    "REB": 1.0,
+    "AST": 0.5,
+    "STL": 0.5,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 1.0,
+    "FG%": 0.57142857,
     "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 0.5,
+    "_src": "2027_last_30"
    },
    "proj": {}
   },
@@ -12392,16 +12392,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 5.25,
+    "REB": 2.0,
+    "AST": 1.25,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
+    "3PM": 0.75,
+    "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 1.0,
+    "_src": "2027_last_30"
    },
    "proj": {}
   },
@@ -12911,16 +12911,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 4.0,
+    "REB": 2.0,
+    "AST": 1.0,
     "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 3.238095238095238,
@@ -13361,118 +13361,6 @@
    "link": "https://www.rotowire.com//basketball/player/coby-white-4801",
    "published": "Thu, 12 Nov 2026 8:39:00 PM PST",
    "summary": "White registered 21 points (8-16 FG, 2-7 3Pt, 3-3 FT), three rebounds and three assists in 20 minutes during Thursday's 101-96 loss to Phoenix.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "Cade authors NBA's first 50-point, 10-assist, 0-turnover game in 2OT thriller",
-   "link": "https://www.espn.com/nba/story/_/id/50468039/cade-cunningham-ausar-thompson-power-pistons-wizards",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Cade Cunningham had 52 points, 11 assists and no turnovers as the Pistons outlasted the Wizards in double overtime Thursday night."
-  },
-  {
-   "source": "ESPN",
-   "title": "Warriors' Curry out at least 2 weeks with oblique injury, could miss a month",
-   "link": "https://www.espn.com/nba/story/_/id/50462899/warriors-stephen-curry-least-2-weeks-oblique-tear",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Stephen Curry will miss at least two weeks with an oblique abdominal tear, but sources told ESPN that the Warriors are bracing for him to be out closer to a month."
-  },
-  {
-   "source": "ESPN",
-   "title": "Bulls rookie Wilson has successful surgery on fractured hand",
-   "link": "https://www.espn.com/nba/story/_/id/50464091/sources-bulls-wilson-surgery-hand-4-6-weeks",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Bulls rookie Caleb Wilson had successful surgery on his fractured right hand and will be reevaluated in three weeks, the team announced on Thursday night."
-  },
-  {
-   "source": "ESPN",
-   "title": "Rockets' Smart suspended 3 games for punch",
-   "link": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "The NBA on Thursday suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey."
-  },
-  {
-   "source": "ESPN",
-   "title": "Zion calls out Pels after latest blowout loss: 'Have to look yourself in mirror'",
-   "link": "https://www.espn.com/nba/story/_/id/50459408/zion-williamson-calls-pelicans-another-unacceptable-blowout-loss",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Zion Williamson called for accountability after the Pelicans lost their fourth straight game, saying the team needed to look itself in the mirror."
-  },
-  {
-   "source": "ESPN",
-   "title": "Reaves exits with heel injury as banged-up Lakers win 7th straight",
-   "link": "https://www.espn.com/nba/story/_/id/50459249/reaves-exits-heel-injury-banged-lakers-win-again",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Lakers guard Austin Reaves exited Wednesday's win because of a left heel injury. Initial X-rays came back negative and he will undergo further evaluation."
-  },
-  {
-   "source": "ESPN",
-   "title": "No FT attempts for Brunson in loss 'pretty alarming,' says Brown",
-   "link": "https://www.espn.com/nba/story/_/id/50459253/knicks-mike-brown-questions-jalen-brunson-zero-ft-tries",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Mike Brown wasn't pleased with the free throw disparity in the Knicks' 115-107 loss to the Cavaliers, calling Jalen Brunson's lack of attempts \"alarming.\""
-  },
-  {
-   "source": "ESPN",
-   "title": "Harden brushes off early-season criticism as throwback 32-point effort leads Cavs",
-   "link": "https://www.espn.com/nba/story/_/id/50458667/cavaliers-james-harden-ends-slow-start-season-high-32-points-beat-knicks",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "After coming into Wednesday night averaging just 15.3 points through 11 games, James Harden turned in a throwback performance with a season-high 32 points to lead the Cavaliers to a 115-107 victory over the Knicks."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83d\udc40 12 players looking to get paid -- and what each might get",
-   "link": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
-   "published": "Thu, 12 Nov 2026 22:44:44 EST",
-   "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer 2027."
-  },
-  {
-   "source": "ESPN",
-   "title": "Early trade deadline questions: Knicks, Thunder and other contenders' next steps",
-   "link": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
-   "published": "Thu, 12 Nov 2026 10:07:13 EST",
-   "summary": "With the NBA trade deadline looming, which title contenders should -- and could -- make a deal to improve?"
-  },
-  {
-   "source": "ESPN",
-   "title": "19 teams with major roster decisions",
-   "link": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
-   "published": "Thu, 12 Nov 2026 10:07:13 EST",
-   "summary": "With tax and apron penalties lurking, we examine 19 teams barreling toward core-altering decisions."
-  },
-  {
-   "source": "ESPN",
-   "title": "Inside the group chat where Black NBA coaches counsel -- and trash-talk -- each other",
-   "link": "https://www.espn.com/nba/story/_/id/50444546/nba-black-coaches-group-chat-brown-bickerstaff",
-   "published": "Thu, 12 Nov 2026 12:55:10 EST",
-   "summary": "On the court, they're rivals. Off the court, they've found support among the only men who truly understand what they're going through: each other."
-  },
-  {
-   "source": "ESPN",
-   "title": "Updated NBA Power Rankings: The best newcomer on all 30 teams",
-   "link": "https://www.espn.com/nba/story/_/id/50443607/nba-power-rankings-30-teams-best-newcomer",
-   "published": "Thu, 12 Nov 2026 10:12:01 EST",
-   "summary": "Which teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "Updated NBA championship and MVP odds: Lakers' odds shorten, Doncic in front",
-   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
-   "published": "Wed, 11 Nov 2026 15:34:47 EST",
-   "summary": "The Spurs remain the favorite to win the NBA championship, but the Celtics and Lakers are both making a push."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA awards watch: Is Yaxel the bet for Rookie of the Year? Luka or Wemby for MVP?",
-   "link": "https://www.espn.com/espn/betting/story/_/id/50453889/nba-awards-watch-mvp-rookie-year-2026-2027",
-   "published": "Wed, 11 Nov 2026 15:34:47 EST",
-   "summary": "Andre Snellings looks at the updated odds, and explains which bets to make and which to avoid."
-  },
-  {
-   "source": "ESPN",
-   "title": "Is Wembanyama No. 1 in all formats? Here's what our experts say",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50456190/fantasy-basketball-early-season-takeaways-nba",
-   "published": "Thu, 12 Nov 2026 08:56:09 EST",
-   "summary": "The fantasy basketball crew gets together to answer the biggest questions from the early part of the season."
   }
  ],
  "games": {
@@ -15797,6 +15685,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 2.1
+  "run_seconds": 3.9
  }
 }
