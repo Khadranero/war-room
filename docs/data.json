@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T03:10:26.920428Z",
+ "updated": "2026-11-13T03:20:25.814658Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2282,7 +2282,7 @@
     "team": "DET",
     "avg": {
      "PTS": 18.285714285714285,
-     "REB": 2.0,
+     "REB": 2.142857142857143,
      "AST": 2.142857142857143,
      "STL": 1.7142857142857142,
      "BLK": 0.14285714285714285,
@@ -3559,13 +3559,13 @@
     "avg": {
      "PTS": 7.375,
      "REB": 3.25,
-     "AST": 3.25,
+     "AST": 3.625,
      "STL": 0.75,
      "BLK": 0.125,
      "3PM": 1.25,
-     "FG%": 0.38,
+     "FG%": 0.37254902,
      "FT%": 0.73333333,
-     "TO": 1.875,
+     "TO": 2.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4389,7 +4389,7 @@
      "3PM": 2.625,
      "FG%": 0.47183099,
      "FT%": 0.93333333,
-     "TO": 2.5,
+     "TO": 2.375,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5096,15 +5096,15 @@
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
-     "PTS": 7.75,
-     "REB": 4.125,
+     "PTS": 8.5,
+     "REB": 4.5,
      "AST": 1.5,
      "STL": 1.0,
      "BLK": 0.625,
-     "3PM": 1.0,
-     "FG%": 0.5,
+     "3PM": 1.25,
+     "FG%": 0.50909091,
      "FT%": 0.33333333,
-     "TO": 1.0,
+     "TO": 1.125,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6274,7 +6274,7 @@
      "REB": 8.5,
      "AST": 1.125,
      "STL": 1.375,
-     "BLK": 0.875,
+     "BLK": 0.75,
      "3PM": 1.25,
      "FG%": 0.52702703,
      "FT%": 0.73333333,
@@ -8881,14 +8881,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.428571428571429,
+    "PTS": 10.714285714285714,
     "REB": 1.8571428571428572,
     "AST": 2.4285714285714284,
     "STL": 1.0,
     "BLK": 1.1428571428571428,
     "3PM": 1.8571428571428572,
     "FG%": 0.45614035,
-    "FT%": 0.72727273,
+    "FT%": 0.76923077,
     "TO": 0.7142857142857143,
     "_src": "2027_last_15"
    },
@@ -9537,13 +9537,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.2,
-    "REB": 3.2,
-    "AST": 2.8,
-    "STL": 0.2,
+    "PTS": 8.6,
+    "REB": 3.4,
+    "AST": 3.0,
+    "STL": 0.4,
     "BLK": 0.0,
     "3PM": 0.6,
-    "FG%": 0.3,
+    "FG%": 0.30952381,
     "FT%": 0.73684211,
     "TO": 0.8,
     "_src": "2027_last_15"
@@ -10046,13 +10046,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 13.375,
+    "PTS": 13.625,
     "REB": 1.375,
-    "AST": 3.625,
+    "AST": 3.875,
     "STL": 1.0,
     "BLK": 0.25,
     "3PM": 2.375,
-    "FG%": 0.50684932,
+    "FG%": 0.50666667,
     "FT%": 0.77777778,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -10354,7 +10354,7 @@
     "STL": 0.875,
     "BLK": 0.0,
     "3PM": 1.125,
-    "FG%": 0.31707317,
+    "FG%": 0.31325301,
     "FT%": 1.0,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -10466,14 +10466,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.625,
+    "PTS": 5.375,
     "REB": 3.625,
     "AST": 0.875,
     "STL": 0.75,
     "BLK": 0.125,
     "3PM": 1.25,
     "FG%": 0.35,
-    "FT%": 0.875,
+    "FT%": 0.83333333,
     "TO": 0.5,
     "_src": "2027_last_15"
    },
@@ -10858,14 +10858,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.5,
-    "REB": 5.875,
+    "PTS": 6.0,
+    "REB": 6.125,
     "AST": 0.75,
     "STL": 0.25,
     "BLK": 1.25,
     "3PM": 0.0,
-    "FG%": 0.57142857,
-    "FT%": 0.66666667,
+    "FG%": 0.5862069,
+    "FT%": 0.7,
     "TO": 0.625,
     "_src": "2027_last_15"
    },
@@ -13311,6 +13311,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Cade Cunningham: Drops 52-point double-double in victory",
+   "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
+   "published": "Thu, 12 Nov 2026 7:16:00 PM PST",
+   "summary": "Cunningham contributed 52 points (16-25 FG, 3-5 3Pt, 17-18 FT), 11 assists, five rebounds, one block and one steal across 48 minutes in Thursday's 144-140 double-overtime win over Washington.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Bub Carrington: Ruled out Thursday",
    "link": "https://www.rotowire.com//basketball/player/bub-carrington-6270",
    "published": "Thu, 12 Nov 2026 7:05:00 PM PST",
@@ -13336,13 +13343,6 @@
    "link": "https://www.rotowire.com//basketball/player/ajay-mitchell-6289",
    "published": "Thu, 12 Nov 2026 5:03:00 PM PST",
    "summary": "Mitchell (ankle) is questionable for Friday's game against the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Joel Embiid: Cleared to return",
-   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
-   "published": "Thu, 12 Nov 2026 4:34:00 PM PST",
-   "summary": "Embiid (knee) returned to Thursday's game against Toronto with 5:26 remaining in the first quarter, Ky Carlin of USA Today reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15620,6 +15620,6 @@
   "picked_total": 5832.0,
   "direct_total": 5832.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 4.9
  }
 }
