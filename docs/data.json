@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:00:34.984210Z",
+ "updated": "2026-11-13T23:10:25.025092Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -8222,7 +8222,7 @@
     "SF"
    ],
    "team": "MIA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -8835,7 +8835,7 @@
     "PG"
    ],
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.0,
@@ -9795,7 +9795,7 @@
     "SF"
    ],
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 10.666666666666666,
@@ -13230,6 +13230,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Pelle Larsson: Downgraded to out",
+   "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
+   "published": "Fri, 13 Nov 2026 3:05:00 PM PST",
+   "summary": "Larsson (illness) is out for Friday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Suggs: Available vs. Milwaukee",
    "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
    "published": "Fri, 13 Nov 2026 2:16:00 PM PST",
@@ -13255,13 +13262,6 @@
    "link": "https://www.rotowire.com//basketball/player/precious-achiuwa-5249",
    "published": "Fri, 13 Nov 2026 1:21:00 PM PST",
    "summary": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Luka Doncic: Coach downplays injury",
-   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
-   "published": "Fri, 13 Nov 2026 12:41:00 PM PST",
-   "summary": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15598,6 +15598,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 5.1
  }
 }
