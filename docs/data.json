@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:10:25.025092Z",
+ "updated": "2026-11-13T23:20:24.120718Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1723,7 +1723,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -1993,36 +1993,37 @@
     }
    },
    {
-    "name": "Collin Murray-Boyles",
+    "name": "Keegan Murray",
     "pos": "PF",
     "elig": [
+     "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
-    "team": "TOR",
+    "team": "SAC",
     "avg": {
-     "PTS": 12.571428571428571,
-     "REB": 4.142857142857143,
-     "AST": 1.8571428571428572,
-     "STL": 1.1428571428571428,
-     "BLK": 1.2857142857142858,
-     "3PM": 0.7142857142857143,
-     "FG%": 0.48571429,
-     "FT%": 0.78947368,
-     "TO": 1.7142857142857142,
+     "PTS": 10.5,
+     "REB": 1.5,
+     "AST": 1.5,
+     "STL": 1.0,
+     "BLK": 2.5,
+     "3PM": 1.0,
+     "FG%": 0.36842105,
+     "FT%": 0.83333333,
+     "TO": 1.0,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 9.181818181818182,
-     "REB": 5.196969696969697,
-     "AST": 1.893939393939394,
-     "STL": 1.0,
+     "PTS": 13.830985915492958,
+     "REB": 6.0,
+     "AST": 1.6056338028169015,
+     "STL": 0.9014084507042254,
      "BLK": 1.0,
-     "3PM": 0.30303030303030304,
-     "FG%": 0.6,
-     "FT%": 0.67,
-     "TO": 1.106060606060606,
+     "3PM": 2.0422535211267605,
+     "FG%": 0.444,
+     "FT%": 0.818,
+     "TO": 0.9014084507042254,
      "_src": "2027_projected"
     }
    }
@@ -4053,7 +4054,7 @@
      "SF"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "MIA",
     "avg": {
      "PTS": 19.833333333333332,
@@ -6658,6 +6659,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-13T23:13:01.694000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Collin Murray-Boyles"
+  },
+  {
+   "date": "2026-11-13T23:13:01.694000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Keegan Murray"
+  },
+  {
    "date": "2026-11-13T14:50:06.757000",
    "team": "Real Men Eat Ass(ouad)",
    "action": "FA ADDED",
@@ -6920,18 +6933,6 @@
    "team": "Wembelieve I can fly",
    "action": "DROPPED",
    "player": "Spencer Jones"
-  },
-  {
-   "date": "2026-11-10T07:29:45.845000",
-   "team": "Team Batrouni",
-   "action": "DROPPED",
-   "player": "Kevin Huerter"
-  },
-  {
-   "date": "2026-11-10T07:29:45.845000",
-   "team": "Team Batrouni",
-   "action": "FA ADDED",
-   "player": "Kyle Kuzma"
   }
  ],
  "schedule": {
@@ -7510,41 +7511,6 @@
    }
   },
   {
-   "name": "Keegan Murray",
-   "pos": "PF",
-   "elig": [
-    "SF",
-    "PF"
-   ],
-   "team": "SAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.5,
-    "REB": 1.5,
-    "AST": 1.5,
-    "STL": 1.0,
-    "BLK": 2.5,
-    "3PM": 1.0,
-    "FG%": 0.36842105,
-    "FT%": 0.83333333,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.830985915492958,
-    "REB": 6.0,
-    "AST": 1.6056338028169015,
-    "STL": 0.9014084507042254,
-    "BLK": 1.0,
-    "3PM": 2.0422535211267605,
-    "FG%": 0.444,
-    "FT%": 0.818,
-    "TO": 0.9014084507042254,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Toumani Camara",
    "pos": "PF",
    "elig": [
@@ -8004,6 +7970,40 @@
     "FG%": 0.737,
     "FT%": 0.639,
     "TO": 0.59375,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Collin Murray-Boyles",
+   "pos": "PF",
+   "elig": [
+    "PF"
+   ],
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.571428571428571,
+    "REB": 4.142857142857143,
+    "AST": 1.8571428571428572,
+    "STL": 1.1428571428571428,
+    "BLK": 1.2857142857142858,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.48571429,
+    "FT%": 0.78947368,
+    "TO": 1.7142857142857142,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.181818181818182,
+    "REB": 5.196969696969697,
+    "AST": 1.893939393939394,
+    "STL": 1.0,
+    "BLK": 1.0,
+    "3PM": 0.30303030303030304,
+    "FG%": 0.6,
+    "FT%": 0.67,
+    "TO": 1.106060606060606,
     "_src": "2027_projected"
    }
   },
@@ -13230,6 +13230,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Norman Powell: Available for Friday",
+   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
+   "published": "Fri, 13 Nov 2026 3:19:00 PM PST",
+   "summary": "Powell (shoulder) is available for Friday's game against the Hawks and will not face a minutes restriction, Joel Lorenzi of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Pelle Larsson: Downgraded to out",
    "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
    "published": "Fri, 13 Nov 2026 3:05:00 PM PST",
@@ -13255,13 +13262,6 @@
    "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
    "published": "Fri, 13 Nov 2026 2:08:00 PM PST",
    "summary": "Brown (illness) is listed as questionable for Saturday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Precious Achiuwa: Ruled out with sore ankle",
-   "link": "https://www.rotowire.com//basketball/player/precious-achiuwa-5249",
-   "published": "Fri, 13 Nov 2026 1:21:00 PM PST",
-   "summary": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13646,6 +13646,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-13T23:13:01.694000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Collin Murray-Boyles"
+  },
+  {
+   "date": "2026-11-13T23:13:01.694000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Keegan Murray"
+  },
   {
    "date": "2026-11-13T14:50:06.757000",
    "team": "Real Men Eat Ass(ouad)",
@@ -15598,6 +15610,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 5.1
+  "run_seconds": 3.6
  }
 }
