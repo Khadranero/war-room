@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:00:34.741168Z",
+ "updated": "2026-11-13T22:10:23.560710Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -9622,7 +9622,7 @@
     "C"
    ],
    "team": "DAL",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.666666666666667,
@@ -10421,7 +10421,7 @@
     "SG"
    ],
    "team": "DAL",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 1.6666666666666667,
@@ -13230,6 +13230,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Mikel Brown: Iffy for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/mikel-brown-6929",
+   "published": "Fri, 13 Nov 2026 2:08:00 PM PST",
+   "summary": "Brown (illness) is listed as questionable for Saturday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Precious Achiuwa: Ruled out with sore ankle",
    "link": "https://www.rotowire.com//basketball/player/precious-achiuwa-5249",
    "published": "Fri, 13 Nov 2026 1:21:00 PM PST",
@@ -13255,13 +13262,6 @@
    "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
    "published": "Fri, 13 Nov 2026 12:20:00 PM PST",
    "summary": "Murray (ankle) is out for Friday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dejounte Murray: Requests trade from Pelicans",
-   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
-   "published": "Fri, 13 Nov 2026 11:58:00 AM PST",
-   "summary": "Murray (ankle) requested a trade from the Pelicans on Friday, per Shams Charania of ESPN.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15598,6 +15598,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 2.3
  }
 }
