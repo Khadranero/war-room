@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:00:30.851890Z",
+ "updated": "2026-11-13T18:10:25.456945Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2732,7 +2732,7 @@
      "SG"
     ],
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
      "PTS": 10.0,
@@ -3252,7 +3252,7 @@
      "SF"
     ],
     "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NOP",
     "avg": {
      "PTS": 17.6,
@@ -13290,6 +13290,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Dejounte Murray: Unlikely to play Friday",
+   "link": "https://www.rotowire.com//basketball/player/dejounte-murray-3856",
+   "published": "Fri, 13 Nov 2026 10:09:00 AM PST",
+   "summary": "Murray (ankle) is doubtful for Friday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Won't play Friday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Fri, 13 Nov 2026 10:07:00 AM PST",
+   "summary": "Murphy (knee) is out for Friday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Suggs: Remains questionable, but says he'll play",
    "link": "https://www.rotowire.com//basketball/player/jalen-suggs-5379",
    "published": "Fri, 13 Nov 2026 9:08:00 AM PST",
@@ -13308,20 +13322,6 @@
    "link": "https://www.rotowire.com//basketball/player/vj-edgecombe-6550",
    "published": "Thu, 12 Nov 2026 9:17:00 PM PST",
    "summary": "Edgecombe finished with 15 points (7-12 FG, 1-4 3Pt), eight rebounds, eight assists, one block and three steals in 36 minutes during Thursday's 123-112 victory over the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jamison Battle: Stays hot from long range",
-   "link": "https://www.rotowire.com//basketball/player/jamison-battle-6323",
-   "published": "Thu, 12 Nov 2026 8:55:00 PM PST",
-   "summary": "Battle posted 13 points (5-9 FG, 3-6 3Pt), one rebound, one assist, one block and one steal across 25 minutes during Thursday's 123-112 loss to the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Devin Booker: Drops game-high 30 points in win",
-   "link": "https://www.rotowire.com//basketball/player/devin-booker-3711",
-   "published": "Thu, 12 Nov 2026 8:47:00 PM PST",
-   "summary": "Booker compiled 30 points (12-20 FG, 4-8 3Pt, 2-2 FT), one rebound, seven assists, three steals and one block across 35 minutes during Thursday's 101-96 victory over the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15658,6 +15658,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 2.9
  }
 }
