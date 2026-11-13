@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T14:40:49.974056Z",
+ "updated": "2026-11-13T14:50:23.795183Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4620,7 +4620,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "LAL",
     "avg": {
@@ -5064,41 +5064,6 @@
     }
    },
    {
-    "name": "Bilal Coulibaly",
-    "pos": "SF",
-    "elig": [
-     "SG",
-     "SF"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "WAS",
-    "avg": {
-     "PTS": 4.571428571428571,
-     "REB": 4.428571428571429,
-     "AST": 1.0,
-     "STL": 0.7142857142857143,
-     "BLK": 1.1428571428571428,
-     "3PM": 0.14285714285714285,
-     "FG%": 0.37142857,
-     "FT%": 0.625,
-     "TO": 0.5714285714285714,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 10.25,
-     "REB": 3.8970588235294117,
-     "AST": 2.2941176470588234,
-     "STL": 1.2058823529411764,
-     "BLK": 0.7941176470588235,
-     "3PM": 1.0,
-     "FG%": 0.425,
-     "FT%": 0.744,
-     "TO": 1.3970588235294117,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Zaccharie Risacher",
     "pos": "SF",
     "elig": [
@@ -5131,6 +5096,29 @@
      "TO": 0.8970588235294118,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Aday Mara",
+    "pos": "C",
+    "elig": [
+     "C"
+    ],
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "OKC",
+    "avg": {
+     "PTS": 10.571428571428571,
+     "REB": 7.714285714285714,
+     "AST": 1.7142857142857142,
+     "STL": 0.0,
+     "BLK": 2.0,
+     "3PM": 0.14285714285714285,
+     "FG%": 0.62264151,
+     "FT%": 0.5,
+     "TO": 1.1428571428571428,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "AARON VENGERS": [
@@ -6670,6 +6658,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-13T14:50:06.757000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Aday Mara"
+  },
+  {
+   "date": "2026-11-13T14:50:06.757000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Bilal Coulibaly"
+  },
+  {
    "date": "2026-11-13T05:27:35.466000",
    "team": "Team Batrouni",
    "action": "FA ADDED",
@@ -6992,30 +6992,6 @@
    "team": "AARON VENGERS",
    "action": "DROPPED",
    "player": "Cam Spencer"
-  },
-  {
-   "date": "2026-11-10T03:10:16.650000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Draymond Green"
-  },
-  {
-   "date": "2026-11-10T03:10:16.650000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Leaky Black"
-  },
-  {
-   "date": "2026-11-10T00:57:17.742000",
-   "team": "AARON VENGERS",
-   "action": "FA ADDED",
-   "player": "Jalen Smith"
-  },
-  {
-   "date": "2026-11-10T00:57:17.742000",
-   "team": "AARON VENGERS",
-   "action": "DROPPED",
-   "player": "Collin Murray-Boyles"
   }
  ],
  "schedule": {
@@ -7815,29 +7791,6 @@
     "TO": 1.904109589041096,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Aday Mara",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "OKC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.571428571428571,
-    "REB": 7.714285714285714,
-    "AST": 1.7142857142857142,
-    "STL": 0.0,
-    "BLK": 2.0,
-    "3PM": 0.14285714285714285,
-    "FG%": 0.62264151,
-    "FT%": 0.5,
-    "TO": 1.1428571428571428,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Day'Ron Sharpe",
@@ -9555,6 +9508,41 @@
     "FG%": 0.458,
     "FT%": 0.755,
     "TO": 1.1044776119402986,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Bilal Coulibaly",
+   "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "WAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.571428571428571,
+    "REB": 4.428571428571429,
+    "AST": 1.0,
+    "STL": 0.7142857142857143,
+    "BLK": 1.1428571428571428,
+    "3PM": 0.14285714285714285,
+    "FG%": 0.37142857,
+    "FT%": 0.625,
+    "TO": 0.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.25,
+    "REB": 3.8970588235294117,
+    "AST": 2.2941176470588234,
+    "STL": 1.2058823529411764,
+    "BLK": 0.7941176470588235,
+    "3PM": 1.0,
+    "FG%": 0.425,
+    "FT%": 0.744,
+    "TO": 1.3970588235294117,
     "_src": "2027_projected"
    }
   },
@@ -13730,6 +13718,18 @@
  },
  "log": [
   {
+   "date": "2026-11-13T14:50:06.757000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Aday Mara"
+  },
+  {
+   "date": "2026-11-13T14:50:06.757000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Bilal Coulibaly"
+  },
+  {
    "date": "2026-11-13T05:27:35.466000",
    "team": "Team Batrouni",
    "action": "FA ADDED",
@@ -15669,6 +15669,6 @@
   "picked_total": 7108.0,
   "direct_total": 7108.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 2.8
  }
 }
