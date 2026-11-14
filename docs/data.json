@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:10:25.820681Z",
+ "updated": "2026-11-14T22:20:25.556630Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1656,7 +1656,7 @@
      "PF"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
      "PTS": 14.833333333333334,
@@ -1759,7 +1759,7 @@
      "PF"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
      "PTS": 21.833333333333332,
@@ -13260,6 +13260,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Paul George: Fades injury report",
+   "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
+   "published": "Sat, 14 Nov 2026 2:11:00 PM PST",
+   "summary": "George (illness) isn't listed on the injury report for Sunday's game against Dallas, Jack Simone of BostonSportsJournal.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "LeBron James: Off injury report",
+   "link": "https://www.rotowire.com//basketball/player/lebron-james-2344",
+   "published": "Sat, 14 Nov 2026 2:09:00 PM PST",
+   "summary": "James (back) isn't listed on the injury report for Sunday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Joel Embiid: Won't play Sunday",
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Sat, 14 Nov 2026 2:06:00 PM PST",
@@ -13278,20 +13292,6 @@
    "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
    "published": "Sat, 14 Nov 2026 1:25:00 PM PST",
    "summary": "Sarr (illness) is listed as questionable for Sunday's game against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Aaron Nesmith: Questionable for Sunday",
-   "link": "https://www.rotowire.com//basketball/player/aaron-nesmith-5120",
-   "published": "Sat, 14 Nov 2026 1:22:00 PM PST",
-   "summary": "Nesmith (hand) is listed as questionable for Sunday's game against Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Luka Doncic: Set to play Sunday",
-   "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
-   "published": "Sat, 14 Nov 2026 12:36:00 PM PST",
-   "summary": "Doncic (ankle) won't be listed on the injury report for Sunday's game against the Suns, Benjamin Royer of The Orange County Register reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.8
  }
 }
