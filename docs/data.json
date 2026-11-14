@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:50:20.267000Z",
+ "updated": "2026-11-14T22:00:32.601468Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -5420,7 +5420,7 @@
      "SG"
     ],
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "HOU",
     "avg": {
      "PTS": 15.0,
@@ -13260,6 +13260,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Fred VanVleet: Ruled out for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
+   "published": "Sat, 14 Nov 2026 1:52:00 PM PST",
+   "summary": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Alex Sarr: Questionable for Sunday",
    "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
    "published": "Sat, 14 Nov 2026 1:25:00 PM PST",
@@ -13285,13 +13292,6 @@
    "link": "https://www.rotowire.com//basketball/player/collin-sexton-4412",
    "published": "Sat, 14 Nov 2026 12:25:00 PM PST",
    "summary": "Sexton (head) was a full participant in Saturday's practice, Dave McMenamin of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Austin Reaves: Doesn't practice Saturday",
-   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
-   "published": "Sat, 14 Nov 2026 12:16:00 PM PST",
-   "summary": "Reaves (heel) didn't participate in Saturday's practice, Dave McMenamin of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 2.0
+  "run_seconds": 3.9
  }
 }
