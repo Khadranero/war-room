@@ -135,11 +135,14 @@ nav button.on{box-shadow:0 2px 14px var(--gl1),inset 0 -2px 0 rgba(0,0,0,.18)}
 .dock{position:fixed;right:14px;bottom:16px;z-index:9;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
 .dk{width:40px;height:40px;border-radius:50%;border:1px solid var(--ln);background:var(--card);color:var(--tx);font-size:17px;cursor:pointer;box-shadow:var(--sh)}
 .dk:hover{border-color:var(--ac)}
-.pal{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:11px 13px;box-shadow:var(--sh);font-size:12.5px;max-width:230px}
+.pal{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:11px 13px;box-shadow:var(--sh);font-size:12.5px;max-width:270px}
 .pal[hidden],.dk[hidden]{display:none}
 .palh{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin-bottom:6px}
 .sws{display:flex;gap:8px}.sw{width:26px;height:26px;border-radius:50%;border:2px solid transparent;cursor:pointer;box-shadow:0 0 0 1px var(--ln)}
 .sw.on{border-color:var(--tx)}
+.seg{display:flex;border:1px solid var(--ln);border-radius:99px;overflow:hidden}
+.seg button{flex:1;border:0;background:transparent;color:var(--mut);font:inherit;font-size:11.5px;font-weight:600;padding:5px 8px;cursor:pointer;white-space:nowrap}
+.seg button.on{background:var(--pri);color:var(--onpri)}
 kbd{background:var(--in);border:1px solid var(--ln);border-radius:5px;padding:0 5px;font:inherit;font-size:11.5px}
 #toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--card2);color:var(--tx);border:1px solid var(--ac);border-radius:99px;padding:7px 16px;font-weight:600;z-index:12;transition:.2s}
 #toast.on{opacity:1;transform:translate(-50%,0)}
@@ -1028,7 +1031,7 @@ function load(){
       const lag=Math.round((new Date(a.value.updated)-new Date(b.value.updated))/60000);
       if(lag>20)SRC='live copy (site is '+lag+' min behind)';
     }
-    D=best;fixSchedule(D);ZS=null;buildStatic();render();
+    D=best;fixSchedule(D);ZS=null;try{if(window.applyBasis)applyBasis()}catch(e){console.error('applyBasis',e)}buildStatic();render();
   }).catch(e=>{$('sub').textContent='Could not load data: '+e.message});
 }
 load();
@@ -1052,9 +1055,14 @@ function toast(m){
   t.textContent=m;t.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove('on'),1700);
 }
 const dock=document.createElement('div');dock.className='dock';
-dock.innerHTML=`<div class="pal" id="pal" hidden><div class="palh">Accent color</div><div class="sws">${ACC.map(a=>`<button class="sw" data-k="${a[0]}" title="${a[1]}" aria-label="${a[1]}" style="background:${a[2]}"></button>`).join('')}</div><div class="palh" style="margin-top:10px">Shortcuts</div><div><kbd>1</kbd>–<kbd>6</kbd> switch tabs<br><kbd>/</kbd> search players</div></div><button class="dk" id="totop" title="Back to top" hidden>↑</button><button class="dk" id="palbtn" title="Colors and shortcuts" aria-label="Colors and shortcuts">🎨</button>`;
+dock.innerHTML=`<div class="pal" id="pal" hidden><div class="palh">Accent color</div><div class="sws">${ACC.map(a=>`<button class="sw" data-k="${a[0]}" title="${a[1]}" aria-label="${a[1]}" style="background:${a[2]}"></button>`).join('')}</div><div class="palh" style="margin-top:10px">Team stats based on</div><div class="seg"><button data-b="roster">Current roster</button><button data-b="season">Season so far</button></div><div class="palh" style="margin-top:10px">Shortcuts</div><div><kbd>1</kbd>–<kbd>6</kbd> switch tabs<br><kbd>/</kbd> search players</div></div><button class="dk" id="totop" title="Back to top" hidden>↑</button><button class="dk" id="palbtn" title="Colors and shortcuts" aria-label="Colors and shortcuts">🎨</button>`;
 document.body.appendChild(dock);
 dock.querySelectorAll('.sw').forEach(s=>s.onclick=()=>{applyAcc(s.dataset.k);toast(s.title+' accent')});
+dock.querySelectorAll('.seg button').forEach(s=>s.onclick=()=>{
+  lsSet('basis',s.dataset.b);
+  if(D){applyBasis();buildStatic();render()}
+  toast(s.dataset.b==='roster'?'Stats from current rosters':'Stats from finished weeks');
+});
 $('palbtn').onclick=()=>{$('pal').hidden=!$('pal').hidden};
 $('totop').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
 window.addEventListener('scroll',()=>{$('totop').hidden=window.scrollY<500},{passive:true});
@@ -1162,9 +1170,57 @@ function trophy(){
   $('trb').innerHTML=`<h3 style="margin-top:2px">Category kings and cellar dwellers</h3><div class="kings">${kings}</div><h3>Season superlatives</h3>${sup}`;
 }
 
+/* Team stats basis: "roster" rates each team by the players it has now; "season" averages the finished weeks. */
+const GPW=3.5;
+function rankTables(vals){
+  const table={},pw={};
+  D.cats.forEach(c=>{
+    const order=Object.keys(vals[c]).sort((a,b)=>low(c)?vals[c][a]-vals[c][b]:vals[c][b]-vals[c][a]);
+    table[c]=order.map((t,i)=>({team:t,value:Math.round(vals[c][t]*1000)/1000,rank:i+1}));
+    order.forEach((t,i)=>{pw[t]=(pw[t]||0)+order.length-i});
+  });
+  return{table,power:Object.keys(pw).map(t=>({team:t,score:pw[t]})).sort((a,b)=>b.score-a.score)};
+}
+function seasonVals(){
+  const done=D.matchups.filter(m=>m.week<D.week&&m.cats),rows=done.length?done:D.matchups.filter(m=>m.week===D.week&&m.cats);
+  const sum={},n={},vals={};D.cats.forEach(c=>{sum[c]={};vals[c]={}});
+  rows.forEach(m=>['home','away'].forEach(s=>{
+    const t=m[s];n[t]=(n[t]||0)+1;
+    D.cats.forEach(c=>{let v=m.cats[c]&&m.cats[c][s];if(typeof v!=='number')return;if(pct(c)&&v>1)v/=100;sum[c][t]=(sum[c][t]||0)+v});
+  }));
+  D.cats.forEach(c=>Object.keys(sum[c]).forEach(t=>{vals[c][t]=sum[c][t]/n[t]}));
+  return vals;
+}
+function rosterVals(){
+  const vals={};D.cats.forEach(c=>{vals[c]={}});
+  Object.keys(D.rosters).forEach(t=>{
+    const ps=(D.rosters[t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,10);
+    D.cats.forEach(c=>{
+      const xs=ps.map(p=>pv(p)[c]).filter(x=>x!=null);if(!xs.length)return;
+      vals[c][t]=pct(c)?xs.reduce((s,x)=>s+(x>1?x/100:x),0)/xs.length:xs.reduce((s,x)=>s+x,0)*GPW;
+    });
+  });
+  return vals;
+}
+window.applyBasis=function(){
+  if(!D.cat_orig){D.cat_orig=D.category_table;D.power_orig=D.power}
+  const mode=lsGet('basis','roster')==='season'?'season':'roster',nT=D.power_orig.length;
+  let vals=null;
+  try{vals=mode==='roster'?rosterVals():seasonVals()}catch(e){console.error('basis',e)}
+  if(!vals||!D.cats.every(c=>Object.keys(vals[c]).length===nT)){D.category_table=D.cat_orig;D.power=D.power_orig;D.basis='orig';return}
+  const r=rankTables(vals);D.category_table=r.table;D.power=r.power;D.basis=mode;
+};
+function basisNotes(){
+  const b=D.basis,bt=b==='roster'?'each team’s current best 10 players':b==='season'?'finished weeks':'season totals';
+  const set=(el,t)=>{if(el)el.textContent=t};
+  set($('cats')&&$('cats').previousElementSibling,b==='roster'?'Projected weekly output of each team’s current best 10 players (per-game stats × 3.5 games). Green is better.':'Per-week average, green is better.');
+  set($('dna')&&$('dna').querySelector('.hint'),`Where each team ranks in every category, based on ${bt}. Farther from the center is better; the dashed ring is the league middle. Punted categories are dimmed.`);
+  set($('trophy')&&$('trophy').querySelector('.hint'),`Who leads and trails each category (based on ${bt}), plus season superlatives from finished weeks.`);
+  document.querySelectorAll('.seg button').forEach(x=>x.classList.toggle('on',x.dataset.b===(b==='season'?'season':'roster')));
+}
 function extras(){
   const me=meName();
-  safe(ticker,me);safe(winRing);safe(radar,me);safe(trophy);
+  safe(ticker,me);safe(winRing);safe(radar,me);safe(trophy);safe(basisNotes);
 }
 const _render=render;
 render=function(){_render();extras()};
