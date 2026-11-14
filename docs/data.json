@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T11:30:26.943192Z",
+ "updated": "2026-11-14T11:40:23.370954Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -8321,41 +8321,6 @@
    "proj": {}
   },
   {
-   "name": "Jordan Poole",
-   "pos": "SG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "NOP",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.333333333333334,
-    "REB": 1.6666666666666667,
-    "AST": 2.6666666666666665,
-    "STL": 0.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.3333333333333333,
-    "FG%": 0.35,
-    "FT%": 0.88888889,
-    "TO": 1.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.227272727272727,
-    "REB": 2.0,
-    "AST": 3.196969696969697,
-    "STL": 0.803030303030303,
-    "BLK": 0.30303030303030304,
-    "3PM": 2.0454545454545454,
-    "FG%": 0.409,
-    "FT%": 0.874,
-    "TO": 1.893939393939394,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Cameron Johnson",
    "pos": "SF",
    "elig": [
@@ -8387,6 +8352,41 @@
     "FG%": 0.471,
     "FT%": 0.849,
     "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jordan Poole",
+   "pos": "SG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
+   "team": "NOP",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.333333333333334,
+    "REB": 1.6666666666666667,
+    "AST": 2.6666666666666665,
+    "STL": 0.0,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.35,
+    "FT%": 0.88888889,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 13.227272727272727,
+    "REB": 2.0,
+    "AST": 3.196969696969697,
+    "STL": 0.803030303030303,
+    "BLK": 0.30303030303030304,
+    "3PM": 2.0454545454545454,
+    "FG%": 0.409,
+    "FT%": 0.874,
+    "TO": 1.893939393939394,
     "_src": "2027_projected"
    }
   },
@@ -9339,6 +9339,40 @@
    }
   },
   {
+   "name": "Khaman Maluach",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "PHO",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.75,
+    "REB": 5.5,
+    "AST": 1.25,
+    "STL": 0.5,
+    "BLK": 0.75,
+    "3PM": 0.125,
+    "FG%": 0.63414634,
+    "FT%": 0.81818182,
+    "TO": 0.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.7846153846153845,
+    "REB": 7.507692307692308,
+    "AST": 0.3076923076923077,
+    "STL": 0.3076923076923077,
+    "BLK": 1.9076923076923078,
+    "3PM": 0.4,
+    "FG%": 0.522,
+    "FT%": 0.722,
+    "TO": 1.4,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Kingston Flemings",
    "pos": "SG",
    "elig": [
@@ -9370,40 +9404,6 @@
     "FG%": 0.432,
     "FT%": 0.797,
     "TO": 2.0985915492957745,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Khaman Maluach",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "PHO",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.75,
-    "REB": 5.5,
-    "AST": 1.25,
-    "STL": 0.5,
-    "BLK": 0.75,
-    "3PM": 0.125,
-    "FG%": 0.63414634,
-    "FT%": 0.81818182,
-    "TO": 0.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.7846153846153845,
-    "REB": 7.507692307692308,
-    "AST": 0.3076923076923077,
-    "STL": 0.3076923076923077,
-    "BLK": 1.9076923076923078,
-    "3PM": 0.4,
-    "FG%": 0.522,
-    "FT%": 0.722,
-    "TO": 1.4,
     "_src": "2027_projected"
    }
   },
@@ -9511,28 +9511,6 @@
    }
   },
   {
-   "name": "Dereck Lively II",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "DAL",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {
-    "PTS": 8.846153846153847,
-    "REB": 7.2,
-    "AST": 1.6,
-    "STL": 0.6,
-    "BLK": 1.5076923076923077,
-    "FG%": 0.729,
-    "FT%": 0.566,
-    "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Bones Hyland",
    "pos": "PG",
    "elig": [
@@ -9562,6 +9540,28 @@
     "3PM": 1.6290322580645162,
     "FG%": 0.449,
     "FT%": 0.786,
+    "TO": 1.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Dereck Lively II",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "DAL",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 8.846153846153847,
+    "REB": 7.2,
+    "AST": 1.6,
+    "STL": 0.6,
+    "BLK": 1.5076923076923077,
+    "FG%": 0.729,
+    "FT%": 0.566,
     "TO": 1.0,
     "_src": "2027_projected"
    }
@@ -9916,6 +9916,29 @@
    }
   },
   {
+   "name": "Mo Bamba",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "UTA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.428571428571429,
+    "REB": 6.0,
+    "AST": 0.5714285714285714,
+    "STL": 0.2857142857142857,
+    "BLK": 1.7142857142857142,
+    "3PM": 0.0,
+    "FG%": 0.70833333,
+    "FT%": 0.64705882,
+    "TO": 0.42857142857142855,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Isaiah Collier",
    "pos": "PG",
    "elig": [
@@ -9948,29 +9971,6 @@
     "TO": 2.298507462686567,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Mo Bamba",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "UTA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.428571428571429,
-    "REB": 6.0,
-    "AST": 0.5714285714285714,
-    "STL": 0.2857142857142857,
-    "BLK": 1.7142857142857142,
-    "3PM": 0.0,
-    "FG%": 0.70833333,
-    "FT%": 0.64705882,
-    "TO": 0.42857142857142855,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Tim Hardaway Jr.",
@@ -10889,40 +10889,6 @@
    "proj": {}
   },
   {
-   "name": "Landry Shamet",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "NYK",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.285714285714286,
-    "REB": 1.7142857142857142,
-    "AST": 1.5714285714285714,
-    "STL": 0.42857142857142855,
-    "BLK": 0.0,
-    "3PM": 1.8571428571428572,
-    "FG%": 0.4893617,
-    "FT%": 0.75,
-    "TO": 0.8571428571428571,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.388059701492537,
-    "REB": 1.5970149253731343,
-    "AST": 1.1940298507462686,
-    "STL": 0.5970149253731343,
-    "BLK": 0.19402985074626866,
-    "3PM": 1.791044776119403,
-    "FG%": 0.44,
-    "FT%": 0.717,
-    "TO": 0.5970149253731343,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Nikola Jovic",
    "pos": "PF",
    "elig": [
@@ -10953,6 +10919,40 @@
     "FG%": 0.386,
     "FT%": 0.703,
     "TO": 1.704225352112676,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Landry Shamet",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "NYK",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.285714285714286,
+    "REB": 1.7142857142857142,
+    "AST": 1.5714285714285714,
+    "STL": 0.42857142857142855,
+    "BLK": 0.0,
+    "3PM": 1.8571428571428572,
+    "FG%": 0.4893617,
+    "FT%": 0.75,
+    "TO": 0.8571428571428571,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.388059701492537,
+    "REB": 1.5970149253731343,
+    "AST": 1.1940298507462686,
+    "STL": 0.5970149253731343,
+    "BLK": 0.19402985074626866,
+    "3PM": 1.791044776119403,
+    "FG%": 0.44,
+    "FT%": 0.717,
+    "TO": 0.5970149253731343,
     "_src": "2027_projected"
    }
   },
@@ -11290,6 +11290,29 @@
    "proj": {}
   },
   {
+   "name": "Tyrese Proctor",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "CLE",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.375,
+    "REB": 3.25,
+    "AST": 2.625,
+    "STL": 0.625,
+    "BLK": 0.0,
+    "3PM": 2.125,
+    "FG%": 0.51851852,
+    "FT%": 0.76923077,
+    "TO": 0.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Carter Bryant",
    "pos": "SF",
    "elig": [
@@ -11438,52 +11461,6 @@
    }
   },
   {
-   "name": "Tyrese Proctor",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.375,
-    "REB": 3.25,
-    "AST": 2.625,
-    "STL": 0.625,
-    "BLK": 0.0,
-    "3PM": 2.125,
-    "FG%": 0.51851852,
-    "FT%": 0.76923077,
-    "TO": 0.5,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
-   "name": "Kobe Sanders",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "LAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.714285714285714,
-    "REB": 2.5714285714285716,
-    "AST": 2.5714285714285716,
-    "STL": 0.2857142857142857,
-    "BLK": 0.14285714285714285,
-    "3PM": 2.0,
-    "FG%": 0.45454545,
-    "FT%": 1.0,
-    "TO": 1.7142857142857142,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Baylor Scheierman",
    "pos": "SG",
    "elig": [
@@ -11516,6 +11493,29 @@
     "TO": 0.8055555555555556,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Kobe Sanders",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "LAC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.714285714285714,
+    "REB": 2.5714285714285716,
+    "AST": 2.5714285714285716,
+    "STL": 0.2857142857142857,
+    "BLK": 0.14285714285714285,
+    "3PM": 2.0,
+    "FG%": 0.45454545,
+    "FT%": 1.0,
+    "TO": 1.7142857142857142,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Labaron Philon Jr.",
@@ -12023,6 +12023,40 @@
    "proj": {}
   },
   {
+   "name": "Trey Lyles",
+   "pos": "PF",
+   "elig": [
+    "PF"
+   ],
+   "team": "MIN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.0,
+    "REB": 4.285714285714286,
+    "AST": 0.5714285714285714,
+    "STL": 0.5714285714285714,
+    "BLK": 0.2857142857142857,
+    "3PM": 0.8571428571428571,
+    "FG%": 0.47222222,
+    "FT%": 0.69230769,
+    "TO": 0.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 6.890625,
+    "REB": 4.5,
+    "AST": 1.203125,
+    "STL": 0.5,
+    "BLK": 0.296875,
+    "3PM": 1.296875,
+    "FG%": 0.432,
+    "FT%": 0.7,
+    "TO": 0.59375,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Jay Huff",
    "pos": "C",
    "elig": [
@@ -12116,40 +12150,6 @@
    }
   },
   {
-   "name": "Trey Lyles",
-   "pos": "PF",
-   "elig": [
-    "PF"
-   ],
-   "team": "MIN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.0,
-    "REB": 4.285714285714286,
-    "AST": 0.5714285714285714,
-    "STL": 0.5714285714285714,
-    "BLK": 0.2857142857142857,
-    "3PM": 0.8571428571428571,
-    "FG%": 0.47222222,
-    "FT%": 0.69230769,
-    "TO": 0.5714285714285714,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 6.890625,
-    "REB": 4.5,
-    "AST": 1.203125,
-    "STL": 0.5,
-    "BLK": 0.296875,
-    "3PM": 1.296875,
-    "FG%": 0.432,
-    "FT%": 0.7,
-    "TO": 0.59375,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Javonte Green",
    "pos": "SF",
    "elig": [
@@ -12232,29 +12232,6 @@
    }
   },
   {
-   "name": "Leaky Black",
-   "pos": "SF",
-   "elig": [
-    "SF"
-   ],
-   "team": "SAC",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.5,
-    "REB": 3.3333333333333335,
-    "AST": 1.6666666666666667,
-    "STL": 1.5,
-    "BLK": 0.5,
-    "3PM": 1.6666666666666667,
-    "FG%": 0.39285714,
-    "FT%": 0.5,
-    "TO": 0.16666666666666666,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Cameron Carr",
    "pos": "SF",
    "elig": [
@@ -12279,24 +12256,24 @@
    "proj": {}
   },
   {
-   "name": "Jamison Battle",
+   "name": "Leaky Black",
    "pos": "SF",
    "elig": [
     "SF"
    ],
-   "team": "TOR",
+   "team": "SAC",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.5,
-    "REB": 1.5,
-    "AST": 0.375,
-    "STL": 0.25,
-    "BLK": 0.125,
-    "3PM": 2.625,
-    "FG%": 0.50793651,
-    "FT%": 0.77777778,
-    "TO": 0.5,
+    "PTS": 5.5,
+    "REB": 3.3333333333333335,
+    "AST": 1.6666666666666667,
+    "STL": 1.5,
+    "BLK": 0.5,
+    "3PM": 1.6666666666666667,
+    "FG%": 0.39285714,
+    "FT%": 0.5,
+    "TO": 0.16666666666666666,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -12321,6 +12298,29 @@
     "FT%": 0.0,
     "TO": 1.0,
     "_src": "2027_last_30"
+   },
+   "proj": {}
+  },
+  {
+   "name": "Jamison Battle",
+   "pos": "SF",
+   "elig": [
+    "SF"
+   ],
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.5,
+    "REB": 1.5,
+    "AST": 0.375,
+    "STL": 0.25,
+    "BLK": 0.125,
+    "3PM": 2.625,
+    "FG%": 0.50793651,
+    "FT%": 0.77777778,
+    "TO": 0.5,
+    "_src": "2027_last_15"
    },
    "proj": {}
   },
@@ -12532,6 +12532,29 @@
    "proj": {}
   },
   {
+   "name": "Jock Landale",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "ATL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 5.666666666666667,
+    "REB": 3.3333333333333335,
+    "AST": 0.3333333333333333,
+    "STL": 0.3333333333333333,
+    "BLK": 0.6666666666666666,
+    "3PM": 0.6666666666666666,
+    "FG%": 0.5,
+    "FT%": 0.83333333,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Jase Richardson",
    "pos": "SG",
    "elig": [
@@ -12563,29 +12586,6 @@
     "TO": 0.5,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Jock Landale",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "ATL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 5.666666666666667,
-    "REB": 3.3333333333333335,
-    "AST": 0.3333333333333333,
-    "STL": 0.3333333333333333,
-    "BLK": 0.6666666666666666,
-    "3PM": 0.6666666666666666,
-    "FG%": 0.5,
-    "FT%": 0.83333333,
-    "TO": 2.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Noah Clowney",
@@ -12761,6 +12761,29 @@
    "proj": {}
   },
   {
+   "name": "Ryan Conwell",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.571428571428571,
+    "REB": 2.142857142857143,
+    "AST": 1.5714285714285714,
+    "STL": 0.8571428571428571,
+    "BLK": 0.0,
+    "3PM": 1.7142857142857142,
+    "FG%": 0.38095238,
+    "FT%": 0.9,
+    "TO": 0.7142857142857143,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Moses Moody",
    "pos": "SG",
    "elig": [
@@ -12783,29 +12806,6 @@
     "TO": 0.9166666666666666,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Ryan Conwell",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "MIA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.571428571428571,
-    "REB": 2.142857142857143,
-    "AST": 1.5714285714285714,
-    "STL": 0.8571428571428571,
-    "BLK": 0.0,
-    "3PM": 1.7142857142857142,
-    "FG%": 0.38095238,
-    "FT%": 0.9,
-    "TO": 0.7142857142857143,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Rob Dillingham",
@@ -12877,6 +12877,41 @@
    "proj": {}
   },
   {
+   "name": "Isaac Okoro",
+   "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "CHI",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 7.166666666666667,
+    "REB": 2.0,
+    "AST": 1.5,
+    "STL": 0.5,
+    "BLK": 0.3333333333333333,
+    "3PM": 0.5,
+    "FG%": 0.41176471,
+    "FT%": 0.85714286,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.382352941176471,
+    "REB": 2.2941176470588234,
+    "AST": 1.2941176470588236,
+    "STL": 0.6029411764705882,
+    "BLK": 0.39705882352941174,
+    "3PM": 0.9411764705882353,
+    "FG%": 0.462,
+    "FT%": 0.782,
+    "TO": 0.6029411764705882,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Tyus Jones",
    "pos": "PG",
    "elig": [
@@ -12935,64 +12970,6 @@
    "proj": {}
   },
   {
-   "name": "Isaac Okoro",
-   "pos": "SF",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "CHI",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 7.166666666666667,
-    "REB": 2.0,
-    "AST": 1.5,
-    "STL": 0.5,
-    "BLK": 0.3333333333333333,
-    "3PM": 0.5,
-    "FG%": 0.41176471,
-    "FT%": 0.85714286,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.382352941176471,
-    "REB": 2.2941176470588234,
-    "AST": 1.2941176470588236,
-    "STL": 0.6029411764705882,
-    "BLK": 0.39705882352941174,
-    "3PM": 0.9411764705882353,
-    "FG%": 0.462,
-    "FT%": 0.782,
-    "TO": 0.6029411764705882,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Gary Payton II",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.0,
-    "REB": 1.6666666666666667,
-    "AST": 0.5,
-    "STL": 1.1666666666666667,
-    "BLK": 0.0,
-    "3PM": 0.3333333333333333,
-    "FG%": 0.43478261,
-    "FT%": 1.0,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Braden Smith",
    "pos": "PG",
    "elig": [
@@ -13038,6 +13015,29 @@
     "TO": 1.3934426229508197,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Gary Payton II",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.0,
+    "REB": 1.6666666666666667,
+    "AST": 0.5,
+    "STL": 1.1666666666666667,
+    "BLK": 0.0,
+    "3PM": 0.3333333333333333,
+    "FG%": 0.43478261,
+    "FT%": 1.0,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Jamal Cain",
@@ -13267,6 +13267,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Deni Avdija: Scores team-high 34 points",
+   "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
+   "published": "Sat, 14 Nov 2026 3:30:00 AM PST",
+   "summary": "Avdija finished Friday's 120-107 win over the Kings with 34 points (11-13 FG, 3-5 3Pt, 9-9 FT), six rebounds, four assists and one block across 35 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Domantas Sabonis: Records double-double in loss",
    "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
    "published": "Sat, 14 Nov 2026 3:23:00 AM PST",
@@ -13292,13 +13299,6 @@
    "link": "https://www.rotowire.com//basketball/player/darryn-peterson-6924",
    "published": "Fri, 13 Nov 2026 8:23:00 PM PST",
    "summary": "Peterson finished with 28 points (9-20 FG, 4-11 3Pt, 6-7 FT), seven rebounds, two assists, two steals and one block across 34 minutes in Friday's 125-118 loss to the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Amen Thompson: Double-doubles vs. Utah",
-   "link": "https://www.rotowire.com//basketball/player/amen-thompson-5931",
-   "published": "Fri, 13 Nov 2026 8:15:00 PM PST",
-   "summary": "Thompson posted 12 points (4-9 FG, 0-1 3Pt, 4-5 FT), 11 rebounds, three assists and one block over 41 minutes in a 125-118 win over the Jazz on Friday.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15681,6 +15681,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 2.7
  }
 }
