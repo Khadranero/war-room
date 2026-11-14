@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:40:23.624768Z",
+ "updated": "2026-11-14T19:50:26.039153Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -6280,7 +6280,7 @@
      "SG"
     ],
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "MEM",
     "avg": {
      "PTS": 25.0,
@@ -8322,7 +8322,7 @@
     "PF"
    ],
    "team": "MEM",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 14.142857142857142,
@@ -13260,6 +13260,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ty Jerome: Ruled out Saturday",
+   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
+   "published": "Sat, 14 Nov 2026 11:45:00 AM PST",
+   "summary": "Jerome (hip) has been ruled out for Saturday's game against the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Zach Edey: Iffy for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
+   "published": "Sat, 14 Nov 2026 11:45:00 AM PST",
+   "summary": "Edey (ankle) is listed as questionable for Saturday's game against Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Evan Mobley: Ruled out Saturday",
    "link": "https://www.rotowire.com//basketball/player/evan-mobley-5355",
    "published": "Sat, 14 Nov 2026 10:34:00 AM PST",
@@ -13278,20 +13292,6 @@
    "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
    "published": "Sat, 14 Nov 2026 10:31:00 AM PST",
    "summary": "Allen (knee) is listed as questionable for Saturday's game against Dallas.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "James Harden: Questionable Saturday",
-   "link": "https://www.rotowire.com//basketball/player/james-harden-3018",
-   "published": "Sat, 14 Nov 2026 10:28:00 AM PST",
-   "summary": "Harden (left lower leg/calf tightness) is listed as questionable for Saturday's game against the Mavericks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Pelle Larsson: Doubtful to play Saturday",
-   "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
-   "published": "Sat, 14 Nov 2026 10:12:00 AM PST",
-   "summary": "Larsson (illness) is listed as doubtful for Saturday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 2.4
  }
 }
