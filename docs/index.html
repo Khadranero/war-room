@@ -560,17 +560,19 @@ function renderAnalyzer(me0){
     let myD=0,thD=0;
     const rows=D.cats.map(c=>{
       const dm=p1[me][c]-p0[me][c],dt=p1[TA.team][c]-p0[TA.team][c];
-      if(act.includes(c))myD+=dm;thD+=dt;
+      if(act.includes(c)){myD+=dm;thD+=dt}
       const rm0=rank(p0,c,me),rm1=rank(p1,c,me),rt0=rank(p0,c,TA.team),rt1=rank(p1,c,TA.team);
       const f=(x,r0,r1)=>`<td class="n ${x>0.15?'good':x<-0.15?'bad':'mut'}">${x>0?'+':''}${x.toFixed(1)}</td><td class="n">${r0}${r1!==r0?' → <b class="'+(r1<r0?'good':'bad')+'">'+r1+'</b>':''}</td>`;
       return `<tr class="${punts.includes(c)?'mut':''}"><td>${c}${punts.includes(c)?' <span class="mut">(punt)</span>':''}</td>${f(dm,rm0,rm1)}${f(dt,rt0,rt1)}</tr>`}).join('');
     const gap=give.reduce((s,p)=>s+totZ(p),0)-get.reduce((s,p)=>s+totZ(p),0);
     let v;
-    if(myD>0.5&&thD>0.5)v='<b class="good">Win-win.</b> Both teams improve, so they have a reason to accept.';
-    else if(myD>0.5)v='<b class="good">Good for ${esc(me)}.</b> The other side loses more than it gains, so expect pushback unless they value the names.';
-    else if(myD<-0.5&&thD>0.5)v='<b class="bad">Favors ${esc(TA.team)}.</b> ${esc(me)} loses ground.';
-    else if(myD<-0.5)v='<b class="bad">Bad for both sides.</b> Not worth proposing.';
-    else v='<b>Roughly even.</b> Small effect on your categories.';
+    if(myD>0.5&&thD>0.5)v=`<b class="good">Win-win.</b> Both teams improve, so they have a reason to accept.`;
+    else if(myD>0.5)v=`<b class="good">Favors ${esc(me)}.</b> ${esc(TA.team)} does not gain, so expect pushback unless they value the names.`;
+    else if(myD<-0.5&&thD>0.5)v=`<b class="bad">Favors ${esc(TA.team)}.</b> ${esc(me)} loses ground.`;
+    else if(myD<-0.5)v=`<b class="bad">Hurts ${esc(me)}.</b> ${esc(TA.team)} does not gain much either. Not worth proposing.`;
+    else if(thD>0.5)v=`<b class="bad">Slightly favors ${esc(TA.team)}.</b> Small effect on ${esc(me)}'s categories.`;
+    else if(thD<-0.5)v=`<b class="good">Slightly favors ${esc(me)}.</b> Small effect on your categories.`;
+    else v=`<b>Roughly even.</b> Small effect on both sides.`;
     const spots=get.length-give.length;
     res=`<div class="verdict">${v}<br><span class="mut">Category change for ${esc(me)} (non-punted): ${myD>0?'+':''}${myD.toFixed(1)} · theirs: ${thD>0?'+':''}${thD.toFixed(1)} · name value gap: ${gap>0?'+':''}${gap.toFixed(1)} in their favor when positive.</span><br>${spots>0?`You would need to drop ${spots} player${spots>1?'s':''} to make room.`:spots<0?`You would free ${-spots} roster spot${spots<-1?'s':''}.`:'Roster sizes stay the same.'}</div>
     <table><tr><th>Cat</th><th class=n>${esc(me)}</th><th class=n>Rank</th><th class=n>${esc(TA.team)}</th><th class=n>Rank</th></tr>${rows}</table>
