@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T15:00:31.894124Z",
+ "updated": "2026-11-14T15:10:26.113233Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2487,7 +2487,7 @@
      "C"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "MEM",
     "avg": {
      "PTS": 7.5,
@@ -3461,7 +3461,7 @@
      "SG"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
      "PTS": 18.333333333333332,
@@ -4053,7 +4053,7 @@
      "SF"
     ],
     "slot": "SG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "MIA",
     "avg": {
      "PTS": 19.833333333333332,
@@ -5642,7 +5642,7 @@
      "C"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
      "PTS": 16.0,
@@ -7915,7 +7915,7 @@
     "C"
    ],
    "team": "SAC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.5,
@@ -8490,7 +8490,7 @@
     "SF"
    ],
    "team": "MIA",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.0,
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.7
  }
 }
