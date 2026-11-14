@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T17:50:27.093457Z",
+ "updated": "2026-11-14T18:00:39.181764Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -4862,8 +4862,8 @@
      "SG",
      "SF"
     ],
-    "slot": "IR",
-    "injury": "ACTIVE",
+    "slot": "SG",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 19.75,
@@ -4897,7 +4897,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -4932,7 +4932,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -5001,7 +5001,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -5096,29 +5096,6 @@
      "TO": 0.8970588235294118,
      "_src": "2027_projected"
     }
-   },
-   {
-    "name": "Aday Mara",
-    "pos": "C",
-    "elig": [
-     "C"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "OKC",
-    "avg": {
-     "PTS": 10.5,
-     "REB": 7.125,
-     "AST": 1.5,
-     "STL": 0.0,
-     "BLK": 2.125,
-     "3PM": 0.125,
-     "FG%": 0.6440678,
-     "FT%": 0.5,
-     "TO": 1.25,
-     "_src": "2027_last_15"
-    },
-    "proj": {}
    }
   ],
   "AARON VENGERS": [
@@ -6649,6 +6626,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-14T17:54:04.541000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Aday Mara"
+  },
+  {
    "date": "2026-11-14T12:07:32.275000",
    "team": "Akumpo",
    "action": "DROPPED",
@@ -7802,6 +7785,29 @@
     "TO": 2.59375,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Aday Mara",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "OKC",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.5,
+    "REB": 7.125,
+    "AST": 1.5,
+    "STL": 0.0,
+    "BLK": 2.125,
+    "3PM": 0.125,
+    "FG%": 0.6440678,
+    "FT%": 0.5,
+    "TO": 1.25,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Neemias Queta",
@@ -13249,21 +13255,23 @@
     "TO": 0.29411764705882354,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Thanasis Antetokounmpo",
-   "pos": "SF",
-   "elig": [
-    "SF"
-   ],
-   "team": "FA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {},
-   "proj": {}
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Norman Powell: Questionable to face Minnesota",
+   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
+   "published": "Sat, 14 Nov 2026 9:57:00 AM PST",
+   "summary": "Powell (back) is listed as questionable for Saturday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Ruled out Saturday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Sat, 14 Nov 2026 9:53:00 AM PST",
+   "summary": "Murphy (knees) has been ruled out for Saturday's game against the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Scottie Barnes: Questionable for Sunday",
@@ -13286,18 +13294,137 @@
    "summary": "Gilgeous-Alexander finished Friday's 113-112 loss to the Clippers with 40 points (15-26 FG, 2-4 3Pt, 8-11 FT), four rebounds, five assists and one steal in 38 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Deni Avdija: Scores team-high 34 points",
-   "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
-   "published": "Sat, 14 Nov 2026 3:30:00 AM PST",
-   "summary": "Avdija finished Friday's 120-107 win over the Kings with 34 points (11-13 FG, 3-5 3Pt, 9-9 FT), six rebounds, four assists and one block across 35 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "What happens when you pay $200 to try out for a G League team?",
+   "link": "https://www.espn.com/nba/story/_/id/50463046/nba-g-league-delaware-blue-coats-200-dollar-tryout",
+   "published": "Sat, 14 Nov 2026 12:13:13 EST",
+   "summary": "Former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats."
   },
   {
-   "source": "RotoWire",
-   "title": "Domantas Sabonis: Records double-double in loss",
-   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
-   "published": "Sat, 14 Nov 2026 3:23:00 AM PST",
-   "summary": "Sabonis ended with 21 points (9-16 FG, 1-3 3Pt, 2-2 FT), 12 rebounds and five assists over 35 minutes during Friday's 120-107 loss to the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Knicks' Hart 'not in a good headspace' after scoreless night, benching",
+   "link": "https://www.espn.com/nba/story/_/id/50480516/josh-hart-seeking-answers-zero-points-knicks-loss",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Knicks wing Josh Hart said he is \"not in a good headspace\" after he was held scoreless and benched for the fourth quarter of Friday's 106-104 NBA Cup loss to the Pacers."
+  },
+  {
+   "source": "ESPN",
+   "title": "Giannis, Bam combine for 74 as Heat flex potential as East contenders",
+   "link": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Giannis Antetokounmpo and Bam Adebayo each scored 37 points to help the Heat top the Cavs for their sixth win in eight games."
+  },
+  {
+   "source": "ESPN",
+   "title": "Lendeborg 1-for-13 in Warriors' blowout loss: 'I was flustered the entire game'",
+   "link": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 123-85 blowout loss to the Spurs. \"I was flustered the entire game,\" he said. \"Couldn't make a damn layup.\""
+  },
+  {
+   "source": "ESPN",
+   "title": "Wemby, Spurs land early KO with 18-0 run, rout Warriors for 11th straight win",
+   "link": "https://www.espn.com/nba/story/_/id/50478136/victor-wembanyama-spurs-rout-warriors-11th-straight-win",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Victor Wembanyama and the Spurs pounced on the Warriors with an 18-0 opening run and went on to win 123-85."
+  },
+  {
+   "source": "ESPN",
+   "title": "FAA ground stop throws sports world into travel chaos ahead of weekend games",
+   "link": "https://www.espn.com/college-football/story/_/id/50475169/faa-ground-stop-disrupting-travel-college-football-teams",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Travel plans for teams in multiple sports were disrupted by the FAA's nationwide ground stop of all flights because of communications problems."
+  },
+  {
+   "source": "ESPN",
+   "title": "Redick says Lakers' Reaves day-to-day with left heel bruise",
+   "link": "https://www.espn.com/nba/story/_/id/50475090/lakers-austin-reaves-day-day-left-heel-bruise",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said Friday."
+  },
+  {
+   "source": "ESPN",
+   "title": "Murray wants trade from Pelicans; both sides working on resolution",
+   "link": "https://www.espn.com/nba/story/_/id/50473732/sources-dejounte-murray-wants-trade-pelicans",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Pelicans guard Dejounte Murray wants a trade from the franchise, and his agent, Klutch Sports CEO Rich Paul, and team officials have started working on a resolution."
+  },
+  {
+   "source": "ESPN",
+   "title": "Former lottery pick McDermott retires after 12 NBA seasons",
+   "link": "https://www.espn.com/nba/story/_/id/50473335/ex-lottery-pick-doug-mcdermott-retires-12-nba-seasons",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Three-point specialist Doug McDermott has retired from the NBA after 12 seasons spent with seven teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udcc8 Updated Power Rankings: The best newcomer on all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50443607/nba-power-rankings-30-teams-best-newcomer",
+   "published": "Sat, 14 Nov 2026 11:57:40 EST",
+   "summary": "Which teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "Donovan Mitchell still believes in the Cavaliers, even if you don't",
+   "link": "https://www.espn.com/nba/story/_/id/50463020/donovan-mitchell-cleveland-cavaliers-extension",
+   "published": "Fri, 13 Nov 2026 09:39:48 EST",
+   "summary": "Mitchell made two commitments this summer: his marriage and his extension with the Cavs. Now it's up to him to keep pushing Cleveland forward."
+  },
+  {
+   "source": "ESPN",
+   "title": "Welcome to the Space Jam: How Michael Jordan and Bugs Bunny's magic resonates 30 years later",
+   "link": "https://www.espn.com/nba/story/_/id/50463999/space-jam-30-year-anniversary-influence",
+   "published": "Sat, 14 Nov 2026 02:11:27 EST",
+   "summary": "Three decades after its release, the basketball-meets-Looney Tunes adventure remains a pop culture staple."
+  },
+  {
+   "source": "ESPN",
+   "title": "Early trade deadline questions: Knicks, Thunder and other contenders' next steps",
+   "link": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
+   "published": "Thu, 12 Nov 2026 10:07:13 EST",
+   "summary": "With the NBA trade deadline looming, which title contenders should -- and could -- make a deal to improve?"
+  },
+  {
+   "source": "ESPN",
+   "title": "19 teams with major roster decisions",
+   "link": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
+   "published": "Thu, 12 Nov 2026 10:07:13 EST",
+   "summary": "With tax and apron penalties lurking, we examine 19 teams barreling toward core-altering decisions."
+  },
+  {
+   "source": "ESPN",
+   "title": "Inside the group chat where Black NBA coaches counsel -- and trash-talk -- each other",
+   "link": "https://www.espn.com/nba/story/_/id/50444546/nba-black-coaches-group-chat-brown-bickerstaff",
+   "published": "Fri, 13 Nov 2026 21:36:05 EST",
+   "summary": "On the court, they're rivals. Off the court, they've found support among the only men who truly understand what they're going through: each other."
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
+   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "published": "Fri, 13 Nov 2026 21:36:36 EST",
+   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
+  },
+  {
+   "source": "ESPN",
+   "title": "Updated NBA championship and MVP odds: Lakers' odds shorten, Doncic in front",
+   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+   "published": "Wed, 11 Nov 2026 15:34:47 EST",
+   "summary": "The Spurs remain the favorite to win the NBA championship, but the Celtics and Lakers are both making a push."
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA awards watch: Is Yaxel the bet for Rookie of the Year? Luka or Wemby for MVP?",
+   "link": "https://www.espn.com/espn/betting/story/_/id/50453889/nba-awards-watch-mvp-rookie-year-2026-2027",
+   "published": "Wed, 11 Nov 2026 15:34:47 EST",
+   "summary": "Andre Snellings looks at the updated odds, and explains which bets to make and which to avoid."
+  },
+  {
+   "source": "ESPN",
+   "title": "Despite slump, Knicks' Bridges is a fantasy basketball trade target",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50473517/fantasy-basketball-nba-analytics-consistency-bridges",
+   "published": "Fri, 13 Nov 2026 15:00:20 EST",
+   "summary": "Andre explains why Mikal Bridges continues to hold fantasy value despite the poor start to his season."
   }
  ],
  "games": {
@@ -13656,6 +13783,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-14T17:54:04.541000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Aday Mara"
+  },
   {
    "date": "2026-11-14T12:07:32.275000",
    "team": "Akumpo",
@@ -15692,6 +15825,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 2.5
  }
 }
