@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:00:32.601468Z",
+ "updated": "2026-11-14T22:10:25.820681Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -5316,7 +5316,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "PHL",
     "avg": {
      "PTS": 15.857142857142858,
@@ -13260,6 +13260,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Joel Embiid: Won't play Sunday",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Sat, 14 Nov 2026 2:06:00 PM PST",
+   "summary": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Fred VanVleet: Ruled out for Sunday",
    "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
    "published": "Sat, 14 Nov 2026 1:52:00 PM PST",
@@ -13285,13 +13292,6 @@
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Sat, 14 Nov 2026 12:36:00 PM PST",
    "summary": "Doncic (ankle) won't be listed on the injury report for Sunday's game against the Suns, Benjamin Royer of The Orange County Register reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Collin Sexton: Full participant in practice",
-   "link": "https://www.rotowire.com//basketball/player/collin-sexton-4412",
-   "published": "Sat, 14 Nov 2026 12:25:00 PM PST",
-   "summary": "Sexton (head) was a full participant in Saturday's practice, Dave McMenamin of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 3.5
  }
 }
