@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:10:26.145605Z",
+ "updated": "2026-11-14T18:20:24.564432Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2973,7 +2973,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 7.666666666666667,
@@ -13260,10 +13260,24 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Pelle Larsson: Doubtful to play Saturday",
+   "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
+   "published": "Sat, 14 Nov 2026 10:12:00 AM PST",
+   "summary": "Larsson (illness) is listed as doubtful for Saturday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Giannis Antetokounmpo: Probable Saturday",
    "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
    "published": "Sat, 14 Nov 2026 10:08:00 AM PST",
    "summary": "Antetokounmpo (wrist) is listed as probable for Saturday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Nic Claxton: Marked questionable",
+   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
+   "published": "Sat, 14 Nov 2026 10:08:00 AM PST",
+   "summary": "Claxton (hamstring) is listed as questionable for Saturday's game against the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
@@ -13278,20 +13292,6 @@
    "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
    "published": "Sat, 14 Nov 2026 9:57:00 AM PST",
    "summary": "Powell (back) is listed as questionable for Saturday's game against Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Ruled out Saturday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Sat, 14 Nov 2026 9:53:00 AM PST",
-   "summary": "Murphy (knees) has been ruled out for Saturday's game against the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Questionable for Sunday",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Sat, 14 Nov 2026 9:34:00 AM PST",
-   "summary": "Barnes (groin) is listed as questionable for Sunday's game against the Knicks, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 3.7
  }
 }
