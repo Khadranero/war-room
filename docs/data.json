@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:20:24.564432Z",
+ "updated": "2026-11-14T18:30:27.725135Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3671,7 +3671,7 @@
      "SG"
     ],
     "slot": "PG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
      "PTS": 16.625,
@@ -15692,6 +15692,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.5
  }
 }
