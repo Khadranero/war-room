@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:20:23.219525Z",
+ "updated": "2026-11-15T17:27:49.784621Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -7260,7 +7260,7 @@
     "SG"
    ],
    "team": "MIL",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.875,
@@ -13231,6 +13231,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ryan Rollins: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/ryan-rollins-5668",
+   "published": "Sun, 15 Nov 2026 9:23:00 AM PST",
+   "summary": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "T.J. McConnell: Available Sunday",
+   "link": "https://www.rotowire.com//basketball/player/tj-mcconnell-3760",
+   "published": "Sun, 15 Nov 2026 9:16:00 AM PST",
+   "summary": "McConnell (hamstring) is active for Sunday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Andrew Nembhard: Won't play Sunday",
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Sun, 15 Nov 2026 8:45:00 AM PST",
@@ -13249,20 +13263,6 @@
    "link": "https://www.rotowire.com//basketball/player/klay-thompson-3197",
    "published": "Sat, 14 Nov 2026 8:52:00 PM PST",
    "summary": "Thompson registered 26 points (10-17 FG, 6-11 3Pt), a rebound, four assists and a block across 20 minutes in Saturday's 137-117 win over the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Records 34-point double-double",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Sat, 14 Nov 2026 8:49:00 PM PST",
-   "summary": "Antetokounmpo delivered 34 points (13-17 FG, 1-2 3Pt, 7-9 FT), 14 rebounds, eight assists, a steal and three blocks across 31 minutes in Saturday's 137-117 win over the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ausar Thompson: Strong multi-category showing",
-   "link": "https://www.rotowire.com//basketball/player/ausar-thompson-5932",
-   "published": "Sat, 14 Nov 2026 8:48:00 PM PST",
-   "summary": "Thompson tallied 10 points (5-8 FG), eight rebounds, five assists, two steals and two blocks over 18 minutes in Saturday's 137-117 defeat to the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15733,6 +15733,6 @@
   "picked_total": 10510.0,
   "direct_total": 10510.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 4.0
  }
 }
