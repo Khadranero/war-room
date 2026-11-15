@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:50:34.699251Z",
+ "updated": "2026-11-15T17:00:31.459050Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1517,7 +1517,7 @@
      "PG",
      "SG"
     ],
-    "slot": "IR",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
@@ -1723,7 +1723,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -1897,7 +1897,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "IR",
     "injury": "OUT",
     "team": "IND",
     "avg": {
@@ -6884,18 +6884,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Matas Buzelis"
-  },
-  {
-   "date": "2026-11-12T14:07:30.064000",
-   "team": "Rubio Bzeit ",
-   "action": "FA ADDED",
-   "player": "Collin Murray-Boyles"
-  },
-  {
-   "date": "2026-11-12T14:07:30.064000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Kris Dunn"
   }
  ],
  "schedule": {
@@ -15745,6 +15733,6 @@
   "picked_total": 10510.0,
   "direct_total": 10510.0,
   "direct_teams": 10,
-  "run_seconds": 14.4
+  "run_seconds": 2.8
  }
 }
