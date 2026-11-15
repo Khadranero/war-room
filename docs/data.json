@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:10:33.817792Z",
+ "updated": "2026-11-15T08:20:32.914899Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1552,7 +1552,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -1620,7 +1620,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -1655,7 +1655,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -1689,7 +1689,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -1723,7 +1723,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -1758,7 +1758,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -1792,7 +1792,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -1827,7 +1827,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -1862,7 +1862,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -1897,7 +1897,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "SG",
     "injury": "DAY_TO_DAY",
     "team": "IND",
     "avg": {
@@ -1931,7 +1931,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -1965,7 +1965,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -1999,7 +1999,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -15829,6 +15829,6 @@
   "picked_total": 10510.0,
   "direct_total": 10510.0,
   "direct_teams": 10,
-  "run_seconds": 2.2
+  "run_seconds": 1.9
  }
 }
