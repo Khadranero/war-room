@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:00:36.388542Z",
+ "updated": "2026-11-15T22:03:43.210272Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -2515,14 +2515,14 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 14.857142857142858,
-     "REB": 2.5714285714285716,
+     "PTS": 15.142857142857142,
+     "REB": 2.7142857142857144,
      "AST": 3.2857142857142856,
      "STL": 1.0,
      "BLK": 0.2857142857142857,
      "3PM": 3.7142857142857144,
      "FG%": 0.50793651,
-     "FT%": 0.93333333,
+     "FT%": 0.94117647,
      "TO": 2.142857142857143,
      "_src": "2027_last_15"
     },
@@ -3280,13 +3280,13 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 11.0,
+     "PTS": 11.25,
      "REB": 3.5,
      "AST": 3.0,
      "STL": 0.75,
      "BLK": 0.5,
      "3PM": 0.75,
-     "FG%": 0.40506329,
+     "FG%": 0.40740741,
      "FT%": 0.64285714,
      "TO": 2.625,
      "_src": "2027_last_15"
@@ -4377,7 +4377,7 @@
      "STL": 1.25,
      "BLK": 0.25,
      "3PM": 2.375,
-     "FG%": 0.47552448,
+     "FG%": 0.47222222,
      "FT%": 0.95918367,
      "TO": 2.125,
      "_src": "2027_last_15"
@@ -4602,13 +4602,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 37.714285714285715,
+     "PTS": 38.0,
      "REB": 7.142857142857143,
-     "AST": 6.714285714285714,
+     "AST": 6.857142857142857,
      "STL": 2.2857142857142856,
      "BLK": 0.5714285714285714,
      "3PM": 5.142857142857143,
-     "FG%": 0.5,
+     "FG%": 0.50310559,
      "FT%": 0.86075949,
      "TO": 4.142857142857143,
      "_src": "2027_last_15"
@@ -6588,7 +6588,7 @@
     "team": "PHO",
     "avg": {
      "PTS": 7.0,
-     "REB": 2.75,
+     "REB": 3.0,
      "AST": 1.5,
      "STL": 1.0,
      "BLK": 0.0,
@@ -8367,7 +8367,7 @@
     "STL": 0.42857142857142855,
     "BLK": 0.14285714285714285,
     "3PM": 1.2857142857142858,
-    "FG%": 0.41860465,
+    "FG%": 0.40909091,
     "FT%": 0.86363636,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -8973,10 +8973,10 @@
    "pct": null,
    "avg": {
     "PTS": 5.625,
-    "REB": 3.75,
-    "AST": 3.0,
+    "REB": 4.0,
+    "AST": 3.125,
     "STL": 0.625,
-    "BLK": 0.5,
+    "BLK": 0.75,
     "3PM": 1.0,
     "FG%": 0.45714286,
     "FT%": 0.5,
@@ -9468,12 +9468,12 @@
    "pct": null,
    "avg": {
     "PTS": 5.833333333333333,
-    "REB": 4.5,
+    "REB": 4.666666666666667,
     "AST": 1.5,
     "STL": 0.3333333333333333,
     "BLK": 0.5,
     "3PM": 0.16666666666666666,
-    "FG%": 0.51612903,
+    "FG%": 0.5,
     "FT%": 0.33333333,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -9908,7 +9908,7 @@
    "pct": null,
    "avg": {
     "PTS": 7.0,
-    "REB": 3.0,
+    "REB": 3.1666666666666665,
     "AST": 3.3333333333333335,
     "STL": 1.0,
     "BLK": 0.0,
@@ -10149,14 +10149,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.571428571428571,
+    "PTS": 4.714285714285714,
     "REB": 6.0,
     "AST": 1.4285714285714286,
     "STL": 0.2857142857142857,
-    "BLK": 1.1428571428571428,
+    "BLK": 1.2857142857142858,
     "3PM": 0.0,
     "FG%": 0.57894737,
-    "FT%": 1.0,
+    "FT%": 0.91666667,
     "TO": 1.2857142857142858,
     "_src": "2027_last_15"
    },
@@ -10521,15 +10521,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.0,
-    "REB": 2.8333333333333335,
-    "AST": 1.0,
-    "STL": 0.8333333333333334,
+    "PTS": 8.0,
+    "REB": 2.4285714285714284,
+    "AST": 0.8571428571428571,
+    "STL": 0.7142857142857143,
     "BLK": 0.0,
-    "3PM": 0.8333333333333334,
-    "FG%": 0.55,
+    "3PM": 0.7142857142857143,
+    "FG%": 0.56097561,
     "FT%": 0.625,
-    "TO": 0.16666666666666666,
+    "TO": 0.14285714285714285,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10695,15 +10695,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.666666666666667,
-    "REB": 4.0,
-    "AST": 1.0,
-    "STL": 0.8333333333333334,
-    "BLK": 0.16666666666666666,
-    "3PM": 1.1666666666666667,
+    "PTS": 4.857142857142857,
+    "REB": 3.7142857142857144,
+    "AST": 0.8571428571428571,
+    "STL": 0.7142857142857143,
+    "BLK": 0.14285714285714285,
+    "3PM": 1.0,
     "FG%": 0.39285714,
     "FT%": 1.0,
-    "TO": 0.8333333333333334,
+    "TO": 0.7142857142857143,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -11611,15 +11611,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.333333333333334,
-    "REB": 2.3333333333333335,
-    "AST": 2.6666666666666665,
-    "STL": 0.3333333333333333,
-    "BLK": 0.16666666666666666,
-    "3PM": 2.1666666666666665,
+    "PTS": 9.714285714285714,
+    "REB": 2.0,
+    "AST": 2.4285714285714284,
+    "STL": 0.2857142857142857,
+    "BLK": 0.14285714285714285,
+    "3PM": 1.8571428571428572,
     "FG%": 0.43137255,
     "FT%": 1.0,
-    "TO": 2.0,
+    "TO": 1.7142857142857142,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -11737,13 +11737,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 5.5,
+    "REB": 1.0,
+    "AST": 0.5,
     "STL": 0.0,
-    "BLK": 1.0,
-    "3PM": 2.0,
-    "FG%": 0.6,
+    "BLK": 0.5,
+    "3PM": 1.0,
+    "FG%": 0.5,
     "FT%": 1.0,
     "TO": 0.0,
     "_src": "2027_last_15"
@@ -13230,6 +13230,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Evan Mobley: Ruled out for Monday",
+   "link": "https://www.rotowire.com//basketball/player/evan-mobley-5355",
+   "published": "Sun, 15 Nov 2026 1:59:00 PM PST",
+   "summary": "Mobley (toe) has been ruled out for Monday's game against Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Julian Champagnie: Entering starting lineup Sunday",
    "link": "https://www.rotowire.com//basketball/player/julian-champagnie-5728",
    "published": "Sun, 15 Nov 2026 1:48:00 PM PST",
@@ -13255,13 +13262,6 @@
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Sun, 15 Nov 2026 1:36:00 PM PST",
    "summary": "Claxton (hamstring) is not listed on the injury report for Monday's game against the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Max Christie: Ruled out again Sunday",
-   "link": "https://www.rotowire.com//basketball/player/max-christie-5723",
-   "published": "Sun, 15 Nov 2026 1:25:00 PM PST",
-   "summary": "Christie (ankle) has been ruled out for Sunday's game against the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -15736,6 +15736,6 @@
   "picked_total": 10510.0,
   "direct_total": 10510.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 2.7
  }
 }
