@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:50:31.375401Z",
+ "updated": "2026-11-15T01:00:33.828146Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -1970,7 +1970,7 @@
     "team": "NOP",
     "avg": {
      "PTS": 2.0,
-     "REB": 1.0,
+     "REB": 2.0,
      "AST": 0.0,
      "STL": 0.0,
      "BLK": 1.0,
@@ -2317,14 +2317,14 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 11.428571428571429,
-     "REB": 3.5714285714285716,
+     "PTS": 11.857142857142858,
+     "REB": 3.7142857142857144,
      "AST": 2.2857142857142856,
-     "STL": 1.5714285714285714,
+     "STL": 1.7142857142857142,
      "BLK": 0.14285714285714285,
      "3PM": 1.5714285714285714,
-     "FG%": 0.47540984,
-     "FT%": 0.78571429,
+     "FG%": 0.48387097,
+     "FT%": 0.75,
      "TO": 0.5714285714285714,
      "_src": "2027_last_15"
     },
@@ -2353,14 +2353,14 @@
     "team": "NOP",
     "avg": {
      "PTS": 16.666666666666668,
-     "REB": 4.444444444444445,
-     "AST": 5.333333333333333,
+     "REB": 4.555555555555555,
+     "AST": 5.444444444444445,
      "STL": 1.0,
      "BLK": 0.3333333333333333,
      "3PM": 1.0,
-     "FG%": 0.48739496,
+     "FG%": 0.47540984,
      "FT%": 0.83333333,
-     "TO": 2.7777777777777777,
+     "TO": 3.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2421,13 +2421,13 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 25.142857142857142,
+     "PTS": 25.714285714285715,
      "REB": 4.285714285714286,
      "AST": 5.714285714285714,
      "STL": 0.5714285714285714,
      "BLK": 0.8571428571428571,
      "3PM": 3.4285714285714284,
-     "FG%": 0.55238095,
+     "FG%": 0.55555556,
      "FT%": 0.9,
      "TO": 2.142857142857143,
      "_src": "2027_last_15"
@@ -3429,15 +3429,15 @@
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
-     "PTS": 11.0,
+     "PTS": 11.333333333333334,
      "REB": 5.222222222222222,
      "AST": 2.5555555555555554,
      "STL": 0.7777777777777778,
      "BLK": 0.8888888888888888,
-     "3PM": 0.2222222222222222,
-     "FG%": 0.45714286,
+     "3PM": 0.3333333333333333,
+     "FG%": 0.45205479,
      "FT%": 0.84615385,
-     "TO": 2.4444444444444446,
+     "TO": 2.3333333333333335,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4116,7 +4116,7 @@
     "team": "DEN",
     "avg": {
      "PTS": 22.285714285714285,
-     "REB": 10.0,
+     "REB": 10.142857142857142,
      "AST": 8.142857142857142,
      "STL": 2.142857142857143,
      "BLK": 0.7142857142857143,
@@ -7321,7 +7321,7 @@
    "pct": null,
    "avg": {
     "PTS": 9.285714285714286,
-    "REB": 3.4285714285714284,
+    "REB": 3.5714285714285716,
     "AST": 1.7142857142857142,
     "STL": 0.5714285714285714,
     "BLK": 0.5714285714285714,
@@ -10289,12 +10289,12 @@
    "pct": null,
    "avg": {
     "PTS": 7.777777777777778,
-    "REB": 4.444444444444445,
+    "REB": 4.555555555555555,
     "AST": 1.2222222222222223,
     "STL": 0.3333333333333333,
-    "BLK": 0.5555555555555556,
+    "BLK": 0.6666666666666666,
     "3PM": 1.4444444444444444,
-    "FG%": 0.5625,
+    "FG%": 0.55102041,
     "FT%": 0.5,
     "TO": 1.1111111111111112,
     "_src": "2027_last_15"
@@ -11650,7 +11650,7 @@
    "avg": {
     "PTS": 4.5,
     "REB": 2.25,
-    "AST": 0.25,
+    "AST": 0.5,
     "STL": 0.0,
     "BLK": 0.75,
     "3PM": 1.0,
@@ -11914,14 +11914,14 @@
    "pct": null,
    "avg": {
     "PTS": 5.714285714285714,
-    "REB": 3.142857142857143,
+    "REB": 3.2857142857142856,
     "AST": 0.42857142857142855,
     "STL": 0.14285714285714285,
     "BLK": 0.42857142857142855,
     "3PM": 0.0,
-    "FG%": 0.53571429,
+    "FG%": 0.51724138,
     "FT%": 0.71428571,
-    "TO": 0.2857142857142857,
+    "TO": 0.42857142857142855,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -13254,6 +13254,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Precious Achiuwa: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/precious-achiuwa-5249",
+   "published": "Sat, 14 Nov 2026 4:58:00 PM PST",
+   "summary": "Achiuwa (ankle) is questionable for Sunday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Zach Collins: Enters starting lineup Saturday",
    "link": "https://www.rotowire.com//basketball/player/zach-collins-4162",
    "published": "Sat, 14 Nov 2026 4:44:00 PM PST",
@@ -13279,153 +13286,6 @@
    "link": "https://www.rotowire.com//basketball/player/quentin-grimes-5391",
    "published": "Sat, 14 Nov 2026 4:23:00 PM PST",
    "summary": "Grimes (finger) is available to play Sunday's game against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Austin Reaves: Ruled out for Sunday",
-   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
-   "published": "Sat, 14 Nov 2026 4:18:00 PM PST",
-   "summary": "Reaves (heel) has been ruled out for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "What happens when you pay $200 to try out for a G League team?",
-   "link": "https://www.espn.com/nba/story/_/id/50463046/nba-g-league-delaware-blue-coats-200-dollar-tryout",
-   "published": "Sat, 14 Nov 2026 12:13:13 EST",
-   "summary": "Former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats."
-  },
-  {
-   "source": "ESPN",
-   "title": "Embiid to sit vs. Pacers due to plantar fascia management",
-   "link": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "The Philadelphia 76ers ruled out center Joel Embiid for Sunday's game against the Indiana Pacers with right foot plantar fascia management, the team announced Saturday."
-  },
-  {
-   "source": "ESPN",
-   "title": "Lakers' Reaves to sit out vs. Suns due to left heel bruise",
-   "link": "https://www.espn.com/nba/story/_/id/50485143/lakers-austin-reaves-heel-bruise-sit-vs-suns",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Los Angeles Lakers guard Austin Reaves will not play against the Phoenix Suns on Sunday because of a left heel bruise, the team announced."
-  },
-  {
-   "source": "ESPN",
-   "title": "Knicks' Hart 'not in a good headspace' after scoreless night, benching",
-   "link": "https://www.espn.com/nba/story/_/id/50480516/josh-hart-seeking-answers-zero-points-knicks-loss",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Knicks wing Josh Hart said he is \"not in a good headspace\" after he was held scoreless and benched for the fourth quarter of Friday's 106-104 NBA Cup loss to the Pacers."
-  },
-  {
-   "source": "ESPN",
-   "title": "Giannis, Bam combine for 74 as Heat flex potential as East contenders",
-   "link": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Giannis Antetokounmpo and Bam Adebayo each scored 37 points to help the Heat top the Cavaliers for their sixth win in eight games."
-  },
-  {
-   "source": "ESPN",
-   "title": "Lendeborg 1-for-13 in Warriors' blowout loss: 'I was flustered the entire game'",
-   "link": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 123-85 blowout loss to the Spurs. \"I was flustered the entire game,\" he said. \"Couldn't make a damn layup.\""
-  },
-  {
-   "source": "ESPN",
-   "title": "Wemby, Spurs land early KO with 18-0 run, rout Warriors for 11th straight win",
-   "link": "https://www.espn.com/nba/story/_/id/50478136/victor-wembanyama-spurs-rout-warriors-11th-straight-win",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Victor Wembanyama and the Spurs pounced on the Warriors with an 18-0 opening run and went on to win 123-85."
-  },
-  {
-   "source": "ESPN",
-   "title": "FAA ground stop throws sports world into travel chaos ahead of weekend games",
-   "link": "https://www.espn.com/college-football/story/_/id/50475169/faa-ground-stop-disrupting-travel-college-football-teams",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Travel plans for teams in multiple sports were disrupted by the FAA's nationwide ground stop of all flights because of communications problems."
-  },
-  {
-   "source": "ESPN",
-   "title": "Murray wants trade from Pelicans; both sides working on resolution",
-   "link": "https://www.espn.com/nba/story/_/id/50473732/sources-dejounte-murray-wants-trade-pelicans",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Pelicans guard Dejounte Murray wants a trade from the franchise, and his agent, Klutch Sports CEO Rich Paul, and team officials have started working on a resolution."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83d\udcc8 Updated Power Rankings: The best newcomer on all 30 teams",
-   "link": "https://www.espn.com/nba/story/_/id/50443607/nba-power-rankings-30-teams-best-newcomer",
-   "published": "Sat, 14 Nov 2026 19:45:49 EST",
-   "summary": "Which teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "Donovan Mitchell still believes in the Cavaliers, even if you don't",
-   "link": "https://www.espn.com/nba/story/_/id/50463020/donovan-mitchell-cleveland-cavaliers-extension",
-   "published": "Fri, 13 Nov 2026 09:39:48 EST",
-   "summary": "Mitchell made two commitments this summer: his marriage and his extension with the Cavs. Now it's up to him to keep pushing Cleveland forward."
-  },
-  {
-   "source": "ESPN",
-   "title": "Welcome to the Space Jam: How Michael Jordan and Bugs Bunny's magic resonates 30 years later",
-   "link": "https://www.espn.com/nba/story/_/id/50463999/space-jam-30-year-anniversary-influence",
-   "published": "Sat, 14 Nov 2026 02:11:27 EST",
-   "summary": "Three decades after its release, the basketball-meets-Looney Tunes adventure remains a pop culture staple."
-  },
-  {
-   "source": "ESPN",
-   "title": "Early trade deadline questions: Knicks, Thunder and other contenders' next steps",
-   "link": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
-   "published": "Thu, 12 Nov 2026 10:07:13 EST",
-   "summary": "With the NBA trade deadline looming, which title contenders should -- and could -- make a deal to improve?"
-  },
-  {
-   "source": "ESPN",
-   "title": "19 teams with major roster decisions",
-   "link": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
-   "published": "Thu, 12 Nov 2026 10:07:13 EST",
-   "summary": "With tax and apron penalties lurking, we examine 19 teams barreling toward core-altering decisions."
-  },
-  {
-   "source": "ESPN",
-   "title": "Inside the group chat where Black NBA coaches counsel -- and trash-talk -- each other",
-   "link": "https://www.espn.com/nba/story/_/id/50444546/nba-black-coaches-group-chat-brown-bickerstaff",
-   "published": "Fri, 13 Nov 2026 21:36:05 EST",
-   "summary": "On the court, they're rivals. Off the court, they've found support among the only men who truly understand what they're going through: each other."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
-   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "published": "Fri, 13 Nov 2026 21:36:36 EST",
-   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
-  },
-  {
-   "source": "ESPN",
-   "title": "Updated NBA championship and MVP odds: Lakers' odds shorten, Doncic in front",
-   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
-   "published": "Wed, 11 Nov 2026 15:34:47 EST",
-   "summary": "The Spurs remain the favorite to win the NBA championship, but the Celtics and Lakers are both making a push."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA awards watch: Is Yaxel the bet for Rookie of the Year? Luka or Wemby for MVP?",
-   "link": "https://www.espn.com/espn/betting/story/_/id/50453889/nba-awards-watch-mvp-rookie-year-2026-2027",
-   "published": "Wed, 11 Nov 2026 15:34:47 EST",
-   "summary": "Andre Snellings looks at the updated odds, and explains which bets to make and which to avoid."
-  },
-  {
-   "source": "ESPN",
-   "title": "Despite slump, Knicks' Bridges is a fantasy basketball trade target",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50473517/fantasy-basketball-nba-analytics-consistency-bridges",
-   "published": "Sat, 14 Nov 2026 15:57:19 EST",
-   "summary": "Andre explains why Mikal Bridges continues to hold fantasy value despite the poor start to his season."
-  },
-  {
-   "source": "ESPN",
-   "title": "Adds and NBA bets for Saturday: Fears, Bey among top plays",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50480388/fantasy-basketball-tips-nba-betting-picks-today",
-   "published": "Sat, 14 Nov 2026 15:57:19 EST",
-   "summary": "Jim McCormick breaks down Saturday's NBA slate, highlighting the fantasy streamers to add and bets to make."
   }
  ],
  "games": {
@@ -15833,6 +15693,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 2.6
+  "run_seconds": 3.3
  }
 }
