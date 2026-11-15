@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:50:21.888267Z",
+ "updated": "2026-11-15T00:00:32.499184Z",
  "week": 4,
  "cats": [
   "PTS",
@@ -3147,7 +3147,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3524,41 +3524,6 @@
     }
    },
    {
-    "name": "Paul Reed",
-    "pos": "C",
-    "elig": [
-     "PF",
-     "C"
-    ],
-    "slot": "C",
-    "injury": "ACTIVE",
-    "team": "DET",
-    "avg": {
-     "PTS": 9.333333333333334,
-     "REB": 7.833333333333333,
-     "AST": 2.3333333333333335,
-     "STL": 0.8333333333333334,
-     "BLK": 0.8333333333333334,
-     "3PM": 0.0,
-     "FG%": 0.48076923,
-     "FT%": 0.5,
-     "TO": 1.8333333333333333,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 7.428571428571429,
-     "REB": 4.396825396825397,
-     "AST": 1.2063492063492063,
-     "STL": 0.9047619047619048,
-     "BLK": 0.9047619047619048,
-     "3PM": 0.19047619047619047,
-     "FG%": 0.603,
-     "FT%": 0.672,
-     "TO": 0.9047619047619048,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Walter Clayton Jr.",
     "pos": "SG",
     "elig": [
@@ -3592,6 +3557,29 @@
      "TO": 2.0985915492957745,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Meleek Thomas",
+    "pos": "SG",
+    "elig": [
+     "SG"
+    ],
+    "slot": "G",
+    "injury": "ACTIVE",
+    "team": "CLE",
+    "avg": {
+     "PTS": 13.0,
+     "REB": 2.375,
+     "AST": 1.625,
+     "STL": 1.25,
+     "BLK": 0.375,
+     "3PM": 2.75,
+     "FG%": 0.47058824,
+     "FT%": 1.0,
+     "TO": 0.875,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "Akumpo": [
@@ -6626,6 +6614,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-14T23:59:48.579000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-14T23:59:48.579000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Meleek Thomas"
+  },
+  {
    "date": "2026-11-14T17:54:04.541000",
    "team": "Real Men Eat Ass(ouad)",
    "action": "DROPPED",
@@ -6906,18 +6906,6 @@
    "team": "Wembelieve I can fly",
    "action": "DROPPED",
    "player": "Mitchell Robinson"
-  },
-  {
-   "date": "2026-11-11T19:48:10.269000",
-   "team": "Khadracadabra",
-   "action": "DROPPED",
-   "player": "Isaiah Collier"
-  },
-  {
-   "date": "2026-11-11T19:48:10.269000",
-   "team": "Khadracadabra",
-   "action": "FA ADDED",
-   "player": "De'Anthony Melton"
   }
  ],
  "schedule": {
@@ -7421,6 +7409,41 @@
     "FG%": 0.657,
     "FT%": 0.615,
     "TO": 1.606060606060606,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Paul Reed",
+   "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.333333333333334,
+    "REB": 7.833333333333333,
+    "AST": 2.3333333333333335,
+    "STL": 0.8333333333333334,
+    "BLK": 0.8333333333333334,
+    "3PM": 0.0,
+    "FG%": 0.48076923,
+    "FT%": 0.5,
+    "TO": 1.8333333333333333,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.428571428571429,
+    "REB": 4.396825396825397,
+    "AST": 1.2063492063492063,
+    "STL": 0.9047619047619048,
+    "BLK": 0.9047619047619048,
+    "3PM": 0.19047619047619047,
+    "FG%": 0.603,
+    "FT%": 0.672,
+    "TO": 0.9047619047619048,
     "_src": "2027_projected"
    }
   },
@@ -8084,29 +8107,6 @@
     "TO": 1.106060606060606,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Meleek Thomas",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.0,
-    "REB": 2.375,
-    "AST": 1.625,
-    "STL": 1.25,
-    "BLK": 0.375,
-    "3PM": 2.75,
-    "FG%": 0.47058824,
-    "FT%": 1.0,
-    "TO": 0.875,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Anfernee Simons",
@@ -13645,6 +13645,18 @@
  },
  "log": [
   {
+   "date": "2026-11-14T23:59:48.579000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-14T23:59:48.579000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Meleek Thomas"
+  },
+  {
    "date": "2026-11-14T17:54:04.541000",
    "team": "Real Men Eat Ass(ouad)",
    "action": "DROPPED",
@@ -15686,6 +15698,6 @@
   "picked_total": 9297.0,
   "direct_total": 9297.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.9
  }
 }
