@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:10:27.786591Z",
+ "updated": "2026-11-16T23:20:31.753650Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2563,7 +2563,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -7514,16 +7514,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.375,
-    "FT%": 1.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "PTS": 13.666666666666666,
+    "REB": 4.666666666666667,
+    "AST": 3.3333333333333335,
+    "STL": 1.0,
+    "BLK": 0.6666666666666666,
+    "3PM": 1.0,
+    "FG%": 0.38461538,
+    "FT%": 0.8,
+    "TO": 1.3333333333333333,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 20.6,
@@ -7545,7 +7545,7 @@
     "C"
    ],
    "team": "MEM",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 8.2,
@@ -8866,16 +8866,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "PTS": 6.4,
+    "REB": 2.2,
+    "AST": 2.2,
+    "STL": 1.0,
+    "BLK": 0.2,
+    "3PM": 0.4,
+    "FG%": 0.42307692,
+    "FT%": 0.8,
+    "TO": 2.0,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 12.444444444444445,
@@ -9268,16 +9268,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 6.333333333333333,
+    "REB": 2.3333333333333335,
+    "AST": 1.3333333333333333,
+    "STL": 2.3333333333333335,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.5,
+    "3PM": 1.0,
+    "FG%": 0.4,
     "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 1.0,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -11405,16 +11405,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
+    "PTS": 7.25,
+    "REB": 7.5,
+    "AST": 1.25,
+    "STL": 0.5,
+    "BLK": 0.5,
+    "3PM": 0.5,
+    "FG%": 0.6,
+    "FT%": 1.0,
     "TO": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {}
   },
@@ -11531,16 +11531,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "PTS": 7.333333333333333,
+    "REB": 1.6666666666666667,
+    "AST": 1.0,
+    "STL": 0.3333333333333333,
+    "BLK": 0.3333333333333333,
+    "3PM": 1.0,
+    "FG%": 0.36842105,
+    "FT%": 0.625,
+    "TO": 0.6666666666666666,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 10.75,
@@ -12415,16 +12415,16 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 4.0,
+    "REB": 1.0,
+    "AST": 0.5,
+    "STL": 0.5,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 1.0,
+    "FG%": 0.57142857,
     "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 0.5,
+    "_src": "2027_last_30"
    },
    "proj": {}
   },
@@ -12521,16 +12521,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 5.25,
+    "REB": 2.0,
+    "AST": 1.25,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
+    "3PM": 0.75,
+    "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "TO": 1.0,
+    "_src": "2027_last_30"
    },
    "proj": {}
   },
@@ -12705,16 +12705,16 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
+    "PTS": 3.1666666666666665,
+    "REB": 5.166666666666667,
+    "AST": 1.6666666666666667,
+    "STL": 0.8333333333333334,
+    "BLK": 0.6666666666666666,
     "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "_src": "2027_last_15"
+    "FG%": 0.64285714,
+    "FT%": 0.5,
+    "TO": 0.8333333333333334,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 6.629032258064516,
@@ -13379,6 +13379,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Zach Edey: Returning Monday",
+   "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
+   "published": "Mon, 16 Nov 2026 3:15:00 PM PST",
+   "summary": "Edey (ankle) is available for Monday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Pelle Larsson: Out sick once again",
    "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
    "published": "Mon, 16 Nov 2026 2:49:00 PM PST",
@@ -13404,13 +13411,6 @@
    "link": "https://www.rotowire.com//basketball/player/duncan-robinson-4470",
    "published": "Mon, 16 Nov 2026 2:37:00 PM PST",
    "summary": "Robinson (quadriceps) has been ruled out for Tuesday's game against the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Peyton Watson: Will play Monday",
-   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
-   "published": "Mon, 16 Nov 2026 2:35:00 PM PST",
-   "summary": "Watson (abdomen) will play in Monday's game against the Bulls, Danny Cunningham of Sports Radio 92.3 The Fan Cleveland reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16109,6 +16109,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 5.4
+  "run_seconds": 4.8
  }
 }
