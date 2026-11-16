@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:50:22.544702Z",
+ "updated": "2026-11-16T09:00:30.920351Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2219,25 +2219,25 @@
     }
    },
    {
-    "name": "Sandro Mamukelashvili",
-    "pos": "C",
+    "name": "Cam Spencer",
+    "pos": "SG",
     "elig": [
-     "PF",
-     "C"
+     "PG",
+     "SG"
     ],
     "slot": "UT",
     "injury": "ACTIVE",
-    "team": "LAL",
+    "team": "MEM",
     "avg": {
      "PTS": 11.25,
-     "REB": 3.625,
-     "AST": 1.875,
-     "STL": 0.75,
-     "BLK": 0.375,
+     "REB": 2.625,
+     "AST": 6.125,
+     "STL": 0.875,
+     "BLK": 0.125,
      "3PM": 2.0,
-     "FG%": 0.47058824,
-     "FT%": 0.90909091,
-     "TO": 1.0,
+     "FG%": 0.57692308,
+     "FT%": 1.0,
+     "TO": 1.875,
      "_src": "2027_last_15"
     },
     "proj": {}
@@ -6804,6 +6804,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-16T08:55:44.420000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Sandro Mamukelashvili"
+  },
+  {
+   "date": "2026-11-16T08:55:44.420000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Cam Spencer"
+  },
+  {
    "date": "2026-11-16T08:06:43.370000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -8130,30 +8142,6 @@
    }
   },
   {
-   "name": "Cam Spencer",
-   "pos": "SG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "MEM",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.25,
-    "REB": 2.625,
-    "AST": 6.125,
-    "STL": 0.875,
-    "BLK": 0.125,
-    "3PM": 2.0,
-    "FG%": 0.57692308,
-    "FT%": 1.0,
-    "TO": 1.875,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Alex Caruso",
    "pos": "SG",
    "elig": [
@@ -8429,6 +8417,30 @@
     "TO": 1.0,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Sandro Mamukelashvili",
+   "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "LAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.25,
+    "REB": 3.625,
+    "AST": 1.875,
+    "STL": 0.75,
+    "BLK": 0.375,
+    "3PM": 2.0,
+    "FG%": 0.47058824,
+    "FT%": 0.90909091,
+    "TO": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Mitchell Robinson",
@@ -13894,6 +13906,18 @@
  },
  "log": [
   {
+   "date": "2026-11-16T08:55:44.420000",
+   "team": "Rubio Bzeit ",
+   "action": "DROPPED",
+   "player": "Sandro Mamukelashvili"
+  },
+  {
+   "date": "2026-11-16T08:55:44.420000",
+   "team": "Rubio Bzeit ",
+   "action": "FA ADDED",
+   "player": "Cam Spencer"
+  },
+  {
    "date": "2026-11-16T08:06:43.370000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -16097,6 +16121,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.3
  }
 }
