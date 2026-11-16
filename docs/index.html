@@ -616,7 +616,7 @@ function renderBuyLow(me){
 }
 
 let TA={a:null,team:null,give:new Set(),get:new Set()};
-const prof=(players,n=10)=>{const ps=players.filter(p=>p.slot!=='IR'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,n),o={};D.cats.forEach(c=>o[c]=ps.reduce((s,p)=>s+z(p,c),0));return o};
+const prof=players=>{const ps=players.filter(p=>p.slot!=='IR'&&hasStats(p)),o={};D.cats.forEach(c=>o[c]=ps.length?10*ps.reduce((s,p)=>s+z(p,c),0)/ps.length:0);return o}; // whole-roster average, shown per 10 players
 function renderAnalyzer(me0){
   const allT=D.power.map(p=>p.team);
   if(!TA.a||!allT.includes(TA.a))TA.a=me0;
@@ -652,9 +652,9 @@ function renderAnalyzer(me0){
     const spots=get.length-give.length;
     res=`<div class="verdict">${v}<br><span class="mut">Category change for ${esc(me)} (non-punted): ${myD>0?'+':''}${myD.toFixed(1)} · theirs: ${thD>0?'+':''}${thD.toFixed(1)} · name value gap: ${gap>0?'+':''}${gap.toFixed(1)} in their favor when positive.</span><br>${spots>0?`You would need to drop ${spots} player${spots>1?'s':''} to make room.`:spots<0?`You would free ${-spots} roster spot${spots<-1?'s':''}.`:'Roster sizes stay the same.'}</div>
     <table><tr><th>Cat</th><th class=n>${esc(me)}</th><th class=n>Rank</th><th class=n>${esc(TA.team)}</th><th class=n>Rank</th></tr>${rows}</table>
-    <p class="note">Team strength = sum of z-scores of each team's best 10 players. Rank is among all 10 teams. Positions and minutes are not checked.</p>`;
+    <p class="note">Team strength = average z-score of every player on the roster (IR excluded), shown per 10 players so the numbers stay readable. Rank is among all 10 teams. Positions and minutes are not checked.</p>`;
   }
-  $('analyzer').innerHTML=`<label class="mut">Team A: <select id="ta_a">${allT.map(t=>`<option ${t===me?'selected':''}>${esc(t)}</option>`).join('')}</select></label> &nbsp; <label class="mut">Team B: <select id="ta_t">${teams.map(t=>`<option ${t===TA.team?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+  $('analyzer').innerHTML=`<label class="mut">Team A: <select id="ta_a">${allT.map(t=>`<option value="${esc(t)}" ${t===me?'selected':''}>${esc(t)}</option>`).join('')}</select></label> &nbsp; <label class="mut">Team B: <select id="ta_t">${teams.map(t=>`<option value="${esc(t)}" ${t===TA.team?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
   <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">${esc(me)} gives</h3><div class="picks">${list(mine,TA.give,'give')}</div></div><div><h3 style="margin-top:0">${esc(TA.team)} gives</h3><div class="picks">${list(theirs,TA.get,'get')}</div></div></div>
   <div style="margin-top:12px">${res}</div>`;
   $('ta_a').onchange=e=>{TA.a=e.target.value;TA.give=new Set();TA.get=new Set();renderAnalyzer(me0)};
@@ -685,7 +685,7 @@ function lineupFit(players){
   const empty=LSLOTS.filter((s,k)=>owner[k]===null);
   return{filled:LSLOTS.length-empty.length,empty,bench:ps.filter((p,i)=>!used.has(i)).map(p=>p.name),slots:LSLOTS.map((s,k)=>({s,p:owner[k]===null?null:ps[owner[k]]}))};
 }
-const labProf=(players,n=10)=>{const ps=players.filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,n),o={};D.cats.forEach(c=>o[c]=ps.reduce((s,p)=>s+z(p,c),0));return o};
+const labProf=players=>{const ps=players.filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)),o={};D.cats.forEach(c=>o[c]=ps.length?10*ps.reduce((s,p)=>s+z(p,c),0)/ps.length:0);return o}; // whole-roster average, shown per 10 players
 let TL=[];try{TL=JSON.parse(lsGet('tradeplan','[]'))||[]}catch(e){TL=[]}
 let LD={a:null,team:null,give:new Set(),get:new Set(),focus:null};
 const saveTL=()=>lsSet('tradeplan',JSON.stringify(TL));
@@ -733,7 +733,7 @@ function renderLab(me){
     out+=`<table><tr><th>#</th><th>Team A</th><th>Team B</th><th>A gives</th><th>A gets</th><th></th></tr>${planRows}</table>
     <p style="margin:8px 0"><button id="lclear">Clear plan</button></p>
     <h3>Results for all teams in the plan</h3><table><tr><th>Team</th><th class=n>Win chance</th><th class=n>Roster</th><th>Lineup</th></tr>${part}</table>
-    <h3>Look closer at:</h3><label class="mut"><select id="lab_f">${involved.map(t=>`<option ${t===F?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+    <h3>Look closer at:</h3><label class="mut"><select id="lab_f">${involved.map(t=>`<option value="${esc(t)}" ${t===F?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
     <div class="verdict">${v}<br><span class="mut">Avg chance to beat a random opponent: ${Math.round(w0*100)}% → <b>${Math.round(w1*100)}%</b>. Lineup slots filled: ${f0.filled} → <b class="${f1.filled<10?'bad':'good'}">${f1.filled}</b> of 10${f1.empty.length?`. Empty after the plan: <b class="bad">${f1.empty.join(', ')}</b>.`:'.'}${f1.bench.length?` Bench: ${f1.bench.map(esc).join(', ')}.`:''}</span></div>
     ${cur.notes.length?`<p class="note bad">${cur.notes.join('<br>')}</p>`:''}
     <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">Categories</h3><table><tr><th>Cat</th><th class=n>Change</th><th class=n>Rank</th></tr>${rows}</table></div>
@@ -742,11 +742,11 @@ function renderLab(me){
   const give=aNow.filter(p=>LD.give.has(p.name)),get=bNow.filter(p=>LD.get.has(p.name));
   const ok=give.length&&get.length;
   el.innerHTML=out+`<h3>Add a trade</h3>
-  <div class="grid"><label class="mut">Team A: <select id="lab_a">${all.map(t=>`<option ${t===A?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
-  <label class="mut">Team B: <select id="lab_t">${bTeams.map(t=>`<option ${t===B?'selected':''}>${esc(t)}</option>`).join('')}</select></label></div>
+  <div class="grid"><label class="mut">Team A: <select id="lab_a">${all.map(t=>`<option value="${esc(t)}" ${t===A?'selected':''}>${esc(t)}</option>`).join('')}</select></label>
+  <label class="mut">Team B: <select id="lab_t">${bTeams.map(t=>`<option value="${esc(t)}" ${t===B?'selected':''}>${esc(t)}</option>`).join('')}</select></label></div>
   <div class="grid" style="margin-top:10px"><div><h3 style="margin-top:0">${esc(A)} gives</h3><div class="picks">${pick(aNow,LD.give,'give')}</div></div><div><h3 style="margin-top:0">${esc(B)} gives</h3><div class="picks">${pick(bNow,LD.get,'get')}</div></div></div>
   <p style="margin:10px 0"><button id="ladd" ${ok?'':'disabled'}>Add to plan</button> <span class="mut">${ok?'':'Tick at least one player on each side.'}</span></p>
-  <p class="note">Positions are ESPN eligibility when the data has it, otherwise your confirmed list or the main position. Team strength = sum of z-scores of each team's best 10 healthy players (IR and OUT excluded). Win chance is against a random opponent. The lineup check uses PG, SG, SF, PF, C, G, F and 3 UT.</p>`;
+  <p class="note">Positions are ESPN eligibility when the data has it, otherwise your confirmed list or the main position. Team strength = average z-score of every healthy player on the roster (IR and OUT excluded), shown per 10 players. Win chance is against a random opponent. The lineup check uses PG, SG, SF, PF, C, G, F and 3 UT.</p>`;
   $('lab_a').onchange=e=>{LD.a=e.target.value;LD.give=new Set();LD.get=new Set();renderLab(me)};
   $('lab_t').onchange=e=>{LD.team=e.target.value;LD.get=new Set();renderLab(me)};
   const ff=$('lab_f');if(ff)ff.onchange=e=>{LD.focus=e.target.value;renderLab(me)};
@@ -1194,10 +1194,10 @@ function seasonVals(){
 function rosterVals(){
   const vals={};D.cats.forEach(c=>{vals[c]={}});
   Object.keys(D.rosters).forEach(t=>{
-    const ps=(D.rosters[t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p)).sort((a,b)=>totZ(b)-totZ(a)).slice(0,10);
+    const ps=(D.rosters[t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
     D.cats.forEach(c=>{
       const xs=ps.map(p=>pv(p)[c]).filter(x=>x!=null);if(!xs.length)return;
-      vals[c][t]=pct(c)?xs.reduce((s,x)=>s+(x>1?x/100:x),0)/xs.length:xs.reduce((s,x)=>s+x,0)*GPW;
+      vals[c][t]=pct(c)?xs.reduce((s,x)=>s+(x>1?x/100:x),0)/xs.length:xs.reduce((s,x)=>s+x,0)/xs.length*10*GPW;
     });
   });
   return vals;
@@ -1211,9 +1211,9 @@ window.applyBasis=function(){
   const r=rankTables(vals);D.category_table=r.table;D.power=r.power;D.basis=mode;
 };
 function basisNotes(){
-  const b=D.basis,bt=b==='roster'?'each team’s current best 10 players':b==='season'?'finished weeks':'season totals';
+  const b=D.basis,bt=b==='roster'?'the whole current roster of each team':b==='season'?'finished weeks':'season totals';
   const set=(el,t)=>{if(el)el.textContent=t};
-  set($('cats')&&$('cats').previousElementSibling,b==='roster'?'Projected weekly output of each team’s current best 10 players (per-game stats × 3.5 games). Green is better.':'Per-week average, green is better.');
+  set($('cats')&&$('cats').previousElementSibling,b==='roster'?'Projected weekly output from the whole current roster of each team (average player per-game stats, scaled to 10 players × 3.5 games). Green is better.':'Per-week average, green is better.');
   set($('dna')&&$('dna').querySelector('.hint'),`Where each team ranks in every category, based on ${bt}. Farther from the center is better; the dashed ring is the league middle. Punted categories are dimmed.`);
   set($('trophy')&&$('trophy').querySelector('.hint'),`Who leads and trails each category (based on ${bt}), plus season superlatives from finished weeks.`);
   document.querySelectorAll('.seg button').forEach(x=>x.classList.toggle('on',x.dataset.b===(b==='season'?'season':'roster')));
