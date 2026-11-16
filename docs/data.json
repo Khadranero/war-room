@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:50:26.423515Z",
+ "updated": "2026-11-16T23:00:32.778976Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2289,16 +2289,16 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 21.75,
-     "REB": 4.5,
-     "AST": 9.5,
-     "STL": 1.25,
-     "BLK": 0.75,
-     "3PM": 2.5,
-     "FG%": 0.51612903,
-     "FT%": 0.86666667,
-     "TO": 2.25,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.47058824,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 19.15625,
@@ -2355,7 +2355,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -2528,7 +2528,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -2563,7 +2563,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -2729,6 +2729,41 @@
      "TO": 1.3968253968253967,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "De'Anthony Melton",
+    "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "GSW",
+    "avg": {
+     "PTS": 9.571428571428571,
+     "REB": 4.571428571428571,
+     "AST": 2.5714285714285716,
+     "STL": 1.2857142857142858,
+     "BLK": 0.5714285714285714,
+     "3PM": 2.2857142857142856,
+     "FG%": 0.35087719,
+     "FT%": 0.73333333,
+     "TO": 1.4285714285714286,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 12.153846153846153,
+     "REB": 3.2,
+     "AST": 2.6,
+     "STL": 1.6,
+     "BLK": 0.4,
+     "3PM": 1.4923076923076923,
+     "FG%": 0.406,
+     "FT%": 0.824,
+     "TO": 1.8,
+     "_src": "2027_projected"
+    }
    }
   ],
   "Team Batrouni": [
@@ -2847,16 +2882,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3877,16 +3912,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -4189,16 +4224,16 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 15.75,
-     "REB": 2.5,
-     "AST": 5.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.54166667,
-     "FT%": 0.83333333,
-     "TO": 1.25,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.42857143,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.6,
@@ -4399,16 +4434,16 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 16.25,
-     "REB": 5.0,
-     "AST": 2.0,
-     "STL": 0.25,
-     "BLK": 1.25,
-     "3PM": 1.25,
-     "FG%": 0.5,
-     "FT%": 0.76190476,
-     "TO": 3.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.4,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -4931,16 +4966,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -5279,16 +5314,16 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 33.25,
-     "REB": 4.75,
-     "AST": 3.5,
-     "STL": 2.0,
-     "BLK": 0.75,
-     "3PM": 4.5,
-     "FG%": 0.48076923,
-     "FT%": 0.75,
-     "TO": 3.5,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.55882353,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -6649,16 +6684,16 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 12.0,
-     "REB": 9.333333333333334,
-     "AST": 1.3333333333333333,
-     "STL": 0.6666666666666666,
-     "BLK": 3.0,
-     "3PM": 0.6666666666666666,
-     "FG%": 0.40740741,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.3,
      "FT%": 1.0,
-     "TO": 1.6666666666666667,
-     "_src": "2027_last_30"
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -6769,6 +6804,12 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-16T22:52:09.999000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "De'Anthony Melton"
+  },
   {
    "date": "2026-11-16T14:44:44.976000",
    "team": "Momo in Six",
@@ -7026,30 +7067,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Jakob Poeltl"
-  },
-  {
-   "date": "2026-11-14T00:11:50.581000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Naji Marshall"
-  },
-  {
-   "date": "2026-11-14T00:11:50.581000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Draymond Green"
-  },
-  {
-   "date": "2026-11-13T23:13:01.694000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Collin Murray-Boyles"
-  },
-  {
-   "date": "2026-11-13T23:13:01.694000",
-   "team": "Rubio Bzeit ",
-   "action": "FA ADDED",
-   "player": "Keegan Murray"
   }
  ],
  "schedule": {
@@ -8177,41 +8194,6 @@
     "FG%": 0.649,
     "FT%": 0.462,
     "TO": 1.5063291139240507,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "De'Anthony Melton",
-   "pos": "PG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.571428571428571,
-    "REB": 4.571428571428571,
-    "AST": 2.5714285714285716,
-    "STL": 1.2857142857142858,
-    "BLK": 0.5714285714285714,
-    "3PM": 2.2857142857142856,
-    "FG%": 0.35087719,
-    "FT%": 0.73333333,
-    "TO": 1.4285714285714286,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.153846153846153,
-    "REB": 3.2,
-    "AST": 2.6,
-    "STL": 1.6,
-    "BLK": 0.4,
-    "3PM": 1.4923076923076923,
-    "FG%": 0.406,
-    "FT%": 0.824,
-    "TO": 1.8,
     "_src": "2027_projected"
    }
   },
@@ -11927,7 +11909,7 @@
     "PF"
    ],
    "team": "DET",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 4.5,
@@ -13393,6 +13375,41 @@
     "_src": "2027_last_15"
    },
    "proj": {}
+  },
+  {
+   "name": "Terance Mann",
+   "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "BKN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 1.3333333333333333,
+    "REB": 1.3333333333333333,
+    "AST": 1.3333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 0.0,
+    "3PM": 0.3333333333333333,
+    "FG%": 0.1875,
+    "FT%": 0.0,
+    "TO": 0.16666666666666666,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.323943661971831,
+    "REB": 3.0985915492957745,
+    "AST": 2.704225352112676,
+    "STL": 0.704225352112676,
+    "BLK": 0.19718309859154928,
+    "3PM": 0.8732394366197183,
+    "FG%": 0.468,
+    "FT%": 0.778,
+    "TO": 1.0,
+    "_src": "2027_projected"
+   }
   }
  ],
  "news": [
@@ -13402,6 +13419,13 @@
    "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
    "published": "Mon, 16 Nov 2026 2:49:00 PM PST",
    "summary": "Larsson won't play in Monday's game against the Rockets due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jaylon Tyson: Officially out Monday",
+   "link": "https://www.rotowire.com//basketball/player/jaylon-tyson-6277",
+   "published": "Mon, 16 Nov 2026 2:39:00 PM PST",
+   "summary": "Tyson (ankle) has been ruled out for Monday's game against Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
@@ -13423,13 +13447,6 @@
    "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
    "published": "Mon, 16 Nov 2026 2:35:00 PM PST",
    "summary": "Watson (abdomen) will play in Monday's game against the Bulls, Danny Cunningham of Sports Radio 92.3 The Fan Cleveland reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "De'Aaron Fox: Off injury report for Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/deaaron-fox-4116",
-   "published": "Mon, 16 Nov 2026 2:21:00 PM PST",
-   "summary": "Fox (hip) is not listed on the injury report for Tuesday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13888,6 +13905,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-16T22:52:09.999000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "De'Anthony Melton"
+  },
   {
    "date": "2026-11-16T14:44:44.976000",
    "team": "Momo in Six",
@@ -16122,6 +16145,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 2.6
  }
 }
