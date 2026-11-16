@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:40:25.442505Z",
+ "updated": "2026-11-16T22:50:26.423515Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2250,7 +2250,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2289,16 +2289,16 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.47058824,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 21.75,
+     "REB": 4.5,
+     "AST": 9.5,
+     "STL": 1.25,
+     "BLK": 0.75,
+     "3PM": 2.5,
+     "FG%": 0.51612903,
+     "FT%": 0.86666667,
+     "TO": 2.25,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 19.15625,
@@ -2389,7 +2389,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -2424,7 +2424,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2493,7 +2493,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "IR",
     "injury": "OUT",
     "team": "DET",
     "avg": {
@@ -2702,7 +2702,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -2847,16 +2847,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.35,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 19.5,
+     "REB": 7.5,
+     "AST": 1.5,
+     "STL": 3.5,
+     "BLK": 0.5,
+     "3PM": 2.0,
+     "FG%": 0.32432432,
+     "FT%": 1.0,
+     "TO": 2.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3877,16 +3877,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 24.5,
+     "REB": 6.5,
+     "AST": 7.5,
+     "STL": 1.0,
      "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.54545455,
-     "FT%": 0.5,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "3PM": 1.5,
+     "FG%": 0.69565217,
+     "FT%": 0.7,
+     "TO": 4.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 23.4,
@@ -4189,16 +4189,16 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 15.75,
+     "REB": 2.5,
+     "AST": 5.5,
+     "STL": 1.0,
      "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.42857143,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "3PM": 1.5,
+     "FG%": 0.54166667,
+     "FT%": 0.83333333,
+     "TO": 1.25,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 21.6,
@@ -4399,16 +4399,16 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.4,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 16.25,
+     "REB": 5.0,
+     "AST": 2.0,
+     "STL": 0.25,
+     "BLK": 1.25,
+     "3PM": 1.25,
+     "FG%": 0.5,
+     "FT%": 0.76190476,
+     "TO": 3.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -4931,16 +4931,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
+     "PTS": 13.0,
+     "REB": 7.5,
+     "AST": 2.0,
+     "STL": 1.0,
+     "BLK": 1.0,
      "3PM": 0.0,
-     "FG%": 0.5,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "FG%": 0.58823529,
+     "FT%": 0.85714286,
+     "TO": 1.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -5279,16 +5279,16 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.55882353,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 33.25,
+     "REB": 4.75,
+     "AST": 3.5,
+     "STL": 2.0,
+     "BLK": 0.75,
+     "3PM": 4.5,
+     "FG%": 0.48076923,
+     "FT%": 0.75,
+     "TO": 3.5,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -6649,16 +6649,16 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.3,
+     "PTS": 12.0,
+     "REB": 9.333333333333334,
+     "AST": 1.3333333333333333,
+     "STL": 0.6666666666666666,
+     "BLK": 3.0,
+     "3PM": 0.6666666666666666,
+     "FG%": 0.40740741,
      "FT%": 1.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "TO": 1.6666666666666667,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -8859,7 +8859,7 @@
     "SF"
    ],
    "team": "MIA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 10.8,
@@ -11193,7 +11193,7 @@
     "PF"
    ],
    "team": "MIA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 1.6666666666666667,
@@ -13398,6 +13398,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Pelle Larsson: Out sick once again",
+   "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
+   "published": "Mon, 16 Nov 2026 2:49:00 PM PST",
+   "summary": "Larsson won't play in Monday's game against the Rockets due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Smith: Will play Monday",
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Mon, 16 Nov 2026 2:38:00 PM PST",
@@ -13423,13 +13430,6 @@
    "link": "https://www.rotowire.com//basketball/player/deaaron-fox-4116",
    "published": "Mon, 16 Nov 2026 2:21:00 PM PST",
    "summary": "Fox (hip) is not listed on the injury report for Tuesday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Neemias Queta: Sitting out Monday",
-   "link": "https://www.rotowire.com//basketball/player/neemias-queta-5333",
-   "published": "Mon, 16 Nov 2026 2:10:00 PM PST",
-   "summary": "Queta (rest) won't play in Monday's game against the Magic, Taylor Snow of the Celtics' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16122,6 +16122,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 4.5
  }
 }
