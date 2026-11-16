@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:00:33.914068Z",
+ "updated": "2026-11-16T10:20:24.565658Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3838,7 +3838,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -3873,7 +3873,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -4152,7 +4152,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -4186,7 +4186,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -4255,7 +4255,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -4284,36 +4284,37 @@
     }
    },
    {
-    "name": "Jamal Shead",
-    "pos": "PG",
+    "name": "Draymond Green",
+    "pos": "PF",
     "elig": [
-     "PG"
+     "PF",
+     "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
-    "team": "TOR",
+    "team": "GSW",
     "avg": {
-     "PTS": 9.375,
-     "REB": 2.25,
-     "AST": 7.5,
-     "STL": 1.375,
-     "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.3880597,
-     "FT%": 0.78571429,
-     "TO": 2.0,
+     "PTS": 3.5,
+     "REB": 4.333333333333333,
+     "AST": 7.0,
+     "STL": 1.0,
+     "BLK": 0.6666666666666666,
+     "3PM": 0.16666666666666666,
+     "FG%": 0.42857143,
+     "FT%": 0.5,
+     "TO": 2.1666666666666665,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 7.074074074074074,
-     "REB": 1.8024691358024691,
-     "AST": 5.506172839506172,
-     "STL": 1.0,
-     "BLK": 0.19753086419753085,
-     "3PM": 1.0617283950617284,
-     "FG%": 0.373,
-     "FT%": 0.783,
-     "TO": 1.5061728395061729,
+     "PTS": 8.6875,
+     "REB": 6.09375,
+     "AST": 5.703125,
+     "STL": 1.09375,
+     "BLK": 0.796875,
+     "3PM": 1.25,
+     "FG%": 0.439,
+     "FT%": 0.702,
+     "TO": 2.59375,
      "_src": "2027_projected"
     }
    }
@@ -6804,6 +6805,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-16T10:04:10.689000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Jamal Shead"
+  },
+  {
+   "date": "2026-11-16T10:04:10.689000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Draymond Green"
+  },
+  {
    "date": "2026-11-16T08:55:44.420000",
    "team": "Rubio Bzeit ",
    "action": "DROPPED",
@@ -7945,41 +7958,6 @@
    }
   },
   {
-   "name": "Draymond Green",
-   "pos": "PF",
-   "elig": [
-    "PF",
-    "C"
-   ],
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 3.5,
-    "REB": 4.333333333333333,
-    "AST": 7.0,
-    "STL": 1.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 0.16666666666666666,
-    "FG%": 0.42857143,
-    "FT%": 0.5,
-    "TO": 2.1666666666666665,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.6875,
-    "REB": 6.09375,
-    "AST": 5.703125,
-    "STL": 1.09375,
-    "BLK": 0.796875,
-    "3PM": 1.25,
-    "FG%": 0.439,
-    "FT%": 0.702,
-    "TO": 2.59375,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Aday Mara",
    "pos": "C",
    "elig": [
@@ -9004,6 +8982,40 @@
     "FG%": 0.458,
     "FT%": 0.755,
     "TO": 1.1044776119402986,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Jamal Shead",
+   "pos": "PG",
+   "elig": [
+    "PG"
+   ],
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.375,
+    "REB": 2.25,
+    "AST": 7.5,
+    "STL": 1.375,
+    "BLK": 0.0,
+    "3PM": 1.5,
+    "FG%": 0.3880597,
+    "FT%": 0.78571429,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.074074074074074,
+    "REB": 1.8024691358024691,
+    "AST": 5.506172839506172,
+    "STL": 1.0,
+    "BLK": 0.19753086419753085,
+    "3PM": 1.0617283950617284,
+    "FG%": 0.373,
+    "FT%": 0.783,
+    "TO": 1.5061728395061729,
     "_src": "2027_projected"
    }
   },
@@ -13906,6 +13918,18 @@
  },
  "log": [
   {
+   "date": "2026-11-16T10:04:10.689000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Jamal Shead"
+  },
+  {
+   "date": "2026-11-16T10:04:10.689000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Draymond Green"
+  },
+  {
    "date": "2026-11-16T08:55:44.420000",
    "team": "Rubio Bzeit ",
    "action": "DROPPED",
@@ -16121,6 +16145,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.7
+  "run_seconds": 3.2
  }
 }
