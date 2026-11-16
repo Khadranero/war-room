@@ -188,7 +188,7 @@ kbd{background:var(--in);border:1px solid var(--ln);border-radius:5px;padding:0 
 
 <section class="panel" id="p-trades">
 <div class="grid">
-<div class="card"><h2>Trade partners</h2><p class="hint">Teams strong where you are weak, and weak where you are strong.</p><div id="trade"></div></div>
+<div class="card"><h2>Trade partners</h2><p class="hint">Every team: what they can give you, what they need from you, and balanced trades that fix your weak categories. Team strength counts the whole roster.</p><div id="trade"></div></div>
 <div class="card"><h2>Buy low / sell high</h2><p class="hint">Recent form against projection. Early in the season samples are small, so use with care.</p><div id="buylow"></div></div></div>
 <div class="card"><h2>Trade lab: plan several trades</h2><p class="hint">Test trades with one or more teams, see the whole plan at once: category ranks, lineup fit and roster size.</p><div id="lab"></div></div>
 <div class="card"><h2>Trade analyzer</h2><p class="hint">Pick a team and the players on each side. See how both teams' categories and league ranks change.</p><div id="analyzer"></div></div>
@@ -399,7 +399,7 @@ function renderScout(){
    D.cats.map(c=>{const x=entry(c,a),y=entry(c,b);if(!x||!y)return '';const e=x.rank<y.rank?a:x.rank>y.rank?b:'';
     return `<tr><td>${c}</td><td class="n">${fmt(c,catVal(c,x.value))}</td><td class="n">${x.rank}</td><td class="n">${fmt(c,catVal(c,y.value))}</td><td class="n">${y.rank}</td><td class="${cls(e)}">${esc(e)||'even'}</td></tr>`}).join('')+
    `</table><p class="note">Estimated chance ${esc(a)} beats ${esc(b)} in a typical week: <b>${Math.round(pp.pwin*100)}%</b></p>
-   <p class="note"><b>${esc(a)} top players:</b> ${top(a)}<br><b>${esc(b)} top players:</b> ${top(b)}</p>`;
+   <p class="note"><b>${esc(a)} best players:</b> ${top(a)}<br><b>${esc(b)} best players:</b> ${top(b)}</p>`;
 }
 
 /* ---------- OVERVIEW ---------- */
@@ -546,24 +546,32 @@ function renderSearch(me){
 /* ---------- TRADES ---------- */
 function renderTrade(me){
   const act=D.cats.filter(c=>!punts.includes(c));
+  const prot=lsGet('tcore','1')==='1';
   const list=D.power.map(p=>p.team).filter(t=>t!==me).map(t=>{
     const give=act.filter(c=>rk(c,me)>=6&&rk(c,t)<=5),need=D.cats.filter(c=>rk(c,t)>=7&&rk(c,me)<=5);
+    const nope=D.cats.filter(c=>rk(c,t)<=4&&rk(c,me)>=rk(c,t));
     const sc=give.reduce((s,c)=>s+rk(c,me)-rk(c,t),0)+need.reduce((s,c)=>s+rk(c,t)-rk(c,me),0);
-    return{t,give,need,sc};
+    return{t,give,need,nope,sc};
   }).sort((a,b)=>b.sc-a.sc);
-  $('trade').innerHTML='<table><tr><th>Team</th><th>They can give you</th><th>They need from you</th></tr>'+
-   list.slice(0,6).map(x=>`<tr><td>${esc(x.t)}</td><td>${chips(x.give,'g')}</td><td>${chips(x.need,'g')}</td></tr>`).join('')+'</table>'+tradeIdeas(me,list.slice(0,3),act);
+  const weak=act.filter(c=>rk(c,me)>=6).sort((a,b)=>rk(b,me)-rk(a,me));
+  const fix=weak.length?'<h3 style="margin-top:2px">Where you can improve</h3><table><tr><th>Your weak category</th><th>Your rank</th><th>Teams strong in it (best first)</th></tr>'+weak.map(c=>{
+    const best=list.filter(x=>rk(c,x.t)<=5).sort((a,b)=>rk(c,a.t)-rk(c,b.t)).slice(0,4);
+    return `<tr><td>${c}</td><td class="n bad">#${rk(c,me)}</td><td>${best.map(x=>`<span class="${cls(x.t)}">${esc(x.t.trim())}</span> <span class="mut">#${rk(c,x.t)}</span>`).join(' · ')||'<span class="mut">nobody is strong here</span>'}</td></tr>`}).join('')+'</table>':'<p class="note">You are not weak in any counted category right now.</p>';
+  $('trade').innerHTML=`<label class="mut"><input type="checkbox" id="tcore" ${prot?'checked':''}> Keep my top 3 players and their top 2 out of the ideas</label>`+fix+
+   '<h3>Every team: what the trade does for them</h3><table><tr><th>Team</th><th>They can give you</th><th>They need from you</th><th>Cannot help them in</th></tr>'+
+   list.map(x=>`<tr><td>${esc(x.t)}</td><td>${chips(x.give,'g')||'<span class="mut">nothing you need</span>'}</td><td>${chips(x.need,'g')||'<span class="mut">nothing</span>'}</td><td>${chips(x.nope,'b')||'<span class="mut">-</span>'}</td></tr>`).join('')+'</table>'+tradeIdeas(me,list,act,prot);
+  $('tcore').onchange=e=>{lsSet('tcore',e.target.checked?'1':'0');renderTrade(me)};
 }
-function tradeIdeas(me,partners,act){
+function tradeIdeas(me,partners,act,prot){
   const all=D.cats,V=(p)=>zsum(p,all);
   const mineP=(D.rosters[me]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
   const myNeed=act.filter(c=>rk(c,me)>=6);
-  const core=new Set([...mineP].sort((a,b)=>V(b)-V(a)).slice(0,3).map(p=>p.name));
+  const core=new Set(prot===false?[]:[...mineP].sort((a,b)=>V(b)-V(a)).slice(0,3).map(p=>p.name));
   const offers=mineP.filter(p=>!core.has(p.name));
   const sum=(ps,cs,w)=>cs.reduce((s,c)=>s+ps.reduce((t,p)=>t+z(p,c),0)*(w(c)),0);
   const rows=partners.map(x=>{
     const theirP=(D.rosters[x.t]||[]).filter(p=>p.slot!=='IR'&&p.injury!=='OUT'&&hasStats(p));
-    const theirCore=new Set([...theirP].sort((a,b)=>V(b)-V(a)).slice(0,2).map(p=>p.name));
+    const theirCore=new Set(prot===false?[]:[...theirP].sort((a,b)=>V(b)-V(a)).slice(0,2).map(p=>p.name));
     const theirNeed=all.filter(c=>rk(c,x.t)>=7);
     const wMe=c=>myNeed.includes(c)?1:0.35, wThem=c=>theirNeed.includes(c)?1:0.35;
     const cands=[];
@@ -595,7 +603,7 @@ function tradeIdeas(me,partners,act){
       <span class="mut">Value:</span> ${c.give.map(p=>V(p).toFixed(1)).join(' + ')} for ${V(c.t).toFixed(1)} · ${likely?'<span class="good">realistic, they should consider it</span>':'<span class="mut">possible, but expect a counter</span>'}</li>`;
     }).join('');
   }).join('');
-  return rows?`<h3>Player ideas (balanced)</h3><ul class="box">${rows}</ul><p class="note">Your top 3 players and their top 2 are left out. Use the analyzer below to test any variation.</p>`:'';
+  return rows?`<h3>Player ideas (balanced)</h3><ul class="box">${rows}</ul><p class="note">${prot===false?'Every player is on the table.':'Your top 3 players and their top 2 are left out (untick the box above to include them).'} Every team is checked, and a team shows up as "no balanced trade" when nothing fits. Use the analyzer below to test any variation.</p>`:'';
 }
 
 function renderBuyLow(me){
