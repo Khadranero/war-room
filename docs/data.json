@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:10:22.933091Z",
+ "updated": "2026-11-16T18:20:23.831315Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -4825,7 +4825,7 @@
      "SF"
     ],
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "HOU",
     "avg": {
      "PTS": 15.285714285714286,
@@ -5589,7 +5589,7 @@
      "SG"
     ],
     "slot": "SG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
      "PTS": 14.833333333333334,
@@ -7935,7 +7935,7 @@
     "C"
    ],
    "team": "BOS",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.125,
@@ -13410,6 +13410,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Fred VanVleet: Removed from injury report",
+   "link": "https://www.rotowire.com//basketball/player/fred-vanvleet-3935",
+   "published": "Mon, 16 Nov 2026 10:15:00 AM PST",
+   "summary": "VanVleet (knee) is off the injury report for Monday's game against Miami.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Amen Thompson: Questionable to play Monday",
+   "link": "https://www.rotowire.com//basketball/player/amen-thompson-5931",
+   "published": "Mon, 16 Nov 2026 10:13:00 AM PST",
+   "summary": "Thompson (knee) is listed as questionable for Monday's game against the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Joel Embiid: Questionable for Monday",
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Mon, 16 Nov 2026 10:09:00 AM PST",
@@ -13428,20 +13442,6 @@
    "link": "https://www.rotowire.com//basketball/player/gg-jackson-5946",
    "published": "Mon, 16 Nov 2026 9:12:00 AM PST",
    "summary": "Jackson will undergo surgery to repair the broken fifth metatarsal in his left foot and is set to miss significant time.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Anthony Davis: Contributes across board in defeat",
-   "link": "https://www.rotowire.com//basketball/player/anthony-davis-3297",
-   "published": "Mon, 16 Nov 2026 8:05:00 AM PST",
-   "summary": "Davis had 14 points (4-11 FG, 6-6 FT), eight rebounds, five assists, two blocks and one steal over 31 minutes during Sunday's 147-119 loss to Houston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Alex Sarr: Posts 25 points, loaded line",
-   "link": "https://www.rotowire.com//basketball/player/alex-sarr-6240",
-   "published": "Mon, 16 Nov 2026 8:02:00 AM PST",
-   "summary": "Sarr ended with 25 points (9-13 FG, 3-6 3Pt, 4-8 FT), nine rebounds, two assists and three blocks in 27 minutes during Sunday's 147-119 loss to Houston.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16134,6 +16134,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 2.9
  }
 }
