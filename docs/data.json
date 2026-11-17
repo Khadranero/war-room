@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:00:35.781696Z",
+ "updated": "2026-11-17T23:10:26.655850Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -9729,7 +9729,7 @@
     "PG"
    ],
    "team": "ATL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.6,
@@ -13140,7 +13140,7 @@
     "C"
    ],
    "team": "ATL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.5,
@@ -13428,6 +13428,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kingston Flemings: Won't play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
+   "published": "Tue, 17 Nov 2026 3:06:00 PM PST",
+   "summary": "Flemings (back) is out for Wednesday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Scottie Barnes: Will play Tuesday",
    "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
    "published": "Tue, 17 Nov 2026 2:53:00 PM PST",
@@ -13453,13 +13460,6 @@
    "link": "https://www.rotowire.com//basketball/player/tj-mcconnell-3760",
    "published": "Tue, 17 Nov 2026 2:24:00 PM PST",
    "summary": "McConnell (hamstring) is probable to play Wednesday against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Andrew Nembhard: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
-   "published": "Tue, 17 Nov 2026 2:19:00 PM PST",
-   "summary": "Nembhard (hip) is questionable for Wednesday's game against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16236,6 +16236,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 3.6
  }
 }
