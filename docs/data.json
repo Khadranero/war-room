@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:50:22.017111Z",
+ "updated": "2026-11-17T09:00:37.124113Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -75,7 +75,7 @@
    "losses": 2,
    "ties": 1,
    "rank": 8,
-   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/ce674720-c969-11f1-8b40-73ccb68e8584"
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-10.svg"
   },
   {
    "team": "Rubio Bzeit ",
@@ -2319,7 +2319,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "BE",
     "injury": "OUT",
     "team": "LAL",
     "avg": {
@@ -2423,7 +2423,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -2458,7 +2458,7 @@
      "PF",
      "C"
     ],
-    "slot": "C",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -2597,7 +2597,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -2735,7 +2735,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -7079,42 +7079,6 @@
    "team": "Momo in Six",
    "action": "FA ADDED",
    "player": "Grayson Allen"
-  },
-  {
-   "date": "2026-11-15T03:08:17.436000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Jordan Goodwin"
-  },
-  {
-   "date": "2026-11-15T03:08:17.436000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Cam Spencer"
-  },
-  {
-   "date": "2026-11-15T02:29:50.893000",
-   "team": "Khadracadabra",
-   "action": "FA ADDED",
-   "player": "Kris Dunn"
-  },
-  {
-   "date": "2026-11-15T02:29:50.893000",
-   "team": "Khadracadabra",
-   "action": "DROPPED",
-   "player": "Nolan Traore"
-  },
-  {
-   "date": "2026-11-14T23:59:48.579000",
-   "team": "Wembelieve I can fly",
-   "action": "DROPPED",
-   "player": "Paul Reed"
-  },
-  {
-   "date": "2026-11-14T23:59:48.579000",
-   "team": "Wembelieve I can fly",
-   "action": "FA ADDED",
-   "player": "Meleek Thomas"
   }
  ],
  "schedule": {
@@ -16258,6 +16222,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 4.9
  }
 }
