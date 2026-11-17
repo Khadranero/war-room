@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:20:23.503018Z",
+ "updated": "2026-11-17T23:30:28.800714Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -7975,7 +7975,7 @@
     "C"
    ],
    "team": "BOS",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 9.285714285714286,
@@ -13428,6 +13428,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Neemias Queta: Off injury report",
+   "link": "https://www.rotowire.com//basketball/player/neemias-queta-5333",
+   "published": "Tue, 17 Nov 2026 3:23:00 PM PST",
+   "summary": "Queta (rest) is available for Wednesday's game against the Nuggets, Jack Simone of BostonSportsJournal.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kingston Flemings: Won't play Wednesday",
    "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
    "published": "Tue, 17 Nov 2026 3:06:00 PM PST",
@@ -13453,13 +13460,6 @@
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Tue, 17 Nov 2026 2:25:00 PM PST",
    "summary": "Leonard (knee) has progressed in his strength and conditioning program but will miss at least one more week, Michael Scotto of HoopsHype.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "T.J. McConnell: Probable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/tj-mcconnell-3760",
-   "published": "Tue, 17 Nov 2026 2:24:00 PM PST",
-   "summary": "McConnell (hamstring) is probable to play Wednesday against the Rockets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16236,6 +16236,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.1
  }
 }
