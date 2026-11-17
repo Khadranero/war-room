@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:20:25.203526Z",
+ "updated": "2026-11-17T13:30:41.614168Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -4283,37 +4283,36 @@
     }
    },
    {
-    "name": "Draymond Green",
-    "pos": "PF",
+    "name": "Terrence Shannon Jr.",
+    "pos": "SG",
     "elig": [
-     "PF",
-     "C"
+     "SG"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
-    "team": "GSW",
+    "team": "MIN",
     "avg": {
-     "PTS": 3.2857142857142856,
-     "REB": 4.857142857142857,
-     "AST": 6.714285714285714,
-     "STL": 1.0,
-     "BLK": 0.7142857142857143,
-     "3PM": 0.14285714285714285,
-     "FG%": 0.41666667,
-     "FT%": 0.5,
-     "TO": 1.8571428571428572,
+     "PTS": 14.75,
+     "REB": 3.5,
+     "AST": 3.25,
+     "STL": 0.5,
+     "BLK": 0.0,
+     "3PM": 0.75,
+     "FG%": 0.51428571,
+     "FT%": 0.86956522,
+     "TO": 2.25,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 8.6875,
-     "REB": 6.09375,
-     "AST": 5.703125,
-     "STL": 1.09375,
-     "BLK": 0.796875,
-     "3PM": 1.25,
-     "FG%": 0.439,
-     "FT%": 0.702,
-     "TO": 2.59375,
+     "PTS": 9.231884057971014,
+     "REB": 2.0,
+     "AST": 1.5072463768115942,
+     "STL": 0.5072463768115942,
+     "BLK": 0.10144927536231885,
+     "3PM": 1.173913043478261,
+     "FG%": 0.453,
+     "FT%": 0.8,
+     "TO": 0.8985507246376812,
      "_src": "2027_projected"
     }
    }
@@ -6829,6 +6828,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-17T13:28:29.752000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Draymond Green"
+  },
+  {
+   "date": "2026-11-17T13:28:29.752000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Terrence Shannon Jr."
+  },
+  {
    "date": "2026-11-17T06:34:36.979000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -7067,18 +7078,6 @@
    "team": "Rubio Bzeit ",
    "action": "FA ADDED",
    "player": "Mo Bamba"
-  },
-  {
-   "date": "2026-11-15T05:08:27.893000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Zach Edey"
-  },
-  {
-   "date": "2026-11-15T05:08:27.893000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Grayson Allen"
   }
  ],
  "schedule": {
@@ -7908,6 +7907,41 @@
     "FG%": 0.507,
     "FT%": 0.855,
     "TO": 1.5128205128205128,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Draymond Green",
+   "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 3.2857142857142856,
+    "REB": 4.857142857142857,
+    "AST": 6.714285714285714,
+    "STL": 1.0,
+    "BLK": 0.7142857142857143,
+    "3PM": 0.14285714285714285,
+    "FG%": 0.41666667,
+    "FT%": 0.5,
+    "TO": 1.8571428571428572,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.6875,
+    "REB": 6.09375,
+    "AST": 5.703125,
+    "STL": 1.09375,
+    "BLK": 0.796875,
+    "3PM": 1.25,
+    "FG%": 0.439,
+    "FT%": 0.702,
+    "TO": 2.59375,
     "_src": "2027_projected"
    }
   },
@@ -9362,40 +9396,6 @@
     "FG%": 0.449,
     "FT%": 0.789,
     "TO": 2.185185185185185,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Terrence Shannon Jr.",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "MIN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 14.75,
-    "REB": 3.5,
-    "AST": 3.25,
-    "STL": 0.5,
-    "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.51428571,
-    "FT%": 0.86956522,
-    "TO": 2.25,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 9.231884057971014,
-    "REB": 2.0,
-    "AST": 1.5072463768115942,
-    "STL": 0.5072463768115942,
-    "BLK": 0.10144927536231885,
-    "3PM": 1.173913043478261,
-    "FG%": 0.453,
-    "FT%": 0.8,
-    "TO": 0.8985507246376812,
     "_src": "2027_projected"
    }
   },
@@ -13893,6 +13893,18 @@
  },
  "log": [
   {
+   "date": "2026-11-17T13:28:29.752000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Draymond Green"
+  },
+  {
+   "date": "2026-11-17T13:28:29.752000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Terrence Shannon Jr."
+  },
+  {
    "date": "2026-11-17T06:34:36.979000",
    "team": "Pasta Warriors",
    "action": "FA ADDED",
@@ -16222,6 +16234,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 14.1
  }
 }
