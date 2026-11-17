@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:00:33.761310Z",
+ "updated": "2026-11-17T22:10:27.164290Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6166,7 +6166,7 @@
      "SF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "PHL",
     "avg": {
      "PTS": 24.625,
@@ -6471,7 +6471,7 @@
      "SG"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "MEM",
     "avg": {
      "PTS": 25.0,
@@ -7454,7 +7454,7 @@
     "SG"
    ],
    "team": "MIL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 10.0,
@@ -13428,6 +13428,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ty Jerome: Won't play Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
+   "published": "Tue, 17 Nov 2026 2:08:00 PM PST",
+   "summary": "Jerome (hip) has been ruled out for Wednesday's game in Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Pelle Larsson: Good to go for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/pelle-larsson-6013",
    "published": "Tue, 17 Nov 2026 1:33:00 PM PST",
@@ -13453,13 +13460,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Tue, 17 Nov 2026 12:57:00 PM PST",
    "summary": "Smith (head) isn't listed on the injury report for Wednesday's game against Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Another absence coming",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Tue, 17 Nov 2026 12:51:00 PM PST",
-   "summary": "Murphy (knee) has been ruled out for Wednesday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16236,6 +16236,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 3.8
  }
 }
