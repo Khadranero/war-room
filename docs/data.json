@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:30:36.217450Z",
+ "updated": "2026-11-17T01:40:22.667436Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -1746,13 +1746,13 @@
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
-     "PTS": 22.25,
+     "PTS": 22.5,
      "REB": 4.125,
      "AST": 6.125,
      "STL": 1.25,
      "BLK": 0.375,
      "3PM": 3.0,
-     "FG%": 0.47727273,
+     "FG%": 0.47761194,
      "FT%": 0.7,
      "TO": 2.875,
      "_src": "2027_last_15"
@@ -1851,11 +1851,11 @@
     "avg": {
      "PTS": 15.11111111111111,
      "REB": 2.2222222222222223,
-     "AST": 7.888888888888889,
-     "STL": 1.3333333333333333,
+     "AST": 8.0,
+     "STL": 1.4444444444444444,
      "BLK": 0.1111111111111111,
      "3PM": 2.0,
-     "FG%": 0.36792453,
+     "FG%": 0.36448598,
      "FT%": 0.83333333,
      "TO": 3.111111111111111,
      "_src": "2027_last_15"
@@ -1952,13 +1952,13 @@
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
-     "PTS": 18.25,
+     "PTS": 18.5,
      "REB": 5.0,
      "AST": 4.25,
      "STL": 1.125,
      "BLK": 0.25,
      "3PM": 1.25,
-     "FG%": 0.44954128,
+     "FG%": 0.45454545,
      "FT%": 0.76,
      "TO": 3.125,
      "_src": "2027_last_15"
@@ -1987,14 +1987,14 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 19.714285714285715,
+     "PTS": 19.857142857142858,
      "REB": 5.142857142857143,
      "AST": 3.4285714285714284,
      "STL": 1.5714285714285714,
      "BLK": 0.5714285714285714,
      "3PM": 3.7142857142857144,
      "FG%": 0.48571429,
-     "FT%": 0.71428571,
+     "FT%": 0.64705882,
      "TO": 2.7142857142857144,
      "_src": "2027_last_15"
     },
@@ -2056,14 +2056,14 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 14.75,
-     "REB": 4.375,
-     "AST": 2.75,
+     "PTS": 15.0,
+     "REB": 4.5,
+     "AST": 2.875,
      "STL": 0.875,
      "BLK": 0.625,
      "3PM": 2.75,
-     "FG%": 0.45555556,
-     "FT%": 0.77777778,
+     "FG%": 0.45054945,
+     "FT%": 0.8,
      "TO": 1.0,
      "_src": "2027_last_15"
     },
@@ -2091,15 +2091,15 @@
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
-     "PTS": 18.0,
-     "REB": 6.125,
+     "PTS": 18.25,
+     "REB": 6.25,
      "AST": 3.125,
      "STL": 1.0,
      "BLK": 0.75,
      "3PM": 2.125,
-     "FG%": 0.48514851,
+     "FG%": 0.49019608,
      "FT%": 0.74358974,
-     "TO": 2.5,
+     "TO": 2.625,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2194,7 +2194,7 @@
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
-     "PTS": 12.285714285714286,
+     "PTS": 12.571428571428571,
      "REB": 4.714285714285714,
      "AST": 1.8571428571428572,
      "STL": 0.2857142857142857,
@@ -2231,7 +2231,7 @@
     "avg": {
      "PTS": 10.75,
      "REB": 2.25,
-     "AST": 4.875,
+     "AST": 5.0,
      "STL": 0.75,
      "BLK": 0.125,
      "3PM": 1.75,
@@ -2289,16 +2289,16 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 21.75,
-     "REB": 4.5,
-     "AST": 9.5,
-     "STL": 1.25,
-     "BLK": 0.75,
-     "3PM": 2.5,
-     "FG%": 0.51612903,
-     "FT%": 0.86666667,
-     "TO": 2.25,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.47058824,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 19.15625,
@@ -2359,13 +2359,13 @@
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
-     "PTS": 20.0,
+     "PTS": 20.285714285714285,
      "REB": 6.857142857142857,
      "AST": 1.2857142857142858,
      "STL": 0.7142857142857143,
      "BLK": 0.2857142857142857,
      "3PM": 3.2857142857142856,
-     "FG%": 0.44329897,
+     "FG%": 0.44897959,
      "FT%": 0.70454545,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -2602,7 +2602,7 @@
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
-     "PTS": 11.375,
+     "PTS": 11.625,
      "REB": 2.75,
      "AST": 3.625,
      "STL": 0.75,
@@ -2712,7 +2712,7 @@
      "STL": 1.125,
      "BLK": 0.625,
      "3PM": 2.125,
-     "FG%": 0.36206897,
+     "FG%": 0.3559322,
      "FT%": 0.73333333,
      "TO": 1.375,
      "_src": "2027_last_15"
@@ -2740,15 +2740,15 @@
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
-     "PTS": 8.666666666666666,
+     "PTS": 9.0,
      "REB": 8.0,
      "AST": 0.6666666666666666,
      "STL": 0.0,
      "BLK": 1.1666666666666667,
      "3PM": 0.0,
-     "FG%": 0.5,
+     "FG%": 0.51428571,
      "FT%": 0.9,
-     "TO": 1.5,
+     "TO": 1.6666666666666667,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2777,14 +2777,14 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 23.875,
+     "PTS": 25.0,
      "REB": 6.0,
      "AST": 6.5,
      "STL": 0.5,
      "BLK": 1.125,
-     "3PM": 2.75,
-     "FG%": 0.41304348,
-     "FT%": 0.91666667,
+     "3PM": 2.875,
+     "FG%": 0.42553191,
+     "FT%": 0.9047619,
      "TO": 3.0,
      "_src": "2027_last_15"
     },
@@ -2881,16 +2881,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 19.5,
-     "REB": 7.5,
-     "AST": 1.5,
-     "STL": 3.5,
-     "BLK": 0.5,
-     "3PM": 2.0,
-     "FG%": 0.32432432,
-     "FT%": 1.0,
-     "TO": 2.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.35,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -2986,7 +2986,7 @@
     "team": "POR",
     "avg": {
      "PTS": 19.25,
-     "REB": 2.25,
+     "REB": 2.375,
      "AST": 4.5,
      "STL": 0.5,
      "BLK": 0.0,
@@ -3191,13 +3191,13 @@
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
-     "PTS": 6.25,
+     "PTS": 6.75,
      "REB": 4.25,
      "AST": 1.75,
      "STL": 0.25,
      "BLK": 1.0,
      "3PM": 0.0,
-     "FG%": 0.6,
+     "FG%": 0.625,
      "FT%": 0.77777778,
      "TO": 0.75,
      "_src": "2027_last_15"
@@ -3259,15 +3259,15 @@
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
-     "PTS": 12.0,
-     "REB": 3.7777777777777777,
+     "PTS": 12.333333333333334,
+     "REB": 3.888888888888889,
      "AST": 3.111111111111111,
      "STL": 0.6666666666666666,
      "BLK": 0.1111111111111111,
-     "3PM": 2.111111111111111,
-     "FG%": 0.54929577,
+     "3PM": 2.2222222222222223,
+     "FG%": 0.54794521,
      "FT%": 0.73333333,
-     "TO": 0.6666666666666666,
+     "TO": 0.8888888888888888,
      "_src": "2027_last_15"
     },
     "proj": {}
@@ -3563,12 +3563,12 @@
     "team": "WAS",
     "avg": {
      "PTS": 14.444444444444445,
-     "REB": 6.333333333333333,
+     "REB": 6.444444444444445,
      "AST": 2.3333333333333335,
-     "STL": 1.2222222222222223,
+     "STL": 1.3333333333333333,
      "BLK": 0.4444444444444444,
      "3PM": 0.8888888888888888,
-     "FG%": 0.38095238,
+     "FG%": 0.375,
      "FT%": 0.66666667,
      "TO": 2.4444444444444446,
      "_src": "2027_last_15"
@@ -3598,9 +3598,9 @@
     "team": "MEM",
     "avg": {
      "PTS": 13.625,
-     "REB": 8.25,
+     "REB": 8.625,
      "AST": 3.75,
-     "STL": 1.375,
+     "STL": 1.5,
      "BLK": 0.5,
      "3PM": 1.875,
      "FG%": 0.44705882,
@@ -3632,13 +3632,13 @@
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
-     "PTS": 11.0,
+     "PTS": 11.666666666666666,
      "REB": 4.444444444444445,
      "AST": 2.3333333333333335,
      "STL": 0.8888888888888888,
      "BLK": 0.8888888888888888,
-     "3PM": 0.4444444444444444,
-     "FG%": 0.44444444,
+     "3PM": 0.6666666666666666,
+     "FG%": 0.45945946,
      "FT%": 0.79487179,
      "TO": 2.2222222222222223,
      "_src": "2027_last_15"
@@ -3742,7 +3742,7 @@
      "STL": 0.8333333333333334,
      "BLK": 0.5,
      "3PM": 1.1666666666666667,
-     "FG%": 0.5,
+     "FG%": 0.48571429,
      "FT%": 0.85714286,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -3877,12 +3877,12 @@
     "team": "CLE",
     "avg": {
      "PTS": 16.125,
-     "REB": 4.25,
-     "AST": 5.375,
+     "REB": 4.375,
+     "AST": 5.625,
      "STL": 1.125,
      "BLK": 0.625,
      "3PM": 2.625,
-     "FG%": 0.3956044,
+     "FG%": 0.39130435,
      "FT%": 0.85714286,
      "TO": 2.375,
      "_src": "2027_last_15"
@@ -3911,16 +3911,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 24.5,
-     "REB": 6.5,
-     "AST": 7.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.69565217,
-     "FT%": 0.7,
-     "TO": 4.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.54545455,
+     "FT%": 0.5,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -4088,11 +4088,11 @@
     "avg": {
      "PTS": 11.5,
      "REB": 6.875,
-     "AST": 1.5,
+     "AST": 1.625,
      "STL": 0.5,
      "BLK": 1.125,
      "3PM": 1.75,
-     "FG%": 0.39534884,
+     "FG%": 0.3908046,
      "FT%": 0.83333333,
      "TO": 0.75,
      "_src": "2027_last_15"
@@ -4223,16 +4223,16 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 15.75,
-     "REB": 2.5,
-     "AST": 5.5,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.5,
-     "FG%": 0.54166667,
-     "FT%": 0.83333333,
-     "TO": 1.25,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.42857143,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.6,
@@ -4258,13 +4258,13 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 18.142857142857142,
+     "PTS": 18.714285714285715,
      "REB": 1.4285714285714286,
      "AST": 2.7142857142857144,
      "STL": 0.14285714285714285,
      "BLK": 1.1428571428571428,
-     "3PM": 4.428571428571429,
-     "FG%": 0.47826087,
+     "3PM": 4.571428571428571,
+     "FG%": 0.47368421,
      "FT%": 1.0,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -4433,16 +4433,16 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 16.25,
-     "REB": 5.0,
-     "AST": 2.0,
-     "STL": 0.25,
-     "BLK": 1.25,
-     "3PM": 1.25,
-     "FG%": 0.5,
-     "FT%": 0.76190476,
-     "TO": 3.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.4,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -4529,13 +4529,13 @@
     "avg": {
      "PTS": 16.428571428571427,
      "REB": 5.714285714285714,
-     "AST": 5.142857142857143,
+     "AST": 5.428571428571429,
      "STL": 2.2857142857142856,
      "BLK": 0.7142857142857143,
      "3PM": 1.7142857142857142,
-     "FG%": 0.41860465,
+     "FG%": 0.4137931,
      "FT%": 0.83783784,
-     "TO": 3.5714285714285716,
+     "TO": 3.7142857142857144,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4736,7 +4736,7 @@
     "avg": {
      "PTS": 7.142857142857143,
      "REB": 9.0,
-     "AST": 1.7142857142857142,
+     "AST": 1.5714285714285714,
      "STL": 0.2857142857142857,
      "BLK": 1.2857142857142858,
      "3PM": 0.0,
@@ -4896,15 +4896,15 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 20.75,
+     "PTS": 21.0,
      "REB": 9.25,
      "AST": 7.0,
      "STL": 0.875,
      "BLK": 1.125,
      "3PM": 0.75,
      "FG%": 0.55263158,
-     "FT%": 0.72340426,
-     "TO": 2.0,
+     "FT%": 0.73469388,
+     "TO": 2.125,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4932,12 +4932,12 @@
     "team": "POR",
     "avg": {
      "PTS": 22.375,
-     "REB": 5.0,
+     "REB": 4.875,
      "AST": 6.0,
      "STL": 1.0,
      "BLK": 0.5,
      "3PM": 2.0,
-     "FG%": 0.50862069,
+     "FG%": 0.5042735,
      "FT%": 0.75,
      "TO": 3.5,
      "_src": "2027_last_15"
@@ -4965,16 +4965,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 13.0,
-     "REB": 7.5,
-     "AST": 2.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
-     "FG%": 0.58823529,
-     "FT%": 0.85714286,
-     "TO": 1.0,
-     "_src": "2027_last_30"
+     "FG%": 0.5,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -5034,13 +5034,13 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 24.875,
+     "PTS": 25.125,
      "REB": 6.375,
      "AST": 8.5,
      "STL": 1.375,
      "BLK": 0.25,
      "3PM": 1.5,
-     "FG%": 0.48344371,
+     "FG%": 0.48684211,
      "FT%": 0.89130435,
      "TO": 3.625,
      "_src": "2027_last_15"
@@ -5075,7 +5075,7 @@
      "STL": 1.0,
      "BLK": 0.4,
      "3PM": 1.6,
-     "FG%": 0.47222222,
+     "FG%": 0.46575342,
      "FT%": 0.72727273,
      "TO": 2.2,
      "_src": "2027_last_15"
@@ -5141,7 +5141,7 @@
     "avg": {
      "PTS": 14.571428571428571,
      "REB": 5.857142857142857,
-     "AST": 3.5714285714285716,
+     "AST": 3.7142857142857144,
      "STL": 1.0,
      "BLK": 0.7142857142857143,
      "3PM": 1.1428571428571428,
@@ -5209,8 +5209,8 @@
     "team": "NOP",
     "avg": {
      "PTS": 16.666666666666668,
-     "REB": 4.111111111111111,
-     "AST": 2.4444444444444446,
+     "REB": 4.222222222222222,
+     "AST": 2.5555555555555554,
      "STL": 0.5555555555555556,
      "BLK": 0.2222222222222222,
      "3PM": 2.4444444444444446,
@@ -5313,16 +5313,16 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 33.25,
-     "REB": 4.75,
-     "AST": 3.5,
-     "STL": 2.0,
-     "BLK": 0.75,
-     "3PM": 4.5,
-     "FG%": 0.48076923,
-     "FT%": 0.75,
-     "TO": 3.5,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.55882353,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -5383,13 +5383,13 @@
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
-     "PTS": 25.571428571428573,
+     "PTS": 25.857142857142858,
      "REB": 10.142857142857142,
      "AST": 2.0,
      "STL": 1.2857142857142858,
      "BLK": 1.2857142857142858,
      "3PM": 0.42857142857142855,
-     "FG%": 0.59322034,
+     "FG%": 0.59166667,
      "FT%": 0.9,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -5419,7 +5419,7 @@
     "team": "BOS",
     "avg": {
      "PTS": 13.222222222222221,
-     "REB": 2.5555555555555554,
+     "REB": 2.6666666666666665,
      "AST": 4.0,
      "STL": 1.1111111111111112,
      "BLK": 0.8888888888888888,
@@ -5522,14 +5522,14 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 17.142857142857142,
+     "PTS": 17.571428571428573,
      "REB": 7.428571428571429,
      "AST": 2.142857142857143,
      "STL": 0.5714285714285714,
      "BLK": 0.5714285714285714,
      "3PM": 0.2857142857142857,
      "FG%": 0.37894737,
-     "FT%": 0.92,
+     "FT%": 0.90740741,
      "TO": 2.2857142857142856,
      "_src": "2027_last_15"
     },
@@ -5556,15 +5556,15 @@
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
-     "PTS": 15.0,
+     "PTS": 15.25,
      "REB": 8.625,
-     "AST": 4.5,
+     "AST": 4.75,
      "STL": 0.875,
      "BLK": 0.625,
      "3PM": 1.625,
-     "FG%": 0.39814815,
+     "FG%": 0.40366972,
      "FT%": 0.77777778,
-     "TO": 3.125,
+     "TO": 3.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5759,7 +5759,7 @@
      "STL": 0.6666666666666666,
      "BLK": 1.0,
      "3PM": 2.0,
-     "FG%": 0.59259259,
+     "FG%": 0.58181818,
      "FT%": 0.66666667,
      "TO": 0.8333333333333334,
      "_src": "2027_last_15"
@@ -6032,13 +6032,13 @@
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
-     "PTS": 18.333333333333332,
+     "PTS": 18.77777777777778,
      "REB": 4.333333333333333,
      "AST": 4.555555555555555,
      "STL": 0.6666666666666666,
      "BLK": 1.1111111111111112,
      "3PM": 2.888888888888889,
-     "FG%": 0.49586777,
+     "FG%": 0.5,
      "FT%": 0.73076923,
      "TO": 2.4444444444444446,
      "_src": "2027_last_15"
@@ -6102,13 +6102,13 @@
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
-     "PTS": 5.0,
+     "PTS": 6.5,
      "REB": 2.5,
      "AST": 2.0,
      "STL": 0.0,
      "BLK": 0.5,
-     "3PM": 1.0,
-     "FG%": 0.28571429,
+     "3PM": 1.5,
+     "FG%": 0.33333333,
      "FT%": 0.0,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -6137,14 +6137,14 @@
     "team": "CLE",
     "avg": {
      "PTS": 9.333333333333334,
-     "REB": 7.5,
-     "AST": 1.1666666666666667,
+     "REB": 8.0,
+     "AST": 1.3333333333333333,
      "STL": 0.5,
      "BLK": 0.8333333333333334,
      "3PM": 0.16666666666666666,
      "FG%": 0.62857143,
      "FT%": 0.73333333,
-     "TO": 0.6666666666666666,
+     "TO": 1.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6205,13 +6205,13 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 22.25,
+     "PTS": 22.5,
      "REB": 6.5,
      "AST": 3.0,
      "STL": 1.25,
      "BLK": 0.5,
      "3PM": 1.875,
-     "FG%": 0.53225806,
+     "FG%": 0.536,
      "FT%": 0.70454545,
      "TO": 2.125,
      "_src": "2027_last_15"
@@ -6311,14 +6311,14 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 26.125,
-     "REB": 12.0,
-     "AST": 4.375,
+     "PTS": 26.5,
+     "REB": 12.125,
+     "AST": 4.5,
      "STL": 0.875,
      "BLK": 1.625,
      "3PM": 0.5,
-     "FG%": 0.59701493,
-     "FT%": 0.63380282,
+     "FG%": 0.6,
+     "FT%": 0.63888889,
      "TO": 3.5,
      "_src": "2027_last_15"
     },
@@ -6346,14 +6346,14 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 19.75,
+     "PTS": 19.875,
      "REB": 8.125,
-     "AST": 3.0,
-     "STL": 1.75,
+     "AST": 3.125,
+     "STL": 1.875,
      "BLK": 0.875,
      "3PM": 0.75,
      "FG%": 0.55789474,
-     "FT%": 0.74193548,
+     "FT%": 0.734375,
      "TO": 0.875,
      "_src": "2027_last_15"
     },
@@ -6417,12 +6417,12 @@
     "team": "WAS",
     "avg": {
      "PTS": 13.125,
-     "REB": 8.375,
-     "AST": 1.125,
+     "REB": 8.5,
+     "AST": 1.25,
      "STL": 0.875,
      "BLK": 1.25,
      "3PM": 1.25,
-     "FG%": 0.54666667,
+     "FG%": 0.53947368,
      "FT%": 0.65,
      "TO": 1.25,
      "_src": "2027_last_15"
@@ -6544,13 +6544,13 @@
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
-     "PTS": 9.5,
+     "PTS": 9.833333333333334,
      "REB": 5.0,
      "AST": 2.0,
      "STL": 0.16666666666666666,
      "BLK": 1.1666666666666667,
      "3PM": 1.1666666666666667,
-     "FG%": 0.36507937,
+     "FG%": 0.36923077,
      "FT%": 0.44444444,
      "TO": 0.8333333333333334,
      "_src": "2027_last_15"
@@ -6648,13 +6648,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 18.875,
-     "REB": 5.25,
+     "PTS": 19.75,
+     "REB": 5.375,
      "AST": 4.125,
      "STL": 0.625,
      "BLK": 0.5,
-     "3PM": 1.125,
-     "FG%": 0.46078431,
+     "3PM": 1.25,
+     "FG%": 0.47169811,
      "FT%": 0.90566038,
      "TO": 2.875,
      "_src": "2027_last_15"
@@ -6683,16 +6683,16 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 12.0,
-     "REB": 9.333333333333334,
-     "AST": 1.3333333333333333,
-     "STL": 0.6666666666666666,
-     "BLK": 3.0,
-     "3PM": 0.6666666666666666,
-     "FG%": 0.40740741,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.3,
      "FT%": 1.0,
-     "TO": 1.6666666666666667,
-     "_src": "2027_last_30"
+     "TO": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -6778,7 +6778,7 @@
     "avg": {
      "PTS": 5.428571428571429,
      "REB": 5.428571428571429,
-     "AST": 0.8571428571428571,
+     "AST": 1.0,
      "STL": 0.7142857142857143,
      "BLK": 1.0,
      "3PM": 0.0,
@@ -7366,7 +7366,7 @@
    "avg": {
     "PTS": 8.125,
     "REB": 0.875,
-    "AST": 1.625,
+    "AST": 1.75,
     "STL": 1.0,
     "BLK": 0.25,
     "3PM": 2.0,
@@ -7468,13 +7468,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.875,
-    "REB": 2.625,
+    "PTS": 7.25,
+    "REB": 2.75,
     "AST": 1.625,
     "STL": 0.25,
-    "BLK": 0.5,
-    "3PM": 1.25,
-    "FG%": 0.36734694,
+    "BLK": 0.625,
+    "3PM": 1.375,
+    "FG%": 0.38,
     "FT%": 0.81818182,
     "TO": 0.625,
     "_src": "2027_last_15"
@@ -8167,7 +8167,7 @@
     "STL": 1.125,
     "BLK": 0.625,
     "3PM": 2.125,
-    "FG%": 0.36206897,
+    "FG%": 0.3559322,
     "FT%": 0.73333333,
     "TO": 1.375,
     "_src": "2027_last_15"
@@ -8336,14 +8336,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.6,
+    "PTS": 10.4,
     "REB": 1.4,
-    "AST": 2.6,
+    "AST": 3.0,
     "STL": 0.2,
     "BLK": 0.4,
-    "3PM": 1.0,
-    "FG%": 0.35714286,
-    "FT%": 0.92,
+    "3PM": 1.2,
+    "FG%": 0.37931034,
+    "FT%": 0.88888889,
     "TO": 1.0,
     "_src": "2027_last_15"
    },
@@ -8372,7 +8372,7 @@
    "avg": {
     "PTS": 3.625,
     "REB": 6.0,
-    "AST": 0.875,
+    "AST": 1.0,
     "STL": 0.875,
     "BLK": 0.875,
     "3PM": 0.0,
@@ -8438,13 +8438,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 12.88888888888889,
-    "REB": 2.7777777777777777,
+    "PTS": 13.11111111111111,
+    "REB": 3.0,
     "AST": 1.7777777777777777,
     "STL": 1.1111111111111112,
     "BLK": 0.2222222222222222,
     "3PM": 2.5555555555555554,
-    "FG%": 0.45918367,
+    "FG%": 0.46,
     "FT%": 0.75,
     "TO": 1.1111111111111112,
     "_src": "2027_last_15"
@@ -8531,13 +8531,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 12.571428571428571,
+    "PTS": 13.0,
     "REB": 1.7142857142857142,
     "AST": 1.8571428571428572,
     "STL": 0.5714285714285714,
-    "BLK": 0.2857142857142857,
-    "3PM": 2.142857142857143,
-    "FG%": 0.57142857,
+    "BLK": 0.42857142857142855,
+    "3PM": 2.2857142857142856,
+    "FG%": 0.56896552,
     "FT%": 0.81818182,
     "TO": 0.5714285714285714,
     "_src": "2027_last_15"
@@ -8694,13 +8694,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 14.166666666666666,
+    "PTS": 14.5,
     "REB": 5.166666666666667,
     "AST": 2.0,
     "STL": 0.3333333333333333,
     "BLK": 0.0,
     "3PM": 3.1666666666666665,
-    "FG%": 0.4025974,
+    "FG%": 0.41025641,
     "FT%": 1.0,
     "TO": 1.8333333333333333,
     "_src": "2027_last_15"
@@ -8763,13 +8763,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.75,
+    "PTS": 10.125,
     "REB": 2.25,
     "AST": 1.625,
     "STL": 0.75,
     "BLK": 0.125,
-    "3PM": 2.125,
-    "FG%": 0.42105263,
+    "3PM": 2.25,
+    "FG%": 0.43103448,
     "FT%": 0.92857143,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -8984,8 +8984,8 @@
    "avg": {
     "PTS": 11.857142857142858,
     "REB": 1.4285714285714286,
-    "AST": 2.7142857142857144,
-    "STL": 0.7142857142857143,
+    "AST": 3.0,
+    "STL": 0.8571428571428571,
     "BLK": 0.2857142857142857,
     "3PM": 2.2857142857142856,
     "FG%": 0.48148148,
@@ -9604,13 +9604,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.571428571428571,
-    "REB": 1.4285714285714286,
-    "AST": 2.7142857142857144,
-    "STL": 0.8571428571428571,
+    "PTS": 9.857142857142858,
+    "REB": 1.5714285714285714,
+    "AST": 2.857142857142857,
+    "STL": 1.0,
     "BLK": 0.42857142857142855,
     "3PM": 0.42857142857142855,
-    "FG%": 0.52830189,
+    "FG%": 0.52727273,
     "FT%": 0.8,
     "TO": 1.5714285714285714,
     "_src": "2027_last_15"
@@ -9703,7 +9703,7 @@
     "3PM": 0.25,
     "FG%": 0.38636364,
     "FT%": 0.76923077,
-    "TO": 0.5,
+    "TO": 0.625,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9800,14 +9800,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.25,
+    "PTS": 7.75,
     "REB": 2.75,
     "AST": 2.25,
     "STL": 0.25,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.41666667,
-    "FT%": 0.71428571,
+    "3PM": 0.25,
+    "FG%": 0.46153846,
+    "FT%": 0.75,
     "TO": 1.25,
     "_src": "2027_last_15"
    },
@@ -10472,7 +10472,7 @@
    "pct": null,
    "avg": {
     "PTS": 8.555555555555555,
-    "REB": 5.333333333333333,
+    "REB": 5.444444444444445,
     "AST": 1.1111111111111112,
     "STL": 0.4444444444444444,
     "BLK": 0.2222222222222222,
@@ -10581,7 +10581,7 @@
     "REB": 5.285714285714286,
     "AST": 0.2857142857142857,
     "STL": 0.2857142857142857,
-    "BLK": 1.1428571428571428,
+    "BLK": 1.2857142857142858,
     "3PM": 0.0,
     "FG%": 0.625,
     "FT%": 0.58333333,
@@ -10640,7 +10640,7 @@
     "STL": 0.875,
     "BLK": 0.0,
     "3PM": 1.375,
-    "FG%": 0.325,
+    "FG%": 0.32098765,
     "FT%": 0.88888889,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -10668,15 +10668,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.125,
+    "PTS": 8.5,
     "REB": 3.0,
     "AST": 1.625,
     "STL": 0.25,
     "BLK": 0.375,
-    "3PM": 1.625,
-    "FG%": 0.43181818,
+    "3PM": 1.75,
+    "FG%": 0.44444444,
     "FT%": 0.82352941,
-    "TO": 0.625,
+    "TO": 0.75,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10971,12 +10971,12 @@
    "pct": null,
    "avg": {
     "PTS": 9.0,
-    "REB": 4.0,
+    "REB": 4.333333333333333,
     "AST": 1.1666666666666667,
     "STL": 0.3333333333333333,
     "BLK": 0.16666666666666666,
     "3PM": 0.8333333333333334,
-    "FG%": 0.67857143,
+    "FG%": 0.65517241,
     "FT%": 0.73333333,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -11067,7 +11067,7 @@
     "STL": 0.2222222222222222,
     "BLK": 0.5555555555555556,
     "3PM": 1.3333333333333333,
-    "FG%": 0.54347826,
+    "FG%": 0.53191489,
     "FT%": 0.5,
     "TO": 0.8888888888888888,
     "_src": "2027_last_15"
@@ -11168,12 +11168,12 @@
    "pct": null,
    "avg": {
     "PTS": 9.4,
-    "REB": 2.2,
+    "REB": 2.4,
     "AST": 2.2,
     "STL": 0.8,
     "BLK": 0.4,
     "3PM": 2.0,
-    "FG%": 0.51428571,
+    "FG%": 0.5,
     "FT%": 0.5,
     "TO": 1.2,
     "_src": "2027_last_15"
@@ -11275,7 +11275,7 @@
     "STL": 0.125,
     "BLK": 0.875,
     "3PM": 0.0,
-    "FG%": 0.6744186,
+    "FG%": 0.65909091,
     "FT%": 0.8125,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -11453,7 +11453,7 @@
    "pct": null,
    "avg": {
     "PTS": 9.833333333333334,
-    "REB": 2.1666666666666665,
+    "REB": 2.3333333333333335,
     "AST": 4.666666666666667,
     "STL": 0.16666666666666666,
     "BLK": 0.16666666666666666,
@@ -11669,14 +11669,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.0,
-    "REB": 3.1666666666666665,
+    "PTS": 3.1666666666666665,
+    "REB": 3.5,
     "AST": 1.3333333333333333,
     "STL": 0.16666666666666666,
     "BLK": 0.6666666666666666,
     "3PM": 0.16666666666666666,
     "FG%": 0.28571429,
-    "FT%": 0.625,
+    "FT%": 0.66666667,
     "TO": 1.3333333333333333,
     "_src": "2027_last_15"
    },
@@ -11993,7 +11993,7 @@
    "avg": {
     "PTS": 7.25,
     "REB": 3.75,
-    "AST": 0.75,
+    "AST": 0.875,
     "STL": 0.25,
     "BLK": 0.5,
     "3PM": 0.875,
@@ -12592,14 +12592,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.857142857142857,
+    "PTS": 6.428571428571429,
     "REB": 3.7142857142857144,
     "AST": 0.8571428571428571,
     "STL": 0.5714285714285714,
     "BLK": 0.42857142857142855,
-    "3PM": 0.7142857142857143,
-    "FG%": 0.4375,
-    "FT%": 0.72727273,
+    "3PM": 0.8571428571428571,
+    "FG%": 0.45454545,
+    "FT%": 0.69230769,
     "TO": 0.14285714285714285,
     "_src": "2027_last_15"
    },
@@ -12697,11 +12697,11 @@
    "avg": {
     "PTS": 8.0,
     "REB": 2.7142857142857144,
-    "AST": 1.7142857142857142,
+    "AST": 1.8571428571428572,
     "STL": 0.7142857142857143,
     "BLK": 0.14285714285714285,
     "3PM": 0.5714285714285714,
-    "FG%": 0.41304348,
+    "FG%": 0.40425532,
     "FT%": 0.77777778,
     "TO": 0.7142857142857143,
     "_src": "2027_last_15"
@@ -12762,13 +12762,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.5,
-    "REB": 2.375,
+    "PTS": 8.75,
+    "REB": 2.5,
     "AST": 1.75,
     "STL": 0.875,
     "BLK": 0.0,
     "3PM": 1.75,
-    "FG%": 0.35185185,
+    "FG%": 0.36363636,
     "FT%": 0.88888889,
     "TO": 0.75,
     "_src": "2027_last_15"
@@ -13435,125 +13435,6 @@
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Mon, 16 Nov 2026 4:06:00 PM PST",
    "summary": "Embiid (foot) is available for Monday's game against Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "Cavs' Mobley sidelined another 7-10 days with sprained toe",
-   "link": "https://www.espn.com/nba/story/_/id/50505177/evan-mobley-sidelined-another-7-10-days-sprained-toe",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "Cavaliers forward Evan Mobley will miss at least another seven to 10 days while he recovers from a sprained right great toe."
-  },
-  {
-   "source": "ESPN",
-   "title": "Sixers rule LeBron out vs. Nets due to lower back management",
-   "link": "https://www.espn.com/nba/story/_/id/50503255/lebron-james-ruled-vs-nets-due-lower-back-management",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "LeBron James will miss Monday's game against the Nets as the 76ers continue to manage his lower back."
-  },
-  {
-   "source": "ESPN",
-   "title": "Bulls' Buzelis, Nets' Minott fined $25K each after making obscene gestures",
-   "link": "https://www.espn.com/nba/story/_/id/50502886/bulls-buzelis-nets-minott-fined-25k-obscene-gestures",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "Bulls forward Matas Buzelis and Nets forward Josh Minott have each been fined $25,000 for making obscene gestures toward the stands during their games Saturday."
-  },
-  {
-   "source": "ESPN",
-   "title": "Grizzlies' Jackson to miss time with left foot fracture",
-   "link": "https://www.espn.com/nba/story/_/id/50502739/grizzlies-gg-jackson-miss-left-foot-fracture",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "Grizzlies reserve GG Jackson will miss time after breaking a bone in his left foot. He is scheduled to have surgery on the injury."
-  },
-  {
-   "source": "ESPN",
-   "title": "Spurs stretch winning streak to 12, hand Jazz 12th straight defeat",
-   "link": "https://www.espn.com/nba/story/_/id/50498894/spurs-stretch-winning-streak-12-hand-jazz-12th-straight-defeat",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "Dylan Harper had a game-high 31 points to keep the Spurs rolling with their 12th straight win while sending the Jazz to their 12th straight loss."
-  },
-  {
-   "source": "ESPN",
-   "title": "Young held scoreless for 1st time in NBA career as Wizards routed by Rockets",
-   "link": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "The Rockets scored a season-high 147 points against the Wizards on Sunday in their win, during which they also held Trae Young scoreless for the first time in his NBA career."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83d\udc40 What happens when you pay $200 to try out for a G League team?",
-   "link": "https://www.espn.com/nba/story/_/id/50463046/nba-g-league-delaware-blue-coats-200-dollar-tryout",
-   "published": "Mon, 16 Nov 2026 19:09:11 EST",
-   "summary": "Former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats."
-  },
-  {
-   "source": "ESPN",
-   "title": "Bobby Marks' NBA glossary: Trade, free agency, CBA terms to know",
-   "link": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
-   "published": "Mon, 16 Nov 2026 11:37:29 EST",
-   "summary": "The world of NBA transactions is often difficult to decipher. Our resident GM is here to help.\ufeff"
-  },
-  {
-   "source": "ESPN",
-   "title": "Is the 76ers' 11-3 start real or a mirage? We asked execs what they're seeing",
-   "link": "https://www.espn.com/nba/story/_/id/50490202/lebron-76ers-start-execs-big-questions",
-   "published": "Mon, 16 Nov 2026 11:07:23 EST",
-   "summary": "We talked to several coaches, executives and scouts about the Sixers in an attempt to get a consensus opinion on their start."
-  },
-  {
-   "source": "ESPN",
-   "title": "Updated NBA Power Rankings: The best newcomer on all 30 teams",
-   "link": "https://www.espn.com/nba/story/_/id/50443607/nba-power-rankings-30-teams-best-newcomer",
-   "published": "Mon, 16 Nov 2026 17:46:54 EST",
-   "summary": "Which teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
-   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-   "published": "Mon, 16 Nov 2026 17:46:55 EST",
-   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
-  },
-  {
-   "source": "ESPN",
-   "title": "Welcome to the Jordan Dome: Where 'Space Jam' ended and the real games began",
-   "link": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
-   "published": "Sun, 15 Nov 2026 16:07:23 EST",
-   "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen."
-  },
-  {
-   "source": "ESPN",
-   "title": "Welcome to the Space Jam: How Jordan and Bugs Bunny's magic resonates 30 years later",
-   "link": "https://www.espn.com/nba/story/_/id/50463999/space-jam-30-year-anniversary-influence",
-   "published": "Sun, 15 Nov 2026 16:07:22 EST",
-   "summary": "Three decades after its release, the basketball-meets-Looney Tunes adventure remains a pop culture staple."
-  },
-  {
-   "source": "ESPN",
-   "title": "Early trade deadline questions: Knicks, Thunder and other contenders' next steps",
-   "link": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
-   "published": "Thu, 12 Nov 2026 10:07:13 EST",
-   "summary": "With the NBA trade deadline looming, which title contenders should -- and could -- make a deal to improve?"
-  },
-  {
-   "source": "ESPN",
-   "title": "19 teams with major roster decisions",
-   "link": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
-   "published": "Thu, 12 Nov 2026 10:07:13 EST",
-   "summary": "With tax and apron penalties lurking, we examine 19 teams barreling toward core-altering decisions."
-  },
-  {
-   "source": "ESPN",
-   "title": "Fears getting chance to shine in New Orleans; Harden struggling",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50502266/fantasy-basketball-risers-fallers-keep-cut-add-today",
-   "published": "Mon, 16 Nov 2026 12:30:52 EST",
-   "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react."
-  },
-  {
-   "source": "ESPN",
-   "title": "Despite slump, Knicks' Bridges is a fantasy basketball trade target",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50473517/fantasy-basketball-nba-analytics-consistency-bridges",
-   "published": "Mon, 16 Nov 2026 12:30:52 EST",
-   "summary": "Andre explains why Mikal Bridges continues to hold fantasy value despite the poor start to his season."
   }
  ],
  "games": {
@@ -16270,6 +16151,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 3.3
  }
 }
