@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:50:22.372360Z",
+ "updated": "2026-11-17T23:00:35.781696Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6131,7 +6131,7 @@
      "SF"
     ],
     "slot": "SG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
      "PTS": 23.0,
@@ -13428,6 +13428,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Scottie Barnes: Will play Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Tue, 17 Nov 2026 2:53:00 PM PST",
+   "summary": "Barnes (illness) will play in Tuesday's game against the Knicks, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kyrie Irving: Off injury report for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
    "published": "Tue, 17 Nov 2026 2:40:00 PM PST",
@@ -13453,13 +13460,6 @@
    "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
    "published": "Tue, 17 Nov 2026 2:19:00 PM PST",
    "summary": "Nembhard (hip) is questionable for Wednesday's game against Houston.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Peyton Watson: Iffy for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
-   "published": "Tue, 17 Nov 2026 2:14:00 PM PST",
-   "summary": "Watson (back) is listed as questionable for Wednesday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16236,6 +16236,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.9
  }
 }
