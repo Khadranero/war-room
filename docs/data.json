@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:00:33.014959Z",
+ "updated": "2026-11-17T00:10:34.277922Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2289,16 +2289,16 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.47058824,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 21.75,
+     "REB": 4.5,
+     "AST": 9.5,
+     "STL": 1.25,
+     "BLK": 0.75,
+     "3PM": 2.5,
+     "FG%": 0.51612903,
+     "FT%": 0.86666667,
+     "TO": 2.25,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 19.15625,
@@ -2881,16 +2881,16 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.35,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 19.5,
+     "REB": 7.5,
+     "AST": 1.5,
+     "STL": 3.5,
+     "BLK": 0.5,
+     "3PM": 2.0,
+     "FG%": 0.32432432,
+     "FT%": 1.0,
+     "TO": 2.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3911,16 +3911,16 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 24.5,
+     "REB": 6.5,
+     "AST": 7.5,
+     "STL": 1.0,
      "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.54545455,
-     "FT%": 0.5,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "3PM": 1.5,
+     "FG%": 0.69565217,
+     "FT%": 0.7,
+     "TO": 4.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 23.4,
@@ -4223,16 +4223,16 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 15.75,
+     "REB": 2.5,
+     "AST": 5.5,
+     "STL": 1.0,
      "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.42857143,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "3PM": 1.5,
+     "FG%": 0.54166667,
+     "FT%": 0.83333333,
+     "TO": 1.25,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 21.6,
@@ -4433,16 +4433,16 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.4,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 16.25,
+     "REB": 5.0,
+     "AST": 2.0,
+     "STL": 0.25,
+     "BLK": 1.25,
+     "3PM": 1.25,
+     "FG%": 0.5,
+     "FT%": 0.76190476,
+     "TO": 3.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -4965,16 +4965,16 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
+     "PTS": 13.0,
+     "REB": 7.5,
+     "AST": 2.0,
+     "STL": 1.0,
+     "BLK": 1.0,
      "3PM": 0.0,
-     "FG%": 0.5,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "FG%": 0.58823529,
+     "FT%": 0.85714286,
+     "TO": 1.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -5313,16 +5313,16 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.55882353,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 33.25,
+     "REB": 4.75,
+     "AST": 3.5,
+     "STL": 2.0,
+     "BLK": 0.75,
+     "3PM": 4.5,
+     "FG%": 0.48076923,
+     "FT%": 0.75,
+     "TO": 3.5,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -5519,7 +5519,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
      "PTS": 16.833333333333332,
@@ -6683,16 +6683,16 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.3,
+     "PTS": 12.0,
+     "REB": 9.333333333333334,
+     "AST": 1.3333333333333333,
+     "STL": 0.6666666666666666,
+     "BLK": 3.0,
+     "3PM": 0.6666666666666666,
+     "FG%": 0.40740741,
      "FT%": 1.0,
-     "TO": 0.0,
-     "_src": "2027_last_15"
+     "TO": 1.6666666666666667,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -6803,6 +6803,30 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-17T00:05:38.172000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Dillon Brooks"
+  },
+  {
+   "date": "2026-11-17T00:05:38.172000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-17T00:01:20.002000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Devin Vassell"
+  },
+  {
+   "date": "2026-11-17T00:01:20.002000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "De'Anthony Melton"
+  },
   {
    "date": "2026-11-16T23:56:33.838000",
    "team": "Momo in Six",
@@ -7030,18 +7054,6 @@
    "team": "Akumpo",
    "action": "FA ADDED",
    "player": "Cameron Johnson"
-  },
-  {
-   "date": "2026-11-14T08:52:27.533000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Keegan Murray"
-  },
-  {
-   "date": "2026-11-14T08:52:27.533000",
-   "team": "Rubio Bzeit ",
-   "action": "WAIVER ADDED",
-   "player": "Matas Buzelis"
   }
  ],
  "schedule": {
@@ -7618,41 +7630,6 @@
    }
   },
   {
-   "name": "Devin Vassell",
-   "pos": "SG",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "SAS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.0,
-    "REB": 3.5,
-    "AST": 2.1666666666666665,
-    "STL": 1.5,
-    "BLK": 0.3333333333333333,
-    "3PM": 1.1666666666666667,
-    "FG%": 0.38461538,
-    "FT%": 0.92857143,
-    "TO": 0.3333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.304347826086957,
-    "REB": 3.5072463768115942,
-    "AST": 2.6956521739130435,
-    "STL": 0.8985507246376812,
-    "BLK": 0.4057971014492754,
-    "3PM": 2.1449275362318843,
-    "FG%": 0.451,
-    "FT%": 0.804,
-    "TO": 1.1014492753623188,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Keegan Murray",
    "pos": "PF",
    "elig": [
@@ -7722,37 +7699,37 @@
    }
   },
   {
-   "name": "Paul Reed",
-   "pos": "C",
+   "name": "Dillon Brooks",
+   "pos": "SF",
    "elig": [
-    "PF",
-    "C"
+    "SG",
+    "SF"
    ],
-   "team": "DET",
+   "team": "PHO",
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.833333333333334,
-    "REB": 8.666666666666666,
-    "AST": 2.3333333333333335,
-    "STL": 0.8333333333333334,
-    "BLK": 0.8333333333333334,
-    "3PM": 0.0,
-    "FG%": 0.46808511,
-    "FT%": 0.5625,
-    "TO": 1.6666666666666667,
+    "PTS": 12.375,
+    "REB": 4.0,
+    "AST": 1.375,
+    "STL": 0.625,
+    "BLK": 0.125,
+    "3PM": 1.625,
+    "FG%": 0.42222222,
+    "FT%": 0.76923077,
+    "TO": 1.875,
     "_src": "2027_last_15"
    },
    "proj": {
-    "PTS": 7.428571428571429,
-    "REB": 4.396825396825397,
-    "AST": 1.2063492063492063,
-    "STL": 0.9047619047619048,
-    "BLK": 0.9047619047619048,
-    "3PM": 0.19047619047619047,
-    "FG%": 0.603,
-    "FT%": 0.672,
-    "TO": 0.9047619047619048,
+    "PTS": 18.579710144927535,
+    "REB": 3.5942028985507246,
+    "AST": 1.6956521739130435,
+    "STL": 1.0,
+    "BLK": 0.2028985507246377,
+    "3PM": 2.2753623188405796,
+    "FG%": 0.434,
+    "FT%": 0.839,
+    "TO": 1.5942028985507246,
     "_src": "2027_projected"
    }
   },
@@ -8170,6 +8147,41 @@
     "FG%": 0.649,
     "FT%": 0.462,
     "TO": 1.5063291139240507,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "De'Anthony Melton",
+   "pos": "PG",
+   "elig": [
+    "PG",
+    "SG"
+   ],
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.571428571428571,
+    "REB": 4.571428571428571,
+    "AST": 2.5714285714285716,
+    "STL": 1.2857142857142858,
+    "BLK": 0.5714285714285714,
+    "3PM": 2.2857142857142856,
+    "FG%": 0.35087719,
+    "FT%": 0.73333333,
+    "TO": 1.4285714285714286,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 12.153846153846153,
+    "REB": 3.2,
+    "AST": 2.6,
+    "STL": 1.6,
+    "BLK": 0.4,
+    "3PM": 1.4923076923076923,
+    "FG%": 0.406,
+    "FT%": 0.824,
+    "TO": 1.8,
     "_src": "2027_projected"
    }
   },
@@ -13391,6 +13403,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Joel Embiid: Cleared to play Monday",
+   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
+   "published": "Mon, 16 Nov 2026 4:06:00 PM PST",
+   "summary": "Embiid (foot) is available for Monday's game against Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Amen Thompson: Ruled out Monday",
    "link": "https://www.rotowire.com//basketball/player/amen-thompson-5931",
    "published": "Mon, 16 Nov 2026 3:49:00 PM PST",
@@ -13418,11 +13437,123 @@
    "summary": "Hezonja is not listed in the starting lineup for Monday's game against Chicago, Serena Winters of FanDuel Sports Network Ohio reports.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Zach Edey: Returning Monday",
-   "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
-   "published": "Mon, 16 Nov 2026 3:15:00 PM PST",
-   "summary": "Edey (ankle) is available for Monday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Bobby Marks' NBA glossary: Trade, free agency, CBA terms to know",
+   "link": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+   "published": "Mon, 16 Nov 2026 11:37:29 EST",
+   "summary": "The world of NBA transactions is often difficult to decipher. Our resident GM is here to help.\ufeff"
+  },
+  {
+   "source": "ESPN",
+   "title": "Cavs' Mobley sidelined another 7-10 days with sprained toe",
+   "link": "https://www.espn.com/nba/story/_/id/50505177/evan-mobley-sidelined-another-7-10-days-sprained-toe",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "Cavaliers forward Evan Mobley will miss at least another seven to 10 days while he recovers from a sprained right great toe."
+  },
+  {
+   "source": "ESPN",
+   "title": "Sixers rule LeBron out vs. Nets due to lower back management",
+   "link": "https://www.espn.com/nba/story/_/id/50503255/lebron-james-ruled-vs-nets-due-lower-back-management",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "LeBron James will miss Monday's game against the Nets as the 76ers continue to manage his lower back."
+  },
+  {
+   "source": "ESPN",
+   "title": "Bulls' Buzelis, Nets' Minott fined $25K each after making obscene gestures",
+   "link": "https://www.espn.com/nba/story/_/id/50502886/bulls-buzelis-nets-minott-fined-25k-obscene-gestures",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "Bulls forward Matas Buzelis and Nets forward Josh Minott have each been fined $25,000 for making obscene gestures toward the stands during their games Saturday."
+  },
+  {
+   "source": "ESPN",
+   "title": "Grizzlies' Jackson to miss time with left foot fracture",
+   "link": "https://www.espn.com/nba/story/_/id/50502739/grizzlies-gg-jackson-miss-left-foot-fracture",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "Grizzlies reserve GG Jackson will miss time after breaking a bone in his left foot. He is scheduled to have surgery on the injury."
+  },
+  {
+   "source": "ESPN",
+   "title": "Spurs stretch winning streak to 12, hand Jazz 12th straight defeat",
+   "link": "https://www.espn.com/nba/story/_/id/50498894/spurs-stretch-winning-streak-12-hand-jazz-12th-straight-defeat",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "Dylan Harper had a game-high 31 points to keep the Spurs rolling with their 12th straight win while sending the Jazz to their 12th straight loss."
+  },
+  {
+   "source": "ESPN",
+   "title": "Young held scoreless for 1st time in NBA career as Wizards routed by Rockets",
+   "link": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "The Rockets scored a season-high 147 points against the Wizards on Sunday in their win, during which they also held Trae Young scoreless for the first time in his NBA career."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udc40 What happens when you pay $200 to try out for a G League team?",
+   "link": "https://www.espn.com/nba/story/_/id/50463046/nba-g-league-delaware-blue-coats-200-dollar-tryout",
+   "published": "Mon, 16 Nov 2026 17:27:27 EST",
+   "summary": "Former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats."
+  },
+  {
+   "source": "ESPN",
+   "title": "Is the 76ers' 11-3 start real or a mirage? We asked execs what they're seeing",
+   "link": "https://www.espn.com/nba/story/_/id/50490202/lebron-76ers-start-execs-big-questions",
+   "published": "Mon, 16 Nov 2026 11:07:23 EST",
+   "summary": "We talked to several coaches, executives and scouts about the Sixers in an attempt to get a consensus opinion on their start."
+  },
+  {
+   "source": "ESPN",
+   "title": "Updated NBA Power Rankings: The best newcomer on all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50443607/nba-power-rankings-30-teams-best-newcomer",
+   "published": "Mon, 16 Nov 2026 17:46:54 EST",
+   "summary": "Which teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
+   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "published": "Mon, 16 Nov 2026 17:46:55 EST",
+   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
+  },
+  {
+   "source": "ESPN",
+   "title": "Welcome to the Jordan Dome: Where 'Space Jam' ended and the real games began",
+   "link": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
+   "published": "Sun, 15 Nov 2026 16:07:23 EST",
+   "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen."
+  },
+  {
+   "source": "ESPN",
+   "title": "Welcome to the Space Jam: How Jordan and Bugs Bunny's magic resonates 30 years later",
+   "link": "https://www.espn.com/nba/story/_/id/50463999/space-jam-30-year-anniversary-influence",
+   "published": "Sun, 15 Nov 2026 16:07:22 EST",
+   "summary": "Three decades after its release, the basketball-meets-Looney Tunes adventure remains a pop culture staple."
+  },
+  {
+   "source": "ESPN",
+   "title": "Early trade deadline questions: Knicks, Thunder and other contenders' next steps",
+   "link": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
+   "published": "Thu, 12 Nov 2026 10:07:13 EST",
+   "summary": "With the NBA trade deadline looming, which title contenders should -- and could -- make a deal to improve?"
+  },
+  {
+   "source": "ESPN",
+   "title": "19 teams with major roster decisions",
+   "link": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
+   "published": "Thu, 12 Nov 2026 10:07:13 EST",
+   "summary": "With tax and apron penalties lurking, we examine 19 teams barreling toward core-altering decisions."
+  },
+  {
+   "source": "ESPN",
+   "title": "Fears getting chance to shine in New Orleans; Harden struggling",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50502266/fantasy-basketball-risers-fallers-keep-cut-add-today",
+   "published": "Mon, 16 Nov 2026 12:30:52 EST",
+   "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react."
+  },
+  {
+   "source": "ESPN",
+   "title": "Despite slump, Knicks' Bridges is a fantasy basketball trade target",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50473517/fantasy-basketball-nba-analytics-consistency-bridges",
+   "published": "Mon, 16 Nov 2026 12:30:52 EST",
+   "summary": "Andre explains why Mikal Bridges continues to hold fantasy value despite the poor start to his season."
   }
  ],
  "games": {
@@ -13881,6 +14012,30 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-17T00:05:38.172000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Dillon Brooks"
+  },
+  {
+   "date": "2026-11-17T00:05:38.172000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Paul Reed"
+  },
+  {
+   "date": "2026-11-17T00:01:20.002000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Devin Vassell"
+  },
+  {
+   "date": "2026-11-17T00:01:20.002000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "De'Anthony Melton"
+  },
   {
    "date": "2026-11-16T23:56:33.838000",
    "team": "Momo in Six",
@@ -16133,6 +16288,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.4
  }
 }
