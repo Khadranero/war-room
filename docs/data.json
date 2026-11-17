@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:50:23.137528Z",
+ "updated": "2026-11-17T21:00:33.279465Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -5749,7 +5749,7 @@
      "C"
     ],
     "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
      "PTS": 14.666666666666666,
@@ -9313,7 +9313,7 @@
     "SF"
    ],
    "team": "NOP",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.3333333333333335,
@@ -11048,7 +11048,7 @@
     "SG"
    ],
    "team": "HOU",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.6,
@@ -13428,6 +13428,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Smith: Fades injury report",
+   "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
+   "published": "Tue, 17 Nov 2026 12:57:00 PM PST",
+   "summary": "Smith (head) isn't listed on the injury report for Wednesday's game against Brooklyn.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Another absence coming",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Tue, 17 Nov 2026 12:51:00 PM PST",
+   "summary": "Murphy (knee) has been ruled out for Wednesday's game against Detroit.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Amen Thompson: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/amen-thompson-5931",
+   "published": "Tue, 17 Nov 2026 12:49:00 PM PST",
+   "summary": "Thompson (knee) is questionable for Wednesday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Deni Avdija: Listed as questionable",
    "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
    "published": "Tue, 17 Nov 2026 11:20:00 AM PST",
@@ -13439,27 +13460,6 @@
    "link": "https://www.rotowire.com//basketball/player/jonathan-kuminga-5287",
    "published": "Tue, 17 Nov 2026 11:03:00 AM PST",
    "summary": "Kuminga (shoulder) is out for Tuesday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Tyrese Haliburton: Still without firm timetable for return",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
-   "published": "Tue, 17 Nov 2026 10:46:00 AM PST",
-   "summary": "Head coach Rick Carlisle said Tuesday that Haliburton (hamstring) is \"getting there,\" but there's still no definitive timetable for his return to game action, Dustin Dopirak of The Indianapolis Star reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kingston Flemings: Practicing Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
-   "published": "Tue, 17 Nov 2026 10:29:00 AM PST",
-   "summary": "Flemings (back) practiced Tuesday, per Lauren L. Williams of The Atlanta Journal-Constitution.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Late addition to injury report",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Tue, 17 Nov 2026 9:29:00 AM PST",
-   "summary": "Barnes (illness) has been downgraded to questionable for Tuesday's game against the Knicks, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16236,6 +16236,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 3.7
  }
 }
