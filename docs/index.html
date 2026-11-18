@@ -538,9 +538,9 @@ const catVal=(c,v)=>(v!=null&&pct(c)&&D&&D.week&&v>1&&v<=D.week+.01)?v/D.week:v;
 const chips=(a,k)=>a.length?a.map(x=>`<span class="chip ${k}">${x}</span>`).join(''):'<span class="mut">none</span>';
 const lsGet=(k,d)=>{try{const v=localStorage.getItem(k);return v==null?d:v}catch(e){return d}};
 const lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
-let D,punts=['STL'],WP=null,SLOTDAYS=[];
-try{const s=JSON.parse(lsGet('punts','null'));if(Array.isArray(s))punts=s}catch(e){}
-const savePunts=()=>lsSet('punts',JSON.stringify(punts));
+let D,punts=['BLK'],WP=null,SLOTDAYS=[];
+try{const s=JSON.parse(lsGet('punts2','null'));if(Array.isArray(s))punts=s}catch(e){}
+const savePunts=()=>lsSet('punts2',JSON.stringify(punts));
 
 const entry=(c,t)=>D.category_table[c].find(x=>x.team===t);
 const rk=(c,t)=>{const e=entry(c,t);return e?e.rank:5.5};
