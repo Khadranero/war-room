@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T02:23:33.128248Z",
+ "updated": "2026-11-18T02:30:34.682744Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2433,7 +2433,7 @@
      "STL": 1.1666666666666667,
      "BLK": 0.16666666666666666,
      "3PM": 1.8333333333333333,
-     "FG%": 0.44444444,
+     "FG%": 0.43902439,
      "FT%": 0.91666667,
      "TO": 1.1666666666666667,
      "_src": "2027_last_15"
@@ -3841,14 +3841,14 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 20.125,
-     "REB": 13.875,
+     "PTS": 20.5,
+     "REB": 14.0,
      "AST": 4.25,
      "STL": 1.125,
      "BLK": 0.25,
      "3PM": 2.0,
-     "FG%": 0.51851852,
-     "FT%": 0.75,
+     "FG%": 0.52293578,
+     "FT%": 0.75555556,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -3981,15 +3981,15 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 15.875,
+     "PTS": 16.125,
      "REB": 4.875,
      "AST": 1.5,
      "STL": 1.25,
      "BLK": 1.0,
      "3PM": 2.25,
      "FG%": 0.38636364,
-     "FT%": 0.89130435,
-     "TO": 2.125,
+     "FT%": 0.89583333,
+     "TO": 2.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4017,7 +4017,7 @@
     "team": "NYK",
     "avg": {
      "PTS": 3.8,
-     "REB": 4.6,
+     "REB": 4.8,
      "AST": 3.6,
      "STL": 1.2,
      "BLK": 0.0,
@@ -5961,14 +5961,14 @@
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
-     "PTS": 21.0,
-     "REB": 6.75,
+     "PTS": 20.75,
+     "REB": 6.625,
      "AST": 4.375,
      "STL": 0.25,
      "BLK": 0.625,
      "3PM": 1.375,
      "FG%": 0.46376812,
-     "FT%": 0.60416667,
+     "FT%": 0.58695652,
      "TO": 2.125,
      "_src": "2027_last_15"
     },
@@ -6276,7 +6276,7 @@
      "PTS": 8.428571428571429,
      "REB": 7.857142857142857,
      "AST": 2.2857142857142856,
-     "STL": 0.7142857142857143,
+     "STL": 0.8571428571428571,
      "BLK": 0.7142857142857143,
      "3PM": 0.0,
      "FG%": 0.48076923,
@@ -7633,7 +7633,7 @@
     "PTS": 10.571428571428571,
     "REB": 6.714285714285714,
     "AST": 1.5714285714285714,
-    "STL": 0.8571428571428571,
+    "STL": 1.0,
     "BLK": 0.8571428571428571,
     "3PM": 0.0,
     "FG%": 0.65384615,
@@ -8820,15 +8820,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.75,
+    "PTS": 9.125,
     "REB": 2.0,
     "AST": 7.5,
     "STL": 1.0,
     "BLK": 0.0,
-    "3PM": 1.25,
-    "FG%": 0.36923077,
+    "3PM": 1.375,
+    "FG%": 0.37313433,
     "FT%": 0.70588235,
-    "TO": 1.75,
+    "TO": 1.875,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9156,14 +9156,14 @@
    "pct": null,
    "avg": {
     "PTS": 2.0,
-    "REB": 7.5,
+    "REB": 7.625,
     "AST": 0.75,
     "STL": 0.375,
     "BLK": 0.625,
     "3PM": 0.0,
     "FG%": 0.35294118,
     "FT%": 1.0,
-    "TO": 0.875,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -10206,13 +10206,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.875,
-    "REB": 2.0,
+    "PTS": 12.25,
+    "REB": 1.875,
     "AST": 1.375,
     "STL": 0.375,
     "BLK": 0.125,
-    "3PM": 2.25,
-    "FG%": 0.5483871,
+    "3PM": 2.375,
+    "FG%": 0.55555556,
     "FT%": 0.81818182,
     "TO": 0.75,
     "_src": "2027_last_15"
@@ -12526,7 +12526,7 @@
     "STL": 0.0,
     "BLK": 0.14285714285714285,
     "3PM": 0.5714285714285714,
-    "FG%": 0.48148148,
+    "FG%": 0.46428571,
     "FT%": 0.0,
     "TO": 0.42857142857142855,
     "_src": "2027_last_15"
@@ -12661,13 +12661,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 3.125,
-    "REB": 1.875,
-    "AST": 3.625,
+    "PTS": 3.375,
+    "REB": 2.0,
+    "AST": 3.875,
     "STL": 0.375,
     "BLK": 0.125,
     "3PM": 0.375,
-    "FG%": 0.44,
+    "FG%": 0.46153846,
     "FT%": 0.0,
     "TO": 0.625,
     "_src": "2027_last_15"
@@ -12869,7 +12869,7 @@
    "avg": {
     "PTS": 3.625,
     "REB": 2.5,
-    "AST": 0.875,
+    "AST": 1.0,
     "STL": 0.375,
     "BLK": 0.0,
     "3PM": 0.75,
@@ -13428,6 +13428,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Grayson Allen: Late scratch Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
+   "published": "Tue, 17 Nov 2026 6:19:00 PM PST",
+   "summary": "Allen (concussion-like symptoms) has been ruled out for Tuesday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cody Williams: Starting Tuesday",
    "link": "https://www.rotowire.com//basketball/player/cody-williams-6259",
    "published": "Tue, 17 Nov 2026 4:44:00 PM PST",
@@ -13453,13 +13460,6 @@
    "link": "https://www.rotowire.com//basketball/player/deandre-hunter-4776",
    "published": "Tue, 17 Nov 2026 4:33:00 PM PST",
    "summary": "Hunter (hip) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Precious Achiuwa: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/precious-achiuwa-5249",
-   "published": "Tue, 17 Nov 2026 4:30:00 PM PST",
-   "summary": "Achiuwa (ankle) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16228,6 +16228,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 4.9
  }
 }
