@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:20:22.273986Z",
+ "updated": "2026-11-18T08:30:32.928256Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -5854,7 +5854,7 @@
     "elig": [
      "C"
     ],
-    "slot": "IR",
+    "slot": "UT",
     "injury": "OUT",
     "team": "LAL",
     "avg": {
@@ -5888,7 +5888,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -5957,7 +5957,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -5992,7 +5992,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -6027,7 +6027,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -6062,7 +6062,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -6130,7 +6130,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -6165,7 +6165,7 @@
      "SG",
      "SF"
     ],
-    "slot": "G",
+    "slot": "IR",
     "injury": "OUT",
     "team": "PHL",
     "avg": {
@@ -6199,7 +6199,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -6296,30 +6296,6 @@
      "TO": 0.9047619047619048,
      "_src": "2027_projected"
     }
-   },
-   {
-    "name": "Sandro Mamukelashvili",
-    "pos": "C",
-    "elig": [
-     "PF",
-     "C"
-    ],
-    "slot": "F",
-    "injury": "ACTIVE",
-    "team": "LAL",
-    "avg": {
-     "PTS": 10.25,
-     "REB": 3.875,
-     "AST": 2.0,
-     "STL": 0.875,
-     "BLK": 0.375,
-     "3PM": 1.75,
-     "FG%": 0.42028986,
-     "FT%": 0.83333333,
-     "TO": 1.125,
-     "_src": "2027_last_15"
-    },
-    "proj": {}
    }
   ],
   "Crackheads": [
@@ -6817,6 +6793,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-18T08:26:12.121000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Sandro Mamukelashvili"
+  },
+  {
    "date": "2026-11-18T02:45:18.168000",
    "team": "Crackheads",
    "action": "DROPPED",
@@ -7043,30 +7025,6 @@
    "team": "Rubio Bzeit ",
    "action": "DROPPED",
    "player": "Mo Bamba"
-  },
-  {
-   "date": "2026-11-15T11:20:16.532000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Cameron Johnson"
-  },
-  {
-   "date": "2026-11-15T11:20:16.532000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Jamal Shead"
-  },
-  {
-   "date": "2026-11-15T11:11:35.800000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Jaylon Tyson"
-  },
-  {
-   "date": "2026-11-15T11:11:35.800000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "Rui Hachimura"
   }
  ],
  "schedule": {
@@ -8372,6 +8330,30 @@
     "TO": 1.7941176470588236,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Sandro Mamukelashvili",
+   "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "LAL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.25,
+    "REB": 3.875,
+    "AST": 2.0,
+    "STL": 0.875,
+    "BLK": 0.375,
+    "3PM": 1.75,
+    "FG%": 0.42028986,
+    "FT%": 0.83333333,
+    "TO": 1.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Jordan Poole",
@@ -13388,41 +13370,6 @@
     "_src": "2027_last_15"
    },
    "proj": {}
-  },
-  {
-   "name": "Terance Mann",
-   "pos": "SG",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "BKN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 1.6,
-    "REB": 1.4,
-    "AST": 1.4,
-    "STL": 0.6,
-    "BLK": 0.0,
-    "3PM": 0.4,
-    "FG%": 0.2,
-    "FT%": 0.0,
-    "TO": 0.2,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.323943661971831,
-    "REB": 3.0985915492957745,
-    "AST": 2.704225352112676,
-    "STL": 0.704225352112676,
-    "BLK": 0.19718309859154928,
-    "3PM": 0.8732394366197183,
-    "FG%": 0.468,
-    "FT%": 0.778,
-    "TO": 1.0,
-    "_src": "2027_projected"
-   }
   }
  ],
  "news": [
@@ -13878,6 +13825,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-18T08:26:12.121000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Sandro Mamukelashvili"
+  },
   {
    "date": "2026-11-18T02:45:18.168000",
    "team": "Crackheads",
@@ -16232,6 +16185,6 @@
   "picked_total": 3293.0,
   "direct_total": 3293.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 4.1
  }
 }
