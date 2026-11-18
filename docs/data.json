@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:40:22.698040Z",
+ "updated": "2026-11-18T11:50:23.748865Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3803,7 +3803,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -3907,7 +3907,7 @@
      "SF",
      "PF"
     ],
-    "slot": "IR",
+    "slot": "UT",
     "injury": "OUT",
     "team": "ORL",
     "avg": {
@@ -4047,7 +4047,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "IR",
     "injury": "OUT",
     "team": "ATL",
     "avg": {
@@ -4283,36 +4283,37 @@
     }
    },
    {
-    "name": "Terrence Shannon Jr.",
-    "pos": "SG",
+    "name": "Brice Sensabaugh",
+    "pos": "SF",
     "elig": [
-     "SG"
+     "SG",
+     "SF"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
-    "team": "MIN",
+    "team": "UTA",
     "avg": {
-     "PTS": 14.2,
-     "REB": 3.0,
-     "AST": 3.4,
-     "STL": 0.4,
-     "BLK": 0.0,
-     "3PM": 0.8,
-     "FG%": 0.5,
-     "FT%": 0.86206897,
-     "TO": 2.0,
+     "PTS": 11.625,
+     "REB": 4.375,
+     "AST": 1.875,
+     "STL": 0.625,
+     "BLK": 0.5,
+     "3PM": 1.75,
+     "FG%": 0.48684211,
+     "FT%": 0.625,
+     "TO": 1.75,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 9.231884057971014,
-     "REB": 2.0,
-     "AST": 1.5072463768115942,
-     "STL": 0.5072463768115942,
-     "BLK": 0.10144927536231885,
-     "3PM": 1.173913043478261,
-     "FG%": 0.453,
-     "FT%": 0.8,
-     "TO": 0.8985507246376812,
+     "PTS": 13.375,
+     "REB": 2.9027777777777777,
+     "AST": 1.6944444444444444,
+     "STL": 0.6944444444444444,
+     "BLK": 0.09722222222222222,
+     "3PM": 2.013888888888889,
+     "FG%": 0.459,
+     "FT%": 0.831,
+     "TO": 1.5,
      "_src": "2027_projected"
     }
    }
@@ -6793,6 +6794,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-18T11:48:00.499000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Terrence Shannon Jr."
+  },
+  {
+   "date": "2026-11-18T11:48:00.499000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Brice Sensabaugh"
+  },
+  {
    "date": "2026-11-18T08:26:12.121000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -8793,6 +8806,40 @@
    }
   },
   {
+   "name": "Terrence Shannon Jr.",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "MIN",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 14.2,
+    "REB": 3.0,
+    "AST": 3.4,
+    "STL": 0.4,
+    "BLK": 0.0,
+    "3PM": 0.8,
+    "FG%": 0.5,
+    "FT%": 0.86206897,
+    "TO": 2.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.231884057971014,
+    "REB": 2.0,
+    "AST": 1.5072463768115942,
+    "STL": 0.5072463768115942,
+    "BLK": 0.10144927536231885,
+    "3PM": 1.173913043478261,
+    "FG%": 0.453,
+    "FT%": 0.8,
+    "TO": 0.8985507246376812,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Jaylen Wells",
    "pos": "SF",
    "elig": [
@@ -9606,41 +9653,6 @@
     "FG%": 0.693,
     "FT%": 0.66,
     "TO": 1.0,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Brice Sensabaugh",
-   "pos": "SF",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "UTA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.625,
-    "REB": 4.375,
-    "AST": 1.875,
-    "STL": 0.625,
-    "BLK": 0.5,
-    "3PM": 1.75,
-    "FG%": 0.48684211,
-    "FT%": 0.625,
-    "TO": 1.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 13.375,
-    "REB": 2.9027777777777777,
-    "AST": 1.6944444444444444,
-    "STL": 0.6944444444444444,
-    "BLK": 0.09722222222222222,
-    "3PM": 2.013888888888889,
-    "FG%": 0.459,
-    "FT%": 0.831,
-    "TO": 1.5,
     "_src": "2027_projected"
    }
   },
@@ -13826,6 +13838,18 @@
  },
  "log": [
   {
+   "date": "2026-11-18T11:48:00.499000",
+   "team": "Akumpo",
+   "action": "DROPPED",
+   "player": "Terrence Shannon Jr."
+  },
+  {
+   "date": "2026-11-18T11:48:00.499000",
+   "team": "Akumpo",
+   "action": "FA ADDED",
+   "player": "Brice Sensabaugh"
+  },
+  {
    "date": "2026-11-18T08:26:12.121000",
    "team": "Pasta Warriors",
    "action": "DROPPED",
@@ -16185,6 +16209,6 @@
   "picked_total": 3293.0,
   "direct_total": 3293.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 2.8
  }
 }
