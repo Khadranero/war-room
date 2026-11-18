@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:40:23.304228Z",
+ "updated": "2026-11-18T17:50:26.287770Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -5959,7 +5959,7 @@
      "SF"
     ],
     "slot": "SG",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 21.0,
@@ -6131,8 +6131,8 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
-    "injury": "ACTIVE",
+    "slot": "BE",
+    "injury": "OUT",
     "team": "TOR",
     "avg": {
      "PTS": 22.333333333333332,
@@ -6200,7 +6200,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -6270,7 +6270,7 @@
      "PF",
      "C"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -7026,18 +7026,6 @@
    "team": "Pasta Warriors",
    "action": "DROPPED",
    "player": "Alex Caruso"
-  },
-  {
-   "date": "2026-11-15T20:26:37.961000",
-   "team": "Rubio Bzeit ",
-   "action": "FA ADDED",
-   "player": "Sandro Mamukelashvili"
-  },
-  {
-   "date": "2026-11-15T20:26:37.961000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Mo Bamba"
   }
  ],
  "schedule": {
@@ -13387,6 +13375,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "RJ Barrett: Questionable to face Washington",
+   "link": "https://www.rotowire.com//basketball/player/rj-barrett-4767",
+   "published": "Wed, 18 Nov 2026 9:49:00 AM PST",
+   "summary": "Barrett is questionable for Wednesday's game against the Wizards due to hamstring tightness, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Scottie Barnes: Sitting Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
+   "published": "Wed, 18 Nov 2026 9:46:00 AM PST",
+   "summary": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Luka Doncic: Drops 37 points in OT win",
    "link": "https://www.rotowire.com//basketball/player/luka-doncic-4396",
    "published": "Wed, 18 Nov 2026 2:50:00 AM PST",
@@ -13405,20 +13407,6 @@
    "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
    "published": "Wed, 18 Nov 2026 1:30:00 AM PST",
    "summary": "Ball recorded 18 points (7-17 FG, 3-8 3Pt, 1-1 FT), nine rebounds, two assists and one steal over 31 minutes during Tuesday's 106-105 victory over the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Keyonte George: Double-doubles in win",
-   "link": "https://www.rotowire.com//basketball/player/keyonte-george-5899",
-   "published": "Tue, 17 Nov 2026 10:03:00 PM PST",
-   "summary": "George popped off for 30 points (10-17 FG, 4-8 3Pt, 6-6 FT), 11 assists, two rebounds and two blocks over 35 minutes in Tuesday's 132-107 win over the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Draymond Green: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
-   "published": "Tue, 17 Nov 2026 9:49:00 PM PST",
-   "summary": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16209,6 +16197,6 @@
   "picked_total": 3293.0,
   "direct_total": 3293.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 3.9
  }
 }
