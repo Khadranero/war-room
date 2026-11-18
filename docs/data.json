@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:00:36.693928Z",
+ "updated": "2026-11-18T15:10:26.218480Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2320,7 +2320,7 @@
      "SG"
     ],
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "LAL",
     "avg": {
      "PTS": 26.75,
@@ -4928,7 +4928,7 @@
      "PF"
     ],
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "POR",
     "avg": {
      "PTS": 24.428571428571427,
@@ -5856,7 +5856,7 @@
      "C"
     ],
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "LAL",
     "avg": {
      "PTS": 14.666666666666666,
@@ -6715,7 +6715,7 @@
      "PF"
     ],
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "MIN",
     "avg": {
      "PTS": 12.5,
@@ -7878,7 +7878,7 @@
     "SG"
    ],
    "team": "CHA",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 15.0,
@@ -12016,7 +12016,7 @@
     "PF"
    ],
    "team": "DET",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 3.2,
@@ -16209,6 +16209,6 @@
   "picked_total": 3293.0,
   "direct_total": 3293.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 4.8
  }
 }
