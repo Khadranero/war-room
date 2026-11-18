@@ -331,6 +331,21 @@ h2{font-size:16.5px}
 .mxleg{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:8px;font-size:12.5px;color:var(--mut)}
 .mxleg i{display:block;width:120px;height:8px;border-radius:99px;background:linear-gradient(90deg,color-mix(in srgb,var(--bad) 55%,transparent),var(--in) 50%,color-mix(in srgb,var(--good) 60%,transparent))}
 /* ===== Live matrix ===== */
+#cats .tg{border:1px solid color-mix(in srgb,var(--tx) 22%,transparent);background:none;color:var(--tx);border-radius:999px;padding:5px 12px;font:600 12.5px "Barlow",system-ui,sans-serif;cursor:pointer;transition:background .2s,color .2s}
+#cats .tg:hover,#cats .tg.on{background:var(--ac);color:#10131f;border-color:var(--ac)}
+#cats .mxopt,#cats .mxcell,#cats .mxsv{padding:12px 14px;margin-bottom:10px;border-radius:12px;background:color-mix(in srgb,var(--tx) 5%,transparent);font-size:13px;animation:mxin .3s ease}
+#cats .mxopt h4{margin:0 0 8px;font:700 14px "Barlow",sans-serif;color:var(--ac)}
+#cats .mv{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:8px 0;border-top:1px solid color-mix(in srgb,var(--tx) 10%,transparent)}
+#cats .mv .wl{margin-top:4px}#cats .mxopt .foot{margin-top:8px}
+#cats .mxsv{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px 12px}
+#cats .chip.sv{flex-direction:row;gap:8px;align-items:center;padding:4px 10px}#cats .chip.sv i{font-style:normal;opacity:.6}
+#cats .mxcell>div:first-child{display:flex;justify-content:space-between;margin-bottom:6px}
+#cats .mxcell button{all:unset;cursor:pointer;color:var(--mut);padding:0 4px}
+#cats .prs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0}
+#cats .prs em{font-style:normal;font-weight:700;color:var(--mut);min-width:64px}
+#cats .pr{padding:2px 8px;border-radius:8px;background:color-mix(in srgb,var(--tx) 8%,transparent)}
+#cats .pr.g{background:color-mix(in srgb,var(--good) 20%,transparent)}#cats .pr.r{background:color-mix(in srgb,var(--bad) 20%,transparent)}
+#cats td.mx[data-k]{cursor:pointer}
 #cats .mxbar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:2px 0 10px}
 #cats .seg{display:inline-flex;background:color-mix(in srgb,var(--tx) 7%,transparent);border-radius:999px;padding:3px}
 #cats .seg button{border:0;background:none;color:var(--mut);font:600 12.5px "Barlow",system-ui,sans-serif;padding:6px 12px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
@@ -1656,7 +1671,9 @@ if(D){render()}
 /* ===== Live matrix: what-if trades, view modes, matchup preview, change flashes ===== */
 (function(){
 let MS=null;
-const st={mode:'val',hidePunt:false,open:null,vs:null,stale:false};
+const st={mode:'val',hidePunt:false,open:null,vs:null,stale:false,opt:false,cell:null};
+let SAVED=[];try{SAVED=JSON.parse(localStorage.getItem('wr_mxs')||'[]')}catch(e){}
+const saveS=()=>{try{localStorage.setItem('wr_mxs',JSON.stringify(SAVED))}catch(e){}};
 try{const s=JSON.parse(localStorage.getItem('wr_mx')||'{}');if(s.mode)st.mode=s.mode;st.hidePunt=!!s.hidePunt}catch(e){}
 const save=()=>{try{localStorage.setItem('wr_mx',JSON.stringify({mode:st.mode,hidePunt:st.hidePunt}))}catch(e){}};
 const SIM={},LAST={};
@@ -1709,7 +1726,7 @@ function draw(){
   const seg=(k,l)=>`<button class="${st.mode===k?'on':''}" data-m="${k}">${l}</button>`;
   const tb=`<div class="mxbar"><div class="seg" role="group" aria-label="View">${seg('val','Values')}${seg('rank','Ranks')}${seg('med','vs median')}${seg('me','vs me')}</div>
     <label class="chk"><input type="checkbox" id="mxhp" ${st.hidePunt?'checked':''}> Hide punted</label>
-    ${sim?'<button class="rst" id="mxrst">Reset what-if</button>':'<span class="hint">Tap a team name to test trades</span>'}
+    <button class="tg ${st.opt?'on':''}" id="mxopt">Find best moves</button>${sim?'<button class="tg" id="mxsave">Save scenario</button><button class="rst" id="mxrst">Reset what-if</button>':'<span class="hint">Tap a team name to test trades, tap a cell to see who drives it</span>'}
     <span class="liv ${st.stale?'stale':''}"><i></i>${st.stale?'<a href="#" id="mxrl">New data, reload</a>':'Updated '+when(D.updated)}</span></div>`;
   // matchup preview
   const others=teams.filter(t=>t!==me);if(!st.vs||!others.includes(st.vs))st.vs=others[0];
@@ -1729,7 +1746,7 @@ function draw(){
     const d=touched(t)&&rk0!==orig?`<em class="dl ${rk0<orig?'up':'dn'}">${rk0<orig?'▲':'▼'}${Math.abs(orig-rk0)}</em>`:'';
     const k=t+'|'+c,o=LAST[k];let fl='';
     if(o!=null&&Math.abs(o-v)>1e-9)fl=better(c,v,o)?'fl-up':'fl-dn';
-    return `<td class="n mx ${punts.includes(c)?'pn':''} ${rk0===1?'best':''} ${fl}" data-c="${c}" data-k="${esc(k)}" data-v="${v}" data-o="${o==null?'':o}" style="--g:${g.toFixed(2)};--b:${b.toFixed(2)}" title="${esc(t.trim())}: rank ${rk0} of ${n} in ${c}${d?' (was '+orig+')':''}">${body}${d}</td>`;
+    return `<td class="n mx ${punts.includes(c)?'pn':''} ${rk0===1?'best':''} ${fl}" data-c="${c}" data-t="${esc(t)}" data-k="${esc(k)}" data-v="${v}" data-o="${o==null?'':o}" style="--g:${g.toFixed(2)};--b:${b.toFixed(2)}" title="${esc(t.trim())}: rank ${rk0} of ${n} in ${c}${d?' (was '+orig+')':''}">${body}${d}</td>`;
   };
   const head='<tr><th>Team</th>'+cats.map(c=>`<th class="n srt ${MS===c?'on':''} ${punts.includes(c)?'pn':''}" data-c="${c}" title="Sort by ${c}">${c}${MS===c?' ▾':''}</th>`).join('')+'</tr>';
   const rows=order.map(t=>{
@@ -1739,7 +1756,7 @@ function draw(){
     return h;
   }).join('');
   const medr=`<tr class="med"><td class="tm" style="background:none">League median</td>${cats.map(c=>`<td class="n mx" data-c="${c}">${fmt(c,M[c])}</td>`).join('')}</tr>`;
-  const sum=sim?summary(R,teams,me):'';
+  const sum=(sim?summary(R,teams,me):'')+(SAVED.length?savedBar():'')+(st.opt?optPanel(R,teams,me):'')+(st.cell?cellPanel():'');
   el.innerHTML=tb+vsb+sum+`<table>${head}${rows}${medr}</table><div class="mxleg"><span>Weakest</span><i></i><span>Strongest</span><span>· Small number is the league rank · Tap a category to sort</span></div>`;
   // new LAST
   D.cats.forEach(c=>teams.forEach(t=>{if(V[c][t]!=null)LAST[t+'|'+c]=V[c][t]}));
@@ -1773,6 +1790,13 @@ function bind(el){
   el.querySelectorAll('.mxbar .seg button').forEach(b=>b.onclick=()=>{st.mode=b.dataset.m;save();draw()});
   const hp=el.querySelector('#mxhp');if(hp)hp.onchange=()=>{st.hidePunt=hp.checked;save();draw()};
   const rs=el.querySelector('#mxrst');if(rs)rs.onclick=()=>{Object.keys(SIM).forEach(k=>delete SIM[k]);draw()};
+  const bo=el.querySelector('#mxopt');if(bo)bo.onclick=()=>{st.opt=!st.opt;draw()};
+  const bs=el.querySelector('#mxsave');if(bs)bs.onclick=()=>{const nm=Object.keys(SIM).filter(touched).map(t=>t.trim().split(' ')[0]).join(' + ')||'Scenario';SAVED.push({n:nm+' #'+(SAVED.length+1),s:JSON.parse(JSON.stringify(SIM))});if(SAVED.length>6)SAVED.shift();saveS();draw()};
+  el.querySelectorAll('[data-sv]').forEach(b=>b.onclick=()=>{const s=SAVED[+b.dataset.sv];if(!s)return;Object.keys(SIM).forEach(k=>delete SIM[k]);Object.assign(SIM,JSON.parse(JSON.stringify(s.s)));draw()});
+  el.querySelectorAll('[data-svx]').forEach(b=>b.onclick=e=>{e.stopPropagation();SAVED.splice(+b.dataset.svx,1);saveS();draw()});
+  el.querySelectorAll('[data-try]').forEach(b=>b.onclick=()=>{const m=MOVES[+b.dataset.try];if(!m)return;const me=meName(),s=sg(me);s.drop.push(m.drop.name);s.add.push({p:m.p,from:m.from});st.open=me;draw()});
+  el.querySelectorAll('td.mx[data-k]').forEach(td=>td.addEventListener('click',()=>{const o=st.cell&&st.cell.t===td.dataset.t&&st.cell.c===td.dataset.c;st.cell=o?null:{t:td.dataset.t,c:td.dataset.c};draw()}));
+  const cc=el.querySelector('#mxcx');if(cc)cc.onclick=()=>{st.cell=null;draw()};
   const rl=el.querySelector('#mxrl');if(rl)rl.onclick=e=>{e.preventDefault();location.reload()};
   const vs=el.querySelector('#mxvs');if(vs)vs.onchange=()=>{st.vs=vs.value;draw()};
   el.querySelectorAll('.tn').forEach(b=>b.onclick=()=>{st.open=st.open===b.dataset.t?null:b.dataset.t;draw()});
@@ -1797,6 +1821,47 @@ function animate(el){
     const step=now=>{const k=Math.min(1,(now-t0)/450),e=1-Math.pow(1-k,3);td.innerHTML=fmt(c,a+(b-a)*e)+tail;if(k<1)requestAnimationFrame(step)};
     requestAnimationFrame(step);
   });
+}
+let MOVES=[];
+function savedBar(){return `<div class="mxsv"><span>Saved</span>${SAVED.map((s,i)=>`<button class="chip sv" data-sv="${i}" title="Load this scenario"><b>${esc(s.n)}</b><i data-svx="${i}" title="Delete">✕</i></button>`).join('')}</div>`}
+function cellPanel(){
+  const {t,c}=st.cell;if(!D.rosters[t])return '';
+  const ps=roster(t).filter(live).map(p=>({p,v:pv(p)[c],z:z(p,c)})).filter(x=>x.v!=null).sort((a,b)=>b.z-a.z);
+  const row=x=>`<span class="pr ${x.z>0.5?'g':x.z<-0.5?'r':''}"><b>${esc(x.p.name)}</b> ${fmt(c,x.v)}</span>`;
+  return `<div class="mxcell"><div><b>${esc(t.trim())}</b> in ${c}, per game<button id="mxcx" aria-label="Close">✕</button></div><div class="prs"><em>Drives it</em>${ps.slice(0,3).map(row).join('')}</div><div class="prs"><em>Drags it</em>${ps.slice(-3).reverse().map(row).join('')}</div></div>`;
+}
+function optPanel(R,teams,me){
+  const n=teams.length,cs=D.cats.filter(c=>!punts.includes(c));
+  const base=roster(me),cur={};D.cats.forEach(c=>cur[c]=shown(me,c));
+  const others=teams.filter(t=>t!==me),OV={};
+  D.cats.forEach(c=>{OV[c]={};others.forEach(t=>OV[c][t]=shown(t,c))});
+  const myVal=(c,r)=>{const e=entry(c,me);return catVal(c,e.value)+val(c,r)-val(c,D.rosters[me])};
+  const score=(vals,adj)=>{let s=0;const rr={};cs.forEach(c=>{let r=1;others.forEach(t=>{let o=OV[c][t];if(adj&&adj.t===t)o=adj.v[c];if(o!=null&&better(c,o,vals[c]))r++});rr[c]=r;s+=n+1-r});return {s,rr}};
+  const b0=score(cur);
+  const cands=[];
+  (D.free_agents||[]).filter(hasStats).sort((a,b)=>tz(b)-tz(a)).slice(0,30).forEach(p=>cands.push({p,from:null}));
+  others.forEach(o=>D.rosters[o].filter(p=>hasStats(p)&&p.slot!=='IR').sort((a,b)=>tz(b)-tz(a)).slice(0,6).forEach(p=>cands.push({p,from:o})));
+  const have=new Set(base.map(p=>p.name));
+  const res=[];
+  cands.forEach(cd=>{
+    if(have.has(cd.p.name))return;
+    let adj=null;
+    if(cd.from){const ro=roster(cd.from).filter(p=>p.name!==cd.p.name),v={};D.cats.forEach(c=>{const e=entry(c,cd.from);v[c]=catVal(c,e.value)+val(c,ro)-val(c,D.rosters[cd.from])});adj={t:cd.from,v}}
+    base.filter(p=>live(p)).forEach(d=>{
+      const r=base.filter(p=>p.name!==d.name).concat([{...cd.p,slot:'',injury:'ACTIVE'}]),vals={};
+      D.cats.forEach(c=>vals[c]=myVal(c,r));
+      const sc=score(vals,adj);const gain=sc.s-b0.s;
+      if(gain>0)res.push({p:cd.p,from:cd.from,drop:d,gain,rr:sc.rr});
+    });
+  });
+  res.sort((a,b)=>b.gain-a.gain);
+  const seen=new Set(),pick=[];
+  for(const m of res){const k=m.p.name;if(seen.has(k))continue;seen.add(k);pick.push(m);if(pick.length>=5)break}
+  MOVES=pick;
+  if(!pick.length)return '<div class="mxopt"><h4>Best moves</h4><div class="hint">No single swap improves your category ranks right now.</div></div>';
+  return `<div class="mxopt"><h4>Best single moves for ${esc(me.trim())}</h4>${pick.map((m,i)=>{
+    const ch=cs.filter(c=>m.rr[c]!==b0.rr[c]).map(c=>`<i class="${m.rr[c]<b0.rr[c]?'g':'r'}">${c} ${b0.rr[c]}→${m.rr[c]}</i>`).join('');
+    return `<div class="mv"><div><b>Add ${esc(m.p.name)}</b> <span class="hint">${m.from?'trade target on '+esc(m.from.trim()):'free agent'} · drop ${esc(m.drop.name)}</span><div class="wl">${ch}</div></div><button class="tg" data-try="${i}">Try it</button></div>`}).join('')}<div class="hint foot">Ranked by total rank points across your non-punted categories. Trade targets ignore whether the other team would agree.</div></div>`;
 }
 window.drawMatrix=draw;
 // keep the "updated" label and stale check alive
