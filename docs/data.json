@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T05:50:24.639332Z",
+ "updated": "2026-11-18T06:00:32.237165Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2462,13 +2462,13 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 7.2,
-     "REB": 10.2,
+     "PTS": 7.6,
+     "REB": 10.6,
      "AST": 1.6,
      "STL": 0.6,
      "BLK": 1.2,
      "3PM": 0.0,
-     "FG%": 0.51851852,
+     "FG%": 0.53571429,
      "FT%": 0.66666667,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -3527,15 +3527,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 11.142857142857142,
+     "PTS": 11.857142857142858,
      "REB": 1.7142857142857142,
      "AST": 3.142857142857143,
      "STL": 0.42857142857142855,
      "BLK": 0.14285714285714285,
      "3PM": 1.1428571428571428,
-     "FG%": 0.36,
-     "FT%": 0.94117647,
-     "TO": 3.0,
+     "FG%": 0.36363636,
+     "FT%": 0.95,
+     "TO": 3.142857142857143,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4826,13 +4826,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 38.42857142857143,
+     "PTS": 38.714285714285715,
      "REB": 5.571428571428571,
      "AST": 7.714285714285714,
      "STL": 1.7142857142857142,
      "BLK": 0.42857142857142855,
      "3PM": 4.857142857142857,
-     "FG%": 0.47777778,
+     "FG%": 0.47540984,
      "FT%": 0.81818182,
      "TO": 4.0,
      "_src": "2027_last_15"
@@ -5453,7 +5453,7 @@
     "team": "CHA",
     "avg": {
      "PTS": 18.857142857142858,
-     "REB": 7.571428571428571,
+     "REB": 7.857142857142857,
      "AST": 2.857142857142857,
      "STL": 1.0,
      "BLK": 0.42857142857142855,
@@ -6314,7 +6314,7 @@
      "STL": 0.875,
      "BLK": 0.375,
      "3PM": 1.75,
-     "FG%": 0.41791045,
+     "FG%": 0.41176471,
      "FT%": 0.83333333,
      "TO": 1.0,
      "_src": "2027_last_15"
@@ -7965,7 +7965,7 @@
     "C"
    ],
    "team": "GSW",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 3.2857142857142856,
@@ -8060,13 +8060,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.125,
+    "PTS": 10.5,
     "REB": 1.375,
     "AST": 2.75,
     "STL": 0.25,
     "BLK": 0.25,
-    "3PM": 0.75,
-    "FG%": 0.46666667,
+    "3PM": 0.875,
+    "FG%": 0.47540984,
     "FT%": 0.73076923,
     "TO": 1.25,
     "_src": "2027_last_15"
@@ -10982,7 +10982,7 @@
    "pct": null,
    "avg": {
     "PTS": 5.142857142857143,
-    "REB": 3.142857142857143,
+    "REB": 3.4285714285714284,
     "AST": 0.8571428571428571,
     "STL": 0.7142857142857143,
     "BLK": 0.0,
@@ -11385,7 +11385,7 @@
    "avg": {
     "PTS": 7.428571428571429,
     "REB": 4.142857142857143,
-    "AST": 3.0,
+    "AST": 3.142857142857143,
     "STL": 1.0,
     "BLK": 0.0,
     "3PM": 1.4285714285714286,
@@ -11778,7 +11778,7 @@
     "STL": 0.0,
     "BLK": 0.3333333333333333,
     "3PM": 2.3333333333333335,
-    "FG%": 0.45833333,
+    "FG%": 0.44,
     "FT%": 1.0,
     "TO": 0.3333333333333333,
     "_src": "2027_last_15"
@@ -12577,13 +12577,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 8.666666666666666,
+    "PTS": 9.166666666666666,
     "REB": 1.6666666666666667,
     "AST": 2.6666666666666665,
     "STL": 0.5,
     "BLK": 0.16666666666666666,
-    "3PM": 1.8333333333333333,
-    "FG%": 0.41860465,
+    "3PM": 2.0,
+    "FG%": 0.41304348,
     "FT%": 1.0,
     "TO": 1.8333333333333333,
     "_src": "2027_last_15"
@@ -13451,6 +13451,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Draymond Green: Questionable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
+   "published": "Tue, 17 Nov 2026 9:49:00 PM PST",
+   "summary": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cade Cunningham: Scores team-high 27 points in win",
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Tue, 17 Nov 2026 8:13:00 PM PST",
@@ -13476,13 +13483,6 @@
    "link": "https://www.rotowire.com//basketball/player/jrue-holiday-3029",
    "published": "Tue, 17 Nov 2026 7:54:00 PM PST",
    "summary": "Holiday tallied 23 points (7-19 FG, 5-9 3Pt, 4-6 FT), five rebounds, six assists, two steals and one block over 31 minutes in Tuesday's 106-105 loss to the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dylan Harper: Leaves early after awkward fall Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
-   "published": "Tue, 17 Nov 2026 7:50:00 PM PST",
-   "summary": "Harper left Tuesday's game against the Spurs due to an undisclosed injury after an awkward fall, Chris Mannix reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16255,6 +16255,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 4.1
+  "run_seconds": 4.7
  }
 }
