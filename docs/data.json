@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:10:25.351063Z",
+ "updated": "2026-11-18T04:20:30.529952Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2462,15 +2462,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 8.25,
-     "REB": 10.0,
-     "AST": 2.0,
-     "STL": 0.75,
-     "BLK": 1.25,
+     "PTS": 6.6,
+     "REB": 8.8,
+     "AST": 1.6,
+     "STL": 0.6,
+     "BLK": 1.0,
      "3PM": 0.0,
      "FG%": 0.5,
      "FT%": 0.7,
-     "TO": 2.0,
+     "TO": 1.6,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3088,15 +3088,15 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 18.22222222222222,
+     "PTS": 18.555555555555557,
      "REB": 4.111111111111111,
      "AST": 4.111111111111111,
-     "STL": 1.2222222222222223,
+     "STL": 1.3333333333333333,
      "BLK": 1.0,
-     "3PM": 2.4444444444444446,
-     "FG%": 0.42962963,
+     "3PM": 2.5555555555555554,
+     "FG%": 0.42446043,
      "FT%": 0.86666667,
-     "TO": 2.0,
+     "TO": 2.111111111111111,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3527,15 +3527,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 11.666666666666666,
-     "REB": 1.8333333333333333,
-     "AST": 3.1666666666666665,
+     "PTS": 10.0,
+     "REB": 1.7142857142857142,
+     "AST": 3.0,
      "STL": 0.0,
-     "BLK": 0.16666666666666666,
-     "3PM": 1.0,
+     "BLK": 0.14285714285714285,
+     "3PM": 0.8571428571428571,
      "FG%": 0.35820896,
      "FT%": 0.94117647,
-     "TO": 2.8333333333333335,
+     "TO": 2.5714285714285716,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4155,13 +4155,13 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 12.333333333333334,
+     "PTS": 12.555555555555555,
      "REB": 4.888888888888889,
      "AST": 1.7777777777777777,
      "STL": 0.8888888888888888,
      "BLK": 0.6666666666666666,
      "3PM": 1.5555555555555556,
-     "FG%": 0.44897959,
+     "FG%": 0.45,
      "FT%": 0.81818182,
      "TO": 1.5555555555555556,
      "_src": "2027_last_15"
@@ -4397,15 +4397,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 10.0,
-     "REB": 2.25,
-     "AST": 2.5,
-     "STL": 0.5,
+     "PTS": 9.0,
+     "REB": 1.8,
+     "AST": 2.0,
+     "STL": 0.4,
      "BLK": 0.0,
-     "3PM": 1.25,
-     "FG%": 0.24528302,
+     "3PM": 1.2,
+     "FG%": 0.26785714,
      "FT%": 0.9,
-     "TO": 1.25,
+     "TO": 1.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4560,15 +4560,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 5.857142857142857,
-     "REB": 2.7142857142857144,
-     "AST": 0.8571428571428571,
-     "STL": 2.5714285714285716,
-     "BLK": 1.0,
-     "3PM": 1.2857142857142858,
-     "FG%": 0.37837838,
+     "PTS": 5.125,
+     "REB": 2.5,
+     "AST": 0.75,
+     "STL": 2.375,
+     "BLK": 0.875,
+     "3PM": 1.125,
+     "FG%": 0.36842105,
      "FT%": 1.0,
-     "TO": 1.4285714285714286,
+     "TO": 1.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4632,13 +4632,13 @@
     "avg": {
      "PTS": 17.75,
      "REB": 4.5,
-     "AST": 6.625,
+     "AST": 6.875,
      "STL": 0.875,
      "BLK": 0.375,
      "3PM": 1.625,
      "FG%": 0.39495798,
      "FT%": 0.83333333,
-     "TO": 2.875,
+     "TO": 3.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4826,15 +4826,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 40.333333333333336,
-     "REB": 6.166666666666667,
-     "AST": 8.166666666666666,
-     "STL": 2.0,
-     "BLK": 0.5,
-     "3PM": 5.0,
-     "FG%": 0.49032258,
-     "FT%": 0.83333333,
-     "TO": 4.0,
+     "PTS": 34.57142857142857,
+     "REB": 5.285714285714286,
+     "AST": 7.142857142857143,
+     "STL": 1.7142857142857142,
+     "BLK": 0.42857142857142855,
+     "3PM": 4.285714285714286,
+     "FG%": 0.47798742,
+     "FT%": 0.81081081,
+     "TO": 3.4285714285714284,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5452,15 +5452,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 18.833333333333332,
-     "REB": 7.666666666666667,
-     "AST": 2.6666666666666665,
-     "STL": 1.0,
-     "BLK": 0.3333333333333333,
-     "3PM": 2.3333333333333335,
-     "FG%": 0.4,
+     "PTS": 16.857142857142858,
+     "REB": 6.714285714285714,
+     "AST": 2.5714285714285716,
+     "STL": 0.8571428571428571,
+     "BLK": 0.2857142857142857,
+     "3PM": 2.142857142857143,
+     "FG%": 0.41071429,
      "FT%": 0.61111111,
-     "TO": 2.3333333333333335,
+     "TO": 2.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6800,15 +6800,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 9.8,
-     "REB": 2.4,
-     "AST": 2.0,
-     "STL": 1.2,
-     "BLK": 0.2,
-     "3PM": 1.6,
-     "FG%": 0.47058824,
+     "PTS": 8.5,
+     "REB": 2.0,
+     "AST": 1.8333333333333333,
+     "STL": 1.0,
+     "BLK": 0.16666666666666666,
+     "3PM": 1.3333333333333333,
+     "FG%": 0.47222222,
      "FT%": 0.69230769,
-     "TO": 1.4,
+     "TO": 1.1666666666666667,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -7711,15 +7711,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.8,
-    "REB": 2.4,
-    "AST": 2.0,
-    "STL": 1.2,
-    "BLK": 0.2,
-    "3PM": 1.6,
-    "FG%": 0.47058824,
+    "PTS": 8.5,
+    "REB": 2.0,
+    "AST": 1.8333333333333333,
+    "STL": 1.0,
+    "BLK": 0.16666666666666666,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.47222222,
     "FT%": 0.69230769,
-    "TO": 1.4,
+    "TO": 1.1666666666666667,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -8337,14 +8337,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.142857142857142,
-    "REB": 2.0,
+    "PTS": 11.142857142857142,
+    "REB": 2.142857142857143,
     "AST": 2.7142857142857144,
     "STL": 0.7142857142857143,
     "BLK": 0.14285714285714285,
-    "3PM": 1.5714285714285714,
-    "FG%": 0.45454545,
-    "FT%": 0.83333333,
+    "3PM": 1.7142857142857142,
+    "FG%": 0.47826087,
+    "FT%": 0.84615385,
     "TO": 1.1428571428571428,
     "_src": "2027_last_15"
    },
@@ -9076,15 +9076,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.285714285714286,
-    "REB": 4.285714285714286,
-    "AST": 3.0,
-    "STL": 0.7142857142857143,
-    "BLK": 0.8571428571428571,
-    "3PM": 1.0,
-    "FG%": 0.42857143,
+    "PTS": 6.0,
+    "REB": 3.875,
+    "AST": 2.75,
+    "STL": 0.625,
+    "BLK": 0.75,
+    "3PM": 0.875,
+    "FG%": 0.45945946,
     "FT%": 0.58333333,
-    "TO": 1.4285714285714286,
+    "TO": 1.25,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -9593,13 +9593,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.5,
-    "REB": 3.6666666666666665,
+    "PTS": 8.166666666666666,
+    "REB": 4.333333333333333,
     "AST": 1.5,
     "STL": 0.5,
     "BLK": 0.8333333333333334,
     "3PM": 0.3333333333333333,
-    "FG%": 0.61290323,
+    "FG%": 0.63636364,
     "FT%": 0.625,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -9732,11 +9732,11 @@
    "avg": {
     "PTS": 8.428571428571429,
     "REB": 3.0,
-    "AST": 3.2857142857142856,
+    "AST": 3.4285714285714284,
     "STL": 1.0,
     "BLK": 0.0,
     "3PM": 2.0,
-    "FG%": 0.37735849,
+    "FG%": 0.36363636,
     "FT%": 0.83333333,
     "TO": 0.42857142857142855,
     "_src": "2027_last_15"
@@ -10270,7 +10270,7 @@
     "STL": 0.6666666666666666,
     "BLK": 0.3333333333333333,
     "3PM": 1.0,
-    "FG%": 0.38888889,
+    "FG%": 0.38356164,
     "FT%": 0.77777778,
     "TO": 1.5555555555555556,
     "_src": "2027_last_15"
@@ -11727,14 +11727,14 @@
    "pct": null,
    "avg": {
     "PTS": 7.714285714285714,
-    "REB": 2.4285714285714284,
-    "AST": 3.0,
-    "STL": 0.14285714285714285,
+    "REB": 2.5714285714285716,
+    "AST": 3.142857142857143,
+    "STL": 0.2857142857142857,
     "BLK": 0.14285714285714285,
     "3PM": 1.2857142857142858,
-    "FG%": 0.37777778,
+    "FG%": 0.36170213,
     "FT%": 1.0,
-    "TO": 1.2857142857142858,
+    "TO": 1.4285714285714286,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -11772,15 +11772,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.0,
-    "REB": 2.0,
-    "AST": 1.0,
+    "PTS": 8.0,
+    "REB": 1.6666666666666667,
+    "AST": 0.6666666666666666,
     "STL": 0.0,
-    "BLK": 0.5,
-    "3PM": 2.5,
-    "FG%": 0.5,
+    "BLK": 0.3333333333333333,
+    "3PM": 1.6666666666666667,
+    "FG%": 0.4,
     "FT%": 1.0,
-    "TO": 0.5,
+    "TO": 0.3333333333333333,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -13451,6 +13451,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Cade Cunningham: Scores team-high 27 points in win",
+   "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
+   "published": "Tue, 17 Nov 2026 8:13:00 PM PST",
+   "summary": "Cunningham posted 27 points (12-25 FG, 1-4 3Pt, 2-3 FT), five rebounds, six assists and one block across 38 minutes in Tuesday's 105-93 win over the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ayo Dosunmu: Scores season-high 30 points in win",
    "link": "https://www.rotowire.com//basketball/player/ayo-dosunmu-5337",
    "published": "Tue, 17 Nov 2026 8:01:00 PM PST",
@@ -13478,25 +13485,101 @@
    "summary": "Harper left Tuesday's game against the Spurs due to an undisclosed injury after an awkward fall, Chris Mannix reports.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Karl-Anthony Towns: Comes close to triple-double",
-   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
-   "published": "Tue, 17 Nov 2026 7:49:00 PM PST",
-   "summary": "Towns delivered 16 points (7-9 FG, 1-2 3Pt, 1-1 FT), 16 rebounds, eight assists and a steal across 36 minutes in Tuesday's 111-102 win over the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Spurs guard Harper limps off in pain after slip on court",
+   "link": "https://www.espn.com/nba/story/_/id/50517203/spurs-dylan-harper-limps-pain-slip-court",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "Spurs second-year guard Dylan Harper limped off in pain after appearing to slip on the court late in Tuesday's loss to the Pistons."
+  },
+  {
+   "source": "ESPN",
+   "title": "Rozier co-defendant signals intent to change plea in NBA betting case",
+   "link": "https://www.espn.com/nba/story/_/id/50513416/deniro-laster-terry-rozier-friend-change-plea-nba-betting",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "Deniro Laster, a co-defendant in the federal sports betting case involving NBA player Terry Rozier, has signaled his intent to plead guilty."
+  },
+  {
+   "source": "ESPN",
+   "title": "76ers' Brown to miss Wednesday's game vs. Magic with hamstring strain",
+   "link": "https://www.espn.com/nba/story/_/id/50514320/76ers-brown-hamstring-miss-wednesday-game-vs-magic",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "Philadelphia 76ers forward Jaylen Brown will miss Wednesday's game against the Orlando Magic with a left hamstring strain, the Sixers announced Tuesday afternoon."
+  },
+  {
+   "source": "ESPN",
+   "title": "LeBron sues makers of AI sports-betting app 'Bron,' cites 'willful, bad-faith tactic'",
+   "link": "https://www.espn.com/nba/story/_/id/50514699/76ers-lebron-james-sues-makers-ai-sports-betting-app-bron",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "NBA superstar LeBron James sued the makers of an AI sports-betting app Tuesday, saying they have deliberately violated his publicity rights and trademarks by calling it \"Bron\" and using artificially generated images of him in their marketing."
+  },
+  {
+   "source": "ESPN",
+   "title": "Hawks lose guard McCollum for at least 4 weeks with calf strain",
+   "link": "https://www.espn.com/nba/story/_/id/50513506/hawks-lose-cj-mccollum-least-4-weeks-calf-strain",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "Atlanta Hawks guard CJ McCollum will miss at least four weeks with a left calf strain, the team announced Tuesday."
+  },
+  {
+   "source": "ESPN",
+   "title": "Raptors say Leonard out at least another week",
+   "link": "https://www.espn.com/nba/story/_/id/50514496/raptors-kawhi-leonard-progressing-another-week",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "The Raptors said Tuesday that while Kawhi Leonard is progressing in his recovery from left knee swelling, he will remain out for at least another week."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udd25 Heat unveil 'A Night in Vice City' court ahead of GTA VI release",
+   "link": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
+   "published": "Tue, 17 Nov 2026 22:57:38 EST",
+   "summary": "With Grand Theft Auto VI's long-awaited release date set for Nov. 19, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before."
+  },
+  {
+   "source": "ESPN",
+   "title": "Steph Curry confronts his 'basketball mortality'",
+   "link": "https://www.espn.com/nba/story/_/id/50503111/steph-curry-warriors-race-injuries",
+   "published": "Tue, 17 Nov 2026 19:07:43 EST",
+   "summary": "At 38, Curry is still brilliant -- but managing his body has become the biggest battle of his career."
+  },
+  {
+   "source": "ESPN",
+   "title": "What the NBA's first month has revealed about all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+   "published": "Tue, 17 Nov 2026 08:54:13 EST",
+   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA buzz: Latest news, updates and intel for the 2026-27 season",
+   "link": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+   "published": "Tue, 17 Nov 2026 12:47:16 EST",
+   "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders."
+  },
+  {
+   "source": "ESPN",
+   "title": "Is the 76ers' fast start real or a mirage? We asked execs what they're seeing",
+   "link": "https://www.espn.com/nba/story/_/id/50490202/lebron-76ers-start-execs-big-questions",
+   "published": "Tue, 17 Nov 2026 07:29:32 EST",
+   "summary": "We talked to several coaches, executives and scouts about the Sixers in an attempt to get a consensus opinion on their start."
+  },
+  {
+   "source": "ESPN",
+   "title": "Bobby Marks' NBA glossary: Trade, free agency, CBA terms to know",
+   "link": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+   "published": "Tue, 17 Nov 2026 17:48:52 EST",
+   "summary": "The world of NBA transactions is often difficult to decipher. Our resident GM is here to help.\ufeff"
+  },
+  {
+   "source": "ESPN",
+   "title": "Eric Karabell's notebook: Trade Walker Kessler? Klay Thompson worth rostering?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50512244/fantasy-basketball-trends-nba-2026-2027",
+   "published": "Tue, 17 Nov 2026 13:57:24 EST",
+   "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy."
   }
  ],
  "games": {
   "today": "2026-11-17",
   "days_left": 6,
   "by_team": {
-   "LAL": {
-    "rest": 3,
-    "next": 3
-   },
-   "CHA": {
-    "rest": 2,
-    "next": 3
-   },
    "CLE": {
     "rest": 2,
     "next": 3
@@ -13577,6 +13660,10 @@
     "rest": 3,
     "next": 3
    },
+   "LAL": {
+    "rest": 2,
+    "next": 3
+   },
    "UTAH": {
     "rest": 3,
     "next": 3
@@ -13608,6 +13695,10 @@
    "LAC": {
     "rest": 2,
     "next": 4
+   },
+   "CHA": {
+    "rest": 1,
+    "next": 3
    },
    "GSW": {
     "rest": 3,
@@ -13658,10 +13749,6 @@
    "2026-11-29"
   ],
   "by_day": {
-   "2026-11-17": [
-    "LAL",
-    "CHA"
-   ],
    "2026-11-18": [
     "CLE",
     "MEM",
@@ -16260,6 +16347,6 @@
   "picked_total": 2015.0,
   "direct_total": 2015.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.4
  }
 }
