@@ -346,6 +346,13 @@ h2{font-size:16.5px}
 #cats .pr{padding:2px 8px;border-radius:8px;background:color-mix(in srgb,var(--tx) 8%,transparent)}
 #cats .pr.g{background:color-mix(in srgb,var(--good) 20%,transparent)}#cats .pr.r{background:color-mix(in srgb,var(--bad) 20%,transparent)}
 #cats td.mx[data-k]{cursor:pointer}
+#cats .pun{display:inline-flex;flex-wrap:wrap;gap:4px;align-items:center}
+#cats .pun em{font-style:normal;font-size:12.5px;color:var(--mut);margin-right:2px}
+#cats .pc{border:1px solid color-mix(in srgb,var(--tx) 18%,transparent);background:none;color:var(--mut);border-radius:999px;padding:3px 9px;font:600 11.5px "Barlow",system-ui,sans-serif;cursor:pointer;transition:all .18s}
+#cats .pc:hover{color:var(--tx);border-color:var(--ac)}
+#cats .pc.on{background:color-mix(in srgb,var(--bad) 24%,transparent);color:var(--bad);border-color:var(--bad);text-decoration:line-through}
+#cats td.tot,#cats th.tot{border-left:1px solid color-mix(in srgb,var(--tx) 14%,transparent)}
+#cats td.tot b{font:700 18px "Barlow Condensed","Barlow",sans-serif;color:color-mix(in srgb,var(--tx) 70%,var(--good) calc(var(--g)*60%))}
 #cats .mxbar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:2px 0 10px}
 #cats .seg{display:inline-flex;background:color-mix(in srgb,var(--tx) 7%,transparent);border-radius:999px;padding:3px}
 #cats .seg button{border:0;background:none;color:var(--mut);font:600 12.5px "Barlow",system-ui,sans-serif;padding:6px 12px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
@@ -1721,11 +1728,14 @@ function draw(){
   const R={},V={};
   D.cats.forEach(c=>{R[c]=ranksFor(c);V[c]={};teams.forEach(t=>V[c][t]=shown(t,c))});
   const M={};D.cats.forEach(c=>M[c]=med(teams.map(t=>V[c][t]).filter(x=>x!=null)));
-  const order=teams.slice();if(MS)order.sort((a,b)=>(R[MS][a]||99)-(R[MS][b]||99));
+  const PW={};teams.forEach(t=>PW[t]=D.cats.filter(c=>!punts.includes(c)).reduce((s,c)=>s+(R[c][t]?n+1-R[c][t]:0),0));
+  const pwMax=Math.max(...Object.values(PW)),pwMin=Math.min(...Object.values(PW));
+  const order=teams.slice();if(MS==='_pw')order.sort((a,b)=>PW[b]-PW[a]);else if(MS)order.sort((a,b)=>(R[MS][a]||99)-(R[MS][b]||99));
   const sim=anySim();
   const seg=(k,l)=>`<button class="${st.mode===k?'on':''}" data-m="${k}">${l}</button>`;
   const tb=`<div class="mxbar"><div class="seg" role="group" aria-label="View">${seg('val','Values')}${seg('rank','Ranks')}${seg('med','vs median')}${seg('me','vs me')}</div>
     <label class="chk"><input type="checkbox" id="mxhp" ${st.hidePunt?'checked':''}> Hide punted</label>
+    <span class="pun"><em>Punt</em>${D.cats.map(c=>`<button class="pc ${punts.includes(c)?'on':''}" data-p="${c}" aria-pressed="${punts.includes(c)}" title="${punts.includes(c)?'Stop punting':'Punt'} ${c} across the whole app">${c}</button>`).join('')}</span>
     <button class="tg ${st.opt?'on':''}" id="mxopt">Find best moves</button>${sim?'<button class="tg" id="mxsave">Save scenario</button><button class="rst" id="mxrst">Reset what-if</button>':'<span class="hint">Tap a team name to test trades, tap a cell to see who drives it</span>'}
     <span class="liv ${st.stale?'stale':''}"><i></i>${st.stale?'<a href="#" id="mxrl">New data, reload</a>':'Updated '+when(D.updated)}</span></div>`;
   // matchup preview
@@ -1748,14 +1758,14 @@ function draw(){
     if(o!=null&&Math.abs(o-v)>1e-9)fl=better(c,v,o)?'fl-up':'fl-dn';
     return `<td class="n mx ${punts.includes(c)?'pn':''} ${rk0===1?'best':''} ${fl}" data-c="${c}" data-t="${esc(t)}" data-k="${esc(k)}" data-v="${v}" data-o="${o==null?'':o}" style="--g:${g.toFixed(2)};--b:${b.toFixed(2)}" title="${esc(t.trim())}: rank ${rk0} of ${n} in ${c}${d?' (was '+orig+')':''}">${body}${d}</td>`;
   };
-  const head='<tr><th>Team</th>'+cats.map(c=>`<th class="n srt ${MS===c?'on':''} ${punts.includes(c)?'pn':''}" data-c="${c}" title="Sort by ${c}">${c}${MS===c?' ▾':''}</th>`).join('')+'</tr>';
+  const head='<tr><th>Team</th>'+cats.map(c=>`<th class="n srt ${MS===c?'on':''} ${punts.includes(c)?'pn':''}" data-c="${c}" title="Sort by ${c}">${c}${MS===c?' ▾':''}</th>`).join('')+`<th class="n srt tot ${MS==='_pw'?'on':''}" data-c="_pw" title="Total rank points across non-punted categories">Total${MS==='_pw'?' ▾':''}</th></tr>`;
   const rows=order.map(t=>{
     const open=st.open===t;
-    let h=`<tr class="${t===me?'mine':''} ${open?'open':''} ${touched(t)?'sim':''}"><td class="tm"><button class="tn" data-t="${esc(t)}" aria-expanded="${open}" title="Open roster and test trades"><span class="car">${open?'▾':'▸'}</span>${esc(t.trim())}${touched(t)?'<span class="dot" title="What-if applied"></span>':''}</button></td>${cats.map(c=>cell(c,t)).join('')}</tr>`;
-    if(open)h+=`<tr class="dr"><td colspan="${cats.length+1}">${drawer(t)}</td></tr>`;
+    let h=`<tr class="${t===me?'mine':''} ${open?'open':''} ${touched(t)?'sim':''}"><td class="tm"><button class="tn" data-t="${esc(t)}" aria-expanded="${open}" title="Open roster and test trades"><span class="car">${open?'▾':'▸'}</span>${esc(t.trim())}${touched(t)?'<span class="dot" title="What-if applied"></span>':''}</button></td>${cats.map(c=>cell(c,t)).join('')}<td class="n tot" style="--g:${((PW[t]-pwMin)/Math.max(1,pwMax-pwMin)).toFixed(2)}"><b>${PW[t]}</b></td></tr>`;
+    if(open)h+=`<tr class="dr"><td colspan="${cats.length+2}">${drawer(t)}</td></tr>`;
     return h;
   }).join('');
-  const medr=`<tr class="med"><td class="tm" style="background:none">League median</td>${cats.map(c=>`<td class="n mx" data-c="${c}">${fmt(c,M[c])}</td>`).join('')}</tr>`;
+  const medr=`<tr class="med"><td class="tm" style="background:none">League median</td>${cats.map(c=>`<td class="n mx" data-c="${c}">${fmt(c,M[c])}</td>`).join('')}<td class="n"></td></tr>`;
   const sum=(sim?summary(R,teams,me):'')+(SAVED.length?savedBar():'')+(st.opt?optPanel(R,teams,me):'')+(st.cell?cellPanel():'');
   el.innerHTML=tb+vsb+sum+`<table>${head}${rows}${medr}</table><div class="mxleg"><span>Weakest</span><i></i><span>Strongest</span><span>· Small number is the league rank · Tap a category to sort</span></div>`;
   // new LAST
@@ -1768,11 +1778,12 @@ function drawer(t){
   const adds=s.add.map((a,i)=>`<button class="chip add" data-rm="${i}" title="Remove from what-if"><b>${esc(a.p.name)}</b><small>${a.from?'from '+esc(a.from.trim()):'free agent'} · ${top2(a.p)||'–'}</small></button>`).join('');
   const have=new Set([...s.add.map(a=>a.p.name)]);
   const fa=(D.free_agents||[]).map((p,i)=>({p,i})).filter(x=>hasStats(x.p)&&!have.has(x.p.name)).sort((a,b)=>tz(b.p)-tz(a.p)).slice(0,15);
-  const og=Object.keys(D.rosters).filter(o=>o!==t).map(o=>{
-    const l=D.rosters[o].map((p,i)=>({p,i})).filter(x=>hasStats(x.p)&&!have.has(x.p.name)&&!(SIM[o]&&SIM[o].drop.includes(x.p.name))).sort((a,b)=>tz(b.p)-tz(a.p));
-    return `<optgroup label="${esc(o.trim())}">${l.map(x=>`<option value="${esc(o)}|${x.i}">${esc(x.p.name)} (${top2(x.p)||x.p.pos})</option>`).join('')}</optgroup>`}).join('');
+  const pool=[];
+  fa.forEach(x=>pool.push({k:x.p.name+' · free agent',v:'FA|'+x.i,p:x.p}));
+  Object.keys(D.rosters).filter(o=>o!==t).forEach(o=>D.rosters[o].forEach((p,i)=>{if(hasStats(p)&&!have.has(p.name)&&!(SIM[o]&&SIM[o].drop.includes(p.name)))pool.push({k:p.name+' · '+o.trim(),v:o+'|'+i,p})}));
+  pool.sort((a,b)=>tz(b.p)-tz(a.p));POOL[t]=pool;
   return `<div class="drw"><div class="chips">${base.map(chip).join('')}${adds}</div>
-    <div class="addr"><label>Add a player</label><select class="addsel" data-t="${esc(t)}"><option value="">Choose a player…</option><optgroup label="Free agents">${fa.map(x=>`<option value="FA|${x.i}">${esc(x.p.name)} (${top2(x.p)||x.p.pos})</option>`).join('')}</optgroup>${og}</select>
+    <div class="addr"><label for="mxadd">Add a player</label><input id="mxadd" class="addsel" data-t="${esc(t)}" list="mxdl" placeholder="Type a name or pick one" autocomplete="off"><datalist id="mxdl">${pool.map(x=>`<option value="${esc(x.k)}"></option>`).join('')}</datalist>
     <span class="hint">Tap a player to drop them. Adding someone from another team moves them, so you can test a trade.</span></div></div>`;
 }
 const movedAway=(t,p)=>false;
@@ -1790,6 +1801,7 @@ function bind(el){
   el.querySelectorAll('.mxbar .seg button').forEach(b=>b.onclick=()=>{st.mode=b.dataset.m;save();draw()});
   const hp=el.querySelector('#mxhp');if(hp)hp.onchange=()=>{st.hidePunt=hp.checked;save();draw()};
   const rs=el.querySelector('#mxrst');if(rs)rs.onclick=()=>{Object.keys(SIM).forEach(k=>delete SIM[k]);draw()};
+  el.querySelectorAll('.pc').forEach(b=>b.onclick=()=>{const c=b.dataset.p;punts=punts.includes(c)?punts.filter(x=>x!==c):[...punts,c];savePunts();try{render()}catch(e){}draw()});
   const bo=el.querySelector('#mxopt');if(bo)bo.onclick=()=>{st.opt=!st.opt;draw()};
   const bs=el.querySelector('#mxsave');if(bs)bs.onclick=()=>{const nm=Object.keys(SIM).filter(touched).map(t=>t.trim().split(' ')[0]).join(' + ')||'Scenario';SAVED.push({n:nm+' #'+(SAVED.length+1),s:JSON.parse(JSON.stringify(SIM))});if(SAVED.length>6)SAVED.shift();saveS();draw()};
   el.querySelectorAll('[data-sv]').forEach(b=>b.onclick=()=>{const s=SAVED[+b.dataset.sv];if(!s)return;Object.keys(SIM).forEach(k=>delete SIM[k]);Object.assign(SIM,JSON.parse(JSON.stringify(s.s)));draw()});
@@ -1803,7 +1815,7 @@ function bind(el){
   el.querySelectorAll('[data-drop]').forEach(b=>b.onclick=()=>{const s=sg(st.open),i=s.drop.indexOf(b.dataset.drop);i<0?s.drop.push(b.dataset.drop):s.drop.splice(i,1);draw()});
   el.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{sg(st.open).add.splice(+b.dataset.rm,1);draw()});
   el.querySelectorAll('.addsel').forEach(s=>s.onchange=()=>{
-    if(!s.value)return;const [src,i]=s.value.split('|'),t=s.dataset.t;
+    const hit=(POOL[s.dataset.t]||[]).find(x=>x.k===s.value);if(!hit)return;const [src,i]=hit.v.split('|'),t=s.dataset.t;
     const p=src==='FA'?D.free_agents[+i]:D.rosters[src][+i];if(!p)return;
     sg(t).add.push({p,from:src==='FA'?null:src});draw();
   });
@@ -1822,7 +1834,7 @@ function animate(el){
     requestAnimationFrame(step);
   });
 }
-let MOVES=[];
+let MOVES=[];const POOL={};
 function savedBar(){return `<div class="mxsv"><span>Saved</span>${SAVED.map((s,i)=>`<button class="chip sv" data-sv="${i}" title="Load this scenario"><b>${esc(s.n)}</b><i data-svx="${i}" title="Delete">✕</i></button>`).join('')}</div>`}
 function cellPanel(){
   const {t,c}=st.cell;if(!D.rosters[t])return '';
