@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:00:35.209477Z",
+ "updated": "2026-11-19T21:10:26.909393Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6005,7 +6005,7 @@
      "SF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "TOR",
     "avg": {
      "PTS": 21.0,
@@ -13373,6 +13373,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Trey Murphy: Iffy for Friday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Thu, 19 Nov 2026 1:05:00 PM PST",
+   "summary": "Murphy (knee) is questionable for Friday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dylan Harper: Out multiple weeks with hip strain",
    "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
    "published": "Thu, 19 Nov 2026 12:07:00 PM PST",
@@ -13398,13 +13405,6 @@
    "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
    "published": "Thu, 19 Nov 2026 11:09:00 AM PST",
    "summary": "Edey (hip) has been ruled out for Thursday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ty Jerome: Another absence coming",
-   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
-   "published": "Thu, 19 Nov 2026 11:07:00 AM PST",
-   "summary": "Jerome (hip) has been ruled out for Thursday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 4.4
  }
 }
