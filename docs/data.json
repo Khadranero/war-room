@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:00:35.308270Z",
+ "updated": "2026-11-19T19:10:25.184562Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2713,7 +2713,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "MEM",
     "avg": {
      "PTS": 11.5,
@@ -13373,6 +13373,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ty Jerome: Another absence coming",
+   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
+   "published": "Thu, 19 Nov 2026 11:07:00 AM PST",
+   "summary": "Jerome (hip) has been ruled out for Thursday's game against the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Draymond Green: Confirmed out Thursday",
    "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
    "published": "Thu, 19 Nov 2026 10:51:00 AM PST",
@@ -13398,13 +13405,6 @@
    "link": "https://www.rotowire.com//basketball/player/daniss-jenkins-6336",
    "published": "Thu, 19 Nov 2026 9:08:00 AM PST",
    "summary": "Jenkins amassed 17 points (7-16 FG, 3-5 3Pt), four rebounds and nine assists over 36 minutes during Wednesday's 122-109 win over New Orleans.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Domantas Sabonis: Flirts with triple-double in defeat",
-   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
-   "published": "Thu, 19 Nov 2026 8:46:00 AM PST",
-   "summary": "Sabonis chipped in eight points (4-7 FG, 0-1 3Pt), 13 rebounds, eight assists and one steal across 24 minutes during Wednesday's 128-107 loss to the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 2.8
  }
 }
