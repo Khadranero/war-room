@@ -2832,4 +2832,51 @@ let tries=0;const iv=setInterval(()=>{
 setTimeout(()=>{try{if(typeof D!=='undefined'&&D&&D.power){heroFx();addInstall();viz()}}catch(e){}},600);
 })();
 
+</script><script>
+/* ===== FX layer: page-wide particles, click bursts, cursor sparks, scroll streaks ===== */
+(function(){
+if(window.__fx||matchMedia('(prefers-reduced-motion:reduce)').matches)return;window.__fx=1;
+const dpr=Math.min(devicePixelRatio||1,2),touch=matchMedia('(pointer:coarse)').matches;
+const mk=(id,z)=>{const c=document.createElement('canvas');c.id=id;c.style.cssText='position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:'+z;document.body.appendChild(c);return c};
+const bg=mk('pageFx',0),top=mk('burstFx',9990),bx=bg.getContext('2d'),tx=top.getContext('2d');
+let W,H;function size(){W=innerWidth;H=innerHeight;[bg,top].forEach(c=>{c.width=W*dpr;c.height=H*dpr});bx.setTransform(dpr,0,0,dpr,0,0);tx.setTransform(dpr,0,0,dpr,0,0)}
+size();addEventListener('resize',size);
+const COL=['124,92,255','34,211,238','240,180,60','255,90,140','80,230,160'];
+// ambient field: drifting motes that streak with scroll
+const N=touch?28:60,M=[];
+for(let i=0;i<N;i++)M.push({x:Math.random()*W,y:Math.random()*H,z:Math.random()*.9+.2,c:COL[i%3],p:Math.random()*6.28});
+let sv=0,lastY=scrollY,mx=W/2,my=H/2;
+addEventListener('scroll',()=>{const d=scrollY-lastY;lastY=scrollY;sv+=d},{passive:true});
+// bursts + sparks
+const S=[];
+function burst(x,y,n,pow,cols){for(let i=0;i<n;i++){const a=Math.random()*6.283,v=(Math.random()*.7+.3)*pow;S.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-pow*.25,l:1,d:.012+Math.random()*.014,r:Math.random()*2.6+1,c:(cols||COL)[Math.random()*(cols||COL).length|0],g:.12})}}
+window.WRFX={burst};
+addEventListener('pointerdown',e=>{if(e.target.closest&&e.target.closest('button,.btn,.chip,.bt,.pcard,a,[role=tab],.dock button,nav button'))burst(e.clientX,e.clientY,touch?12:18,5)},{passive:true});
+let lt=0;addEventListener('pointermove',e=>{mx=e.clientX;my=e.clientY;if(touch)return;const t=performance.now();if(t-lt<28)return;lt=t;
+  S.push({x:e.clientX,y:e.clientY,vx:(Math.random()-.5)*.8,vy:(Math.random()-.5)*.8+.2,l:.8,d:.035,r:Math.random()*1.8+.8,c:COL[Math.random()*3|0],g:0})},{passive:true});
+// celebrate: toasts and agent wins throw confetti from the bottom
+if(typeof window.toast==='function'&&!window.toast.__fx){const o=window.toast;window.toast=function(){const r=o.apply(this,arguments);try{burst(W/2,H-110,16,6,[COL[0],COL[1],COL[2]])}catch(e){}return r};window.toast.__fx=1}
+let run=true;document.addEventListener('visibilitychange',()=>{run=!document.hidden;if(run)loop()});
+function loop(){
+  if(!run)return;
+  bx.clearRect(0,0,W,H);tx.clearRect(0,0,W,H);
+  sv*=.88;const sp=Math.max(-60,Math.min(60,sv));
+  for(const m of M){
+    m.p+=.01;m.x+=Math.sin(m.p)*.15*m.z;m.y+=(.12*m.z)-sp*m.z*.5;
+    // gentle pull toward pointer
+    const dx=mx-m.x,dy=my-m.y,d2=dx*dx+dy*dy;if(!touch&&d2<26000){m.x+=dx*.0016*m.z;m.y+=dy*.0016*m.z}
+    if(m.y>H+10){m.y=-10;m.x=Math.random()*W}if(m.y<-10){m.y=H+10;m.x=Math.random()*W}
+    const len=Math.abs(sp)*m.z*.9;
+    bx.strokeStyle='rgba('+m.c+','+(.22+.3*m.z)+')';bx.lineWidth=m.z*1.6;bx.lineCap='round';
+    bx.beginPath();bx.moveTo(m.x,m.y);bx.lineTo(m.x,m.y+(sp>0?len:-len)+.1);bx.stroke();
+  }
+  for(let i=S.length-1;i>=0;i--){const p=S[i];p.x+=p.vx;p.y+=p.vy;p.vy+=p.g;p.vx*=.985;p.l-=p.d;
+    if(p.l<=0){S.splice(i,1);continue}
+    tx.fillStyle='rgba('+p.c+','+p.l+')';tx.shadowColor='rgba('+p.c+',.9)';tx.shadowBlur=8;tx.beginPath();tx.arc(p.x,p.y,p.r*(.5+p.l*.5),0,6.283);tx.fill()}
+  tx.shadowBlur=0;if(S.length>400)S.splice(0,S.length-400);
+  requestAnimationFrame(loop);
+}
+loop();
+})();
+
 </script></body></html>
