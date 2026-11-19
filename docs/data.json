@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:50:24.381733Z",
+ "updated": "2026-11-19T22:00:34.803731Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -10334,7 +10334,7 @@
     "SF"
    ],
    "team": "CLE",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 12.333333333333334,
@@ -13373,6 +13373,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Peyton Watson: Iffy for Friday",
+   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
+   "published": "Thu, 19 Nov 2026 1:50:00 PM PST",
+   "summary": "Watson (back) is questionable for Friday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Collin Murray-Boyles: Lands in concussion protocol",
    "link": "https://www.rotowire.com//basketball/player/collin-murray-boyles-6585",
    "published": "Thu, 19 Nov 2026 1:41:00 PM PST",
@@ -13398,13 +13405,6 @@
    "link": "https://www.rotowire.com//basketball/player/rj-barrett-4767",
    "published": "Thu, 19 Nov 2026 1:13:00 PM PST",
    "summary": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Iffy for Friday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Thu, 19 Nov 2026 1:05:00 PM PST",
-   "summary": "Murphy (knee) is questionable for Friday's game against the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 3.9
  }
 }
