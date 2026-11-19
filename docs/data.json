@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T06:50:22.527596Z",
+ "updated": "2026-11-19T07:00:35.983646Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6794,6 +6794,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-19T06:56:30.138000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Kel'el Ware"
+  },
+  {
+   "date": "2026-11-19T06:56:30.138000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Paul Reed"
+  },
+  {
    "date": "2026-11-19T05:17:16.051000",
    "team": "Rubio Bzeit ",
    "action": "FA ADDED",
@@ -7032,18 +7044,6 @@
    "team": "Wembelieve I can fly",
    "action": "FA ADDED",
    "player": "Toumani Camara"
-  },
-  {
-   "date": "2026-11-15T23:20:28.714000",
-   "team": "Wembelieve I can fly",
-   "action": "DROPPED",
-   "player": "Meleek Thomas"
-  },
-  {
-   "date": "2026-11-15T23:20:28.714000",
-   "team": "Wembelieve I can fly",
-   "action": "FA ADDED",
-   "player": "Patrick Williams"
   }
  ],
  "schedule": {
@@ -7305,40 +7305,6 @@
     "FG%": 0.484,
     "FT%": 0.86,
     "TO": 1.1948051948051948,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Kel'el Ware",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.375,
-    "REB": 4.625,
-    "AST": 1.0,
-    "STL": 0.5,
-    "BLK": 1.375,
-    "3PM": 0.5,
-    "FG%": 0.3877551,
-    "FT%": 0.9,
-    "TO": 1.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 12.972222222222221,
-    "REB": 10.597222222222221,
-    "AST": 0.9027777777777778,
-    "STL": 0.9027777777777778,
-    "BLK": 1.3055555555555556,
-    "3PM": 1.3194444444444444,
-    "FG%": 0.533,
-    "FT%": 0.734,
-    "TO": 1.0,
     "_src": "2027_projected"
    }
   },
@@ -7616,6 +7582,41 @@
     "FG%": 0.657,
     "FT%": 0.615,
     "TO": 1.606060606060606,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Paul Reed",
+   "pos": "C",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.857142857142858,
+    "REB": 8.571428571428571,
+    "AST": 2.2857142857142856,
+    "STL": 0.8571428571428571,
+    "BLK": 0.8571428571428571,
+    "3PM": 0.0,
+    "FG%": 0.5,
+    "FT%": 0.57894737,
+    "TO": 1.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.428571428571429,
+    "REB": 4.396825396825397,
+    "AST": 1.2063492063492063,
+    "STL": 0.9047619047619048,
+    "BLK": 0.9047619047619048,
+    "3PM": 0.19047619047619047,
+    "FG%": 0.603,
+    "FT%": 0.672,
+    "TO": 0.9047619047619048,
     "_src": "2027_projected"
    }
   },
@@ -13799,6 +13800,18 @@
  },
  "log": [
   {
+   "date": "2026-11-19T06:56:30.138000",
+   "team": "Pasta Warriors",
+   "action": "FA ADDED",
+   "player": "Kel'el Ware"
+  },
+  {
+   "date": "2026-11-19T06:56:30.138000",
+   "team": "Pasta Warriors",
+   "action": "DROPPED",
+   "player": "Paul Reed"
+  },
+  {
    "date": "2026-11-19T05:17:16.051000",
    "team": "Rubio Bzeit ",
    "action": "FA ADDED",
@@ -16194,6 +16207,6 @@
   "picked_total": 3293.0,
   "direct_total": 3293.0,
   "direct_teams": 10,
-  "run_seconds": 2.8
+  "run_seconds": 3.0
  }
 }
