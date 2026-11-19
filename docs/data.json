@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:50:24.339903Z",
+ "updated": "2026-11-19T19:00:35.308270Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -7852,7 +7852,7 @@
     "C"
    ],
    "team": "GSW",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.142857142857143,
@@ -11109,7 +11109,7 @@
     "C"
    ],
    "team": "GSW",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 2.8333333333333335,
@@ -13373,6 +13373,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Draymond Green: Confirmed out Thursday",
+   "link": "https://www.rotowire.com//basketball/player/draymond-green-3299",
+   "published": "Thu, 19 Nov 2026 10:51:00 AM PST",
+   "summary": "Green (elbow) is out for Thursday's game against the Grizzlies.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dylan Harper: Will undergo further testing Thursday",
    "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
    "published": "Thu, 19 Nov 2026 9:40:00 AM PST",
@@ -13398,13 +13405,6 @@
    "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
    "published": "Thu, 19 Nov 2026 8:46:00 AM PST",
    "summary": "Sabonis chipped in eight points (4-7 FG, 0-1 3Pt), 13 rebounds, eight assists and one steal across 24 minutes during Wednesday's 128-107 loss to the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Darius Acuff: Explodes for 36 points in loss",
-   "link": "https://www.rotowire.com//basketball/player/darius-acuff-6931",
-   "published": "Thu, 19 Nov 2026 8:41:00 AM PST",
-   "summary": "Acuff supplied 36 points (11-22 FG, 6-11 3Pt, 8-10 FT), four rebounds, six assists and two blocks in 35 minutes during Wednesday's 128-107 loss to the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.6
  }
 }
