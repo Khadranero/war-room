@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:40:30.928443Z",
+ "updated": "2026-11-19T14:50:26.828966Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2123,7 +2123,7 @@
      "SG"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "IND",
     "avg": {
      "PTS": 14.4,
@@ -5392,7 +5392,7 @@
      "SG"
     ],
     "slot": "PG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "PHL",
     "avg": {
      "PTS": 23.571428571428573,
@@ -6006,7 +6006,7 @@
      "SF"
     ],
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 21.0,
@@ -6179,7 +6179,7 @@
      "SF"
     ],
     "slot": "G",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "TOR",
     "avg": {
      "PTS": 22.333333333333332,
@@ -6587,7 +6587,7 @@
      "PF"
     ],
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "CLE",
     "avg": {
      "PTS": 10.5,
@@ -7366,7 +7366,7 @@
     "SG"
    ],
    "team": "MIL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 10.0,
@@ -9951,7 +9951,7 @@
     "C"
    ],
    "team": "MEM",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -10323,7 +10323,7 @@
     "SF"
    ],
    "team": "CLE",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 12.333333333333334,
@@ -10763,7 +10763,7 @@
     "PF"
    ],
    "team": "PHL",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 5.285714285714286,
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 5.4
+  "run_seconds": 3.7
  }
 }
