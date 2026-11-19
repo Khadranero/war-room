@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:00:34.803731Z",
+ "updated": "2026-11-19T22:10:23.699860Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -7887,7 +7887,7 @@
     "SG"
    ],
    "team": "CHA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 15.0,
@@ -13134,7 +13134,7 @@
     "C"
    ],
    "team": "ATL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.5,
@@ -13373,6 +13373,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Andrew Nembhard: Could miss another game Friday",
+   "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
+   "published": "Thu, 19 Nov 2026 2:08:00 PM PST",
+   "summary": "Nembhard (hip) is questionable for Friday's game in Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Kingston Flemings: Iffy for Friday",
+   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
+   "published": "Thu, 19 Nov 2026 2:05:00 PM PST",
+   "summary": "Flemings (back) is questionable for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Grayson Allen: Out for Friday",
+   "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
+   "published": "Thu, 19 Nov 2026 2:03:00 PM PST",
+   "summary": "Allen (concussion) has been ruled out for Friday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Peyton Watson: Iffy for Friday",
    "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
    "published": "Thu, 19 Nov 2026 1:50:00 PM PST",
@@ -13384,27 +13405,6 @@
    "link": "https://www.rotowire.com//basketball/player/collin-murray-boyles-6585",
    "published": "Thu, 19 Nov 2026 1:41:00 PM PST",
    "summary": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Scottie Barnes: Removed from injury report",
-   "link": "https://www.rotowire.com//basketball/player/scottie-barnes-5390",
-   "published": "Thu, 19 Nov 2026 1:39:00 PM PST",
-   "summary": "Barnes (groin) will play in Friday's game against the Pistons, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cade Cunningham: Expected to play Friday",
-   "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
-   "published": "Thu, 19 Nov 2026 1:37:00 PM PST",
-   "summary": "Cunningham (knee) is expected to play in Friday's game against the Raptors, Blake Murphy of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "RJ Barrett: To be re-evaluated in two weeks",
-   "link": "https://www.rotowire.com//basketball/player/rj-barrett-4767",
-   "published": "Thu, 19 Nov 2026 1:13:00 PM PST",
-   "summary": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 2.7
  }
 }
