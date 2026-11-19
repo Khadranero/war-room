@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:10:23.699860Z",
+ "updated": "2026-11-19T22:20:23.625656Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -8946,7 +8946,7 @@
     "PG"
    ],
    "team": "IND",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.833333333333333,
@@ -12141,7 +12141,7 @@
     "PF"
    ],
    "team": "CHA",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 11.333333333333334,
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 3.5
  }
 }
