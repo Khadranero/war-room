@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:20:23.838912Z",
+ "updated": "2026-11-19T05:30:28.147740Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2228,13 +2228,13 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 9.5,
-     "REB": 7.375,
+     "PTS": 9.75,
+     "REB": 7.5,
      "AST": 1.375,
-     "STL": 0.375,
+     "STL": 0.5,
      "BLK": 1.75,
      "3PM": 0.875,
-     "FG%": 0.73170732,
+     "FG%": 0.73809524,
      "FT%": 0.52941176,
      "TO": 0.625,
      "_src": "2027_last_15"
@@ -4155,13 +4155,13 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 13.666666666666666,
-     "REB": 5.0,
+     "PTS": 14.11111111111111,
+     "REB": 5.111111111111111,
      "AST": 2.2222222222222223,
      "STL": 1.1111111111111112,
      "BLK": 0.6666666666666666,
      "3PM": 1.6666666666666667,
-     "FG%": 0.43636364,
+     "FG%": 0.44247788,
      "FT%": 0.85714286,
      "TO": 1.8888888888888888,
      "_src": "2027_last_15"
@@ -4633,11 +4633,11 @@
     "avg": {
      "PTS": 23.375,
      "REB": 3.875,
-     "AST": 8.375,
+     "AST": 8.625,
      "STL": 1.0,
      "BLK": 0.5,
      "3PM": 2.375,
-     "FG%": 0.45112782,
+     "FG%": 0.44444444,
      "FT%": 0.84210526,
      "TO": 3.25,
      "_src": "2027_last_15"
@@ -4827,15 +4827,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 37.42857142857143,
-     "REB": 5.714285714285714,
-     "AST": 7.0,
+     "PTS": 37.857142857142854,
+     "REB": 5.857142857142857,
+     "AST": 7.142857142857143,
      "STL": 1.8571428571428572,
      "BLK": 0.5714285714285714,
-     "3PM": 4.285714285714286,
-     "FG%": 0.4375,
+     "3PM": 4.428571428571429,
+     "FG%": 0.44041451,
      "FT%": 0.84210526,
-     "TO": 4.857142857142857,
+     "TO": 5.142857142857143,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5859,13 +5859,13 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 13.714285714285714,
+     "PTS": 14.0,
      "REB": 11.428571428571429,
      "AST": 2.4285714285714284,
      "STL": 1.1428571428571428,
      "BLK": 1.5714285714285714,
      "3PM": 0.0,
-     "FG%": 0.60655738,
+     "FG%": 0.61290323,
      "FT%": 0.6875,
      "TO": 1.8571428571428572,
      "_src": "2027_last_15"
@@ -7459,12 +7459,12 @@
    "pct": null,
    "avg": {
     "PTS": 18.166666666666668,
-    "REB": 3.3333333333333335,
+    "REB": 3.5,
     "AST": 2.1666666666666665,
     "STL": 1.1666666666666667,
     "BLK": 0.16666666666666666,
     "3PM": 3.5,
-    "FG%": 0.52777778,
+    "FG%": 0.51351351,
     "FT%": 0.75,
     "TO": 1.8333333333333333,
     "_src": "2027_last_15"
@@ -7978,13 +7978,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.5,
-    "REB": 7.375,
+    "PTS": 9.75,
+    "REB": 7.5,
     "AST": 1.375,
-    "STL": 0.375,
+    "STL": 0.5,
     "BLK": 1.75,
     "3PM": 0.875,
-    "FG%": 0.73170732,
+    "FG%": 0.73809524,
     "FT%": 0.52941176,
     "TO": 0.625,
     "_src": "2027_last_15"
@@ -8002,13 +8002,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.375,
+    "PTS": 11.625,
     "REB": 1.5,
     "AST": 2.5,
     "STL": 0.25,
     "BLK": 0.25,
     "3PM": 1.0,
-    "FG%": 0.41428571,
+    "FG%": 0.42253521,
     "FT%": 0.75757576,
     "TO": 1.625,
     "_src": "2027_last_15"
@@ -8688,7 +8688,7 @@
     "STL": 0.625,
     "BLK": 0.375,
     "3PM": 1.5,
-    "FG%": 0.36764706,
+    "FG%": 0.36231884,
     "FT%": 0.92857143,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -10173,7 +10173,7 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 2.0,
+    "PTS": 1.3333333333333333,
     "REB": 0.0,
     "AST": 0.0,
     "STL": 0.0,
@@ -12603,15 +12603,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.6666666666666666,
-    "REB": 1.6666666666666667,
-    "AST": 0.0,
+    "PTS": 1.75,
+    "REB": 1.25,
+    "AST": 0.25,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.16666667,
+    "3PM": 0.25,
+    "FG%": 0.375,
     "FT%": 0.0,
-    "TO": 0.6666666666666666,
+    "TO": 0.5,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -13381,6 +13381,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "John Collins: Scores 20 points with seven boards",
+   "link": "https://www.rotowire.com//basketball/player/john-collins-4159",
+   "published": "Wed, 18 Nov 2026 9:27:00 PM PST",
+   "summary": "Collins registered 20 points (6-10 FG, 4-6 3Pt, 4-4 FT), seven rebounds, two assists and one block over 30 minutes during Wednesday's 122-109 win over the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jalen Johnson: Triple-doubles in win",
+   "link": "https://www.rotowire.com//basketball/player/jalen-johnson-5329",
+   "published": "Wed, 18 Nov 2026 9:18:00 PM PST",
+   "summary": "Johnson racked up 16 points (5-15 FG, 1-6 3Pt, 5-5 FT), 12 rebounds, 11 assists and one block over 34 minutes in Wednesday's 117-112 win over the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jarrett Allen: Scores 19 points with nine rebounds",
    "link": "https://www.rotowire.com//basketball/player/jarrett-allen-4122",
    "published": "Wed, 18 Nov 2026 8:40:00 PM PST",
@@ -13399,20 +13413,6 @@
    "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
    "published": "Wed, 18 Nov 2026 8:24:00 PM PST",
    "summary": "Boozer accumulated 18 points (5-9 FG, 1-3 3Pt, 7-7 FT), eight rebounds, five assists, one block and four steals over 28 minutes during Wednesday's 124-121 win over the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cam Spencer: Scores 26 points with seven assists",
-   "link": "https://www.rotowire.com//basketball/player/cam-spencer-6297",
-   "published": "Wed, 18 Nov 2026 8:15:00 PM PST",
-   "summary": "Spencer had 26 points (9-11 FG, 5-6 3Pt, 3-4 FT), one rebound, seven assists and one block over 29 minutes during Wednesday's 124-121 victory over the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Shai Gilgeous-Alexander: Rough shooting night Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/shai-gilgeous-alexander-4387",
-   "published": "Wed, 18 Nov 2026 8:15:00 PM PST",
-   "summary": "Gilgeous-Alexander finished with 34 points (14-29 FG, 1-6 3Pt, 5-10 FT), five rebounds, three assists, two steals and two blocks over 36 minutes in Wednesday's 117-112 loss to the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16194,6 +16194,6 @@
   "picked_total": 3293.0,
   "direct_total": 3293.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 2.9
  }
 }
