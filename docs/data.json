@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:40:26.664892Z",
+ "updated": "2026-11-20T23:50:23.991725Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3466,7 +3466,7 @@
      "SF"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 18.0,
@@ -13431,6 +13431,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Trey Murphy: Upgraded to available",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Fri, 20 Nov 2026 3:39:00 PM PST",
+   "summary": "Murphy (knee) is available for Friday's game against Oklahoma City but will be under a minutes restriction, Clemente Almanza of USA Today reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Starting versus Wizards",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Fri, 20 Nov 2026 3:32:00 PM PST",
@@ -13456,13 +13463,6 @@
    "link": "https://www.rotowire.com//basketball/player/javon-small-6581",
    "published": "Fri, 20 Nov 2026 3:14:00 PM PST",
    "summary": "Small won't play Saturday against the Timberwolves due to personal reasons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cameron Boozer: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
-   "published": "Fri, 20 Nov 2026 3:13:00 PM PST",
-   "summary": "Boozer is out for Saturday's game against Minnesota due to a right ankle sprain.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16374,6 +16374,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.5
  }
 }
