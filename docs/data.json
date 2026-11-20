@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:30:29.793920Z",
+ "updated": "2026-11-20T23:40:26.664892Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3326,7 +3326,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -3430,7 +3430,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3738,41 +3738,6 @@
     }
    },
    {
-    "name": "Keldon Johnson",
-    "pos": "SF",
-    "elig": [
-     "SF",
-     "PF"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "SAS",
-    "avg": {
-     "PTS": 8.75,
-     "REB": 5.625,
-     "AST": 3.375,
-     "STL": 1.125,
-     "BLK": 0.0,
-     "3PM": 0.375,
-     "FG%": 0.49056604,
-     "FT%": 0.71428571,
-     "TO": 1.5,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 13.64935064935065,
-     "REB": 5.194805194805195,
-     "AST": 1.8051948051948052,
-     "STL": 0.5974025974025974,
-     "BLK": 0.19480519480519481,
-     "3PM": 1.3376623376623376,
-     "FG%": 0.488,
-     "FT%": 0.787,
-     "TO": 1.103896103896104,
-     "_src": "2027_projected"
-    }
-   },
-   {
     "name": "Kevin Huerter",
     "pos": "SG",
     "elig": [
@@ -3806,6 +3771,30 @@
      "TO": 1.1014492753623188,
      "_src": "2027_projected"
     }
+   },
+   {
+    "name": "Quenton Jackson",
+    "pos": "PG",
+    "elig": [
+     "PG",
+     "SG"
+    ],
+    "slot": "G",
+    "injury": "ACTIVE",
+    "team": "IND",
+    "avg": {
+     "PTS": 8.833333333333334,
+     "REB": 4.0,
+     "AST": 3.6666666666666665,
+     "STL": 1.3333333333333333,
+     "BLK": 0.0,
+     "3PM": 1.1666666666666667,
+     "FG%": 0.53846154,
+     "FT%": 0.66666667,
+     "TO": 1.6666666666666667,
+     "_src": "2027_last_15"
+    },
+    "proj": {}
    }
   ],
   "Akumpo": [
@@ -6872,6 +6861,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-20T23:32:54.102000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Keldon Johnson"
+  },
+  {
+   "date": "2026-11-20T23:32:54.102000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Quenton Jackson"
+  },
+  {
    "date": "2026-11-20T21:55:06.115000",
    "team": "Real Men Eat Ass(ouad)",
    "action": "FA ADDED",
@@ -8340,6 +8341,41 @@
    }
   },
   {
+   "name": "Keldon Johnson",
+   "pos": "SF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 8.75,
+    "REB": 5.625,
+    "AST": 3.375,
+    "STL": 1.125,
+    "BLK": 0.0,
+    "3PM": 0.375,
+    "FG%": 0.49056604,
+    "FT%": 0.71428571,
+    "TO": 1.5,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 13.64935064935065,
+    "REB": 5.194805194805195,
+    "AST": 1.8051948051948052,
+    "STL": 0.5974025974025974,
+    "BLK": 0.19480519480519481,
+    "3PM": 1.3376623376623376,
+    "FG%": 0.488,
+    "FT%": 0.787,
+    "TO": 1.103896103896104,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Keaton Wagler",
    "pos": "PG",
    "elig": [
@@ -9411,30 +9447,6 @@
     "TO": 1.2083333333333333,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Quenton Jackson",
-   "pos": "PG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "IND",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 8.833333333333334,
-    "REB": 4.0,
-    "AST": 3.6666666666666665,
-    "STL": 1.3333333333333333,
-    "BLK": 0.0,
-    "3PM": 1.1666666666666667,
-    "FG%": 0.53846154,
-    "FT%": 0.66666667,
-    "TO": 1.6666666666666667,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Isaiah Jackson",
@@ -13419,6 +13431,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Nic Claxton: Starting versus Wizards",
+   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
+   "published": "Fri, 20 Nov 2026 3:32:00 PM PST",
+   "summary": "Claxton will start in Friday's game against Washington, K.C. Johnson of Chicago Sports Network reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jalen Smith: Out sick Friday",
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Fri, 20 Nov 2026 3:20:00 PM PST",
@@ -13444,13 +13463,6 @@
    "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
    "published": "Fri, 20 Nov 2026 3:13:00 PM PST",
    "summary": "Boozer is out for Saturday's game against Minnesota due to a right ankle sprain.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ty Jerome: Probable for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
-   "published": "Fri, 20 Nov 2026 3:12:00 PM PST",
-   "summary": "Jerome (hip) is probable for Saturday's game in Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -13822,6 +13834,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-20T23:32:54.102000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Keldon Johnson"
+  },
+  {
+   "date": "2026-11-20T23:32:54.102000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Quenton Jackson"
+  },
   {
    "date": "2026-11-20T21:55:06.115000",
    "team": "Real Men Eat Ass(ouad)",
@@ -16350,6 +16374,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 3.5
  }
 }
