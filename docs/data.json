@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:20:25.479435Z",
+ "updated": "2026-11-20T00:30:30.760343Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6760,7 +6760,7 @@
      "PF"
     ],
     "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
      "PTS": 12.5,
@@ -9871,7 +9871,7 @@
     "C"
    ],
    "team": "MEM",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -13373,6 +13373,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jonathan Kuminga: Available versus Knicks",
+   "link": "https://www.rotowire.com//basketball/player/jonathan-kuminga-5287",
+   "published": "Thu, 19 Nov 2026 4:28:00 PM PST",
+   "summary": "Kuminga (shoulder) is available for Thursday's game against New York.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Deni Avdija: Remains sidelined Thursday",
+   "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
+   "published": "Thu, 19 Nov 2026 4:22:00 PM PST",
+   "summary": "Avdija (foot) is listed as out for Thursday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Toumani Camara: Getting green light Thursday",
+   "link": "https://www.rotowire.com//basketball/player/toumani-camara-5987",
+   "published": "Thu, 19 Nov 2026 4:21:00 PM PST",
+   "summary": "Camara (soreness) has been cleared to play Thursday against Milwaukee.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Jusuf Nurkic: Not ready to return Friday",
    "link": "https://www.rotowire.com//basketball/player/jusuf-nurkic-3580",
    "published": "Thu, 19 Nov 2026 4:05:00 PM PST",
@@ -13384,27 +13405,6 @@
    "link": "https://www.rotowire.com//basketball/player/alperen-sengun-5404",
    "published": "Thu, 19 Nov 2026 3:18:00 PM PST",
    "summary": "Sengun (eye) is questionable for Friday's game against the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Andrew Nembhard: Could miss another game Friday",
-   "link": "https://www.rotowire.com//basketball/player/andrew-nembhard-5679",
-   "published": "Thu, 19 Nov 2026 2:08:00 PM PST",
-   "summary": "Nembhard (hip) is questionable for Friday's game in Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kingston Flemings: Iffy for Friday",
-   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
-   "published": "Thu, 19 Nov 2026 2:05:00 PM PST",
-   "summary": "Flemings (back) is questionable for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Grayson Allen: Out for Friday",
-   "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
-   "published": "Thu, 19 Nov 2026 2:03:00 PM PST",
-   "summary": "Allen (concussion) has been ruled out for Friday's game against Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16216,6 +16216,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 3.9
  }
 }
