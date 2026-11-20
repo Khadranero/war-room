@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:10:26.014973Z",
+ "updated": "2026-11-20T22:20:24.404510Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3990,7 +3990,7 @@
      "PF"
     ],
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 15.857142857142858,
@@ -9651,7 +9651,7 @@
     "PG"
    ],
    "team": "ATL",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 7.25,
@@ -9744,7 +9744,7 @@
     "C"
    ],
    "team": "POR",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.833333333333333,
@@ -11027,7 +11027,7 @@
     "PF"
    ],
    "team": "PHL",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 5.666666666666667,
@@ -12440,7 +12440,7 @@
     "SF"
    ],
    "team": "NYK",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.2,
@@ -13419,38 +13419,38 @@
  "news": [
   {
    "source": "RotoWire",
-   "title": "Kyle Kuzma: Cleared from injury report",
-   "link": "https://www.rotowire.com//basketball/player/kyle-kuzma-4167",
-   "published": "Fri, 20 Nov 2026 1:22:00 PM PST",
-   "summary": "Kuzma (shoulder) is off the injury report for Saturday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+   "title": "Kingston Flemings: Ruled out for Friday",
+   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
+   "published": "Fri, 20 Nov 2026 2:16:00 PM PST",
+   "summary": "Flemings (back) is out for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
-   "title": "Myles Turner: Absent from injury report",
-   "link": "https://www.rotowire.com//basketball/player/myles-turner-3725",
-   "published": "Fri, 20 Nov 2026 1:19:00 PM PST",
-   "summary": "Turner (shoulder) is off the injury report for Saturday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+   "title": "OG Anunoby: Questionable for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
+   "published": "Fri, 20 Nov 2026 2:11:00 PM PST",
+   "summary": "Anunoby (calf) is questionable for Saturday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
-   "title": "Kawhi Leonard: Still weeks away from returning",
-   "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
-   "published": "Fri, 20 Nov 2026 12:43:00 PM PST",
-   "summary": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.\n\n        Visit RotoWire.com for more analysis on this update."
+   "title": "Dean Wade: Ruled out for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/dean-wade-4893",
+   "published": "Fri, 20 Nov 2026 2:11:00 PM PST",
+   "summary": "Wade (hamstring) won't play Saturday against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
-   "title": "Tyrese Haliburton: Expected to miss at least two more weeks",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
-   "published": "Fri, 20 Nov 2026 12:41:00 PM PST",
-   "summary": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
+   "title": "Deni Avdija: Iffy for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
+   "published": "Fri, 20 Nov 2026 2:09:00 PM PST",
+   "summary": "Avdija (foot) is listed as questionable for Saturday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
    "source": "RotoWire",
-   "title": "Brandon Ingram: Set for season debut Monday",
-   "link": "https://www.rotowire.com//basketball/player/brandon-ingram-3861",
-   "published": "Fri, 20 Nov 2026 12:20:00 PM PST",
-   "summary": "Ingram (Achilles) is expected to make his season and team debut Monday against the Rockets, per Shams Charania of ESPN.\n\n        Visit RotoWire.com for more analysis on this update."
+   "title": "Tyrese Maxey: Questionable for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/tyrese-maxey-5158",
+   "published": "Fri, 20 Nov 2026 2:08:00 PM PST",
+   "summary": "Maxey (foot) is questionable for Saturday's game against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16350,6 +16350,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 3.8
  }
 }
