@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:30:32.813581Z",
+ "updated": "2026-11-20T17:40:25.478028Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -5795,7 +5795,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 17.2,
@@ -11021,7 +11021,7 @@
     "PF"
    ],
    "team": "PHL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 5.666666666666667,
@@ -13413,6 +13413,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Tyrese Maxey: Practices Friday",
+   "link": "https://www.rotowire.com//basketball/player/tyrese-maxey-5158",
+   "published": "Fri, 20 Nov 2026 9:29:00 AM PST",
+   "summary": "Maxey (foot) was a full participant in Friday's practice, Tony Jones of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jaylen Brown: Participates in individual work",
+   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
+   "published": "Fri, 20 Nov 2026 9:26:00 AM PST",
+   "summary": "Brown (hamstring) went through individual work during Friday's practice, Tony Jones of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Stephon Castle: Records double-double Thursday",
    "link": "https://www.rotowire.com//basketball/player/stephon-castle-6250",
    "published": "Fri, 20 Nov 2026 8:11:00 AM PST",
@@ -13431,20 +13445,6 @@
    "link": "https://www.rotowire.com//basketball/player/lamelo-ball-5151",
    "published": "Fri, 20 Nov 2026 7:50:00 AM PST",
    "summary": "Ball supplied 15 points (6-21 FG, 3-10 3Pt), eight rebounds and eight assists over 35 minutes during Thursday's 102-99 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaden McDaniels: Stuff stat sheet in narrow loss",
-   "link": "https://www.rotowire.com//basketball/player/jaden-mcdaniels-5221",
-   "published": "Fri, 20 Nov 2026 7:48:00 AM PST",
-   "summary": "McDaniels recorded 17 points (6-10 FG, 4-4 3Pt, 1-1 FT), four rebounds, one assist, two blocks and two steals across 39 minutes during Thursday's 102-99 loss to the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Brunson: Records 21 points, seven assists",
-   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
-   "published": "Fri, 20 Nov 2026 7:42:00 AM PST",
-   "summary": "Brunson amassed 21 points (8-20 FG, 4-5 3Pt, 1-1 FT), two rebounds, seven assists and two steals in 35 minutes during Thursday's 102-99 win over the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16332,6 +16332,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 3.0
  }
 }
