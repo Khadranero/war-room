@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T05:10:25.529557Z",
+ "updated": "2026-11-20T05:20:23.147161Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6850,6 +6850,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-20T05:13:37.034000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Tobias Harris"
+  },
+  {
+   "date": "2026-11-20T05:13:37.034000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Quentin Grimes"
+  },
+  {
    "date": "2026-11-20T02:52:25.788000",
    "team": "Crackheads",
    "action": "DROPPED",
@@ -7052,12 +7064,6 @@
    "team": "Momo in Six",
    "action": "FA ADDED",
    "player": "De'Anthony Melton"
-  },
-  {
-   "date": "2026-11-16T14:44:44.976000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Naji Marshall"
   }
  ],
  "schedule": {
@@ -7463,41 +7469,6 @@
    }
   },
   {
-   "name": "Quentin Grimes",
-   "pos": "SG",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "LAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 18.166666666666668,
-    "REB": 3.5,
-    "AST": 2.1666666666666665,
-    "STL": 1.1666666666666667,
-    "BLK": 0.16666666666666666,
-    "3PM": 3.5,
-    "FG%": 0.51351351,
-    "FT%": 0.75,
-    "TO": 1.8333333333333333,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.917808219178083,
-    "REB": 4.205479452054795,
-    "AST": 3.3972602739726026,
-    "STL": 1.0,
-    "BLK": 0.3972602739726027,
-    "3PM": 2.0684931506849313,
-    "FG%": 0.454,
-    "FT%": 0.804,
-    "TO": 1.904109589041096,
-    "_src": "2027_projected"
-   }
-  },
-  {
    "name": "Julian Champagnie",
    "pos": "SF",
    "elig": [
@@ -7564,6 +7535,30 @@
     "FG%": 0.504,
     "FT%": 0.809,
     "TO": 2.0,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Tobias Harris",
+   "pos": "PF",
+   "elig": [
+    "SF",
+    "PF"
+   ],
+   "team": "SAS",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 14.52112676056338,
+    "REB": 5.704225352112676,
+    "AST": 2.6056338028169015,
+    "STL": 1.0,
+    "BLK": 0.6056338028169014,
+    "3PM": 1.2816901408450705,
+    "FG%": 0.478,
+    "FT%": 0.869,
+    "TO": 1.0985915492957747,
     "_src": "2027_projected"
    }
   },
@@ -13824,6 +13819,18 @@
  },
  "log": [
   {
+   "date": "2026-11-20T05:13:37.034000",
+   "team": "Crackheads",
+   "action": "DROPPED",
+   "player": "Tobias Harris"
+  },
+  {
+   "date": "2026-11-20T05:13:37.034000",
+   "team": "Crackheads",
+   "action": "FA ADDED",
+   "player": "Quentin Grimes"
+  },
+  {
    "date": "2026-11-20T02:52:25.788000",
    "team": "Crackheads",
    "action": "DROPPED",
@@ -16261,6 +16268,6 @@
   "picked_total": 5915.0,
   "direct_total": 5915.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 3.4
  }
 }
