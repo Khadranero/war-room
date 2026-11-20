@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:10:33.810139Z",
+ "updated": "2026-11-20T23:20:25.073366Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2713,7 +2713,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
      "PTS": 11.6,
@@ -5598,7 +5598,7 @@
      "PF"
     ],
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "OUT",
     "team": "MEM",
     "avg": {
      "PTS": 16.625,
@@ -5795,7 +5795,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHI",
     "avg": {
      "PTS": 17.2,
@@ -9950,7 +9950,7 @@
     "PG"
    ],
    "team": "MEM",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 9.875,
@@ -13419,6 +13419,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Javon Small: Ruled out for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/javon-small-6581",
+   "published": "Fri, 20 Nov 2026 3:14:00 PM PST",
+   "summary": "Small won't play Saturday against the Timberwolves due to personal reasons.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Cameron Boozer: Ruled out for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/cameron-boozer-6923",
+   "published": "Fri, 20 Nov 2026 3:13:00 PM PST",
+   "summary": "Boozer is out for Saturday's game against Minnesota due to a right ankle sprain.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Ty Jerome: Probable for Saturday",
+   "link": "https://www.rotowire.com//basketball/player/ty-jerome-4774",
+   "published": "Fri, 20 Nov 2026 3:12:00 PM PST",
+   "summary": "Jerome (hip) is probable for Saturday's game in Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "P.J. Washington: Questionable for Saturday",
    "link": "https://www.rotowire.com//basketball/player/pj-washington-4781",
    "published": "Fri, 20 Nov 2026 2:40:00 PM PST",
@@ -13430,27 +13451,6 @@
    "link": "https://www.rotowire.com//basketball/player/jusuf-nurkic-3580",
    "published": "Fri, 20 Nov 2026 2:40:00 PM PST",
    "summary": "Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kingston Flemings: Ruled out for Friday",
-   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
-   "published": "Fri, 20 Nov 2026 2:16:00 PM PST",
-   "summary": "Flemings (back) is out for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "OG Anunoby: Questionable for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
-   "published": "Fri, 20 Nov 2026 2:11:00 PM PST",
-   "summary": "Anunoby (calf) is questionable for Saturday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dean Wade: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/dean-wade-4893",
-   "published": "Fri, 20 Nov 2026 2:11:00 PM PST",
-   "summary": "Wade (hamstring) won't play Saturday against the Bucks.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16350,6 +16350,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 3.8
+  "run_seconds": 2.8
  }
 }
