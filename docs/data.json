@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:20:23.091734Z",
+ "updated": "2026-11-20T21:30:30.184044Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -4129,7 +4129,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
      "PTS": 5.333333333333333,
@@ -8031,7 +8031,7 @@
     "C"
    ],
    "team": "SAC",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.5,
@@ -8134,7 +8134,7 @@
     "PF"
    ],
    "team": "MIL",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 15.428571428571429,
@@ -13413,6 +13413,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kyle Kuzma: Cleared from injury report",
+   "link": "https://www.rotowire.com//basketball/player/kyle-kuzma-4167",
+   "published": "Fri, 20 Nov 2026 1:22:00 PM PST",
+   "summary": "Kuzma (shoulder) is off the injury report for Saturday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Myles Turner: Absent from injury report",
+   "link": "https://www.rotowire.com//basketball/player/myles-turner-3725",
+   "published": "Fri, 20 Nov 2026 1:19:00 PM PST",
+   "summary": "Turner (shoulder) is off the injury report for Saturday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kawhi Leonard: Still weeks away from returning",
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Fri, 20 Nov 2026 12:43:00 PM PST",
@@ -13431,20 +13445,6 @@
    "link": "https://www.rotowire.com//basketball/player/brandon-ingram-3861",
    "published": "Fri, 20 Nov 2026 12:20:00 PM PST",
    "summary": "Ingram (Achilles) is expected to make his season and team debut Monday against the Rockets, per Shams Charania of ESPN.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Dereck Lively: Progressing in recovery",
-   "link": "https://www.rotowire.com//basketball/player/dereck-lively-5904",
-   "published": "Fri, 20 Nov 2026 11:32:00 AM PST",
-   "summary": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Smith: Now questionable Friday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
-   "published": "Fri, 20 Nov 2026 9:41:00 AM PST",
-   "summary": "Smith (illness) has been downgraded to questionable for Friday's game against the Wizards.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16332,6 +16332,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.8
  }
 }
