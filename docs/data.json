@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T09:10:27.293337Z",
+ "updated": "2026-11-20T09:20:31.670325Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6004,7 +6004,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "IR",
     "injury": "OUT",
     "team": "TOR",
     "avg": {
@@ -6212,7 +6212,7 @@
      "SG",
      "SF"
     ],
-    "slot": "IR",
+    "slot": "BE",
     "injury": "OUT",
     "team": "PHL",
     "avg": {
@@ -7099,18 +7099,6 @@
    "team": "Momo in Six",
    "action": "DROPPED",
    "player": "De'Anthony Melton"
-  },
-  {
-   "date": "2026-11-16T23:56:33.838000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Zach Edey"
-  },
-  {
-   "date": "2026-11-16T23:56:33.838000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Grayson Allen"
   }
  ],
  "schedule": {
@@ -16344,6 +16332,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 4.7
  }
 }
