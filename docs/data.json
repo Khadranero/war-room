@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T09:20:31.670325Z",
+ "updated": "2026-11-20T09:30:30.856724Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2331,7 +2331,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "OUT",
     "team": "LAL",
     "avg": {
@@ -2678,7 +2678,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -10947,6 +10947,30 @@
    }
   },
   {
+   "name": "Will Richard",
+   "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "GSW",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 10.857142857142858,
+    "REB": 2.5714285714285716,
+    "AST": 1.1428571428571428,
+    "STL": 1.0,
+    "BLK": 0.14285714285714285,
+    "3PM": 1.2857142857142858,
+    "FG%": 0.57142857,
+    "FT%": 0.84615385,
+    "TO": 1.4285714285714286,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
+  },
+  {
    "name": "Dean Wade",
    "pos": "PF",
    "elig": [
@@ -10979,30 +11003,6 @@
     "TO": 0.29310344827586204,
     "_src": "2027_projected"
    }
-  },
-  {
-   "name": "Will Richard",
-   "pos": "SG",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "GSW",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 10.857142857142858,
-    "REB": 2.5714285714285716,
-    "AST": 1.1428571428571428,
-    "STL": 1.0,
-    "BLK": 0.14285714285714285,
-    "3PM": 1.2857142857142858,
-    "FG%": 0.57142857,
-    "FT%": 0.84615385,
-    "TO": 1.4285714285714286,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
   },
   {
    "name": "Max Christie",
@@ -11603,29 +11603,6 @@
    }
   },
   {
-   "name": "Carter Bryant",
-   "pos": "SF",
-   "elig": [
-    "SF"
-   ],
-   "team": "SAS",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 4.375,
-    "REB": 1.375,
-    "AST": 0.75,
-    "STL": 0.25,
-    "BLK": 0.125,
-    "3PM": 1.125,
-    "FG%": 0.375,
-    "FT%": 1.0,
-    "TO": 0.25,
-    "_src": "2027_last_15"
-   },
-   "proj": {}
-  },
-  {
    "name": "Kenrich Williams",
    "pos": "SF",
    "elig": [
@@ -11658,6 +11635,29 @@
     "TO": 0.7076923076923077,
     "_src": "2027_projected"
    }
+  },
+  {
+   "name": "Carter Bryant",
+   "pos": "SF",
+   "elig": [
+    "SF"
+   ],
+   "team": "SAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 4.375,
+    "REB": 1.375,
+    "AST": 0.75,
+    "STL": 0.25,
+    "BLK": 0.125,
+    "3PM": 1.125,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 0.25,
+    "_src": "2027_last_15"
+   },
+   "proj": {}
   },
   {
    "name": "Keon Ellis",
@@ -13041,6 +13041,30 @@
    }
   },
   {
+   "name": "Moses Moody",
+   "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "GSW",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {
+    "PTS": 11.583333333333334,
+    "REB": 3.1666666666666665,
+    "AST": 1.5,
+    "STL": 0.9166666666666666,
+    "BLK": 0.5,
+    "3PM": 2.3333333333333335,
+    "FG%": 0.44,
+    "FT%": 0.775,
+    "TO": 0.9166666666666666,
+    "_src": "2027_projected"
+   }
+  },
+  {
    "name": "Thomas Bryant",
    "pos": "C",
    "elig": [
@@ -13071,30 +13095,6 @@
     "FG%": 0.508,
     "FT%": 0.814,
     "TO": 0.5,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Moses Moody",
-   "pos": "SG",
-   "elig": [
-    "SG",
-    "SF"
-   ],
-   "team": "GSW",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {
-    "PTS": 11.583333333333334,
-    "REB": 3.1666666666666665,
-    "AST": 1.5,
-    "STL": 0.9166666666666666,
-    "BLK": 0.5,
-    "3PM": 2.3333333333333335,
-    "FG%": 0.44,
-    "FT%": 0.775,
-    "TO": 0.9166666666666666,
     "_src": "2027_projected"
    }
   },
@@ -16332,6 +16332,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 4.7
+  "run_seconds": 3.9
  }
 }
