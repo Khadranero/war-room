@@ -1,3 +1,4 @@
+import hashlib
 import json, os, sys, datetime as dt
 import urllib.request
 from zoneinfo import ZoneInfo
@@ -312,7 +313,11 @@ try:
     }
     settings = json.loads(json.dumps(raw, default=str))
 except Exception as e:
+    settings = {}
     print(f"settings: {e}", file=sys.stderr)
+# The league plays 5 playoff teams (ESPN's setting reports 6); PLAYOFF_TEAMS can change it
+settings["espn_playoff_teams"] = settings.get("playoff_teams")
+settings["playoff_teams"] = int(os.environ.get("PLAYOFF_TEAMS", "5"))
 
 # ---- public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
 FEEDS = [
@@ -408,7 +413,7 @@ try:
         hist_miss = _prev.get("history_missing", []) or []
 except Exception:
     pass
-_have = {h.get("year") for h in history}
+_have = {h.get("year") for h in history if h.get("mkey")}
 for y in range(int(os.environ.get("ESPN_FIRST_YEAR", "2021")), YEAR):
     if y in _have or y in hist_miss:
         continue
@@ -417,14 +422,22 @@ for y in range(int(os.environ.get("ESPN_FIRST_YEAR", "2021")), YEAR):
                     swid="{" + env("ESPN_SWID") + "}")
         by = lambda attr, v: next((t for t in HL.teams if getattr(t, attr, None) == v), None)
         champ, ru, third, reg = by("final_standing", 1), by("final_standing", 2), by("final_standing", 3), by("standing", 1)
-        def first_name(t):
+        def _owner(t):
             try:
                 o = (getattr(t, "owners", None) or [])[0]
-                return str(o.get("firstName", "")).strip() if isinstance(o, dict) else ""
+                return o if isinstance(o, dict) else {}
             except Exception:
-                return ""
+                return {}
+        def first_name(t):
+            return str(_owner(t).get("firstName", "")).strip() if t else ""
+        def mkey(t):
+            # stable per-manager key (a short hash, so no ESPN ids are published)
+            oid = str(_owner(t).get("id", "")).strip().strip("{}").lower() if t else ""
+            return hashlib.sha256(oid.encode()).hexdigest()[:10] if oid else ""
         if champ:
-            history.append({"year": y, "champion": champ.team_name, "manager": first_name(champ),
+            history = [h for h in history if h.get("year") != y]
+            history.append({"year": y, "champion": champ.team_name, "manager": first_name(champ), "mkey": mkey(champ),
+                            "runner_up_manager": first_name(ru), "runner_up_mkey": mkey(ru),
                             "record": f"{champ.wins}-{champ.losses}" + (f"-{champ.ties}" if getattr(champ, "ties", 0) else ""),
                             "runner_up": ru.team_name if ru else "", "third": third.team_name if third else "",
                             "regular_season": reg.team_name if reg else ""})
@@ -433,12 +446,23 @@ for y in range(int(os.environ.get("ESPN_FIRST_YEAR", "2021")), YEAR):
     except Exception as e:
         print(f"history {y}: {e}", file=sys.stderr)
 history.sort(key=lambda h: h["year"])
+# current team -> manager (first name + the same hashed key), so titles can be credited to people
+managers = {}
+for t in league.teams:
+    try:
+        o = (getattr(t, "owners", None) or [])[0]
+        o = o if isinstance(o, dict) else {}
+        oid = str(o.get("id", "")).strip().strip("{}").lower()
+        managers[name(t)] = {"first": str(o.get("firstName", "")).strip(),
+                             "mkey": hashlib.sha256(oid.encode()).hexdigest()[:10] if oid else ""}
+    except Exception:
+        pass
 
 out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "week": current, "cats": CATS,
        "standings": standings, "power": power_rank, "category_table": cat_table,
        "matchups": weekly, "rosters": rosters, "activity": activity,
        "schedule": schedule, "free_agents": free_agents, "news": news,
-       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings, "history": history, "history_missing": hist_miss, "debug": debug}
+       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings, "history": history, "managers": managers, "history_missing": hist_miss, "debug": debug}
 debug["run_seconds"] = round(_t.time() - _run_start, 1)
 os.makedirs("docs", exist_ok=True)
 with open("docs/data.json", "w") as f:
