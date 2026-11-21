@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T04:00:32.576417Z",
+ "updated": "2026-11-21T04:10:33.746233Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2021,13 +2021,13 @@
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
-     "PTS": 23.714285714285715,
+     "PTS": 24.857142857142858,
      "REB": 2.857142857142857,
-     "AST": 6.714285714285714,
-     "STL": 1.0,
+     "AST": 6.857142857142857,
+     "STL": 1.1428571428571428,
      "BLK": 0.2857142857142857,
      "3PM": 3.142857142857143,
-     "FG%": 0.43382353,
+     "FG%": 0.45,
      "FT%": 0.83870968,
      "TO": 4.142857142857143,
      "_src": "2027_last_15"
@@ -2543,14 +2543,14 @@
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
-     "PTS": 10.142857142857142,
-     "REB": 4.142857142857143,
+     "PTS": 10.857142857142858,
+     "REB": 4.285714285714286,
      "AST": 2.142857142857143,
-     "STL": 1.8571428571428572,
+     "STL": 2.142857142857143,
      "BLK": 0.42857142857142855,
-     "3PM": 1.0,
-     "FG%": 0.4057971,
-     "FT%": 0.72727273,
+     "3PM": 1.1428571428571428,
+     "FG%": 0.41428571,
+     "FT%": 0.76923077,
      "TO": 0.7142857142857143,
      "_src": "2027_last_15"
     },
@@ -2649,11 +2649,11 @@
     "avg": {
      "PTS": 22.857142857142858,
      "REB": 4.571428571428571,
-     "AST": 5.142857142857143,
+     "AST": 5.285714285714286,
      "STL": 1.0,
      "BLK": 1.1428571428571428,
      "3PM": 2.142857142857143,
-     "FG%": 0.54205607,
+     "FG%": 0.52727273,
      "FT%": 0.90625,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -2858,8 +2858,8 @@
     "team": "SAC",
     "avg": {
      "PTS": 12.0,
-     "REB": 9.833333333333334,
-     "AST": 4.333333333333333,
+     "REB": 10.0,
+     "AST": 4.5,
      "STL": 0.16666666666666666,
      "BLK": 0.0,
      "3PM": 0.5,
@@ -3100,14 +3100,14 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 19.444444444444443,
+     "PTS": 19.666666666666668,
      "REB": 4.777777777777778,
-     "AST": 3.7777777777777777,
+     "AST": 4.0,
      "STL": 1.2222222222222223,
      "BLK": 0.7777777777777778,
      "3PM": 2.5555555555555554,
      "FG%": 0.43262411,
-     "FT%": 0.78947368,
+     "FT%": 0.8,
      "TO": 2.2222222222222223,
      "_src": "2027_last_15"
     },
@@ -3138,7 +3138,7 @@
      "PTS": 16.0,
      "REB": 3.5,
      "AST": 2.8333333333333335,
-     "STL": 1.0,
+     "STL": 1.1666666666666667,
      "BLK": 0.16666666666666666,
      "3PM": 2.1666666666666665,
      "FG%": 0.53125,
@@ -3504,13 +3504,13 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 11.11111111111111,
+     "PTS": 11.333333333333334,
      "REB": 3.6666666666666665,
-     "AST": 3.0,
+     "AST": 3.111111111111111,
      "STL": 1.1111111111111112,
      "BLK": 0.0,
      "3PM": 1.2222222222222223,
-     "FG%": 0.4137931,
+     "FG%": 0.42045455,
      "FT%": 0.70833333,
      "TO": 2.3333333333333335,
      "_src": "2027_last_15"
@@ -4157,14 +4157,14 @@
     "team": "UTA",
     "avg": {
      "PTS": 13.222222222222221,
-     "REB": 5.222222222222222,
+     "REB": 5.333333333333333,
      "AST": 2.2222222222222223,
      "STL": 1.1111111111111112,
      "BLK": 0.6666666666666666,
      "3PM": 1.5555555555555556,
      "FG%": 0.42727273,
      "FT%": 0.84615385,
-     "TO": 1.7777777777777777,
+     "TO": 1.8888888888888888,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4331,11 +4331,11 @@
     "avg": {
      "PTS": 21.571428571428573,
      "REB": 10.571428571428571,
-     "AST": 7.857142857142857,
+     "AST": 8.0,
      "STL": 1.0,
      "BLK": 0.8571428571428571,
      "3PM": 1.2857142857142858,
-     "FG%": 0.53153153,
+     "FG%": 0.52678571,
      "FT%": 0.92307692,
      "TO": 2.7142857142857144,
      "_src": "2027_last_15"
@@ -4604,7 +4604,7 @@
      "3PM": 2.0,
      "FG%": 0.46153846,
      "FT%": 0.9375,
-     "TO": 2.111111111111111,
+     "TO": 2.2222222222222223,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4631,14 +4631,14 @@
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
-     "PTS": 19.25,
+     "PTS": 19.5,
      "REB": 3.75,
-     "AST": 7.875,
+     "AST": 8.0,
      "STL": 0.5,
      "BLK": 0.375,
      "3PM": 2.125,
-     "FG%": 0.42241379,
-     "FT%": 0.86666667,
+     "FG%": 0.41880342,
+     "FT%": 0.87234043,
      "TO": 3.25,
      "_src": "2027_last_15"
     },
@@ -4826,15 +4826,15 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 34.285714285714285,
+     "PTS": 34.57142857142857,
      "REB": 5.142857142857143,
-     "AST": 6.571428571428571,
+     "AST": 6.714285714285714,
      "STL": 1.8571428571428572,
      "BLK": 0.42857142857142855,
      "3PM": 3.7142857142857144,
-     "FG%": 0.44134078,
+     "FG%": 0.44444444,
      "FT%": 0.82352941,
-     "TO": 4.714285714285714,
+     "TO": 4.857142857142857,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4861,13 +4861,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 15.0,
-     "REB": 7.428571428571429,
+     "PTS": 15.285714285714286,
+     "REB": 7.714285714285714,
      "AST": 2.857142857142857,
      "STL": 0.7142857142857143,
      "BLK": 1.2857142857142858,
      "3PM": 0.42857142857142855,
-     "FG%": 0.58823529,
+     "FG%": 0.5942029,
      "FT%": 0.75862069,
      "TO": 2.0,
      "_src": "2027_last_15"
@@ -4895,14 +4895,14 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 19.75,
+     "PTS": 19.875,
      "REB": 8.625,
      "AST": 5.375,
      "STL": 0.875,
      "BLK": 0.625,
      "3PM": 1.0,
-     "FG%": 0.56190476,
-     "FT%": 0.74418605,
+     "FG%": 0.55660377,
+     "FT%": 0.73333333,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -5625,14 +5625,14 @@
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
-     "PTS": 12.333333333333334,
+     "PTS": 12.88888888888889,
      "REB": 6.888888888888889,
-     "AST": 3.2222222222222223,
+     "AST": 3.4444444444444446,
      "STL": 0.6666666666666666,
      "BLK": 0.6666666666666666,
      "3PM": 1.3333333333333333,
-     "FG%": 0.49425287,
-     "FT%": 0.92857143,
+     "FG%": 0.5,
+     "FT%": 0.875,
      "TO": 0.3333333333333333,
      "_src": "2027_last_15"
     },
@@ -5660,15 +5660,15 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 13.0,
-     "REB": 2.142857142857143,
+     "PTS": 13.285714285714286,
+     "REB": 2.2857142857142856,
      "AST": 4.285714285714286,
      "STL": 0.8571428571428571,
      "BLK": 0.42857142857142855,
      "3PM": 2.857142857142857,
-     "FG%": 0.47142857,
+     "FG%": 0.47222222,
      "FT%": 0.71428571,
-     "TO": 1.0,
+     "TO": 1.1428571428571428,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6274,7 +6274,7 @@
     "team": "HOU",
     "avg": {
      "PTS": 10.125,
-     "REB": 5.75,
+     "REB": 5.875,
      "AST": 1.625,
      "STL": 0.75,
      "BLK": 0.375,
@@ -6308,7 +6308,7 @@
     "team": "UTA",
     "avg": {
      "PTS": 8.875,
-     "REB": 6.375,
+     "REB": 6.5,
      "AST": 1.25,
      "STL": 0.5,
      "BLK": 1.75,
@@ -6682,14 +6682,14 @@
     "team": "HOU",
     "avg": {
      "PTS": 20.25,
-     "REB": 4.625,
-     "AST": 4.375,
+     "REB": 4.75,
+     "AST": 4.5,
      "STL": 0.25,
      "BLK": 0.25,
      "3PM": 1.625,
      "FG%": 0.47619048,
      "FT%": 0.9245283,
-     "TO": 2.25,
+     "TO": 2.5,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6834,12 +6834,12 @@
     "team": "LAL",
     "avg": {
      "PTS": 18.166666666666668,
-     "REB": 3.8333333333333335,
-     "AST": 2.5,
+     "REB": 4.0,
+     "AST": 2.6666666666666665,
      "STL": 1.0,
      "BLK": 0.16666666666666666,
      "3PM": 3.5,
-     "FG%": 0.50684932,
+     "FG%": 0.5,
      "FT%": 0.77777778,
      "TO": 1.6666666666666667,
      "_src": "2027_last_15"
@@ -7496,11 +7496,11 @@
    "avg": {
     "PTS": 9.428571428571429,
     "REB": 4.0,
-    "AST": 1.1428571428571428,
+    "AST": 1.2857142857142858,
     "STL": 0.42857142857142855,
     "BLK": 0.42857142857142855,
     "3PM": 0.7142857142857143,
-    "FG%": 0.42857143,
+    "FG%": 0.42105263,
     "FT%": 0.56521739,
     "TO": 1.1428571428571428,
     "_src": "2027_last_15"
@@ -7657,11 +7657,11 @@
    "avg": {
     "PTS": 11.0,
     "REB": 3.1666666666666665,
-    "AST": 1.6666666666666667,
+    "AST": 1.8333333333333333,
     "STL": 0.8333333333333334,
     "BLK": 1.0,
     "3PM": 1.3333333333333333,
-    "FG%": 0.45614035,
+    "FG%": 0.44827586,
     "FT%": 0.75,
     "TO": 0.8333333333333334,
     "_src": "2027_last_15"
@@ -7759,13 +7759,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 13.444444444444445,
+    "PTS": 14.0,
     "REB": 3.0,
-    "AST": 1.5555555555555556,
+    "AST": 1.7777777777777777,
     "STL": 0.4444444444444444,
     "BLK": 0.1111111111111111,
-    "3PM": 2.2222222222222223,
-    "FG%": 0.43636364,
+    "3PM": 2.3333333333333335,
+    "FG%": 0.44247788,
     "FT%": 0.55555556,
     "TO": 1.3333333333333333,
     "_src": "2027_last_15"
@@ -8018,7 +8018,7 @@
    "avg": {
     "PTS": 10.875,
     "REB": 1.125,
-    "AST": 2.75,
+    "AST": 2.625,
     "STL": 0.375,
     "BLK": 0.0,
     "3PM": 0.875,
@@ -8156,7 +8156,7 @@
    "pct": null,
    "avg": {
     "PTS": 4.666666666666667,
-    "REB": 5.222222222222222,
+    "REB": 5.333333333333333,
     "AST": 2.7777777777777777,
     "STL": 0.6666666666666666,
     "BLK": 0.5555555555555556,
@@ -8697,13 +8697,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.714285714285714,
+    "PTS": 12.428571428571429,
     "REB": 3.0,
     "AST": 1.8571428571428572,
     "STL": 1.2857142857142858,
     "BLK": 0.0,
-    "3PM": 1.4285714285714286,
-    "FG%": 0.42647059,
+    "3PM": 1.5714285714285714,
+    "FG%": 0.44285714,
     "FT%": 0.82352941,
     "TO": 1.0,
     "_src": "2027_last_15"
@@ -9042,13 +9042,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.625,
-    "REB": 4.625,
+    "PTS": 5.0,
+    "REB": 4.75,
     "AST": 2.625,
     "STL": 0.75,
     "BLK": 0.5,
-    "3PM": 0.5,
-    "FG%": 0.36111111,
+    "3PM": 0.625,
+    "FG%": 0.36842105,
     "FT%": 0.58333333,
     "TO": 0.875,
     "_src": "2027_last_15"
@@ -9085,7 +9085,7 @@
     "3PM": 1.5,
     "FG%": 0.39130435,
     "FT%": 0.91666667,
-    "TO": 0.875,
+    "TO": 1.0,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -9414,13 +9414,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 14.2,
+    "PTS": 14.6,
     "REB": 3.4,
     "AST": 2.0,
     "STL": 0.6,
     "BLK": 0.0,
     "3PM": 2.2,
-    "FG%": 0.44230769,
+    "FG%": 0.45283019,
     "FT%": 0.93333333,
     "TO": 1.2,
     "_src": "2027_last_15"
@@ -11136,7 +11136,7 @@
    "pct": null,
    "avg": {
     "PTS": 4.6,
-    "REB": 1.8,
+    "REB": 2.0,
     "AST": 1.6,
     "STL": 0.4,
     "BLK": 0.2,
@@ -12131,7 +12131,7 @@
     "PF"
    ],
    "team": "PHO",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 5.111111111111111,
@@ -12272,7 +12272,7 @@
    "pct": null,
    "avg": {
     "PTS": 5.714285714285714,
-    "REB": 3.142857142857143,
+    "REB": 3.2857142857142856,
     "AST": 0.14285714285714285,
     "STL": 0.2857142857142857,
     "BLK": 0.8571428571428571,
@@ -12885,7 +12885,7 @@
    "pct": null,
    "avg": {
     "PTS": 4.142857142857143,
-    "REB": 2.142857142857143,
+    "REB": 2.0,
     "AST": 0.7142857142857143,
     "STL": 0.14285714285714285,
     "BLK": 0.42857142857142855,
@@ -13017,7 +13017,7 @@
     "STL": 0.0,
     "BLK": 0.3333333333333333,
     "3PM": 0.0,
-    "FG%": 0.55555556,
+    "FG%": 0.5,
     "FT%": 1.0,
     "TO": 0.6666666666666666,
     "_src": "2027_last_15"
@@ -13311,7 +13311,7 @@
    "pct": null,
    "avg": {
     "PTS": 1.7142857142857142,
-    "REB": 0.8571428571428571,
+    "REB": 1.0,
     "AST": 2.2857142857142856,
     "STL": 0.14285714285714285,
     "BLK": 0.14285714285714285,
@@ -13443,6 +13443,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Ryan Dunn: Won't return Friday",
+   "link": "https://www.rotowire.com//basketball/player/ryan-dunn-6276",
+   "published": "Fri, 20 Nov 2026 8:06:00 PM PST",
+   "summary": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "AJ Dybantsa: Scores 20-plus points again",
+   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
+   "published": "Fri, 20 Nov 2026 8:04:00 PM PST",
+   "summary": "Dybantsa posted 20 points (9-18 FG, 2-4 3Pt), 10 rebounds, six assists, one block and two steals in 37 minutes during Friday's 98-94 win over Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Zion Williamson: Strong all-around effort Friday",
+   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
+   "published": "Fri, 20 Nov 2026 8:03:00 PM PST",
+   "summary": "Williamson ended with 22 points (9-19 FG, 4-6 FT), six rebounds, seven assists and two steals over 37 minutes in Friday's 126-120 loss to Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cade Cunningham: Scores 23 points with nine dimes",
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Fri, 20 Nov 2026 7:54:00 PM PST",
@@ -13456,25 +13477,116 @@
    "summary": "Powell tallied 16 points (7-18 FG, 1-5 3Pt, 1-2 FT), three rebounds, two assists and one steal in 33 minutes during Friday's 98-84 loss to Washington.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Moussa Diabate: Scores 21 points with 15 rebounds",
-   "link": "https://www.rotowire.com//basketball/player/moussa-diabate-5708",
-   "published": "Fri, 20 Nov 2026 7:38:00 PM PST",
-   "summary": "Diabate finished with 21 points (9-12 FG, 3-5 FT), 15 rebounds, two assists and one steal across 30 minutes during Friday's 111-97 loss to Atlanta.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Harden explodes for 51, passes Kobe for third-most 50-point games all-time",
+   "link": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
+   "published": "Fri, 20 Nov 2026 22:25:31 EST",
+   "summary": "James Harden posted the 26th 50-point game of his career, passing the late Kobe Bryant for third-most 50-point games in NBA history."
   },
   {
-   "source": "RotoWire",
-   "title": "Shai Gilgeous-Alexander: Drops 40-piece in win",
-   "link": "https://www.rotowire.com//basketball/player/shai-gilgeous-alexander-4387",
-   "published": "Fri, 20 Nov 2026 7:37:00 PM PST",
-   "summary": "Gilgeous-Alexander recorded 40 points (14-24 FG, 4-7 3Pt, 8-11 FT), three rebounds, seven assists and one block in 37 minutes during Friday's 126-120 win over the Pelicans.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Sources: Clips' Ingram expected to make season, team debut vs. Rockets",
+   "link": "https://www.espn.com/nba/story/_/id/50542985/sources-clippers-brandon-ingram-make-season-team-debut",
+   "published": "Fri, 20 Nov 2026 22:25:31 EST",
+   "summary": "After recovering from Achilles surgery, Brandon Ingram is set to make his Clippers debut Monday against the Rockets, sources told ESPN's Shams Charania."
   },
   {
-   "source": "RotoWire",
-   "title": "Ivica Zubac: Posts season-high 21 points",
-   "link": "https://www.rotowire.com//basketball/player/ivica-zubac-3888",
-   "published": "Fri, 20 Nov 2026 7:36:00 PM PST",
-   "summary": "Zubac finished with 21 points (8-11 FG, 5-6 FT), 10 rebounds, two assists and three blocks over 27 minutes in Friday's 128-119 loss to the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "Wilson hand injuries not connected as Bulls rookie deals with 'bad luck'",
+   "link": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
+   "published": "Fri, 20 Nov 2026 22:25:31 EST",
+   "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and that it's a case of \"bad luck,\" he told reporters before his team's game against the Washington Wizards."
+  },
+  {
+   "source": "ESPN",
+   "title": "Wemby debuts 'shunk,' part jump shot, part dunk done with reason",
+   "link": "https://www.espn.com/nba/story/_/id/50538594/spurs-victor-wembanyama-shunk-done-due-blister",
+   "published": "Fri, 20 Nov 2026 22:25:32 EST",
+   "summary": "Victor Wembanyama said his new-look \"shunk\" was done because of a blister former from actually dunking."
+  },
+  {
+   "source": "ESPN",
+   "title": "Lillard scores 33 points in Milwaukee return as Blazers beat Bucks",
+   "link": "https://www.espn.com/nba/story/_/id/50538526/lillard-scores-33-return-milwaukee-lifts-blazers-bucks",
+   "published": "Fri, 20 Nov 2026 22:25:32 EST",
+   "summary": "Portland's Damian Lillard played at Milwaukee for the first time since the Bucks waived him in 2025 and gave Bucks fans a taste of what they're missing by scoring a season-high 33 points in the Trail Blazers' 124-114 victory on Thursday night."
+  },
+  {
+   "source": "ESPN",
+   "title": "Timberwolves' Edwards has 'no clue' on timetable for return",
+   "link": "https://www.espn.com/nba/story/_/id/50532808/timberwolves-edwards-no-clue-return",
+   "published": "Fri, 20 Nov 2026 22:25:31 EST",
+   "summary": "Timberwolves guard Anthony Edwards said he has \"no clue\" when he will return to play from right knee surgery weeks ago, but was optimistic about his long-term prognosis."
+  },
+  {
+   "source": "ESPN",
+   "title": "Sources: Spurs' Harper avoids major injury, out 1-3 weeks with hip strain",
+   "link": "https://www.espn.com/nba/story/_/id/50533303/sources-spurs-dylan-harper-1-3-weeks-hip-strain",
+   "published": "Fri, 20 Nov 2026 22:25:31 EST",
+   "summary": "Spurs guard Dylan Harper has been diagnosed with a left hip rotator strain, avoiding any major injury, sources told ESPN's Shams Charania on Thursday."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+   "published": "Fri, 20 Nov 2026 22:25:32 EST",
+   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
+   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+   "published": "Fri, 20 Nov 2026 22:34:53 EST",
+   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
+  },
+  {
+   "source": "ESPN",
+   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+   "published": "Fri, 20 Nov 2026 09:07:01 EST",
+   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
+   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+   "published": "Thu, 19 Nov 2026 08:46:53 EST",
+   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
+  },
+  {
+   "source": "ESPN",
+   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+   "published": "Fri, 20 Nov 2026 14:54:29 EST",
+   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA Power Rankings: One wild stat for all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50513109/nba-power-rankings-wild-stats-spurs-lakers",
+   "published": "Thu, 19 Nov 2026 17:56:25 EST",
+   "summary": "Here's where every team ranks this week -- along with one remarkable stat that has fueled each franchise through one month of the season."
+  },
+  {
+   "source": "ESPN",
+   "title": "Goes together like Cooper Flagg and PB&J: Mavs announce pop-up for sandwiches",
+   "link": "https://www.espn.com/nba/story/_/id/50534447/cooper-flagg-peanut-butter-jelly",
+   "published": "Thu, 19 Nov 2026 18:25:59 EST",
+   "summary": "The Dallas Mavericks' pop-up includes creamy peanut butter and grape jelly on white sourdough bread."
+  },
+  {
+   "source": "ESPN",
+   "title": "Athletes, coaches are just as hyped for 'Grand Theft Auto VI' as everyone else",
+   "link": "https://www.espn.com/nba/story/_/id/50531977/gta-vi-grand-theft-auto-athletes",
+   "published": "Thu, 19 Nov 2026 18:25:59 EST",
+   "summary": "The latest entry in the Grand Theft Auto series is tied with \"The Legend of Zelda: Ocarina of Time\" with a 99 rating on Metacritic."
+  },
+  {
+   "source": "ESPN",
+   "title": "Updated NBA championship and MVP odds: Heat on the rise, Wemby moves ahead of Luka",
+   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+   "published": "Fri, 20 Nov 2026 22:38:11 EST",
+   "summary": "The Heat have bounced back from a rough start to the season, while Victor Wembanyama is now the leader for MVP just ahead of Luka Doncic."
   }
  ],
  "games": {
@@ -16374,6 +16486,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 4.2
+  "run_seconds": 2.7
  }
 }
