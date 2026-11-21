@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:10:26.355308Z",
+ "updated": "2026-11-21T19:15:40.120478Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -24161,6 +24161,63 @@
   "acq_limit": -1,
   "slots": null
  },
+ "history": [
+  {
+   "year": 2021,
+   "champion": "Rubio Bzeit",
+   "manager": "Ahmad",
+   "record": "0-0",
+   "runner_up": "Dallas  Greenvilles",
+   "third": "Beirut, Lebanon Nuhadd",
+   "regular_season": "Rubio Bzeit"
+  },
+  {
+   "year": 2022,
+   "champion": "New York Mambas",
+   "manager": "Mohamad",
+   "record": "17-1",
+   "runner_up": "Rubio Bzeit ",
+   "third": "Nadim  In 3",
+   "regular_season": "New York Mambas"
+  },
+  {
+   "year": 2023,
+   "champion": "Rubio Bzeit ",
+   "manager": "Ahmad",
+   "record": "15-3",
+   "runner_up": "New York Mambas",
+   "third": "Redeem Land",
+   "regular_season": "Redeem Land"
+  },
+  {
+   "year": 2024,
+   "champion": "Let me be Giannis",
+   "manager": "Mohamad",
+   "record": "13-4",
+   "runner_up": "Real Men Eat Ass(ouad)",
+   "third": "Team Batrouni",
+   "regular_season": "Let me be Giannis"
+  },
+  {
+   "year": 2025,
+   "champion": "Let me be Giannis",
+   "manager": "Mohamad",
+   "record": "10-7",
+   "runner_up": "Rubio Bzeit ",
+   "third": "Nadim In 4",
+   "regular_season": "Nadim In 4"
+  },
+  {
+   "year": 2026,
+   "champion": "Rubio Bzeit ",
+   "manager": "Ahmad",
+   "record": "11-6",
+   "runner_up": "Team Batrouni",
+   "third": "Real Men Eat Ass(ouad)",
+   "regular_season": "Team Batrouni"
+  }
+ ],
+ "history_missing": [],
  "debug": {
   "matchup_period": 5,
   "scoring_period": 33,
@@ -24173,6 +24230,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 6.3
  }
 }
