@@ -2849,4 +2849,39 @@ let tries=0;const iv=setInterval(()=>{
 setTimeout(()=>{try{if(typeof D!=='undefined'&&D&&D.power){heroFx();addInstall();viz()}}catch(e){}},600);
 })();
 
-</script></body></html>
+</script>
+<script>
+/* ===== Two yardsticks: ESPN projections vs actual season averages, side by side on every trade ===== */
+(function(){
+const CATS=()=>D.cats,LOWc=c=>c==='TO',PCTc=c=>c==='FG%'||c==='FT%';
+const P1=p=>(p.proj&&p.proj.PTS!=null)?p.proj:(p.avg||{});
+const S1=p=>(p.season&&p.season.PTS!=null&&(+p.season.GP||0)>=3)?p.season:P1(p);
+let INJ=true;try{INJ=localStorage.getItem('wr_dual_inj')!=='0'}catch(e){}
+function vals(R,src){const V={};Object.keys(R).forEach(t=>{const ps=R[t].filter(p=>(INJ||(p.slot!=='IR'&&p.injury!=='OUT'))&&src(p).PTS!=null);V[t]={};CATS().forEach(c=>{const xs=ps.map(p=>src(p)[c]).filter(x=>x!=null).map(Number);V[t][c]=xs.length?(PCTc(c)?xs.reduce((a,x)=>a+(x>1?x/100:x),0)/xs.length:xs.reduce((a,b)=>a+b,0)/xs.length*35):null})});return V}
+function ranks(V){const ts=Object.keys(V),r={},pts={};ts.forEach(t=>{r[t]={};pts[t]=0});CATS().forEach(c=>{const o=ts.slice().sort((a,b)=>LOWc(c)?V[a][c]-V[b][c]:V[b][c]-V[a][c]);o.forEach((t,i)=>{r[t][c]=i+1;pts[t]+=ts.length-i})});const pr={};ts.slice().sort((a,b)=>pts[b]-pts[a]).forEach((t,i)=>pr[t]=i+1);return{r,pts,pr}}
+const ord=n=>n+(['th','st','nd','rd'][(n%100-20)%10]||['th','st','nd','rd'][n%100]||'th');
+const fmt=(c,v)=>v==null?'–':PCTc(c)?v.toFixed(3).replace(/^0/,''):v.toFixed(1);
+const chg=(a,b)=>a===b?ord(a):`${ord(a)}→<b style="color:${b<a?'#2ecc71':'#ff6b5e'}">${ord(b)}</b>`;
+function box(R0,R1,teams,title){
+  const p0=ranks(vals(R0,P1)),v1=vals(R1,P1),p1=ranks(v1),s0=ranks(vals(R0,S1)),s1V=vals(R1,S1),s1=ranks(s1V);
+  const card=t=>`<div style="flex:0 0 min(360px,88vw);border:1px solid rgba(127,127,127,.35);border-radius:12px;padding:12px">
+  <b style="font-size:15px">${esc(String(t).trim())}</b>
+  <div style="display:flex;flex-wrap:wrap;gap:6px 16px;margin:6px 0 8px;font-size:13px"><span>Power on projections: <b>#${p0.pr[t]}</b>→<b>#${p1.pr[t]}</b></span><span>Power on season: <b>#${s0.pr[t]}</b>→<b>#${s1.pr[t]}</b></span></div>
+  <table style="width:100%;font-size:13px;border-collapse:collapse"><thead><tr><th style="text-align:left;padding:4px">Cat</th><th style="text-align:right;padding:4px">ESPN projections</th><th style="text-align:right;padding:4px">Season so far</th></tr></thead><tbody>${CATS().map(c=>`<tr style="border-top:1px solid rgba(127,127,127,.2)"><td style="padding:4px">${c}</td><td style="text-align:right;padding:4px;white-space:nowrap">${fmt(c,v1[t][c])} · ${chg(p0.r[t][c],p1.r[t][c])}</td><td style="text-align:right;padding:4px;white-space:nowrap">${fmt(c,s1V[t][c])} · ${chg(s0.r[t][c],s1.r[t][c])}</td></tr>`).join('')}</tbody></table></div>`;
+  return `<div class="dualbox" style="margin-top:14px;padding-top:12px;border-top:2px solid rgba(127,127,127,.3)"><h3 style="margin:0 0 4px">${title}</h3><p class="hint" style="margin:0 0 8px">Same trade, two yardsticks: ESPN's season projections vs what players have actually averaged this season. Values are projected weekly totals after the trade; ranks are now → after among all 10 teams. <label style="white-space:nowrap"><input type="checkbox" class="dualinj" ${INJ?'checked':''}> count injured players</label></p><div style="display:flex;gap:12px;overflow-x:auto;padding-bottom:6px">${teams.map(card).join('')}</div></div>`}
+function bind(el,re){el.querySelectorAll('.dualinj').forEach(i=>i.onchange=()=>{INJ=i.checked;try{localStorage.setItem('wr_dual_inj',INJ?'1':'0')}catch(e){}re()})}
+function base(){const R={};Object.keys(D.rosters).forEach(t=>R[t]=D.rosters[t]);return R}
+function anBox(){const el=$('analyzer');if(!el||typeof TA==='undefined'||!TA.a||!TA.team)return;const old=el.querySelector('.dualbox');if(old)old.remove();if(!TA.give.size||!TA.get.size)return;
+  const R0=base(),R1=Object.assign({},R0),a=TA.a,b=TA.team;
+  const ga=R0[a].filter(p=>TA.give.has(p.name)),gb=R0[b].filter(p=>TA.get.has(p.name));
+  R1[a]=R0[a].filter(p=>!TA.give.has(p.name)).concat(gb);R1[b]=R0[b].filter(p=>!TA.get.has(p.name)).concat(ga);
+  el.insertAdjacentHTML('beforeend',box(R0,R1,[a,b],'Projections vs actual season'));bind(el,anBox)}
+function labBox(){const el=$('lab');if(!el||typeof TL==='undefined')return;const old=el.querySelector('.dualbox');if(old)old.remove();if(!TL.length)return;const me=meName();
+  const R0=base(),R1=simulate(me,TL).R;const inv=[me];TL.forEach(tr=>[tr.a||me,tr.team].forEach(t=>{if(t&&!inv.includes(t))inv.push(t)}));
+  el.insertAdjacentHTML('beforeend',box(R0,R1,inv,'Your plan: projections vs actual season'));bind(el,labBox)}
+if(typeof renderAnalyzer==='function'){const _a=renderAnalyzer;renderAnalyzer=function(){const r=_a.apply(this,arguments);try{anBox()}catch(e){console.error('dual',e)}return r}}
+if(typeof renderLab==='function'){const _l=renderLab;renderLab=function(){const r=_l.apply(this,arguments);try{labBox()}catch(e){console.error('dual',e)}return r}}
+let n=0;const iv=setInterval(()=>{n++;try{if(typeof D!=='undefined'&&D&&D.rosters){anBox();labBox();clearInterval(iv)}}catch(e){}if(n>40)clearInterval(iv)},800);
+})();
+</script>
+</body></html>
