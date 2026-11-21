@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:30:32.644157Z",
+ "updated": "2026-11-21T20:40:35.945765Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -8156,19 +8156,19 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 21.0,
+     "PTS": 21.285714285714285,
      "REB": 7.857142857142857,
      "AST": 3.857142857142857,
      "STL": 0.8571428571428571,
      "BLK": 1.2857142857142858,
      "3PM": 0.42857142857142855,
      "FG%": 0.38738739,
-     "FT%": 0.87878788,
+     "FT%": 0.88235294,
      "TO": 2.142857142857143,
      "FGM": 6.142857142857143,
      "FGA": 15.857142857142858,
-     "FTM": 8.285714285714286,
-     "FTA": 9.428571428571429,
+     "FTM": 8.571428571428571,
+     "FTA": 9.714285714285714,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -8188,19 +8188,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 20.285714285714285,
+     "PTS": 20.428571428571427,
      "REB": 8.928571428571429,
      "AST": 4.142857142857143,
      "STL": 0.7857142857142857,
      "BLK": 1.0,
      "3PM": 0.42857142857142855,
      "FG%": 0.4,
-     "FT%": 0.87931034,
+     "FT%": 0.88135593,
      "TO": 2.7857142857142856,
      "FGM": 6.285714285714286,
      "FGA": 15.714285714285714,
-     "FTM": 7.285714285714286,
-     "FTA": 8.285714285714286,
+     "FTM": 7.428571428571429,
+     "FTA": 8.428571428571429,
      "GP": 14.0
     }
    },
@@ -9519,7 +9519,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "MIA",
     "avg": {
      "PTS": 29.5,
@@ -10367,6 +10367,12 @@
  },
  "activity": [
   {
+   "date": "2026-11-21T20:36:22.243000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Caleb Martin"
+  },
+  {
    "date": "2026-11-21T18:01:24.870000",
    "team": "Momo in Six",
    "action": "FA ADDED",
@@ -10599,18 +10605,6 @@
    "team": "Crackheads",
    "action": "DROPPED",
    "player": "Jordan Goodwin"
-  },
-  {
-   "date": "2026-11-18T11:48:00.499000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Terrence Shannon Jr."
-  },
-  {
-   "date": "2026-11-18T11:48:00.499000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "Brice Sensabaugh"
   }
  ],
  "schedule": {
@@ -12302,64 +12296,6 @@
    }
   },
   {
-   "name": "Ja'Kobe Walter",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "TOR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.5,
-    "REB": 4.125,
-    "AST": 1.875,
-    "STL": 1.125,
-    "BLK": 0.125,
-    "3PM": 2.75,
-    "FG%": 0.35106383,
-    "FT%": 0.85714286,
-    "TO": 1.25,
-    "FGM": 4.125,
-    "FGA": 11.75,
-    "FTM": 1.5,
-    "FTA": 1.75,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.028985507246377,
-    "REB": 2.7971014492753623,
-    "AST": 1.3043478260869565,
-    "STL": 1.0,
-    "BLK": 0.2028985507246377,
-    "3PM": 1.565217391304348,
-    "FG%": 0.44,
-    "FT%": 0.79,
-    "TO": 0.5942028985507246,
-    "FGM": 2.681159420289855,
-    "FGA": 6.101449275362318,
-    "FTM": 1.1014492753623188,
-    "FTA": 1.4057971014492754,
-    "_src": "2027_projected"
-   },
-   "season": {
-    "PTS": 11.9375,
-    "REB": 3.9375,
-    "AST": 2.1875,
-    "STL": 1.25,
-    "BLK": 0.25,
-    "3PM": 2.5,
-    "FG%": 0.38888889,
-    "FT%": 0.71428571,
-    "TO": 1.0,
-    "FGM": 3.9375,
-    "FGA": 10.125,
-    "FTM": 1.5625,
-    "FTA": 2.1875,
-    "GP": 16.0
-   }
-  },
-  {
    "name": "Anfernee Simons",
    "pos": "SG",
    "elig": [
@@ -12416,6 +12352,64 @@
     "FTM": 0.8823529411764706,
     "FTA": 1.0,
     "GP": 17.0
+   }
+  },
+  {
+   "name": "Ja'Kobe Walter",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.5,
+    "REB": 4.125,
+    "AST": 1.875,
+    "STL": 1.125,
+    "BLK": 0.125,
+    "3PM": 2.75,
+    "FG%": 0.35106383,
+    "FT%": 0.85714286,
+    "TO": 1.25,
+    "FGM": 4.125,
+    "FGA": 11.75,
+    "FTM": 1.5,
+    "FTA": 1.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.028985507246377,
+    "REB": 2.7971014492753623,
+    "AST": 1.3043478260869565,
+    "STL": 1.0,
+    "BLK": 0.2028985507246377,
+    "3PM": 1.565217391304348,
+    "FG%": 0.44,
+    "FT%": 0.79,
+    "TO": 0.5942028985507246,
+    "FGM": 2.681159420289855,
+    "FGA": 6.101449275362318,
+    "FTM": 1.1014492753623188,
+    "FTA": 1.4057971014492754,
+    "_src": "2027_projected"
+   },
+   "season": {
+    "PTS": 11.9375,
+    "REB": 3.9375,
+    "AST": 2.1875,
+    "STL": 1.25,
+    "BLK": 0.25,
+    "3PM": 2.5,
+    "FG%": 0.38888889,
+    "FT%": 0.71428571,
+    "TO": 1.0,
+    "FGM": 3.9375,
+    "FGA": 10.125,
+    "FTM": 1.5625,
+    "FTA": 2.1875,
+    "GP": 16.0
    }
   },
   {
@@ -14041,64 +14035,6 @@
    }
   },
   {
-   "name": "Jamal Shead",
-   "pos": "PG",
-   "elig": [
-    "PG"
-   ],
-   "team": "TOR",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 9.875,
-    "REB": 1.75,
-    "AST": 7.25,
-    "STL": 0.75,
-    "BLK": 0.0,
-    "3PM": 1.375,
-    "FG%": 0.37837838,
-    "FT%": 0.70588235,
-    "TO": 1.75,
-    "FGM": 3.5,
-    "FGA": 9.25,
-    "FTM": 1.5,
-    "FTA": 2.125,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 7.074074074074074,
-    "REB": 1.8024691358024691,
-    "AST": 5.506172839506172,
-    "STL": 1.0,
-    "BLK": 0.19753086419753085,
-    "3PM": 1.0617283950617284,
-    "FG%": 0.373,
-    "FT%": 0.783,
-    "TO": 1.5061728395061729,
-    "FGM": 2.45679012345679,
-    "FGA": 6.604938271604938,
-    "FTM": 1.0987654320987654,
-    "FTA": 1.3950617283950617,
-    "_src": "2027_projected"
-   },
-   "season": {
-    "PTS": 7.6875,
-    "REB": 1.875,
-    "AST": 6.3125,
-    "STL": 1.0625,
-    "BLK": 0.125,
-    "3PM": 0.9375,
-    "FG%": 0.37168142,
-    "FT%": 0.8,
-    "TO": 1.9375,
-    "FGM": 2.625,
-    "FGA": 7.0625,
-    "FTM": 1.5,
-    "FTA": 1.875,
-    "GP": 16.0
-   }
-  },
-  {
    "name": "Tre Jones",
    "pos": "PG",
    "elig": [
@@ -14154,6 +14090,64 @@
     "FTM": 2.466666666666667,
     "FTA": 3.0,
     "GP": 15.0
+   }
+  },
+  {
+   "name": "Jamal Shead",
+   "pos": "PG",
+   "elig": [
+    "PG"
+   ],
+   "team": "TOR",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 9.875,
+    "REB": 1.75,
+    "AST": 7.25,
+    "STL": 0.75,
+    "BLK": 0.0,
+    "3PM": 1.375,
+    "FG%": 0.37837838,
+    "FT%": 0.70588235,
+    "TO": 1.75,
+    "FGM": 3.5,
+    "FGA": 9.25,
+    "FTM": 1.5,
+    "FTA": 2.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 7.074074074074074,
+    "REB": 1.8024691358024691,
+    "AST": 5.506172839506172,
+    "STL": 1.0,
+    "BLK": 0.19753086419753085,
+    "3PM": 1.0617283950617284,
+    "FG%": 0.373,
+    "FT%": 0.783,
+    "TO": 1.5061728395061729,
+    "FGM": 2.45679012345679,
+    "FGA": 6.604938271604938,
+    "FTM": 1.0987654320987654,
+    "FTA": 1.3950617283950617,
+    "_src": "2027_projected"
+   },
+   "season": {
+    "PTS": 7.6875,
+    "REB": 1.875,
+    "AST": 6.3125,
+    "STL": 1.0625,
+    "BLK": 0.125,
+    "3PM": 0.9375,
+    "FG%": 0.37168142,
+    "FT%": 0.8,
+    "TO": 1.9375,
+    "FGM": 2.625,
+    "FGA": 7.0625,
+    "FTM": 1.5,
+    "FTA": 1.875,
+    "GP": 16.0
    }
   },
   {
@@ -15206,64 +15200,6 @@
    }
   },
   {
-   "name": "Caleb Martin",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "DAL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 6.285714285714286,
-    "REB": 3.5714285714285716,
-    "AST": 3.2857142857142856,
-    "STL": 1.1428571428571428,
-    "BLK": 0.0,
-    "3PM": 1.1428571428571428,
-    "FG%": 0.51515152,
-    "FT%": 1.0,
-    "TO": 0.7142857142857143,
-    "FGM": 2.4285714285714284,
-    "FGA": 4.714285714285714,
-    "FTM": 0.2857142857142857,
-    "FTA": 0.2857142857142857,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 4.731343283582089,
-    "REB": 2.701492537313433,
-    "AST": 1.507462686567164,
-    "STL": 0.7014925373134329,
-    "BLK": 0.29850746268656714,
-    "3PM": 0.4626865671641791,
-    "FG%": 0.442,
-    "FT%": 0.622,
-    "TO": 0.8059701492537313,
-    "FGM": 1.7611940298507462,
-    "FGA": 4.0,
-    "FTM": 0.746268656716418,
-    "FTA": 1.1940298507462686,
-    "_src": "2027_projected"
-   },
-   "season": {
-    "PTS": 6.090909090909091,
-    "REB": 3.272727272727273,
-    "AST": 2.272727272727273,
-    "STL": 0.9090909090909091,
-    "BLK": 0.0,
-    "3PM": 1.1818181818181819,
-    "FG%": 0.53191489,
-    "FT%": 1.0,
-    "TO": 0.6363636363636364,
-    "FGM": 2.272727272727273,
-    "FGA": 4.2727272727272725,
-    "FTM": 0.36363636363636365,
-    "FTA": 0.36363636363636365,
-    "GP": 11.0
-   }
-  },
-  {
    "name": "Landry Shamet",
    "pos": "SG",
    "elig": [
@@ -16039,49 +15975,6 @@
    }
   },
   {
-   "name": "Javon Small",
-   "pos": "PG",
-   "elig": [
-    "PG"
-   ],
-   "team": "MEM",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 9.875,
-    "REB": 3.375,
-    "AST": 5.625,
-    "STL": 0.25,
-    "BLK": 0.125,
-    "3PM": 1.25,
-    "FG%": 0.42857143,
-    "FT%": 0.88235294,
-    "TO": 1.25,
-    "FGM": 3.375,
-    "FGA": 7.875,
-    "FTM": 1.875,
-    "FTA": 2.125,
-    "_src": "2027_last_15"
-   },
-   "proj": {},
-   "season": {
-    "PTS": 9.555555555555555,
-    "REB": 3.111111111111111,
-    "AST": 5.555555555555555,
-    "STL": 0.2222222222222222,
-    "BLK": 0.1111111111111111,
-    "3PM": 1.3333333333333333,
-    "FG%": 0.41428571,
-    "FT%": 0.84210526,
-    "TO": 1.2222222222222223,
-    "FGM": 3.2222222222222223,
-    "FGA": 7.777777777777778,
-    "FTM": 1.7777777777777777,
-    "FTA": 2.111111111111111,
-    "GP": 9.0
-   }
-  },
-  {
    "name": "Kentavious Caldwell-Pope",
    "pos": "SG",
    "elig": [
@@ -16138,6 +16031,49 @@
     "FTM": 0.5294117647058824,
     "FTA": 0.5882352941176471,
     "GP": 17.0
+   }
+  },
+  {
+   "name": "Javon Small",
+   "pos": "PG",
+   "elig": [
+    "PG"
+   ],
+   "team": "MEM",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 9.875,
+    "REB": 3.375,
+    "AST": 5.625,
+    "STL": 0.25,
+    "BLK": 0.125,
+    "3PM": 1.25,
+    "FG%": 0.42857143,
+    "FT%": 0.88235294,
+    "TO": 1.25,
+    "FGM": 3.375,
+    "FGA": 7.875,
+    "FTM": 1.875,
+    "FTA": 2.125,
+    "_src": "2027_last_15"
+   },
+   "proj": {},
+   "season": {
+    "PTS": 9.555555555555555,
+    "REB": 3.111111111111111,
+    "AST": 5.555555555555555,
+    "STL": 0.2222222222222222,
+    "BLK": 0.1111111111111111,
+    "3PM": 1.3333333333333333,
+    "FG%": 0.41428571,
+    "FT%": 0.84210526,
+    "TO": 1.2222222222222223,
+    "FGM": 3.2222222222222223,
+    "FGA": 7.777777777777778,
+    "FTM": 1.7777777777777777,
+    "FTA": 2.111111111111111,
+    "GP": 9.0
    }
   },
   {
@@ -16478,6 +16414,19 @@
    }
   },
   {
+   "name": "Maxime Raynaud",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "SAC",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {},
+   "proj": {},
+   "season": {}
+  },
+  {
    "name": "Joan Beringer",
    "pos": "C",
    "elig": [
@@ -16519,19 +16468,6 @@
     "FTA": 2.25,
     "GP": 16.0
    }
-  },
-  {
-   "name": "Maxime Raynaud",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "SAC",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {},
-   "proj": {},
-   "season": {}
   },
   {
    "name": "Russell Westbrook",
@@ -19510,6 +19446,49 @@
    }
   },
   {
+   "name": "Ryan Conwell",
+   "pos": "SG",
+   "elig": [
+    "SG"
+   ],
+   "team": "MIA",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.166666666666666,
+    "REB": 3.3333333333333335,
+    "AST": 1.8333333333333333,
+    "STL": 0.6666666666666666,
+    "BLK": 0.3333333333333333,
+    "3PM": 2.1666666666666665,
+    "FG%": 0.36538462,
+    "FT%": 0.88888889,
+    "TO": 1.3333333333333333,
+    "FGM": 3.1666666666666665,
+    "FGA": 8.666666666666666,
+    "FTM": 2.6666666666666665,
+    "FTA": 3.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {},
+   "season": {
+    "PTS": 7.230769230769231,
+    "REB": 1.9230769230769231,
+    "AST": 1.3846153846153846,
+    "STL": 0.6923076923076923,
+    "BLK": 0.15384615384615385,
+    "3PM": 1.4615384615384615,
+    "FG%": 0.37333333,
+    "FT%": 0.86363636,
+    "TO": 0.6923076923076923,
+    "FGM": 2.1538461538461537,
+    "FGA": 5.769230769230769,
+    "FTM": 1.4615384615384615,
+    "FTA": 1.6923076923076923,
+    "GP": 13.0
+   }
+  },
+  {
    "name": "Cam Whitmore",
    "pos": "SF",
    "elig": [
@@ -19551,49 +19530,6 @@
     "FTM": 0.0,
     "FTA": 0.5,
     "GP": 2.0
-   }
-  },
-  {
-   "name": "Ryan Conwell",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "MIA",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.166666666666666,
-    "REB": 3.3333333333333335,
-    "AST": 1.8333333333333333,
-    "STL": 0.6666666666666666,
-    "BLK": 0.3333333333333333,
-    "3PM": 2.1666666666666665,
-    "FG%": 0.36538462,
-    "FT%": 0.88888889,
-    "TO": 1.3333333333333333,
-    "FGM": 3.1666666666666665,
-    "FGA": 8.666666666666666,
-    "FTM": 2.6666666666666665,
-    "FTA": 3.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {},
-   "season": {
-    "PTS": 7.230769230769231,
-    "REB": 1.9230769230769231,
-    "AST": 1.3846153846153846,
-    "STL": 0.6923076923076923,
-    "BLK": 0.15384615384615385,
-    "3PM": 1.4615384615384615,
-    "FG%": 0.37333333,
-    "FT%": 0.86363636,
-    "TO": 0.6923076923076923,
-    "FGM": 2.1538461538461537,
-    "FGA": 5.769230769230769,
-    "FTM": 1.4615384615384615,
-    "FTA": 1.6923076923076923,
-    "GP": 13.0
    }
   },
   {
@@ -21187,9 +21123,60 @@
     "FTA": 0.6666666666666666,
     "GP": 6.0
    }
+  },
+  {
+   "name": "Dominick Barlow",
+   "pos": "PF",
+   "elig": [
+    "PF",
+    "C"
+   ],
+   "team": "PHL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 12.0,
+    "REB": 4.0,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 1.0,
+    "FG%": 0.83333333,
+    "FT%": 1.0,
+    "TO": 1.0,
+    "FGM": 5.0,
+    "FGA": 6.0,
+    "FTM": 1.0,
+    "FTA": 1.0,
+    "_src": "2027_last_15"
+   },
+   "proj": {},
+   "season": {
+    "PTS": 12.0,
+    "REB": 4.0,
+    "AST": 1.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 1.0,
+    "FG%": 0.83333333,
+    "FT%": 1.0,
+    "TO": 1.0,
+    "FGM": 5.0,
+    "FGA": 6.0,
+    "FTM": 1.0,
+    "FTA": 1.0,
+    "GP": 1.0
+   }
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Giannis Antetokounmpo: Dealing with groin injury",
+   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
+   "published": "Sat, 21 Nov 2026 12:34:00 PM PST",
+   "summary": "Antetokounmpo (groin) is listed as questionable for Sunday's game against Oklahoma City, Ira Winderman of the South Florida Sun Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "P.J. Washington: Unlikely to play Saturday",
@@ -21219,11 +21206,109 @@
    "summary": "Rollins is in the starting lineup for Saturday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Tyrese Maxey: Available Saturday",
-   "link": "https://www.rotowire.com//basketball/player/tyrese-maxey-5158",
-   "published": "Sat, 21 Nov 2026 9:27:00 AM PST",
-   "summary": "Maxey (foot) is available for Saturday's game against the Bucks, Austin Krell of OnPattison.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
+   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+   "published": "Thu, 19 Nov 2026 08:46:53 EST",
+   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
+  },
+  {
+   "source": "ESPN",
+   "title": "Harden has 51 in 'vintage' performance, leaps Kobe for 3rd-most 50-point games",
+   "link": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
+   "published": "Sat, 21 Nov 2026 10:33:44 EST",
+   "summary": "James Harden posted the 26th 50-point game of his career, passing Kobe Bryant for third-most 50-point games in NBA history."
+  },
+  {
+   "source": "ESPN",
+   "title": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
+   "link": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+   "published": "Sat, 21 Nov 2026 10:33:44 EST",
+   "summary": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling the defense \"as bad as I've seen it.\""
+  },
+  {
+   "source": "ESPN",
+   "title": "76ers' Brown, Wade out; Maxey questionable vs. Bucks",
+   "link": "https://www.espn.com/nba/story/_/id/50550017/76ers-rule-jaylen-brown-dean-wade-vs-bucks",
+   "published": "Sat, 21 Nov 2026 10:33:44 EST",
+   "summary": "76ers forwards Jaylen Brown and Dean Wade will miss Saturday's game against the Bucks with left hamstring injuries, their second straight game out."
+  },
+  {
+   "source": "ESPN",
+   "title": "Lakers eke out win after Redick rips team's lack of fight vs. last-place Kings",
+   "link": "https://www.espn.com/nba/story/_/id/50547994/jj-redick-half-rant-fuels-lakers-last-place-kings",
+   "published": "Sat, 21 Nov 2026 10:33:45 EST",
+   "summary": "Lakers coach JJ Redick ripped into the team's lack of fight after trailing the last-place Kings at halftime, and Los Angeles went on to eke out a 106-104 win."
+  },
+  {
+   "source": "ESPN",
+   "title": "Melo calls out Humphrey for Baltimore remark: Back your apology with action",
+   "link": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
+   "published": "Sat, 21 Nov 2026 15:01:22 EST",
+   "summary": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making criminals.\""
+  },
+  {
+   "source": "ESPN",
+   "title": "Wilson hand injuries not connected as Bulls rookie deals with 'bad luck'",
+   "link": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
+   "published": "Sat, 21 Nov 2026 10:33:45 EST",
+   "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and that it's a case of \"bad luck,\" he told reporters before his team's game against the Washington Wizards."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+   "published": "Sat, 21 Nov 2026 10:33:45 EST",
+   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+   "published": "Sat, 21 Nov 2026 13:40:45 EST",
+   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
+   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+   "published": "Fri, 20 Nov 2026 22:34:53 EST",
+   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
+  },
+  {
+   "source": "ESPN",
+   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+   "published": "Fri, 20 Nov 2026 14:54:29 EST",
+   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
+  },
+  {
+   "source": "ESPN",
+   "title": "NBA Power Rankings: One wild stat for all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50513109/nba-power-rankings-wild-stats-spurs-lakers",
+   "published": "Thu, 19 Nov 2026 17:56:25 EST",
+   "summary": "Here's where every team ranks this week -- along with one remarkable stat that has fueled each franchise through one month of the season."
+  },
+  {
+   "source": "ESPN",
+   "title": "Goes together like Cooper Flagg and PB&J: Mavs announce pop-up for sandwiches",
+   "link": "https://www.espn.com/nba/story/_/id/50534447/cooper-flagg-peanut-butter-jelly",
+   "published": "Thu, 19 Nov 2026 18:25:59 EST",
+   "summary": "The Dallas Mavericks' pop-up includes creamy peanut butter and grape jelly on white sourdough bread."
+  },
+  {
+   "source": "ESPN",
+   "title": "Athletes, coaches are just as hyped for 'Grand Theft Auto VI' as everyone else",
+   "link": "https://www.espn.com/nba/story/_/id/50531977/gta-vi-grand-theft-auto-athletes",
+   "published": "Thu, 19 Nov 2026 18:25:59 EST",
+   "summary": "The latest entry in the Grand Theft Auto series is tied with \"The Legend of Zelda: Ocarina of Time\" with a 99 rating on Metacritic."
+  },
+  {
+   "source": "ESPN",
+   "title": "Updated NBA championship and MVP odds: Heat on the rise, Wemby moves ahead of Luka",
+   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+   "published": "Fri, 20 Nov 2026 22:38:11 EST",
+   "summary": "The Heat have bounced back from a rough start to the season, while Victor Wembanyama is now the leader for MVP just ahead of Luka Doncic."
   }
  ],
  "games": {
@@ -21567,6 +21652,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-21T20:36:22.243000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Caleb Martin"
+  },
   {
    "date": "2026-11-21T18:01:24.870000",
    "team": "Momo in Six",
@@ -24290,6 +24381,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 4.1
+  "run_seconds": 3.3
  }
 }
