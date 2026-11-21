@@ -2146,6 +2146,7 @@ function draw(){
   // new LAST
   D.cats.forEach(c=>teams.forEach(t=>{if(V[c][t]!=null)LAST[t+'|'+c]=V[c][t]}));
   bind(el);animate(el);
+  try{window.__dualMx&&window.__dualMx({roster,anySim,touched})}catch(e){console.error('dualmx',e)}
 }
 function drawer(t){
   const s=SIM[t]||{drop:[],add:[]},base=D.rosters[t].filter(p=>!movedAway(t,p));
@@ -2881,7 +2882,11 @@ function labBox(){const el=$('lab');if(!el||typeof TL==='undefined')return;const
   el.insertAdjacentHTML('beforeend',box(R0,R1,inv,'Your plan: projections vs actual season'));bind(el,labBox)}
 if(typeof renderAnalyzer==='function'){const _a=renderAnalyzer;renderAnalyzer=function(){const r=_a.apply(this,arguments);try{anBox()}catch(e){console.error('dual',e)}return r}}
 if(typeof renderLab==='function'){const _l=renderLab;renderLab=function(){const r=_l.apply(this,arguments);try{labBox()}catch(e){console.error('dual',e)}return r}}
+window.__dualMx=function(api){const el=$('cats');if(!el)return;const old=el.querySelector('.dualbox');if(old)old.remove();if(!api.anySim())return;
+  const R0=base(),R1={};Object.keys(R0).forEach(t=>R1[t]=api.roster(t));const me=meName();const inv=Object.keys(R0).filter(t=>api.touched(t));inv.sort((a,b)=>(b===me)-(a===me));
+  el.insertAdjacentHTML('beforeend',box(R0,R1,inv,'What-if: projections vs actual season'));bind(el,()=>window.drawMatrix&&window.drawMatrix())};
 let n=0;const iv=setInterval(()=>{n++;try{if(typeof D!=='undefined'&&D&&D.rosters){anBox();labBox();clearInterval(iv)}}catch(e){}if(n>40)clearInterval(iv)},800);
+try{window.drawMatrix&&D&&window.drawMatrix()}catch(e){}
 })();
 </script>
 </body></html>
