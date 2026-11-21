@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T05:10:24.723500Z",
+ "updated": "2026-11-21T05:20:23.450472Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2023,13 +2023,13 @@
     "avg": {
      "PTS": 25.714285714285715,
      "REB": 3.0,
-     "AST": 7.571428571428571,
+     "AST": 7.714285714285714,
      "STL": 1.1428571428571428,
      "BLK": 0.2857142857142857,
      "3PM": 3.4285714285714284,
-     "FG%": 0.43333333,
+     "FG%": 0.43046358,
      "FT%": 0.83870968,
-     "TO": 4.428571428571429,
+     "TO": 4.571428571428571,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2653,7 +2653,7 @@
      "STL": 1.0,
      "BLK": 1.1428571428571428,
      "3PM": 2.142857142857143,
-     "FG%": 0.52678571,
+     "FG%": 0.52212389,
      "FT%": 0.90909091,
      "TO": 2.142857142857143,
      "_src": "2027_last_15"
@@ -2857,14 +2857,14 @@
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
-     "PTS": 12.333333333333334,
+     "PTS": 12.666666666666666,
      "REB": 11.333333333333334,
      "AST": 4.5,
      "STL": 0.16666666666666666,
      "BLK": 0.0,
      "3PM": 0.5,
      "FG%": 0.57142857,
-     "FT%": 0.58333333,
+     "FT%": 0.64285714,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -4337,7 +4337,7 @@
      "3PM": 1.5714285714285714,
      "FG%": 0.55371901,
      "FT%": 0.92307692,
-     "TO": 2.857142857142857,
+     "TO": 3.0,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4563,11 +4563,11 @@
     "avg": {
      "PTS": 6.875,
      "REB": 3.0,
-     "AST": 0.625,
+     "AST": 0.75,
      "STL": 3.0,
      "BLK": 0.875,
      "3PM": 1.5,
-     "FG%": 0.44186047,
+     "FG%": 0.43181818,
      "FT%": 0.83333333,
      "TO": 1.375,
      "_src": "2027_last_15"
@@ -4830,11 +4830,11 @@
      "REB": 5.285714285714286,
      "AST": 7.285714285714286,
      "STL": 2.0,
-     "BLK": 0.5714285714285714,
+     "BLK": 0.42857142857142855,
      "3PM": 3.857142857142857,
      "FG%": 0.44148936,
      "FT%": 0.82608696,
-     "TO": 5.0,
+     "TO": 5.142857142857143,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4861,14 +4861,14 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 16.428571428571427,
-     "REB": 7.714285714285714,
+     "PTS": 17.0,
+     "REB": 8.0,
      "AST": 2.857142857142857,
      "STL": 0.7142857142857143,
      "BLK": 1.2857142857142858,
      "3PM": 0.42857142857142855,
-     "FG%": 0.61643836,
-     "FT%": 0.73333333,
+     "FG%": 0.61842105,
+     "FT%": 0.6875,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -4895,14 +4895,14 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 21.375,
-     "REB": 9.25,
+     "PTS": 21.5,
+     "REB": 9.375,
      "AST": 5.875,
      "STL": 0.875,
      "BLK": 0.625,
      "3PM": 1.0,
      "FG%": 0.55263158,
-     "FT%": 0.74,
+     "FT%": 0.73076923,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -5660,13 +5660,13 @@
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
-     "PTS": 15.142857142857142,
+     "PTS": 15.428571428571429,
      "REB": 2.2857142857142856,
-     "AST": 4.857142857142857,
+     "AST": 5.0,
      "STL": 0.8571428571428571,
      "BLK": 0.42857142857142855,
      "3PM": 3.0,
-     "FG%": 0.4875,
+     "FG%": 0.49382716,
      "FT%": 0.7,
      "TO": 1.1428571428571428,
      "_src": "2027_last_15"
@@ -6682,7 +6682,7 @@
     "team": "HOU",
     "avg": {
      "PTS": 21.0,
-     "REB": 5.0,
+     "REB": 5.125,
      "AST": 4.625,
      "STL": 0.25,
      "BLK": 0.25,
@@ -6833,14 +6833,14 @@
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
-     "PTS": 18.5,
-     "REB": 4.0,
+     "PTS": 19.333333333333332,
+     "REB": 4.166666666666667,
      "AST": 3.1666666666666665,
      "STL": 1.0,
      "BLK": 0.16666666666666666,
-     "3PM": 3.5,
-     "FG%": 0.49333333,
-     "FT%": 0.76190476,
+     "3PM": 3.6666666666666665,
+     "FG%": 0.5,
+     "FT%": 0.7826087,
      "TO": 2.0,
      "_src": "2027_last_15"
     },
@@ -7356,14 +7356,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.714285714285714,
-    "REB": 1.8571428571428572,
+    "PTS": 10.0,
+    "REB": 2.0,
     "AST": 2.5714285714285716,
     "STL": 0.14285714285714285,
     "BLK": 0.14285714285714285,
     "3PM": 0.14285714285714285,
-    "FG%": 0.40677966,
-    "FT%": 0.79166667,
+    "FG%": 0.4,
+    "FT%": 0.80769231,
     "TO": 0.5714285714285714,
     "_src": "2027_last_15"
    },
@@ -7494,14 +7494,14 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.428571428571429,
+    "PTS": 10.571428571428571,
     "REB": 4.0,
     "AST": 1.4285714285714286,
     "STL": 0.42857142857142855,
     "BLK": 0.42857142857142855,
     "3PM": 0.7142857142857143,
     "FG%": 0.45,
-    "FT%": 0.58333333,
+    "FT%": 0.6,
     "TO": 1.1428571428571428,
     "_src": "2027_last_15"
    },
@@ -9414,13 +9414,13 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 17.6,
-    "REB": 3.6,
+    "PTS": 18.0,
+    "REB": 3.8,
     "AST": 2.2,
     "STL": 0.6,
     "BLK": 0.2,
     "3PM": 2.6,
-    "FG%": 0.49180328,
+    "FG%": 0.5,
     "FT%": 0.9375,
     "TO": 1.2,
     "_src": "2027_last_15"
@@ -11136,7 +11136,7 @@
    "pct": null,
    "avg": {
     "PTS": 4.6,
-    "REB": 2.2,
+    "REB": 2.0,
     "AST": 1.8,
     "STL": 0.6,
     "BLK": 0.6,
@@ -12885,7 +12885,7 @@
    "pct": null,
    "avg": {
     "PTS": 4.142857142857143,
-    "REB": 2.0,
+    "REB": 2.142857142857143,
     "AST": 0.8571428571428571,
     "STL": 0.14285714285714285,
     "BLK": 0.42857142857142855,
@@ -13443,38 +13443,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Danny Wolf: Scores 20 points with four treys",
+   "link": "https://www.rotowire.com//basketball/player/danny-wolf-6560",
+   "published": "Fri, 20 Nov 2026 9:11:00 PM PST",
+   "summary": "Wolf logged 20 points (6-10 FG, 4-6 3Pt, 4-4 FT), five rebounds, two assists and one steal in 26 minutes during Friday's 113-111 loss to the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Julius Randle: Scores 27 points with three steals",
+   "link": "https://www.rotowire.com//basketball/player/julius-randle-3574",
+   "published": "Fri, 20 Nov 2026 9:10:00 PM PST",
+   "summary": "Randle contributed 27 points (9-20 FG, 1-7 3Pt, 8-11 FT), nine rebounds, six assists and three steals in 39 minutes during Friday's 113-111 loss to the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Desmond Bane: Drills seven triples in win",
+   "link": "https://www.rotowire.com//basketball/player/desmond-bane-5159",
+   "published": "Fri, 20 Nov 2026 9:09:00 PM PST",
+   "summary": "Bane contributed 21 points (7-17 FG, 7-13 3Pt), two rebounds, three assists, one block and five steals over 31 minutes during Friday's 113-111 win over the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Franz Wagner: Nets 35 points with seven dimes",
+   "link": "https://www.rotowire.com//basketball/player/franz-wagner-5370",
+   "published": "Fri, 20 Nov 2026 9:07:00 PM PST",
+   "summary": "Wagner chipped in 35 points (13-25 FG, 2-5 3Pt, 7-9 FT), five rebounds, seven assists and one block in 36 minutes during Friday's 113-111 win over the Nets.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "T.J. McConnell: Exits game with hamstring issue",
    "link": "https://www.rotowire.com//basketball/player/tj-mcconnell-3760",
    "published": "Fri, 20 Nov 2026 8:57:00 PM PST",
    "summary": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Ryan Dunn: Won't return Friday",
-   "link": "https://www.rotowire.com//basketball/player/ryan-dunn-6276",
-   "published": "Fri, 20 Nov 2026 8:06:00 PM PST",
-   "summary": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "AJ Dybantsa: Scores 20-plus points again",
-   "link": "https://www.rotowire.com//basketball/player/aj-dybantsa-6925",
-   "published": "Fri, 20 Nov 2026 8:04:00 PM PST",
-   "summary": "Dybantsa posted 20 points (9-18 FG, 2-4 3Pt), 10 rebounds, six assists, one block and two steals in 37 minutes during Friday's 98-94 win over Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zion Williamson: Strong all-around effort Friday",
-   "link": "https://www.rotowire.com//basketball/player/zion-williamson-4777",
-   "published": "Fri, 20 Nov 2026 8:03:00 PM PST",
-   "summary": "Williamson ended with 22 points (9-19 FG, 4-6 FT), six rebounds, seven assists and two steals over 37 minutes in Friday's 126-120 loss to Oklahoma City.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cade Cunningham: Scores 23 points with nine dimes",
-   "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
-   "published": "Fri, 20 Nov 2026 7:54:00 PM PST",
-   "summary": "Cunningham recorded 23 points (10-22 FG, 2-7 3Pt, 1-4 FT), five rebounds, nine assists and one steal over 36 minutes in Friday's 105-102 loss to the Raptors.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16373,6 +16373,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 3.9
+  "run_seconds": 2.6
  }
 }
