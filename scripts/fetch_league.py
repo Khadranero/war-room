@@ -399,11 +399,46 @@ for x in activity:
 log.sort(key=lambda x: x["date"], reverse=True)
 log = log[:600]
 
+# ---- league history: past champions (each finished season is fetched once, then kept) ----
+history, hist_miss = [], []
+try:
+    with open("docs/data.json") as f:
+        _prev = json.load(f)
+        history = _prev.get("history", []) or []
+        hist_miss = _prev.get("history_missing", []) or []
+except Exception:
+    pass
+_have = {h.get("year") for h in history}
+for y in range(int(os.environ.get("ESPN_FIRST_YEAR", "2021")), YEAR):
+    if y in _have or y in hist_miss:
+        continue
+    try:
+        HL = League(league_id=int(env("ESPN_LEAGUE_ID")), year=y, espn_s2=env("ESPN_S2"),
+                    swid="{" + env("ESPN_SWID") + "}")
+        by = lambda attr, v: next((t for t in HL.teams if getattr(t, attr, None) == v), None)
+        champ, ru, third, reg = by("final_standing", 1), by("final_standing", 2), by("final_standing", 3), by("standing", 1)
+        def first_name(t):
+            try:
+                o = (getattr(t, "owners", None) or [])[0]
+                return str(o.get("firstName", "")).strip() if isinstance(o, dict) else ""
+            except Exception:
+                return ""
+        if champ:
+            history.append({"year": y, "champion": champ.team_name, "manager": first_name(champ),
+                            "record": f"{champ.wins}-{champ.losses}" + (f"-{champ.ties}" if getattr(champ, "ties", 0) else ""),
+                            "runner_up": ru.team_name if ru else "", "third": third.team_name if third else "",
+                            "regular_season": reg.team_name if reg else ""})
+        else:
+            hist_miss.append(y)
+    except Exception as e:
+        print(f"history {y}: {e}", file=sys.stderr)
+history.sort(key=lambda h: h["year"])
+
 out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "week": current, "cats": CATS,
        "standings": standings, "power": power_rank, "category_table": cat_table,
        "matchups": weekly, "rosters": rosters, "activity": activity,
        "schedule": schedule, "free_agents": free_agents, "news": news,
-       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings, "debug": debug}
+       "games": games, "log": log, "pct_hist": pct_hist, "settings": settings, "history": history, "history_missing": hist_miss, "debug": debug}
 debug["run_seconds"] = round(_t.time() - _run_start, 1)
 os.makedirs("docs", exist_ok=True)
 with open("docs/data.json", "w") as f:
