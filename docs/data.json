@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:50:23.991725Z",
+ "updated": "2026-11-21T00:00:35.397094Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -6574,7 +6574,7 @@
      "PF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
      "PTS": 10.5,
@@ -8924,7 +8924,7 @@
     "PG"
    ],
    "team": "IND",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 7.833333333333333,
@@ -13431,6 +13431,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Peyton Watson: Good to go Friday",
+   "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
+   "published": "Fri, 20 Nov 2026 3:51:00 PM PST",
+   "summary": "Watson (back) is available for Friday's game against Indiana, Danny Cunningham of Sports Radio 92.3 The Fan Cleveland reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Trey Murphy: Upgraded to available",
    "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
    "published": "Fri, 20 Nov 2026 3:39:00 PM PST",
@@ -13456,13 +13463,6 @@
    "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
    "published": "Fri, 20 Nov 2026 3:19:00 PM PST",
    "summary": "Edey (hip) is not listed on the injury report ahead of Saturday's game versus Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Javon Small: Ruled out for Saturday",
-   "link": "https://www.rotowire.com//basketball/player/javon-small-6581",
-   "published": "Fri, 20 Nov 2026 3:14:00 PM PST",
-   "summary": "Small won't play Saturday against the Timberwolves due to personal reasons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -16374,6 +16374,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.7
  }
 }
