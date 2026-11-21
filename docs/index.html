@@ -857,7 +857,7 @@ function zstats(){
     const sd=Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/(v.length||1))||1;ZS[c]={m,sd}});
   return ZS;
 }
-const pv=p=>(p.proj&&p.proj.PTS!=null)?p.proj:(p.avg||{});
+const pv=p=>(p.season&&p.season.PTS!=null&&(+p.season.GP||0)>=3)?p.season:(p.proj&&p.proj.PTS!=null)?p.proj:(p.avg||{});
 const hasStats=p=>pv(p).PTS!=null;
 const zv=(s,c)=>{const q=zstats()[c],v=s?s[c]:null;if(v==null)return 0;return(pct(c)?0.5:1)*(low(c)?-1:1)*(v-q.m)/q.sd};
 const z=(p,c)=>zv(pv(p),c);
@@ -1851,7 +1851,7 @@ window.applyBasis=function(){
 function basisNotes(){
   const b=D.basis,bt=b==='roster'?'the whole current roster of each team':b==='season'?'finished weeks':'season totals';
   const set=(el,t)=>{if(el)el.textContent=t};
-  set($('cats')&&$('cats').previousElementSibling,b==='roster'?'Projected weekly output from the whole current roster of each team (average player per-game stats, scaled to 10 players × 3.5 games). Green is better.':'Per-week average, green is better.');
+  set($('cats')&&$('cats').previousElementSibling,b==='roster'?'Projected weekly output from the whole current roster of each team (average player per-game stats from season averages, or ESPN projections under 3 games, scaled to 10 players × 3.5 games). Green is better.':'Per-week average, green is better.');
   set($('dna')&&$('dna').querySelector('.hint'),`Where each team ranks in every category, based on ${bt}. Farther from the center is better; the dashed ring is the league middle. Punted categories are dimmed.`);
   set($('trophy')&&$('trophy').querySelector('.hint'),`Who leads and trails each category (based on ${bt}), plus season superlatives from finished weeks.`);
   document.querySelectorAll('.seg button').forEach(x=>x.classList.toggle('on',x.dataset.b===(b==='season'?'season':'roster')));
