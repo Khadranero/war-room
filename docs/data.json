@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:30:38.304813Z",
+ "updated": "2026-11-21T19:31:27.330312Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -8157,7 +8157,7 @@
     "team": "PHL",
     "avg": {
      "PTS": 19.571428571428573,
-     "REB": 6.857142857142857,
+     "REB": 7.0,
      "AST": 3.2857142857142856,
      "STL": 0.8571428571428571,
      "BLK": 1.2857142857142858,
@@ -8189,7 +8189,7 @@
     },
     "season": {
      "PTS": 19.571428571428573,
-     "REB": 8.428571428571429,
+     "REB": 8.5,
      "AST": 3.857142857142857,
      "STL": 0.7857142857142857,
      "BLK": 1.0,
@@ -12259,11 +12259,11 @@
     "STL": 1.125,
     "BLK": 0.75,
     "3PM": 2.125,
-    "FG%": 0.47058824,
+    "FG%": 0.45977011,
     "FT%": 0.62162162,
     "TO": 2.0,
     "FGM": 5.0,
-    "FGA": 10.625,
+    "FGA": 10.875,
     "FTM": 2.875,
     "FTA": 4.625,
     "_src": "2027_last_15"
@@ -12291,11 +12291,11 @@
     "STL": 1.0,
     "BLK": 0.375,
     "3PM": 1.6875,
-    "FG%": 0.45512821,
+    "FG%": 0.44936709,
     "FT%": 0.6,
     "TO": 1.8125,
     "FGM": 4.4375,
-    "FGA": 9.75,
+    "FGA": 9.875,
     "FTM": 1.6875,
     "FTA": 2.8125,
     "GP": 16.0
@@ -16092,17 +16092,17 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.5,
+    "PTS": 5.875,
     "REB": 3.375,
     "AST": 1.875,
     "STL": 0.625,
     "BLK": 0.625,
-    "3PM": 1.375,
-    "FG%": 0.46666667,
+    "3PM": 1.5,
+    "FG%": 0.48387097,
     "FT%": 0.83333333,
     "TO": 0.25,
-    "FGM": 1.75,
-    "FGA": 3.75,
+    "FGM": 1.875,
+    "FGA": 3.875,
     "FTM": 0.625,
     "FTA": 0.75,
     "_src": "2027_last_15"
@@ -16124,17 +16124,17 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 5.647058823529412,
+    "PTS": 5.823529411764706,
     "REB": 2.823529411764706,
     "AST": 1.588235294117647,
     "STL": 0.7647058823529411,
     "BLK": 0.35294117647058826,
-    "3PM": 1.3529411764705883,
-    "FG%": 0.45070423,
+    "3PM": 1.411764705882353,
+    "FG%": 0.45833333,
     "FT%": 0.9,
     "TO": 0.35294117647058826,
-    "FGM": 1.8823529411764706,
-    "FGA": 4.176470588235294,
+    "FGM": 1.9411764705882353,
+    "FGA": 4.235294117647059,
     "FTM": 0.5294117647058824,
     "FTA": 0.5882352941176471,
     "GP": 17.0
@@ -24156,16 +24156,20 @@
  ],
  "pct_hist": {},
  "settings": {
-  "playoff_teams": 6,
+  "playoff_teams": 5,
   "reg_season_weeks": 17,
   "acq_limit": -1,
-  "slots": null
+  "slots": null,
+  "espn_playoff_teams": 6
  },
  "history": [
   {
    "year": 2021,
    "champion": "Rubio Bzeit",
    "manager": "Ahmad",
+   "mkey": "6c0614c8cf",
+   "runner_up_manager": "Khodor",
+   "runner_up_mkey": "1b65f61e4c",
    "record": "0-0",
    "runner_up": "Dallas  Greenvilles",
    "third": "Beirut, Lebanon Nuhadd",
@@ -24175,6 +24179,9 @@
    "year": 2022,
    "champion": "New York Mambas",
    "manager": "Mohamad",
+   "mkey": "5b83636c41",
+   "runner_up_manager": "Ahmad",
+   "runner_up_mkey": "6c0614c8cf",
    "record": "17-1",
    "runner_up": "Rubio Bzeit ",
    "third": "Nadim  In 3",
@@ -24184,6 +24191,9 @@
    "year": 2023,
    "champion": "Rubio Bzeit ",
    "manager": "Ahmad",
+   "mkey": "6c0614c8cf",
+   "runner_up_manager": "Mohamad",
+   "runner_up_mkey": "5b83636c41",
    "record": "15-3",
    "runner_up": "New York Mambas",
    "third": "Redeem Land",
@@ -24193,6 +24203,9 @@
    "year": 2024,
    "champion": "Let me be Giannis",
    "manager": "Mohamad",
+   "mkey": "5b83636c41",
+   "runner_up_manager": "Marc Joseph",
+   "runner_up_mkey": "af3443f5d0",
    "record": "13-4",
    "runner_up": "Real Men Eat Ass(ouad)",
    "third": "Team Batrouni",
@@ -24202,6 +24215,9 @@
    "year": 2025,
    "champion": "Let me be Giannis",
    "manager": "Mohamad",
+   "mkey": "5b83636c41",
+   "runner_up_manager": "Ahmad",
+   "runner_up_mkey": "6c0614c8cf",
    "record": "10-7",
    "runner_up": "Rubio Bzeit ",
    "third": "Nadim In 4",
@@ -24211,12 +24227,57 @@
    "year": 2026,
    "champion": "Rubio Bzeit ",
    "manager": "Ahmad",
+   "mkey": "6c0614c8cf",
+   "runner_up_manager": "Nabil",
+   "runner_up_mkey": "67d84480a6",
    "record": "11-6",
    "runner_up": "Team Batrouni",
    "third": "Real Men Eat Ass(ouad)",
    "regular_season": "Team Batrouni"
   }
  ],
+ "managers": {
+  "Rubio Bzeit ": {
+   "first": "Ahmad",
+   "mkey": "6c0614c8cf"
+  },
+  "Momo in Six": {
+   "first": "Mohamad",
+   "mkey": "5b83636c41"
+  },
+  "Team Batrouni": {
+   "first": "Nabil",
+   "mkey": "67d84480a6"
+  },
+  "Wembelieve I can fly": {
+   "first": "Saad",
+   "mkey": "5c0f5b0428"
+  },
+  "Akumpo": {
+   "first": "Yehya",
+   "mkey": "e835754602"
+  },
+  "Khadracadabra": {
+   "first": "MohammedNour",
+   "mkey": "9ec67ba187"
+  },
+  "Real Men Eat Ass(ouad)": {
+   "first": "Marc Joseph",
+   "mkey": "af3443f5d0"
+  },
+  "AARON VENGERS": {
+   "first": "Aren",
+   "mkey": "f0cc1e83cf"
+  },
+  "Pasta Warriors": {
+   "first": "Hadi",
+   "mkey": "f82a6399e7"
+  },
+  "Crackheads": {
+   "first": "Nadim",
+   "mkey": "e16dd6aac7"
+  }
+ },
  "history_missing": [],
  "debug": {
   "matchup_period": 5,
@@ -24230,6 +24291,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 6.0
  }
 }
