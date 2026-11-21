@@ -315,9 +315,11 @@ try:
 except Exception as e:
     settings = {}
     print(f"settings: {e}", file=sys.stderr)
-# The league plays 5 playoff teams (ESPN's setting reports 6); PLAYOFF_TEAMS can change it
-settings["espn_playoff_teams"] = settings.get("playoff_teams")
-settings["playoff_teams"] = int(os.environ.get("PLAYOFF_TEAMS", "5"))
+# Playoff spots: ESPN's setting (6). PLAYOFF_TEAMS can override it if the league changes.
+if os.environ.get("PLAYOFF_TEAMS"):
+    settings["playoff_teams"] = int(os.environ["PLAYOFF_TEAMS"])
+elif not settings.get("playoff_teams"):
+    settings["playoff_teams"] = 6
 
 # ---- public NBA news feeds (injuries, trades). X/Twitter cannot be read. ----
 FEEDS = [
