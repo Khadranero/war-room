@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:30:29.576093Z",
+ "updated": "2026-11-21T22:40:24.936155Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -12536,7 +12536,7 @@
     "SG"
    ],
    "team": "OKC",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.428571428571429,
@@ -16839,7 +16839,7 @@
     "C"
    ],
    "team": "OKC",
-   "injury": "ACTIVE",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.0,
@@ -21171,6 +21171,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Alex Caruso: Ruled out for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
+   "published": "Sat, 21 Nov 2026 2:30:00 PM PST",
+   "summary": "Caruso (hip) won't play Sunday against the Heat.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Deni Avdija: Returning Saturday",
    "link": "https://www.rotowire.com//basketball/player/deni-avdija-5152",
    "published": "Sat, 21 Nov 2026 2:24:00 PM PST",
@@ -21196,13 +21203,6 @@
    "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
    "published": "Sat, 21 Nov 2026 2:17:00 PM PST",
    "summary": "Flemings (back) is questionable to play Sunday against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "OG Anunoby: Won't play Saturday",
-   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
-   "published": "Sat, 21 Nov 2026 1:50:00 PM PST",
-   "summary": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24275,6 +24275,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 3.7
  }
 }
