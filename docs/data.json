@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:10:31.467888Z",
+ "updated": "2026-11-21T00:20:29.914087Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2265,15 +2265,15 @@
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
-     "PTS": 20.4,
-     "REB": 9.6,
-     "AST": 7.2,
-     "STL": 0.8,
-     "BLK": 0.2,
-     "3PM": 0.2,
-     "FG%": 0.44705882,
+     "PTS": 17.333333333333332,
+     "REB": 8.0,
+     "AST": 6.166666666666667,
+     "STL": 0.8333333333333334,
+     "BLK": 0.16666666666666666,
+     "3PM": 0.16666666666666666,
+     "FG%": 0.45348837,
      "FT%": 0.75757576,
-     "TO": 3.8,
+     "TO": 3.3333333333333335,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2404,15 +2404,15 @@
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
-     "PTS": 19.166666666666668,
-     "REB": 7.833333333333333,
-     "AST": 2.0,
-     "STL": 1.5,
-     "BLK": 1.1666666666666667,
-     "3PM": 2.6666666666666665,
-     "FG%": 0.5443038,
+     "PTS": 16.714285714285715,
+     "REB": 6.857142857142857,
+     "AST": 1.7142857142857142,
+     "STL": 1.2857142857142858,
+     "BLK": 1.0,
+     "3PM": 2.2857142857142856,
+     "FG%": 0.54320988,
      "FT%": 0.61904762,
-     "TO": 1.8333333333333333,
+     "TO": 1.7142857142857142,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2474,15 +2474,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 8.0,
-     "REB": 13.666666666666666,
-     "AST": 2.0,
+     "PTS": 7.0,
+     "REB": 10.75,
+     "AST": 1.5,
      "STL": 0.0,
-     "BLK": 1.6666666666666667,
+     "BLK": 1.25,
      "3PM": 0.0,
-     "FG%": 0.55555556,
+     "FG%": 0.57142857,
      "FT%": 0.66666667,
-     "TO": 2.6666666666666665,
+     "TO": 2.25,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2682,15 +2682,15 @@
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
-     "PTS": 14.0,
-     "REB": 3.5,
-     "AST": 3.1666666666666665,
-     "STL": 0.5,
+     "PTS": 12.0,
+     "REB": 3.142857142857143,
+     "AST": 2.7142857142857144,
+     "STL": 0.42857142857142855,
      "BLK": 0.0,
-     "3PM": 3.0,
+     "3PM": 2.5714285714285716,
      "FG%": 0.44444444,
      "FT%": 0.66666667,
-     "TO": 1.8333333333333333,
+     "TO": 1.5714285714285714,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3365,15 +3365,15 @@
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
-     "PTS": 9.5,
-     "REB": 9.0,
-     "AST": 6.666666666666667,
-     "STL": 3.0,
-     "BLK": 0.16666666666666666,
-     "3PM": 0.16666666666666666,
-     "FG%": 0.57777778,
+     "PTS": 8.571428571428571,
+     "REB": 7.714285714285714,
+     "AST": 5.857142857142857,
+     "STL": 2.7142857142857144,
+     "BLK": 0.14285714285714285,
+     "3PM": 0.2857142857142857,
+     "FG%": 0.5625,
      "FT%": 0.57142857,
-     "TO": 1.5,
+     "TO": 1.4285714285714286,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3539,15 +3539,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 15.6,
-     "REB": 1.8,
-     "AST": 3.6,
-     "STL": 0.6,
+     "PTS": 13.666666666666666,
+     "REB": 1.6666666666666667,
+     "AST": 3.1666666666666665,
+     "STL": 0.6666666666666666,
      "BLK": 0.0,
-     "3PM": 1.4,
-     "FG%": 0.40983607,
+     "3PM": 1.1666666666666667,
+     "FG%": 0.421875,
      "FT%": 0.875,
-     "TO": 3.2,
+     "TO": 2.8333333333333335,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -4398,15 +4398,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 13.666666666666666,
-     "REB": 2.0,
-     "AST": 3.0,
-     "STL": 0.6666666666666666,
-     "BLK": 0.3333333333333333,
-     "3PM": 2.0,
-     "FG%": 0.35897436,
+     "PTS": 10.25,
+     "REB": 1.5,
+     "AST": 2.75,
+     "STL": 0.75,
+     "BLK": 0.25,
+     "3PM": 1.5,
+     "FG%": 0.35,
      "FT%": 0.875,
-     "TO": 2.0,
+     "TO": 1.75,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5487,15 +5487,15 @@
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
-     "PTS": 19.0,
-     "REB": 8.4,
-     "AST": 3.2,
-     "STL": 1.6,
-     "BLK": 0.6,
-     "3PM": 2.8,
-     "FG%": 0.37373737,
+     "PTS": 16.666666666666668,
+     "REB": 7.0,
+     "AST": 2.6666666666666665,
+     "STL": 1.3333333333333333,
+     "BLK": 0.6666666666666666,
+     "3PM": 2.5,
+     "FG%": 0.38235294,
      "FT%": 0.63636364,
-     "TO": 2.2,
+     "TO": 1.8333333333333333,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5522,15 +5522,15 @@
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
-     "PTS": 20.5,
-     "REB": 4.0,
-     "AST": 3.5,
-     "STL": 1.5,
-     "BLK": 0.6666666666666666,
-     "3PM": 2.6666666666666665,
-     "FG%": 0.38679245,
+     "PTS": 18.142857142857142,
+     "REB": 3.5714285714285716,
+     "AST": 3.0,
+     "STL": 1.2857142857142858,
+     "BLK": 0.5714285714285714,
+     "3PM": 2.2857142857142856,
+     "FG%": 0.39090909,
      "FT%": 0.89285714,
-     "TO": 1.6666666666666667,
+     "TO": 1.4285714285714286,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -6861,6 +6861,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-21T00:12:52.756000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "Kasparas Jakucionis"
+  },
+  {
+   "date": "2026-11-21T00:12:52.756000",
+   "team": "Khadracadabra",
+   "action": "DROPPED",
+   "player": "Wendell Carter Jr."
+  },
+  {
    "date": "2026-11-20T23:32:54.102000",
    "team": "Wembelieve I can fly",
    "action": "DROPPED",
@@ -7296,6 +7308,40 @@
     "FG%": 0.488,
     "FT%": 0.823,
     "TO": 1.1951219512195121,
+    "_src": "2027_projected"
+   }
+  },
+  {
+   "name": "Wendell Carter Jr.",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "ORL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 14.285714285714286,
+    "REB": 8.714285714285714,
+    "AST": 1.4285714285714286,
+    "STL": 0.42857142857142855,
+    "BLK": 1.1428571428571428,
+    "3PM": 1.2857142857142858,
+    "FG%": 0.52941176,
+    "FT%": 0.73076923,
+    "TO": 1.2857142857142858,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 9.972222222222221,
+    "REB": 6.694444444444445,
+    "AST": 1.8055555555555556,
+    "STL": 0.6944444444444444,
+    "BLK": 0.5,
+    "3PM": 0.8055555555555556,
+    "FG%": 0.5,
+    "FT%": 0.761,
+    "TO": 1.0972222222222223,
     "_src": "2027_projected"
    }
   },
@@ -8637,40 +8683,6 @@
     "FG%": 0.502,
     "FT%": 0.777,
     "TO": 1.3,
-    "_src": "2027_projected"
-   }
-  },
-  {
-   "name": "Kasparas Jakucionis",
-   "pos": "PG",
-   "elig": [
-    "PG"
-   ],
-   "team": "MIL",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 11.714285714285714,
-    "REB": 2.142857142857143,
-    "AST": 2.5714285714285716,
-    "STL": 1.2857142857142858,
-    "BLK": 0.0,
-    "3PM": 1.7142857142857142,
-    "FG%": 0.51923077,
-    "FT%": 0.8,
-    "TO": 1.1428571428571428,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.044117647058824,
-    "REB": 3.2941176470588234,
-    "AST": 3.2941176470588234,
-    "STL": 0.7941176470588235,
-    "BLK": 0.20588235294117646,
-    "3PM": 1.5147058823529411,
-    "FG%": 0.452,
-    "FT%": 0.868,
-    "TO": 1.2058823529411764,
     "_src": "2027_projected"
    }
   },
@@ -12064,15 +12076,15 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 6.2,
-    "REB": 5.8,
-    "AST": 3.6,
-    "STL": 0.8,
+    "PTS": 5.166666666666667,
+    "REB": 5.0,
+    "AST": 3.1666666666666665,
+    "STL": 0.6666666666666666,
     "BLK": 0.0,
-    "3PM": 1.4,
+    "3PM": 1.1666666666666667,
     "FG%": 0.35483871,
     "FT%": 0.66666667,
-    "TO": 2.0,
+    "TO": 1.6666666666666667,
     "_src": "2027_last_15"
    },
    "proj": {}
@@ -13431,6 +13443,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Egor Demin: Shifting to bench Friday",
+   "link": "https://www.rotowire.com//basketball/player/egor-demin-6559",
+   "published": "Fri, 20 Nov 2026 4:14:00 PM PST",
+   "summary": "Demin is not listed in the starting lineup for Friday's game against the Magic, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Danny Wolf: Starting Friday",
+   "link": "https://www.rotowire.com//basketball/player/danny-wolf-6560",
+   "published": "Fri, 20 Nov 2026 4:13:00 PM PST",
+   "summary": "Wolf is in the starting lineup for Friday's matchup with the Magic, Erik Slater of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Peyton Watson: Good to go Friday",
    "link": "https://www.rotowire.com//basketball/player/peyton-watson-5722",
    "published": "Fri, 20 Nov 2026 3:51:00 PM PST",
@@ -13449,34 +13475,12 @@
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Fri, 20 Nov 2026 3:32:00 PM PST",
    "summary": "Claxton will start in Friday's game against Washington, K.C. Johnson of Chicago Sports Network reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Smith: Out sick Friday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
-   "published": "Fri, 20 Nov 2026 3:20:00 PM PST",
-   "summary": "Smith (illness) is out for Friday's game against the Wizards, Joel Lorenzi of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zach Edey: Cleared to play Saturday",
-   "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
-   "published": "Fri, 20 Nov 2026 3:19:00 PM PST",
-   "summary": "Edey (hip) is not listed on the injury report ahead of Saturday's game versus Minnesota.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
   "today": "2026-11-20",
   "days_left": 3,
   "by_team": {
-   "ATL": {
-    "rest": 2,
-    "next": 2
-   },
-   "CHA": {
-    "rest": 1,
-    "next": 3
-   },
    "BKN": {
     "rest": 1,
     "next": 4
@@ -13581,12 +13585,20 @@
     "rest": 2,
     "next": 3
    },
+   "ATL": {
+    "rest": 1,
+    "next": 2
+   },
    "MIA": {
     "rest": 1,
     "next": 3
    },
    "GS": {
     "rest": 1,
+    "next": 3
+   },
+   "CHA": {
+    "rest": 0,
     "next": 3
    },
    "GSW": {
@@ -13636,8 +13648,6 @@
   ],
   "by_day": {
    "2026-11-20": [
-    "ATL",
-    "CHA",
     "BKN",
     "ORL",
     "CLE",
@@ -13834,6 +13844,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-21T00:12:52.756000",
+   "team": "Khadracadabra",
+   "action": "FA ADDED",
+   "player": "Kasparas Jakucionis"
+  },
+  {
+   "date": "2026-11-21T00:12:52.756000",
+   "team": "Khadracadabra",
+   "action": "DROPPED",
+   "player": "Wendell Carter Jr."
+  },
   {
    "date": "2026-11-20T23:32:54.102000",
    "team": "Wembelieve I can fly",
@@ -16374,6 +16396,6 @@
   "picked_total": 6817.0,
   "direct_total": 6817.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 2.8
  }
 }
