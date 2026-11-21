@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:20:27.436317Z",
+ "updated": "2026-11-21T12:30:28.142040Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2784,7 +2784,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
@@ -2818,7 +2818,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -2853,7 +2853,7 @@
      "PF",
      "C"
     ],
-    "slot": "C",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -2992,7 +2992,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3026,7 +3026,7 @@
     "elig": [
      "SG"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -3061,7 +3061,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -3096,7 +3096,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -3165,7 +3165,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -3198,7 +3198,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -3232,7 +3232,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -3266,7 +3266,7 @@
     "elig": [
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -7071,12 +7071,6 @@
    "team": "Akumpo",
    "action": "FA ADDED",
    "player": "Brice Sensabaugh"
-  },
-  {
-   "date": "2026-11-18T08:26:12.121000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Sandro Mamukelashvili"
   }
  ],
  "schedule": {
@@ -16398,6 +16392,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 2.4
+  "run_seconds": 2.8
  }
 }
