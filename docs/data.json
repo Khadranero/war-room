@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:00:43.542291Z",
+ "updated": "2026-11-21T20:10:27.779440Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -1990,19 +1990,19 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 14.333333333333334,
-     "REB": 5.666666666666667,
+     "PTS": 15.5,
+     "REB": 6.0,
      "AST": 6.0,
      "STL": 1.0,
      "BLK": 0.5,
      "3PM": 0.6666666666666666,
-     "FG%": 0.45070423,
-     "FT%": 0.85714286,
+     "FG%": 0.46666667,
+     "FT%": 0.86363636,
      "TO": 2.3333333333333335,
-     "FGM": 5.333333333333333,
-     "FGA": 11.833333333333334,
-     "FTM": 3.0,
-     "FTA": 3.5,
+     "FGM": 5.833333333333333,
+     "FGA": 12.5,
+     "FTM": 3.1666666666666665,
+     "FTA": 3.6666666666666665,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2022,19 +2022,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 15.076923076923077,
-     "REB": 6.615384615384615,
+     "PTS": 15.615384615384615,
+     "REB": 6.769230769230769,
      "AST": 6.769230769230769,
      "STL": 1.2307692307692308,
      "BLK": 0.6923076923076923,
      "3PM": 0.7692307692307693,
-     "FG%": 0.45398773,
-     "FT%": 0.73076923,
+     "FG%": 0.46107784,
+     "FT%": 0.73584906,
      "TO": 2.3846153846153846,
-     "FGM": 5.6923076923076925,
-     "FGA": 12.538461538461538,
-     "FTM": 2.923076923076923,
-     "FTA": 4.0,
+     "FGM": 5.923076923076923,
+     "FGA": 12.846153846153847,
+     "FTM": 3.0,
+     "FTA": 4.076923076923077,
      "GP": 13.0
     }
    },
@@ -3928,19 +3928,19 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 14.75,
+     "PTS": 15.0,
      "REB": 5.375,
      "AST": 4.875,
      "STL": 2.25,
      "BLK": 0.375,
      "3PM": 1.625,
-     "FG%": 0.48387097,
-     "FT%": 0.88235294,
+     "FG%": 0.4787234,
+     "FT%": 0.89473684,
      "TO": 1.125,
      "FGM": 5.625,
-     "FGA": 11.625,
-     "FTM": 1.875,
-     "FTA": 2.125,
+     "FGA": 11.75,
+     "FTM": 2.125,
+     "FTA": 2.375,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -3960,19 +3960,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 13.625,
+     "PTS": 13.75,
      "REB": 6.1875,
      "AST": 3.9375,
      "STL": 1.6875,
      "BLK": 0.4375,
      "3PM": 1.625,
-     "FG%": 0.46448087,
-     "FT%": 0.78571429,
+     "FG%": 0.46195652,
+     "FT%": 0.8,
      "TO": 1.25,
      "FGM": 5.3125,
-     "FGA": 11.4375,
-     "FTM": 1.375,
-     "FTA": 1.75,
+     "FGA": 11.5,
+     "FTM": 1.5,
+     "FTA": 1.875,
      "GP": 16.0
     }
    },
@@ -7215,16 +7215,16 @@
     "team": "MIL",
     "avg": {
      "PTS": 19.25,
-     "REB": 3.625,
-     "AST": 4.5,
-     "STL": 0.75,
+     "REB": 3.75,
+     "AST": 4.625,
+     "STL": 0.875,
      "BLK": 0.25,
      "3PM": 2.0,
-     "FG%": 0.43965517,
+     "FG%": 0.43589744,
      "FT%": 0.8372093,
      "TO": 2.375,
      "FGM": 6.375,
-     "FGA": 14.5,
+     "FGA": 14.625,
      "FTM": 4.5,
      "FTA": 5.375,
      "_src": "2027_last_15"
@@ -7247,16 +7247,16 @@
     },
     "season": {
      "PTS": 20.75,
-     "REB": 4.3125,
-     "AST": 4.1875,
-     "STL": 0.875,
+     "REB": 4.375,
+     "AST": 4.25,
+     "STL": 0.9375,
      "BLK": 0.1875,
      "3PM": 2.8125,
-     "FG%": 0.45098039,
+     "FG%": 0.44921875,
      "FT%": 0.8028169,
      "TO": 2.25,
      "FGM": 7.1875,
-     "FGA": 15.9375,
+     "FGA": 16.0,
      "FTM": 3.5625,
      "FTA": 4.4375,
      "GP": 16.0
@@ -7862,17 +7862,17 @@
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
-     "PTS": 23.0,
+     "PTS": 23.285714285714285,
      "REB": 2.7142857142857144,
      "AST": 6.0,
      "STL": 0.7142857142857143,
-     "BLK": 0.14285714285714285,
+     "BLK": 0.2857142857142857,
      "3PM": 2.5714285714285716,
-     "FG%": 0.51041667,
+     "FG%": 0.51546392,
      "FT%": 0.9,
      "TO": 1.2857142857142858,
-     "FGM": 7.0,
-     "FGA": 13.714285714285714,
+     "FGM": 7.142857142857143,
+     "FGA": 13.857142857142858,
      "FTM": 6.428571428571429,
      "FTA": 7.142857142857143,
      "_src": "2027_last_15"
@@ -7894,17 +7894,17 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 25.8125,
+     "PTS": 25.9375,
      "REB": 3.3125,
      "AST": 5.6875,
      "STL": 1.1875,
-     "BLK": 0.5,
+     "BLK": 0.5625,
      "3PM": 2.5625,
-     "FG%": 0.49454545,
+     "FG%": 0.49637681,
      "FT%": 0.86956522,
      "TO": 1.875,
-     "FGM": 8.5,
-     "FGA": 17.1875,
+     "FGM": 8.5625,
+     "FGA": 17.25,
      "FTM": 6.25,
      "FTA": 7.1875,
      "GP": 16.0
@@ -8157,8 +8157,8 @@
     "team": "PHL",
     "avg": {
      "PTS": 20.0,
-     "REB": 7.714285714285714,
-     "AST": 3.5714285714285716,
+     "REB": 7.857142857142857,
+     "AST": 3.7142857142857144,
      "STL": 0.8571428571428571,
      "BLK": 1.2857142857142858,
      "3PM": 0.42857142857142855,
@@ -8189,8 +8189,8 @@
     },
     "season": {
      "PTS": 19.785714285714285,
-     "REB": 8.857142857142858,
-     "AST": 4.0,
+     "REB": 8.928571428571429,
+     "AST": 4.071428571428571,
      "STL": 0.7857142857142857,
      "BLK": 1.0,
      "3PM": 0.42857142857142855,
@@ -12256,14 +12256,14 @@
     "PTS": 15.0,
     "REB": 4.125,
     "AST": 1.5,
-    "STL": 1.25,
+    "STL": 1.125,
     "BLK": 0.75,
     "3PM": 2.125,
-    "FG%": 0.4494382,
+    "FG%": 0.44444444,
     "FT%": 0.62162162,
     "TO": 2.0,
     "FGM": 5.0,
-    "FGA": 11.125,
+    "FGA": 11.25,
     "FTM": 2.875,
     "FTA": 4.625,
     "_src": "2027_last_15"
@@ -12288,14 +12288,14 @@
     "PTS": 12.25,
     "REB": 5.1875,
     "AST": 2.25,
-    "STL": 1.0625,
+    "STL": 1.0,
     "BLK": 0.375,
     "3PM": 1.6875,
-    "FG%": 0.44375,
+    "FG%": 0.44099379,
     "FT%": 0.6,
     "TO": 1.8125,
     "FGM": 4.4375,
-    "FGA": 10.0,
+    "FGA": 10.0625,
     "FTM": 1.6875,
     "FTA": 2.8125,
     "GP": 16.0
@@ -12895,19 +12895,19 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 12.222222222222221,
+    "PTS": 12.666666666666666,
     "REB": 6.222222222222222,
-    "AST": 3.0,
+    "AST": 3.111111111111111,
     "STL": 0.8888888888888888,
     "BLK": 0.3333333333333333,
     "3PM": 1.4444444444444444,
-    "FG%": 0.44827586,
-    "FT%": 0.76,
+    "FG%": 0.46067416,
+    "FT%": 0.73076923,
     "TO": 1.3333333333333333,
-    "FGM": 4.333333333333333,
-    "FGA": 9.666666666666666,
+    "FGM": 4.555555555555555,
+    "FGA": 9.88888888888889,
     "FTM": 2.111111111111111,
-    "FTA": 2.7777777777777777,
+    "FTA": 2.888888888888889,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -12927,19 +12927,19 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 10.647058823529411,
+    "PTS": 10.882352941176471,
     "REB": 5.411764705882353,
-    "AST": 2.2941176470588234,
+    "AST": 2.3529411764705883,
     "STL": 0.7647058823529411,
     "BLK": 0.17647058823529413,
     "3PM": 1.1176470588235294,
-    "FG%": 0.43356643,
-    "FT%": 0.74509804,
+    "FG%": 0.44137931,
+    "FT%": 0.73076923,
     "TO": 1.2352941176470589,
-    "FGM": 3.6470588235294117,
-    "FGA": 8.411764705882353,
+    "FGM": 3.764705882352941,
+    "FGA": 8.529411764705882,
     "FTM": 2.235294117647059,
-    "FTA": 3.0,
+    "FTA": 3.0588235294117645,
     "GP": 17.0
    }
   },
@@ -18895,17 +18895,17 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.625,
+    "PTS": 5.0,
     "REB": 0.375,
     "AST": 0.625,
     "STL": 0.125,
     "BLK": 0.25,
-    "3PM": 1.375,
-    "FG%": 0.42857143,
+    "3PM": 1.5,
+    "FG%": 0.44827586,
     "FT%": 1.0,
     "TO": 0.375,
-    "FGM": 1.5,
-    "FGA": 3.5,
+    "FGM": 1.625,
+    "FGA": 3.625,
     "FTM": 0.25,
     "FTA": 0.25,
     "_src": "2027_last_15"
@@ -18927,17 +18927,17 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 5.9375,
+    "PTS": 6.125,
     "REB": 1.25,
     "AST": 1.1875,
     "STL": 0.125,
     "BLK": 0.125,
-    "3PM": 1.75,
-    "FG%": 0.43661972,
+    "3PM": 1.8125,
+    "FG%": 0.44444444,
     "FT%": 1.0,
     "TO": 0.5,
-    "FGM": 1.9375,
-    "FGA": 4.4375,
+    "FGM": 2.0,
+    "FGA": 4.5,
     "FTM": 0.3125,
     "FTA": 0.3125,
     "GP": 16.0
@@ -21224,111 +21224,6 @@
    "link": "https://www.rotowire.com//basketball/player/tyrese-maxey-5158",
    "published": "Sat, 21 Nov 2026 9:27:00 AM PST",
    "summary": "Maxey (foot) is available for Saturday's game against the Bucks, Austin Krell of OnPattison.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
-   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
-   "published": "Thu, 19 Nov 2026 08:46:53 EST",
-   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
-  },
-  {
-   "source": "ESPN",
-   "title": "Harden has 51 in 'vintage' performance, leaps Kobe for 3rd-most 50-point games",
-   "link": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
-   "published": "Sat, 21 Nov 2026 10:33:44 EST",
-   "summary": "James Harden posted the 26th 50-point game of his career, passing Kobe Bryant for third-most 50-point games in NBA history."
-  },
-  {
-   "source": "ESPN",
-   "title": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
-   "link": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
-   "published": "Sat, 21 Nov 2026 10:33:44 EST",
-   "summary": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling the defense \"as bad as I've seen it.\""
-  },
-  {
-   "source": "ESPN",
-   "title": "76ers' Brown, Wade out; Maxey questionable vs. Bucks",
-   "link": "https://www.espn.com/nba/story/_/id/50550017/76ers-rule-jaylen-brown-dean-wade-vs-bucks",
-   "published": "Sat, 21 Nov 2026 10:33:44 EST",
-   "summary": "76ers forwards Jaylen Brown and Dean Wade will miss Saturday's game against the Bucks with left hamstring injuries, their second straight game out."
-  },
-  {
-   "source": "ESPN",
-   "title": "Lakers eke out win after Redick rips team's lack of fight vs. last-place Kings",
-   "link": "https://www.espn.com/nba/story/_/id/50547994/jj-redick-half-rant-fuels-lakers-last-place-kings",
-   "published": "Sat, 21 Nov 2026 10:33:45 EST",
-   "summary": "Lakers coach JJ Redick ripped into the team's lack of fight after trailing the last-place Kings at halftime, and Los Angeles went on to eke out a 106-104 win."
-  },
-  {
-   "source": "ESPN",
-   "title": "Melo calls out Humphrey for Baltimore remark: Back your apology with action",
-   "link": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
-   "published": "Sat, 21 Nov 2026 14:09:20 EST",
-   "summary": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making criminals.\""
-  },
-  {
-   "source": "ESPN",
-   "title": "Wilson hand injuries not connected as Bulls rookie deals with 'bad luck'",
-   "link": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
-   "published": "Sat, 21 Nov 2026 10:33:45 EST",
-   "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and that it's a case of \"bad luck,\" he told reporters before his team's game against the Washington Wizards."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
-   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
-   "published": "Sat, 21 Nov 2026 10:33:45 EST",
-   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
-  },
-  {
-   "source": "ESPN",
-   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
-   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
-   "published": "Sat, 21 Nov 2026 13:40:45 EST",
-   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
-   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
-   "published": "Fri, 20 Nov 2026 22:34:53 EST",
-   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
-  },
-  {
-   "source": "ESPN",
-   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
-   "published": "Fri, 20 Nov 2026 14:54:29 EST",
-   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA Power Rankings: One wild stat for all 30 teams",
-   "link": "https://www.espn.com/nba/story/_/id/50513109/nba-power-rankings-wild-stats-spurs-lakers",
-   "published": "Thu, 19 Nov 2026 17:56:25 EST",
-   "summary": "Here's where every team ranks this week -- along with one remarkable stat that has fueled each franchise through one month of the season."
-  },
-  {
-   "source": "ESPN",
-   "title": "Goes together like Cooper Flagg and PB&J: Mavs announce pop-up for sandwiches",
-   "link": "https://www.espn.com/nba/story/_/id/50534447/cooper-flagg-peanut-butter-jelly",
-   "published": "Thu, 19 Nov 2026 18:25:59 EST",
-   "summary": "The Dallas Mavericks' pop-up includes creamy peanut butter and grape jelly on white sourdough bread."
-  },
-  {
-   "source": "ESPN",
-   "title": "Athletes, coaches are just as hyped for 'Grand Theft Auto VI' as everyone else",
-   "link": "https://www.espn.com/nba/story/_/id/50531977/gta-vi-grand-theft-auto-athletes",
-   "published": "Thu, 19 Nov 2026 18:25:59 EST",
-   "summary": "The latest entry in the Grand Theft Auto series is tied with \"The Legend of Zelda: Ocarina of Time\" with a 99 rating on Metacritic."
-  },
-  {
-   "source": "ESPN",
-   "title": "Updated NBA championship and MVP odds: Heat on the rise, Wemby moves ahead of Luka",
-   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
-   "published": "Fri, 20 Nov 2026 22:38:11 EST",
-   "summary": "The Heat have bounced back from a rough start to the season, while Victor Wembanyama is now the leader for MVP just ahead of Luka Doncic."
   }
  ],
  "games": {
@@ -24395,6 +24290,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 2.8
  }
 }
