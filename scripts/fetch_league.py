@@ -6,6 +6,7 @@ from espn_api.basketball import League
 
 CATS = ["PTS", "REB", "AST", "STL", "BLK", "3PM", "FG%", "FT%", "TO"]
 LOWER_IS_BETTER = {"TO"}
+EXTRA = ["FGM", "FGA", "FTM", "FTA"]
 YEAR = int(os.environ.get("ESPN_YEAR", "2027"))
 
 def env(name, default=None):
@@ -31,7 +32,7 @@ def player_avgs(p):
         if isinstance(blk, dict):
             a = blk.get("avg") or {}
             if a:
-                out = {c: a.get(c) for c in CATS if a.get(c) is not None}
+                out = {c: a.get(c) for c in CATS + EXTRA if a.get(c) is not None}
                 out["_src"] = key
                 return out
     return {}
@@ -44,9 +45,23 @@ def player_proj(p):
         if isinstance(blk, dict):
             a = blk.get("avg") or {}
             if a:
-                out = {c: a.get(c) for c in CATS if a.get(c) is not None}
+                out = {c: a.get(c) for c in CATS + EXTRA if a.get(c) is not None}
                 out["_src"] = key
                 return out
+    return {}
+
+def player_season(p):
+    """Season-so-far per-game averages (this season's totals / games played)."""
+    stats = getattr(p, "stats", None) or {}
+    blk = stats.get(f"{YEAR}_total")
+    if isinstance(blk, dict):
+        a = blk.get("avg") or {}
+        if a:
+            out = {c: a.get(c) for c in CATS + EXTRA if a.get(c) is not None}
+            gp = (blk.get("total") or {}).get("GP")
+            if gp:
+                out["GP"] = gp
+            return out
     return {}
 
 standings = [{
@@ -205,6 +220,7 @@ for t in league.teams:
         "team": getattr(p, "proTeam", ""),
         "avg": player_avgs(p),
         "proj": player_proj(p),
+        "season": player_season(p),
     } for p in t.roster]
 
 activity = []
@@ -238,7 +254,7 @@ try:
         free_agents.append({
             "name": p.name, "pos": getattr(p, "position", ""), "elig": elig_of(p), "team": getattr(p, "proTeam", ""),
             "injury": getattr(p, "injuryStatus", "ACTIVE"),
-            "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p), "proj": player_proj(p)})
+            "pct": getattr(p, "percent_owned", None), "avg": player_avgs(p), "proj": player_proj(p), "season": player_season(p)})
 except Exception as e:
     print(f"free agents: {e}", file=sys.stderr)
 
