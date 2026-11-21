@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T09:10:25.214056Z",
+ "updated": "2026-11-21T09:20:24.747437Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -4833,7 +4833,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4867,7 +4867,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -4970,7 +4970,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -5005,7 +5005,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -5248,7 +5248,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -5282,7 +5282,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -16374,6 +16374,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 4.0
+  "run_seconds": 2.8
  }
 }
