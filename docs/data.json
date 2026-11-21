@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:40:24.936155Z",
+ "updated": "2026-11-21T22:50:25.148124Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -5203,7 +5203,7 @@
      "PG"
     ],
     "slot": "UT",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
      "PTS": 33.25,
@@ -21171,6 +21171,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Shai Gilgeous-Alexander: Questionable to play Sunday",
+   "link": "https://www.rotowire.com//basketball/player/shai-gilgeous-alexander-4387",
+   "published": "Sat, 21 Nov 2026 2:45:00 PM PST",
+   "summary": "Gilgeous-Alexander (back/neck) is listed as questionable for Sunday's game versus Miami.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Alex Caruso: Ruled out for Sunday",
    "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
    "published": "Sat, 21 Nov 2026 2:30:00 PM PST",
@@ -21196,13 +21203,6 @@
    "link": "https://www.rotowire.com//basketball/player/pascal-siakam-3922",
    "published": "Sat, 21 Nov 2026 2:19:00 PM PST",
    "summary": "Siakam (hip) is listed as questionable for Sunday's game against New York.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Kingston Flemings: Questionable for Sunday",
-   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
-   "published": "Sat, 21 Nov 2026 2:17:00 PM PST",
-   "summary": "Flemings (back) is questionable to play Sunday against the Pistons.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24275,6 +24275,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.5
  }
 }
