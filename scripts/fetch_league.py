@@ -64,10 +64,32 @@ def player_season(p):
             return out
     return {}
 
+import base64
+
+def logo_data(url):
+    """Download a team logo (with the league login, so custom uploads work) as a data: URI."""
+    if not url:
+        return ""
+    try:
+        import requests
+        from urllib.parse import urlparse
+        host = (urlparse(url).hostname or "").lower()
+        # Only ESPN's own servers ever get the league login; outside hosts (imgur etc.) get none.
+        espn = host == "espn.com" or host.endswith(".espn.com") or host.endswith(".espncdn.com")
+        cookies = {"espn_s2": env("ESPN_S2"), "SWID": "{" + env("ESPN_SWID") + "}"} if espn else None
+        r = requests.get(url, cookies=cookies, timeout=15, headers={"User-Agent": "Mozilla/5.0 war-room"})
+        ctype = (r.headers.get("content-type") or "").split(";")[0].strip()
+        if r.ok and ctype.startswith("image/") and len(r.content) < 400_000:
+            return f"data:{ctype};base64," + base64.b64encode(r.content).decode()
+    except Exception as e:
+        print(f"logo {url[:60]}: {e}", file=sys.stderr)
+    return ""
+
 standings = [{
     "team": name(t), "wins": t.wins, "losses": t.losses, "ties": getattr(t, "ties", 0),
     "rank": getattr(t, "standing", None),
     "logo": getattr(t, "logo_url", "") or "",
+    "logo_data": logo_data(getattr(t, "logo_url", "") or ""),
 } for t in league.teams]
 standings.sort(key=lambda r: (r["rank"] is None, r["rank"] or 0))
 
