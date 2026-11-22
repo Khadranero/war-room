@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:10:25.901069Z",
+ "updated": "2026-11-22T18:20:25.888243Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3314,64 +3314,6 @@
     }
    },
    {
-    "name": "Kasparas Jakucionis",
-    "pos": "PG",
-    "elig": [
-     "PG"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "MIL",
-    "avg": {
-     "PTS": 11.571428571428571,
-     "REB": 2.5714285714285716,
-     "AST": 2.7142857142857144,
-     "STL": 1.1428571428571428,
-     "BLK": 0.0,
-     "3PM": 1.7142857142857142,
-     "FG%": 0.48214286,
-     "FT%": 0.78947368,
-     "TO": 1.4285714285714286,
-     "FGM": 3.857142857142857,
-     "FGA": 8.0,
-     "FTM": 2.142857142857143,
-     "FTA": 2.7142857142857144,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 8.044117647058824,
-     "REB": 3.2941176470588234,
-     "AST": 3.2941176470588234,
-     "STL": 0.7941176470588235,
-     "BLK": 0.20588235294117646,
-     "3PM": 1.5147058823529411,
-     "FG%": 0.452,
-     "FT%": 0.868,
-     "TO": 1.2058823529411764,
-     "FGM": 2.573529411764706,
-     "FGA": 5.705882352941177,
-     "FTM": 1.3823529411764706,
-     "FTA": 1.6029411764705883,
-     "_src": "2027_projected"
-    },
-    "season": {
-     "PTS": 9.0,
-     "REB": 2.5625,
-     "AST": 3.3125,
-     "STL": 0.8125,
-     "BLK": 0.0625,
-     "3PM": 1.0625,
-     "FG%": 0.46,
-     "FT%": 0.83333333,
-     "TO": 1.6875,
-     "FGM": 2.875,
-     "FGA": 6.25,
-     "FTM": 2.1875,
-     "FTA": 2.625,
-     "GP": 16.0
-    }
-   },
-   {
     "name": "Nikola Jokic",
     "pos": "C",
     "elig": [
@@ -3485,6 +3427,64 @@
      "FTM": 2.2,
      "FTA": 3.6666666666666665,
      "GP": 15.0
+    }
+   },
+   {
+    "name": "Landry Shamet",
+    "pos": "SG",
+    "elig": [
+     "SG"
+    ],
+    "slot": "SG",
+    "injury": "ACTIVE",
+    "team": "NYK",
+    "avg": {
+     "PTS": 12.625,
+     "REB": 1.75,
+     "AST": 1.75,
+     "STL": 0.5,
+     "BLK": 0.125,
+     "3PM": 2.75,
+     "FG%": 0.54545455,
+     "FT%": 1.0,
+     "TO": 0.875,
+     "FGM": 4.5,
+     "FGA": 8.25,
+     "FTM": 0.875,
+     "FTA": 0.875,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 8.388059701492537,
+     "REB": 1.5970149253731343,
+     "AST": 1.1940298507462686,
+     "STL": 0.5970149253731343,
+     "BLK": 0.19402985074626866,
+     "3PM": 1.791044776119403,
+     "FG%": 0.44,
+     "FT%": 0.717,
+     "TO": 0.5970149253731343,
+     "FGM": 2.8656716417910446,
+     "FGA": 6.507462686567164,
+     "FTM": 0.8656716417910447,
+     "FTA": 1.1940298507462686,
+     "_src": "2027_projected"
+    },
+    "season": {
+     "PTS": 11.0,
+     "REB": 1.625,
+     "AST": 1.875,
+     "STL": 0.375,
+     "BLK": 0.1875,
+     "3PM": 2.4375,
+     "FG%": 0.49586777,
+     "FT%": 0.80952381,
+     "TO": 1.0,
+     "FGM": 3.75,
+     "FGA": 7.5625,
+     "FTM": 1.0625,
+     "FTA": 1.3125,
+     "GP": 16.0
     }
    }
   ],
@@ -3676,20 +3676,20 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 16.0,
-     "REB": 9.0,
-     "AST": 1.0,
-     "STL": 3.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 2.0,
+     "3PM": 0.0,
      "FG%": 0.35,
      "FT%": 0.0,
-     "TO": 4.0,
-     "FGM": 7.0,
-     "FGA": 20.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
      "FTM": 0.0,
      "FTA": 0.0,
-     "_src": "2027_last_30"
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3735,7 +3735,7 @@
     "injury": "OUT",
     "team": "CHA",
     "avg": {
-     "PTS": 3.0,
+     "PTS": 0.0,
      "REB": 0.0,
      "AST": 0.0,
      "STL": 0.0,
@@ -3743,12 +3743,12 @@
      "3PM": 0.0,
      "FG%": 0.0,
      "FT%": 1.0,
-     "TO": 2.0,
+     "TO": 0.0,
      "FGM": 0.0,
-     "FGA": 1.0,
-     "FTM": 3.0,
-     "FTA": 3.0,
-     "_src": "2027_last_30"
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 19.756410256410255,
@@ -4540,20 +4540,20 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 18.0,
-     "REB": 6.428571428571429,
-     "AST": 1.8571428571428572,
-     "STL": 0.7142857142857143,
-     "BLK": 0.5714285714285714,
-     "3PM": 4.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
      "FG%": 0.4,
-     "FT%": 0.81818182,
-     "TO": 1.2857142857142858,
-     "FGM": 5.714285714285714,
-     "FGA": 14.285714285714286,
-     "FTM": 2.5714285714285716,
-     "FTA": 3.142857142857143,
-     "_src": "2027_last_30"
+     "FT%": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.838709677419356,
@@ -5423,20 +5423,20 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 14.0,
-     "REB": 6.0,
-     "AST": 5.0,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
      "3PM": 0.0,
      "FG%": 0.54545455,
      "FT%": 0.5,
-     "TO": 2.0,
-     "FGM": 6.0,
-     "FGA": 11.0,
-     "FTM": 2.0,
-     "FTA": 4.0,
-     "_src": "2027_last_30"
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -5951,20 +5951,20 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 16.333333333333332,
-     "REB": 1.6666666666666667,
-     "AST": 4.666666666666667,
-     "STL": 0.3333333333333333,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.3333333333333333,
-     "FG%": 0.5,
-     "FT%": 0.83333333,
-     "TO": 1.3333333333333333,
-     "FGM": 6.666666666666667,
-     "FGA": 13.333333333333334,
-     "FTM": 1.6666666666666667,
-     "FTA": 2.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.42857143,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.6,
@@ -6246,20 +6246,20 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 16.666666666666668,
-     "REB": 5.0,
-     "AST": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
      "STL": 0.0,
-     "BLK": 1.0,
-     "3PM": 1.0,
-     "FG%": 0.47058824,
-     "FT%": 0.78947368,
-     "TO": 2.3333333333333335,
-     "FGM": 5.333333333333333,
-     "FGA": 11.333333333333334,
-     "FTM": 5.0,
-     "FTA": 6.333333333333333,
-     "_src": "2027_last_30"
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.4,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -6805,20 +6805,20 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 21.333333333333332,
-     "REB": 5.333333333333333,
-     "AST": 8.666666666666666,
-     "STL": 1.3333333333333333,
-     "BLK": 1.0,
-     "3PM": 2.6666666666666665,
-     "FG%": 0.5106383,
-     "FT%": 0.8,
-     "TO": 2.0,
-     "FGM": 8.0,
-     "FGA": 15.666666666666666,
-     "FTM": 2.6666666666666665,
-     "FTA": 3.3333333333333335,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.47058824,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 19.15625,
@@ -7215,20 +7215,20 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 4.0,
-     "REB": 6.0,
-     "AST": 3.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
      "FG%": 0.5,
      "FT%": 0.0,
-     "TO": 1.0,
-     "FGM": 2.0,
-     "FGA": 4.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
      "FTM": 0.0,
      "FTA": 0.0,
-     "_src": "2027_last_30"
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -7862,20 +7862,20 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 29.333333333333332,
-     "REB": 3.0,
-     "AST": 3.6666666666666665,
-     "STL": 2.0,
-     "BLK": 0.6666666666666666,
-     "3PM": 3.0,
-     "FG%": 0.45333333,
-     "FT%": 0.73333333,
-     "TO": 3.3333333333333335,
-     "FGM": 11.333333333333334,
-     "FGA": 25.0,
-     "FTM": 3.6666666666666665,
-     "FTA": 5.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.55882353,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -10123,20 +10123,20 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 10.0,
-     "REB": 4.0,
+     "PTS": 0.0,
+     "REB": 0.0,
      "AST": 0.0,
-     "STL": 1.0,
-     "BLK": 1.0,
-     "3PM": 2.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
      "FG%": 0.3,
      "FT%": 1.0,
-     "TO": 1.0,
-     "FGM": 3.0,
-     "FGA": 10.0,
-     "FTM": 2.0,
-     "FTA": 2.0,
-     "_src": "2027_last_30"
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -10379,6 +10379,18 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-22T18:11:16.724000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Kasparas Jakucionis"
+  },
+  {
+   "date": "2026-11-22T18:11:16.724000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Landry Shamet"
+  },
   {
    "date": "2026-11-22T16:49:22.062000",
    "team": "Real Men Eat Ass(ouad)",
@@ -14234,6 +14246,64 @@
    }
   },
   {
+   "name": "Kasparas Jakucionis",
+   "pos": "PG",
+   "elig": [
+    "PG"
+   ],
+   "team": "MIL",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 11.571428571428571,
+    "REB": 2.5714285714285716,
+    "AST": 2.7142857142857144,
+    "STL": 1.1428571428571428,
+    "BLK": 0.0,
+    "3PM": 1.7142857142857142,
+    "FG%": 0.48214286,
+    "FT%": 0.78947368,
+    "TO": 1.4285714285714286,
+    "FGM": 3.857142857142857,
+    "FGA": 8.0,
+    "FTM": 2.142857142857143,
+    "FTA": 2.7142857142857144,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 8.044117647058824,
+    "REB": 3.2941176470588234,
+    "AST": 3.2941176470588234,
+    "STL": 0.7941176470588235,
+    "BLK": 0.20588235294117646,
+    "3PM": 1.5147058823529411,
+    "FG%": 0.452,
+    "FT%": 0.868,
+    "TO": 1.2058823529411764,
+    "FGM": 2.573529411764706,
+    "FGA": 5.705882352941177,
+    "FTM": 1.3823529411764706,
+    "FTA": 1.6029411764705883,
+    "_src": "2027_projected"
+   },
+   "season": {
+    "PTS": 9.0,
+    "REB": 2.5625,
+    "AST": 3.3125,
+    "STL": 0.8125,
+    "BLK": 0.0625,
+    "3PM": 1.0625,
+    "FG%": 0.46,
+    "FT%": 0.83333333,
+    "TO": 1.6875,
+    "FGM": 2.875,
+    "FGA": 6.25,
+    "FTM": 2.1875,
+    "FTA": 2.625,
+    "GP": 16.0
+   }
+  },
+  {
    "name": "Obi Toppin",
    "pos": "PF",
    "elig": [
@@ -14799,64 +14869,6 @@
     "FTM": 0.9285714285714286,
     "FTA": 1.4285714285714286,
     "GP": 14.0
-   }
-  },
-  {
-   "name": "Landry Shamet",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "NYK",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 12.625,
-    "REB": 1.75,
-    "AST": 1.75,
-    "STL": 0.5,
-    "BLK": 0.125,
-    "3PM": 2.75,
-    "FG%": 0.54545455,
-    "FT%": 1.0,
-    "TO": 0.875,
-    "FGM": 4.5,
-    "FGA": 8.25,
-    "FTM": 0.875,
-    "FTA": 0.875,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 8.388059701492537,
-    "REB": 1.5970149253731343,
-    "AST": 1.1940298507462686,
-    "STL": 0.5970149253731343,
-    "BLK": 0.19402985074626866,
-    "3PM": 1.791044776119403,
-    "FG%": 0.44,
-    "FT%": 0.717,
-    "TO": 0.5970149253731343,
-    "FGM": 2.8656716417910446,
-    "FGA": 6.507462686567164,
-    "FTM": 0.8656716417910447,
-    "FTA": 1.1940298507462686,
-    "_src": "2027_projected"
-   },
-   "season": {
-    "PTS": 11.0,
-    "REB": 1.625,
-    "AST": 1.875,
-    "STL": 0.375,
-    "BLK": 0.1875,
-    "3PM": 2.4375,
-    "FG%": 0.49586777,
-    "FT%": 0.80952381,
-    "TO": 1.0,
-    "FGM": 3.75,
-    "FGA": 7.5625,
-    "FTM": 1.0625,
-    "FTA": 1.3125,
-    "GP": 16.0
    }
   },
   {
@@ -16672,7 +16684,7 @@
     "SG"
    ],
    "team": "WAS",
-   "injury": "ACTIVE",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 4.142857142857143,
@@ -21224,6 +21236,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "OG Anunoby: Ruled out Sunday",
+   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
+   "published": "Sun, 22 Nov 2026 10:13:00 AM PST",
+   "summary": "Anunoby (calf) won't play Sunday against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Karl-Anthony Towns: Questionable for Sunday",
+   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
+   "published": "Sun, 22 Nov 2026 10:10:00 AM PST",
+   "summary": "Towns (illness) is questionable to play in Sunday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jordan Clarkson: Won't play Sunday",
+   "link": "https://www.rotowire.com//basketball/player/jordan-clarkson-3614",
+   "published": "Sun, 22 Nov 2026 10:05:00 AM PST",
+   "summary": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Questionable Sunday",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Sun, 22 Nov 2026 9:25:00 AM PST",
@@ -21235,27 +21268,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Sun, 22 Nov 2026 9:22:00 AM PST",
    "summary": "Smith (illness) has been upgraded to probable for Sunday's game against the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Collin Murray-Boyles: Practices Sunday",
-   "link": "https://www.rotowire.com//basketball/player/collin-murray-boyles-6585",
-   "published": "Sun, 22 Nov 2026 9:10:00 AM PST",
-   "summary": "Murray-Boyles (concussion) participated in Sunday's practice, Michael Grange of Sportsnet.ca reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Norman Powell: To be re-evaluated later this week",
-   "link": "https://www.rotowire.com//basketball/player/norman-powell-3726",
-   "published": "Sun, 22 Nov 2026 7:26:00 AM PST",
-   "summary": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Domantas Sabonis: Posts strong double-double",
-   "link": "https://www.rotowire.com//basketball/player/domantas-sabonis-3865",
-   "published": "Sun, 22 Nov 2026 7:04:00 AM PST",
-   "summary": "Sabonis chipped in 15 points (5-10 FG, 0-1 3Pt, 5-5 FT), 17 rebounds, four assists and one block across 32 minutes before fouling out of Saturday's 97-96 victory over the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -21583,6 +21595,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-22T18:11:16.724000",
+   "team": "Momo in Six",
+   "action": "DROPPED",
+   "player": "Kasparas Jakucionis"
+  },
+  {
+   "date": "2026-11-22T18:11:16.724000",
+   "team": "Momo in Six",
+   "action": "FA ADDED",
+   "player": "Landry Shamet"
+  },
   {
    "date": "2026-11-22T16:49:22.062000",
    "team": "Real Men Eat Ass(ouad)",
@@ -24426,6 +24450,6 @@
   "picked_total": 10490.0,
   "direct_total": 10490.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 3.7
  }
 }
