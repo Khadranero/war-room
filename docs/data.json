@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:10:27.147823Z",
+ "updated": "2026-11-22T20:20:32.805340Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -3676,20 +3676,20 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 16.0,
+     "REB": 9.0,
+     "AST": 1.0,
+     "STL": 3.0,
      "BLK": 0.0,
-     "3PM": 0.0,
+     "3PM": 2.0,
      "FG%": 0.35,
      "FT%": 0.0,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
+     "TO": 4.0,
+     "FGM": 7.0,
+     "FGA": 20.0,
      "FTM": 0.0,
      "FTA": 0.0,
-     "_src": "2027_last_15"
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3735,7 +3735,7 @@
     "injury": "OUT",
     "team": "CHA",
     "avg": {
-     "PTS": 0.0,
+     "PTS": 3.0,
      "REB": 0.0,
      "AST": 0.0,
      "STL": 0.0,
@@ -3743,12 +3743,12 @@
      "3PM": 0.0,
      "FG%": 0.0,
      "FT%": 1.0,
-     "TO": 0.0,
+     "TO": 2.0,
      "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "FGA": 1.0,
+     "FTM": 3.0,
+     "FTA": 3.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 19.756410256410255,
@@ -4199,7 +4199,7 @@
      "C"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "CHI",
     "avg": {
      "PTS": 9.333333333333334,
@@ -4540,20 +4540,20 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
+     "PTS": 18.0,
+     "REB": 6.428571428571429,
+     "AST": 1.8571428571428572,
+     "STL": 0.7142857142857143,
+     "BLK": 0.5714285714285714,
+     "3PM": 4.0,
      "FG%": 0.4,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "FT%": 0.81818182,
+     "TO": 1.2857142857142858,
+     "FGM": 5.714285714285714,
+     "FGA": 14.285714285714286,
+     "FTM": 2.5714285714285716,
+     "FTA": 3.142857142857143,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 23.838709677419356,
@@ -5423,20 +5423,20 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 14.0,
+     "REB": 6.0,
+     "AST": 5.0,
+     "STL": 1.0,
      "BLK": 0.0,
      "3PM": 0.0,
      "FG%": 0.54545455,
      "FT%": 0.5,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "TO": 2.0,
+     "FGM": 6.0,
+     "FGA": 11.0,
+     "FTM": 2.0,
+     "FTA": 4.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 23.4,
@@ -5951,20 +5951,20 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
+     "PTS": 16.333333333333332,
+     "REB": 1.6666666666666667,
+     "AST": 4.666666666666667,
+     "STL": 0.3333333333333333,
      "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.42857143,
-     "FT%": 0.0,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "3PM": 1.3333333333333333,
+     "FG%": 0.5,
+     "FT%": 0.83333333,
+     "TO": 1.3333333333333333,
+     "FGM": 6.666666666666667,
+     "FGA": 13.333333333333334,
+     "FTM": 1.6666666666666667,
+     "FTA": 2.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 21.6,
@@ -6246,20 +6246,20 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
+     "PTS": 16.666666666666668,
+     "REB": 5.0,
+     "AST": 2.0,
      "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.4,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "BLK": 1.0,
+     "3PM": 1.0,
+     "FG%": 0.47058824,
+     "FT%": 0.78947368,
+     "TO": 2.3333333333333335,
+     "FGM": 5.333333333333333,
+     "FGA": 11.333333333333334,
+     "FTM": 5.0,
+     "FTA": 6.333333333333333,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -6805,20 +6805,20 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.47058824,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 21.333333333333332,
+     "REB": 5.333333333333333,
+     "AST": 8.666666666666666,
+     "STL": 1.3333333333333333,
+     "BLK": 1.0,
+     "3PM": 2.6666666666666665,
+     "FG%": 0.5106383,
+     "FT%": 0.8,
+     "TO": 2.0,
+     "FGM": 8.0,
+     "FGA": 15.666666666666666,
+     "FTM": 2.6666666666666665,
+     "FTA": 3.3333333333333335,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 19.15625,
@@ -7215,20 +7215,20 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
+     "PTS": 4.0,
+     "REB": 6.0,
+     "AST": 3.0,
+     "STL": 1.0,
+     "BLK": 1.0,
      "3PM": 0.0,
      "FG%": 0.5,
      "FT%": 0.0,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
+     "TO": 1.0,
+     "FGM": 2.0,
+     "FGA": 4.0,
      "FTM": 0.0,
      "FTA": 0.0,
-     "_src": "2027_last_15"
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -7862,20 +7862,20 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
-     "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
-     "FG%": 0.55882353,
-     "FT%": 0.66666667,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "PTS": 29.333333333333332,
+     "REB": 3.0,
+     "AST": 3.6666666666666665,
+     "STL": 2.0,
+     "BLK": 0.6666666666666666,
+     "3PM": 3.0,
+     "FG%": 0.45333333,
+     "FT%": 0.73333333,
+     "TO": 3.3333333333333335,
+     "FGM": 11.333333333333334,
+     "FGA": 25.0,
+     "FTM": 3.6666666666666665,
+     "FTA": 5.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -10123,20 +10123,20 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 0.0,
-     "REB": 0.0,
+     "PTS": 10.0,
+     "REB": 4.0,
      "AST": 0.0,
-     "STL": 0.0,
-     "BLK": 0.0,
-     "3PM": 0.0,
+     "STL": 1.0,
+     "BLK": 1.0,
+     "3PM": 2.0,
      "FG%": 0.3,
      "FT%": 1.0,
-     "TO": 0.0,
-     "FGM": 0.0,
-     "FGA": 0.0,
-     "FTM": 0.0,
-     "FTA": 0.0,
-     "_src": "2027_last_15"
+     "TO": 1.0,
+     "FGM": 3.0,
+     "FGA": 10.0,
+     "FTM": 2.0,
+     "FTA": 2.0,
+     "_src": "2027_last_30"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -21236,6 +21236,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Cade Cunningham: Good to go Sunday",
+   "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
+   "published": "Sun, 22 Nov 2026 12:06:00 PM PST",
+   "summary": "Cunningham (knee) is available for Sunday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "P.J. Washington: Doubtful to play Sunday",
    "link": "https://www.rotowire.com//basketball/player/pj-washington-4781",
    "published": "Sun, 22 Nov 2026 11:08:00 AM PST",
@@ -21263,11 +21270,88 @@
    "summary": "Towns (illness) is questionable to play in Sunday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Jordan Clarkson: Won't play Sunday",
-   "link": "https://www.rotowire.com//basketball/player/jordan-clarkson-3614",
-   "published": "Sun, 22 Nov 2026 10:05:00 AM PST",
-   "summary": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.\n\n        Visit RotoWire.com for more analysis on this update."
+   "source": "ESPN",
+   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+   "published": "Sun, 22 Nov 2026 11:38:00 EST",
+   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "Bulls G Powell sidelined by hamstring injury, to be checked later in week",
+   "link": "https://www.espn.com/nba/story/_/id/50564049/bulls-g-norman-powell-sidelined-mild-hamstring-injury",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "Bulls guard Norman Powell has been ruled out against the Nuggets and will be reevaluated later in the week because of a mild right hamstring strain."
+  },
+  {
+   "source": "ESPN",
+   "title": "Wemby makes history in 18 minutes, finishes game with 50 points",
+   "link": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "Victor Wembanyama had his third career 50-point outing during a win over the Pelicans to go along with 19 rebounds, five blocks and four steals."
+  },
+  {
+   "source": "ESPN",
+   "title": "Bridges shakes off slump, hits buzzer-beating 3 to save Knicks from collapse",
+   "link": "https://www.espn.com/nba/story/_/id/50559927/knicks-mikal-bridges-shakes-slump-3-buzzer-tops-blazers",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "Mired in a shooting slump, Mikal Bridges delivered a buzzer-beating 3-pointer to lift the Knicks past the Trail Blazers after they squandered a 26-point lead."
+  },
+  {
+   "source": "ESPN",
+   "title": "76ers survive in clutch again despite Herro's 50",
+   "link": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch."
+  },
+  {
+   "source": "ESPN",
+   "title": "Harden has 51 in 'vintage' performance, leaps Kobe for 3rd-most 50-point games",
+   "link": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "James Harden posted the 26th 50-point game of his career, passing Kobe Bryant for third-most 50-point games in NBA history."
+  },
+  {
+   "source": "ESPN",
+   "title": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
+   "link": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling the defense \"as bad as I've seen it.\""
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+   "published": "Sun, 22 Nov 2026 15:01:31 EST",
+   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
+   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+   "published": "Thu, 19 Nov 2026 08:46:53 EST",
+   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
+  },
+  {
+   "source": "ESPN",
+   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
+   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+   "published": "Fri, 20 Nov 2026 22:34:53 EST",
+   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
+  },
+  {
+   "source": "ESPN",
+   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+   "published": "Sun, 22 Nov 2026 11:37:10 EST",
+   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
+  },
+  {
+   "source": "ESPN",
+   "title": "Sunday's fantasy basketball adds and NBA bets",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50560887/fantasy-basketball-tips-nba-betting-picks-today",
+   "published": "Sun, 22 Nov 2026 11:37:10 EST",
+   "summary": "Jim McCormick breaks down Sunday's NBA slate, highlighting the fantasy streamers to add and bets to make."
   }
  ],
  "games": {
@@ -24450,6 +24534,6 @@
   "picked_total": 10490.0,
   "direct_total": 10490.0,
   "direct_teams": 10,
-  "run_seconds": 3.7
+  "run_seconds": 2.7
  }
 }
