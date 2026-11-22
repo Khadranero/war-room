@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:50:24.194393Z",
+ "updated": "2026-11-22T08:00:35.198071Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -110,24 +110,24 @@
    "score": 59
   },
   {
-   "team": "Real Men Eat Ass(ouad)",
-   "score": 58
+   "team": "Akumpo",
+   "score": 54
   },
   {
-   "team": "Khadracadabra",
-   "score": 53
+   "team": "Real Men Eat Ass(ouad)",
+   "score": 54
   },
   {
    "team": "Crackheads",
+   "score": 53
+  },
+  {
+   "team": "Khadracadabra",
    "score": 52
   },
   {
    "team": "Wembelieve I can fly",
-   "score": 51
-  },
-  {
-   "team": "Akumpo",
-   "score": 51
+   "score": 50
   },
   {
    "team": "Pasta Warriors",
@@ -143,289 +143,289 @@
   },
   {
    "team": "Team Batrouni",
-   "score": 32
+   "score": 34
   }
  ],
  "category_table": {
   "PTS": [
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 3759.0,
+    "value": 3867.0,
     "rank": 1
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 3743.0,
+    "value": 3851.0,
     "rank": 2
    },
    {
     "team": "Crackheads",
-    "value": 3351.0,
+    "value": 3425.0,
     "rank": 3
    },
    {
     "team": "Pasta Warriors",
-    "value": 3329.0,
+    "value": 3351.0,
     "rank": 4
    },
    {
     "team": "Khadracadabra",
-    "value": 3230.0,
+    "value": 3283.0,
     "rank": 5
    },
    {
     "team": "Akumpo",
-    "value": 3153.0,
+    "value": 3213.0,
     "rank": 6
    },
    {
     "team": "AARON VENGERS",
-    "value": 3074.0,
+    "value": 3117.0,
     "rank": 7
    },
    {
     "team": "Momo in Six",
-    "value": 2996.0,
+    "value": 3056.0,
     "rank": 8
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 2736.0,
+    "value": 2855.0,
     "rank": 9
    },
    {
     "team": "Team Batrouni",
-    "value": 2689.0,
+    "value": 2770.0,
     "rank": 10
    }
   ],
   "REB": [
    {
     "team": "Wembelieve I can fly",
-    "value": 1242.0,
+    "value": 1302.0,
     "rank": 1
    },
    {
     "team": "Crackheads",
-    "value": 1186.0,
+    "value": 1204.0,
     "rank": 2
    },
    {
-    "team": "Pasta Warriors",
-    "value": 1117.0,
+    "team": "Akumpo",
+    "value": 1140.0,
     "rank": 3
    },
    {
     "team": "AARON VENGERS",
-    "value": 1112.0,
+    "value": 1133.0,
     "rank": 4
    },
    {
-    "team": "Akumpo",
-    "value": 1111.0,
+    "team": "Pasta Warriors",
+    "value": 1123.0,
     "rank": 5
    },
    {
     "team": "Momo in Six",
-    "value": 1089.0,
+    "value": 1107.0,
     "rank": 6
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 1062.0,
+    "team": "Team Batrouni",
+    "value": 1102.0,
     "rank": 7
    },
    {
-    "team": "Team Batrouni",
-    "value": 1061.0,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 1099.0,
     "rank": 8
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 1033.0,
+    "value": 1074.0,
     "rank": 9
    },
    {
     "team": "Khadracadabra",
-    "value": 974.0,
+    "value": 995.0,
     "rank": 10
    }
   ],
   "AST": [
    {
     "team": "Rubio Bzeit ",
-    "value": 974.0,
+    "value": 1004.0,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 906.0,
+    "value": 925.0,
     "rank": 2
    },
    {
     "team": "Khadracadabra",
-    "value": 762.0,
+    "value": 773.0,
     "rank": 3
    },
    {
     "team": "Crackheads",
-    "value": 735.0,
+    "value": 757.0,
     "rank": 4
    },
    {
     "team": "Team Batrouni",
-    "value": 709.0,
+    "value": 732.0,
     "rank": 5
    },
    {
-    "team": "Wembelieve I can fly",
-    "value": 695.0,
+    "team": "Akumpo",
+    "value": 713.0,
     "rank": 6
    },
    {
-    "team": "Akumpo",
-    "value": 685.0,
+    "team": "Wembelieve I can fly",
+    "value": 710.0,
     "rank": 7
    },
    {
     "team": "Momo in Six",
-    "value": 682.0,
+    "value": 695.0,
     "rank": 8
    },
    {
     "team": "Pasta Warriors",
-    "value": 681.0,
+    "value": 686.0,
     "rank": 9
    },
    {
     "team": "AARON VENGERS",
-    "value": 663.0,
+    "value": 676.0,
     "rank": 10
    }
   ],
   "STL": [
    {
     "team": "Rubio Bzeit ",
-    "value": 239.0,
+    "value": 248.0,
     "rank": 1
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 215.0,
+    "team": "Wembelieve I can fly",
+    "value": 221.0,
     "rank": 2
    },
    {
-    "team": "Wembelieve I can fly",
-    "value": 211.0,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 218.0,
     "rank": 3
    },
    {
     "team": "Khadracadabra",
-    "value": 209.0,
+    "value": 214.0,
     "rank": 4
    },
    {
     "team": "Crackheads",
-    "value": 206.0,
+    "value": 211.0,
     "rank": 5
    },
    {
     "team": "Momo in Six",
-    "value": 204.0,
+    "value": 210.0,
     "rank": 6
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 197.0,
+    "rank": 7
    },
    {
     "team": "AARON VENGERS",
     "value": 194.0,
-    "rank": 7
-   },
-   {
-    "team": "Team Batrouni",
-    "value": 191.0,
     "rank": 8
    },
    {
-    "team": "Pasta Warriors",
-    "value": 183.0,
+    "team": "Akumpo",
+    "value": 184.0,
     "rank": 9
    },
    {
-    "team": "Akumpo",
-    "value": 181.0,
+    "team": "Pasta Warriors",
+    "value": 184.0,
     "rank": 10
    }
   ],
   "BLK": [
    {
     "team": "Wembelieve I can fly",
-    "value": 158.0,
+    "value": 164.0,
     "rank": 1
    },
    {
     "team": "Akumpo",
-    "value": 155.0,
+    "value": 160.0,
     "rank": 2
    },
    {
     "team": "Pasta Warriors",
-    "value": 143.0,
+    "value": 144.0,
     "rank": 3
    },
    {
     "team": "Khadracadabra",
-    "value": 135.0,
+    "value": 138.0,
     "rank": 4
    },
    {
     "team": "Crackheads",
-    "value": 134.0,
+    "value": 135.0,
     "rank": 5
    },
    {
     "team": "Momo in Six",
-    "value": 111.0,
+    "value": 112.0,
     "rank": 6
    },
    {
     "team": "AARON VENGERS",
-    "value": 106.0,
+    "value": 108.0,
     "rank": 7
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 95.0,
+    "team": "Team Batrouni",
+    "value": 98.0,
     "rank": 8
    },
    {
-    "team": "Team Batrouni",
-    "value": 92.0,
+    "team": "Rubio Bzeit ",
+    "value": 97.0,
     "rank": 9
    },
    {
-    "team": "Rubio Bzeit ",
-    "value": 91.0,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 97.0,
     "rank": 10
    }
   ],
   "3PM": [
    {
     "team": "Rubio Bzeit ",
-    "value": 416.0,
+    "value": 425.0,
     "rank": 1
    },
    {
     "team": "Khadracadabra",
-    "value": 382.0,
+    "value": 386.0,
     "rank": 2
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 366.0,
+    "value": 377.0,
     "rank": 3
    },
    {
     "team": "Akumpo",
-    "value": 361.0,
+    "value": 370.0,
     "rank": 4
    },
    {
@@ -435,34 +435,34 @@
    },
    {
     "team": "Momo in Six",
-    "value": 338.0,
+    "value": 343.0,
     "rank": 6
    },
    {
     "team": "Pasta Warriors",
-    "value": 306.0,
+    "value": 310.0,
     "rank": 7
    },
    {
-    "team": "Team Batrouni",
-    "value": 299.0,
+    "team": "Crackheads",
+    "value": 308.0,
     "rank": 8
    },
    {
-    "team": "Crackheads",
-    "value": 296.0,
+    "team": "Team Batrouni",
+    "value": 304.0,
     "rank": 9
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 267.0,
+    "value": 279.0,
     "rank": 10
    }
   ],
   "FG%": [
    {
     "team": "Pasta Warriors",
-    "value": 2.479,
+    "value": 2.469,
     "rank": 1
    },
    {
@@ -472,7 +472,7 @@
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 2.443,
+    "value": 2.445,
     "rank": 3
    },
    {
@@ -482,136 +482,136 @@
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 2.321,
+    "value": 2.307,
     "rank": 5
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 2.289,
+    "value": 2.304,
     "rank": 6
    },
    {
     "team": "Khadracadabra",
-    "value": 2.281,
+    "value": 2.279,
     "rank": 7
    },
    {
     "team": "Akumpo",
-    "value": 2.273,
+    "value": 2.257,
     "rank": 8
    },
    {
     "team": "Team Batrouni",
-    "value": 2.257,
+    "value": 2.255,
     "rank": 9
    },
    {
     "team": "AARON VENGERS",
-    "value": 2.221,
+    "value": 2.214,
     "rank": 10
    }
   ],
   "FT%": [
    {
-    "team": "Rubio Bzeit ",
-    "value": 4.147,
+    "team": "AARON VENGERS",
+    "value": 4.161,
     "rank": 1
    },
    {
-    "team": "AARON VENGERS",
-    "value": 4.135,
+    "team": "Rubio Bzeit ",
+    "value": 4.108,
     "rank": 2
    },
    {
     "team": "Akumpo",
-    "value": 4.091,
+    "value": 4.099,
     "rank": 3
    },
    {
-    "team": "Khadracadabra",
-    "value": 4.051,
+    "team": "Team Batrouni",
+    "value": 4.081,
     "rank": 4
    },
    {
-    "team": "Team Batrouni",
-    "value": 4.045,
+    "team": "Khadracadabra",
+    "value": 4.056,
     "rank": 5
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 3.932,
+    "value": 3.945,
     "rank": 6
    },
    {
     "team": "Momo in Six",
-    "value": 3.895,
+    "value": 3.904,
     "rank": 7
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 3.872,
+    "value": 3.857,
     "rank": 8
    },
    {
     "team": "Crackheads",
-    "value": 3.756,
+    "value": 3.763,
     "rank": 9
    },
    {
     "team": "Pasta Warriors",
-    "value": 3.676,
+    "value": 3.675,
     "rank": 10
    }
   ],
   "TO": [
    {
     "team": "AARON VENGERS",
-    "value": 346.0,
+    "value": 348.0,
     "rank": 1
    },
    {
     "team": "Momo in Six",
-    "value": 370.0,
+    "value": 379.0,
     "rank": 2
-   },
-   {
-    "team": "Akumpo",
-    "value": 382.0,
-    "rank": 3
-   },
-   {
-    "team": "Wembelieve I can fly",
-    "value": 383.0,
-    "rank": 4
-   },
-   {
-    "team": "Team Batrouni",
-    "value": 384.0,
-    "rank": 5
    },
    {
     "team": "Pasta Warriors",
     "value": 390.0,
+    "rank": 3
+   },
+   {
+    "team": "Akumpo",
+    "value": 391.0,
+    "rank": 4
+   },
+   {
+    "team": "Wembelieve I can fly",
+    "value": 396.0,
+    "rank": 5
+   },
+   {
+    "team": "Team Batrouni",
+    "value": 399.0,
     "rank": 6
    },
    {
     "team": "Khadracadabra",
-    "value": 413.0,
+    "value": 423.0,
     "rank": 7
    },
    {
     "team": "Crackheads",
-    "value": 418.0,
+    "value": 432.0,
     "rank": 8
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 446.0,
+    "value": 453.0,
     "rank": 9
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 531.0,
+    "value": 542.0,
     "rank": 10
    }
   ]
@@ -1521,44 +1521,44 @@
    "week": 5,
    "home": "Akumpo",
    "away": "Team Batrouni",
-   "home_score": 7,
-   "away_score": 2,
+   "home_score": 6,
+   "away_score": 3,
    "cats": {
     "PTS": {
-     "home": 464.0,
-     "away": 435.0
+     "home": 524.0,
+     "away": 516.0
     },
     "REB": {
-     "home": 142.0,
-     "away": 198.0
+     "home": 171.0,
+     "away": 239.0
     },
     "AST": {
-     "home": 110.0,
-     "away": 101.0
+     "home": 138.0,
+     "away": 124.0
     },
     "STL": {
-     "home": 20.0,
-     "away": 34.0
+     "home": 23.0,
+     "away": 40.0
     },
     "BLK": {
-     "home": 21.0,
-     "away": 11.0
+     "home": 26.0,
+     "away": 17.0
     },
     "3PM": {
-     "home": 59.0,
-     "away": 44.0
+     "home": 68.0,
+     "away": 49.0
     },
     "FG%": {
-     "home": 0.45915493,
-     "away": 0.45786517
+     "home": 0.44362745,
+     "away": 0.45584726
     },
     "FT%": {
-     "home": 0.83157895,
-     "away": 0.73033708
+     "home": 0.83928571,
+     "away": 0.76576577
     },
     "TO": {
-     "home": 55.0,
-     "away": 66.0
+     "home": 64.0,
+     "away": 81.0
     }
    }
   },
@@ -1566,44 +1566,44 @@
    "week": 5,
    "home": "Rubio Bzeit ",
    "away": "Khadracadabra",
-   "home_score": 3,
-   "away_score": 5,
+   "home_score": 6,
+   "away_score": 3,
    "cats": {
     "PTS": {
-     "home": 579.0,
-     "away": 607.0
+     "home": 687.0,
+     "away": 660.0
     },
     "REB": {
-     "home": 169.0,
-     "away": 169.0
+     "home": 210.0,
+     "away": 190.0
     },
     "AST": {
-     "home": 134.0,
-     "away": 162.0
+     "home": 164.0,
+     "away": 173.0
     },
     "STL": {
-     "home": 46.0,
-     "away": 42.0
+     "home": 55.0,
+     "away": 47.0
     },
     "BLK": {
-     "home": 18.0,
-     "away": 20.0
+     "home": 24.0,
+     "away": 23.0
     },
     "3PM": {
-     "home": 56.0,
-     "away": 83.0
+     "home": 65.0,
+     "away": 87.0
     },
     "FG%": {
-     "home": 0.46962617,
-     "away": 0.47084233
+     "home": 0.45576923,
+     "away": 0.46850394
     },
     "FT%": {
-     "home": 0.8705036,
-     "away": 0.75213675
+     "home": 0.83146067,
+     "away": 0.7578125
     },
     "TO": {
-     "home": 68.0,
-     "away": 85.0
+     "home": 79.0,
+     "away": 95.0
     }
    }
   },
@@ -1615,40 +1615,40 @@
    "away_score": 4,
    "cats": {
     "PTS": {
-     "home": 484.0,
-     "away": 478.0
+     "home": 603.0,
+     "away": 552.0
     },
     "REB": {
-     "home": 226.0,
-     "away": 150.0
+     "home": 286.0,
+     "away": 168.0
     },
     "AST": {
-     "home": 142.0,
-     "away": 117.0
+     "home": 157.0,
+     "away": 139.0
     },
     "STL": {
-     "home": 38.0,
-     "away": 21.0
+     "home": 48.0,
+     "away": 26.0
     },
     "BLK": {
-     "home": 21.0,
-     "away": 24.0
+     "home": 27.0,
+     "away": 25.0
     },
     "3PM": {
-     "home": 47.0,
-     "away": 54.0
+     "home": 59.0,
+     "away": 66.0
     },
     "FG%": {
-     "home": 0.45771144,
-     "away": 0.53674121
+     "home": 0.47250509,
+     "away": 0.53678474
     },
     "FT%": {
-     "home": 0.78409091,
-     "away": 0.77876106
+     "home": 0.76923077,
+     "away": 0.78632479
     },
     "TO": {
-     "home": 72.0,
-     "away": 61.0
+     "home": 85.0,
+     "away": 75.0
     }
    }
   },
@@ -1660,40 +1660,40 @@
    "away_score": 3,
    "cats": {
     "PTS": {
-     "home": 476.0,
-     "away": 398.0
+     "home": 498.0,
+     "away": 441.0
     },
     "REB": {
-     "home": 200.0,
-     "away": 150.0
+     "home": 206.0,
+     "away": 171.0
     },
     "AST": {
-     "home": 101.0,
-     "away": 103.0
+     "home": 106.0,
+     "away": 116.0
     },
     "STL": {
-     "home": 27.0,
+     "home": 28.0,
      "away": 21.0
     },
     "BLK": {
-     "home": 26.0,
-     "away": 20.0
+     "home": 27.0,
+     "away": 22.0
     },
     "3PM": {
-     "home": 39.0,
+     "home": 43.0,
      "away": 36.0
     },
     "FG%": {
-     "home": 0.49189189,
-     "away": 0.47936508
+     "home": 0.48214286,
+     "away": 0.47230321
     },
     "FT%": {
-     "home": 0.66972477,
-     "away": 0.75949367
+     "home": 0.66956522,
+     "away": 0.78640777
     },
     "TO": {
      "home": 66.0,
-     "away": 36.0
+     "away": 38.0
     }
    }
   },
@@ -1705,40 +1705,40 @@
    "away_score": 6,
    "cats": {
     "PTS": {
-     "home": 535.0,
-     "away": 637.0
+     "home": 595.0,
+     "away": 745.0
     },
     "REB": {
-     "home": 172.0,
-     "away": 177.0
+     "home": 190.0,
+     "away": 214.0
     },
     "AST": {
-     "home": 126.0,
-     "away": 133.0
+     "home": 139.0,
+     "away": 152.0
     },
     "STL": {
-     "home": 39.0,
-     "away": 33.0
+     "home": 45.0,
+     "away": 36.0
     },
     "BLK": {
-     "home": 15.0,
-     "away": 19.0
+     "home": 16.0,
+     "away": 21.0
     },
     "3PM": {
-     "home": 64.0,
-     "away": 66.0
+     "home": 69.0,
+     "away": 77.0
     },
     "FG%": {
-     "home": 0.49872123,
-     "away": 0.50313152
+     "home": 0.49884527,
+     "away": 0.5045045
     },
     "FT%": {
-     "home": 0.79411765,
-     "away": 0.74166667
+     "home": 0.8034188,
+     "away": 0.75524476
     },
     "TO": {
-     "home": 68.0,
-     "away": 77.0
+     "home": 77.0,
+     "away": 84.0
     }
    }
   }
@@ -1752,7 +1752,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -2044,7 +2044,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -2278,7 +2278,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -2337,7 +2337,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "GSW",
     "avg": {
@@ -2459,7 +2459,7 @@
     "team": "NOP",
     "avg": {
      "PTS": 5.2,
-     "REB": 9.4,
+     "REB": 9.6,
      "AST": 1.0,
      "STL": 1.0,
      "BLK": 1.2,
@@ -2490,7 +2490,7 @@
     },
     "season": {
      "PTS": 6.428571428571429,
-     "REB": 8.857142857142858,
+     "REB": 9.0,
      "AST": 1.4285714285714286,
      "STL": 1.0,
      "BLK": 1.4285714285714286,
@@ -2694,20 +2694,20 @@
     "injury": "OUT",
     "team": "IND",
     "avg": {
-     "PTS": 21.333333333333332,
-     "REB": 5.333333333333333,
-     "AST": 8.666666666666666,
-     "STL": 1.3333333333333333,
-     "BLK": 1.0,
-     "3PM": 2.6666666666666665,
-     "FG%": 0.5106383,
-     "FT%": 0.8,
-     "TO": 2.0,
-     "FGM": 8.0,
-     "FGA": 15.666666666666666,
-     "FTM": 2.6666666666666665,
-     "FTA": 3.3333333333333335,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.47058824,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 19.15625,
@@ -2866,7 +2866,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3101,7 +3101,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -3160,15 +3160,15 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 19.1,
-     "REB": 5.4,
+     "REB": 5.3,
      "AST": 6.0,
      "STL": 1.0,
-     "BLK": 0.5,
+     "BLK": 0.4,
      "3PM": 1.5,
      "FG%": 0.48630137,
      "FT%": 0.82926829,
@@ -3197,10 +3197,10 @@
     },
     "season": {
      "PTS": 16.666666666666668,
-     "REB": 5.0,
+     "REB": 4.944444444444445,
      "AST": 5.333333333333333,
      "STL": 1.0,
-     "BLK": 0.5,
+     "BLK": 0.4444444444444444,
      "3PM": 1.2777777777777777,
      "FG%": 0.45238095,
      "FT%": 0.81666667,
@@ -3219,7 +3219,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3277,7 +3277,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -3336,7 +3336,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -3394,7 +3394,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -3447,61 +3447,60 @@
     }
    },
    {
-    "name": "Devin Vassell",
-    "pos": "SG",
+    "name": "Wendell Carter Jr.",
+    "pos": "C",
     "elig": [
-     "SG",
-     "SF"
+     "C"
     ],
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
-    "team": "SAS",
+    "team": "ORL",
     "avg": {
-     "PTS": 12.0,
-     "REB": 3.4285714285714284,
-     "AST": 2.5714285714285716,
-     "STL": 1.4285714285714286,
-     "BLK": 0.5714285714285714,
-     "3PM": 1.7142857142857142,
-     "FG%": 0.4375,
-     "FT%": 0.84210526,
-     "TO": 0.42857142857142855,
+     "PTS": 11.571428571428571,
+     "REB": 8.0,
+     "AST": 1.4285714285714286,
+     "STL": 0.2857142857142857,
+     "BLK": 1.2857142857142858,
+     "3PM": 1.0,
+     "FG%": 0.46666667,
+     "FT%": 0.75,
+     "TO": 1.0,
      "FGM": 4.0,
-     "FGA": 9.142857142857142,
-     "FTM": 2.2857142857142856,
-     "FTA": 2.7142857142857144,
+     "FGA": 8.571428571428571,
+     "FTM": 2.5714285714285716,
+     "FTA": 3.4285714285714284,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 14.304347826086957,
-     "REB": 3.5072463768115942,
-     "AST": 2.6956521739130435,
-     "STL": 0.8985507246376812,
-     "BLK": 0.4057971014492754,
-     "3PM": 2.1449275362318843,
-     "FG%": 0.451,
-     "FT%": 0.804,
-     "TO": 1.1014492753623188,
-     "FGM": 5.27536231884058,
-     "FGA": 11.695652173913043,
-     "FTM": 1.608695652173913,
-     "FTA": 2.0,
+     "PTS": 9.972222222222221,
+     "REB": 6.694444444444445,
+     "AST": 1.8055555555555556,
+     "STL": 0.6944444444444444,
+     "BLK": 0.5,
+     "3PM": 0.8055555555555556,
+     "FG%": 0.5,
+     "FT%": 0.761,
+     "TO": 1.0972222222222223,
+     "FGM": 3.5972222222222223,
+     "FGA": 7.194444444444445,
+     "FTM": 1.9722222222222223,
+     "FTA": 2.5972222222222223,
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 11.266666666666667,
-     "REB": 3.8666666666666667,
-     "AST": 2.933333333333333,
-     "STL": 1.6,
-     "BLK": 0.4,
-     "3PM": 1.4,
-     "FG%": 0.40140845,
-     "FT%": 0.89473684,
-     "TO": 0.8666666666666667,
-     "FGM": 3.8,
-     "FGA": 9.466666666666667,
-     "FTM": 2.2666666666666666,
-     "FTA": 2.533333333333333,
+     "PTS": 13.0,
+     "REB": 8.733333333333333,
+     "AST": 1.2666666666666666,
+     "STL": 0.8,
+     "BLK": 0.8666666666666667,
+     "3PM": 1.0,
+     "FG%": 0.56198347,
+     "FT%": 0.78571429,
+     "TO": 1.4666666666666666,
+     "FGM": 4.533333333333333,
+     "FGA": 8.066666666666666,
+     "FTM": 2.933333333333333,
+     "FTA": 3.7333333333333334,
      "GP": 15.0
     }
    }
@@ -3514,7 +3513,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "OUT",
     "team": "BOS",
     "avg": {
@@ -3572,7 +3571,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -3631,7 +3630,7 @@
      "PF",
      "C"
     ],
-    "slot": "PF",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -3694,20 +3693,20 @@
     "injury": "OUT",
     "team": "TOR",
     "avg": {
-     "PTS": 16.0,
-     "REB": 9.0,
-     "AST": 1.0,
-     "STL": 3.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 2.0,
+     "3PM": 0.0,
      "FG%": 0.35,
      "FT%": 0.0,
-     "TO": 4.0,
-     "FGM": 7.0,
-     "FGA": 20.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
      "FTM": 0.0,
      "FTA": 0.0,
-     "_src": "2027_last_30"
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 25.071428571428573,
@@ -3753,7 +3752,7 @@
     "injury": "OUT",
     "team": "CHA",
     "avg": {
-     "PTS": 3.0,
+     "PTS": 0.0,
      "REB": 0.0,
      "AST": 0.0,
      "STL": 0.0,
@@ -3761,12 +3760,12 @@
      "3PM": 0.0,
      "FG%": 0.0,
      "FT%": 1.0,
-     "TO": 2.0,
+     "TO": 0.0,
      "FGM": 0.0,
-     "FGA": 1.0,
-     "FTM": 3.0,
-     "FTA": 3.0,
-     "_src": "2027_last_30"
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 19.756410256410255,
@@ -3866,7 +3865,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3924,7 +3923,7 @@
     "elig": [
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -3983,7 +3982,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -4042,7 +4041,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -4159,7 +4158,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -4216,7 +4215,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -4274,7 +4273,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "BKN",
     "avg": {
@@ -4377,7 +4376,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -4495,7 +4494,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -4612,7 +4611,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -4671,7 +4670,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "IR",
     "injury": "OUT",
     "team": "NOP",
     "avg": {
@@ -4847,7 +4846,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -4906,7 +4905,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -5024,7 +5023,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -5083,7 +5082,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -5142,7 +5141,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -5193,6 +5192,64 @@
      "FTA": 1.7333333333333334,
      "GP": 15.0
     }
+   },
+   {
+    "name": "Caleb Martin",
+    "pos": "SG",
+    "elig": [
+     "SG"
+    ],
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "DAL",
+    "avg": {
+     "PTS": 5.5,
+     "REB": 3.625,
+     "AST": 3.25,
+     "STL": 1.0,
+     "BLK": 0.0,
+     "3PM": 1.0,
+     "FG%": 0.47222222,
+     "FT%": 1.0,
+     "TO": 0.875,
+     "FGM": 2.125,
+     "FGA": 4.5,
+     "FTM": 0.25,
+     "FTA": 0.25,
+     "_src": "2027_last_15"
+    },
+    "proj": {
+     "PTS": 4.731343283582089,
+     "REB": 2.701492537313433,
+     "AST": 1.507462686567164,
+     "STL": 0.7014925373134329,
+     "BLK": 0.29850746268656714,
+     "3PM": 0.4626865671641791,
+     "FG%": 0.442,
+     "FT%": 0.622,
+     "TO": 0.8059701492537313,
+     "FGM": 1.7611940298507462,
+     "FGA": 4.0,
+     "FTM": 0.746268656716418,
+     "FTA": 1.1940298507462686,
+     "_src": "2027_projected"
+    },
+    "season": {
+     "PTS": 5.583333333333333,
+     "REB": 3.3333333333333335,
+     "AST": 2.3333333333333335,
+     "STL": 0.8333333333333334,
+     "BLK": 0.0,
+     "3PM": 1.0833333333333333,
+     "FG%": 0.5,
+     "FT%": 1.0,
+     "TO": 0.75,
+     "FGM": 2.0833333333333335,
+     "FGA": 4.166666666666667,
+     "FTM": 0.3333333333333333,
+     "FTA": 0.3333333333333333,
+     "GP": 12.0
+    }
    }
   ],
   "Akumpo": [
@@ -5202,7 +5259,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "PG",
     "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
@@ -5260,7 +5317,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
@@ -5382,20 +5439,20 @@
     "injury": "OUT",
     "team": "ORL",
     "avg": {
-     "PTS": 14.0,
-     "REB": 6.0,
-     "AST": 5.0,
-     "STL": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
      "3PM": 0.0,
      "FG%": 0.54545455,
      "FT%": 0.5,
-     "TO": 2.0,
-     "FGM": 6.0,
-     "FGA": 11.0,
-     "FTM": 2.0,
-     "FTA": 4.0,
-     "_src": "2027_last_30"
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 23.4,
@@ -5437,7 +5494,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -5496,7 +5553,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "PF",
     "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
@@ -5555,7 +5612,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -5673,7 +5730,7 @@
      "PF",
      "C"
     ],
-    "slot": "PF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -5731,7 +5788,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -5848,7 +5905,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -5910,20 +5967,20 @@
     "injury": "OUT",
     "team": "POR",
     "avg": {
-     "PTS": 16.333333333333332,
-     "REB": 1.6666666666666667,
-     "AST": 4.666666666666667,
-     "STL": 0.3333333333333333,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
      "BLK": 0.0,
-     "3PM": 1.3333333333333333,
-     "FG%": 0.5,
-     "FT%": 0.83333333,
-     "TO": 1.3333333333333333,
-     "FGM": 6.666666666666667,
-     "FGA": 13.333333333333334,
-     "FTM": 1.6666666666666667,
-     "FTA": 2.0,
-     "_src": "2027_last_30"
+     "3PM": 0.0,
+     "FG%": 0.42857143,
+     "FT%": 0.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.6,
@@ -5965,7 +6022,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -6024,7 +6081,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -6264,20 +6321,20 @@
     "injury": "OUT",
     "team": "UTA",
     "avg": {
-     "PTS": 16.666666666666668,
-     "REB": 5.0,
-     "AST": 2.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
      "STL": 0.0,
-     "BLK": 1.0,
-     "3PM": 1.0,
-     "FG%": 0.47058824,
-     "FT%": 0.78947368,
-     "TO": 2.3333333333333335,
-     "FGM": 5.333333333333333,
-     "FGA": 11.333333333333334,
-     "FTM": 5.0,
-     "FTA": 6.333333333333333,
-     "_src": "2027_last_30"
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.4,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 21.88095238095238,
@@ -6348,7 +6405,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -6407,7 +6464,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -6534,11 +6591,11 @@
      "STL": 1.25,
      "BLK": 0.25,
      "3PM": 1.875,
-     "FG%": 0.46153846,
+     "FG%": 0.46478873,
      "FT%": 0.9,
-     "TO": 2.125,
+     "TO": 2.25,
      "FGM": 8.25,
-     "FGA": 17.875,
+     "FGA": 17.75,
      "FTM": 5.625,
      "FTA": 6.25,
      "_src": "2027_last_15"
@@ -6566,11 +6623,11 @@
      "STL": 1.0666666666666667,
      "BLK": 0.26666666666666666,
      "3PM": 1.8666666666666667,
-     "FG%": 0.47368421,
+     "FG%": 0.4754717,
      "FT%": 0.92783505,
-     "TO": 2.2666666666666666,
+     "TO": 2.3333333333333335,
      "FGM": 8.4,
-     "FGA": 17.733333333333334,
+     "FGA": 17.666666666666668,
      "FTM": 6.0,
      "FTA": 6.466666666666667,
      "GP": 15.0
@@ -6588,9 +6645,9 @@
     "team": "UTA",
     "avg": {
      "PTS": 20.25,
-     "REB": 4.0,
+     "REB": 3.875,
      "AST": 8.25,
-     "STL": 0.5,
+     "STL": 0.625,
      "BLK": 0.375,
      "3PM": 2.125,
      "FG%": 0.4,
@@ -6620,9 +6677,9 @@
     },
     "season": {
      "PTS": 21.125,
-     "REB": 4.0,
+     "REB": 3.9375,
      "AST": 7.0625,
-     "STL": 0.75,
+     "STL": 0.8125,
      "BLK": 0.25,
      "3PM": 2.125,
      "FG%": 0.42745098,
@@ -6758,7 +6815,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -6815,7 +6872,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -6858,7 +6915,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -6977,7 +7034,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -7035,7 +7092,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -7094,7 +7151,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -7156,20 +7213,20 @@
     "injury": "OUT",
     "team": "DET",
     "avg": {
-     "PTS": 4.0,
-     "REB": 6.0,
-     "AST": 3.0,
-     "STL": 1.0,
-     "BLK": 1.0,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
      "3PM": 0.0,
      "FG%": 0.5,
      "FT%": 0.0,
-     "TO": 1.0,
-     "FGM": 2.0,
-     "FGA": 4.0,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
      "FTM": 0.0,
      "FTA": 0.0,
-     "_src": "2027_last_30"
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 20.26086956521739,
@@ -7210,7 +7267,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -7269,7 +7326,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -7328,7 +7385,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
@@ -7504,7 +7561,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -7563,7 +7620,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -7621,7 +7678,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -7738,7 +7795,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -7803,20 +7860,20 @@
     "injury": "OUT",
     "team": "MIN",
     "avg": {
-     "PTS": 29.333333333333332,
-     "REB": 3.0,
-     "AST": 3.6666666666666665,
-     "STL": 2.0,
-     "BLK": 0.6666666666666666,
-     "3PM": 3.0,
-     "FG%": 0.45333333,
-     "FT%": 0.73333333,
-     "TO": 3.3333333333333335,
-     "FGM": 11.333333333333334,
-     "FGA": 25.0,
-     "FTM": 3.6666666666666665,
-     "FTA": 5.0,
-     "_src": "2027_last_30"
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.55882353,
+     "FT%": 0.66666667,
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 30.313725490196077,
@@ -7858,7 +7915,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -7917,7 +7974,7 @@
      "PF",
      "C"
     ],
-    "slot": "F",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -7976,7 +8033,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "G",
     "injury": "OUT",
     "team": "BOS",
     "avg": {
@@ -8094,7 +8151,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -8152,7 +8209,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "PHL",
     "avg": {
@@ -8210,7 +8267,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "PF",
+    "slot": "UT",
     "injury": "OUT",
     "team": "MEM",
     "avg": {
@@ -8474,7 +8531,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -8532,7 +8589,7 @@
      "PF",
      "C"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
@@ -8591,7 +8648,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -8768,7 +8825,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -8826,7 +8883,7 @@
      "PF",
      "C"
     ],
-    "slot": "C",
+    "slot": "PF",
     "injury": "OUT",
     "team": "NOP",
     "avg": {
@@ -8944,7 +9001,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -9003,7 +9060,7 @@
      "SG",
      "SF"
     ],
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -9178,7 +9235,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -9354,7 +9411,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -9398,7 +9455,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -9457,7 +9514,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -9518,7 +9575,7 @@
      "PF",
      "C"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "DAY_TO_DAY",
     "team": "MIA",
     "avg": {
@@ -9988,7 +10045,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "DAY_TO_DAY",
     "team": "DET",
     "avg": {
@@ -10110,20 +10167,20 @@
     "injury": "OUT",
     "team": "OKC",
     "avg": {
-     "PTS": 11.0,
-     "REB": 10.5,
-     "AST": 1.0,
-     "STL": 1.0,
-     "BLK": 2.5,
-     "3PM": 1.0,
-     "FG%": 0.42105263,
+     "PTS": 0.0,
+     "REB": 0.0,
+     "AST": 0.0,
+     "STL": 0.0,
+     "BLK": 0.0,
+     "3PM": 0.0,
+     "FG%": 0.3,
      "FT%": 1.0,
-     "TO": 2.0,
-     "FGM": 4.0,
-     "FGA": 9.5,
-     "FTM": 2.0,
-     "FTA": 2.0,
-     "_src": "2027_last_30"
+     "TO": 0.0,
+     "FGM": 0.0,
+     "FGA": 0.0,
+     "FTM": 0.0,
+     "FTA": 0.0,
+     "_src": "2027_last_15"
     },
     "proj": {
      "PTS": 16.50769230769231,
@@ -10165,7 +10222,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -10224,7 +10281,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -10569,42 +10626,6 @@
    "team": "Real Men Eat Ass(ouad)",
    "action": "FA ADDED",
    "player": "Jaylen Wells"
-  },
-  {
-   "date": "2026-11-19T06:56:30.138000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "Kel'el Ware"
-  },
-  {
-   "date": "2026-11-19T06:56:30.138000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Paul Reed"
-  },
-  {
-   "date": "2026-11-19T05:17:16.051000",
-   "team": "Rubio Bzeit ",
-   "action": "FA ADDED",
-   "player": "Derrick Jones Jr."
-  },
-  {
-   "date": "2026-11-19T05:17:16.051000",
-   "team": "Rubio Bzeit ",
-   "action": "DROPPED",
-   "player": "Mo Bamba"
-  },
-  {
-   "date": "2026-11-19T04:26:14.615000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Mikal Bridges"
-  },
-  {
-   "date": "2026-11-19T04:26:14.615000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Jordan Goodwin"
   }
  ],
  "schedule": {
@@ -11251,20 +11272,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 14.5,
-    "REB": 3.5,
-    "AST": 4.0,
-    "STL": 1.0,
-    "BLK": 0.5,
-    "3PM": 1.0,
-    "FG%": 0.43478261,
-    "FT%": 0.875,
-    "TO": 2.0,
-    "FGM": 5.0,
-    "FGA": 11.5,
-    "FTM": 3.5,
-    "FTA": 4.0,
-    "_src": "2027_last_30"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 20.6,
@@ -13519,20 +13540,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 5.75,
-    "REB": 2.25,
-    "AST": 1.5,
-    "STL": 0.5,
-    "BLK": 0.25,
-    "3PM": 0.5,
-    "FG%": 0.47368421,
-    "FT%": 0.75,
-    "TO": 2.0,
-    "FGM": 2.25,
-    "FGA": 4.75,
-    "FTM": 0.75,
-    "FTA": 1.0,
-    "_src": "2027_last_30"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 12.444444444444445,
@@ -14103,20 +14124,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 6.5,
-    "REB": 2.0,
-    "AST": 1.0,
-    "STL": 3.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 1.5,
-    "FG%": 0.41666667,
+    "3PM": 0.0,
+    "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 1.0,
-    "FGM": 2.5,
-    "FGA": 6.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -15385,20 +15406,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 9.125,
-    "REB": 3.5,
-    "AST": 4.75,
-    "STL": 0.875,
-    "BLK": 0.125,
-    "3PM": 0.875,
-    "FG%": 0.33333333,
-    "FT%": 0.84210526,
-    "TO": 3.25,
-    "FGM": 3.125,
-    "FGA": 9.375,
-    "FTM": 2.0,
-    "FTA": 2.375,
-    "_src": "2027_last_30"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.2,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 11.166666666666666,
@@ -18021,20 +18042,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.0,
-    "REB": 7.333333333333333,
-    "AST": 1.3333333333333333,
-    "STL": 0.6666666666666666,
-    "BLK": 0.6666666666666666,
-    "3PM": 0.3333333333333333,
-    "FG%": 0.5625,
-    "FT%": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 3.0,
-    "FGA": 5.333333333333333,
-    "FTM": 0.6666666666666666,
-    "FTA": 0.6666666666666666,
-    "_src": "2027_last_30"
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -19413,20 +19434,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 1.0,
-    "AST": 0.5,
-    "STL": 0.5,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.57142857,
+    "FG%": 1.0,
     "FT%": 0.0,
-    "TO": 0.5,
-    "FGM": 2.0,
-    "FGA": 3.5,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
-    "FTA": 0.5,
-    "_src": "2027_last_30"
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -19963,20 +19984,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.0,
-    "REB": 2.0,
-    "AST": 1.3333333333333333,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 1.0,
-    "FG%": 0.52941176,
+    "3PM": 0.0,
+    "FG%": 0.0,
     "FT%": 0.0,
-    "TO": 1.3333333333333333,
-    "FGM": 3.0,
-    "FGA": 5.666666666666667,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -20006,20 +20027,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 3.0,
-    "REB": 1.5,
-    "AST": 0.8333333333333334,
-    "STL": 0.16666666666666666,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.5,
-    "FG%": 0.35294118,
-    "FT%": 0.6,
+    "3PM": 0.0,
+    "FG%": 0.4,
+    "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 1.0,
-    "FGA": 2.8333333333333335,
-    "FTM": 0.5,
-    "FTA": 0.8333333333333334,
-    "_src": "2027_last_30"
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.707692307692307,
@@ -20064,20 +20085,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 2.375,
-    "REB": 4.0,
-    "AST": 0.75,
-    "STL": 0.5,
-    "BLK": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.38095238,
-    "FT%": 0.42857143,
-    "TO": 1.0,
-    "FGM": 1.0,
-    "FGA": 2.625,
-    "FTM": 0.375,
-    "FTA": 0.875,
-    "_src": "2027_last_30"
+    "FG%": 0.5,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 4.927536231884058,
@@ -20136,20 +20157,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 3.8,
-    "REB": 5.6,
-    "AST": 2.0,
-    "STL": 1.0,
-    "BLK": 0.8,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.64285714,
-    "FT%": 0.5,
-    "TO": 0.8,
-    "FGM": 1.8,
-    "FGA": 2.8,
-    "FTM": 0.2,
-    "FTA": 0.4,
-    "_src": "2027_last_30"
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 6.629032258064516,
@@ -24264,16 +24285,16 @@
  "history_missing": [],
  "debug": {
   "matchup_period": 5,
-  "scoring_period": 33,
+  "scoring_period": 34,
   "variants": {
-   "default": 9139.0,
-   "sp": 9139.0,
-   "sp+1": 9139.0
+   "default": 10490.0,
+   "sp": 10490.0,
+   "sp+1": 10490.0
   },
   "picked": "default",
-  "picked_total": 9139.0,
-  "direct_total": 9139.0,
+  "picked_total": 10490.0,
+  "direct_total": 10490.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.2
  }
 }
