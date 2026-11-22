@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:50:23.591166Z",
+ "updated": "2026-11-22T19:00:35.159413Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -14949,7 +14949,7 @@
     "PG"
    ],
    "team": "ATL",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 6.0,
@@ -18992,7 +18992,7 @@
     "PF"
    ],
    "team": "DET",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 3.25,
@@ -21236,6 +21236,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kingston Flemings: Set to return Sunday",
+   "link": "https://www.rotowire.com//basketball/player/kingston-flemings-6927",
+   "published": "Sun, 22 Nov 2026 10:49:00 AM PST",
+   "summary": "Flemings (back) is available to play Sunday's game against the Pistons, Kevin Chouinard of the Hawks' official site reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "OG Anunoby: Ruled out Sunday",
    "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
    "published": "Sun, 22 Nov 2026 10:13:00 AM PST",
@@ -21261,13 +21268,6 @@
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Sun, 22 Nov 2026 9:25:00 AM PST",
    "summary": "Claxton (illness) is questionable to play in Sunday's game against the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Smith: Upgraded to probable Sunday",
-   "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
-   "published": "Sun, 22 Nov 2026 9:22:00 AM PST",
-   "summary": "Smith (illness) has been upgraded to probable for Sunday's game against the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24450,6 +24450,6 @@
   "picked_total": 10490.0,
   "direct_total": 10490.0,
   "direct_teams": 10,
-  "run_seconds": 3.6
+  "run_seconds": 3.5
  }
 }
