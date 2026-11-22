@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:40:23.437377Z",
+ "updated": "2026-11-22T09:50:25.212464Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -8828,7 +8828,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -8886,7 +8886,7 @@
      "PF",
      "C"
     ],
-    "slot": "PF",
+    "slot": "IR",
     "injury": "OUT",
     "team": "NOP",
     "avg": {
@@ -8945,7 +8945,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -9179,7 +9179,7 @@
      "SG",
      "SF"
     ],
-    "slot": "IR",
+    "slot": "BE",
     "injury": "OUT",
     "team": "PHL",
     "avg": {
@@ -9238,7 +9238,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -9297,7 +9297,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -9414,7 +9414,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -9471,7 +9471,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -24300,6 +24300,6 @@
   "picked_total": 10490.0,
   "direct_total": 10490.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 3.3
  }
 }
