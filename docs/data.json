@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:00:33.333950Z",
+ "updated": "2026-11-22T18:10:25.901069Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -5538,7 +5538,7 @@
      "PF"
     ],
     "slot": "PF",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NYK",
     "avg": {
      "PTS": 15.857142857142858,
@@ -19621,7 +19621,7 @@
     "SF"
    ],
    "team": "NYK",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.2,
@@ -24426,6 +24426,6 @@
   "picked_total": 10490.0,
   "direct_total": 10490.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 2.3
  }
 }
