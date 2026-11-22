@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:30:38.012411Z",
+ "updated": "2026-11-22T05:40:24.034662Z",
  "week": 5,
  "cats": [
   "PTS",
@@ -2171,11 +2171,11 @@
      "STL": 1.8571428571428572,
      "BLK": 0.5714285714285714,
      "3PM": 3.142857142857143,
-     "FG%": 0.43925234,
+     "FG%": 0.43518519,
      "FT%": 0.76470588,
-     "TO": 2.0,
+     "TO": 1.8571428571428572,
      "FGM": 6.714285714285714,
-     "FGA": 15.285714285714286,
+     "FGA": 15.428571428571429,
      "FTM": 1.8571428571428572,
      "FTA": 2.4285714285714284,
      "_src": "2027_last_15"
@@ -2203,11 +2203,11 @@
      "STL": 2.2142857142857144,
      "BLK": 0.42857142857142855,
      "3PM": 3.2857142857142856,
-     "FG%": 0.45,
+     "FG%": 0.4479638,
      "FT%": 0.79069767,
-     "TO": 2.642857142857143,
+     "TO": 2.5714285714285716,
      "FGM": 7.071428571428571,
-     "FGA": 15.714285714285714,
+     "FGA": 15.785714285714286,
      "FTM": 2.4285714285714284,
      "FTA": 3.0714285714285716,
      "GP": 14.0
@@ -2223,19 +2223,19 @@
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
-     "PTS": 24.875,
+     "PTS": 25.125,
      "REB": 3.375,
      "AST": 7.75,
      "STL": 1.0,
      "BLK": 0.25,
      "3PM": 3.25,
-     "FG%": 0.41618497,
-     "FT%": 0.80555556,
+     "FG%": 0.4137931,
+     "FT%": 0.81578947,
      "TO": 4.125,
      "FGM": 9.0,
-     "FGA": 21.625,
-     "FTM": 3.625,
-     "FTA": 4.5,
+     "FGA": 21.75,
+     "FTM": 3.875,
+     "FTA": 4.75,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -2255,19 +2255,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 25.25,
+     "PTS": 25.375,
      "REB": 3.5625,
      "AST": 7.375,
      "STL": 0.875,
      "BLK": 0.1875,
      "3PM": 3.125,
-     "FG%": 0.40607735,
-     "FT%": 0.82191781,
+     "FG%": 0.40495868,
+     "FT%": 0.82666667,
      "TO": 3.875,
      "FGM": 9.1875,
-     "FGA": 22.625,
-     "FTM": 3.75,
-     "FTA": 4.5625,
+     "FGA": 22.6875,
+     "FTM": 3.875,
+     "FTA": 4.6875,
      "GP": 16.0
     }
    },
@@ -4108,8 +4108,8 @@
      "PTS": 17.428571428571427,
      "REB": 4.142857142857143,
      "AST": 2.7142857142857144,
-     "STL": 1.2857142857142858,
-     "BLK": 0.2857142857142857,
+     "STL": 1.1428571428571428,
+     "BLK": 0.42857142857142855,
      "3PM": 2.4285714285714284,
      "FG%": 0.5,
      "FT%": 0.86363636,
@@ -4140,8 +4140,8 @@
      "PTS": 20.466666666666665,
      "REB": 3.6,
      "AST": 2.6666666666666665,
-     "STL": 1.1333333333333333,
-     "BLK": 0.4,
+     "STL": 1.0666666666666667,
+     "BLK": 0.4666666666666667,
      "3PM": 2.6666666666666665,
      "FG%": 0.49760766,
      "FT%": 0.84285714,
@@ -5087,17 +5087,17 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 13.625,
+     "PTS": 13.875,
      "REB": 3.75,
      "AST": 4.5,
      "STL": 0.5,
      "BLK": 0.0,
      "3PM": 2.875,
-     "FG%": 0.3960396,
+     "FG%": 0.39805825,
      "FT%": 0.85714286,
      "TO": 1.25,
-     "FGM": 5.0,
-     "FGA": 12.625,
+     "FGM": 5.125,
+     "FGA": 12.875,
      "FTM": 0.75,
      "FTA": 0.875,
      "_src": "2027_last_15"
@@ -5119,17 +5119,17 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 13.3125,
+     "PTS": 13.4375,
      "REB": 3.25,
      "AST": 4.0625,
      "STL": 0.625,
      "BLK": 0.125,
      "3PM": 2.25,
-     "FG%": 0.40555556,
+     "FG%": 0.40659341,
      "FT%": 0.86111111,
      "TO": 1.3125,
-     "FGM": 4.5625,
-     "FGA": 11.25,
+     "FGM": 4.625,
+     "FGA": 11.375,
      "FTM": 1.9375,
      "FTA": 2.25,
      "GP": 16.0
@@ -11425,17 +11425,17 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 11.571428571428571,
-    "REB": 5.0,
+    "PTS": 11.857142857142858,
+    "REB": 5.285714285714286,
     "AST": 2.0,
     "STL": 1.0,
     "BLK": 0.8571428571428571,
     "3PM": 1.1428571428571428,
-    "FG%": 0.44,
+    "FG%": 0.44736842,
     "FT%": 0.7,
     "TO": 1.4285714285714286,
-    "FGM": 4.714285714285714,
-    "FGA": 10.714285714285714,
+    "FGM": 4.857142857142857,
+    "FGA": 10.857142857142858,
     "FTM": 1.0,
     "FTA": 1.4285714285714286,
     "_src": "2027_last_15"
@@ -11457,17 +11457,17 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 10.555555555555555,
-    "REB": 4.555555555555555,
+    "PTS": 10.777777777777779,
+    "REB": 4.777777777777778,
     "AST": 1.6666666666666667,
     "STL": 1.0,
     "BLK": 0.6666666666666666,
     "3PM": 0.8888888888888888,
-    "FG%": 0.41304348,
+    "FG%": 0.41935484,
     "FT%": 0.78571429,
     "TO": 1.2222222222222223,
-    "FGM": 4.222222222222222,
-    "FGA": 10.222222222222221,
+    "FGM": 4.333333333333333,
+    "FGA": 10.333333333333334,
     "FTM": 1.2222222222222223,
     "FTA": 1.5555555555555556,
     "GP": 9.0
@@ -21203,83 +21203,6 @@
    "link": "https://www.rotowire.com//basketball/player/jaden-mcdaniels-5221",
    "published": "Sat, 21 Nov 2026 7:26:00 PM PST",
    "summary": "McDaniels finished with 25 points (11-17 FG, 1-4 3Pt, 2-2 FT), five rebounds, four assists and one steal across 36 minutes in Saturday's 104-95 win over Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "76ers survive in clutch again despite Herro's 50",
-   "link": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
-   "published": "Sat, 21 Nov 2026 18:28:02 EST",
-   "summary": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch."
-  },
-  {
-   "source": "ESPN",
-   "title": "Harden has 51 in 'vintage' performance, leaps Kobe for 3rd-most 50-point games",
-   "link": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
-   "published": "Sat, 21 Nov 2026 18:28:02 EST",
-   "summary": "James Harden posted the 26th 50-point game of his career, passing Kobe Bryant for third-most 50-point games in NBA history."
-  },
-  {
-   "source": "ESPN",
-   "title": "Udoka says Rockets 'mentally fragile,' blasts defense after loss to Nuggets",
-   "link": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
-   "published": "Sat, 21 Nov 2026 18:28:02 EST",
-   "summary": "Coach Ime Udoka was upset by the Rockets' lack of physicality and effort as they gave up a season high in points during a loss to the Nuggets, calling the defense \"as bad as I've seen it.\""
-  },
-  {
-   "source": "ESPN",
-   "title": "Lakers eke out win after Redick rips team's lack of fight vs. last-place Kings",
-   "link": "https://www.espn.com/nba/story/_/id/50547994/jj-redick-half-rant-fuels-lakers-last-place-kings",
-   "published": "Sat, 21 Nov 2026 18:28:02 EST",
-   "summary": "Lakers coach JJ Redick ripped into the team's lack of fight after trailing the last-place Kings at halftime, and Los Angeles went on to eke out a 106-104 win."
-  },
-  {
-   "source": "ESPN",
-   "title": "Melo calls out Humphrey for Baltimore remark: Back your apology with action",
-   "link": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
-   "published": "Sat, 21 Nov 2026 23:04:17 EST",
-   "summary": "Former NBA star Carmelo Anthony challenged Ravens cornerback Marlon Humphrey to do more than apologize after he said Baltimore was \"best at making criminals.\""
-  },
-  {
-   "source": "ESPN",
-   "title": "Wilson hand injuries not connected as Bulls rookie deals with 'bad luck'",
-   "link": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
-   "published": "Sat, 21 Nov 2026 18:28:02 EST",
-   "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and that it's a case of \"bad luck,\" he told reporters before his team's game against the Washington Wizards."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
-   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
-   "published": "Sat, 21 Nov 2026 18:28:02 EST",
-   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
-  },
-  {
-   "source": "ESPN",
-   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
-   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
-   "published": "Thu, 19 Nov 2026 08:46:53 EST",
-   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
-  },
-  {
-   "source": "ESPN",
-   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
-   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
-   "published": "Sat, 21 Nov 2026 13:40:45 EST",
-   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
-  },
-  {
-   "source": "ESPN",
-   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
-   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
-   "published": "Fri, 20 Nov 2026 22:34:53 EST",
-   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
-  },
-  {
-   "source": "ESPN",
-   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
-   "published": "Fri, 20 Nov 2026 14:54:29 EST",
-   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
   }
  ],
  "games": {
@@ -24336,6 +24259,6 @@
   "picked_total": 9139.0,
   "direct_total": 9139.0,
   "direct_teams": 10,
-  "run_seconds": 2.3
+  "run_seconds": 2.8
  }
 }
