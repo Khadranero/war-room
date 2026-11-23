@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:00:36.192929Z",
+ "updated": "2026-11-23T21:10:25.335857Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -13047,7 +13047,7 @@
     "C"
    ],
    "team": "UTA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 11.285714285714286,
@@ -21420,6 +21420,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jaxson Hayes: Out with knee strain",
+   "link": "https://www.rotowire.com//basketball/player/jaxson-hayes-4771",
+   "published": "Mon, 23 Nov 2026 1:04:00 PM PST",
+   "summary": "Hayes (knee) has been ruled out for Monday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Aday Mara: Remaining out Monday",
    "link": "https://www.rotowire.com//basketball/player/aday-mara-6932",
    "published": "Mon, 23 Nov 2026 10:45:00 AM PST",
@@ -21445,13 +21452,6 @@
    "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
    "published": "Mon, 23 Nov 2026 10:40:00 AM PST",
    "summary": "Smith (illness) is probable for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nic Claxton: Listed as questionable",
-   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
-   "published": "Mon, 23 Nov 2026 10:36:00 AM PST",
-   "summary": "Claxton (illness) is questionable for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24855,6 +24855,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.5
+  "run_seconds": 2.7
  }
 }
