@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:10:27.603743Z",
+ "updated": "2026-11-23T22:20:33.542184Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -6366,7 +6366,7 @@
      "SF"
     ],
     "slot": "F",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
      "PTS": 17.333333333333332,
@@ -21420,6 +21420,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Brandon Miller: Good to go Monday",
+   "link": "https://www.rotowire.com//basketball/player/brandon-miller-5896",
+   "published": "Mon, 23 Nov 2026 2:15:00 PM PST",
+   "summary": "Miller (knee) is available for Monday's game against Memphis.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jalen Duren: Remaining out for Tuesday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-duren-5703",
+   "published": "Mon, 23 Nov 2026 2:09:00 PM PST",
+   "summary": "Duren (hamstring) has been ruled out for Tuesday's game against the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Cade Cunningham: Expected to play Tuesday",
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Mon, 23 Nov 2026 2:07:00 PM PST",
@@ -21438,20 +21452,6 @@
    "link": "https://www.rotowire.com//basketball/player/jaxson-hayes-4771",
    "published": "Mon, 23 Nov 2026 1:04:00 PM PST",
    "summary": "Hayes (knee) has been ruled out for Monday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Aday Mara: Remaining out Monday",
-   "link": "https://www.rotowire.com//basketball/player/aday-mara-6932",
-   "published": "Mon, 23 Nov 2026 10:45:00 AM PST",
-   "summary": "Mara (shin) has been ruled out for Monday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Trey Murphy: Will play Monday",
-   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
-   "published": "Mon, 23 Nov 2026 10:44:00 AM PST",
-   "summary": "Murphy (knee) is available for Monday's game against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24855,6 +24855,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.9
+  "run_seconds": 5.0
  }
 }
