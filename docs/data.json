@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:00:38.941134Z",
+ "updated": "2026-11-23T15:10:25.657088Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -2387,7 +2387,7 @@
      "PF"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "BOS",
     "avg": {
      "PTS": 20.166666666666668,
@@ -5486,7 +5486,7 @@
      "PG"
     ],
     "slot": "PG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
      "PTS": 34.666666666666664,
@@ -5780,7 +5780,7 @@
      "PF"
     ],
     "slot": "F",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 16.0,
@@ -8703,7 +8703,7 @@
      "PF"
     ],
     "slot": "SF",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "DAL",
     "avg": {
      "PTS": 11.333333333333334,
@@ -9759,7 +9759,7 @@
      "C"
     ],
     "slot": "BE",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "MIA",
     "avg": {
      "PTS": 29.5,
@@ -10508,7 +10508,7 @@
      "C"
     ],
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "OKC",
     "avg": {
      "PTS": 13.166666666666666,
@@ -11706,7 +11706,7 @@
     "C"
    ],
    "team": "CHI",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 9.333333333333334,
@@ -12803,7 +12803,7 @@
     "C"
    ],
    "team": "UTA",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 11.285714285714286,
@@ -13096,7 +13096,7 @@
     "SG"
    ],
    "team": "OKC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -14018,7 +14018,7 @@
     "PG"
    ],
    "team": "IND",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 7.166666666666667,
@@ -17483,7 +17483,7 @@
     "C"
    ],
    "team": "OKC",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 3.0,
@@ -17613,7 +17613,7 @@
     "SG"
    ],
    "team": "NYK",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 6.857142857142857,
@@ -24856,6 +24856,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 5.0
+  "run_seconds": 3.7
  }
 }
