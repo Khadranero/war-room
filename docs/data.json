@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:00:35.156460Z",
+ "updated": "2026-11-23T08:10:29.444450Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -4585,7 +4585,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
@@ -4644,7 +4644,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -4703,7 +4703,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -4820,7 +4820,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -4938,7 +4938,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -4997,7 +4997,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -5055,7 +5055,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5114,7 +5114,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -5232,7 +5232,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -5291,7 +5291,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -10910,12 +10910,6 @@
    "team": "Khadracadabra",
    "action": "DROPPED",
    "player": "Kris Dunn"
-  },
-  {
-   "date": "2026-11-20T09:06:44.589000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "Julian Champagnie"
   }
  ],
  "schedule": {
@@ -24842,6 +24836,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 4.0
  }
 }
