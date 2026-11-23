@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T11:50:37.781658Z",
+ "updated": "2026-11-23T12:00:38.045517Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -4016,7 +4016,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -4192,7 +4192,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -4251,7 +4251,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -4482,7 +4482,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -4541,7 +4541,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -10821,42 +10821,6 @@
    "date": "2026-11-21T08:16:46.316000",
    "team": "Wembelieve I can fly",
    "action": "DROPPED",
-   "player": "Quenton Jackson"
-  },
-  {
-   "date": "2026-11-21T06:07:01.218000",
-   "team": "Crackheads",
-   "action": "DROPPED",
-   "player": "Quentin Grimes"
-  },
-  {
-   "date": "2026-11-21T06:07:01.218000",
-   "team": "Crackheads",
-   "action": "FA ADDED",
-   "player": "Mikal Bridges"
-  },
-  {
-   "date": "2026-11-21T00:12:52.756000",
-   "team": "Khadracadabra",
-   "action": "FA ADDED",
-   "player": "Kasparas Jakucionis"
-  },
-  {
-   "date": "2026-11-21T00:12:52.756000",
-   "team": "Khadracadabra",
-   "action": "DROPPED",
-   "player": "Wendell Carter Jr."
-  },
-  {
-   "date": "2026-11-20T23:32:54.102000",
-   "team": "Wembelieve I can fly",
-   "action": "DROPPED",
-   "player": "Keldon Johnson"
-  },
-  {
-   "date": "2026-11-20T23:32:54.102000",
-   "team": "Wembelieve I can fly",
-   "action": "FA ADDED",
    "player": "Quenton Jackson"
   }
  ],
@@ -24921,6 +24885,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 2.5
  }
 }
