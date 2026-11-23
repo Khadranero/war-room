@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:10:25.788061Z",
+ "updated": "2026-11-23T09:20:27.491942Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -9053,7 +9053,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -9111,7 +9111,7 @@
      "PF",
      "C"
     ],
-    "slot": "IR",
+    "slot": "PF",
     "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
@@ -9170,7 +9170,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -9287,7 +9287,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -9345,7 +9345,7 @@
      "SG",
      "SF"
     ],
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "TOR",
     "avg": {
@@ -9463,7 +9463,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -9522,7 +9522,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -9581,7 +9581,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -9696,7 +9696,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "F",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -10886,30 +10886,6 @@
    "team": "Rubio Bzeit ",
    "action": "DROPPED",
    "player": "Derrick Jones Jr."
-  },
-  {
-   "date": "2026-11-20T13:27:24.192000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "DROPPED",
-   "player": "Jaylen Wells"
-  },
-  {
-   "date": "2026-11-20T13:27:24.192000",
-   "team": "Real Men Eat Ass(ouad)",
-   "action": "FA ADDED",
-   "player": "Reed Sheppard"
-  },
-  {
-   "date": "2026-11-20T11:46:09.140000",
-   "team": "Khadracadabra",
-   "action": "FA ADDED",
-   "player": "Wendell Carter Jr."
-  },
-  {
-   "date": "2026-11-20T11:46:09.140000",
-   "team": "Khadracadabra",
-   "action": "DROPPED",
-   "player": "Kris Dunn"
   }
  ],
  "schedule": {
@@ -24836,6 +24812,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.2
+  "run_seconds": 2.8
  }
 }
