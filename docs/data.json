@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:50:25.755111Z",
+ "updated": "2026-11-23T11:00:41.954727Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -7900,64 +7900,6 @@
     }
    },
    {
-    "name": "Jaxson Hayes",
-    "pos": "C",
-    "elig": [
-     "C"
-    ],
-    "slot": "UT",
-    "injury": "OUT",
-    "team": "UTA",
-    "avg": {
-     "PTS": 11.285714285714286,
-     "REB": 6.428571428571429,
-     "AST": 0.8571428571428571,
-     "STL": 0.7142857142857143,
-     "BLK": 0.5714285714285714,
-     "3PM": 0.0,
-     "FG%": 0.71428571,
-     "FT%": 0.7037037,
-     "TO": 1.1428571428571428,
-     "FGM": 4.285714285714286,
-     "FGA": 6.0,
-     "FTM": 2.7142857142857144,
-     "FTA": 3.857142857142857,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 6.34375,
-     "REB": 3.90625,
-     "AST": 0.796875,
-     "STL": 0.5,
-     "BLK": 0.703125,
-     "3PM": 0.03125,
-     "FG%": 0.737,
-     "FT%": 0.639,
-     "TO": 0.59375,
-     "FGM": 2.578125,
-     "FGA": 3.5,
-     "FTM": 1.15625,
-     "FTA": 1.796875,
-     "_src": "2027_projected"
-    },
-    "season": {
-     "PTS": 9.2,
-     "REB": 6.4,
-     "AST": 1.4666666666666666,
-     "STL": 0.8666666666666667,
-     "BLK": 1.2,
-     "3PM": 0.0,
-     "FG%": 0.64634146,
-     "FT%": 0.71111111,
-     "TO": 1.3333333333333333,
-     "FGM": 3.533333333333333,
-     "FGA": 5.466666666666667,
-     "FTM": 2.1333333333333333,
-     "FTA": 3.0,
-     "GP": 15.0
-    }
-   },
-   {
     "name": "Tristan da Silva",
     "pos": "SF",
     "elig": [
@@ -8073,6 +8015,49 @@
      "FTM": 1.5,
      "FTA": 1.9166666666666667,
      "GP": 12.0
+    }
+   },
+   {
+    "name": "Meleek Thomas",
+    "pos": "SG",
+    "elig": [
+     "SG"
+    ],
+    "slot": "UT",
+    "injury": "ACTIVE",
+    "team": "CLE",
+    "avg": {
+     "PTS": 13.142857142857142,
+     "REB": 2.857142857142857,
+     "AST": 2.5714285714285716,
+     "STL": 1.7142857142857142,
+     "BLK": 0.2857142857142857,
+     "3PM": 2.2857142857142856,
+     "FG%": 0.47435897,
+     "FT%": 0.5,
+     "TO": 1.2857142857142858,
+     "FGM": 5.285714285714286,
+     "FGA": 11.142857142857142,
+     "FTM": 0.2857142857142857,
+     "FTA": 0.5714285714285714,
+     "_src": "2027_last_15"
+    },
+    "proj": {},
+    "season": {
+     "PTS": 12.714285714285714,
+     "REB": 2.7142857142857144,
+     "AST": 1.7857142857142858,
+     "STL": 1.3571428571428572,
+     "BLK": 0.21428571428571427,
+     "3PM": 2.4285714285714284,
+     "FG%": 0.46308725,
+     "FT%": 0.75,
+     "TO": 1.2142857142857142,
+     "FGM": 4.928571428571429,
+     "FGA": 10.642857142857142,
+     "FTM": 0.42857142857142855,
+     "FTA": 0.5714285714285714,
+     "GP": 14.0
     }
    }
   ],
@@ -10606,6 +10591,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-23T10:55:17.056000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Meleek Thomas"
+  },
+  {
+   "date": "2026-11-23T10:55:17.056000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Jaxson Hayes"
+  },
+  {
    "date": "2026-11-23T09:49:04.236000",
    "team": "Momo in Six",
    "action": "DROPPED",
@@ -12738,6 +12735,64 @@
    }
   },
   {
+   "name": "Jaxson Hayes",
+   "pos": "C",
+   "elig": [
+    "C"
+   ],
+   "team": "UTA",
+   "injury": "OUT",
+   "pct": null,
+   "avg": {
+    "PTS": 11.285714285714286,
+    "REB": 6.428571428571429,
+    "AST": 0.8571428571428571,
+    "STL": 0.7142857142857143,
+    "BLK": 0.5714285714285714,
+    "3PM": 0.0,
+    "FG%": 0.71428571,
+    "FT%": 0.7037037,
+    "TO": 1.1428571428571428,
+    "FGM": 4.285714285714286,
+    "FGA": 6.0,
+    "FTM": 2.7142857142857144,
+    "FTA": 3.857142857142857,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 6.34375,
+    "REB": 3.90625,
+    "AST": 0.796875,
+    "STL": 0.5,
+    "BLK": 0.703125,
+    "3PM": 0.03125,
+    "FG%": 0.737,
+    "FT%": 0.639,
+    "TO": 0.59375,
+    "FGM": 2.578125,
+    "FGA": 3.5,
+    "FTM": 1.15625,
+    "FTA": 1.796875,
+    "_src": "2027_projected"
+   },
+   "season": {
+    "PTS": 9.2,
+    "REB": 6.4,
+    "AST": 1.4666666666666666,
+    "STL": 0.8666666666666667,
+    "BLK": 1.2,
+    "3PM": 0.0,
+    "FG%": 0.64634146,
+    "FT%": 0.71111111,
+    "TO": 1.3333333333333333,
+    "FGM": 3.533333333333333,
+    "FGA": 5.466666666666667,
+    "FTM": 2.1333333333333333,
+    "FTA": 3.0,
+    "GP": 15.0
+   }
+  },
+  {
    "name": "Brayden Burries",
    "pos": "SG",
    "elig": [
@@ -13612,49 +13667,6 @@
     "FGA": 7.214285714285714,
     "FTM": 1.2142857142857142,
     "FTA": 2.0714285714285716,
-    "GP": 14.0
-   }
-  },
-  {
-   "name": "Meleek Thomas",
-   "pos": "SG",
-   "elig": [
-    "SG"
-   ],
-   "team": "CLE",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 13.142857142857142,
-    "REB": 2.857142857142857,
-    "AST": 2.5714285714285716,
-    "STL": 1.7142857142857142,
-    "BLK": 0.2857142857142857,
-    "3PM": 2.2857142857142856,
-    "FG%": 0.47435897,
-    "FT%": 0.5,
-    "TO": 1.2857142857142858,
-    "FGM": 5.285714285714286,
-    "FGA": 11.142857142857142,
-    "FTM": 0.2857142857142857,
-    "FTA": 0.5714285714285714,
-    "_src": "2027_last_15"
-   },
-   "proj": {},
-   "season": {
-    "PTS": 12.714285714285714,
-    "REB": 2.7142857142857144,
-    "AST": 1.7857142857142858,
-    "STL": 1.3571428571428572,
-    "BLK": 0.21428571428571427,
-    "3PM": 2.4285714285714284,
-    "FG%": 0.46308725,
-    "FT%": 0.75,
-    "TO": 1.2142857142857142,
-    "FGM": 4.928571428571429,
-    "FGA": 10.642857142857142,
-    "FTM": 0.42857142857142855,
-    "FTA": 0.5714285714285714,
     "GP": 14.0
    }
   },
@@ -21499,6 +21511,90 @@
    "link": "https://www.rotowire.com//basketball/player/bam-adebayo-4153",
    "published": "Sun, 22 Nov 2026 5:49:00 PM PST",
    "summary": "Adebayo recorded 24 points (8-11 FG, 8-9 FT), 15 rebounds, 12 assists, two steals and two blocks across 37 minutes during Sunday's 123-113 win over the Thunder.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "ESPN",
+   "title": "Vocal Green swats back at online critics, fuels Warriors' victory over Celtics",
+   "link": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "After reinforcing his career\u200b accolades earlier in the day on social media, Golden State Warriors forward Draymond Green closed out an 88-87 win over the Boston Celtics on Sunday with a last-second defensive stop and rousing celebration from the veteran."
+  },
+  {
+   "source": "ESPN",
+   "title": "With Giannis out, Adebayo authors triple-double in Heat's win over Thunder",
+   "link": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "In a game that did not feature Oklahoma City's Shai Gilgeous-Alexander or Miami's Giannis Antetokounmpo, Bam Adebayo swiped the spotlight, scoring 24 points en route to a triple-double, as the surging Heat defeated the Thunder 123-113 on Sunday night."
+  },
+  {
+   "source": "ESPN",
+   "title": "Sources: Kings set to boost backcourt depth with Vincent signing",
+   "link": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "Gabe Vincent is finalizing a deal with the Kings to fill their 15th roster spot, league sources told ESPN's Shams Charania."
+  },
+  {
+   "source": "ESPN",
+   "title": "Bulls G Powell sidelined by hamstring injury, to be checked later in week",
+   "link": "https://www.espn.com/nba/story/_/id/50564049/bulls-g-norman-powell-sidelined-mild-hamstring-injury",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "Bulls guard Norman Powell was ruled out against the Nuggets and will be reevaluated later in the week because of a mild right hamstring strain."
+  },
+  {
+   "source": "ESPN",
+   "title": "Wemby makes history in 18 minutes, finishes game with 50 points",
+   "link": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "Victor Wembanyama had his third career 50-point outing during a win over the Pelicans to go along with 19 rebounds, five blocks and four steals."
+  },
+  {
+   "source": "ESPN",
+   "title": "Bridges shakes off slump, hits buzzer-beating 3 to save Knicks from collapse",
+   "link": "https://www.espn.com/nba/story/_/id/50559927/knicks-mikal-bridges-shakes-slump-3-buzzer-tops-blazers",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "Mired in a shooting slump, Mikal Bridges delivered a buzzer-beating 3-pointer to lift the Knicks past the Trail Blazers after they squandered a 26-point lead."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+   "published": "Mon, 23 Nov 2026 01:19:33 EST",
+   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+   "published": "Sun, 22 Nov 2026 21:59:41 EST",
+   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
+   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+   "published": "Thu, 19 Nov 2026 08:46:53 EST",
+   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
+  },
+  {
+   "source": "ESPN",
+   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
+   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+   "published": "Sun, 22 Nov 2026 17:16:49 EST",
+   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
+  },
+  {
+   "source": "ESPN",
+   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+   "published": "Sun, 22 Nov 2026 11:37:10 EST",
+   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
+  },
+  {
+   "source": "ESPN",
+   "title": "Sunday's fantasy basketball adds and NBA bets",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50560887/fantasy-basketball-tips-nba-betting-picks-today",
+   "published": "Sun, 22 Nov 2026 11:37:10 EST",
+   "summary": "Jim McCormick breaks down Sunday's NBA slate, highlighting the fantasy streamers to add and bets to make."
   }
  ],
  "games": {
@@ -21909,6 +22005,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-23T10:55:17.056000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "FA ADDED",
+   "player": "Meleek Thomas"
+  },
+  {
+   "date": "2026-11-23T10:55:17.056000",
+   "team": "Real Men Eat Ass(ouad)",
+   "action": "DROPPED",
+   "player": "Jaxson Hayes"
+  },
   {
    "date": "2026-11-23T09:49:04.236000",
    "team": "Momo in Six",
@@ -24824,6 +24932,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 2.2
  }
 }
