@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:30:33.004969Z",
+ "updated": "2026-11-23T18:40:33.621022Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -4718,7 +4718,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -4894,7 +4894,7 @@
      "SG",
      "SF"
     ],
-    "slot": "IR",
+    "slot": "UT",
     "injury": "DAY_TO_DAY",
     "team": "NOP",
     "avg": {
@@ -5416,65 +5416,6 @@
      "FTA": 1.625,
      "GP": 16.0
     }
-   },
-   {
-    "name": "Bilal Coulibaly",
-    "pos": "SF",
-    "elig": [
-     "SG",
-     "SF"
-    ],
-    "slot": "BE",
-    "injury": "ACTIVE",
-    "team": "WAS",
-    "avg": {
-     "PTS": 6.571428571428571,
-     "REB": 5.142857142857143,
-     "AST": 0.7142857142857143,
-     "STL": 0.7142857142857143,
-     "BLK": 1.2857142857142858,
-     "3PM": 0.8571428571428571,
-     "FG%": 0.43243243,
-     "FT%": 0.72727273,
-     "TO": 0.7142857142857143,
-     "FGM": 2.2857142857142856,
-     "FGA": 5.285714285714286,
-     "FTM": 1.1428571428571428,
-     "FTA": 1.5714285714285714,
-     "_src": "2027_last_15"
-    },
-    "proj": {
-     "PTS": 10.25,
-     "REB": 3.8970588235294117,
-     "AST": 2.2941176470588234,
-     "STL": 1.2058823529411764,
-     "BLK": 0.7941176470588235,
-     "3PM": 1.0,
-     "FG%": 0.425,
-     "FT%": 0.744,
-     "TO": 1.3970588235294117,
-     "FGM": 3.6176470588235294,
-     "FGA": 8.5,
-     "FTM": 2.014705882352941,
-     "FTA": 2.7058823529411766,
-     "_src": "2027_projected"
-    },
-    "season": {
-     "PTS": 6.9411764705882355,
-     "REB": 4.294117647058823,
-     "AST": 0.7058823529411765,
-     "STL": 1.0,
-     "BLK": 1.1176470588235294,
-     "3PM": 0.5882352941176471,
-     "FG%": 0.45833333,
-     "FT%": 0.74074074,
-     "TO": 0.7058823529411765,
-     "FGM": 2.588235294117647,
-     "FGA": 5.647058823529412,
-     "FTM": 1.1764705882352942,
-     "FTA": 1.588235294117647,
-     "GP": 17.0
-    }
    }
   ],
   "Akumpo": [
@@ -5485,7 +5426,7 @@
      "PG"
     ],
     "slot": "PG",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
      "PTS": 34.666666666666664,
@@ -8818,7 +8759,7 @@
      "C"
     ],
     "slot": "F",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "CHI",
     "avg": {
      "PTS": 18.666666666666668,
@@ -10507,7 +10448,7 @@
      "C"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "OKC",
     "avg": {
      "PTS": 13.166666666666666,
@@ -10605,6 +10546,12 @@
   ]
  },
  "activity": [
+  {
+   "date": "2026-11-23T18:37:52.383000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Bilal Coulibaly"
+  },
   {
    "date": "2026-11-23T16:34:26.192000",
    "team": "Rubio Bzeit ",
@@ -10880,18 +10827,6 @@
    "team": "Akumpo",
    "action": "DROPPED",
    "player": "Ja'Kobe Walter"
-  },
-  {
-   "date": "2026-11-21T08:44:25.960000",
-   "team": "Pasta Warriors",
-   "action": "DROPPED",
-   "player": "Collin Gillespie"
-  },
-  {
-   "date": "2026-11-21T08:44:25.960000",
-   "team": "Pasta Warriors",
-   "action": "FA ADDED",
-   "player": "Naji Marshall"
   }
  ],
  "schedule": {
@@ -13277,7 +13212,7 @@
     "SG"
    ],
    "team": "OKC",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -15207,6 +15142,65 @@
    "avg": {},
    "proj": {},
    "season": {}
+  },
+  {
+   "name": "Bilal Coulibaly",
+   "pos": "SF",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "WAS",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 6.571428571428571,
+    "REB": 5.142857142857143,
+    "AST": 0.7142857142857143,
+    "STL": 0.7142857142857143,
+    "BLK": 1.2857142857142858,
+    "3PM": 0.8571428571428571,
+    "FG%": 0.43243243,
+    "FT%": 0.72727273,
+    "TO": 0.7142857142857143,
+    "FGM": 2.2857142857142856,
+    "FGA": 5.285714285714286,
+    "FTM": 1.1428571428571428,
+    "FTA": 1.5714285714285714,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.25,
+    "REB": 3.8970588235294117,
+    "AST": 2.2941176470588234,
+    "STL": 1.2058823529411764,
+    "BLK": 0.7941176470588235,
+    "3PM": 1.0,
+    "FG%": 0.425,
+    "FT%": 0.744,
+    "TO": 1.3970588235294117,
+    "FGM": 3.6176470588235294,
+    "FGA": 8.5,
+    "FTM": 2.014705882352941,
+    "FTA": 2.7058823529411766,
+    "_src": "2027_projected"
+   },
+   "season": {
+    "PTS": 6.9411764705882355,
+    "REB": 4.294117647058823,
+    "AST": 0.7058823529411765,
+    "STL": 1.0,
+    "BLK": 1.1176470588235294,
+    "3PM": 0.5882352941176471,
+    "FG%": 0.45833333,
+    "FT%": 0.74074074,
+    "TO": 0.7058823529411765,
+    "FGM": 2.588235294117647,
+    "FGA": 5.647058823529412,
+    "FTM": 1.1764705882352942,
+    "FTA": 1.588235294117647,
+    "GP": 17.0
+   }
   },
   {
    "name": "D'Angelo Russell",
@@ -21409,52 +21403,16 @@
     "FTA": 0.5454545454545454,
     "GP": 11.0
    }
-  },
-  {
-   "name": "Jock Landale",
-   "pos": "C",
-   "elig": [
-    "C"
-   ],
-   "team": "ATL",
-   "injury": "OUT",
-   "pct": null,
-   "avg": {
-    "PTS": 8.5,
-    "REB": 5.0,
-    "AST": 0.5,
-    "STL": 0.5,
-    "BLK": 1.0,
-    "3PM": 1.0,
-    "FG%": 0.5,
-    "FT%": 0.83333333,
-    "TO": 3.0,
-    "FGM": 2.5,
-    "FGA": 5.0,
-    "FTM": 2.5,
-    "FTA": 3.0,
-    "_src": "2027_last_15"
-   },
-   "proj": {},
-   "season": {
-    "PTS": 6.777777777777778,
-    "REB": 4.888888888888889,
-    "AST": 1.6666666666666667,
-    "STL": 0.2222222222222222,
-    "BLK": 0.5555555555555556,
-    "3PM": 0.5555555555555556,
-    "FG%": 0.45833333,
-    "FT%": 0.66666667,
-    "TO": 1.5555555555555556,
-    "FGM": 2.4444444444444446,
-    "FGA": 5.333333333333333,
-    "FTM": 1.3333333333333333,
-    "FTA": 2.0,
-    "GP": 9.0
-   }
   }
  ],
  "news": [
+  {
+   "source": "RotoWire",
+   "title": "Nic Claxton: Listed as questionable",
+   "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
+   "published": "Mon, 23 Nov 2026 10:36:00 AM PST",
+   "summary": "Claxton (illness) is questionable for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
   {
    "source": "RotoWire",
    "title": "Joel Embiid: Late addition to injury report",
@@ -21482,13 +21440,6 @@
    "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
    "published": "Mon, 23 Nov 2026 7:37:00 AM PST",
    "summary": "Hart recorded 10 points (5-11 FG, 0-4 3Pt), 11 rebounds, 10 assists and one steal in 39 minutes during Sunday's 113-106 win over the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jalen Brunson: Scores 22 points in win",
-   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
-   "published": "Mon, 23 Nov 2026 7:35:00 AM PST",
-   "summary": "Brunson contributed 22 points (8-18 FG, 1-6 3Pt, 5-7 FT), three rebounds, seven assists and one steal across 32 minutes during Sunday's 113-106 win over the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -21899,6 +21850,12 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-23T18:37:52.383000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Bilal Coulibaly"
+  },
   {
    "date": "2026-11-23T16:34:26.192000",
    "team": "Rubio Bzeit ",
@@ -24874,6 +24831,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.9
+  "run_seconds": 2.5
  }
 }
