@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:20:26.157225Z",
+ "updated": "2026-11-23T12:30:33.752321Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -5543,7 +5543,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -5602,7 +5602,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -5661,7 +5661,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "OUT",
     "team": "ORL",
     "avg": {
@@ -5720,7 +5720,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "SG",
     "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
@@ -5779,7 +5779,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "F",
     "injury": "OUT",
     "team": "NYK",
     "avg": {
@@ -5838,7 +5838,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -5956,7 +5956,7 @@
      "PF",
      "C"
     ],
-    "slot": "BE",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -6014,7 +6014,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -6073,7 +6073,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -6131,7 +6131,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -6248,7 +6248,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -6306,7 +6306,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -24801,6 +24801,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.2
  }
 }
