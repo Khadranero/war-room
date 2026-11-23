@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:40:33.621022Z",
+ "updated": "2026-11-23T18:50:27.030250Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -4894,8 +4894,8 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "slot": "SF",
+    "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
      "PTS": 21.5,
@@ -5012,7 +5012,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -5129,7 +5129,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -5247,7 +5247,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -5306,7 +5306,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -5359,62 +5359,62 @@
     }
    },
    {
-    "name": "Kevin Huerter",
-    "pos": "SG",
+    "name": "Egor Demin",
+    "pos": "PG",
     "elig": [
-     "SG",
-     "SF"
+     "PG",
+     "SG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
-    "team": "DET",
+    "team": "BKN",
     "avg": {
-     "PTS": 13.625,
-     "REB": 3.25,
-     "AST": 3.375,
-     "STL": 1.0,
-     "BLK": 1.25,
-     "3PM": 1.5,
-     "FG%": 0.4494382,
-     "FT%": 0.77272727,
-     "TO": 2.125,
-     "FGM": 5.0,
-     "FGA": 11.125,
-     "FTM": 2.125,
-     "FTA": 2.75,
+     "PTS": 14.0,
+     "REB": 2.4,
+     "AST": 2.6,
+     "STL": 0.8,
+     "BLK": 0.2,
+     "3PM": 2.4,
+     "FG%": 0.38888889,
+     "FT%": 0.76190476,
+     "TO": 2.6,
+     "FGM": 4.2,
+     "FGA": 10.8,
+     "FTM": 3.2,
+     "FTA": 4.2,
      "_src": "2027_last_15"
     },
     "proj": {
-     "PTS": 10.318840579710145,
-     "REB": 3.5072463768115942,
-     "AST": 2.5942028985507246,
-     "STL": 0.8985507246376812,
-     "BLK": 0.5072463768115942,
-     "3PM": 1.5797101449275361,
-     "FG%": 0.447,
-     "FT%": 0.768,
-     "TO": 1.1014492753623188,
-     "FGM": 3.9855072463768115,
-     "FGA": 8.898550724637682,
-     "FTM": 0.7681159420289855,
-     "FTA": 1.0,
+     "PTS": 14.338028169014084,
+     "REB": 4.098591549295775,
+     "AST": 4.295774647887324,
+     "STL": 1.0,
+     "BLK": 0.39436619718309857,
+     "3PM": 3.140845070422535,
+     "FG%": 0.444,
+     "FT%": 0.839,
+     "TO": 2.0985915492957745,
+     "FGM": 4.929577464788732,
+     "FGA": 11.098591549295774,
+     "FTM": 1.3380281690140845,
+     "FTA": 1.6056338028169015,
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 10.0625,
-     "REB": 2.75,
-     "AST": 2.625,
-     "STL": 0.875,
-     "BLK": 0.875,
-     "3PM": 1.5,
-     "FG%": 0.42753623,
-     "FT%": 0.73076923,
-     "TO": 1.4375,
-     "FGM": 3.6875,
-     "FGA": 8.625,
-     "FTM": 1.1875,
-     "FTA": 1.625,
-     "GP": 16.0
+     "PTS": 11.222222222222221,
+     "REB": 2.3333333333333335,
+     "AST": 2.6666666666666665,
+     "STL": 0.8888888888888888,
+     "BLK": 0.1111111111111111,
+     "3PM": 2.0,
+     "FG%": 0.36144578,
+     "FT%": 0.82142857,
+     "TO": 2.3333333333333335,
+     "FGM": 3.3333333333333335,
+     "FGA": 9.222222222222221,
+     "FTM": 2.5555555555555554,
+     "FTA": 3.111111111111111,
+     "GP": 9.0
     }
    }
   ],
@@ -10547,6 +10547,18 @@
  },
  "activity": [
   {
+   "date": "2026-11-23T18:41:34.940000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Egor Demin"
+  },
+  {
+   "date": "2026-11-23T18:41:34.940000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Kevin Huerter"
+  },
+  {
    "date": "2026-11-23T18:37:52.383000",
    "team": "Wembelieve I can fly",
    "action": "DROPPED",
@@ -12195,65 +12207,6 @@
    "season": {}
   },
   {
-   "name": "Egor Demin",
-   "pos": "PG",
-   "elig": [
-    "PG",
-    "SG"
-   ],
-   "team": "BKN",
-   "injury": "ACTIVE",
-   "pct": null,
-   "avg": {
-    "PTS": 14.0,
-    "REB": 2.4,
-    "AST": 2.6,
-    "STL": 0.8,
-    "BLK": 0.2,
-    "3PM": 2.4,
-    "FG%": 0.38888889,
-    "FT%": 0.76190476,
-    "TO": 2.6,
-    "FGM": 4.2,
-    "FGA": 10.8,
-    "FTM": 3.2,
-    "FTA": 4.2,
-    "_src": "2027_last_15"
-   },
-   "proj": {
-    "PTS": 14.338028169014084,
-    "REB": 4.098591549295775,
-    "AST": 4.295774647887324,
-    "STL": 1.0,
-    "BLK": 0.39436619718309857,
-    "3PM": 3.140845070422535,
-    "FG%": 0.444,
-    "FT%": 0.839,
-    "TO": 2.0985915492957745,
-    "FGM": 4.929577464788732,
-    "FGA": 11.098591549295774,
-    "FTM": 1.3380281690140845,
-    "FTA": 1.6056338028169015,
-    "_src": "2027_projected"
-   },
-   "season": {
-    "PTS": 11.222222222222221,
-    "REB": 2.3333333333333335,
-    "AST": 2.6666666666666665,
-    "STL": 0.8888888888888888,
-    "BLK": 0.1111111111111111,
-    "3PM": 2.0,
-    "FG%": 0.36144578,
-    "FT%": 0.82142857,
-    "TO": 2.3333333333333335,
-    "FGM": 3.3333333333333335,
-    "FGA": 9.222222222222221,
-    "FTM": 2.5555555555555554,
-    "FTA": 3.111111111111111,
-    "GP": 9.0
-   }
-  },
-  {
    "name": "Jimmy Butler III",
    "pos": "SF",
    "elig": [
@@ -13261,6 +13214,65 @@
     "FTM": 1.5,
     "FTA": 1.6666666666666667,
     "GP": 12.0
+   }
+  },
+  {
+   "name": "Kevin Huerter",
+   "pos": "SG",
+   "elig": [
+    "SG",
+    "SF"
+   ],
+   "team": "DET",
+   "injury": "ACTIVE",
+   "pct": null,
+   "avg": {
+    "PTS": 13.625,
+    "REB": 3.25,
+    "AST": 3.375,
+    "STL": 1.0,
+    "BLK": 1.25,
+    "3PM": 1.5,
+    "FG%": 0.4494382,
+    "FT%": 0.77272727,
+    "TO": 2.125,
+    "FGM": 5.0,
+    "FGA": 11.125,
+    "FTM": 2.125,
+    "FTA": 2.75,
+    "_src": "2027_last_15"
+   },
+   "proj": {
+    "PTS": 10.318840579710145,
+    "REB": 3.5072463768115942,
+    "AST": 2.5942028985507246,
+    "STL": 0.8985507246376812,
+    "BLK": 0.5072463768115942,
+    "3PM": 1.5797101449275361,
+    "FG%": 0.447,
+    "FT%": 0.768,
+    "TO": 1.1014492753623188,
+    "FGM": 3.9855072463768115,
+    "FGA": 8.898550724637682,
+    "FTM": 0.7681159420289855,
+    "FTA": 1.0,
+    "_src": "2027_projected"
+   },
+   "season": {
+    "PTS": 10.0625,
+    "REB": 2.75,
+    "AST": 2.625,
+    "STL": 0.875,
+    "BLK": 0.875,
+    "3PM": 1.5,
+    "FG%": 0.42753623,
+    "FT%": 0.73076923,
+    "TO": 1.4375,
+    "FGM": 3.6875,
+    "FGA": 8.625,
+    "FTM": 1.1875,
+    "FTA": 1.625,
+    "GP": 16.0
    }
   },
   {
@@ -17483,7 +17495,7 @@
     "C"
    ],
    "team": "OKC",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.0,
@@ -21408,38 +21420,38 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Aday Mara: Remaining out Monday",
+   "link": "https://www.rotowire.com//basketball/player/aday-mara-6932",
+   "published": "Mon, 23 Nov 2026 10:45:00 AM PST",
+   "summary": "Mara (shin) has been ruled out for Monday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Trey Murphy: Will play Monday",
+   "link": "https://www.rotowire.com//basketball/player/trey-murphy-5401",
+   "published": "Mon, 23 Nov 2026 10:44:00 AM PST",
+   "summary": "Murphy (knee) is available for Monday's game against the Suns.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Shai Gilgeous-Alexander: Off injury report",
+   "link": "https://www.rotowire.com//basketball/player/shai-gilgeous-alexander-4387",
+   "published": "Mon, 23 Nov 2026 10:43:00 AM PST",
+   "summary": "Gilgeous-Alexander (neck/back) isn't listed on the injury report for Monday's game against the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Jalen Smith: Expected to play Monday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-smith-5169",
+   "published": "Mon, 23 Nov 2026 10:40:00 AM PST",
+   "summary": "Smith (illness) is probable for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Nic Claxton: Listed as questionable",
    "link": "https://www.rotowire.com//basketball/player/nic-claxton-4827",
    "published": "Mon, 23 Nov 2026 10:36:00 AM PST",
    "summary": "Claxton (illness) is questionable for Monday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Joel Embiid: Late addition to injury report",
-   "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
-   "published": "Mon, 23 Nov 2026 8:50:00 AM PST",
-   "summary": "Embiid (knee) has been downgraded to questionable for Monday's game against Portland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Brandin Podziemski: Leads Warriors in scoring",
-   "link": "https://www.rotowire.com//basketball/player/brandin-podziemski-5889",
-   "published": "Mon, 23 Nov 2026 7:48:00 AM PST",
-   "summary": "Podziemski supplied 18 points (5-14 FG, 4-10 3Pt, 4-4 FT), seven rebounds and two assists in 38 minutes during Sunday's 88-87 win over the Celtics.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jayson Tatum: Posts double-double in tight loss",
-   "link": "https://www.rotowire.com//basketball/player/jayson-tatum-4108",
-   "published": "Mon, 23 Nov 2026 7:43:00 AM PST",
-   "summary": "Tatum closed with 27 points (8-20 FG, 4-11 3Pt, 7-8 FT), 10 rebounds, six assists and one steal over 38 minutes during Sunday's 88-87 loss to the Warriors.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Records triple-double in win",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Mon, 23 Nov 2026 7:37:00 AM PST",
-   "summary": "Hart recorded 10 points (5-11 FG, 0-4 3Pt), 11 rebounds, 10 assists and one steal in 39 minutes during Sunday's 113-106 win over the Pacers.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -21850,6 +21862,18 @@
   }
  },
  "log": [
+  {
+   "date": "2026-11-23T18:41:34.940000",
+   "team": "Wembelieve I can fly",
+   "action": "FA ADDED",
+   "player": "Egor Demin"
+  },
+  {
+   "date": "2026-11-23T18:41:34.940000",
+   "team": "Wembelieve I can fly",
+   "action": "DROPPED",
+   "player": "Kevin Huerter"
+  },
   {
    "date": "2026-11-23T18:37:52.383000",
    "team": "Wembelieve I can fly",
@@ -24831,6 +24855,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 2.5
+  "run_seconds": 3.3
  }
 }
