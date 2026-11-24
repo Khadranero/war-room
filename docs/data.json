@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:50:25.553218Z",
+ "updated": "2026-11-24T00:00:38.590833Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -6864,7 +6864,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ATL",
     "avg": {
@@ -10838,18 +10838,6 @@
    "team": "Momo in Six",
    "action": "DROPPED",
    "player": "Devin Vassell"
-  },
-  {
-   "date": "2026-11-21T11:45:43.030000",
-   "team": "Akumpo",
-   "action": "FA ADDED",
-   "player": "De'Andre Hunter"
-  },
-  {
-   "date": "2026-11-21T11:45:43.030000",
-   "team": "Akumpo",
-   "action": "DROPPED",
-   "player": "Ja'Kobe Walter"
   }
  ],
  "schedule": {
@@ -24879,6 +24867,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 4.3
+  "run_seconds": 4.9
  }
 }
