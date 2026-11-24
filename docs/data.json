@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:50:26.769393Z",
+ "updated": "2026-11-24T22:00:36.217037Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -5662,7 +5662,7 @@
      "PF"
     ],
     "slot": "UT",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "NYK",
     "avg": {
      "PTS": 16.0,
@@ -5721,7 +5721,7 @@
      "SF"
     ],
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 4.571428571428571,
@@ -21440,6 +21440,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Josh Hart: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
+   "published": "Tue, 24 Nov 2026 1:54:00 PM PST",
+   "summary": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "OG Anunoby: Ruled out for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
+   "published": "Tue, 24 Nov 2026 1:53:00 PM PST",
+   "summary": "Anunoby (calf) is out for Wednesday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Karl-Anthony Towns: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
+   "published": "Tue, 24 Nov 2026 1:51:00 PM PST",
+   "summary": "Towns (knee) is questionable for Wednesday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Kawhi Leonard: To be re-evaluated in one week",
    "link": "https://www.rotowire.com//basketball/player/kawhi-leonard-3195",
    "published": "Tue, 24 Nov 2026 1:16:00 PM PST",
@@ -21451,27 +21472,6 @@
    "link": "https://www.rotowire.com//basketball/player/tyrese-haliburton-5114",
    "published": "Tue, 24 Nov 2026 11:41:00 AM PST",
    "summary": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Practices Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Tue, 24 Nov 2026 10:56:00 AM PST",
-   "summary": "Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "OG Anunoby: Doesn't practice Tuesday",
-   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
-   "published": "Tue, 24 Nov 2026 10:42:00 AM PST",
-   "summary": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Duncan Robinson: Considered day-to-day",
-   "link": "https://www.rotowire.com//basketball/player/duncan-robinson-4470",
-   "published": "Tue, 24 Nov 2026 10:30:00 AM PST",
-   "summary": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24925,6 +24925,6 @@
   "picked_total": 2261.0,
   "direct_total": 2261.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 2.6
  }
 }
