@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T06:00:32.386452Z",
+ "updated": "2026-11-24T06:10:38.154502Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -4600,7 +4600,7 @@
      "C"
     ],
     "slot": "UT",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
      "PTS": 31.0,
@@ -5660,7 +5660,7 @@
      "SG"
     ],
     "slot": "SG",
-    "injury": "OUT",
+    "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
      "PTS": 10.0,
@@ -11808,20 +11808,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
+    "PTS": 8.0,
+    "REB": 2.0,
+    "AST": 5.0,
+    "STL": 2.0,
+    "BLK": 1.0,
     "3PM": 0.0,
     "FG%": 0.375,
     "FT%": 1.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
-    "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "TO": 3.0,
+    "FGM": 3.0,
+    "FGA": 8.0,
+    "FTM": 2.0,
+    "FTA": 2.0,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 20.6,
@@ -13195,7 +13195,7 @@
     "C"
    ],
    "team": "UTA",
-   "injury": "OUT",
+   "injury": "DAY_TO_DAY",
    "pct": null,
    "avg": {
     "PTS": 11.285714285714286,
@@ -13829,20 +13829,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 5.0,
+    "REB": 1.0,
+    "AST": 1.0,
+    "STL": 0.6666666666666666,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
-    "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "3PM": 0.6666666666666666,
+    "FG%": 0.38461538,
+    "FT%": 0.75,
+    "TO": 1.0,
+    "FGM": 1.6666666666666667,
+    "FGA": 4.333333333333333,
+    "FTM": 1.0,
+    "FTA": 1.3333333333333333,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 12.444444444444445,
@@ -14325,20 +14325,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 4.0,
+    "REB": 3.0,
+    "AST": 1.0,
+    "STL": 2.0,
     "BLK": 0.0,
     "3PM": 0.0,
     "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
+    "TO": 2.0,
+    "FGM": 2.0,
+    "FGA": 4.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -15751,20 +15751,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 9.857142857142858,
+    "REB": 3.4285714285714284,
+    "AST": 5.0,
+    "STL": 1.0,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.2,
-    "FT%": 1.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
-    "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "3PM": 1.0,
+    "FG%": 0.34285714,
+    "FT%": 0.82352941,
+    "TO": 3.142857142857143,
+    "FGM": 3.4285714285714284,
+    "FGA": 10.0,
+    "FTM": 2.0,
+    "FTA": 2.4285714285714284,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 11.166666666666666,
@@ -18471,20 +18471,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 6.5,
+    "REB": 8.0,
+    "AST": 2.0,
+    "STL": 0.5,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 1.0,
-    "FT%": 0.0,
+    "3PM": 0.5,
+    "FG%": 0.55555556,
+    "FT%": 1.0,
     "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
-    "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "FGM": 2.5,
+    "FGA": 4.5,
+    "FTM": 1.0,
+    "FTA": 1.0,
+    "_src": "2027_last_30"
    },
    "proj": {},
    "season": {
@@ -19780,20 +19780,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 4.0,
+    "REB": 1.0,
+    "AST": 0.5,
+    "STL": 0.5,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 1.0,
+    "FG%": 0.57142857,
     "FT%": 0.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
+    "TO": 0.5,
+    "FGM": 2.0,
+    "FGA": 3.5,
     "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "FTA": 0.5,
+    "_src": "2027_last_30"
    },
    "proj": {},
    "season": {
@@ -20186,20 +20186,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
+    "PTS": 3.6,
+    "REB": 1.4,
+    "AST": 1.0,
+    "STL": 0.2,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.4,
-    "FT%": 0.0,
+    "3PM": 0.6,
+    "FG%": 0.375,
+    "FT%": 0.6,
     "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
-    "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "FGM": 1.2,
+    "FGA": 3.2,
+    "FTM": 0.6,
+    "FTA": 1.0,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 8.707692307692307,
@@ -20302,20 +20302,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
+    "PTS": 10.5,
+    "REB": 3.0,
+    "AST": 2.0,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.0,
-    "FG%": 0.0,
+    "3PM": 1.5,
+    "FG%": 0.5625,
     "FT%": 0.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
+    "TO": 2.0,
+    "FGM": 4.5,
+    "FGA": 8.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_last_15"
+    "_src": "2027_last_30"
    },
    "proj": {},
    "season": {
@@ -20620,20 +20620,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 0.0,
-    "REB": 0.0,
-    "AST": 0.0,
-    "STL": 0.0,
-    "BLK": 0.0,
+    "PTS": 3.8,
+    "REB": 5.6,
+    "AST": 2.0,
+    "STL": 1.0,
+    "BLK": 0.8,
     "3PM": 0.0,
-    "FG%": 0.0,
-    "FT%": 0.0,
-    "TO": 0.0,
-    "FGM": 0.0,
-    "FGA": 0.0,
-    "FTM": 0.0,
-    "FTA": 0.0,
-    "_src": "2027_last_15"
+    "FG%": 0.64285714,
+    "FT%": 0.5,
+    "TO": 0.8,
+    "FGM": 1.8,
+    "FGA": 2.8,
+    "FTM": 0.2,
+    "FTA": 0.4,
+    "_src": "2027_last_30"
    },
    "proj": {
     "PTS": 6.629032258064516,
@@ -21482,6 +21482,104 @@
    "link": "https://www.rotowire.com//basketball/player/kevin-durant-2811",
    "published": "Mon, 23 Nov 2026 8:30:00 PM PST",
    "summary": "Durant compiled 32 points (11-19 FG, 4-6 3Pt, 6-6 FT), nine rebounds, four assists and one block across 33 minutes during Monday's 116-104 win over the Clippers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "ESPN",
+   "title": "Golliver's too-early NBA All-Star picks: The 24 most deserving players right now",
+   "link": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
+   "published": "Tue, 24 Nov 2026 00:47:59 EST",
+   "summary": "So what if the All-Star Game is three months away? We're picking locks and position battles to watch across both conferences."
+  },
+  {
+   "source": "ESPN",
+   "title": "Spurs rule Wembanyama, Fox out 90 minutes before victory over Kings",
+   "link": "https://www.espn.com/nba/story/_/id/50578664/spurs-victor-wembanyama-deaaron-fox-kings",
+   "published": "Tue, 24 Nov 2026 00:47:33 EST",
+   "summary": "Less than two hours prior to tipoff Monday, the San Antonio Spurs ruled Victor Wembanyama and De'Aaron Fox out of their 123-107 win over the Sacramento Kings, but the club anticipates both will play in Wednesday's game against the Portland Trail Blazers."
+  },
+  {
+   "source": "ESPN",
+   "title": "Grizzlies rookie Boozer out with sprained right ankle",
+   "link": "https://www.espn.com/nba/story/_/id/50577588/grizzlies-cameron-boozer-ankle-reevaluated-4-weeks",
+   "published": "Tue, 24 Nov 2026 00:47:33 EST",
+   "summary": "Grizzlies rookie forward Cameron Boozer has a sprained right ankle that will sideline him for at least a month."
+  },
+  {
+   "source": "ESPN",
+   "title": "Embiid misses game with illness as 76ers fall to Trail Blazers",
+   "link": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
+   "published": "Tue, 24 Nov 2026 00:47:32 EST",
+   "summary": "76ers center Joel Embiid missed Monday's game against the Trail Blazers because of an illness."
+  },
+  {
+   "source": "ESPN",
+   "title": "Vocal Green swats back at online critics, fuels Warriors' victory over Celtics",
+   "link": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
+   "published": "Tue, 24 Nov 2026 00:47:33 EST",
+   "summary": "After reinforcing his career\u200b accolades earlier in the day on social media, Golden State Warriors forward Draymond Green closed out an 88-87 win over the Boston Celtics on Sunday with a last-second defensive stop and rousing celebration from the veteran."
+  },
+  {
+   "source": "ESPN",
+   "title": "Nets guard Traore (hamstring) to be reevaluated in 8-10 weeks",
+   "link": "https://www.espn.com/nba/story/_/id/50573732/nets-nolan-traore-hamstring-reevaluated-8-10-weeks",
+   "published": "Tue, 24 Nov 2026 00:47:33 EST",
+   "summary": "Nets guard Nolan Traore has been diagnosed with a right hamstring strain and will be reevaluated in eight to 10 weeks, the team announced Monday."
+  },
+  {
+   "source": "ESPN",
+   "title": "Kings boost backcourt depth with Vincent signing",
+   "link": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
+   "published": "Tue, 24 Nov 2026 00:47:33 EST",
+   "summary": "Guard Gabe Vincent signed a deal with the Sacramento Kings to fill their 15th roster spot, it was announced on Monday."
+  },
+  {
+   "source": "ESPN",
+   "title": "\ud83d\udc40 What the first month has revealed about all 30 teams",
+   "link": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+   "published": "Tue, 24 Nov 2026 00:47:33 EST",
+   "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams."
+  },
+  {
+   "source": "ESPN",
+   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+   "published": "Sun, 22 Nov 2026 21:59:41 EST",
+   "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league."
+  },
+  {
+   "source": "ESPN",
+   "title": "The hidden danger behind Luka Doncic's historic start\ufeff",
+   "link": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+   "published": "Thu, 19 Nov 2026 08:46:53 EST",
+   "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?"
+  },
+  {
+   "source": "ESPN",
+   "title": "How a season without their 'admiral' showed the Rockets what they were missing",
+   "link": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+   "published": "Mon, 23 Nov 2026 07:40:00 EST",
+   "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important."
+  },
+  {
+   "source": "ESPN",
+   "title": "Cleveland Cavaliers become first NBA team to practice at Obama Presidential Center",
+   "link": "https://www.espn.com/nba/story/_/id/50575533/cleveland-cavaliers-obama-presidential-center",
+   "published": "Mon, 23 Nov 2026 18:09:01 EST",
+   "summary": "The WNBA was the first professional sports league to use the court, playing there at All-Star Weekend in July."
+  },
+  {
+   "source": "ESPN",
+   "title": "Should you trade Davion Mitchell? Move on from De'Aaron Fox?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50575130/fantasy-basketball-risers-fallers-keep-cut-add-today",
+   "published": "Mon, 23 Nov 2026 16:25:54 EST",
+   "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react."
+  },
+  {
+   "source": "ESPN",
+   "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
+   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+   "published": "Mon, 23 Nov 2026 16:25:54 EST",
+   "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?"
   }
  ],
  "games": {
@@ -24869,6 +24967,6 @@
   "picked_total": 0.0,
   "direct_total": 0.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 4.7
  }
 }
