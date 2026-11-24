@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:20:24.129284Z",
+ "updated": "2026-11-24T23:30:31.500806Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -2563,7 +2563,7 @@
      "PF"
     ],
     "slot": "BE",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "GSW",
     "avg": {
      "PTS": 16.428571428571427,
@@ -13127,7 +13127,7 @@
     "SG"
    ],
    "team": "OKC",
-   "injury": "OUT",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 8.0,
@@ -17631,7 +17631,7 @@
     "C"
    ],
    "team": "OKC",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.0,
@@ -21440,6 +21440,27 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Alex Caruso: Cleared from injury report",
+   "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
+   "published": "Tue, 24 Nov 2026 3:23:00 PM PST",
+   "summary": "Caruso is off the injury report for Wednesday's game against the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Yaxel Lendeborg: Iffy for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
+   "published": "Tue, 24 Nov 2026 3:21:00 PM PST",
+   "summary": "Lendeborg is questionable for Wednesday's game against the Kings with an illness.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Aday Mara: Ruled out for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/aday-mara-6932",
+   "published": "Tue, 24 Nov 2026 3:20:00 PM PST",
+   "summary": "Mara (leg) is out for Wednesday's game versus the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Ryan Kalkbrenner: Doubtful for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/ryan-kalkbrenner-6567",
    "published": "Tue, 24 Nov 2026 2:34:00 PM PST",
@@ -21451,27 +21472,6 @@
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Tue, 24 Nov 2026 2:09:00 PM PST",
    "summary": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Giannis Antetokounmpo: Questionable for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/giannis-antetokounmpo-3456",
-   "published": "Tue, 24 Nov 2026 2:07:00 PM PST",
-   "summary": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Josh Hart: Iffy for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/josh-hart-4136",
-   "published": "Tue, 24 Nov 2026 1:54:00 PM PST",
-   "summary": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "OG Anunoby: Ruled out for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/og-anunoby-4121",
-   "published": "Tue, 24 Nov 2026 1:53:00 PM PST",
-   "summary": "Anunoby (calf) is out for Wednesday's game against Cleveland.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24925,6 +24925,6 @@
   "picked_total": 2261.0,
   "direct_total": 2261.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 3.3
  }
 }
