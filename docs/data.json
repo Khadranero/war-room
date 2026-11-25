@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:50:26.693796Z",
+ "updated": "2026-11-25T18:00:35.062790Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -6014,7 +6014,7 @@
      "PG"
     ],
     "slot": "G",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 26.875,
@@ -17941,7 +17941,7 @@
     "SG"
    ],
    "team": "NYK",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 6.857142857142857,
@@ -21386,6 +21386,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Jalen Brunson: Now questionable for Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/jalen-brunson-4405",
+   "published": "Wed, 25 Nov 2026 9:53:00 AM PST",
+   "summary": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Grayson Allen: Out Wednesday",
    "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
    "published": "Wed, 25 Nov 2026 9:40:00 AM PST",
@@ -21411,13 +21418,6 @@
    "link": "https://www.rotowire.com//basketball/player/paul-george-3114",
    "published": "Wed, 25 Nov 2026 3:07:00 AM PST",
    "summary": "George closed Tuesday's 131-116 victory over the Wizards with 28 points (11-20 FG, 6-9 3Pt), four rebounds, nine assists and one steal in 33 minutes.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Nikola Jokic: Double-doubles in loss",
-   "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
-   "published": "Tue, 24 Nov 2026 10:02:00 PM PST",
-   "summary": "Jokic totaled 18 points (6-14 FG, 1-4 3Pt, 5-5 FT), 11 rebounds, five assists, one steal and five turnovers across 33 minutes in Tuesday's 120-101 loss to the Mavs.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24909,6 +24909,6 @@
   "picked_total": 3137.0,
   "direct_total": 3137.0,
   "direct_teams": 10,
-  "run_seconds": 2.7
+  "run_seconds": 2.9
  }
 }
