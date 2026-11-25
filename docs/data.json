@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:40:27.426611Z",
+ "updated": "2026-11-25T02:50:27.276833Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -2391,7 +2391,7 @@
     "team": "BOS",
     "avg": {
      "PTS": 19.5,
-     "REB": 5.833333333333333,
+     "REB": 6.0,
      "AST": 3.8333333333333335,
      "STL": 1.8333333333333333,
      "BLK": 0.3333333333333333,
@@ -2423,7 +2423,7 @@
     },
     "season": {
      "PTS": 20.066666666666666,
-     "REB": 5.466666666666667,
+     "REB": 5.533333333333333,
      "AST": 4.0,
      "STL": 2.1333333333333333,
      "BLK": 0.4,
@@ -3667,17 +3667,17 @@
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
-     "PTS": 25.857142857142858,
+     "PTS": 26.142857142857142,
      "REB": 7.285714285714286,
-     "AST": 5.428571428571429,
+     "AST": 5.285714285714286,
      "STL": 0.7142857142857143,
      "BLK": 1.0,
      "3PM": 3.7142857142857144,
-     "FG%": 0.45185185,
+     "FG%": 0.45255474,
      "FT%": 0.78571429,
-     "TO": 3.2857142857142856,
-     "FGM": 8.714285714285714,
-     "FGA": 19.285714285714285,
+     "TO": 3.5714285714285716,
+     "FGM": 8.857142857142858,
+     "FGA": 19.571428571428573,
      "FTM": 4.714285714285714,
      "FTA": 6.0,
      "_src": "2027_last_15"
@@ -3699,17 +3699,17 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 26.5625,
+     "PTS": 26.6875,
      "REB": 6.5625,
-     "AST": 6.75,
+     "AST": 6.6875,
      "STL": 0.75,
      "BLK": 0.75,
      "3PM": 2.9375,
-     "FG%": 0.4340836,
+     "FG%": 0.43450479,
      "FT%": 0.85714286,
-     "TO": 3.0625,
-     "FGM": 8.4375,
-     "FGA": 19.4375,
+     "TO": 3.1875,
+     "FGM": 8.5,
+     "FGA": 19.5625,
      "FTM": 6.75,
      "FTA": 7.875,
      "GP": 16.0
@@ -5016,19 +5016,19 @@
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
-     "PTS": 16.333333333333332,
-     "REB": 7.555555555555555,
+     "PTS": 16.666666666666668,
+     "REB": 7.666666666666667,
      "AST": 3.3333333333333335,
      "STL": 1.1111111111111112,
      "BLK": 0.5555555555555556,
      "3PM": 0.8888888888888888,
-     "FG%": 0.42424242,
-     "FT%": 0.675,
+     "FG%": 0.42105263,
+     "FT%": 0.68181818,
      "TO": 2.7777777777777777,
      "FGM": 6.222222222222222,
-     "FGA": 14.666666666666666,
-     "FTM": 3.0,
-     "FTA": 4.444444444444445,
+     "FGA": 14.777777777777779,
+     "FTM": 3.3333333333333335,
+     "FTA": 4.888888888888889,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5048,19 +5048,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 16.2,
-     "REB": 6.866666666666666,
+     "PTS": 16.4,
+     "REB": 6.933333333333334,
      "AST": 2.933333333333333,
      "STL": 1.2,
      "BLK": 0.3333333333333333,
      "3PM": 0.8666666666666667,
-     "FG%": 0.4245283,
-     "FT%": 0.72463768,
+     "FG%": 0.42253521,
+     "FT%": 0.7260274,
      "TO": 2.3333333333333335,
      "FGM": 6.0,
-     "FGA": 14.133333333333333,
-     "FTM": 3.3333333333333335,
-     "FTA": 4.6,
+     "FGA": 14.2,
+     "FTM": 3.533333333333333,
+     "FTA": 4.866666666666666,
      "GP": 15.0
     }
    },
@@ -5258,11 +5258,11 @@
      "STL": 0.75,
      "BLK": 0.125,
      "3PM": 2.25,
-     "FG%": 0.38947368,
+     "FG%": 0.38541667,
      "FT%": 0.85714286,
      "TO": 1.625,
      "FGM": 4.625,
-     "FGA": 11.875,
+     "FGA": 12.0,
      "FTM": 0.75,
      "FTA": 0.875,
      "_src": "2027_last_15"
@@ -5290,11 +5290,11 @@
      "STL": 0.7777777777777778,
      "BLK": 0.16666666666666666,
      "3PM": 2.1666666666666665,
-     "FG%": 0.39795918,
+     "FG%": 0.39593909,
      "FT%": 0.86111111,
      "TO": 1.4444444444444444,
      "FGM": 4.333333333333333,
-     "FGA": 10.88888888888889,
+     "FGA": 10.944444444444445,
      "FTM": 1.7222222222222223,
      "FTA": 2.0,
      "GP": 18.0
@@ -8119,19 +8119,19 @@
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
-     "PTS": 26.22222222222222,
-     "REB": 10.555555555555555,
+     "PTS": 26.88888888888889,
+     "REB": 10.777777777777779,
      "AST": 1.8888888888888888,
      "STL": 1.1111111111111112,
      "BLK": 1.1111111111111112,
      "3PM": 0.7777777777777778,
-     "FG%": 0.56410256,
-     "FT%": 0.8030303,
+     "FG%": 0.56962025,
+     "FT%": 0.80882353,
      "TO": 2.111111111111111,
-     "FGM": 9.777777777777779,
-     "FGA": 17.333333333333332,
-     "FTM": 5.888888888888889,
-     "FTA": 7.333333333333333,
+     "FGM": 10.0,
+     "FGA": 17.555555555555557,
+     "FTM": 6.111111111111111,
+     "FTA": 7.555555555555555,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -8151,19 +8151,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 24.88235294117647,
-     "REB": 9.941176470588236,
+     "PTS": 25.235294117647058,
+     "REB": 10.058823529411764,
      "AST": 2.0,
      "STL": 1.2352941176470589,
      "BLK": 1.1176470588235294,
      "3PM": 0.8235294117647058,
-     "FG%": 0.53311258,
-     "FT%": 0.81308411,
+     "FG%": 0.53618421,
+     "FT%": 0.81651376,
      "TO": 2.0588235294117645,
-     "FGM": 9.470588235294118,
-     "FGA": 17.764705882352942,
-     "FTM": 5.117647058823529,
-     "FTA": 6.294117647058823,
+     "FGM": 9.588235294117647,
+     "FGA": 17.88235294117647,
+     "FTM": 5.235294117647059,
+     "FTA": 6.411764705882353,
      "GP": 17.0
     }
    },
@@ -8615,7 +8615,7 @@
      "PF"
     ],
     "slot": "SF",
-    "injury": "DAY_TO_DAY",
+    "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
      "PTS": 12.4,
@@ -17085,19 +17085,19 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 2.857142857142857,
+    "PTS": 2.5,
     "REB": 0.0,
-    "AST": 1.4285714285714286,
+    "AST": 1.25,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.7142857142857143,
-    "FG%": 0.31818182,
+    "3PM": 0.625,
+    "FG%": 0.30434783,
     "FT%": 0.5,
-    "TO": 0.2857142857142857,
-    "FGM": 1.0,
-    "FGA": 3.142857142857143,
-    "FTM": 0.14285714285714285,
-    "FTA": 0.2857142857142857,
+    "TO": 0.25,
+    "FGM": 0.875,
+    "FGA": 2.875,
+    "FTM": 0.125,
+    "FTA": 0.25,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -17117,20 +17117,20 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 4.529411764705882,
-    "REB": 1.2352941176470589,
-    "AST": 1.7647058823529411,
-    "STL": 0.47058823529411764,
-    "BLK": 0.11764705882352941,
-    "3PM": 1.2352941176470589,
-    "FG%": 0.37878788,
+    "PTS": 4.277777777777778,
+    "REB": 1.1666666666666667,
+    "AST": 1.6666666666666667,
+    "STL": 0.4444444444444444,
+    "BLK": 0.1111111111111111,
+    "3PM": 1.1666666666666667,
+    "FG%": 0.37313433,
     "FT%": 0.85714286,
-    "TO": 0.47058823529411764,
-    "FGM": 1.4705882352941178,
-    "FGA": 3.8823529411764706,
-    "FTM": 0.35294117647058826,
-    "FTA": 0.4117647058823529,
-    "GP": 17.0
+    "TO": 0.4444444444444444,
+    "FGM": 1.3888888888888888,
+    "FGA": 3.7222222222222223,
+    "FTM": 0.3333333333333333,
+    "FTA": 0.3888888888888889,
+    "GP": 18.0
    }
   },
   {
@@ -21416,6 +21416,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Daniss Jenkins: Records double-double in win",
+   "link": "https://www.rotowire.com//basketball/player/daniss-jenkins-6336",
+   "published": "Tue, 24 Nov 2026 6:45:00 PM PST",
+   "summary": "Jenkins registered 15 points (6-16 FG, 1-6 3Pt, 2-2 FT), four rebounds, 10 assists and two steals in 35 minutes during Tuesday's 104-86 win over the Magic.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "P.J. Washington: Available to play",
+   "link": "https://www.rotowire.com//basketball/player/pj-washington-4781",
+   "published": "Tue, 24 Nov 2026 6:38:00 PM PST",
+   "summary": "Washington (illness) is available for Tuesday's game in Denver.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "De'Aaron Fox: Questionable for Wednesday",
    "link": "https://www.rotowire.com//basketball/player/deaaron-fox-4116",
    "published": "Tue, 24 Nov 2026 5:27:00 PM PST",
@@ -21434,20 +21448,6 @@
    "link": "https://www.rotowire.com//basketball/player/cade-cunningham-5336",
    "published": "Tue, 24 Nov 2026 3:36:00 PM PST",
    "summary": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Alex Caruso: Cleared from injury report",
-   "link": "https://www.rotowire.com//basketball/player/alex-caruso-3952",
-   "published": "Tue, 24 Nov 2026 3:23:00 PM PST",
-   "summary": "Caruso is off the injury report for Wednesday's game against the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Yaxel Lendeborg: Iffy for Wednesday",
-   "link": "https://www.rotowire.com//basketball/player/yaxel-lendeborg-6562",
-   "published": "Tue, 24 Nov 2026 3:21:00 PM PST",
-   "summary": "Lendeborg is questionable for Wednesday's game against the Kings with an illness.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24896,6 +24896,6 @@
   "picked_total": 2261.0,
   "direct_total": 2261.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 4.6
  }
 }
