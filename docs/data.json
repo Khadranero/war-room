@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:40:26.585316Z",
+ "updated": "2026-11-25T17:50:26.693796Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -16951,7 +16951,7 @@
     "C"
    ],
    "team": "CHA",
-   "injury": "DAY_TO_DAY",
+   "injury": "OUT",
    "pct": null,
    "avg": {
     "PTS": 3.8,
@@ -21386,6 +21386,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Grayson Allen: Out Wednesday",
+   "link": "https://www.rotowire.com//basketball/player/grayson-allen-4454",
+   "published": "Wed, 25 Nov 2026 9:40:00 AM PST",
+   "summary": "Allen (concussion) has been ruled out for Wednesday's game against Chicago.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Trae Young: Dishes out 12 assists in loss",
    "link": "https://www.rotowire.com//basketball/player/trae-young-4369",
    "published": "Wed, 25 Nov 2026 3:18:00 AM PST",
@@ -21411,13 +21418,6 @@
    "link": "https://www.rotowire.com//basketball/player/nikola-jokic-3612",
    "published": "Tue, 24 Nov 2026 10:02:00 PM PST",
    "summary": "Jokic totaled 18 points (6-14 FG, 1-4 3Pt, 5-5 FT), 11 rebounds, five assists, one steal and five turnovers across 33 minutes in Tuesday's 120-101 loss to the Mavs.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Cooper Flagg: Double-doubles in win",
-   "link": "https://www.rotowire.com//basketball/player/cooper-flagg-6548",
-   "published": "Tue, 24 Nov 2026 9:50:00 PM PST",
-   "summary": "Flagg put up 24 points (8-17 FG, 1-4 3Pt, 7-9 FT), 12 assists, six rebounds and just one turnover across 31 minutes in Tuesday's 120-101 win over the Nuggets.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24909,6 +24909,6 @@
   "picked_total": 3137.0,
   "direct_total": 3137.0,
   "direct_teams": 10,
-  "run_seconds": 4.1
+  "run_seconds": 2.7
  }
 }
