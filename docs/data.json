@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:10:33.352256Z",
+ "updated": "2026-11-27T19:20:33.252657Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -2799,7 +2799,7 @@
      "SG"
     ],
     "slot": "IR",
-    "injury": "OUT",
+    "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
      "PTS": 23.75,
@@ -11639,20 +11639,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 13.666666666666666,
-    "REB": 4.666666666666667,
-    "AST": 3.3333333333333335,
-    "STL": 1.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.38461538,
-    "FT%": 0.8,
-    "TO": 1.3333333333333333,
-    "FGM": 5.0,
-    "FGA": 13.0,
-    "FTM": 2.6666666666666665,
-    "FTA": 3.3333333333333335,
-    "_src": "2027_total"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 20.6,
@@ -13981,7 +13981,7 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 2.0,
+    "PTS": 0.0,
     "REB": 0.0,
     "AST": 0.0,
     "STL": 0.0,
@@ -13990,11 +13990,11 @@
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 1.0,
-    "FGA": 1.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 12.444444444444445,
@@ -14389,20 +14389,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 6.333333333333333,
-    "REB": 2.3333333333333335,
-    "AST": 1.3333333333333333,
-    "STL": 2.3333333333333335,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 1.0,
-    "FG%": 0.4,
+    "3PM": 0.0,
+    "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 1.0,
-    "FGM": 2.6666666666666665,
-    "FGA": 6.666666666666667,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_total"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -15772,20 +15772,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.2,
-    "REB": 3.2,
-    "AST": 5.0,
-    "STL": 1.2,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.8,
-    "FG%": 0.32432432,
-    "FT%": 0.72727273,
-    "TO": 3.6,
-    "FGM": 2.4,
-    "FGA": 7.4,
-    "FTM": 1.6,
-    "FTA": 2.2,
-    "_src": "2027_last_30"
+    "3PM": 0.0,
+    "FG%": 0.2,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 11.166666666666666,
@@ -18624,20 +18624,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.25,
-    "REB": 7.5,
-    "AST": 1.25,
-    "STL": 0.5,
-    "BLK": 0.5,
-    "3PM": 0.5,
-    "FG%": 0.6,
-    "FT%": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 3.0,
-    "FGA": 5.0,
-    "FTM": 0.75,
-    "FTA": 0.75,
-    "_src": "2027_total"
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -19931,20 +19931,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 1.0,
-    "AST": 0.5,
-    "STL": 0.5,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.57142857,
+    "FG%": 1.0,
     "FT%": 0.0,
-    "TO": 0.5,
-    "FGM": 2.0,
-    "FGA": 3.5,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
-    "FTA": 0.5,
-    "_src": "2027_total"
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -20294,20 +20294,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 3.5,
-    "REB": 1.75,
-    "AST": 1.25,
-    "STL": 0.25,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.5,
-    "FG%": 0.35714286,
-    "FT%": 1.0,
+    "3PM": 0.0,
+    "FG%": 0.4,
+    "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 1.25,
-    "FGA": 3.5,
-    "FTM": 0.5,
-    "FTA": 0.5,
-    "_src": "2027_last_30"
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.707692307692307,
@@ -20410,20 +20410,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 5.25,
-    "REB": 2.0,
-    "AST": 1.25,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.5,
+    "3PM": 0.0,
+    "FG%": 0.0,
     "FT%": 0.0,
-    "TO": 1.0,
-    "FGM": 2.25,
-    "FGA": 4.5,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_total"
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -20670,20 +20670,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.0,
-    "REB": 7.666666666666667,
-    "AST": 3.0,
-    "STL": 1.6666666666666667,
-    "BLK": 1.3333333333333333,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.58333333,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "FGM": 2.3333333333333335,
-    "FGA": 4.0,
-    "FTM": 0.3333333333333333,
-    "FTA": 0.6666666666666666,
-    "_src": "2027_last_30"
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 6.629032258064516,
@@ -21400,6 +21400,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Austin Reaves: Will play Friday",
+   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
+   "published": "Fri, 27 Nov 2026 11:17:00 AM PST",
+   "summary": "Reaves (heel) is available for Friday's game against San Antonio, NBA reporter Marc Stein reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Dylan Harper: Goes through shootaround",
    "link": "https://www.rotowire.com//basketball/player/dylan-harper-6549",
    "published": "Fri, 27 Nov 2026 10:52:00 AM PST",
@@ -21427,13 +21434,6 @@
    "summary": "Wiggins (ankle) is available for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
   },
   {
-   "source": "RotoWire",
-   "title": "Karl-Anthony Towns: Downgraded to questionable",
-   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
-   "published": "Fri, 27 Nov 2026 8:51:00 AM PST",
-   "summary": "Towns is questionable for Friday's game against the Heat due to a right abdominal contusion.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
    "source": "ESPN",
    "title": "'I wanted Walker': Why the new Lakers center is the X factor for the Luka Doncic era",
    "link": "https://www.espn.com/nba/story/_/id/50599642/los-angeles-lakers-luka-doncic-walker-kessler-nba",
@@ -21442,51 +21442,51 @@
   },
   {
    "source": "ESPN",
-   "title": "76ers' Brown (hamstring) out at Pacers; Embiid (illness) questionable",
-   "link": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
-   "summary": "The 76ers' Jaylen Brown (hamstring) is out for Friday's NBA Cup game against the Pacers. Joel Embiid (illness) is questionable."
+   "title": "Timberwolves downgrade Ball to out vs. Grizzlies with ankle sprain",
+   "link": "https://www.espn.com/nba/story/_/id/50613102/timberwolves-downgrade-lamelo-ball-ankle-sprain",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
+   "summary": "The Minnesota Timberwolves downgraded star guard LaMelo Ball to out for Friday night's NBA Cup game vs. the Memphis Grizzlies due to a left ankle sprain."
   },
   {
    "source": "ESPN",
-   "title": "Timberwolves' Ball limps off in win after hurting left ankle",
-   "link": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
-   "summary": "The Timberwolves did not have an update on the status of LaMelo Ball's left ankle after he was injured late in a win over the Thunder."
+   "title": "76ers' Brown (hamstring) out at Pacers; Embiid (illness) questionable",
+   "link": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
+   "summary": "The 76ers' Jaylen Brown (hamstring) is out for Friday's NBA Cup game against the Pacers. Joel Embiid (illness) is questionable."
   },
   {
    "source": "ESPN",
    "title": "LeBron dusts 'off the cape' to save 76ers with triple-double",
    "link": "https://www.espn.com/nba/story/_/id/50601303/lebron-dusts-cape-save-76ers-triple-double",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
    "summary": "The soon-to-be 42-year-old LeBron James showed his ability to put the 76ers on his back with a 25-point triple-double in Wednesday's NBA Cup win over the Heat."
   },
   {
    "source": "ESPN",
    "title": "Reaves rejoins Lakers for full practice, status for Spurs matchup TBD",
    "link": "https://www.espn.com/nba/story/_/id/50597465/austin-reaves-rejoins-lakers-full-practice-tbd-face-spurs",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
    "summary": "Austin Reaves returned to his first full practice since suffering a left heel bruise, although his status for Friday's game vs. the Spurs is uncertain."
   },
   {
    "source": "ESPN",
    "title": "Knicks assistant coach Jent returns to team after missing start of season",
    "link": "https://www.espn.com/nba/story/_/id/50600508/knicks-assistant-coach-chris-jent-returns-team",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
    "summary": "Chris Jent was back on New York's bench for Wednesday night's NBA Cup win against Cleveland after a monthlong absence."
   },
   {
    "source": "ESPN",
    "title": "NBA, amid push for Europe league, launches $11B arena initiative",
    "link": "https://www.espn.com/nba/story/_/id/50592672/nba-reveals-11b-initiative-arena-development-europe",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
    "summary": "The long-planned NBA-backed league in Europe took another step toward becoming reality with the unveiling of a plan that targets nearly $11 billion in funding for the development and renovation of arenas around the continent."
   },
   {
    "source": "ESPN",
    "title": "\ud83c\udf7c 'Baby Hali': Tyrese, Jade Haliburton announce they are expecting their first child",
    "link": "https://www.espn.com/nba/story/_/id/50586828/tyrese-jade-haliburton-expecting-first-child",
-   "published": "Fri, 27 Nov 2026 08:20:39 EST",
+   "published": "Fri, 27 Nov 2026 14:02:33 EST",
    "summary": "The couple wed in August after seven years of dating and announced the news that they're expecting on Instagram."
   },
   {
@@ -25062,6 +25062,6 @@
   "picked_total": 5297.0,
   "direct_total": 5297.0,
   "direct_teams": 10,
-  "run_seconds": 3.1
+  "run_seconds": 2.6
  }
 }
