@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:50:26.140836Z",
+ "updated": "2026-11-27T08:00:36.711938Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -336,7 +336,7 @@
    },
    {
     "team": "Team Batrouni",
-    "value": 218.0,
+    "value": 219.0,
     "rank": 7
    },
    {
@@ -1747,7 +1747,7 @@
    "home": "Team Batrouni",
    "away": "Khadracadabra",
    "home_score": 5,
-   "away_score": 4,
+   "away_score": 3,
    "cats": {
     "PTS": {
      "home": 280.0,
@@ -1762,7 +1762,7 @@
      "away": 63.0
     },
     "STL": {
-     "home": 17.0,
+     "home": 18.0,
      "away": 18.0
     },
     "BLK": {
@@ -3033,7 +3033,7 @@
      "PF",
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -3324,7 +3324,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -3485,7 +3485,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -3602,7 +3602,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -3663,7 +3663,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -3722,7 +3722,7 @@
      "PF",
      "C"
     ],
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "SAC",
     "avg": {
@@ -4015,7 +4015,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -4074,7 +4074,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -4133,7 +4133,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "SAC",
     "avg": {
@@ -4191,7 +4191,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -4255,7 +4255,7 @@
      "PTS": 11.0,
      "REB": 8.428571428571429,
      "AST": 4.285714285714286,
-     "STL": 1.2857142857142858,
+     "STL": 1.4285714285714286,
      "BLK": 1.1428571428571428,
      "3PM": 0.42857142857142855,
      "FG%": 0.59259259,
@@ -4287,7 +4287,7 @@
      "PTS": 8.941176470588236,
      "REB": 7.647058823529412,
      "AST": 4.117647058823529,
-     "STL": 0.9411764705882353,
+     "STL": 1.0,
      "BLK": 1.1764705882352942,
      "3PM": 0.35294117647058826,
      "FG%": 0.5412844,
@@ -4306,7 +4306,7 @@
     "elig": [
      "PF"
     ],
-    "slot": "BE",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -4424,7 +4424,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4482,7 +4482,7 @@
     "elig": [
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -4601,7 +4601,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -4836,7 +4836,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -4895,7 +4895,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -5012,7 +5012,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -5071,7 +5071,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MEM",
     "avg": {
@@ -5189,7 +5189,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -5248,7 +5248,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -5336,7 +5336,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -5453,7 +5453,7 @@
      "PG",
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -5571,7 +5571,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "DAY_TO_DAY",
     "team": "SAS",
     "avg": {
@@ -5630,7 +5630,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "PF",
     "injury": "OUT",
     "team": "NYK",
     "avg": {
@@ -5689,7 +5689,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -5807,7 +5807,7 @@
      "PF",
      "C"
     ],
-    "slot": "PF",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -5924,7 +5924,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "UTA",
     "avg": {
@@ -5982,7 +5982,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
@@ -6099,7 +6099,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -6158,7 +6158,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "NOP",
     "avg": {
@@ -6277,7 +6277,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CHA",
     "avg": {
@@ -6395,7 +6395,7 @@
      "SF",
      "PF"
     ],
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "LAC",
     "avg": {
@@ -6454,7 +6454,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -6513,7 +6513,7 @@
      "PG",
      "SG"
     ],
-    "slot": "PG",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "PHO",
     "avg": {
@@ -6690,7 +6690,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "WAS",
     "avg": {
@@ -6865,7 +6865,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "DAY_TO_DAY",
     "team": "MEM",
     "avg": {
@@ -6924,7 +6924,7 @@
      "SG",
      "SF"
     ],
-    "slot": "BE",
+    "slot": "SF",
     "injury": "OUT",
     "team": "PHL",
     "avg": {
@@ -6982,7 +6982,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "PG",
     "injury": "DAY_TO_DAY",
     "team": "MIN",
     "avg": {
@@ -7100,7 +7100,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "PG",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -7159,7 +7159,7 @@
      "SG",
      "SF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -7217,7 +7217,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -7276,7 +7276,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "PF",
     "injury": "ACTIVE",
     "team": "POR",
     "avg": {
@@ -7451,7 +7451,7 @@
      "SF",
      "PF"
     ],
-    "slot": "PF",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "ORL",
     "avg": {
@@ -7686,7 +7686,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "G",
+    "slot": "PG",
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
@@ -7744,7 +7744,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "UT",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "DAL",
     "avg": {
@@ -7862,7 +7862,7 @@
      "SF",
      "PF"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DEN",
     "avg": {
@@ -7920,7 +7920,7 @@
     "elig": [
      "SG"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -8877,7 +8877,7 @@
     "elig": [
      "C"
     ],
-    "slot": "C",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -8935,7 +8935,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "C",
     "injury": "ACTIVE",
     "team": "IND",
     "avg": {
@@ -9052,7 +9052,7 @@
      "SG",
      "SF"
     ],
-    "slot": "UT",
+    "slot": "SF",
     "injury": "ACTIVE",
     "team": "MIL",
     "avg": {
@@ -9169,7 +9169,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -9286,7 +9286,7 @@
      "SF",
      "PF"
     ],
-    "slot": "F",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -9344,7 +9344,7 @@
     "elig": [
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "MIN",
     "avg": {
@@ -9401,7 +9401,7 @@
     "elig": [
      "SF"
     ],
-    "slot": "SF",
+    "slot": "F",
     "injury": "ACTIVE",
     "team": "LAL",
     "avg": {
@@ -10036,7 +10036,7 @@
      "SF",
      "PF"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "ACTIVE",
     "team": "CLE",
     "avg": {
@@ -10095,7 +10095,7 @@
      "PF",
      "C"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "DET",
     "avg": {
@@ -10153,7 +10153,7 @@
     "elig": [
      "PG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "OUT",
     "team": "DET",
     "avg": {
@@ -10432,7 +10432,7 @@
     "elig": [
      "C"
     ],
-    "slot": "UT",
+    "slot": "BE",
     "injury": "OUT",
     "team": "OKC",
     "avg": {
@@ -10788,18 +10788,6 @@
    "team": "Real Men Eat Ass(ouad)",
    "action": "DROPPED",
    "player": "Jaxson Hayes"
-  },
-  {
-   "date": "2026-11-23T09:49:04.236000",
-   "team": "Momo in Six",
-   "action": "DROPPED",
-   "player": "Sam Hauser"
-  },
-  {
-   "date": "2026-11-23T09:49:04.236000",
-   "team": "Momo in Six",
-   "action": "FA ADDED",
-   "player": "Devin Vassell"
   }
  ],
  "schedule": {
@@ -18752,7 +18740,7 @@
     "PTS": 5.0,
     "REB": 1.4285714285714286,
     "AST": 1.1428571428571428,
-    "STL": 0.7142857142857143,
+    "STL": 0.5714285714285714,
     "BLK": 0.42857142857142855,
     "3PM": 1.1428571428571428,
     "FG%": 0.61111111,
@@ -18784,7 +18772,7 @@
     "PTS": 4.625,
     "REB": 1.5625,
     "AST": 1.625,
-    "STL": 1.0,
+    "STL": 0.9375,
     "BLK": 0.75,
     "3PM": 1.0,
     "FG%": 0.41269841,
@@ -24952,16 +24940,16 @@
  "history_missing": [],
  "debug": {
   "matchup_period": 6,
-  "scoring_period": 38,
+  "scoring_period": 39,
   "variants": {
-   "default": 5296.0,
-   "sp": 5296.0,
-   "sp+1": 5296.0
+   "default": 5297.0,
+   "sp": 5297.0,
+   "sp+1": 5297.0
   },
   "picked": "default",
-  "picked_total": 5296.0,
-  "direct_total": 5296.0,
+  "picked_total": 5297.0,
+  "direct_total": 5297.0,
   "direct_teams": 10,
-  "run_seconds": 4.1
+  "run_seconds": 4.0
  }
 }
