@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:50:28.597989Z",
+ "updated": "2026-11-27T17:00:37.391669Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -5395,7 +5395,7 @@
      "C"
     ],
     "slot": "C",
-    "injury": "ACTIVE",
+    "injury": "DAY_TO_DAY",
     "team": "NYK",
     "avg": {
      "PTS": 21.833333333333332,
@@ -11285,7 +11285,7 @@
     "PF"
    ],
    "team": "MIA",
-   "injury": "DAY_TO_DAY",
+   "injury": "ACTIVE",
    "pct": null,
    "avg": {
     "PTS": 9.833333333333334,
@@ -21400,6 +21400,20 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Andrew Wiggins: Good to go Friday",
+   "link": "https://www.rotowire.com//basketball/player/andrew-wiggins-3571",
+   "published": "Fri, 27 Nov 2026 8:52:00 AM PST",
+   "summary": "Wiggins (ankle) is available for Friday's game against the Knicks.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
+   "title": "Karl-Anthony Towns: Downgraded to questionable",
+   "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
+   "published": "Fri, 27 Nov 2026 8:51:00 AM PST",
+   "summary": "Towns is questionable for Friday's game against the Heat due to a right abdominal contusion.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Joel Embiid: Present at Friday's shootaround",
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Fri, 27 Nov 2026 8:33:00 AM PST",
@@ -21418,20 +21432,6 @@
    "link": "https://www.rotowire.com//basketball/player/deaaron-fox-4116",
    "published": "Thu, 26 Nov 2026 3:36:00 PM PST",
    "summary": "Fox (shin) is questionable for Friday's game against the Lakers.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Zach Edey: Uncertain status for Friday",
-   "link": "https://www.rotowire.com//basketball/player/zach-edey-6263",
-   "published": "Thu, 26 Nov 2026 3:24:00 PM PST",
-   "summary": "Edey (ankle) is questionable for Friday's game against the Timberwolves.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Austin Reaves: Officially listed as questionable",
-   "link": "https://www.rotowire.com//basketball/player/austin-reaves-5334",
-   "published": "Thu, 26 Nov 2026 3:21:00 PM PST",
-   "summary": "Reaves (heel) is questionable for Friday's game against the Spurs.\n\n        Visit RotoWire.com for more analysis on this update."
   }
  ],
  "games": {
@@ -24950,6 +24950,6 @@
   "picked_total": 5297.0,
   "direct_total": 5297.0,
   "direct_teams": 10,
-  "run_seconds": 4.5
+  "run_seconds": 2.9
  }
 }
