@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T08:00:36.525823Z",
+ "updated": "2026-11-28T08:10:31.406090Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -4543,7 +4543,7 @@
      "PG",
      "SG"
     ],
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "CHI",
     "avg": {
@@ -5131,7 +5131,7 @@
      "PG",
      "SG"
     ],
-    "slot": "UT",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "OKC",
     "avg": {
@@ -5190,7 +5190,7 @@
      "PG",
      "SG"
     ],
-    "slot": "BE",
+    "slot": "UT",
     "injury": "ACTIVE",
     "team": "BOS",
     "avg": {
@@ -5306,7 +5306,7 @@
     "elig": [
      "SG"
     ],
-    "slot": "SG",
+    "slot": "BE",
     "injury": "DAY_TO_DAY",
     "team": "DAL",
     "avg": {
@@ -7160,7 +7160,7 @@
      "SG",
      "SF"
     ],
-    "slot": "G",
+    "slot": "SG",
     "injury": "ACTIVE",
     "team": "HOU",
     "avg": {
@@ -7511,7 +7511,7 @@
      "SG",
      "SF"
     ],
-    "slot": "SG",
+    "slot": "IR",
     "injury": "OUT",
     "team": "CHI",
     "avg": {
@@ -7570,7 +7570,7 @@
      "PG",
      "SG"
     ],
-    "slot": "IR",
+    "slot": "G",
     "injury": "ACTIVE",
     "team": "SAS",
     "avg": {
@@ -25029,6 +25029,6 @@
   "picked_total": 7579.0,
   "direct_total": 7579.0,
   "direct_teams": 10,
-  "run_seconds": 3.0
+  "run_seconds": 2.3
  }
 }
