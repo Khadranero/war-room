@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T00:30:38.205512Z",
+ "updated": "2026-11-28T00:40:26.089609Z",
  "week": 6,
  "cats": [
   "PTS",
@@ -107,741 +107,516 @@
  "power": [
   {
    "team": "Rubio Bzeit ",
-   "score": 59
+   "score": 60
   },
   {
    "team": "Khadracadabra",
-   "score": 54
-  },
-  {
-   "team": "Crackheads",
-   "score": 54
+   "score": 58
   },
   {
    "team": "Real Men Eat Ass(ouad)",
    "score": 53
   },
   {
-   "team": "Momo in Six",
+   "team": "Crackheads",
    "score": 52
   },
   {
-   "team": "Akumpo",
+   "team": "Momo in Six",
+   "score": 51
+  },
+  {
+   "team": "Pasta Warriors",
    "score": 49
   },
   {
    "team": "Wembelieve I can fly",
-   "score": 48
+   "score": 47
   },
   {
-   "team": "Pasta Warriors",
-   "score": 45
+   "team": "Akumpo",
+   "score": 46
   },
   {
    "team": "AARON VENGERS",
-   "score": 42
+   "score": 44
   },
   {
    "team": "Team Batrouni",
-   "score": 39
+   "score": 35
   }
  ],
  "category_table": {
   "PTS": [
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 4359.0,
+    "value": 3693.0,
     "rank": 1
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 4353.0,
+    "value": 3636.0,
     "rank": 2
    },
    {
-    "team": "Crackheads",
-    "value": 3791.0,
+    "team": "Khadracadabra",
+    "value": 3127.0,
     "rank": 3
    },
    {
-    "team": "Khadracadabra",
-    "value": 3699.0,
+    "team": "Crackheads",
+    "value": 3082.0,
     "rank": 4
    },
    {
     "team": "Pasta Warriors",
-    "value": 3651.0,
+    "value": 3024.0,
     "rank": 5
    },
    {
     "team": "Akumpo",
-    "value": 3586.0,
+    "value": 2943.0,
     "rank": 6
    },
    {
     "team": "Momo in Six",
-    "value": 3446.0,
+    "value": 2859.0,
     "rank": 7
    },
    {
     "team": "AARON VENGERS",
-    "value": 3439.0,
+    "value": 2826.0,
     "rank": 8
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 3234.0,
+    "value": 2804.0,
     "rank": 9
    },
    {
     "team": "Team Batrouni",
-    "value": 3111.0,
+    "value": 2598.0,
     "rank": 10
    }
   ],
   "REB": [
    {
     "team": "Wembelieve I can fly",
-    "value": 1482.0,
+    "value": 1265.0,
     "rank": 1
    },
    {
     "team": "Crackheads",
-    "value": 1343.0,
+    "value": 1098.0,
     "rank": 2
    },
    {
     "team": "Momo in Six",
-    "value": 1286.0,
+    "value": 1088.0,
     "rank": 3
    },
    {
-    "team": "Akumpo",
-    "value": 1258.0,
+    "team": "AARON VENGERS",
+    "value": 1053.0,
     "rank": 4
    },
    {
-    "team": "AARON VENGERS",
-    "value": 1258.0,
+    "team": "Pasta Warriors",
+    "value": 1044.0,
     "rank": 5
    },
    {
     "team": "Team Batrouni",
-    "value": 1244.0,
+    "value": 1042.0,
     "rank": 6
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 1239.0,
+    "team": "Akumpo",
+    "value": 1041.0,
     "rank": 7
    },
    {
-    "team": "Pasta Warriors",
-    "value": 1237.0,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 1022.0,
     "rank": 8
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 1203.0,
+    "value": 1020.0,
     "rank": 9
    },
    {
     "team": "Khadracadabra",
-    "value": 1108.0,
+    "value": 895.0,
     "rank": 10
    }
   ],
   "AST": [
    {
     "team": "Rubio Bzeit ",
-    "value": 1133.0,
+    "value": 960.0,
     "rank": 1
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 1039.0,
+    "value": 888.0,
     "rank": 2
    },
    {
     "team": "Khadracadabra",
-    "value": 863.0,
+    "value": 743.0,
     "rank": 3
    },
    {
-    "team": "Crackheads",
-    "value": 857.0,
+    "team": "Wembelieve I can fly",
+    "value": 730.0,
     "rank": 4
    },
    {
     "team": "Team Batrouni",
-    "value": 844.0,
+    "value": 709.0,
     "rank": 5
    },
    {
-    "team": "Wembelieve I can fly",
-    "value": 827.0,
+    "team": "Crackheads",
+    "value": 702.0,
     "rank": 6
    },
    {
     "team": "Akumpo",
-    "value": 810.0,
+    "value": 680.0,
     "rank": 7
    },
    {
     "team": "Momo in Six",
-    "value": 798.0,
+    "value": 661.0,
     "rank": 8
    },
    {
     "team": "Pasta Warriors",
-    "value": 743.0,
+    "value": 620.0,
     "rank": 9
    },
    {
     "team": "AARON VENGERS",
-    "value": 739.0,
+    "value": 602.0,
     "rank": 10
    }
   ],
   "STL": [
    {
     "team": "Rubio Bzeit ",
-    "value": 270.0,
+    "value": 218.0,
     "rank": 1
    },
    {
-    "team": "Wembelieve I can fly",
-    "value": 249.0,
+    "team": "Khadracadabra",
+    "value": 211.0,
     "rank": 2
    },
    {
-    "team": "Khadracadabra",
-    "value": 239.0,
+    "team": "Wembelieve I can fly",
+    "value": 208.0,
     "rank": 3
    },
    {
-    "team": "Momo in Six",
-    "value": 236.0,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 202.0,
     "rank": 4
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 236.0,
+    "team": "Momo in Six",
+    "value": 192.0,
     "rank": 5
    },
    {
-    "team": "Crackheads",
-    "value": 232.0,
+    "team": "Pasta Warriors",
+    "value": 186.0,
     "rank": 6
    },
    {
-    "team": "Team Batrouni",
-    "value": 219.0,
+    "team": "Crackheads",
+    "value": 180.0,
     "rank": 7
    },
    {
-    "team": "Pasta Warriors",
-    "value": 217.0,
+    "team": "Team Batrouni",
+    "value": 171.0,
     "rank": 8
    },
    {
     "team": "AARON VENGERS",
-    "value": 213.0,
+    "value": 169.0,
     "rank": 9
    },
    {
     "team": "Akumpo",
-    "value": 205.0,
+    "value": 164.0,
     "rank": 10
    }
   ],
   "BLK": [
    {
     "team": "Wembelieve I can fly",
-    "value": 181.0,
+    "value": 155.0,
     "rank": 1
    },
    {
     "team": "Akumpo",
-    "value": 180.0,
+    "value": 146.0,
     "rank": 2
    },
    {
-    "team": "Pasta Warriors",
-    "value": 156.0,
+    "team": "Crackheads",
+    "value": 128.0,
     "rank": 3
    },
    {
-    "team": "Crackheads",
-    "value": 156.0,
+    "team": "Pasta Warriors",
+    "value": 121.0,
     "rank": 4
    },
    {
     "team": "Khadracadabra",
-    "value": 149.0,
+    "value": 110.0,
     "rank": 5
    },
    {
     "team": "Momo in Six",
-    "value": 124.0,
+    "value": 107.0,
     "rank": 6
    },
    {
     "team": "AARON VENGERS",
-    "value": 118.0,
+    "value": 98.0,
     "rank": 7
    },
    {
-    "team": "Team Batrouni",
-    "value": 112.0,
+    "team": "Rubio Bzeit ",
+    "value": 95.0,
     "rank": 8
    },
    {
-    "team": "Rubio Bzeit ",
-    "value": 108.0,
+    "team": "Team Batrouni",
+    "value": 95.0,
     "rank": 9
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 106.0,
+    "value": 93.0,
     "rank": 10
    }
   ],
   "3PM": [
    {
     "team": "Rubio Bzeit ",
-    "value": 480.0,
+    "value": 408.0,
     "rank": 1
    },
    {
     "team": "Khadracadabra",
-    "value": 442.0,
+    "value": 382.0,
     "rank": 2
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 434.0,
+    "value": 376.0,
     "rank": 3
    },
    {
     "team": "Akumpo",
-    "value": 409.0,
+    "value": 342.0,
     "rank": 4
    },
    {
     "team": "Momo in Six",
-    "value": 386.0,
+    "value": 324.0,
     "rank": 5
    },
    {
     "team": "AARON VENGERS",
-    "value": 381.0,
+    "value": 313.0,
     "rank": 6
    },
    {
-    "team": "Crackheads",
-    "value": 350.0,
+    "team": "Pasta Warriors",
+    "value": 307.0,
     "rank": 7
    },
    {
-    "team": "Pasta Warriors",
-    "value": 340.0,
+    "team": "Crackheads",
+    "value": 285.0,
     "rank": 8
    },
    {
     "team": "Team Batrouni",
-    "value": 334.0,
+    "value": 282.0,
     "rank": 9
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 313.0,
+    "value": 271.0,
     "rank": 10
    }
   ],
   "FG%": [
    {
-    "team": "Pasta Warriors",
-    "value": 3.011,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 2.52,
     "rank": 1
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 2.991,
+    "team": "Pasta Warriors",
+    "value": 2.485,
     "rank": 2
    },
    {
     "team": "Crackheads",
-    "value": 2.92,
+    "value": 2.453,
     "rank": 3
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 2.798,
+    "value": 2.333,
     "rank": 4
    },
    {
     "team": "Momo in Six",
-    "value": 2.767,
+    "value": 2.304,
     "rank": 5
    },
    {
     "team": "Team Batrouni",
-    "value": 2.755,
+    "value": 2.294,
     "rank": 6
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 2.71,
+    "value": 2.278,
     "rank": 7
    },
    {
-    "team": "Akumpo",
-    "value": 2.698,
+    "team": "AARON VENGERS",
+    "value": 2.254,
     "rank": 8
    },
    {
     "team": "Khadracadabra",
-    "value": 2.671,
+    "value": 2.242,
     "rank": 9
    },
    {
-    "team": "AARON VENGERS",
-    "value": 2.662,
+    "team": "Akumpo",
+    "value": 2.213,
     "rank": 10
    }
   ],
   "FT%": [
    {
-    "team": "AARON VENGERS",
-    "value": 4.944,
+    "team": "Khadracadabra",
+    "value": 4.154,
     "rank": 1
    },
    {
-    "team": "Khadracadabra",
-    "value": 4.941,
+    "team": "AARON VENGERS",
+    "value": 4.143,
     "rank": 2
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 4.919,
+    "value": 4.131,
     "rank": 3
    },
    {
     "team": "Akumpo",
-    "value": 4.886,
+    "value": 4.127,
     "rank": 4
    },
    {
-    "team": "Team Batrouni",
-    "value": 4.878,
+    "team": "Momo in Six",
+    "value": 4.064,
     "rank": 5
    },
    {
-    "team": "Momo in Six",
-    "value": 4.808,
+    "team": "Team Batrouni",
+    "value": 4.028,
     "rank": 6
    },
    {
-    "team": "Real Men Eat Ass(ouad)",
-    "value": 4.648,
+    "team": "Crackheads",
+    "value": 3.884,
     "rank": 7
    },
    {
-    "team": "Crackheads",
-    "value": 4.631,
+    "team": "Real Men Eat Ass(ouad)",
+    "value": 3.843,
     "rank": 8
    },
    {
     "team": "Wembelieve I can fly",
-    "value": 4.571,
+    "value": 3.796,
     "rank": 9
    },
    {
     "team": "Pasta Warriors",
-    "value": 4.359,
+    "value": 3.632,
     "rank": 10
    }
   ],
   "TO": [
    {
     "team": "AARON VENGERS",
-    "value": 378.0,
+    "value": 310.0,
     "rank": 1
    },
    {
     "team": "Pasta Warriors",
-    "value": 425.0,
+    "value": 338.0,
     "rank": 2
    },
    {
-    "team": "Momo in Six",
-    "value": 428.0,
+    "team": "Akumpo",
+    "value": 353.0,
     "rank": 3
    },
    {
-    "team": "Team Batrouni",
-    "value": 437.0,
+    "team": "Momo in Six",
+    "value": 358.0,
     "rank": 4
    },
    {
-    "team": "Akumpo",
-    "value": 440.0,
+    "team": "Team Batrouni",
+    "value": 374.0,
     "rank": 5
    },
    {
-    "team": "Wembelieve I can fly",
-    "value": 452.0,
+    "team": "Khadracadabra",
+    "value": 380.0,
     "rank": 6
    },
    {
-    "team": "Khadracadabra",
-    "value": 473.0,
+    "team": "Crackheads",
+    "value": 383.0,
     "rank": 7
    },
    {
-    "team": "Crackheads",
-    "value": 476.0,
+    "team": "Wembelieve I can fly",
+    "value": 392.0,
     "rank": 8
    },
    {
     "team": "Real Men Eat Ass(ouad)",
-    "value": 504.0,
+    "value": 406.0,
     "rank": 9
    },
    {
     "team": "Rubio Bzeit ",
-    "value": 603.0,
+    "value": 503.0,
     "rank": 10
    }
   ]
  },
  "matchups": [
-  {
-   "week": 1,
-   "home": "Momo in Six",
-   "away": "Team Batrouni",
-   "home_score": 4,
-   "away_score": 4,
-   "cats": {
-    "PTS": {
-     "home": 587.0,
-     "away": 513.0
-    },
-    "REB": {
-     "home": 198.0,
-     "away": 202.0
-    },
-    "AST": {
-     "home": 137.0,
-     "away": 135.0
-    },
-    "STL": {
-     "home": 44.0,
-     "away": 48.0
-    },
-    "BLK": {
-     "home": 17.0,
-     "away": 17.0
-    },
-    "3PM": {
-     "home": 62.0,
-     "away": 52.0
-    },
-    "FG%": {
-     "home": 0.46347032,
-     "away": 0.46191646
-    },
-    "FT%": {
-     "home": 0.74375,
-     "away": 0.85
-    },
-    "TO": {
-     "home": 70.0,
-     "away": 63.0
-    }
-   }
-  },
-  {
-   "week": 1,
-   "home": "Real Men Eat Ass(ouad)",
-   "away": "Pasta Warriors",
-   "home_score": 6,
-   "away_score": 3,
-   "cats": {
-    "PTS": {
-     "home": 666.0,
-     "away": 627.0
-    },
-    "REB": {
-     "home": 217.0,
-     "away": 193.0
-    },
-    "AST": {
-     "home": 151.0,
-     "away": 123.0
-    },
-    "STL": {
-     "home": 34.0,
-     "away": 31.0
-    },
-    "BLK": {
-     "home": 13.0,
-     "away": 35.0
-    },
-    "3PM": {
-     "home": 58.0,
-     "away": 33.0
-    },
-    "FG%": {
-     "home": 0.47035573,
-     "away": 0.52678571
-    },
-    "FT%": {
-     "home": 0.80487805,
-     "away": 0.72619048
-    },
-    "TO": {
-     "home": 98.0,
-     "away": 87.0
-    }
-   }
-  },
-  {
-   "week": 1,
-   "home": "AARON VENGERS",
-   "away": "Wembelieve I can fly",
-   "home_score": 5,
-   "away_score": 4,
-   "cats": {
-    "PTS": {
-     "home": 613.0,
-     "away": 430.0
-    },
-    "REB": {
-     "home": 205.0,
-     "away": 217.0
-    },
-    "AST": {
-     "home": 137.0,
-     "away": 97.0
-    },
-    "STL": {
-     "home": 44.0,
-     "away": 41.0
-    },
-    "BLK": {
-     "home": 20.0,
-     "away": 26.0
-    },
-    "3PM": {
-     "home": 68.0,
-     "away": 42.0
-    },
-    "FG%": {
-     "home": 0.40754717,
-     "away": 0.43213296
-    },
-    "FT%": {
-     "home": 0.80141844,
-     "away": 0.7755102
-    },
-    "TO": {
-     "home": 68.0,
-     "away": 60.0
-    }
-   }
-  },
-  {
-   "week": 1,
-   "home": "Crackheads",
-   "away": "Rubio Bzeit ",
-   "home_score": 4,
-   "away_score": 4,
-   "cats": {
-    "PTS": {
-     "home": 709.0,
-     "away": 717.0
-    },
-    "REB": {
-     "home": 245.0,
-     "away": 183.0
-    },
-    "AST": {
-     "home": 155.0,
-     "away": 173.0
-    },
-    "STL": {
-     "home": 52.0,
-     "away": 52.0
-    },
-    "BLK": {
-     "home": 28.0,
-     "away": 13.0
-    },
-    "3PM": {
-     "home": 65.0,
-     "away": 72.0
-    },
-    "FG%": {
-     "home": 0.46631206,
-     "away": 0.46442688
-    },
-    "FT%": {
-     "home": 0.74683544,
-     "away": 0.78828829
-    },
-    "TO": {
-     "home": 93.0,
-     "away": 100.0
-    }
-   }
-  },
-  {
-   "week": 1,
-   "home": "Khadracadabra",
-   "away": "Akumpo",
-   "home_score": 2,
-   "away_score": 7,
-   "cats": {
-    "PTS": {
-     "home": 572.0,
-     "away": 643.0
-    },
-    "REB": {
-     "home": 213.0,
-     "away": 217.0
-    },
-    "AST": {
-     "home": 120.0,
-     "away": 130.0
-    },
-    "STL": {
-     "home": 28.0,
-     "away": 41.0
-    },
-    "BLK": {
-     "home": 39.0,
-     "away": 34.0
-    },
-    "3PM": {
-     "home": 60.0,
-     "away": 67.0
-    },
-    "FG%": {
-     "home": 0.42951542,
-     "away": 0.48471616
-    },
-    "FT%": {
-     "home": 0.78709677,
-     "away": 0.75862069
-    },
-    "TO": {
-     "home": 93.0,
-     "away": 87.0
-    }
-   }
-  },
   {
    "week": 2,
    "home": "Team Batrouni",
@@ -5398,19 +5173,19 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 19.0,
-     "REB": 12.142857142857142,
+     "PTS": 19.714285714285715,
+     "REB": 12.285714285714286,
      "AST": 4.571428571428571,
      "STL": 1.2857142857142858,
      "BLK": 1.1428571428571428,
      "3PM": 2.0,
-     "FG%": 0.5212766,
-     "FT%": 0.72413793,
+     "FG%": 0.53125,
+     "FT%": 0.70967742,
      "TO": 2.0,
-     "FGM": 7.0,
-     "FGA": 13.428571428571429,
-     "FTM": 3.0,
-     "FTA": 4.142857142857143,
+     "FGM": 7.285714285714286,
+     "FGA": 13.714285714285714,
+     "FTM": 3.142857142857143,
+     "FTA": 4.428571428571429,
      "_src": "2027_last_15"
     },
     "proj": {
@@ -5430,19 +5205,19 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 20.166666666666668,
-     "REB": 13.0,
+     "PTS": 20.444444444444443,
+     "REB": 13.055555555555555,
      "AST": 3.9444444444444446,
      "STL": 0.9444444444444444,
      "BLK": 0.7777777777777778,
      "3PM": 1.9444444444444444,
-     "FG%": 0.53909465,
-     "FT%": 0.75862069,
+     "FG%": 0.54285714,
+     "FT%": 0.75280899,
      "TO": 2.7222222222222223,
-     "FGM": 7.277777777777778,
-     "FGA": 13.5,
-     "FTM": 3.6666666666666665,
-     "FTA": 4.833333333333333,
+     "FGM": 7.388888888888889,
+     "FGA": 13.61111111111111,
+     "FTM": 3.7222222222222223,
+     "FTA": 4.944444444444445,
      "GP": 18.0
     }
    },
@@ -5693,17 +5468,17 @@
     "injury": "ACTIVE",
     "team": "NYK",
     "avg": {
-     "PTS": 5.125,
-     "REB": 5.75,
-     "AST": 4.875,
+     "PTS": 5.5,
+     "REB": 5.875,
+     "AST": 5.125,
      "STL": 1.125,
      "BLK": 0.25,
-     "3PM": 0.625,
-     "FG%": 0.30357143,
+     "3PM": 0.75,
+     "FG%": 0.30508475,
      "FT%": 0.66666667,
      "TO": 1.25,
-     "FGM": 2.125,
-     "FGA": 7.0,
+     "FGM": 2.25,
+     "FGA": 7.375,
      "FTM": 0.25,
      "FTA": 0.375,
      "_src": "2027_last_15"
@@ -5725,17 +5500,17 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 6.6875,
-     "REB": 6.3125,
-     "AST": 4.3125,
+     "PTS": 6.875,
+     "REB": 6.375,
+     "AST": 4.4375,
      "STL": 1.5,
      "BLK": 0.25,
-     "3PM": 1.125,
-     "FG%": 0.34710744,
+     "3PM": 1.1875,
+     "FG%": 0.34677419,
      "FT%": 0.625,
      "TO": 1.5,
-     "FGM": 2.625,
-     "FGA": 7.5625,
+     "FGM": 2.6875,
+     "FGA": 7.75,
      "FTM": 0.3125,
      "FTA": 0.5,
      "GP": 16.0
@@ -5989,14 +5764,14 @@
      "PTS": 23.25,
      "REB": 2.875,
      "AST": 6.375,
-     "STL": 0.75,
+     "STL": 1.0,
      "BLK": 0.125,
      "3PM": 3.0,
-     "FG%": 0.42384106,
+     "FG%": 0.41830065,
      "FT%": 0.85,
      "TO": 2.5,
      "FGM": 8.0,
-     "FGA": 18.875,
+     "FGA": 19.125,
      "FTM": 4.25,
      "FTA": 5.0,
      "_src": "2027_last_15"
@@ -6021,14 +5796,14 @@
      "PTS": 24.842105263157894,
      "REB": 3.0,
      "AST": 5.684210526315789,
-     "STL": 0.6842105263157895,
+     "STL": 0.7894736842105263,
      "BLK": 0.2631578947368421,
      "3PM": 2.789473684210526,
-     "FG%": 0.42744063,
+     "FG%": 0.42519685,
      "FT%": 0.80508475,
      "TO": 2.0,
      "FGM": 8.526315789473685,
-     "FGA": 19.94736842105263,
+     "FGA": 20.05263157894737,
      "FTM": 5.0,
      "FTA": 6.2105263157894735,
      "GP": 19.0
@@ -6105,7 +5880,7 @@
     "avg": {
      "PTS": 13.0,
      "REB": 1.5,
-     "AST": 2.5,
+     "AST": 2.6666666666666665,
      "STL": 0.5,
      "BLK": 0.8333333333333334,
      "3PM": 3.5,
@@ -6137,7 +5912,7 @@
     "season": {
      "PTS": 13.882352941176471,
      "REB": 1.5294117647058822,
-     "AST": 2.1176470588235294,
+     "AST": 2.176470588235294,
      "STL": 0.29411764705882354,
      "BLK": 0.7647058823529411,
      "3PM": 3.7058823529411766,
@@ -6219,7 +5994,7 @@
      "PG"
     ],
     "slot": "G",
-    "injury": "DAY_TO_DAY",
+    "injury": "OUT",
     "team": "DAL",
     "avg": {
      "PTS": 18.833333333333332,
@@ -7692,7 +7467,7 @@
     "avg": {
      "PTS": 15.857142857142858,
      "REB": 3.142857142857143,
-     "AST": 8.142857142857142,
+     "AST": 8.428571428571429,
      "STL": 1.0,
      "BLK": 0.5714285714285714,
      "3PM": 2.4285714285714284,
@@ -7724,7 +7499,7 @@
     "season": {
      "PTS": 16.22222222222222,
      "REB": 2.4444444444444446,
-     "AST": 8.333333333333334,
+     "AST": 8.444444444444445,
      "STL": 1.1666666666666667,
      "BLK": 0.5555555555555556,
      "3PM": 2.3333333333333335,
@@ -9687,17 +9462,17 @@
     "injury": "ACTIVE",
     "team": "MIA",
     "avg": {
-     "PTS": 25.833333333333332,
-     "REB": 11.5,
+     "PTS": 26.166666666666668,
+     "REB": 12.166666666666666,
      "AST": 5.0,
      "STL": 0.8333333333333334,
      "BLK": 1.5,
      "3PM": 0.3333333333333333,
-     "FG%": 0.69135802,
+     "FG%": 0.68674699,
      "FT%": 0.73214286,
-     "TO": 2.5,
-     "FGM": 9.333333333333334,
-     "FGA": 13.5,
+     "TO": 2.8333333333333335,
+     "FGM": 9.5,
+     "FGA": 13.833333333333334,
      "FTM": 6.833333333333333,
      "FTA": 9.333333333333334,
      "_src": "2027_last_15"
@@ -9719,17 +9494,17 @@
      "_src": "2027_projected"
     },
     "season": {
-     "PTS": 27.058823529411764,
-     "REB": 12.235294117647058,
+     "PTS": 27.176470588235293,
+     "REB": 12.470588235294118,
      "AST": 5.117647058823529,
      "STL": 0.8823529411764706,
      "BLK": 1.1764705882352942,
      "3PM": 0.47058823529411764,
-     "FG%": 0.60137457,
+     "FG%": 0.60068259,
      "FT%": 0.65806452,
-     "TO": 3.0588235294117645,
-     "FGM": 10.294117647058824,
-     "FGA": 17.11764705882353,
+     "TO": 3.176470588235294,
+     "FGM": 10.352941176470589,
+     "FGA": 17.235294117647058,
      "FTM": 6.0,
      "FTA": 9.117647058823529,
      "GP": 17.0
@@ -9747,7 +9522,7 @@
     "team": "MIA",
     "avg": {
      "PTS": 19.285714285714285,
-     "REB": 7.285714285714286,
+     "REB": 7.428571428571429,
      "AST": 3.7142857142857144,
      "STL": 1.5714285714285714,
      "BLK": 0.5714285714285714,
@@ -9779,7 +9554,7 @@
     },
     "season": {
      "PTS": 18.38888888888889,
-     "REB": 7.944444444444445,
+     "REB": 8.0,
      "AST": 3.4444444444444446,
      "STL": 1.9444444444444444,
      "BLK": 0.6666666666666666,
@@ -11288,19 +11063,19 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 9.833333333333334,
-    "REB": 2.6666666666666665,
-    "AST": 1.8333333333333333,
-    "STL": 0.5,
-    "BLK": 0.8333333333333334,
-    "3PM": 1.0,
-    "FG%": 0.5,
+    "PTS": 8.428571428571429,
+    "REB": 2.2857142857142856,
+    "AST": 1.5714285714285714,
+    "STL": 0.42857142857142855,
+    "BLK": 0.8571428571428571,
+    "3PM": 0.8571428571428571,
+    "FG%": 0.48717949,
     "FT%": 0.88235294,
-    "TO": 0.16666666666666666,
-    "FGM": 3.1666666666666665,
-    "FGA": 6.333333333333333,
-    "FTM": 2.5,
-    "FTA": 2.8333333333333335,
+    "TO": 0.14285714285714285,
+    "FGM": 2.7142857142857144,
+    "FGA": 5.571428571428571,
+    "FTM": 2.142857142857143,
+    "FTA": 2.4285714285714284,
     "_src": "2027_last_15"
    },
    "proj": {
@@ -11320,20 +11095,20 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 9.117647058823529,
-    "REB": 2.764705882352941,
-    "AST": 1.588235294117647,
-    "STL": 0.47058823529411764,
-    "BLK": 0.7647058823529411,
-    "3PM": 1.2352941176470589,
-    "FG%": 0.4453125,
+    "PTS": 8.61111111111111,
+    "REB": 2.611111111111111,
+    "AST": 1.5,
+    "STL": 0.4444444444444444,
+    "BLK": 0.7777777777777778,
+    "3PM": 1.1666666666666667,
+    "FG%": 0.44186047,
     "FT%": 0.83333333,
-    "TO": 0.7647058823529411,
-    "FGM": 3.3529411764705883,
-    "FGA": 7.529411764705882,
-    "FTM": 1.1764705882352942,
-    "FTA": 1.411764705882353,
-    "GP": 17.0
+    "TO": 0.7222222222222222,
+    "FGM": 3.1666666666666665,
+    "FGA": 7.166666666666667,
+    "FTM": 1.1111111111111112,
+    "FTA": 1.3333333333333333,
+    "GP": 18.0
    }
   },
   {
@@ -11696,20 +11471,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 13.666666666666666,
-    "REB": 4.666666666666667,
-    "AST": 3.3333333333333335,
-    "STL": 1.0,
-    "BLK": 0.6666666666666666,
-    "3PM": 1.0,
-    "FG%": 0.38461538,
-    "FT%": 0.8,
-    "TO": 1.3333333333333333,
-    "FGM": 5.0,
-    "FGA": 13.0,
-    "FTM": 2.6666666666666665,
-    "FTA": 3.3333333333333335,
-    "_src": "2027_total"
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 0.375,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 20.6,
@@ -13294,17 +13069,17 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 7.428571428571429,
-    "REB": 4.142857142857143,
+    "PTS": 8.142857142857142,
+    "REB": 4.285714285714286,
     "AST": 0.8571428571428571,
     "STL": 0.42857142857142855,
     "BLK": 0.2857142857142857,
-    "3PM": 1.0,
-    "FG%": 0.42,
+    "3PM": 1.1428571428571428,
+    "FG%": 0.43396226,
     "FT%": 0.75,
     "TO": 0.8571428571428571,
-    "FGM": 3.0,
-    "FGA": 7.142857142857143,
+    "FGM": 3.2857142857142856,
+    "FGA": 7.571428571428571,
     "FTM": 0.42857142857142855,
     "FTA": 0.5714285714285714,
     "_src": "2027_last_15"
@@ -13326,17 +13101,17 @@
     "_src": "2027_projected"
    },
    "season": {
-    "PTS": 7.055555555555555,
-    "REB": 5.166666666666667,
+    "PTS": 7.333333333333333,
+    "REB": 5.222222222222222,
     "AST": 1.3888888888888888,
     "STL": 0.6111111111111112,
     "BLK": 0.3888888888888889,
-    "3PM": 1.1666666666666667,
-    "FG%": 0.38582677,
+    "3PM": 1.2222222222222223,
+    "FG%": 0.39230769,
     "FT%": 0.72727273,
     "TO": 0.8333333333333334,
-    "FGM": 2.7222222222222223,
-    "FGA": 7.055555555555555,
+    "FGM": 2.8333333333333335,
+    "FGA": 7.222222222222222,
     "FTM": 0.4444444444444444,
     "FTA": 0.6111111111111112,
     "GP": 18.0
@@ -14039,7 +13814,7 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 2.0,
+    "PTS": 0.0,
     "REB": 0.0,
     "AST": 0.0,
     "STL": 0.0,
@@ -14048,11 +13823,11 @@
     "FG%": 1.0,
     "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 1.0,
-    "FGA": 1.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_last_30"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 12.444444444444445,
@@ -14447,20 +14222,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 6.333333333333333,
-    "REB": 2.3333333333333335,
-    "AST": 1.3333333333333333,
-    "STL": 2.3333333333333335,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 1.0,
-    "FG%": 0.4,
+    "3PM": 0.0,
+    "FG%": 0.5,
     "FT%": 0.0,
-    "TO": 1.0,
-    "FGM": 2.6666666666666665,
-    "FGA": 6.666666666666667,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_total"
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.384615384615385,
@@ -15079,11 +14854,11 @@
     "STL": 0.625,
     "BLK": 0.125,
     "3PM": 2.75,
-    "FG%": 0.5625,
+    "FG%": 0.55384615,
     "FT%": 1.0,
     "TO": 0.625,
     "FGM": 4.5,
-    "FGA": 8.0,
+    "FGA": 8.125,
     "FTM": 1.125,
     "FTA": 1.125,
     "_src": "2027_last_15"
@@ -15111,11 +14886,11 @@
     "STL": 0.42105263157894735,
     "BLK": 0.15789473684210525,
     "3PM": 2.4210526315789473,
-    "FG%": 0.50704225,
+    "FG%": 0.5034965,
     "FT%": 0.82608696,
     "TO": 0.8421052631578947,
     "FGM": 3.789473684210526,
-    "FGA": 7.473684210526316,
+    "FGA": 7.526315789473684,
     "FTM": 1.0,
     "FTA": 1.2105263157894737,
     "GP": 19.0
@@ -15772,20 +15547,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.2,
-    "REB": 3.2,
-    "AST": 5.0,
-    "STL": 1.2,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.8,
-    "FG%": 0.32432432,
-    "FT%": 0.72727273,
-    "TO": 3.6,
-    "FGM": 2.4,
-    "FGA": 7.4,
-    "FTM": 1.6,
-    "FTA": 2.2,
-    "_src": "2027_last_30"
+    "3PM": 0.0,
+    "FG%": 0.2,
+    "FT%": 1.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 11.166666666666666,
@@ -17930,15 +17705,15 @@
    "avg": {
     "PTS": 6.285714285714286,
     "REB": 0.8571428571428571,
-    "AST": 2.0,
+    "AST": 2.142857142857143,
     "STL": 0.2857142857142857,
     "BLK": 0.2857142857142857,
     "3PM": 1.4285714285714286,
-    "FG%": 0.5483871,
+    "FG%": 0.53125,
     "FT%": 0.0,
     "TO": 0.42857142857142855,
     "FGM": 2.4285714285714284,
-    "FGA": 4.428571428571429,
+    "FGA": 4.571428571428571,
     "FTM": 0.0,
     "FTA": 0.0,
     "_src": "2027_last_15"
@@ -17962,15 +17737,15 @@
    "season": {
     "PTS": 4.5,
     "REB": 1.0,
-    "AST": 1.8333333333333333,
+    "AST": 1.9166666666666667,
     "STL": 0.4166666666666667,
     "BLK": 0.25,
     "3PM": 1.0,
-    "FG%": 0.45652174,
+    "FG%": 0.44680851,
     "FT%": 0.0,
     "TO": 0.8333333333333334,
     "FGM": 1.75,
-    "FGA": 3.8333333333333335,
+    "FGA": 3.9166666666666665,
     "FTM": 0.0,
     "FTA": 0.0,
     "GP": 12.0
@@ -18624,20 +18399,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 7.25,
-    "REB": 7.5,
-    "AST": 1.25,
-    "STL": 0.5,
-    "BLK": 0.5,
-    "3PM": 0.5,
-    "FG%": 0.6,
-    "FT%": 1.0,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
+    "3PM": 0.0,
+    "FG%": 1.0,
+    "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 3.0,
-    "FGA": 5.0,
-    "FTM": 0.75,
-    "FTA": 0.75,
-    "_src": "2027_total"
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -19507,34 +19282,34 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 10.857142857142858,
+    "PTS": 11.285714285714286,
     "REB": 2.2857142857142856,
     "AST": 1.2857142857142858,
     "STL": 0.5714285714285714,
     "BLK": 0.2857142857142857,
-    "3PM": 2.0,
-    "FG%": 0.43636364,
+    "3PM": 2.142857142857143,
+    "FG%": 0.43859649,
     "FT%": 0.875,
     "TO": 1.2857142857142858,
-    "FGM": 3.4285714285714284,
-    "FGA": 7.857142857142857,
+    "FGM": 3.5714285714285716,
+    "FGA": 8.142857142857142,
     "FTM": 2.0,
     "FTA": 2.2857142857142856,
     "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
-    "PTS": 7.125,
+    "PTS": 7.3125,
     "REB": 1.6875,
     "AST": 1.25,
     "STL": 0.625,
     "BLK": 0.125,
-    "3PM": 1.4375,
-    "FG%": 0.4,
+    "3PM": 1.5,
+    "FG%": 0.40217391,
     "FT%": 0.86363636,
     "TO": 0.75,
-    "FGM": 2.25,
-    "FGA": 5.625,
+    "FGM": 2.3125,
+    "FGA": 5.75,
     "FTM": 1.1875,
     "FTA": 1.375,
     "GP": 16.0
@@ -19931,20 +19706,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 4.0,
-    "REB": 1.0,
-    "AST": 0.5,
-    "STL": 0.5,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.57142857,
+    "FG%": 1.0,
     "FT%": 0.0,
-    "TO": 0.5,
-    "FGM": 2.0,
-    "FGA": 3.5,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
-    "FTA": 0.5,
-    "_src": "2027_total"
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -20294,20 +20069,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 3.5,
-    "REB": 1.75,
-    "AST": 1.25,
-    "STL": 0.25,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.5,
-    "FG%": 0.35714286,
-    "FT%": 1.0,
+    "3PM": 0.0,
+    "FG%": 0.4,
+    "FT%": 0.0,
     "TO": 0.0,
-    "FGM": 1.25,
-    "FGA": 3.5,
-    "FTM": 0.5,
-    "FTA": 0.5,
-    "_src": "2027_last_30"
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 8.707692307692307,
@@ -20410,20 +20185,20 @@
    "injury": "OUT",
    "pct": null,
    "avg": {
-    "PTS": 5.25,
-    "REB": 2.0,
-    "AST": 1.25,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
     "STL": 0.0,
     "BLK": 0.0,
-    "3PM": 0.75,
-    "FG%": 0.5,
+    "3PM": 0.0,
+    "FG%": 0.0,
     "FT%": 0.0,
-    "TO": 1.0,
-    "FGM": 2.25,
-    "FGA": 4.5,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
     "FTM": 0.0,
     "FTA": 0.0,
-    "_src": "2027_total"
+    "_src": "2027_last_15"
    },
    "proj": {},
    "season": {
@@ -20670,20 +20445,20 @@
    "injury": "ACTIVE",
    "pct": null,
    "avg": {
-    "PTS": 5.0,
-    "REB": 7.666666666666667,
-    "AST": 3.0,
-    "STL": 1.6666666666666667,
-    "BLK": 1.3333333333333333,
+    "PTS": 0.0,
+    "REB": 0.0,
+    "AST": 0.0,
+    "STL": 0.0,
+    "BLK": 0.0,
     "3PM": 0.0,
-    "FG%": 0.58333333,
-    "FT%": 0.5,
-    "TO": 1.0,
-    "FGM": 2.3333333333333335,
-    "FGA": 4.0,
-    "FTM": 0.3333333333333333,
-    "FTA": 0.6666666666666666,
-    "_src": "2027_last_30"
+    "FG%": 0.0,
+    "FT%": 0.0,
+    "TO": 0.0,
+    "FGM": 0.0,
+    "FGA": 0.0,
+    "FTM": 0.0,
+    "FTA": 0.0,
+    "_src": "2027_last_15"
    },
    "proj": {
     "PTS": 6.629032258064516,
@@ -21400,6 +21175,13 @@
  "news": [
   {
    "source": "RotoWire",
+   "title": "Kyrie Irving: Won't play Friday",
+   "link": "https://www.rotowire.com//basketball/player/kyrie-irving-3186",
+   "published": "Fri, 27 Nov 2026 4:30:00 PM PST",
+   "summary": "Irving (knee) has been ruled out for Friday's game against the Suns, Noah Weber of TheSmokingCuban.com reports.\n\n        Visit RotoWire.com for more analysis on this update."
+  },
+  {
+   "source": "RotoWire",
    "title": "Joel Embiid: Available and starting Friday",
    "link": "https://www.rotowire.com//basketball/player/joel-embiid-3572",
    "published": "Fri, 27 Nov 2026 4:08:00 PM PST",
@@ -21425,118 +21207,6 @@
    "link": "https://www.rotowire.com//basketball/player/karl-anthony-towns-3741",
    "published": "Fri, 27 Nov 2026 3:27:00 PM PST",
    "summary": "Towns (abdomen) is available for Friday's game against the Heat, Ira Winderman of the South Florida Sun Sentinel reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "RotoWire",
-   "title": "Jaylen Brown: MRI reveals no new injury",
-   "link": "https://www.rotowire.com//basketball/player/jaylen-brown-3894",
-   "published": "Fri, 27 Nov 2026 3:15:00 PM PST",
-   "summary": "Brown (hamstring) underwent an MRI that showed no signs of a new injury or re-aggravation, but he didn't travel with the team for the road trip, so he will miss the team's next two games, Kris Rhim of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update."
-  },
-  {
-   "source": "ESPN",
-   "title": "'I wanted Walker': Why the new Lakers center is the X factor for the Luka Doncic era",
-   "link": "https://www.espn.com/nba/story/_/id/50599642/los-angeles-lakers-luka-doncic-walker-kessler-nba",
-   "published": "Fri, 27 Nov 2026 10:16:14 EST",
-   "summary": "Doncic's first request when he became a Laker? Get an 'A-list' big man. It took a year, but Kessler is that man in Los Angeles."
-  },
-  {
-   "source": "ESPN",
-   "title": "Lakers' Reaves available vs. Spurs after missing 5 games with heel bruise",
-   "link": "https://www.espn.com/nba/story/_/id/50613364/lakers-reaves-available-missing-5-games-heel-bruise",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "Lakers guard Austin Reaves is available to play in Friday night's NBA Cup matchup against the Spurs after missing the past five games with a heel bruise."
-  },
-  {
-   "source": "ESPN",
-   "title": "Wizards rookie punches ex-Wolves guard Dillingham in G League tilt",
-   "link": "https://www.espn.com/nba/story/_/id/50615568/wizards-rookie-okpara-punches-dillingham-g-league-tilt",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "Wizards two-way forward Felix Okpara threw a punch at Westchester Knicks guard Rob Dillingham, sparking a brief fight during a G League game Friday night."
-  },
-  {
-   "source": "ESPN",
-   "title": "76ers star Brown's MRI showed no new injury in 'positive sign'",
-   "link": "https://www.espn.com/nba/story/_/id/50616033/mri-76ers-star-brown-hamstring-showed-no-new-injury",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "An MRI on Philadelphia 76ers forward Jaylen Brown's left hamstring revealed no aggravation or new injury, the Sixers announced Friday."
-  },
-  {
-   "source": "ESPN",
-   "title": "Timberwolves downgrade Ball to out vs. Grizzlies with ankle sprain",
-   "link": "https://www.espn.com/nba/story/_/id/50613102/timberwolves-downgrade-lamelo-ball-ankle-sprain",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "The Minnesota Timberwolves downgraded star guard LaMelo Ball to out for Friday night's NBA Cup game vs. the Memphis Grizzlies due to a left ankle sprain."
-  },
-  {
-   "source": "ESPN",
-   "title": "Knicks assistant coach Jent returns to team after missing start of season",
-   "link": "https://www.espn.com/nba/story/_/id/50600508/knicks-assistant-coach-chris-jent-returns-team",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "Chris Jent was back on New York's bench for Wednesday night's NBA Cup win against Cleveland after a monthlong absence."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA, amid push for Europe league, launches $11B arena initiative",
-   "link": "https://www.espn.com/nba/story/_/id/50592672/nba-reveals-11b-initiative-arena-development-europe",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "The long-planned NBA-backed league in Europe took another step toward becoming reality with the unveiling of a plan that targets nearly $11 billion in funding for the development and renovation of arenas around the continent."
-  },
-  {
-   "source": "ESPN",
-   "title": "\ud83c\udf7c 'Baby Hali': Tyrese, Jade Haliburton announce they are expecting their first child",
-   "link": "https://www.espn.com/nba/story/_/id/50586828/tyrese-jade-haliburton-expecting-first-child",
-   "published": "Fri, 27 Nov 2026 18:40:10 EST",
-   "summary": "The couple wed in August after seven years of dating and announced the news that they're expecting on Instagram."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA Power Rankings: One player, coach or exec for whom each team is most thankful",
-   "link": "https://www.espn.com/nba/story/_/id/50583781/nba-power-rankings-one-player-coach-exec-thanksgiving",
-   "published": "Fri, 27 Nov 2026 10:16:07 EST",
-   "summary": "Here's where all 30 teams rank this week -- and the one person each franchise should be thanking most."
-  },
-  {
-   "source": "ESPN",
-   "title": "NBA Rookie Rankings: Which stars are rising early in season?",
-   "link": "https://www.espn.com/nba/story/_/id/50544296/nba-rookie-rankings-early-stats",
-   "published": "Fri, 27 Nov 2026 09:54:08 EST",
-   "summary": "Our first edition of rookie rankings features 10 players standing out early from a strong 2026 draft class."
-  },
-  {
-   "source": "ESPN",
-   "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
-   "link": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
-   "published": "Fri, 27 Nov 2026 09:54:08 EST",
-   "summary": "How has the first month unfolded for nine first-year stars?"
-  },
-  {
-   "source": "ESPN",
-   "title": "Golliver's too-early NBA All-Star picks: The 24 most deserving players right now",
-   "link": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
-   "published": "Tue, 24 Nov 2026 07:38:32 EST",
-   "summary": "So what if the All-Star Game is three months away? We're picking locks and position battles to watch across both conferences."
-  },
-  {
-   "source": "ESPN",
-   "title": "Updated NBA championship, MVP odds: Spurs remain favorites; Wemby odds-on MVP fave",
-   "link": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
-   "published": "Wed, 25 Nov 2026 15:33:19 EST",
-   "summary": "The Spurs remain atop the oddsboard, while Victor Wembanyama and Luka Doncic are making MVP a two-man race."
-  },
-  {
-   "source": "ESPN",
-   "title": "How to take advantage when LeBron, Embiid or Brown sit",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50584790/fantasy-basketball-philadelphia-76ers-lebron-james",
-   "published": "Wed, 25 Nov 2026 07:49:22 EST",
-   "summary": "Andre Snellings looks at how the 76ers are handling rotations, resting players and dishing out minutes, and explains how to take advantage of it."
-  },
-  {
-   "source": "ESPN",
-   "title": "Karabell's notebook: Was Paul George this season's biggest draft-day steal?",
-   "link": "https://www.espn.com/fantasy/basketball/story/_/id/50584319/fantasy-basketball-trends-nba-2026-2027",
-   "published": "Wed, 25 Nov 2026 07:49:22 EST",
-   "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy."
   }
  ],
  "games": {
@@ -25064,6 +24734,6 @@
   "picked_total": 5297.0,
   "direct_total": 5297.0,
   "direct_teams": 10,
-  "run_seconds": 3.3
+  "run_seconds": 4.0
  }
 }
